@@ -1,0 +1,53 @@
+import json
+import os
+import hashlib
+
+USERS_FILE = "users.json"
+
+def hash_password(password):
+    """Şifreyi güvenli hale getirir (SHA-256)."""
+    return hashlib.sha256(password.encode()).hexdigest()
+
+def load_users():
+    if os.path.exists(USERS_FILE):
+        with open(USERS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def save_users(users):
+    with open(USERS_FILE, "w", encoding="utf-8") as f:
+        json.dump(users, f, ensure_ascii=False, indent=4)
+
+def check_login(username, password):
+    users = load_users()
+    if username in users:
+        stored_h = users[username]["password"]
+        if stored_h == hash_password(password) or stored_h == "hashed_placeholder":
+            # İlk kurulumda placeholder'ı gerçek hash ile güncelle
+            if stored_h == "hashed_placeholder":
+                users[username]["password"] = hash_password(password)
+                save_users(users)
+            return users[username]
+    return None
+
+def add_user(username, password, role="User", full_name=""):
+    users = load_users()
+    if username in users:
+        return False, "Bu kullanıcı zaten mevcut."
+    users[username] = {
+        "password": hash_password(password),
+        "role": role,
+        "full_name": full_name
+    }
+    save_users(users)
+    return True, "Kullanıcı başarıyla eklendi."
+
+def delete_user(username):
+    users = load_users()
+    if username in users:
+        if username == "hsyndymz": # Ana admin silinemez
+            return False, "Ana yönetici silinemez!"
+        del users[username]
+        save_users(users)
+        return True, "Kullanıcı silindi."
+    return False, "Kullanıcı bulunamadı."
