@@ -457,7 +457,9 @@ with tab_comp:
         fig_comp = go.Figure()
         
         # Standart Limitleri Çiz
-        alt_std, ust_std = get_std_limits(dmax_val, curve_type_val, elek_serisi)
+        d_max = st.session_state.get('dmax_val', 31.5)
+        c_type = st.session_state.get('curve_type_val', 'B (İdeal)')
+        alt_std, ust_std = get_std_limits(d_max, c_type, elek_serisi)
         fig_comp.add_trace(go.Scatter(x=elek_serisi, y=alt_std, name="Alt Limit", line=dict(color='red', dash='dash')))
         fig_comp.add_trace(go.Scatter(x=elek_serisi, y=ust_std, name="Üst Limit", line=dict(color='red', dash='dash')))
 
