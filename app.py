@@ -21,7 +21,7 @@ from logic.auth_manager import check_login, register_user
 
 # --- SAYFA YAPILANDIRMASI ---
 st.set_page_config(page_title="Beton Tasarım Programı", layout="wide", initial_sidebar_state="expanded")
-init_session_state(force=False)
+init_session_state()
 
 # --- LOGIN SİSTEMİ ---
 if 'authenticated' not in st.session_state:

@@ -122,6 +122,6 @@ class SessionStateInitializer:
 
 def init_session_state(force=False):
     """
-    app.py tarafından çağrılan kolay erişim fonksiyonu.
+    Session state baslaticisi. app.py tarafindan ana kontrol noktasidir.
     """
     SessionStateInitializer.initialize_defaults(force=force)
