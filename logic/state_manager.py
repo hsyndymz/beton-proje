@@ -69,13 +69,12 @@ class SessionStateInitializer:
             st.session_state['loaded_ri'] = {}
 
     @staticmethod
-    def load_project_data(project_name):
+    def load_project_data(project_name, plant_id="merkez"):
         """
-        Seçilen projenin verilerini projeler.json'dan okur ve session_state'e yükler.
-        Bu fonksiyon sidebar'daki on_change callback'i tarafından çağrılır.
+        Seçilen projenin verilerini santral bazlı dosyadan okur ve session_state'e yükler.
         """
         from logic.data_manager import veriyi_yukle
-        all_data = veriyi_yukle()
+        all_data = veriyi_yukle(plant_id=plant_id)
         p_data = all_data.get(project_name)
         
         if not p_data or not isinstance(p_data, dict):

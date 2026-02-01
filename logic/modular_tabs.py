@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from logic.report_generator import generate_kgm_raporu
 from logic.data_manager import (
     veriyi_yukle, veriyi_kaydet, havuz_yukle, havuz_kaydet, 
-    tesis_faktor_yukle, tesis_faktor_kaydet
+    tesis_faktor_yukle, tesis_faktor_kaydet, santralleri_yukle, santral_kaydet
 )
 from logic.engineering import (
     calculate_passing, calculate_theoretical_mpa, evaluate_mix_compliance, 
@@ -460,10 +460,11 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
 
 def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_history, is_admin=False):
     # Verileri Yükle
-    all_data_json = veriyi_yukle()
+    active_p = st.session_state.get('active_plant', 'merkez')
+    all_data_json = veriyi_yukle(plant_id=active_p)
     proj_data = all_data_json.get(proje, {})
     qc_history = proj_data.get("qc_history", [])
-    current_site_factor = tesis_faktor_yukle(tesis_adi)
+    current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
     global_qc_hist = get_global_qc_history()
     plant_class, plant_color = classify_plant(global_qc_hist)
 
@@ -517,7 +518,7 @@ def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_his
             qc_history.append(new_record)
             proj_data["qc_history"] = qc_history
             all_data_json[proje] = proj_data
-            veriyi_kaydet(proje, proj_data)
+            veriyi_kaydet(proje, proj_data, plant_id=active_p)
             
             # --- ZENGİN AI OTOMATİK ÖĞRENME (DEEP LEARNING) ---
             if qc_d28 > 0:
@@ -546,7 +547,7 @@ def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_his
             # Saha Faktörü Güncelleme (Opsiyonel/Otomatik)
             if qc_d28 > 0 and qc_pred > 0:
                 new_f = update_site_factor(qc_pred, qc_d28, current_site_factor)
-                tesis_faktor_kaydet(tesis_adi, new_f)
+                tesis_faktor_kaydet(tesis_adi, new_f, plant_id=active_p)
                 st.success(f"Kaydedildi! Yeni Saha Faktörü: x{new_f}")
             else:
                 st.success("Kayıt eklendi.")
@@ -578,7 +579,7 @@ def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_his
                     for i, r in enumerate(updated_history): r["id"] = i + 1
                     proj_data["qc_history"] = updated_history
                     # Update DB
-                    veriyi_kaydet(proje, proj_data)
+                    veriyi_kaydet(proje, proj_data, plant_id=active_p)
                     st.warning(f"Kayıt {selected_id} silindi.")
                     st.rerun()
             else:
@@ -742,6 +743,32 @@ def render_tab_management():
         })
     st.table(pd.DataFrame(df_users))
     
+    # 1.5. Santral Yönetimi (Sadece SuperAdmin)
+    st.markdown("---")
+    st.markdown("### 🏭 Santral Yönetimi")
+    plants = santralleri_yukle()
+    
+    with st.expander("🏢 Mevcut Santraller ve Profiller"):
+        # Santralleri tablo olarak göster
+        df_plants = [{"ID": pid, "Ad": pd["name"], "Konum": pd.get("location", "-")} for pid, pd in plants.items()]
+        st.table(pd.DataFrame(df_plants))
+        
+        st.markdown("#### ➕ Yeni Santral Ekle")
+        c_p1, c_p2 = st.columns(2)
+        with c_p1:
+            new_pid = st.text_input("Santral ID (Örn: ankara_1)", key="new_pid")
+            new_pname = st.text_input("Santral Adı", key="new_pname")
+        with c_p2:
+            new_ploc = st.text_input("Konum/Şehir", key="new_ploc")
+            if st.button("🚀 Santrali Kaydet", use_container_width=True):
+                if new_pid and new_pname:
+                    santral_kaydet(new_pid, {"name": new_pname, "location": new_ploc})
+                    st.success(f"Santral '{new_pname}' eklendi.")
+                    st.rerun()
+                else: st.error("ID ve Ad zorunludur.")
+    
+    st.markdown("---")
+    
     # 2. Yeni Kullanıcı Ekle
     with st.expander("➕ Yeni Kullanıcı Tanımla"):
         c_u1, c_u2 = st.columns(2)
@@ -752,9 +779,13 @@ def render_tab_management():
             new_f = st.text_input("Ad Soyad", key="new_u_full")
             new_r = st.selectbox("Yetki Seviyesi", ["User", "Admin", "SuperAdmin"], key="new_u_role")
             
+        new_up = st.multiselect("Yetkili Olacağı Santraller", options=list(plants.keys()), 
+                                 default=["merkez"], format_func=lambda x: plants[x]["name"],
+                                 key="new_u_plants")
+
         if st.button("✅ Kullanıcıyı Kaydet", use_container_width=True):
             if new_u and new_p:
-                success, msg = add_user(new_u, new_p, new_r, new_f)
+                success, msg = add_user(new_u, new_p, new_r, new_f, assigned_plants=new_up)
                 if success: 
                     st.success(msg)
                     st.rerun()
@@ -779,8 +810,16 @@ def render_tab_management():
                                       index=["active", "pending", "suspended"].index(u_data.get('status', 'active')),
                                       key="edit_u_s")
                 
+            # Santral Yetkileri (Multiselect)
+            st.markdown("**🌐 Yetkili Olduğu Santraller**")
+            current_plants = u_data.get("assigned_plants", ["merkez"])
+            edit_plants = st.multiselect("Santraller", options=list(plants.keys()), 
+                                         default=[p for p in current_plants if p in plants],
+                                         format_func=lambda x: plants[x]["name"],
+                                         key="edit_u_p")
+
             if st.button("💾 Güncellemeleri Kaydet", use_container_width=True):
-                success, msg = update_user(edit_u, role=edit_r, status=edit_s, full_name=edit_f)
+                success, msg = update_user(edit_u, role=edit_r, status=edit_s, full_name=edit_f, assigned_plants=edit_plants)
                 if success:
                     st.success(msg)
                     st.rerun()

@@ -52,15 +52,6 @@ if not st.session_state['authenticated']:
                 else:
                     st.error("Hatalı kullanıcı adı veya şifre!")
         
-        with r_tab:
-            reg_name = st.text_input("Ad Soyad", key="reg_name")
-            reg_user = st.text_input("Kullanıcı Adı", key="reg_user")
-            reg_pass = st.text_input("Şifre", type="password", key="reg_pass")
-            if st.button("Başvuru Yap", use_container_width=True):
-                if not reg_name or not reg_user or not reg_pass:
-                    st.error("Lütfen tüm alanları doldurun!")
-                else:
-                    success, msg = register_user(reg_user, reg_pass, reg_name)
                     if success:
                         st.success("✅ Başvurunuz başarıyla alındı! SuperAdmin onayı sonrası giriş yapabilirsiniz.")
                         st.info("💡 Genellikle 24 saat içinde onaylanır.")
@@ -69,7 +60,36 @@ if not st.session_state['authenticated']:
         st.markdown('</div>', unsafe_allow_html=True)
     st.stop()
 
-# Giriş yapılmışsa devam et...
+# --- SANTRAL SEÇİMİ (Multi-Plant) ---
+if 'active_plant' not in st.session_state:
+    st.markdown("<style>section[data-testid='stSidebar'] {display: none;}</style>", unsafe_allow_html=True)
+    user_info = st.session_state['user_info']
+    user_plants = user_info.get('assigned_plants', ['merkez'])
+    
+    import json
+    plants_db = {}
+    if os.path.exists("data/plants.json"):
+        with open("data/plants.json", "r", encoding="utf-8") as f:
+            plants_db = json.load(f)
+    
+    options = {p_id: plants_db.get(p_id, {"name": p_id})["name"] for p_id in user_plants}
+    
+    col_s1, col_s2, col_s3 = st.columns([1, 1.5, 1])
+    with col_s2:
+        st.markdown('<div style="padding: 2rem; border-radius: 10px; background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">', unsafe_allow_html=True)
+        st.title("🏭 Santral Seçimi")
+        st.write(f"Hoş geldiniz, **{user_info.get('full_name')}**")
+        selected_p = st.selectbox("Lütfen çalışmak istediğiniz santrali seçin:", 
+                                  options=list(options.keys()), 
+                                  format_func=lambda x: options[x])
+        if st.button("Santrale Giriş Yap", use_container_width=True):
+            st.session_state['active_plant'] = selected_p
+            st.rerun()
+        st.markdown('</div>', unsafe_allow_html=True)
+    st.stop()
+
+# Giriş yapılmış ve santral seçilmişse devam et...
+import os # Ensure os is imported for the next blocks
 user_info = st.session_state['user_info']
 is_admin = user_info.get('role') in ["Admin", "SuperAdmin"]
 is_super_admin = user_info.get('role') == "SuperAdmin"
@@ -131,7 +151,8 @@ KGM Teknik Şartnamesi Kısım 16: Beton ve Betonarme İşleri
 """
 
 def get_global_qc_history():
-    all_data = veriyi_yukle()
+    active_p = st.session_state.get('active_plant', 'merkez')
+    all_data = veriyi_yukle(plant_id=active_p)
     global_hist = []
     for p_name, p_data in all_data.items():
         if isinstance(p_data, dict) and "qc_history" in p_data:
@@ -166,9 +187,11 @@ with st.sidebar:
         # Session state'den güncel seçili projeyi al ve yükle
         if 'proj_selector' in st.session_state:
             from logic.state_manager import SessionStateInitializer
-            SessionStateInitializer.load_project_data(st.session_state.proj_selector)
+            active_p = st.session_state.get('active_plant', 'merkez')
+            SessionStateInitializer.load_project_data(st.session_state.proj_selector, plant_id=active_p)
 
-    all_data = veriyi_yukle()
+    active_p = st.session_state.get('active_plant', 'merkez')
+    all_data = veriyi_yukle(plant_id=active_p)
     project_list = list(all_data.keys())
     if not project_list: project_list = ["Yeni Proje"]
     
@@ -191,7 +214,8 @@ with st.sidebar:
         if is_admin:
             if st.button("🗑️ Sil", help="Seçili projeyi sistemden kaldırır"):
                 from logic.data_manager import projesi_sil
-                if projesi_sil(proje):
+                active_p = st.session_state.get('active_plant', 'merkez')
+                if projesi_sil(proje, plant_id=active_p):
                     st.warning(f"'{proje}' silindi.")
                     st.rerun()
         else:
@@ -359,9 +383,10 @@ with st.sidebar:
 # --- TETİKLENEN KAYDETME İŞLEMİ (NameError Önleyici) ---
 if st.session_state.get('trigger_save'):
     p_to_save = st.session_state.pop('save_target_name', proje)
+    active_p = st.session_state.get('active_plant', 'merkez')
     
     # Mevcut veriyi kontrol et (QC geçmişini korumak için)
-    existing_all_data = veriyi_yukle()
+    existing_all_data = veriyi_yukle(plant_id=active_p)
     
     # Eğer "Farklı Kaydet" yapılıyorsa (isim değiştiyse), 
     # eski projenin QC verilerini yeni projeye miras bırakalım.
@@ -390,7 +415,7 @@ if st.session_state.get('trigger_save'):
         "exp_class": st.session_state.get('exposure_class', 'XC3'),
         "asr_stat": st.session_state.get('asr_status', 'Düzeltme Gerekmiyor (İnert)')
     }
-    veriyi_kaydet(p_to_save, d)
+    veriyi_kaydet(p_to_save, d, plant_id=active_p)
     st.session_state['trigger_save'] = False
     st.success(f"✔️ '{p_to_save}' başarıyla kaydedildi.")
     st.rerun()
