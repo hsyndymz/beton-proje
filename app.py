@@ -354,7 +354,7 @@ if is_super_admin:
         render_tab_5(is_admin=is_admin)
     with tab6:
         from logic.modular_tabs import render_tab_management
-        render_tab_management()
+        render_tab_management(is_super_admin=is_super_admin)
     
     # AI Report Processing (If requested from the tab)
     if 'ai_report_prompt' in st.session_state:

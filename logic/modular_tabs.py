@@ -702,7 +702,7 @@ def render_tab_5(is_admin=False):
     else:
         st.warning("Eğitim havuzu şu an boş. Veri ekleyerek başlayın.")
 
-def render_tab_management():
+def render_tab_management(is_super_admin=False):
     from logic.auth_manager import load_users, add_user, delete_user, save_users, update_user
     st.subheader("👥 Kullanıcı ve Yetki Yönetimi")
     
@@ -744,8 +744,9 @@ def render_tab_management():
     st.table(pd.DataFrame(df_users))
     
     # 1.5. Santral Yönetimi (Sadece SuperAdmin)
-    st.markdown("---")
-    st.markdown("### 🏭 Santral Yönetimi")
+    if is_super_admin:
+        st.markdown("---")
+        st.markdown("### 🏭 Santral Yönetimi")
     plants = santralleri_yukle()
     
     with st.expander("🏢 Mevcut Santraller ve Profiller"):
@@ -766,8 +767,9 @@ def render_tab_management():
                     st.success(f"Santral '{new_pname}' eklendi.")
                     st.rerun()
                 else: st.error("ID ve Ad zorunludur.")
-    
-    st.markdown("---")
+        st.markdown("---")
+    else:
+        st.info("💡 Santral tanımlama yetkisi sadece SuperAdmin'e aittir.")
     
     # 2. Yeni Kullanıcı Ekle
     with st.expander("➕ Yeni Kullanıcı Tanımla"):
@@ -794,8 +796,9 @@ def render_tab_management():
             else: 
                 st.error("Kullanıcı adı ve şifre boş bırakılamaz!")
             
-    # 2.5. Kullanıcı Bilgilerini Düzenle
-    with st.expander("📝 Kullanıcı Bilgilerini Düzenle"):
+    # 2.5. Kullanıcı Bilgilerini Düzenle (Sadece SuperAdmin veya Admin kısıtlı)
+    if is_super_admin:
+        with st.expander("📝 Kullanıcı Bilgilerini Düzenle"):
         edit_u = st.selectbox("Düzenlenecek Kullanıcı", list(users.keys()), key="edit_u_sel")
         if edit_u:
             u_data = users[edit_u]
@@ -825,6 +828,8 @@ def render_tab_management():
                     st.rerun()
                 else:
                     st.error(msg)
+    else:
+        st.info("💡 Kullanıcı yetkilerini ve santral atamalarını düzenleme yetkisi sadece SuperAdmin'e aittir.")
             
     # 3. Kullanıcı Sil
     with st.expander("🗑️ Kullanıcı Sil"):
