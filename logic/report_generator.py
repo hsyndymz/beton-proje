@@ -22,7 +22,7 @@ def generate_kgm_raporu(snapshot):
             <tr>
                 <td style="width: 20%; text-align:center;"><span style="font-size:40px;">🇹🇷</span></td>
                 <td style="width: 60%; text-align:center;">
-                    <h3 style="margin:0;">T.C.<br>KARAYOLLARI GENEL MÜDÜRLÜĞÜ</h3>
+                    <h3 style="margin:0;">T.C.<br>{snapshot.get("plant_name", "BETON SANTRALİ").upper()}</h3>
                     <h4 style="margin:5px;">BETON DİZAYN KONTROL RAPORU</h4>
                 </td>
                 <td style="width: 20%; text-align:center; font-size:12px;">
