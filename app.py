@@ -216,6 +216,7 @@ with st.sidebar:
             active_p = st.session_state.get('active_plant', 'merkez')
             SessionStateInitializer.load_project_data(st.session_state.proj_selector, plant_id=active_p)
 
+    active_p = st.session_state.get('active_plant', 'merkez')
     all_data = veriyi_yukle(plant_id=active_p)
     project_list = sorted(list(all_data.keys()))
     if not project_list: project_list = ["Yeni Proje"]
