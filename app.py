@@ -220,6 +220,15 @@ def btn_optimize_click():
 
 # --- PROJE VE DENEME SEÇİMİ (TOP LEVEL) ---
 active_p = st.session_state.get('active_plant', 'merkez')
+
+# GÜVENLİ YÖNLENDİRME: Kayıt sonrası veya seçim değişikliği sonrası State Sync Hatasını (Proxy Error) önler
+if st.session_state.get('pending_proj_redirect'):
+    p_req = st.session_state.pop('pending_proj_redirect')
+    st.session_state[f"proj_selector_{active_p}"] = p_req
+    if st.session_state.get('pending_trial_redirect'):
+        t_req = st.session_state.pop('pending_trial_redirect')
+        st.session_state[f"trial_selector_{active_p}_{p_req}"] = t_req
+
 all_data = veriyi_yukle(plant_id=active_p)
 project_list = sorted(list(all_data.keys()))
 if not project_list: project_list = ["Yeni Proje"]
@@ -573,9 +582,9 @@ if st.session_state.get('trigger_save'):
     proj_obj["active_trial"] = t_name
     veriyi_kaydet(p_name, proj_obj, plant_id=active_p)
     
-    # 4. State Sync
-    st.session_state[f"proj_selector_{active_p}"] = p_name
-    st.session_state[f"trial_selector_{active_p}_{p_name}"] = t_name
+    # 4. State Sync (Güvenli Yöntem: Bir sonraki run'da yakalanacak)
+    st.session_state['pending_proj_redirect'] = p_name
+    st.session_state['pending_trial_redirect'] = t_name
     st.session_state['trigger_save'] = False
     st.success(f"✔️ '{p_name} -> {t_name}' başarıyla kaydedildi.")
     st.rerun()
