@@ -336,8 +336,8 @@ if is_admin:
 if is_super_admin:
     tab_titles.extend(["🧠 AI Eğitim Merkezi", "👥 Kullanıcı Yönetimi"])
 
-# Key eklenerek tab'ın rerun sonrası değişmemesi sağlandı
-tabs = st.tabs(tab_titles, key="main_nav")
+# Key kaldırıldı (Bazı Streamlit sürümlerinde TypeError hatasına yol açabiliyor)
+tabs = st.tabs(tab_titles)
 tab1, tab2, tab4, tab3 = tabs[0:4]
 
 # Dinamik Tab Ataması
