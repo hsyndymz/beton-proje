@@ -457,6 +457,11 @@ with tab_comp:
         st.table(pd.DataFrame(comp_rows))
     else:
         st.info("Bu proje için henüz birden fazla deneme kaydedilmemiş.")
+
+with tab3:
+    render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT)
+
+with tab4:
     TARGET_LIMITS = {
         "C25/30": {"max_wc": 0.60, "min_mpa": 30},
         "C30/37": {"max_wc": 0.55, "min_mpa": 37},
@@ -465,9 +470,6 @@ with tab_comp:
         "C50/60": {"max_wc": 0.40, "min_mpa": 60}
     }
     render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_history, is_admin=is_admin)
-
-with tab3:
-    render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT)
 
 if is_admin and tab_corp:
     with tab_corp:
