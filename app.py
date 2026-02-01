@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+import json
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
@@ -74,7 +76,6 @@ if 'active_plant' not in st.session_state:
     user_info = st.session_state['user_info']
     user_plants = user_info.get('assigned_plants', ['merkez'])
     
-    import json
     plants_db = {}
     if os.path.exists("data/plants.json"):
         with open("data/plants.json", "r", encoding="utf-8") as f:
@@ -97,7 +98,6 @@ if 'active_plant' not in st.session_state:
     st.stop()
 
 # Giriş yapılmış ve santral seçilmişse devam et...
-import os # Ensure os is imported for the next blocks
 user_info = st.session_state['user_info']
 is_admin = user_info.get('role') in ["Admin", "SuperAdmin"]
 is_super_admin = user_info.get('role') == "SuperAdmin"
