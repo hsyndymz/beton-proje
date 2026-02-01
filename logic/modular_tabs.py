@@ -472,34 +472,52 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
         prev_p = p
     
     with g_col1:
-        # Individual Percent Retained Chart
-        fig_ret = go.Figure(data=[
-            go.Bar(x=[str(s) for s in sieves], y=retained, marker_color='teal', text=[f"%{v:.1f}" for v in retained], textposition='auto')
-        ])
+        # 1. Percent Retained Grafiği (Line Chart with Limits as per Image)
+        # Elek isimlerini eşleştir
+        label_map = {
+            0.063: "#200", 0.125: "#100", 0.25: "#50", 0.5: "#30", 1.0: "#16", 
+            2.0: "#8", 4.0: "#4", 8.0: "3/8\"", 11.2: "1/2\"", 16.0: "1/2\"", 
+            22.4: "3/4\"", 31.5: "1\"", 63.0: "2\""
+        }
+        x_labels = [label_map.get(s, str(s)) for s in sieves]
+        
+        # Limitler (Görsel bazlı)
+        # Red Limit (Upper)
+        upper_limit = [0, 0, 20, 20, 12, 12, 20, 20, 20, 20, 15, 0, 0]
+        # Blue Limit (Lower)
+        lower_limit = [0, 0, 4, 4, 0, 0, 4, 4, 4, 0, 0, 0, 0]
+        
+        # DataFrame boyutuna göre limitleri kırp veya uydur
+        upper_limit = upper_limit[:len(sieves)]
+        lower_limit = lower_limit[:len(sieves)]
+
+        fig_ret = go.Figure()
+        # Üst Limit (Kırmızı)
+        fig_ret.add_trace(go.Scatter(x=x_labels, y=upper_limit, mode='lines', line=dict(color='red', width=2), name="Upper Limit"))
+        # Alt Limit (Mavi)
+        fig_ret.add_trace(go.Scatter(x=x_labels, y=lower_limit, mode='lines', line=dict(color='blue', width=2), name="Lower Limit"))
+        # Mevcut Gradasyon (Siyah Kalın Çizgi)
+        fig_ret.add_trace(go.Scatter(x=x_labels, y=retained, mode='lines+markers', line=dict(color='black', width=3), marker=dict(size=8), name="Mixed Aggregate"))
+
         fig_ret.update_layout(
-            title="Individual Percent Retained (Elek Bazlı Kalan %)",
-            xaxis_title="Elek Göz Açıklığı (mm)",
-            yaxis_title="Kalan Yüzde (%)",
-            height=350,
-            margin=dict(l=20, r=20, t=40, b=20)
+            title="Individual Percent Retained Chart",
+            xaxis_title="Sieve Size",
+            yaxis_title="% Retained On",
+            height=400,
+            margin=dict(l=20, r=20, t=40, b=20),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
         )
         st.plotly_chart(fig_ret, use_container_width=True)
-        st.caption("Ideal gradasyon için her elekte %8-18 arası tutarlılık önerilir.")
 
     with g_col2:
-        # 2. Shilstone İşlenebilirlik Grafiği (Coarseness Factor vs Workability Factor)
-        # CF = (% Retained > 9.5mm / % Retained > 2.36mm) * 100
-        # Yaklaşım: 8.0mm ve 2.0mm kullanıyoruz
+        # 2. Shilstone İşlenebilirlik Grafiği (Visual Update)
         idx_8 = sieves.index(8.0) if 8.0 in sieves else 4
         idx_2 = sieves.index(2.0) if 2.0 in sieves else 7
         
         ret_above_8 = 100 - passing[idx_8]
         ret_above_2 = 100 - passing[idx_2]
-        
         cf = (ret_above_8 / ret_above_2 * 100) if ret_above_2 > 0 else 0
         
-        # WF = Passing 2.36mm + Adjusment for Cement
-        # Adjustment: every 55kg deviation from 335kg changes WF by 2.5%
         cement = snap.get('recipe', {}).get('çimento', 350)
         wf_base = passing[idx_2]
         wf_adj = ((cement - 335) / 55) * 2.5
@@ -507,35 +525,61 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
         
         fig_shil = go.Figure()
         
-        # Shilstone Trend Area (Trend Zone 2) - Yaklaşık poligon
+        # Zon Sınırları (Görsele göre Yaklaşık)
+        # Zon IV-I/II ayırıcı
+        fig_shil.add_trace(go.Scatter(x=[100, 45], y=[36, 44], mode='lines', line=dict(color='black', width=1), showlegend=False))
+        # Zon II (Yeşil Çerçeveli Alan)
         fig_shil.add_trace(go.Scatter(
-            x=[30, 30, 45, 75, 75, 30], 
-            y=[28, 40, 40, 30, 20, 20],
-            fill="toself", fillcolor="rgba(0, 255, 0, 0.1)", 
-            line=dict(color="green", dash='dash'), 
-            name="Zon 2 (İdeal)", mode='lines'
+            x=[75, 75, 45, 45, 75], y=[28, 40, 44, 33, 28],
+            fill="toself", fillcolor="rgba(0, 255, 0, 0.05)", 
+            line=dict(color="green", width=2), name="Zon II (İyi Gradasyon)"
         ))
         
+        # Optimum Bölge (Mavi Kutu)
+        fig_shil.add_trace(go.Scatter(
+            x=[70, 70, 50, 50, 70], y=[32, 36, 38.5, 34, 32],
+            fill="toself", fillcolor="rgba(0, 0, 255, 0.1)", 
+            line=dict(color="blue", width=2), name="Optimum Bölge"
+        ))
+
+        # Alt Sınır Çizgileri (V Bölgesi)
+        fig_shil.add_trace(go.Scatter(x=[100, 75, 45, 20, 0], y=[27, 27, 33, 37, 37], mode='lines', line=dict(color='black', width=1.5), showlegend=False))
+        fig_shil.add_trace(go.Scatter(x=[100, 75, 45, 20, 0], y=[25, 25, 30.5, 35, 35], mode='lines', line=dict(color='black', width=1.5), showlegend=False))
+
         # Mevcut Nokta
         fig_shil.add_trace(go.Scatter(
-            x=[cf], y=[wf],
-            mode='markers+text',
-            text=["Dizayn"],
-            textposition="top center",
-            marker=dict(size=15, color='red', symbol='cross'),
-            name="Mevcut Karışım"
+            x=[cf], y=[wf], mode='markers+text',
+            text=["Dizayn"], textposition="top center",
+            marker=dict(size=14, color='red', symbol='x'), name="Mevcut Karışım"
         ))
         
+        # Zon Etiketleri
+        fig_shil.add_annotation(x=90, y=32, text="I", showarrow=False, font=dict(size=20, weight="bold"))
+        fig_shil.add_annotation(x=60, y=41, text="II", showarrow=False, font=dict(size=20, weight="bold"))
+        fig_shil.add_annotation(x=35, y=38, text="III", showarrow=False, font=dict(size=20, weight="bold"))
+        fig_shil.add_annotation(x=90, y=42, text="IV", showarrow=False, font=dict(size=20, weight="bold"))
+        fig_shil.add_annotation(x=40, y=28, text="V", showarrow=False, font=dict(size=20, weight="bold"))
+
         fig_shil.update_layout(
             title="Shilstone İşlenebilirlik Matrisi",
-            xaxis=dict(title="Coarseness Factor (CF)", range=[0, 100]),
-            yaxis=dict(title="Workability Factor (WF)", range=[0, 60]),
-            height=350,
-            margin=dict(l=20, r=20, t=40, b=20),
-            showlegend=False
+            xaxis=dict(title="İRİLİK ENDEKSİ", range=[100, 0], gridcolor="lightgray"), 
+            yaxis=dict(title="İŞLENEBİLİRLİK ENDEKSİ", range=[20, 45], gridcolor="lightgray"),
+            height=400, margin=dict(l=20, r=20, t=40, b=20), showlegend=False,
+            plot_bgcolor="white"
         )
         st.plotly_chart(fig_shil, use_container_width=True)
-        st.caption(f"CF: {cf:.1f} | WF: {wf:.1f} (C: {cement}kg)")
+
+        # Sağ üst köşedeki tablo (Küçük kolonlar)
+        st.markdown(f"""
+        <div style='display: flex; justify-content: flex-end; gap: 10px; margin-top: -30px;'>
+            <div style='background-color: #1f77b4; color: white; padding: 5px 15px; border-radius: 4px; border: 1px solid black;'>
+                <b>İŞLENEBİLİRLİK ENDEKSİ: {wf:.0f}</b>
+            </div>
+            <div style='background-color: #2ca02c; color: white; padding: 5px 15px; border-radius: 4px; border: 1px solid black;'>
+                <b>İRİLİK ENDEKSİ: {cf:.0f}</b>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
 
     # Uyarılar ve Gerekçeler (Geliştirildi)
     if decision['violations'] or decision['warnings'] or decision.get('rationales'):
