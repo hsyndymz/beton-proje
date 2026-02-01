@@ -54,12 +54,14 @@ class SessionStateInitializer:
             'cimento_val', 'su_val', 'katki_val', 'cem_type', 'ucucu_kul', 
             'hava_yuzde', 'exposure_class', 'asr_status'
         ]
+        
         for k in fixed_keys:
             if k in st.session_state: del st.session_state[k]
         
         for k in all_keys:
             if any(k.startswith(p) for p in ["rho_", "wa_", "la_", "mb_", "act_", "m1_", "ri_ed_", "p"]):
                 if k in st.session_state: del st.session_state[k]
+            
             if not exclude_selection and k.startswith("proj_selector_"):
                 if k in st.session_state: del st.session_state[k]
         
@@ -73,6 +75,7 @@ class SessionStateInitializer:
         Seçilen projenin verilerini santral bazlı dosyadan okur ve session_state'e yükler.
         """
         from logic.data_manager import veriyi_yukle
+        
         SessionStateInitializer.clear_all_project_state(exclude_selection=True)
         SessionStateInitializer.initialize_defaults(force=True)
 
@@ -100,13 +103,16 @@ class SessionStateInitializer:
             if i < len(las): st.session_state[f"la_{i}"] = las[i]
             if i < len(mbs): st.session_state[f"mb_{i}"] = mbs[i]
             if i < len(m1s): st.session_state[f"m1_{i}"] = m1s[i]
+            
             ed_key = f"ri_ed_{i}"
-            if ed_key in st.session_state: del st.session_state[ed_key]
+            if ed_key in st.session_state:
+                del st.session_state[ed_key]
         
         st.session_state['loaded_ri'] = ri_dict if ri_dict else {}
 
         for k in ["mix_snapshot", "last_decision", "computed_passing", "last_mix_data"]:
-            if k in st.session_state: st.session_state[k] = None
+            if k in st.session_state:
+                st.session_state[k] = None
 
         p_ratios = p_data.get("p", [25, 25, 25, 25])
         for i, val in enumerate(p_ratios):
@@ -118,7 +124,7 @@ class SessionStateInitializer:
         st.session_state["ucucu_kul"] = p_data.get("ucucu", 0.0)
         st.session_state["hava_yuzde"] = p_data.get("hava", 1.0)
         st.session_state["exposure_class"] = p_data.get("exp_class", "XC3")
-        st.session_state["asr_status"] = p_data.get("asr_stat", "Düzeltme Gerekmiyor (İnert)")
+        st.session_state["asr_status"] = p_data.get("asr_stat", "Düzeltme Gerekmiyor (Inert)")
 
 def init_session_state(force=False):
     """
