@@ -216,9 +216,8 @@ with st.sidebar:
             active_p = st.session_state.get('active_plant', 'merkez')
             SessionStateInitializer.load_project_data(st.session_state.proj_selector, plant_id=active_p)
 
-    active_p = st.session_state.get('active_plant', 'merkez')
     all_data = veriyi_yukle(plant_id=active_p)
-    project_list = list(all_data.keys())
+    project_list = sorted(list(all_data.keys()))
     if not project_list: project_list = ["Yeni Proje"]
     
     proje = st.selectbox(
@@ -228,8 +227,8 @@ with st.sidebar:
         on_change=project_load_callback
     )
     
-    # --- KRİTİK FİKS: Tek proje veya ilk yüklemede veriyi otomatik çek ---
-    if 'proj_data' not in st.session_state or st.session_state.get('loaded_project_name') != proje:
+    # --- KRİTİK FİKS: Sadece proje ismi değiştiğinde veya ilk yüklemede veriyi çek ---
+    if st.session_state.get('loaded_project_name') != proje:
         project_load_callback()
         st.session_state['loaded_project_name'] = proje
     
@@ -336,7 +335,8 @@ if is_admin:
 if is_super_admin:
     tab_titles.extend(["🧠 AI Eğitim Merkezi", "👥 Kullanıcı Yönetimi"])
 
-tabs = st.tabs(tab_titles)
+# Key eklenerek tab'ın rerun sonrası değişmemesi sağlandı
+tabs = st.tabs(tab_titles, key="main_nav")
 tab1, tab2, tab4, tab3 = tabs[0:4]
 
 # Dinamik Tab Ataması
