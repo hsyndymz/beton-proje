@@ -237,6 +237,28 @@ def update_site_factor(predicted, measured, old_factor):
     new_factor = old_factor * clamped_ratio
     return round(max(0.80, min(1.20, new_factor)), 3)
 
+def evolve_site_factor(qc_history, current_factor):
+    """
+    Geçmiş kırım verilerini analiz ederek saha faktörünü dinamik olarak evrimleştirir.
+    """
+    if not qc_history or len(qc_history) < 5:
+        return current_factor
+    
+    ratios = []
+    for r in qc_history[-10:]:
+        measured = r.get('d28') or r.get('measured_mpa')
+        predicted = r.get('predicted_mpa')
+        if measured and predicted and float(predicted) > 0:
+            ratios.append(float(measured) / float(predicted))
+            
+    if not ratios:
+        return current_factor
+        
+    avg_ratio = sum(ratios) / len(ratios)
+    # Yumuşatma (Smoothing): Mevcut faktörü yavaşça değiştir
+    new_factor = current_factor * (0.7 + 0.3 * avg_ratio)
+    return round(max(0.70, min(1.30, new_factor)), 3)
+
 def classify_plant(records):
     """
     Santralin tutarlılığını (standart sapma) ölçer.
