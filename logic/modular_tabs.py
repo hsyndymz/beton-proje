@@ -199,7 +199,8 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
     # --- HESAPLA VE KİLİTLE BUTONU VE SONUÇLAR ---
     st.divider()
     if st.button("🧮 Dizaynı Hesapla ve Kilitle", type="primary", use_container_width=True):
-        all_qc_data = veriyi_yukle()
+        active_p = st.session_state.get('active_plant', 'merkez')
+        all_qc_data = veriyi_yukle(plant_id=active_p)
         proj_history = all_qc_data.get(proje, {}).get("qc_history", [])
         model_coeffs, intercept, r2_score = train_prediction_model(proj_history)
         

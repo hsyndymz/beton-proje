@@ -181,6 +181,11 @@ with st.sidebar:
     if st.button("🚪 Çıkış Yap", use_container_width=True):
         st.session_state['authenticated'] = False
         st.rerun()
+    
+    if st.button("🔄 Santral Değiştir", use_container_width=True):
+        if 'active_plant' in st.session_state:
+            del st.session_state['active_plant']
+            st.rerun()
         
     st.markdown("---")
     
@@ -303,7 +308,8 @@ from openai import OpenAI
 deepseek_client = OpenAI(api_key=deepseek_key, base_url="https://api.deepseek.com") if deepseek_key else None
 
 # Tesis Bazlı Saha Faktörü
-current_site_factor = tesis_faktor_yukle(tesis_adi)
+active_p = st.session_state.get('active_plant', 'merkez')
+current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
 
 # --- ANA PANEL ---
 tab_titles = ["📊 Malzeme Kütüphanesi", "📈 Karışım Dizaynı", "📉 Şantiye QC", "📄 Raporlar & Çıktı"]
