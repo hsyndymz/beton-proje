@@ -6,5 +6,9 @@
     "beton lab.": {
         "name": "Karayolları Genel Müdürlüğü",
         "location": "ANKARA"
+    },
+    "beton1": {
+        "name": "Samedin Lab.",
+        "location": "diyarbakır"
     }
 }

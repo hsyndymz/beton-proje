@@ -457,6 +457,86 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
     with c_ana3:
         st.metric("Kum Oranı (<4mm)", f"%{sand_val:.1f}", delta="Stabil" if 33 <= sand_val <= 42 else "Dengesiz")
 
+    # --- YENİ: ANALİTİK GRAFİKLER (COARSENESS & RETAINED) ---
+    st.markdown("#### 📊 İleri Analitik Görselleştirme")
+    g_col1, g_col2 = st.columns(2)
+    
+    passing = snap.get('passing', [])
+    sieves = snap.get('sieves', [])
+    
+    # 1. Percent Retained Hesaplama
+    retained = []
+    prev_p = 100.0
+    for p in passing:
+        retained.append(max(0, prev_p - p))
+        prev_p = p
+    
+    with g_col1:
+        # Individual Percent Retained Chart
+        fig_ret = go.Figure(data=[
+            go.Bar(x=[str(s) for s in sieves], y=retained, marker_color='teal', text=[f"%{v:.1f}" for v in retained], textposition='auto')
+        ])
+        fig_ret.update_layout(
+            title="Individual Percent Retained (Elek Bazlı Kalan %)",
+            xaxis_title="Elek Göz Açıklığı (mm)",
+            yaxis_title="Kalan Yüzde (%)",
+            height=350,
+            margin=dict(l=20, r=20, t=40, b=20)
+        )
+        st.plotly_chart(fig_ret, use_container_width=True)
+        st.caption("Ideal gradasyon için her elekte %8-18 arası tutarlılık önerilir.")
+
+    with g_col2:
+        # 2. Shilstone İşlenebilirlik Grafiği (Coarseness Factor vs Workability Factor)
+        # CF = (% Retained > 9.5mm / % Retained > 2.36mm) * 100
+        # Yaklaşım: 8.0mm ve 2.0mm kullanıyoruz
+        idx_8 = sieves.index(8.0) if 8.0 in sieves else 4
+        idx_2 = sieves.index(2.0) if 2.0 in sieves else 7
+        
+        ret_above_8 = 100 - passing[idx_8]
+        ret_above_2 = 100 - passing[idx_2]
+        
+        cf = (ret_above_8 / ret_above_2 * 100) if ret_above_2 > 0 else 0
+        
+        # WF = Passing 2.36mm + Adjusment for Cement
+        # Adjustment: every 55kg deviation from 335kg changes WF by 2.5%
+        cement = snap.get('recipe', {}).get('çimento', 350)
+        wf_base = passing[idx_2]
+        wf_adj = ((cement - 335) / 55) * 2.5
+        wf = wf_base + wf_adj
+        
+        fig_shil = go.Figure()
+        
+        # Shilstone Trend Area (Trend Zone 2) - Yaklaşık poligon
+        fig_shil.add_trace(go.Scatter(
+            x=[30, 30, 45, 75, 75, 30], 
+            y=[28, 40, 40, 30, 20, 20],
+            fill="toself", fillcolor="rgba(0, 255, 0, 0.1)", 
+            line=dict(color="green", dash='dash'), 
+            name="Zon 2 (İdeal)", mode='lines'
+        ))
+        
+        # Mevcut Nokta
+        fig_shil.add_trace(go.Scatter(
+            x=[cf], y=[wf],
+            mode='markers+text',
+            text=["Dizayn"],
+            textposition="top center",
+            marker=dict(size=15, color='red', symbol='cross'),
+            name="Mevcut Karışım"
+        ))
+        
+        fig_shil.update_layout(
+            title="Shilstone İşlenebilirlik Matrisi",
+            xaxis=dict(title="Coarseness Factor (CF)", range=[0, 100]),
+            yaxis=dict(title="Workability Factor (WF)", range=[0, 60]),
+            height=350,
+            margin=dict(l=20, r=20, t=40, b=20),
+            showlegend=False
+        )
+        st.plotly_chart(fig_shil, use_container_width=True)
+        st.caption(f"CF: {cf:.1f} | WF: {wf:.1f} (C: {cement}kg)")
+
     # Uyarılar ve Gerekçeler (Geliştirildi)
     if decision['violations'] or decision['warnings'] or decision.get('rationales'):
         st.markdown("#### ⚠️ Teknik Bulgular ve Gerekçeler")

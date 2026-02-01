@@ -10,11 +10,11 @@
     },
     "sergun": {
         "password": "68123729f0d0bb45361db024823c60e8a31cf78dd44f0544dc24f61d6fd60c8d",
-        "role": "SuperAdmin",
+        "role": "Admin",
         "full_name": "Samed ERGÜN",
         "status": "active",
         "assigned_plants": [
-            "merkez"
+            "beton1"
         ]
     }
 }
