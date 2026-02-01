@@ -1,0 +1,165 @@
+[
+    {
+        "id": "POOL-1",
+        "date": "2025-09-02",
+        "cement": 390,
+        "water": 160,
+        "ash": 0,
+        "air": 0.15,
+        "admixture": 0.32,
+        "d28": 41.98,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-2",
+        "date": "2025-09-02",
+        "cement": 390,
+        "water": 165,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.39,
+        "d28": 39.2,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-3",
+        "date": "2025-09-12",
+        "cement": 390,
+        "water": 170,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.429,
+        "d28": 39.5,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-4",
+        "date": "2025-09-12",
+        "cement": 390,
+        "water": 170,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.429,
+        "d28": 42.15,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-5",
+        "date": "2025-10-07",
+        "cement": 400,
+        "water": 165,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.36,
+        "d28": 42.6,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-6",
+        "date": "2025-10-24",
+        "cement": 400,
+        "water": 163,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.378,
+        "d28": 44.03,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-7",
+        "date": "2025-10-24",
+        "cement": 390,
+        "water": 162,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.312,
+        "d28": 48.0,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-8",
+        "date": "2025-10-24",
+        "cement": 390,
+        "water": 157,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.351,
+        "d28": 52.8,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-9",
+        "date": "2025-10-24",
+        "cement": 390,
+        "water": 145,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.39,
+        "d28": 61.56,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-10",
+        "date": "2025-11-26",
+        "cement": 390,
+        "water": 150,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.39,
+        "d28": 51.9,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-11",
+        "date": "2025-11-28",
+        "cement": 390,
+        "water": 145,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.351,
+        "d28": 48.55,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-12",
+        "date": "2025-11-28",
+        "cement": 390,
+        "water": 145,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.351,
+        "d28": 45.56,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-13",
+        "date": "2025-12-08",
+        "cement": 390,
+        "water": 146,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.351,
+        "d28": 45.57,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "id": "POOL-14",
+        "date": "2025-12-08",
+        "cement": 400,
+        "water": 150,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0.4,
+        "d28": 61.03,
+        "project": "GLOBAL_POOL"
+    },
+    {
+        "cement": 390.0,
+        "water": 180.0,
+        "ash": 0,
+        "air": 0.0,
+        "admixture": 0,
+        "d28": 37.3,
+        "timestamp": "2026-01-31"
+    }
+]
