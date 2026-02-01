@@ -228,6 +228,11 @@ with st.sidebar:
         on_change=project_load_callback
     )
     
+    # --- KRİTİK FİKS: Tek proje veya ilk yüklemede veriyi otomatik çek ---
+    if 'proj_data' not in st.session_state or st.session_state.get('loaded_project_name') != proje:
+        project_load_callback()
+        st.session_state['loaded_project_name'] = proje
+    
     # Yeni Proje Girişi ve İşlemler
     new_proj_name = st.text_input("🆕 Yeni Proje Adı")
     c_btn1, c_btn2 = st.columns(2)

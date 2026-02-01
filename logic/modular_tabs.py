@@ -147,7 +147,8 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             if len(pool_data) >= 5:
                 g_coeffs, g_intercept, g_r2 = train_prediction_model(pool_data)
                 if g_coeffs is not None:
-                    g_inputs = np.array([cimento, su_hedef, ucucu_kul, hava_yuzde, (cimento*katki/100)])
+                    katki_kg_val = (cimento * katki / 100)
+                    g_inputs = np.array([float(cimento), float(su_hedef), float(ucucu_kul), float(hava_yuzde), float(katki_kg_val)])
                     g_pred = predict_strength_ai(g_coeffs, g_intercept, g_inputs)
                     st.success(f"🌐 **Global AI Tahmini:** {g_pred:.1f} MPa")
         else: wc_ratio_eff, predicted_mpa = 0.6, 0.0
@@ -668,7 +669,7 @@ def render_tab_5(is_admin=False):
             g_ash = st.number_input("Uçucu Kül (kg)", value=0, key="g_ash")
             g_air = st.number_input("Hava (%)", value=1.5, key="g_air")
         with c3:
-            g_chem = st.number_input("Katkı (kg)", value=4.0, key="g_chem")
+            g_chem = st.number_input("Katkı (KG - Bir Metreküpteki Toplam)", value=4.0, key="g_chem")
             g_d28 = st.number_input("28 Günlük Dayanım (MPa)", value=35.0, key="g_d28")
         
         if st.button("📥 Havuza Ekle"):
