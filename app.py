@@ -464,39 +464,52 @@ with tab_comp:
         fig_comp.add_trace(go.Scatter(x=elek_serisi, y=ust_std, name="Üst Limit", line=dict(color='red', dash='dash')))
 
         all_passing_data = {}
+        all_retained_data = {}
+        
         for t_name, t_val in trials.items():
             # Her deneme için karışım gradasyonunu hesapla
             t_active = t_val.get("active", [True, True, True, True])
             t_ratios = t_val.get("p", [25, 25, 25, 25])
-            t_ri = t_val.get("ri", {})
+            t_ri = t_val.get("ri", {}) # Bu aslında 'kalan' gramaj verisidir
+            t_m1s = t_val.get("m1s", [4000.0, 4000.0, 2000.0, 2000.0])
             
-            # Karışım gradasyonu hesapla
+            # Her malzemenin kendi gradasyonunu (geçen %) hesapla (Kalandan Geçene Çevir)
             trial_total_passing = np.zeros(len(elek_serisi))
+            
             for i in range(4):
                 if t_active[i]:
-                    mat_ri = t_ri.get(str(i), [0]*len(elek_serisi))
-                    trial_total_passing += np.array(mat_ri) * (t_ratios[i] / 100.0)
+                    # i index veya mat_name olarak saklanmış olabilir
+                    mat_weights = t_ri.get(str(i)) or t_ri.get(materials[i], [0.0]*len(elek_serisi))
+                    m1_val = t_m1s[i] if i < len(t_m1s) else 2000.0
+                    
+                    # Kalandan Geçene Çevir
+                    mat_passing = calculate_passing(m1_val, mat_weights)
+                    
+                    # Karışım gradasyonuna (oranıyla) ekle
+                    trial_total_passing += np.array(mat_passing) * (t_ratios[i] / 100.0)
             
             all_passing_data[t_name] = trial_total_passing
+            all_retained_data[t_name] = t_ri
             fig_comp.add_trace(go.Scatter(x=elek_serisi, y=trial_total_passing, name=t_name, mode='lines+markers'))
 
-        fig_comp.update_layout(xaxis_type="log", xaxis_title="Elek Göz Açıklığı (mm)", yaxis_title="Geçen %", height=500)
+        fig_comp.update_layout(xaxis_type="log", xaxis_title="Elek Göz Açıklığı (mm)", yaxis_title="Toplam Karışım Geçen %", height=500)
         st.plotly_chart(fig_comp, use_container_width=True)
 
         # 2. Tablo Karşılaştırma
-        with st.expander("📊 Detaylı Sayısal Karşılaştırma (Elek Değerleri)", expanded=True):
-            # Elek tablosu
+        with st.expander("📊 Detaylı Sayısal Karşılaştırma", expanded=True):
+            # Geçen % Tablosu
+            st.write("📈 **Karışım Geçen Yüzdeleri (%)**")
             elek_rows = []
             for i, e_size in enumerate(elek_serisi):
                 row = {"Elek (mm)": e_size}
                 for t_name, t_passing in all_passing_data.items():
                     row[t_name] = f"%{t_passing[i]:.1f}"
                 elek_rows.append(row)
-            st.dataframe(pd.DataFrame(elek_rows), use_container_width=True)
+            st.dataframe(pd.DataFrame(elek_rows), use_container_width=True, hide_index=True)
             
             # Reçete tablosu
             st.divider()
-            st.write("🧱 **Reçete ve Malzeme Karşılaştırması**")
+            st.write("🧱 **Reçete ve Malzeme Oranları**")
             comp_rows = []
             for t_name, t_val in trials.items():
                 row = {
@@ -505,7 +518,7 @@ with tab_comp:
                     "Su": t_val.get("su", 0),
                     "W/C": round(t_val.get("su",0)/t_val.get("cim",1), 2) if t_val.get("cim") else 0,
                     "Katkı": t_val.get("kat", 0),
-                    "Ratios (%)": f"{t_val.get('p',[0,0,0,0])}"
+                    "Oranlar (%)": f"{t_val.get('p',[0,0,0,0])}"
                 }
                 comp_rows.append(row)
             st.table(pd.DataFrame(comp_rows))
