@@ -53,6 +53,19 @@ def add_user(username, password, role="User", full_name="", status="active"):
 def register_user(username, password, full_name):
     return add_user(username, password, role="User", full_name=full_name, status="pending")
 
+def update_user(username, role=None, status=None, full_name=None):
+    """Mevcut bir kullanıcının bilgilerini günceller."""
+    users = load_users()
+    if username not in users:
+        return False, "Kullanıcı bulunamadı."
+    
+    if role: users[username]["role"] = role
+    if status: users[username]["status"] = status
+    if full_name: users[username]["full_name"] = full_name
+    
+    save_users(users)
+    return True, f"{username} başarıyla güncellendi."
+
 def delete_user(username):
     users = load_users()
     if username in users:

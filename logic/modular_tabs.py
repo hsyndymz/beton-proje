@@ -702,7 +702,7 @@ def render_tab_5(is_admin=False):
         st.warning("Eğitim havuzu şu an boş. Veri ekleyerek başlayın.")
 
 def render_tab_management():
-    from logic.auth_manager import load_users, add_user, delete_user, save_users
+    from logic.auth_manager import load_users, add_user, delete_user, save_users, update_user
     st.subheader("👥 Kullanıcı ve Yetki Yönetimi")
     
     users = load_users()
@@ -737,7 +737,8 @@ def render_tab_management():
         df_users.append({
             "Kullanıcı Adı": uname, 
             "Ad Soyad": data.get('full_name', '-'), 
-            "Yetki": data.get('role', 'User')
+            "Yetki": data.get('role', 'User'),
+            "Durum": data.get('status', 'active')
         })
     st.table(pd.DataFrame(df_users))
     
@@ -761,6 +762,30 @@ def render_tab_management():
                     st.error(msg)
             else: 
                 st.error("Kullanıcı adı ve şifre boş bırakılamaz!")
+            
+    # 2.5. Kullanıcı Bilgilerini Düzenle
+    with st.expander("📝 Kullanıcı Bilgilerini Düzenle"):
+        edit_u = st.selectbox("Düzenlenecek Kullanıcı", list(users.keys()), key="edit_u_sel")
+        if edit_u:
+            u_data = users[edit_u]
+            col_e1, col_e2 = st.columns(2)
+            with col_e1:
+                edit_f = st.text_input("Yeni Ad Soyad", value=u_data.get('full_name', ''), key="edit_u_f")
+                edit_r = st.selectbox("Yeni Yetki", ["User", "Admin", "SuperAdmin"], 
+                                      index=["User", "Admin", "SuperAdmin"].index(u_data.get('role', 'User')), 
+                                      key="edit_u_r")
+            with col_e2:
+                edit_s = st.selectbox("Yeni Durum", ["active", "pending", "suspended"],
+                                      index=["active", "pending", "suspended"].index(u_data.get('status', 'active')),
+                                      key="edit_u_s")
+                
+            if st.button("💾 Güncellemeleri Kaydet", use_container_width=True):
+                success, msg = update_user(edit_u, role=edit_r, status=edit_s, full_name=edit_f)
+                if success:
+                    st.success(msg)
+                    st.rerun()
+                else:
+                    st.error(msg)
             
     # 3. Kullanıcı Sil
     with st.expander("🗑️ Kullanıcı Sil"):
