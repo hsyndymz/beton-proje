@@ -20,7 +20,7 @@ from logic.modular_tabs import render_tab_1, render_tab_2, render_tab_3, render_
 from logic.auth_manager import check_login, register_user
 
 # --- SAYFA YAPILANDIRMASI ---
-st.set_page_config(page_title="BetaMix AI - KGM Beton Dizayn", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Beton Tasarım Programı", layout="wide", initial_sidebar_state="expanded")
 init_session_state()
 
 # --- LOGIN SİSTEMİ ---
@@ -34,7 +34,8 @@ if not st.session_state['authenticated']:
     col_l1, col_l2, col_l3 = st.columns([1, 1.5, 1])
     with col_l2:
         st.markdown('<div style="padding: 1rem; border-radius: 10px; background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">', unsafe_allow_html=True)
-        st.title("🏗️ BETON TASARIMA GİRİŞ")
+        st.image("https://upload.wikimedia.org/wikipedia/tr/b/bb/KGM_Logo.png", width=120)
+        st.title("🏗️ BETON TASARIM PROGRAMI")
         
         l_tab, r_tab = st.tabs(["🔑 Giriş Yap", "📝 Kaydol (Üyelik Başvurusu)"])
         
