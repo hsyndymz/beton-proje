@@ -749,7 +749,7 @@ def render_tab_management(is_super_admin=False):
         st.markdown("---")
         st.markdown("### 🏭 Santral Yönetimi")
         
-        with st.expander("🏢 Mevcut Santraller ve Profiller"):
+        with st.expander("🏢 Santral Yönetim Paneli", expanded=True):
             # Santralleri tablo olarak göster
             df_plants = [{"ID": pid, "Ad": pd["name"], "Konum": pd.get("location", "-")} for pid, pd in plants.items()]
             st.table(pd.DataFrame(df_plants))
@@ -767,7 +767,32 @@ def render_tab_management(is_super_admin=False):
                         st.success(f"Santral '{new_pname}' eklendi.")
                         st.rerun()
                     else: st.error("ID ve Ad zorunludur.")
+            
             st.markdown("---")
+            st.markdown("#### 📝 Santral Düzenle / Sil")
+            edit_p_list = list(plants.keys())
+            edit_pid = st.selectbox("Düzenlenecek Santral", edit_p_list, key="edit_pid_sel")
+            if edit_pid:
+                p_data = plants[edit_pid]
+                ce_p1, ce_p2 = st.columns(2)
+                with ce_p1:
+                    edit_pname = st.text_input("Yeni Santral Adı", value=p_data["name"], key="edit_pname")
+                with ce_p2:
+                    edit_ploc = st.text_input("Yeni Konum", value=p_data.get("location", ""), key="edit_ploc")
+                
+                ce_btns1, ce_btns2 = st.columns(2)
+                with ce_btns1:
+                    if st.button("💾 Değişiklikleri Kaydet", key="btn_save_plant"):
+                        santral_kaydet(edit_pid, {"name": edit_pname, "location": edit_ploc})
+                        st.success("Santral bilgileri güncellendi.")
+                        st.rerun()
+                with ce_btns2:
+                    if st.button("🗑️ Santrali Sil", key="btn_del_plant", type="primary"):
+                        success, msg = santral_sil(edit_pid)
+                        if success:
+                            st.warning(msg)
+                            st.rerun()
+                        else: st.error(msg)
     else:
         st.info("💡 Santral tanımlama yetkisi sadece SuperAdmin'e aittir.")
     

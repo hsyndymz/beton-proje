@@ -2,11 +2,19 @@
     "hsyndymz": {
         "password": "6bea09a5061baa8c0a5c98ded50595361dd4873bc272a2b03ebdd190ade23d2c",
         "role": "SuperAdmin",
-        "full_name": "Hüseyin Yılmaz"
+        "full_name": "Hüseyin Yılmaz",
+        "status": "active",
+        "assigned_plants": [
+            "merkez"
+        ]
     },
     "sergun": {
         "password": "68123729f0d0bb45361db024823c60e8a31cf78dd44f0544dc24f61d6fd60c8d",
         "role": "User",
-        "full_name": "samed ergün"
+        "full_name": "samed ergün",
+        "status": "active",
+        "assigned_plants": [
+            "merkez"
+        ]
     }
 }
