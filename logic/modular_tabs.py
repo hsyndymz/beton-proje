@@ -472,42 +472,34 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
         prev_p = p
     
     with g_col1:
-        # 1. Percent Retained Grafiği (Line Chart with Limits as per Image)
-        # Elek isimlerini eşleştir
-        label_map = {
-            0.063: "#200", 0.125: "#100", 0.25: "#50", 0.5: "#30", 1.0: "#16", 
-            2.0: "#8", 4.0: "#4", 8.0: "3/8\"", 11.2: "1/2\"", 16.0: "1/2\"", 
-            22.4: "3/4\"", 31.5: "1\"", 63.0: "2\""
-        }
-        x_labels = [label_map.get(s, str(s)) for s in sieves]
+        # 1. Percent Retained Grafiği (TSE Uyarlaması - Bar Chart)
+        x_labels = [f"{s} mm" for s in sieves]
         
-        # Limitler (Görsel bazlı)
-        # Red Limit (Upper)
-        upper_limit = [0, 0, 20, 20, 12, 12, 20, 20, 20, 20, 15, 0, 0]
-        # Blue Limit (Lower)
-        lower_limit = [0, 0, 4, 4, 0, 0, 4, 4, 4, 0, 0, 0, 0]
-        
-        # DataFrame boyutuna göre limitleri kırp veya uydur
-        upper_limit = upper_limit[:len(sieves)]
-        lower_limit = lower_limit[:len(sieves)]
-
         fig_ret = go.Figure()
-        # Üst Limit (Kırmızı)
-        fig_ret.add_trace(go.Scatter(x=x_labels, y=upper_limit, mode='lines', line=dict(color='red', width=2), name="Upper Limit"))
-        # Alt Limit (Mavi)
-        fig_ret.add_trace(go.Scatter(x=x_labels, y=lower_limit, mode='lines', line=dict(color='blue', width=2), name="Lower Limit"))
-        # Mevcut Gradasyon (Siyah Kalın Çizgi)
-        fig_ret.add_trace(go.Scatter(x=x_labels, y=retained, mode='lines+markers', line=dict(color='black', width=3), marker=dict(size=8), name="Mixed Aggregate"))
+
+        # Bar Chart (Mevcut Gradasyon)
+        fig_ret.add_trace(go.Bar(
+            x=x_labels, y=retained, 
+            marker_color='rgba(0, 128, 128, 0.7)', 
+            name="Seçili Karışım",
+            text=[f"%{v:.1f}" for v in retained],
+            textposition='auto'
+        ))
+
+        # 8-18 Sınırları (Yatay Çizgiler)
+        fig_ret.add_hline(y=18, line_dash="dash", line_color="red", annotation_text="Max %18", annotation_position="top left")
+        fig_ret.add_hline(y=8, line_dash="dash", line_color="orange", annotation_text="Min %8", annotation_position="bottom left")
 
         fig_ret.update_layout(
-            title="Individual Percent Retained Chart",
-            xaxis_title="Sieve Size",
-            yaxis_title="% Retained On",
+            title="Individual Percent Retained (TSE Serisi)",
+            xaxis_title="Elek Boyutu (mm)",
+            yaxis_title="Kalan Yüzde (%)",
             height=400,
             margin=dict(l=20, r=20, t=40, b=20),
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+            yaxis=dict(range=[0, max(max(retained or [0]), 25)])
         )
         st.plotly_chart(fig_ret, use_container_width=True)
+        st.caption("Not: Betonun işlenebilirliği için her elekte %8-18 arası malzeme kalması (8-18 kuralı) tercih edilir.")
 
     with g_col2:
         # 2. Shilstone İşlenebilirlik Grafiği (Visual Update)
