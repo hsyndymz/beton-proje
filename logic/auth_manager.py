@@ -11,7 +11,15 @@ def hash_password(password):
 def load_users():
     if os.path.exists(USERS_FILE):
         with open(USERS_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+            users = json.load(f)
+            # Backward compatibility
+            modified = False
+            for u in users:
+                if "status" not in users[u]:
+                    users[u]["status"] = "active"
+                    modified = True
+            if modified: save_users(users)
+            return users
     return {}
 
 def save_users(users):
@@ -21,26 +29,29 @@ def save_users(users):
 def check_login(username, password):
     users = load_users()
     if username in users:
-        stored_h = users[username]["password"]
+        u_data = users[username]
+        if u_data.get("status") != "active":
+            return {"error": "Hesabınız henüz onaylanmamış."}
+        stored_h = u_data["password"]
         if stored_h == hash_password(password) or stored_h == "hashed_placeholder":
-            # İlk kurulumda placeholder'ı gerçek hash ile güncelle
             if stored_h == "hashed_placeholder":
                 users[username]["password"] = hash_password(password)
                 save_users(users)
-            return users[username]
+            return u_data
     return None
 
-def add_user(username, password, role="User", full_name=""):
+def add_user(username, password, role="User", full_name="", status="active"):
     users = load_users()
-    if username in users:
-        return False, "Bu kullanıcı zaten mevcut."
+    if username in users: return False, "Bu kullanıcı zaten mevcut."
     users[username] = {
         "password": hash_password(password),
-        "role": role,
-        "full_name": full_name
+        "role": role, "full_name": full_name, "status": status
     }
     save_users(users)
-    return True, "Kullanıcı başarıyla eklendi."
+    return True, "Kullanıcı eklendi."
+
+def register_user(username, password, full_name):
+    return add_user(username, password, role="User", full_name=full_name, status="pending")
 
 def delete_user(username):
     users = load_users()

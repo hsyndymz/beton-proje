@@ -15,7 +15,7 @@ from logic.ai_model import train_prediction_model, predict_strength_ai, generate
 from logic.report_generator import generate_kgm_raporu
 from logic.state_manager import init_session_state
 from logic.modular_tabs import render_tab_1, render_tab_2, render_tab_3, render_tab_4, render_tab_5, render_tab_management
-from logic.auth_manager import check_login
+from logic.auth_manager import check_login, register_user
 
 # --- SAYFA YAPILANDIRMASI ---
 st.set_page_config(page_title="BetaMix AI - KGM Beton Dizayn", layout="wide", initial_sidebar_state="expanded")
@@ -29,22 +29,43 @@ if not st.session_state['authenticated']:
     # Giriş ekranında sidebar'ı gizle
     st.markdown("<style>section[data-testid='stSidebar'] {display: none;}</style>", unsafe_allow_html=True)
     
-    col_l1, col_l2, col_l3 = st.columns([1, 1, 1])
+    col_l1, col_l2, col_l3 = st.columns([1, 1.5, 1])
     with col_l2:
-        st.markdown('<div style="padding: 2rem; border-radius: 10px; background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">', unsafe_allow_html=True)
+        st.markdown('<div style="padding: 1rem; border-radius: 10px; background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">', unsafe_allow_html=True)
         st.title("🏗️ BETON TASARIMA GİRİŞ")
-        user_input = st.text_input("Kullanıcı Adı")
-        pass_input = st.text_input("Şifre", type="password")
-        if st.button("Giriş Yap", use_container_width=True):
-            user_data = check_login(user_input, pass_input)
-            if user_data:
-                st.session_state['authenticated'] = True
-                st.session_state['user_info'] = user_data
-                st.session_state['username'] = user_input
-                st.success("Giriş başarılı! Yükleniyor...")
-                st.rerun()
-            else:
-                st.error("Hatalı kullanıcı adı veya şifre!")
+        
+        l_tab, r_tab = st.tabs(["🔑 Giriş Yap", "📝 Kaydol (Üyelik Başvurusu)"])
+        
+        with l_tab:
+            user_input = st.text_input("Kullanıcı Adı", key="login_user")
+            pass_input = st.text_input("Şifre", type="password", key="login_pass")
+            if st.button("Sisteme Gir", use_container_width=True):
+                login_res = check_login(user_input, pass_input)
+                if isinstance(login_res, dict) and "error" in login_res:
+                    st.warning(f"⏳ {login_res['error']}")
+                elif login_res:
+                    st.session_state['authenticated'] = True
+                    st.session_state['user_info'] = login_res
+                    st.session_state['username'] = user_input
+                    st.success("Giriş başarılı! Yükleniyor...")
+                    st.rerun()
+                else:
+                    st.error("Hatalı kullanıcı adı veya şifre!")
+        
+        with r_tab:
+            reg_name = st.text_input("Ad Soyad", key="reg_name")
+            reg_user = st.text_input("Kullanıcı Adı", key="reg_user")
+            reg_pass = st.text_input("Şifre", type="password", key="reg_pass")
+            if st.button("Başvuru Yap", use_container_width=True):
+                if not reg_name or not reg_user or not reg_pass:
+                    st.error("Lütfen tüm alanları doldurun!")
+                else:
+                    success, msg = register_user(reg_user, reg_pass, reg_name)
+                    if success:
+                        st.success("✅ Başvurunuz başarıyla alındı! SuperAdmin onayı sonrası giriş yapabilirsiniz.")
+                        st.info("💡 Genellikle 24 saat içinde onaylanır.")
+                    else:
+                        st.error(msg)
         st.markdown('</div>', unsafe_allow_html=True)
     st.stop()
 

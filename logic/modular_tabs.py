@@ -702,8 +702,31 @@ def render_tab_5(is_admin=False):
         st.warning("Eğitim havuzu şu an boş. Veri ekleyerek başlayın.")
 
 def render_tab_management():
-    from logic.auth_manager import load_users, add_user, delete_user
+    from logic.auth_manager import load_users, add_user, delete_user, save_users
     st.subheader("👥 Kullanıcı ve Yetki Yönetimi")
+    
+    users = load_users()
+    
+    # 0. Bekleyen Onaylar
+    pending_users = {u: d for u, d in users.items() if d.get("status") == "pending"}
+    if pending_users:
+        st.markdown("### ⏳ Bekleyen Üyelik Onayları")
+        for p_uname, p_data in pending_users.items():
+            with st.container():
+                c1, c2, c3, c4 = st.columns([2, 2, 1, 1])
+                c1.write(f"**{p_data.get('full_name')}** (@{p_uname})")
+                c2.info("Onay bekliyor...")
+                if c3.button("✅ Onayla", key=f"app_{p_uname}"):
+                    users[p_uname]["status"] = "active"
+                    save_users(users)
+                    st.success(f"{p_uname} onaylandı.")
+                    st.rerun()
+                if c4.button("❌ Reddet", key=f"rej_{p_uname}"):
+                    del users[p_uname]
+                    save_users(users)
+                    st.warning(f"{p_uname} başvurusu reddedildi.")
+                    st.rerun()
+        st.markdown("---")
     
     users = load_users()
     
