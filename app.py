@@ -74,12 +74,17 @@ if not st.session_state['authenticated']:
 if 'active_plant' not in st.session_state:
     st.markdown("<style>section[data-testid='stSidebar'] {display: none;}</style>", unsafe_allow_html=True)
     user_info = st.session_state['user_info']
-    user_plants = user_info.get('assigned_plants', ['merkez'])
     
     plants_db = {}
     if os.path.exists("data/plants.json"):
         with open("data/plants.json", "r", encoding="utf-8") as f:
             plants_db = json.load(f)
+            
+    # SuperAdmin istisnası: Tüm santrallere erişim sağla
+    if user_info.get('role') == 'SuperAdmin':
+        user_plants = list(plants_db.keys())
+    else:
+        user_plants = user_info.get('assigned_plants', ['merkez'])
     
     options = {p_id: plants_db.get(p_id, {"name": p_id})["name"] for p_id in user_plants}
     
