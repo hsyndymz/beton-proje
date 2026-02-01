@@ -1025,7 +1025,22 @@ def render_tab_management(is_super_admin=False):
     # 2.5. Kullanıcı Bilgilerini Düzenle (Sadece SuperAdmin veya Admin kısıtlı)
     if is_super_admin:
         with st.expander("📝 Kullanıcı Bilgilerini Düzenle"):
-            edit_u = st.selectbox("Düzenlenecek Kullanıcı", list(users.keys()), key="edit_u_sel")
+            def sync_user_edit_fields():
+                selected_u = st.session_state.get("edit_u_sel")
+                if selected_u and selected_u in users:
+                    u_data = users[selected_u]
+                    st.session_state["edit_u_f"] = u_data.get('full_name', '')
+                    st.session_state["edit_u_r"] = u_data.get('role', 'User')
+                    st.session_state["edit_u_s"] = u_data.get('status', 'active')
+                    st.session_state["edit_u_p"] = u_data.get('assigned_plants', ["merkez"])
+
+            edit_u = st.selectbox("Düzenlenecek Kullanıcı", list(users.keys()), 
+                                  key="edit_u_sel", on_change=sync_user_edit_fields)
+            
+            # İlk yüklemede veriyi çek (Eğer state boşsa)
+            if edit_u and "edit_u_f" not in st.session_state:
+                sync_user_edit_fields()
+
             if edit_u:
                 u_data = users[edit_u]
                 col_e1, col_e2 = st.columns(2)
