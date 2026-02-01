@@ -744,30 +744,30 @@ def render_tab_management(is_super_admin=False):
     st.table(pd.DataFrame(df_users))
     
     # 1.5. Santral Yönetimi (Sadece SuperAdmin)
+    plants = santralleri_yukle()
     if is_super_admin:
         st.markdown("---")
         st.markdown("### 🏭 Santral Yönetimi")
-    plants = santralleri_yukle()
-    
-    with st.expander("🏢 Mevcut Santraller ve Profiller"):
-        # Santralleri tablo olarak göster
-        df_plants = [{"ID": pid, "Ad": pd["name"], "Konum": pd.get("location", "-")} for pid, pd in plants.items()]
-        st.table(pd.DataFrame(df_plants))
         
-        st.markdown("#### ➕ Yeni Santral Ekle")
-        c_p1, c_p2 = st.columns(2)
-        with c_p1:
-            new_pid = st.text_input("Santral ID (Örn: ankara_1)", key="new_pid")
-            new_pname = st.text_input("Santral Adı", key="new_pname")
-        with c_p2:
-            new_ploc = st.text_input("Konum/Şehir", key="new_ploc")
-            if st.button("🚀 Santrali Kaydet", use_container_width=True):
-                if new_pid and new_pname:
-                    santral_kaydet(new_pid, {"name": new_pname, "location": new_ploc})
-                    st.success(f"Santral '{new_pname}' eklendi.")
-                    st.rerun()
-                else: st.error("ID ve Ad zorunludur.")
-        st.markdown("---")
+        with st.expander("🏢 Mevcut Santraller ve Profiller"):
+            # Santralleri tablo olarak göster
+            df_plants = [{"ID": pid, "Ad": pd["name"], "Konum": pd.get("location", "-")} for pid, pd in plants.items()]
+            st.table(pd.DataFrame(df_plants))
+            
+            st.markdown("#### ➕ Yeni Santral Ekle")
+            c_p1, c_p2 = st.columns(2)
+            with c_p1:
+                new_pid = st.text_input("Santral ID (Örn: ankara_1)", key="new_pid")
+                new_pname = st.text_input("Santral Adı", key="new_pname")
+            with c_p2:
+                new_ploc = st.text_input("Konum/Şehir", key="new_ploc")
+                if st.button("🚀 Santrali Kaydet", use_container_width=True):
+                    if new_pid and new_pname:
+                        santral_kaydet(new_pid, {"name": new_pname, "location": new_ploc})
+                        st.success(f"Santral '{new_pname}' eklendi.")
+                        st.rerun()
+                    else: st.error("ID ve Ad zorunludur.")
+            st.markdown("---")
     else:
         st.info("💡 Santral tanımlama yetkisi sadece SuperAdmin'e aittir.")
     
