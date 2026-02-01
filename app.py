@@ -331,14 +331,26 @@ current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
 
 # --- ANA PANEL ---
 tab_titles = ["📊 Malzeme Kütüphanesi", "📈 Karışım Dizaynı", "📉 Şantiye QC", "📄 Raporlar & Çıktı"]
+if is_admin:
+    tab_titles.append("🏢 Kurumsal Dashboard")
 if is_super_admin:
     tab_titles.extend(["🧠 AI Eğitim Merkezi", "👥 Kullanıcı Yönetimi"])
 
 tabs = st.tabs(tab_titles)
 tab1, tab2, tab4, tab3 = tabs[0:4]
+
+# Dinamik Tab Ataması
+next_idx = 4
+tab_corp = None
+if is_admin:
+    tab_corp = tabs[next_idx]
+    next_idx += 1
+
+tab_ai_train = None
+tab_user_mgmt = None
 if is_super_admin:
-    tab5 = tabs[4]
-    tab6 = tabs[5]
+    tab_ai_train = tabs[next_idx]
+    tab_user_mgmt = tabs[next_idx + 1]
 
 with tab1:
     current_rhos, current_was, current_las, current_mbs, computed_passing, active_mats, all_ri_values = render_tab_1(elek_serisi)
@@ -373,12 +385,31 @@ with tab4:
 with tab3:
     render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT)
 
-if is_super_admin:
-    with tab5:
+if is_admin and tab_corp:
+    with tab_corp:
         render_tab_5(is_admin=is_admin)
-    with tab6:
-        from logic.modular_tabs import render_tab_management
-        render_tab_management(is_super_admin=is_super_admin)
+
+if is_super_admin:
+    if tab_ai_train:
+        with tab_ai_train:
+            st.subheader("🧠 Global AI Eğitim Merkezi")
+            st.info("Bu bölümdeki veriler tüm santrallerden gelen kırım sonuçlarını içerir.")
+            pool_data = havuz_yukle()
+            if pool_data:
+                df_pool = pd.DataFrame(pool_data)
+                st.write(f"Sistemdeki Toplam Eğitim Datası: {len(df_pool)}")
+                if st.button("🚀 Modeli Yeniden Eğit (Deep Learning)"):
+                    with st.spinner("Model optimize ediliyor..."):
+                        train_prediction_model(pool_data)
+                        st.success("Yeni model başarıyla eğitildi!")
+                st.dataframe(df_pool.tail(10))
+            else:
+                st.warning("Henüz global havuzda veri birikmemiş.")
+                
+    if tab_user_mgmt:
+        with tab_user_mgmt:
+            from logic.modular_tabs import render_tab_management
+            render_tab_management(is_super_admin=is_super_admin)
     
     # AI Report Processing (If requested from the tab)
     if 'ai_report_prompt' in st.session_state:
@@ -397,8 +428,7 @@ if is_super_admin:
             except Exception as e:
                 st.error(f"AI Hatası: {e}")
 
-# Excel Rapor (Sidebar'a veya Tab 3'e taşındı ama butonu burada tutabiliriz de, 
-# kullanıcı talebine göre sidebar'a ekliyorum)
+# Excel Rapor Download
 with st.sidebar:
     st.markdown("---")
     if st.button("📥 EXCEL RAPOR İNDİR"):
