@@ -291,6 +291,8 @@ with tab4:
         "C40/50": {"max_wc": 0.45, "min_mpa": 50},
         "C50/60": {"max_wc": 0.40, "min_mpa": 60}
     }
+    render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_history, is_admin=is_admin)
+
 with tab3:
     render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT)
 
