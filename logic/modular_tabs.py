@@ -1,4 +1,5 @@
 import streamlit as st
+import datetime
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
@@ -413,21 +414,26 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
     s_mix = snap['mix_data']
     decision = snap['decision']
 
-    # --- 1. ÖN BİLGİLER VE UYGUNLUK KARTI ---
-    st.markdown("### 📋 Dizayn Özeti ve Teknik Uygunluk")
+    # --- 1. ÖN BİLGİLER VE RAPOR METADATA ---
+    st.markdown("### 📋 Resmî Rapor Bilgileri")
     
-    # Karar Kartı
-    status_colors = {"RED": "#ffebee", "YELLOW": "#fffde7", "GREEN": "#e8f5e9"}
-    status_borders = {"RED": "red", "YELLOW": "orange", "GREEN": "green"}
-    bg_color = status_colors.get(decision['status'], "#f5f5f5")
-    border_color = status_borders.get(decision['status'], "#ccc")
+    with st.expander("✒️ Rapor Kapak Bilgilerini Düzenle", expanded=True):
+        c_meta1, c_meta2 = st.columns(2)
+        with c_meta1:
+            employer = st.text_input("İdare Adı", value="T.C. ULAŞTIRMA VE ALTYAPI BAKANLIĞI", key="rep_employer")
+            contractor = st.text_input("Yüklenici Adı", value="YÜKLENİCİ FİRMA A.Ş.", key="rep_contractor")
+        with c_meta2:
+            revision_no = st.text_input("Revizyon No", value="R0", key="rep_rev")
+            report_date = st.date_input("Rapor Tarihi", value=datetime.datetime.now())
     
-    st.markdown(f"""
-    <div style='background-color:{bg_color}; padding:20px; border-radius:12px; border:2px solid {border_color};'>
-        <h4 style='margin:0; color:#333;'>Sonuç: {decision['title']}</h4>
-        <p style='margin:10px 0 0 0; font-size:1.1rem;'><b>{decision['main_msg']}</b></p>
-    </div>
-    """, unsafe_allow_html=True)
+    # Snapshot'ı metadata ile güncelle
+    snap['employer'] = employer
+    snap['contractor'] = contractor
+    snap['revision'] = revision_no
+    snap['report_date'] = report_date.strftime("%d-%m-%Y")
+
+    st.markdown("---")
+    st.markdown("#### 📑 Dizayn Özeti ve Teknik Uygunluk")
 
     # --- YENİ: ANALİTİK VERİ İNCELEMESİ (Sistematik Analiz) ---
     st.markdown("#### 🔬 Analitik Veri İncelemesi")
@@ -520,10 +526,31 @@ def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_his
     proj_data = all_data_json.get(proje, {})
     qc_history = proj_data.get("qc_history", [])
     current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
+    
+    # --- SAHA AKLI (LEARNING SYSTEM) ---
     global_qc_hist = get_global_qc_history()
     plant_class, plant_color = classify_plant(global_qc_hist)
+    
+    # Dinamik Saha Faktörü Gelişimi
+    evolved_factor = evolve_site_factor(qc_history, current_site_factor)
+    if evolved_factor != current_site_factor:
+        tesis_faktor_kaydet(tesis_adi, evolved_factor, plant_id=active_p)
+        current_site_factor = evolved_factor
 
-    st.info(f"**🏭 Santral Profili (Global AI):** {plant_class} | **{tesis_adi} Saha Faktörü:** x{current_site_factor:.3f}")
+    st.info(f"**🏭 Santral Profili (Saha Aklı):** {plant_class} | **{tesis_adi} Saha Faktörü:** x{current_site_factor:.3f}")
+
+    # Akıllı Uyarılar Paneli
+    smart_alerts = generate_smart_alerts(qc_history, proj_data)
+    if smart_alerts:
+        with st.container():
+            st.markdown("### 🧠 Mühendislik Akıllı Uyarıları")
+            for alert in smart_alerts:
+                with st.expander(alert['title']):
+                    st.write(alert['msg'])
+                    if st.button(f"🔍 Neden?", key=f"why_{alert['id']}"):
+                        reason = explain_ai_logic(alert['id'])
+                        st.info(f"**AI Analizi:** {reason}")
+                    st.caption(f"Dayanak: {alert['rationale']}")
 
     # --- 1. VERİ GİRİŞ FORMU ---
     with st.expander("➕ Yeni Numune Kaydı / Kırım Verisi Ekle", expanded=len(qc_history) == 0):
