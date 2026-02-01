@@ -15,13 +15,13 @@ from logic.engineering import (
 )
 from logic.ai_model import train_prediction_model, predict_strength_ai, generate_suggestions
 from logic.report_generator import generate_kgm_raporu
-from logic.state_manager import init_session_state
+from logic.state_manager import init_session_state, SessionStateInitializer
 from logic.modular_tabs import render_tab_1, render_tab_2, render_tab_3, render_tab_4, render_tab_5, render_tab_management
 from logic.auth_manager import check_login, register_user
 
 # --- SAYFA YAPILANDIRMASI ---
 st.set_page_config(page_title="Beton Tasarım Programı", layout="wide", initial_sidebar_state="expanded")
-init_session_state()
+init_session_state(force=False)
 
 # --- LOGIN SİSTEMİ ---
 if 'authenticated' not in st.session_state:
@@ -47,6 +47,8 @@ if not st.session_state['authenticated']:
                 if isinstance(login_res, dict) and "error" in login_res:
                     st.warning(f"⏳ {login_res['error']}")
                 elif login_res:
+                    # Temizlik: Yeni kullanıcı için tertemiz bir sayfa
+                    st.session_state.clear()
                     st.session_state['authenticated'] = True
                     st.session_state['user_info'] = login_res
                     st.session_state['username'] = user_input
@@ -107,6 +109,9 @@ if 'active_plant' not in st.session_state:
                                   format_func=lambda x: options[x])
         if st.button("Santrale Giriş Yap", use_container_width=True):
             st.session_state['active_plant'] = selected_p
+            # KRİTİK: Santral girişi anında tüm eski kullanıcı verilerini SİL ve Varsayılanları ZORLA yükle
+            SessionStateInitializer.clear_all_project_state(exclude_selection=False)
+            init_session_state(force=True)
             st.rerun()
         st.markdown('</div>', unsafe_allow_html=True)
     st.stop()
@@ -213,6 +218,28 @@ def btn_optimize_click():
     st.info("Optimizasyon motoru başlatılıyor (TS 802)...")
     # Bu fonksiyon state update yapar
 
+# --- PROJE SEÇİMİ VE YÜKLEME MANTIĞI (TOP LEVEL) ---
+active_p = st.session_state.get('active_plant', 'merkez')
+all_data = veriyi_yukle(plant_id=active_p)
+project_list = sorted(list(all_data.keys()))
+if not project_list: project_list = ["Yeni Proje"]
+
+# 1. Seçim ve State Kontrolü
+# NOT: Her santral için ayrı bir selectbox key'i kullanarak widget çakışmasını önlüyoruz
+sel_key = f"proj_selector_{active_p}"
+current_sel = st.session_state.get(sel_key)
+
+if not current_sel or current_sel not in project_list:
+    current_sel = project_list[0]
+    st.session_state[sel_key] = current_sel
+
+# 2. Yükleme Tetikleyici
+current_id = f"{active_p}_{current_sel}"
+if st.session_state.get('loaded_project_id') != current_id:
+    SessionStateInitializer.load_project_data(current_sel, plant_id=active_p)
+    st.session_state['loaded_project_id'] = current_id
+    st.rerun()
+
 # --- SIDEBAR & PROJE YÖNETİMİ ---
 with st.sidebar:
     st.image("assets/logo.jpg", width=120)
@@ -221,46 +248,35 @@ with st.sidebar:
     # Kullanıcı Bilgisi ve Çıkış
     st.caption(f"👤 {user_info.get('full_name', st.session_state['username'])} ({user_info.get('role', 'User')})")
     if st.button("🚪 Çıkış Yap", use_container_width=True):
-        st.session_state['authenticated'] = False
+        st.session_state.clear()
         st.rerun()
     
     if st.button("🔄 Santral Değiştir", use_container_width=True):
         if 'active_plant' in st.session_state:
             del st.session_state['active_plant']
+            from logic.state_manager import SessionStateInitializer
+            SessionStateInitializer.clear_all_project_state()
             st.rerun()
         
     st.markdown("---")
     
-    # API Anahtarları
+    # API Ayarları
     with st.expander("🔑 API Ayarları"):
         google_key = st.text_input("Google API Key", type="password")
         deepseek_key = st.text_input("DeepSeek Key", type="password")
         selected_provider = st.selectbox("AI Sağlayıcı", ["Google Gemini", "DeepSeek (Beta)"])
 
-    # Proje Seçimi ve Yükleme Mantığı
-    def project_load_callback():
-        # Session state'den güncel seçili projeyi al ve yükle
-        if 'proj_selector' in st.session_state:
-            from logic.state_manager import SessionStateInitializer
-            active_p = st.session_state.get('active_plant', 'merkez')
-            SessionStateInitializer.load_project_data(st.session_state.proj_selector, plant_id=active_p)
-
-    active_p = st.session_state.get('active_plant', 'merkez')
-    all_data = veriyi_yukle(plant_id=active_p)
-    project_list = sorted(list(all_data.keys()))
-    if not project_list: project_list = ["Yeni Proje"]
-    
-    proje = st.selectbox(
-        "📁 Proje Seçiniz", 
-        project_list, 
-        key="proj_selector", 
-        on_change=project_load_callback
-    )
-    
-    # --- KRİTİK FİKS: Sadece proje ismi değiştiğinde veya ilk yüklemede veriyi çek ---
-    if st.session_state.get('loaded_project_name') != proje:
-        project_load_callback()
-        st.session_state['loaded_project_name'] = proje
+    c_sel1, c_sel2 = st.columns([4, 1])
+    with c_sel1:
+        proje = st.selectbox(
+            "📁 Proje Seçiniz", 
+            project_list, 
+            key=f"proj_selector_{active_p}",
+            help="Çalışmak istediğiniz projeyi seçin."
+        )
+    with c_sel2:
+        if st.button("🔄", help="Projeleri Yenile"):
+            st.rerun()
     
     # Yeni Proje Girişi ve İşlemler
     new_proj_name = st.text_input("🆕 Yeni Proje Adı")
@@ -476,6 +492,9 @@ with st.sidebar:
 if st.session_state.get('trigger_save'):
     p_to_save = st.session_state.pop('save_target_name', proje)
     active_p = st.session_state.get('active_plant', 'merkez')
+    
+    # Kayıt sonrası seçimi korumak için selector key'ini güncelle
+    st.session_state[f"proj_selector_{active_p}"] = p_to_save
     
     # Mevcut veriyi kontrol et (QC geçmişini korumak için)
     existing_all_data = veriyi_yukle(plant_id=active_p)
