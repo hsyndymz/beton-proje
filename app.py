@@ -34,7 +34,7 @@ if not st.session_state['authenticated']:
     col_l1, col_l2, col_l3 = st.columns([1, 1.5, 1])
     with col_l2:
         st.markdown('<div style="padding: 1rem; border-radius: 10px; background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">', unsafe_allow_html=True)
-        st.image("https://upload.wikimedia.org/wikipedia/tr/b/bb/KGM_Logo.png", width=120)
+        st.image("assets/logo.jpg", width=150)
         st.title("🏗️ BETON TASARIM PROGRAMI")
         
         l_tab, r_tab = st.tabs(["🔑 Giriş Yap", "📝 Kaydol (Üyelik Başvurusu)"])
@@ -187,7 +187,7 @@ def btn_optimize_click():
 
 # --- SIDEBAR & PROJE YÖNETİMİ ---
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/tr/b/bb/KGM_Logo.png", width=100)
+    st.image("assets/logo.jpg", width=120)
     st.title("PROJE DETAYI")
     
     # Kullanıcı Bilgisi ve Çıkış
