@@ -51,7 +51,15 @@ if not st.session_state['authenticated']:
                     st.rerun()
                 else:
                     st.error("Hatalı kullanıcı adı veya şifre!")
-        
+        with r_tab:
+            reg_name = st.text_input("Ad Soyad", key="reg_name")
+            reg_user = st.text_input("Kullanıcı Adı", key="reg_user")
+            reg_pass = st.text_input("Şifre", type="password", key="reg_pass")
+            if st.button("Başvuru Yap", use_container_width=True):
+                if not reg_name or not reg_user or not reg_pass:
+                    st.error("Lütfen tüm alanları doldurun!")
+                else:
+                    success, msg = register_user(reg_user, reg_pass, reg_name)
                     if success:
                         st.success("✅ Başvurunuz başarıyla alındı! SuperAdmin onayı sonrası giriş yapabilirsiniz.")
                         st.info("💡 Genellikle 24 saat içinde onaylanır.")
