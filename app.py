@@ -33,12 +33,10 @@ if not st.session_state['authenticated']:
     
     col_l1, col_l2, col_l3 = st.columns([1, 1.5, 1])
     with col_l2:
-        st.markdown('<div style="text-align: center; margin-bottom: -50px;">', unsafe_allow_html=True)
-        st.image("assets/logo.jpg", width=180)
-        st.markdown('</div>', unsafe_allow_html=True)
-        
-        st.markdown('<div style="padding: 1rem; border-radius: 10px; background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">', unsafe_allow_html=True)
-        st.markdown('<h2 style="white-space: nowrap; margin-bottom: 20px;">🏗️ BETON TASARIM PROGRAMI</h2>', unsafe_allow_html=True)
+        st.markdown('<div style="padding: 1.5rem; border-radius: 12px; background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">', unsafe_allow_html=True)
+        # Logoyu panelin içine aldık ve dikey hizalamayı iyileştirdik
+        st.image("assets/logo.jpg", width=160)
+        st.markdown('<h2 style="white-space: nowrap; margin-top: 10px; margin-bottom: 25px;">🏗️ BETON TASARIM PROGRAMI</h2>', unsafe_allow_html=True)
         
         l_tab, r_tab = st.tabs(["🔑 Giriş Yap", "📝 Kaydol (Üyelik Başvurusu)"])
         
