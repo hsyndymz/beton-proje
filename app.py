@@ -447,23 +447,66 @@ with tab2:
     )
 
 with tab_comp:
-    st.subheader("🔬 Deneme ve Versiyon Karşılaştırması")
+    st.subheader("🔬 Deneme Karşılaştırma ve Elek Analizi")
     p_data_comp = all_data.get(proje, {})
     if isinstance(p_data_comp, dict) and "trials" in p_data_comp:
         trials = p_data_comp["trials"]
-        comp_rows = []
+        
+        # 1. Grafiksel Karşılaştırma (Elek Eğrileri)
+        st.write("📈 **Elek Analizi Eğrileri (TS 802)**")
+        fig_comp = go.Figure()
+        
+        # Standart Limitleri Çiz
+        alt_std, ust_std = get_std_limits(dmax_val, curve_type_val, elek_serisi)
+        fig_comp.add_trace(go.Scatter(x=elek_serisi, y=alt_std, name="Alt Limit", line=dict(color='red', dash='dash')))
+        fig_comp.add_trace(go.Scatter(x=elek_serisi, y=ust_std, name="Üst Limit", line=dict(color='red', dash='dash')))
+
+        all_passing_data = {}
         for t_name, t_val in trials.items():
-            row = {
-                "Deneme Adı": t_name,
-                "Çimento": t_val.get("cim", 0),
-                "Su": t_val.get("su", 0),
-                "W/C": round(t_val.get("su",0)/t_val.get("cim",1), 2) if t_val.get("cim") else 0,
-                "Katkı": t_val.get("kat", 0),
-                "Hava %": t_val.get("hava", 0),
-                "Ratios (%)": f"{t_val.get('p',[0,0,0,0])}"
-            }
-            comp_rows.append(row)
-        st.table(pd.DataFrame(comp_rows))
+            # Her deneme için karışım gradasyonunu hesapla
+            t_active = t_val.get("active", [True, True, True, True])
+            t_ratios = t_val.get("p", [25, 25, 25, 25])
+            t_ri = t_val.get("ri", {})
+            
+            # Karışım gradasyonu hesapla
+            trial_total_passing = np.zeros(len(elek_serisi))
+            for i in range(4):
+                if t_active[i]:
+                    mat_ri = t_ri.get(str(i), [0]*len(elek_serisi))
+                    trial_total_passing += np.array(mat_ri) * (t_ratios[i] / 100.0)
+            
+            all_passing_data[t_name] = trial_total_passing
+            fig_comp.add_trace(go.Scatter(x=elek_serisi, y=trial_total_passing, name=t_name, mode='lines+markers'))
+
+        fig_comp.update_layout(xaxis_type="log", xaxis_title="Elek Göz Açıklığı (mm)", yaxis_title="Geçen %", height=500)
+        st.plotly_chart(fig_comp, use_container_width=True)
+
+        # 2. Tablo Karşılaştırma
+        with st.expander("📊 Detaylı Sayısal Karşılaştırma (Elek Değerleri)", expanded=True):
+            # Elek tablosu
+            elek_rows = []
+            for i, e_size in enumerate(elek_serisi):
+                row = {"Elek (mm)": e_size}
+                for t_name, t_passing in all_passing_data.items():
+                    row[t_name] = f"%{t_passing[i]:.1f}"
+                elek_rows.append(row)
+            st.dataframe(pd.DataFrame(elek_rows), use_container_width=True)
+            
+            # Reçete tablosu
+            st.divider()
+            st.write("🧱 **Reçete ve Malzeme Karşılaştırması**")
+            comp_rows = []
+            for t_name, t_val in trials.items():
+                row = {
+                    "Deneme Adı": t_name,
+                    "Çimento": t_val.get("cim", 0),
+                    "Su": t_val.get("su", 0),
+                    "W/C": round(t_val.get("su",0)/t_val.get("cim",1), 2) if t_val.get("cim") else 0,
+                    "Katkı": t_val.get("kat", 0),
+                    "Ratios (%)": f"{t_val.get('p',[0,0,0,0])}"
+                }
+                comp_rows.append(row)
+            st.table(pd.DataFrame(comp_rows))
     else:
         st.info("Bu proje için henüz birden fazla deneme kaydedilmemiş.")
 
