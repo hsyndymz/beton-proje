@@ -404,10 +404,11 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
             for r in decision.get('rationales', []):
                 st.info(f"💡 {r}")
 
-    # --- 2. KGM RAPORU (RESMİ) ---
+    # --- 2. RESMİ SANTRAL RAPORU ---
     st.divider()
-    st.subheader("🇹🇷 Resmi Beton Kontrol Raporu (KGM Formatı)")
-    if st.button("📄 KGM RAPORU (PDF/HTML) OLUŞTUR", use_container_width=True):
+    plant_display_name = snap.get('plant_name', 'KGM')
+    st.subheader(f"🇹🇷 {plant_display_name} Resmi Beton Kontrol Raporu")
+    if st.button(f"📄 {plant_display_name.upper()} RAPORU (PDF/HTML) OLUŞTUR", use_container_width=True):
         try:
             html_report = generate_kgm_raporu(snap)
             st.components.v1.html(html_report, height=600, scrolling=True)
