@@ -6,3 +6,5 @@ google-generativeai
 openai
 xlsxwriter
 scipy
+openpyxl
+requests
