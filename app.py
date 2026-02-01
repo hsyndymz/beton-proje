@@ -50,7 +50,8 @@ if not st.session_state['authenticated']:
 
 # Giriş yapılmışsa devam et...
 user_info = st.session_state['user_info']
-is_admin = user_info.get('role') == "Admin"
+is_admin = user_info.get('role') in ["Admin", "SuperAdmin"]
+is_super_admin = user_info.get('role') == "SuperAdmin"
 
 # CSS: Kararlı Mühendislik Arayüzü
 st.markdown("""
@@ -252,13 +253,14 @@ deepseek_client = OpenAI(api_key=deepseek_key, base_url="https://api.deepseek.co
 current_site_factor = tesis_faktor_yukle(tesis_adi)
 
 # --- ANA PANEL ---
-tab_titles = ["📊 Malzeme Kütüphanesi", "📈 Karışım Dizaynı", "📉 Şantiye QC", "🧠 AI Eğitim Merkezi", "📄 Raporlar & Çıktı"]
-if is_admin:
-    tab_titles.append("👥 Kullanıcı Yönetimi")
+tab_titles = ["📊 Malzeme Kütüphanesi", "📈 Karışım Dizaynı", "📉 Şantiye QC", "📄 Raporlar & Çıktı"]
+if is_super_admin:
+    tab_titles.extend(["🧠 AI Eğitim Merkezi", "👥 Kullanıcı Yönetimi"])
 
 tabs = st.tabs(tab_titles)
-tab1, tab2, tab4, tab5, tab3 = tabs[0:5]
-if is_admin:
+tab1, tab2, tab4, tab3 = tabs[0:4]
+if is_super_admin:
+    tab5 = tabs[4]
     tab6 = tabs[5]
 
 with tab1:
@@ -289,15 +291,12 @@ with tab4:
         "C40/50": {"max_wc": 0.45, "min_mpa": 50},
         "C50/60": {"max_wc": 0.40, "min_mpa": 60}
     }
-    render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_history, is_admin=is_admin)
-
-with tab5:
-    render_tab_5(is_admin=is_admin)
-
 with tab3:
     render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT)
 
-if is_admin:
+if is_super_admin:
+    with tab5:
+        render_tab_5(is_admin=is_admin)
     with tab6:
         from logic.modular_tabs import render_tab_management
         render_tab_management()

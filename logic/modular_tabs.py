@@ -519,6 +519,30 @@ def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_his
             all_data_json[proje] = proj_data
             veriyi_kaydet(proje, proj_data)
             
+            # --- ZENGİN AI OTOMATİK ÖĞRENME (DEEP LEARNING) ---
+            if qc_d28 > 0:
+                try:
+                    pool_data = havuz_yukle()
+                    # Mevcut projenin dizayn verilerini topla
+                    rich_entry = {
+                        "cement": qc_cem, "water": qc_wat,
+                        "ash": proj_data.get("ucucu", 0),
+                        "air": qc_air,
+                        "admixture": proj_data.get("kat", 1.0),
+                        "d28": qc_d28,
+                        "p1": proj_data.get("p", [25]*4)[0],
+                        "p2": proj_data.get("p", [25]*4)[1],
+                        "p3": proj_data.get("p", [25]*4)[2],
+                        "p4": proj_data.get("p", [25]*4)[3],
+                        "target_class": hedef_sinif,
+                        "timestamp": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M"),
+                        "source": f"Auto-From-{proje}"
+                    }
+                    pool_data.append(rich_entry)
+                    havuz_kaydet(pool_data)
+                except Exception as ai_e:
+                    st.error(f"AI Otomatik Öğrenme Hatası: {ai_e}")
+            
             # Saha Faktörü Güncelleme (Opsiyonel/Otomatik)
             if qc_d28 > 0 and qc_pred > 0:
                 new_f = update_site_factor(qc_pred, qc_d28, current_site_factor)
@@ -702,7 +726,7 @@ def render_tab_management():
             new_p = st.text_input("Şifre", type="password", key="new_u_pass")
         with c_u2:
             new_f = st.text_input("Ad Soyad", key="new_u_full")
-            new_r = st.selectbox("Yetki Seviyesi", ["User", "Admin"], key="new_u_role")
+            new_r = st.selectbox("Yetki Seviyesi", ["User", "Admin", "SuperAdmin"], key="new_u_role")
             
         if st.button("✅ Kullanıcıyı Kaydet", use_container_width=True):
             if new_u and new_p:
