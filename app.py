@@ -31,12 +31,11 @@ if not st.session_state['authenticated']:
     # Giriş ekranında sidebar'ı gizle
     st.markdown("<style>section[data-testid='stSidebar'] {display: none;}</style>", unsafe_allow_html=True)
     
-    col_l1, col_l2, col_l3 = st.columns([1, 1.5, 1])
+    col_l1, col_l2, col_l3 = st.columns([1, 1.8, 1])
     with col_l2:
-        st.markdown('<div style="padding: 1.5rem; border-radius: 12px; background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">', unsafe_allow_html=True)
-        # Logoyu panelin içine aldık ve dikey hizalamayı iyileştirdik
+        st.markdown('<div class="login-container">', unsafe_allow_html=True)
         st.image("assets/logo.jpg", width=160)
-        st.markdown('<h2 style="white-space: nowrap; margin-top: 10px; margin-bottom: 25px;">🏗️ BETON TASARIM PROGRAMI</h2>', unsafe_allow_html=True)
+        st.markdown('<h1 style="color: #333; border-bottom: none; display: flex; align-items: center; justify-content: center; gap: 10px;">🏗️ BETON TASARIM PROGRAMI</h1>', unsafe_allow_html=True)
         
         l_tab, r_tab = st.tabs(["🔑 Giriş Yap", "📝 Kaydol (Üyelik Başvurusu)"])
         
@@ -70,6 +69,14 @@ if not st.session_state['authenticated']:
                     else:
                         st.error(msg)
         st.markdown('</div>', unsafe_allow_html=True)
+        
+    # Sağ Alt Bilgi (Footer)
+    st.markdown("""
+        <div class="footer-info">
+            <b>Hazırlayan&Tasarlayan : Hüseyin DUYMAZ</b><br>
+            <b>Bilgi&İrtibat için : 05345435940</b>
+        </div>
+    """, unsafe_allow_html=True)
     st.stop()
 
 # --- SANTRAL SEÇİMİ (Multi-Plant) ---
@@ -112,7 +119,7 @@ is_super_admin = user_info.get('role') == "SuperAdmin"
 # CSS: Kararlı Mühendislik Arayüzü
 st.markdown("""
 <style>
-    .main { background-color: #f5f7fa; }
+    .main { background-color: #ffffff; }
     
     div.stMetric {
         background: white;
@@ -125,7 +132,6 @@ st.markdown("""
     section[data-testid="stSidebar"] {
         background-color: #1e293b !important;
     }
-    /* Sadece etiketler ve düz metinler beyaz olsun */
     section[data-testid="stSidebar"] label, 
     section[data-testid="stSidebar"] p, 
     section[data-testid="stSidebar"] h1, 
@@ -133,7 +139,6 @@ st.markdown("""
         color: #f8fafc !important;
     }
     
-    /* Giriş kutularının içindeki yazıların okunabilir olması için (siyah kalmalı) */
     section[data-testid="stSidebar"] input {
         color: #1e293b !important;
         background-color: white !important;
@@ -141,9 +146,31 @@ st.markdown("""
     
     .stButton button {
         width: 100%;
-        background-color: #3b82f6;
-        color: white;
-        font-weight: 600;
+        background-color: #ffffff;
+        color: #333333;
+        font-weight: 500;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+    }
+    .stButton button:hover {
+        border-color: #3b82f6;
+        color: #3b82f6;
+    }
+
+    /* Giriş Paneli Özel CSS */
+    .login-container {
+        text-align: center;
+        padding: 2rem;
+    }
+    .footer-info {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        text-align: right;
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #000;
     }
 </style>
 """, unsafe_allow_html=True)
