@@ -253,6 +253,9 @@ def classify_plant(records):
                 valid_diffs.append(float(measured) - float(predicted))
     
     if len(valid_diffs) < 5: 
+        # Eğer sistematik sapma ölçülemiyorsa ama havuz verisi varsa 'Global AI' diyelim
+        if len(records) >= 5:
+            return "🧠 Global AI Aktif", "blue"
         return "Veri Yetersiz", "gray"
     
     sigma = np.std(valid_diffs, ddof=1)
