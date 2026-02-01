@@ -238,13 +238,23 @@ def update_site_factor(predicted, measured, old_factor):
     return round(max(0.80, min(1.20, new_factor)), 3)
 
 def classify_plant(records):
+    """
+    Santralin tutarlılığını (standart sapma) ölçer.
+    'records' hem yerel QC geçmişi hem de global havuz verilerini içerebilir.
+    """
     valid_diffs = []
     for r in records:
-        if r.get('measured_mpa') and r.get('predicted_mpa'):
-            if float(r['measured_mpa']) > 0 and float(r['predicted_mpa']) > 0:
-                valid_diffs.append(float(r['measured_mpa']) - float(r['predicted_mpa']))
+        # Hem 'measured_mpa' (eski) hem 'd28' (yeni) desteği
+        measured = r.get('d28') or r.get('measured_mpa')
+        predicted = r.get('predicted_mpa')
+        
+        if measured and predicted:
+            if float(measured) > 0 and float(predicted) > 0:
+                valid_diffs.append(float(measured) - float(predicted))
     
-    if len(valid_diffs) < 5: return "Veri Yetersiz", "gray"
+    if len(valid_diffs) < 5: 
+        return "Veri Yetersiz", "gray"
+    
     sigma = np.std(valid_diffs, ddof=1)
     if sigma < 3.0: return "🟢 A Sınıfı (Güvenilir)", "green"
     elif sigma < 5.0: return "🟡 B Sınıfı (Orta)", "orange"

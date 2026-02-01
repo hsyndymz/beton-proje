@@ -202,7 +202,17 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         active_p = st.session_state.get('active_plant', 'merkez')
         all_qc_data = veriyi_yukle(plant_id=active_p)
         proj_history = all_qc_data.get(proje, {}).get("qc_history", [])
-        model_coeffs, intercept, r2_score = train_prediction_model(proj_history)
+        
+        # --- GLOBAL AI FALLBACK ---
+        # Eğer bu projenin yerel verisi azsa (<5), global havuzdan destek al
+        training_data = proj_history
+        if len(proj_history) < 5:
+            pool_data = havuz_yukle()
+            if pool_data:
+                # Hem yerel (varsa) hem global veriyi birleştir
+                training_data = proj_history + pool_data
+        
+        model_coeffs, intercept, r2_score = train_prediction_model(training_data)
         
         # Karar ve Analiz
         current_inputs = np.array([cimento, su_hedef, ucucu_kul, hava_yuzde, (cimento*katki/100)])

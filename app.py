@@ -163,13 +163,21 @@ TS EN 206: Beton - Özellik, Performans, İmalat ve Uygunluk
 KGM Teknik Şartnamesi Kısım 16: Beton ve Betonarme İşleri
 """
 
-def get_global_qc_history():
+def get_global_qc_history(include_pool=True):
     active_p = st.session_state.get('active_plant', 'merkez')
     all_data = veriyi_yukle(plant_id=active_p)
     global_hist = []
     for p_name, p_data in all_data.items():
         if isinstance(p_data, dict) and "qc_history" in p_data:
             global_hist.extend(p_data["qc_history"])
+    
+    if include_pool:
+        # Global AI Havuzunu da ekle (Yeni santraller için kritik)
+        pool_data = havuz_yukle()
+        # Pool verilerinde predicted_mpa eksik olabilir, 
+        # ancak classify_plant zaten predicted_mpa varsa diff hesaplar.
+        global_hist.extend(pool_data)
+        
     return global_hist
 
 def btn_optimize_click():
