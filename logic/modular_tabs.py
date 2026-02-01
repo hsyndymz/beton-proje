@@ -318,6 +318,30 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             # Litoloji Kartı
             st.info(f"💡 **Litoloji:** {litoloji} karakteristiği inceleniyor.")
 
+        # --- YENİ KTŞ & BETON YOL DENETİMİ (0.063mm ve 4mm) ---
+        st.markdown("##### 🛣️ KTŞ & Beton Yol Gradasyon Hassasiyeti")
+        c_kts1, c_kts2 = st.columns(2)
+        
+        # 0.063mm (Filler) Oranı - Index 12
+        filler_val = karisim_gecen[12]
+        with c_kts1:
+            if filler_val > 3.0:
+                st.error(f"❌ **Filler (<0.063mm):** %{filler_val:.2f} (Max %3 olmalı!)")
+            elif filler_val > 2.0:
+                st.warning(f"⚠️ **Filler (<0.063mm):** %{filler_val:.2f} (Sınırda)")
+            else:
+                st.success(f"✅ **Filler (<0.063mm):** %{filler_val:.2f} (Uygun)")
+        
+        # 4mm (Kum) Oranı - Index 6
+        sand_val = karisim_gecen[6]
+        with c_kts2:
+            if sand_val < 33.0 or sand_val > 42.0:
+                st.error(f"❌ **Kum (<4mm):** %{sand_val:.1f} (KTŞ: %33-42 arası)")
+            elif sand_val < 35.0 or sand_val > 40.0:
+                st.warning(f"⚠️ **Kum (<4mm):** %{sand_val:.1f} (İdeal dışı)")
+            else:
+                st.success(f"✅ **Kum (<4mm):** %{sand_val:.1f} (İdeal)")
+
         # --- 3. DURABİLİTE VE ASR ANALİZİ (YENİ BÖLÜM) ---
         st.markdown("##### 🌋 Durabilite ve ASR Analizi")
         c_dur1, c_dur2 = st.columns(2)
@@ -405,15 +429,36 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
     </div>
     """, unsafe_allow_html=True)
 
-    # Uyarılar ve Gerekçeler
-    if decision['violations'] or decision['warnings']:
-        st.markdown("#### ⚠️ Teknik Uyarılar")
+    # --- YENİ: ANALİTİK VERİ İNCELEMESİ (Sistematik Analiz) ---
+    st.markdown("#### 🔬 Analitik Veri İncelemesi")
+    c_ana1, c_ana2, c_ana3 = st.columns(3)
+    
+    # W/C Verimliliği
+    wc_val = s_mix.get('wc', 0)
+    with c_ana1:
+        st.metric("Su/Çimento Oranı", f"{wc_val:.2f}", delta="-İdeal" if 0.40 <= wc_val <= 0.50 else "Riskli", delta_color="normal")
+    
+    # Filler Oranı
+    filler_val = snap.get('passing', [])[12] if len(snap.get('passing', [])) > 12 else 0
+    with c_ana2:
+        st.metric("Filler Oranı (<0.063)", f"%{filler_val:.2f}", delta="Uygun" if filler_val <= 3.0 else "Yüksek", delta_color="inverse")
+        
+    # Agrega Matrisi (Kum Oranı)
+    sand_val = snap.get('passing', [])[6] if len(snap.get('passing', [])) > 6 else 0
+    with c_ana3:
+        st.metric("Kum Oranı (<4mm)", f"%{sand_val:.1f}", delta="Stabil" if 33 <= sand_val <= 42 else "Dengesiz")
+
+    # Uyarılar ve Gerekçeler (Geliştirildi)
+    if decision['violations'] or decision['warnings'] or decision.get('rationales'):
+        st.markdown("#### ⚠️ Teknik Bulgular ve Gerekçeler")
         for v in decision['violations']: st.error(v)
         for w in decision['warnings']: st.warning(w)
         
-        with st.expander("🔬 Mühendislik Gerekçeleri (Neden?)"):
-            for r in decision.get('rationales', []):
-                st.info(f"💡 {r}")
+        # Mühendislik Gerekçelerini her zaman göster (Kullanıcı Talebi)
+        if decision.get('rationales'):
+            with st.expander("🔬 Derinlemesine Mühendislik Analizi (Neden?)", expanded=True):
+                for r in decision.get('rationales', []):
+                    st.info(f"💡 {r}")
 
     # --- 2. RESMİ SANTRAL RAPORU ---
     st.divider()
@@ -438,28 +483,25 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
         recipe_text = f"Çimento: {snap['recipe']['çimento']}kg, Su: {snap['recipe']['su']}L, Kül: {snap['recipe']['kül']}kg, Katkı: {snap['recipe']['katkı']}kg. Agregalar: {snap['recipe']['agrega_miktarları']}"
         
         prompt = f"""
-        KİMLİK: Sen 30 yıllık tecrübeye sahip, TS EN 206 ve TS 802 standartlarına hakim bir 'Kıdemli Beton Teknolojisi Uzmanı' ve Laboratuvar Müdürü'sün.
-        
-        ANALİZ EDİLECEK VERİ SETİ:
+        BİRİNCİL GÖREV: Aşağıdaki beton dizayn verilerini SİSTEMATİK ve ANALİTİK bir yaklaşımla, 'Baş Mühendis' perspektifinden analiz et. 
+        Analizini rastgele cümlelerle değil, aşağıdaki yapılandırmaya (Mühendislik Protokolü) göre oluştur.
+
+        ANALİZ YAPISI (BU SIRAYLA OLACAK):
+        1. TEKNİK ÖZET: Dizaynın genel başarısı ve hedeflenen dayanım sınıfı ({s_mix['class']}) ile uyumu.
+        2. SU/ÇİMENTO VE DAYANIKLILIK (DURABİLİTE) ANALİZİ: W/C oranının ({s_mix['wc']}) TS EN 206 kısıtları ve betonun servis ömrü (korozyon, karbonatlaşma) açısından değerlendirilmesi.
+        3. GRADASYON VE KOMPAKTLIK: 4mm altı kum oranı (%{sand_val:.1f}) ve 0.063mm filler miktarının (%{filler_val:.2f}) taze beton işlenebilirliği ve boşluk yapısı üzerindeki etkisi.
+        4. MALZEME RİSKLERİ: Litolojik köken ({s_mix['lithology']}) ile LA Aşınma (%{s_mix['avg_la']:.1f}) ve MB Kirlilik ({s_mix['avg_mb']:.2f}) değerlerinin mekanik performans üzerindeki korelasyonu.
+        5. NİHAİ MÜHENDİSLİK GÖRÜŞÜ: Karışımın spesifik kullanım alanı (Beton yol/Yapısal beton) için onay durumu ve optimizasyon önerileri.
+
+        VERİ SETİ DETAYLARI:
         - Standartlar: {TS_STANDARDS_CONTEXT}
         - Proje/Tesis: {snap['project_name']} / {snap['plant_name']}
-        - Hedef Sınıf: {s_mix['class']} | Litoloji: {s_mix['lithology']}
         - Tahmin Edilen Dayanım: {s_mix['pred_mpa']} MPa
-        - Etkin Su/Çimento (W/C) Oranı: {s_mix['wc']}
-        - Reçete Detayı: {recipe_text}
-        - Karma Gradasyon (Elenen %): {sieve_data}
-        - Malzeme Riskleri: Ortalama LA Aşınma=%{s_mix['avg_la']:.1f}, Ortalama MB Kirlilik={s_mix['avg_mb']:.2f} g/kg
+        - Reçete: {recipe_text}
+        - Karma Gradasyon: {sieve_data}
         - Karar Sonucu: {decision['status']} ({decision['main_msg']})
         
-        GÖREV:
-        Yukarıdaki TÜM verileri birbiriyle ilişkilendirerek derin bir mühendislik analizi yap. 
-        Analizinde şunlara değin:
-        1. Gradasyonun boşluk yapısı ve taze beton işlenebilirliğine etkisi.
-        2. W/C oranının beklenen dayanım ve durabilite (dayanıklılık) açısından değerlendirilmesi.
-        3. LA aşınma ve MB kirlilik değerlerinin betonun uzun vadeli performansı üzerindeki riskleri.
-        4. Litolojik özelliklerin çimento hamuru ile aderans (yapışma) potansiyeli.
-        
-        FORMAT: Teknik bir makale dili kullan. Kısa kesme, detaylı gerekçeler sun. 4-5 paragraf uzunluğunda olsun. Raporun sonunda 'Teknik Görüş' olarak net bir cümle ile bitir.
+        FORMAT: Teknik rapor dili kullan. Paragraflar arası başlıklar koy. Duygusal ifadelerden kaçın, tamamen sayısal verilere ve standartlara dayalı analitik bir dil kullan.
         """
         st.info("AI Raporu oluşturuluyor... (Yan paneldeki API anahtarı kullanılır)")
         # This part will be handled by returning a request or directly if we pass the model.
