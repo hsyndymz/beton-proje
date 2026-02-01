@@ -218,26 +218,36 @@ def btn_optimize_click():
     st.info("Optimizasyon motoru başlatılıyor (TS 802)...")
     # Bu fonksiyon state update yapar
 
-# --- PROJE SEÇİMİ VE YÜKLEME MANTIĞI (TOP LEVEL) ---
+# --- PROJE VE DENEME SEÇİMİ (TOP LEVEL) ---
 active_p = st.session_state.get('active_plant', 'merkez')
 all_data = veriyi_yukle(plant_id=active_p)
 project_list = sorted(list(all_data.keys()))
 if not project_list: project_list = ["Yeni Proje"]
 
-# 1. Seçim ve State Kontrolü
-# NOT: Her santral için ayrı bir selectbox key'i kullanarak widget çakışmasını önlüyoruz
+# 1. Proje Seçim Kontrolü
 sel_key = f"proj_selector_{active_p}"
 current_sel = st.session_state.get(sel_key)
-
 if not current_sel or current_sel not in project_list:
     current_sel = project_list[0]
     st.session_state[sel_key] = current_sel
 
-# 2. Yükleme Tetikleyici
-current_id = f"{active_p}_{current_sel}"
-if st.session_state.get('loaded_project_id') != current_id:
-    SessionStateInitializer.load_project_data(current_sel, plant_id=active_p)
-    st.session_state['loaded_project_id'] = current_id
+# 2. Deneme Seçim Kontrolü
+p_data = all_data.get(current_sel, {})
+trial_list = ["Ana Reçete"]
+if isinstance(p_data, dict) and "trials" in p_data:
+    trial_list = sorted(list(p_data["trials"].keys()))
+
+trial_sel_key = f"trial_selector_{active_p}_{current_sel}"
+current_trial = st.session_state.get(trial_sel_key)
+if not current_trial or current_trial not in trial_list:
+    current_trial = trial_list[0]
+    st.session_state[trial_sel_key] = current_trial
+
+# 3. Yükleme Tetikleyici (Santral_Proje_Deneme değiştiyse)
+current_id = f"{active_p}_{current_sel}_{current_trial}"
+if st.session_state.get('loaded_trial_id') != current_id:
+    SessionStateInitializer.load_project_data(current_sel, trial_name=current_trial, plant_id=active_p)
+    st.session_state['loaded_trial_id'] = current_id
     st.rerun()
 
 # --- SIDEBAR & PROJE YÖNETİMİ ---
@@ -274,17 +284,27 @@ with st.sidebar:
             key=f"proj_selector_{active_p}",
             help="Çalışmak istediğiniz projeyi seçin."
         )
+        # Deneme Seçimi
+        trial_opt = trial_list
+        deneme = st.selectbox(
+            "🧪 Deneme/Versiyon", 
+            trial_opt, 
+            key=f"trial_selector_{active_p}_{current_sel}"
+        )
     with c_sel2:
         if st.button("🔄", help="Projeleri Yenile"):
             st.rerun()
     
-    # Yeni Proje Girişi ve İşlemler
-    new_proj_name = st.text_input("🆕 Yeni Proje Adı")
+    # Yeni Deneme Girişi
+    new_trial_name = st.text_input("🧬 Yeni Deneme Adı (Opsiyonel)")
+    new_proj_name = st.text_input("🆕 Yeni Proje Adı (Opsiyonel)")
+    
     c_btn1, c_btn2 = st.columns(2)
     with c_btn1:
-        if st.button("💾 Kaydet", help="Seçili projeyi veya yenisini kaydeder"):
+        if st.button("💾 Kaydet", help="Değişiklikleri mevcut veya yeni denemeye kaydeder"):
             st.session_state['trigger_save'] = True
             st.session_state['save_target_name'] = new_proj_name if new_proj_name else proje
+            st.session_state['save_target_trial'] = new_trial_name if new_trial_name else deneme
             
     with c_btn2:
         if is_admin:
@@ -375,18 +395,17 @@ active_p = st.session_state.get('active_plant', 'merkez')
 current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
 
 # --- ANA PANEL ---
-tab_titles = ["📊 Malzeme Kütüphanesi", "📈 Karışım Dizaynı", "📉 Şantiye QC", "📄 Raporlar & Çıktı"]
+tab_titles = ["🔍 Malzeme", "⚖️ Karışım", "🔬 Karşılaştırma", "📜 Şartname", "✅ Kontrol"]
 if is_admin:
-    tab_titles.append("🏢 Kurumsal Dashboard")
+    tab_titles.append("🏢 Kurumsal")
 if is_super_admin:
-    tab_titles.extend(["🧠 AI Eğitim Merkezi", "👥 Kullanıcı Yönetimi"])
+    tab_titles.extend(["🤖 Eğitim", "👥 Kullanıcılar"])
 
-# Key kaldırıldı (Bazı Streamlit sürümlerinde TypeError hatasına yol açabiliyor)
 tabs = st.tabs(tab_titles)
-tab1, tab2, tab4, tab3 = tabs[0:4]
+tab1, tab2, tab_comp, tab3, tab4 = tabs[0:5]
 
 # Dinamik Tab Ataması
-next_idx = 4
+next_idx = 5
 tab_corp = None
 if is_admin:
     tab_corp = tabs[next_idx]
@@ -418,7 +437,26 @@ with tab2:
         get_global_qc_history=get_global_qc_history
     )
 
-with tab4:
+with tab_comp:
+    st.subheader("🔬 Deneme ve Versiyon Karşılaştırması")
+    p_data_comp = all_data.get(proje, {})
+    if isinstance(p_data_comp, dict) and "trials" in p_data_comp:
+        trials = p_data_comp["trials"]
+        comp_rows = []
+        for t_name, t_val in trials.items():
+            row = {
+                "Deneme Adı": t_name,
+                "Çimento": t_val.get("cim", 0),
+                "Su": t_val.get("su", 0),
+                "W/C": round(t_val.get("su",0)/t_val.get("cim",1), 2) if t_val.get("cim") else 0,
+                "Katkı": t_val.get("kat", 0),
+                "Hava %": t_val.get("hava", 0),
+                "Ratios (%)": f"{t_val.get('p',[0,0,0,0])}"
+            }
+            comp_rows.append(row)
+        st.table(pd.DataFrame(comp_rows))
+    else:
+        st.info("Bu proje için henüz birden fazla deneme kaydedilmemiş.")
     TARGET_LIMITS = {
         "C25/30": {"max_wc": 0.60, "min_mpa": 30},
         "C30/37": {"max_wc": 0.55, "min_mpa": 37},
@@ -488,27 +526,29 @@ with st.sidebar:
             return output
         st.download_button("Dosyayı İndir", create_excel_lite(), file_name=f"{proje}.xlsx")
 
-# --- TETİKLENEN KAYDETME İŞLEMİ (NameError Önleyici) ---
+# --- TETİKLENEN KAYDETME İŞLEMİ ---
 if st.session_state.get('trigger_save'):
-    p_to_save = st.session_state.pop('save_target_name', proje)
+    p_name = st.session_state.pop('save_target_name', proje)
+    t_name = st.session_state.pop('save_target_trial', "Ana Reçete")
     active_p = st.session_state.get('active_plant', 'merkez')
     
-    # Kayıt sonrası seçimi korumak için selector key'ini güncelle
-    st.session_state[f"proj_selector_{active_p}"] = p_to_save
+    # Mevcut veriyi oku
+    existing_all = veriyi_yukle(plant_id=active_p)
+    proj_obj = existing_all.get(p_name, {"trials": {}, "qc_history": [], "active_trial": t_name})
     
-    # Mevcut veriyi kontrol et (QC geçmişini korumak için)
-    existing_all_data = veriyi_yukle(plant_id=active_p)
-    
-    # Eğer "Farklı Kaydet" yapılıyorsa (isim değiştiyse), 
-    # eski projenin QC verilerini yeni projeye miras bırakalım.
-    existing_qc = []
-    if proje in existing_all_data:
-        existing_qc = existing_all_data[proje].get("qc_history", [])
-    elif p_to_save in existing_all_data:
-        existing_qc = existing_all_data[p_to_save].get("qc_history", [])
+    # 1. Migration: Eğer proje objesi eski formattaysa (trials yoksa)
+    if "trials" not in proj_obj:
+        old_data = proj_obj.copy()
+        proj_obj = {
+            "trials": {"Ana Reçete": old_data},
+            "qc_history": old_data.get("qc_history", []),
+            "active_trial": "Ana Reçete"
+        }
+        if "qc_history" in proj_obj["trials"]["Ana Reçete"]: 
+            del proj_obj["trials"]["Ana Reçete"]["qc_history"]
 
-    # Tüm değişkenler artık render_tab_1 ve render_tab_2'den sonra tanımlı
-    d = {
+    # 2. Yeni Deneme Verisini Hazırla
+    trial_data = {
         "rhos": current_rhos, "was": current_was, "ri": all_ri_values, 
         "las": [st.session_state.get(f"la_{i}", 0.0) for i in range(4)],
         "mbs": [st.session_state.get(f"mb_{i}", 0.0) for i in range(4)],
@@ -522,11 +562,18 @@ if st.session_state.get('trigger_save'):
         "ucucu": st.session_state.get('ucucu_kul', 0), 
         "hava": st.session_state.get('hava_yuzde', 1.5), 
         "plant_name": tesis_adi,
-        "qc_history": existing_qc, # QC Verilerini Pakete Ekle
         "exp_class": st.session_state.get('exposure_class', 'XC3'),
         "asr_stat": st.session_state.get('asr_status', 'Düzeltme Gerekmiyor (İnert)')
     }
-    veriyi_kaydet(p_to_save, d, plant_id=active_p)
+    
+    # 3. Güncelle ve Kaydet
+    proj_obj["trials"][t_name] = trial_data
+    proj_obj["active_trial"] = t_name
+    veriyi_kaydet(p_name, proj_obj, plant_id=active_p)
+    
+    # 4. State Sync
+    st.session_state[f"proj_selector_{active_p}"] = p_name
+    st.session_state[f"trial_selector_{active_p}_{p_name}"] = t_name
     st.session_state['trigger_save'] = False
-    st.success(f"✔️ '{p_to_save}' başarıyla kaydedildi.")
+    st.success(f"✔️ '{p_name} -> {t_name}' başarıyla kaydedildi.")
     st.rerun()

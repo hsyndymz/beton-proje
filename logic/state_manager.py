@@ -62,32 +62,56 @@ class SessionStateInitializer:
             if any(k.startswith(p) for p in ["rho_", "wa_", "la_", "mb_", "act_", "m1_", "ri_ed_", "p"]):
                 if k in st.session_state: del st.session_state[k]
             
-            if not exclude_selection and k.startswith("proj_selector_"):
+            if not exclude_selection and (k.startswith("proj_selector_") or k.startswith("trial_selector_")):
                 if k in st.session_state: del st.session_state[k]
         
         if not exclude_selection:
             if 'loaded_project_id' in st.session_state: del st.session_state['loaded_project_id']
+            if 'loaded_trial_id' in st.session_state: del st.session_state['loaded_trial_id']
             if 'proj_selector' in st.session_state: del st.session_state['proj_selector']
 
     @staticmethod
-    def load_project_data(project_name, plant_id="merkez"):
+    def load_project_data(project_name, trial_name=None, plant_id="merkez"):
         """
-        Seçilen projenin verilerini santral bazlı dosyadan okur ve session_state'e yükler.
+        Seçilen projenin (ve denemenin) verilerini okur ve session_state'e yükler.
         """
         from logic.data_manager import veriyi_yukle
         
+        # 0. Verileri temizle ama seçimi bırak ki döngüye girmesin
         SessionStateInitializer.clear_all_project_state(exclude_selection=True)
         SessionStateInitializer.initialize_defaults(force=True)
 
         all_data = veriyi_yukle(plant_id=plant_id)
-        p_data = all_data.get(project_name)
+        raw_p_data = all_data.get(project_name)
         
-        if not p_data or not isinstance(p_data, dict):
+        if not raw_p_data or not isinstance(raw_p_data, dict):
             for i in range(4):
                 ed_key = f"ri_ed_{i}"
                 if ed_key in st.session_state: del st.session_state[ed_key]
             return
 
+        # 1. Yapı Analizi (Nested mu yoksa Flat mı?)
+        # Eğer 'trials' yoksa bu eski formatta bir projedir
+        if "trials" not in raw_p_data:
+            # Migration: Eski veriyi bir trial içine saralım
+            p_data = raw_p_data
+            active_trial = "Ana Reçete"
+        else:
+            # Yeni format: Trial seçimi varsa onu yükle, yoksa aktif olanı
+            trials = raw_p_data.get("trials", {})
+            active_trial = trial_name if trial_name and trial_name in trials else raw_p_data.get("active_trial", list(trials.keys())[0] if trials else "Ana Reçete")
+            p_data = trials.get(active_trial, {})
+
+        # 2. Veriyi Map Et
+        SessionStateInitializer._map_data_to_state(p_data)
+        
+        # 3. Ek Bilgiler
+        st.session_state['loaded_project_name'] = project_name
+        st.session_state['active_trial_name'] = active_trial
+
+    @staticmethod
+    def _map_data_to_state(p_data):
+        """Yardımcı fonksiyon: Saf veriyi session_state'e eşler."""
         rhos = p_data.get("rhos", [])
         was = p_data.get("was", [])
         las = p_data.get("las", [])
@@ -96,38 +120,34 @@ class SessionStateInitializer:
         ri_dict = p_data.get("ri", {})
         active = p_data.get("active", [True, True, True, True])
 
-        for i in range(len(rhos)):
-            st.session_state[f"rho_{i}"] = rhos[i]
-            st.session_state[f"wa_{i}"] = was[i]
-            st.session_state[f"act_{i}"] = active[i]
+        for i in range(4):
+            if i < len(rhos): st.session_state[f"rho_{i}"] = rhos[i]
+            if i < len(was): st.session_state[f"wa_{i}"] = was[i]
+            if i < len(active): st.session_state[f"act_{i}"] = active[i]
             if i < len(las): st.session_state[f"la_{i}"] = las[i]
             if i < len(mbs): st.session_state[f"mb_{i}"] = mbs[i]
             if i < len(m1s): st.session_state[f"m1_{i}"] = m1s[i]
             
+            # Data Editor Reset
             ed_key = f"ri_ed_{i}"
-            if ed_key in st.session_state:
-                del st.session_state[ed_key]
+            if ed_key in st.session_state: del st.session_state[ed_key]
         
         st.session_state['loaded_ri'] = ri_dict if ri_dict else {}
 
-        for k in ["mix_snapshot", "last_decision", "computed_passing", "last_mix_data"]:
-            if k in st.session_state:
-                st.session_state[k] = None
-
+        # Karışım Oranları
         p_ratios = p_data.get("p", [25, 25, 25, 25])
         for i, val in enumerate(p_ratios):
             st.session_state[f"p{i+1}"] = int(val)
 
+        # Reçete
         st.session_state["cimento_val"] = p_data.get("cim", 350)
         st.session_state["su_val"] = p_data.get("su", 185)
         st.session_state["katki_val"] = p_data.get("kat", 1.2)
         st.session_state["ucucu_kul"] = p_data.get("ucucu", 0.0)
         st.session_state["hava_yuzde"] = p_data.get("hava", 1.0)
         st.session_state["exposure_class"] = p_data.get("exp_class", "XC3")
-        st.session_state["asr_status"] = p_data.get("asr_stat", "Düzeltme Gerekmiyor (Inert)")
+        st.session_state["asr_status"] = p_data.get("asr_stat", "Düzeltme Gerekmiyor (İnert)")
 
 def init_session_state(force=False):
-    """
-    Session state baslaticisi. app.py tarafindan ana kontrol noktasidir.
-    """
+    """Session state baslaticisi. app.py tarafindan ana kontrol noktasidir."""
     SessionStateInitializer.initialize_defaults(force=force)
