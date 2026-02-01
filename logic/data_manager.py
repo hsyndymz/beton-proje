@@ -16,6 +16,16 @@ def santral_kaydet(p_id, p_data):
     with open(PLANTS_FILE, "w", encoding="utf-8") as f:
         json.dump(plants, f, ensure_ascii=False, indent=4)
 
+def santral_sil(p_id):
+    plants = santralleri_yukle()
+    if p_id in plants:
+        if p_id == "merkez": return False, "Merkez santral silinemez."
+        del plants[p_id]
+        with open(PLANTS_FILE, "w", encoding="utf-8") as f:
+            json.dump(plants, f, ensure_ascii=False, indent=4)
+        return True, "Santral silindi."
+    return False, "Santral bulunamadı."
+
 def get_db_path(plant_id="merkez"):
     """Santral ID'sine göre proje dosya yolunu döner."""
     if not plant_id: plant_id = "merkez"

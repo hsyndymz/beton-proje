@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from logic.report_generator import generate_kgm_raporu
 from logic.data_manager import (
     veriyi_yukle, veriyi_kaydet, havuz_yukle, havuz_kaydet, 
-    tesis_faktor_yukle, tesis_faktor_kaydet, santralleri_yukle, santral_kaydet
+    tesis_faktor_yukle, tesis_faktor_kaydet, santralleri_yukle, santral_kaydet, santral_sil
 )
 from logic.engineering import (
     calculate_passing, calculate_theoretical_mpa, evaluate_mix_compliance, 
