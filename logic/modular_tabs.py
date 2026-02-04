@@ -187,10 +187,10 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             alt_b, _ = get_std_limits(dmax_val, "B (İdeal)", elek_serisi)
             alt_c, _ = get_std_limits(dmax_val, "C (İnce)", elek_serisi)
 
-            # 1. Min/Ort/Max Limitleri
-            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_a, mode='lines', name='Min (A)', line=dict(color='#94A3B8', width=1, dash='dot')))
-            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines', name='Ort (B)', line=dict(color='#64748B', width=1, dash='dot')))
-            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_c, mode='lines', name='Max (C)', line=dict(color='#1E293B', width=1, dash='dot')))
+            # 1. Min/Ort/Max Limitleri (Excel Renk ve İsimleri)
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_a, mode='lines', name='Alt Limit', line=dict(color='#2563eb', width=1.5, dash='dash')))
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_c, mode='lines', name='Üst Limit', line=dict(color='#2563eb', width=1.5, dash='dash')))
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines', name='Şartname', line=dict(color='#b91c1c', width=2)))
 
             # 2. Bireysel Agrega Eğrileri (Excel Stili)
             excel_colors = ['#1E3A8A', '#15803D', '#334155', '#B91C1C']
