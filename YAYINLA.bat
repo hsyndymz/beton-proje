@@ -2,7 +2,7 @@
 echo --- BETON PROJE OTOMATIK YUKLEYICI ---
 
 echo [1/3] Guncellemeler kontrol ediliyor...
-git pull --rebase origin main
+git pull --rebase --autostash origin main
 if %ERRORLEVEL% NEQ 0 (
     echo [HATA] GitHub'dan guncellemeler alinirken bir hata olustu.
     echo Lutfen once SYNC.bat dosyasini calistirmayi deneyin.
