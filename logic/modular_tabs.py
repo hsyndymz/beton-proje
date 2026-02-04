@@ -129,10 +129,14 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
     
     computed_passing = st.session_state.get('computed_passing', {})
     karisim_gecen = np.zeros(len(elek_serisi))
+    individual_passing = {}
+    
     for i, p in enumerate([p1, p2, p3, p4]):
         mat_name = materials[i]
         if active_mats[i] and mat_name in computed_passing:
-            karisim_gecen += (np.array(computed_passing[mat_name]) * p / 100.0)
+            mat_pass = np.array(computed_passing[mat_name])
+            karisim_gecen += (mat_pass * p / 100.0)
+            individual_passing[mat_name] = mat_pass
 
     st.markdown("---")
     c_wc_sets, c_grad_plot = st.columns([1, 1])
@@ -183,15 +187,30 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             alt_b, _ = get_std_limits(dmax_val, "B (İdeal)", elek_serisi)
             alt_c, _ = get_std_limits(dmax_val, "C (İnce)", elek_serisi)
 
-            # 1. Min (A Eğrisi) - Slate-400
-            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_a, mode='lines+markers', name='Min (A)', line=dict(color='#94A3B8', width=2), marker=dict(symbol='square', size=6)))
-            # 2. Ort (B Eğrisi) - Slate-600
-            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines+markers', name='Ort (B)', line=dict(color='#64748B', width=2), marker=dict(symbol='diamond', size=6)))
-            # 3. Max (C Eğrisi) - Slate-800
-            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_c, mode='lines+markers', name='Max (C)', line=dict(color='#1E293B', width=2), marker=dict(symbol='triangle-up', size=6)))
-            # 4. Tasarım (Karma) - Orange-500 (Ön Planda) - Sadece veri varsa çiz
+            # 1. Min/Ort/Max Limitleri
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_a, mode='lines', name='Min (A)', line=dict(color='#94A3B8', width=1, dash='dot')))
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines', name='Ort (B)', line=dict(color='#64748B', width=1, dash='dot')))
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_c, mode='lines', name='Max (C)', line=dict(color='#1E293B', width=1, dash='dot')))
+
+            # 2. Bireysel Agrega Eğrileri (Excel Stili)
+            excel_colors = ['#1E3A8A', '#15803D', '#334155', '#B91C1C']
+            for i, mat_name in enumerate(materials):
+                if mat_name in individual_passing:
+                    fig.add_trace(go.Scatter(
+                        x=elek_serisi, y=individual_passing[mat_name],
+                        mode='lines', name=f"Seri {i+1} ({mat_name})",
+                        line=dict(color=excel_colors[i], width=1.5, dash='dash'),
+                        opacity=0.6
+                    ))
+
+            # 3. Tasarım (Karışım) - Kalın ve Belirgin
             if np.any(karisim_gecen > 0):
-                fig.add_trace(go.Scatter(x=elek_serisi, y=karisim_gecen, mode='lines+markers', name='Karışım', line=dict(color='#F97316', width=5), marker=dict(symbol='circle', size=10)))
+                fig.add_trace(go.Scatter(
+                    x=elek_serisi, y=karisim_gecen, mode='lines+markers', 
+                    name='Karışım Gradasyonu', 
+                    line=dict(color='#F97316', width=5), 
+                    marker=dict(symbol='circle', size=10, line=dict(color='white', width=1))
+                ))
             
             fig.update_layout(
                 title=f"Dmax {dmax_val} mm. Gradasyon Eğrisi",
