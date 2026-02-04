@@ -1369,17 +1369,28 @@ def render_tab_5(is_admin=False):
         return
 
     # --- FİLTRELEME ---
-    c_filt1, c_filt2 = st.columns([3, 1])
+    c_filt1, c_filt2 = st.columns([1, 1])
     with c_filt1:
         years = ["2024", "2025", "2026"]
-        st.multiselect("🔍 Analiz Yılları (Select all years)", options=years, default=years)
-
+        st.multiselect("📅 Analiz Yılları", options=years, default=years)
+    
     # Verileri Çek
     with st.spinner("Kurumsal veriler işleniyor..."):
         df_corp = get_corp_performance_stats()
 
     if df_corp.empty:
         st.info("📊 Analiz edilecek veri bulunamadı.")
+        return
+
+    with c_filt2:
+        plant_options = df_corp["name"].unique().tolist()
+        selected_plants = st.multiselect("🏭 Tesis Seçimi", options=plant_options, default=plant_options)
+
+    # Veriyi Filtrele
+    df_corp = df_corp[df_corp["name"].isin(selected_plants)]
+
+    if df_corp.empty:
+        st.warning("⚠️ Seçili filtrelere uygun veri bulunamadı.")
         return
 
     # Mock Manager Data (if not in DB yet)
