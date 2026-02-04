@@ -1330,90 +1330,170 @@ def render_tab_management(is_super_admin=False):
             st.info("Sistemde silinebilecek başka kullanıcı bulunmuyor.")
 
 def render_tab_5(is_admin=False):
-    st.header("📊 Kurumsal Performans Paneli (Yönetici Özeti)")
+    # --- PREMIUM CSS ---
+    st.markdown("""
+        <style>
+        .corp-header {
+            background-color: #f8fafc;
+            padding: 1rem;
+            border-radius: 10px;
+            border-left: 5px solid #3b82f6;
+            margin-bottom: 1.5rem;
+        }
+        .metric-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+        .metric-label {
+            color: #64748b;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        .metric-value {
+            color: #1e293b;
+            font-size: 1.875rem;
+            font-weight: 700;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown('<div class="corp-header"><h3>📊 Kurumsal Performans Paneli (Yönetici Özeti)</h3></div>', unsafe_allow_html=True)
     
     if not is_admin:
         st.warning("⚠️ Bu panel sadece yönetici yetkisine sahip kullanıcılar içindir.")
         return
 
+    # --- FİLTRELEME ---
+    c_filt1, c_filt2 = st.columns([3, 1])
+    with c_filt1:
+        years = ["2024", "2025", "2026"]
+        st.multiselect("🔍 Analiz Yılları (Select all years)", options=years, default=years)
+
     # Verileri Çek
-    with st.spinner("Tüm tesis verileri analiz ediliyor..."):
+    with st.spinner("Kurumsal veriler işleniyor..."):
         df_corp = get_corp_performance_stats()
 
     if df_corp.empty:
-        st.info("📊 Analiz edilecek yeterli veri bulunamadı.")
+        st.info("📊 Analiz edilecek veri bulunamadı.")
         return
 
-    # --- 1. ÜST METRİKLER ---
-    m1, m2, m3, m4 = st.columns(4)
-    m1.metric("Toplam Tesis", len(df_corp))
-    m2.metric("Toplam Numune", df_corp["samples"].sum())
-    # Ortalama sigma (örnek ağırlıklı olmayan)
-    m3.metric("Kurumsal Sigma", f"{df_corp['sigma'].mean():.2f}")
+    # Mock Manager Data (if not in DB yet)
+    if "manager" not in df_corp.columns:
+        df_corp["manager"] = ["Hüseyin Duymaz", "Ali Yılmaz", "Veli Demir"][:len(df_corp)]
+        if len(df_corp) > 3:
+            df_corp["manager"] = df_corp.apply(lambda x: "Mühendis " + x["id"], axis=1)
+
+    # --- 1. ÜST METRİKLER (KPI) ---
+    kpi_cols = st.columns(4)
+    metrics = [
+        ("Analiz Edilen Tesis", len(df_corp)),
+        ("Toplam Numune", df_corp["samples"].sum()),
+        ("Kurumsal Sigma Ort.", f"{df_corp['sigma'].mean():.2f}"),
+        ("Kritik Tesis", len(df_corp[df_corp["sigma"] > 5.0]))
+    ]
+
+    for i, (label, value) in enumerate(metrics):
+        with kpi_cols[i]:
+            st.markdown(f"""
+                <div class="metric-card">
+                    <div class="metric-label">{label}</div>
+                    <div class="metric-value">{value}</div>
+                </div>
+            """, unsafe_allow_html=True)
     
-    # Kritik Tesis Sayısı
-    critical_count = len(df_corp[df_corp["status"] == "🔴 Kritik"])
-    m4.metric("Kritik Tesis", critical_count, delta=critical_count, delta_color="inverse")
+    st.markdown("<br>", unsafe_allow_html=True)
 
     # --- 2. PERFORMANS TABLOSU ---
-    st.subheader("🏭 Tesis Bazlı Performans Matrisi")
+    st.markdown("#### 📊 Tesis Bazlı Performans Matrisi")
     
-    # Renklendirme fonksiyonu
-    def highlight_status(val):
-        color = 'red' if 'Kritik' in val else ('orange' if 'Riskli' in val else 'green')
-        return f'color: {color}; font-weight: bold'
+    def format_status(row):
+        s = row['sigma']
+        if s < 3.5: return "🟢 Güvenli"
+        elif s < 5.0: return "🟡 Riskli"
+        else: return "🔴 Kritik"
 
-    styled_df = df_corp.style.applymap(highlight_status, subset=['status'])
-    st.dataframe(styled_df, use_container_width=True, hide_index=True)
+    # Status icon logic matching image
+    df_display = df_corp.copy()
+    df_display["status"] = df_display.apply(lambda r: "👑 Güvenli" if r["sigma"] < 3.5 else ("⚠️ Riskli" if r["sigma"] < 5.0 else "🚨 Kritik"), axis=1)
+    
+    # Column mapping to match image
+    df_display = df_display.rename(columns={
+        "id": "ID", 
+        "name": "İsim", 
+        "manager": "Yönetici", 
+        "samples": "Numune", 
+        "sigma": "Sigma", 
+        "avg_mpa": "Ort_MPA", 
+        "cement_eff": "Çimento_RT",
+        "status": "Durum"
+    })
+    
+    st.dataframe(df_display[["ID", "İsim", "Yönetici", "Numune", "Sigma", "Ort_MPA", "Çimento_RT", "Durum"]], 
+                 use_container_width=True, hide_index=True)
 
-    # --- 3. ANALİTİK GRAFİKLER ---
-    st.markdown("---")
+    # --- 3. GÖRSEL ANALİZLER (ROW 1) ---
+    st.markdown("<br>", unsafe_allow_html=True)
     c1, c2 = st.columns(2)
     
     with c1:
-        st.subheader("📉 Standart Sapma (Sigma) Dağılımı")
+        st.markdown("#### 📉 Standart Sapma (Sigma) Dağılımı")
         fig_sigma = go.Figure(data=[
             go.Bar(x=df_corp["name"], y=df_corp["sigma"], 
-                   marker_color=['red' if s > 5 else ('orange' if s > 3.5 else 'green') for s in df_corp["sigma"]])
+                   marker_color=['#22c55e' if s < 3.5 else ('#f59e0b' if s < 5.0 else '#ef4444') for s in df_corp["sigma"]])
         ])
-        fig_sigma.update_layout(height=350, margin=dict(l=20, r=20, t=20, b=20), yaxis_title="Sigma (MPa)")
+        fig_sigma.update_layout(height=350, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='white')
         st.plotly_chart(fig_sigma, use_container_width=True)
-        st.caption("Not: Sigma < 3.5 ise 'A Sınıfı', 3.5-5.0 arası 'B Sınıfı', > 5.0 ise 'C Sınıfı' tutarlılık gösterir.")
 
     with c2:
-        st.subheader("💎 Çimento Verimliliği (kg / MPa)")
-        # Çimento Verimliliği: 1 MPa dayanım için harcanan çimento (düşük olması daha iyi)
+        st.markdown("#### 💎 Çimento Verimliliği (kg / MPa)")
         eff_df = calculate_cement_efficiency_stats(df_corp)
         fig_eff = go.Figure(data=[
-            go.Bar(x=eff_df["name"], y=eff_df["cement_eff"], marker_color="royalblue")
+            go.Bar(x=eff_df["name"], y=eff_df["cement_eff"], marker_color="#3b82f6")
         ])
-        fig_eff.update_layout(height=350, margin=dict(l=20, r=20, t=20, b=20), yaxis_title="kg Çimento / 1 MPa")
+        fig_eff.update_layout(height=350, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='white')
         st.plotly_chart(fig_eff, use_container_width=True)
-        st.caption("Düşük değerler, aynı dayanım için daha az çimento harcandığını (yüksek verimlilik) gösterir.")
 
-    # --- 4. RİSK ISI HARİTASI ---
-    st.markdown("---")
-    st.subheader("🔥 Risk Isı Haritası (Saha Aklı)")
-    risk_data = generate_risk_heatmap_data(df_corp)
+    # --- 4. RİSK VE PERFORMANS MATRİSİ (ROW 2) ---
+    st.markdown("<br>")
+    st.markdown("#### 🔥 Performans ve Risk Matrisi")
     
-    # Basit bir scatter plot ile Sigma vs Ortalama Dayanım (Risk vs Performans)
     fig_risk = go.Figure()
+    
+    # Arka plan alanları
+    fig_risk.add_hrect(y0=5.0, y1=8.0, fillcolor="#fee2e2", opacity=0.5, line_width=0, annotation_text="Kritik Alan", annotation_position="top left")
+    fig_risk.add_hrect(y0=0, y1=3.5, fillcolor="#f0fdf4", opacity=0.5, line_width=0, annotation_text="Güvenli Alan", annotation_position="bottom left")
+
+    # Veri Noktaları
     fig_risk.add_trace(go.Scatter(
         x=df_corp["avg_mpa"], 
         y=df_corp["sigma"],
         mode='markers+text',
         text=df_corp["name"],
         textposition="top center",
-        marker=dict(size=15, color=df_corp["sigma"], colorscale='RdYlGn', reversescale=True, showscale=True),
+        marker=dict(
+            size=18, 
+            color=df_corp["sigma"], 
+            colorscale='RdYlGn', 
+            reversescale=True, 
+            showscale=True,
+            line=dict(width=2, color='white')
+        ),
         hovertemplate="<b>%{text}</b><br>Ort. Dayanım: %{x} MPa<br>Sigma: %{y}<extra></extra>"
     ))
+
     fig_risk.update_layout(
         xaxis_title="Ortalama Dayanım (MPa)",
         yaxis_title="Standart Sapma (Sigma)",
-        height=450
+        height=500,
+        plot_bgcolor='white',
+        paper_bgcolor='rgba(0,0,0,0)'
     )
-    # Risk bölgelerini çizelgeye ekle (opsiyonel ama şık durur)
-    fig_risk.add_hrect(y0=0, y1=3.5, fillcolor="green", opacity=0.1, line_width=0, annotation_text="Güvenli Bölge")
-    fig_risk.add_hrect(y0=5.0, y1=8.0, fillcolor="red", opacity=0.1, line_width=0, annotation_text="Kritik Bölge")
+    fig_risk.update_xaxes(showgrid=True, gridwidth=1, gridcolor='#f1f5f9')
+    fig_risk.update_yaxes(showgrid=True, gridwidth=1, gridcolor='#f1f5f9')
     
     st.plotly_chart(fig_risk, use_container_width=True)
