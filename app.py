@@ -128,9 +128,19 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Fira+Sans:wght@300;400;500;600;700&display=swap');
 
     /* Global Typography & Background */
-    html, body, [class*="st-"] {
+    html, body, .stApp {
         font-family: 'Fira Sans', sans-serif;
         color: #334155;
+    }
+    
+    /* Target text elements specifically, excluding icons */
+    .stMarkdown p, .stText, label, div[data-testid="stMarkdownContainer"] p {
+        font-family: 'Fira Sans', sans-serif !important;
+    }
+
+    /* Reset font for any potential icon containers */
+    [data-testid*="Icon"], .stIcon {
+        font-family: inherit !important;
     }
     
     .main { 
