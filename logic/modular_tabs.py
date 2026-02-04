@@ -1098,6 +1098,25 @@ def render_tab_ocak(is_admin=False):
                 o_cem = st.number_input("Çimentolaşma İndeksi", value=1.00, format="%.2f", step=0.01)
                 o_desc = st.text_area("Notlar", value="Kaliteli malzeme.", height=95)
             
+            st.markdown("#### 🧪 Fiziksel Özellikler (SSD Yoğunluk & Su Emme)")
+            f_col1, f_col2, f_col3, f_col4 = st.columns(4)
+            with f_col1:
+                st.caption("No:2 (15-25)")
+                rho_0 = st.number_input("Yoğunluk (0)", value=2.700, format="%.3f", key="o_rho_0")
+                wa_0 = st.number_input("Su Emme % (0)", value=0.50, key="o_wa_0")
+            with f_col2:
+                st.caption("No:1 (5-15)")
+                rho_1 = st.number_input("Yoğunluk (1)", value=2.700, format="%.3f", key="o_rho_1")
+                wa_1 = st.number_input("Su Emme % (1)", value=0.80, key="o_wa_1")
+            with f_col3:
+                st.caption("K.Kum (0-5)")
+                rho_2 = st.number_input("Yoğunluk (2)", value=2.650, format="%.3f", key="o_rho_2")
+                wa_2 = st.number_input("Su Emme % (2)", value=1.50, key="o_wa_2")
+            with f_col4:
+                st.caption("D.Kum (0-7)")
+                rho_3 = st.number_input("Yoğunluk (3)", value=2.600, format="%.3f", key="o_rho_3")
+                wa_3 = st.number_input("Su Emme % (3)", value=2.00, key="o_wa_3")
+
             submit = st.form_submit_button("🚀 Ocağı Kaydet")
             st.markdown('</div>', unsafe_allow_html=True)
             
@@ -1114,6 +1133,8 @@ def render_tab_ocak(is_admin=False):
                         "asr_risk": o_asr, 
                         "cementation_index": o_cem,
                         "description": o_desc,
+                        "rhos": [rho_0, rho_1, rho_2, rho_3],
+                        "was": [wa_0, wa_1, wa_2, wa_3],
                         "updated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
                     }
                     ocak_kaydet(o_id, o_data)
@@ -1127,12 +1148,18 @@ def render_tab_ocak(is_admin=False):
         # Pre-process for better table display
         formatted_data = []
         for k, v in ocaklar.items():
+            rhos = v.get("rhos", ["-"]*4)
+            was = v.get("was", ["-"]*4)
+            rho_str = "/".join([str(r) for r in rhos])
+            wa_str = "/".join([str(w) for w in was])
+            
             formatted_data.append({
                 "Ocak Adı": v.get("name", k),
                 "Litoloji": v.get("lithology", "-"),
+                "Yoğunluklar": rho_str,
+                "Su Emme %": wa_str,
                 "LA Aşınma (%)": v.get("la_wear", v.get("la", "-")),
                 "ASR Riski": v.get("asr_risk", "-"),
-                "Çimentolaşma": v.get("cementation_index", "-"),
                 "Güncelleme": v.get("updated_at", "-")
             })
         

@@ -476,6 +476,19 @@ with st.sidebar:
         "Bazalt (Standart)",
         "Granit"
     ], index=suggested_litho_idx)
+
+    # Otomatik Fiziksel Veri Aktarımı (Yoğunluk & Su Emme)
+    if selected_ocak_id != "Seçiniz...":
+        if st.session_state.get('last_ocak_id') != selected_ocak_id:
+            st.session_state['last_ocak_id'] = selected_ocak_id
+            o_data = ocaklar[selected_ocak_id]
+            o_rhos = o_data.get("rhos", [])
+            o_was = o_data.get("was", [])
+            if o_rhos and len(o_rhos) == 4:
+                for i in range(4): st.session_state[f"rho_{i}"] = float(o_rhos[i])
+            if o_was and len(o_was) == 4:
+                for i in range(4): st.session_state[f"wa_{i}"] = float(o_was[i])
+            st.toast(f"✅ {o_data.get('name')} verileri (Yoğunluk/Su Emme) aktarıldı.")
     
     st.info(f"**Standart:** {CONCRETE_RULES[hedef_sinif]['min_mpa']} MPa Min.")
 
