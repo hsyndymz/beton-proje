@@ -1193,7 +1193,7 @@ def render_tab_management(is_super_admin=False):
         
         with st.expander("🏢 Santral Yönetim Paneli", expanded=True):
             # Santralleri tablo olarak göster
-            df_plants = [{"ID": pid, "Ad": pd["name"], "Konum": pd.get("location", "-")} for pid, pd in plants.items()]
+            df_plants = [{"ID": pid, "Ad": pd["name"], "Konum": pd.get("location", "-"), "Yönetici": pd.get("manager", "-")} for pid, pd in plants.items()]
             st.table(pd.DataFrame(df_plants))
             
             st.markdown("#### ➕ Yeni Santral Ekle")
@@ -1203,9 +1203,10 @@ def render_tab_management(is_super_admin=False):
                 new_pname = st.text_input("Santral Adı", key="new_pname")
             with c_p2:
                 new_ploc = st.text_input("Konum/Şehir", key="new_ploc")
+                new_pman = st.text_input("Santral Yöneticisi", key="new_pman")
                 if st.button("🚀 Santrali Kaydet", use_container_width=True):
                     if new_pid and new_pname:
-                        santral_kaydet(new_pid, {"name": new_pname, "location": new_ploc})
+                        santral_kaydet(new_pid, {"name": new_pname, "location": new_ploc, "manager": new_pman})
                         st.success(f"Santral '{new_pname}' eklendi.")
                         st.rerun()
                     else: st.error("ID ve Ad zorunludur.")
@@ -1219,13 +1220,14 @@ def render_tab_management(is_super_admin=False):
                 ce_p1, ce_p2 = st.columns(2)
                 with ce_p1:
                     edit_pname = st.text_input("Yeni Santral Adı", value=p_data["name"], key="edit_pname")
+                    edit_pman = st.text_input("Yeni Yönetici", value=p_data.get("manager", ""), key="edit_pman")
                 with ce_p2:
                     edit_ploc = st.text_input("Yeni Konum", value=p_data.get("location", ""), key="edit_ploc")
                 
                 ce_btns1, ce_btns2 = st.columns(2)
                 with ce_btns1:
                     if st.button("💾 Değişiklikleri Kaydet", key="btn_save_plant"):
-                        santral_kaydet(edit_pid, {"name": edit_pname, "location": edit_ploc})
+                        santral_kaydet(edit_pid, {"name": edit_pname, "location": edit_ploc, "manager": edit_pman})
                         st.success("Santral bilgileri güncellendi.")
                         st.rerun()
                 with ce_btns2:
@@ -1392,12 +1394,6 @@ def render_tab_5(is_admin=False):
     if df_corp.empty:
         st.warning("⚠️ Seçili filtrelere uygun veri bulunamadı.")
         return
-
-    # Mock Manager Data (if not in DB yet)
-    if "manager" not in df_corp.columns:
-        df_corp["manager"] = ["Hüseyin Duymaz", "Ali Yılmaz", "Veli Demir"][:len(df_corp)]
-        if len(df_corp) > 3:
-            df_corp["manager"] = df_corp.apply(lambda x: "Mühendis " + x["id"], axis=1)
 
     # --- 1. ÜST METRİKLER (KPI) ---
     kpi_cols = st.columns(4)

@@ -42,6 +42,7 @@ def get_corp_performance_stats():
         corp_data.append({
             "id": p_id,
             "name": p_info.get("name", p_id),
+            "manager": p_info.get("manager", "-"),
             "location": p_info.get("location", "-"),
             "samples": total_samples,
             "sigma": round(sigma, 2),
