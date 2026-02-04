@@ -128,26 +128,12 @@ st.markdown("""
     /* Global Typography & Background */
     @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Fira+Sans:wght@300;400;500;600;700&display=swap');
 
-    .stApp { background-color: #F8FAFC; }
-
-    /* Sadece metin içeren elemanlara font veriyoruz - İkonları bozmamak için en güvenli yol */
-    [data-testid="stMarkdownContainer"] p, 
-    [data-testid="stMarkdownContainer"] h1, 
-    [data-testid="stMarkdownContainer"] h2, 
-    [data-testid="stMarkdownContainer"] h3, 
-    [data-testid="stWidgetLabel"] label,
-    .stButton button, 
-    .stSelectbox label,
-    .stTabs [data-baseweb="tab"] {
-        font-family: 'Fira Sans', sans-serif !important;
-    }
-    
-    /* İkon sınıflarını ve sembolleri fonttan muaf tutuyoruz */
-    .stIcon, [data-testid*="Icon"], [class*="Icon"], span[dir="auto"] {
-        font-family: inherit !important;
+    .stApp {
+        font-family: 'Fira Sans', sans-serif;
+        background-color: #F8FAFC;
     }
 
-    /* Teknik veriler için mono font */
+    /* Teknik veriler için mono font (Buna !important gerekebilir çünkü burası özel) */
     [data-testid="stMetricValue"], code, pre {
         font-family: 'Fira Code', monospace !important;
     }
