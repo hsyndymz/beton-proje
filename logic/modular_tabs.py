@@ -50,8 +50,16 @@ def render_tab_1(elek_serisi):
                      ri_data["Kalan (g)"] = saved_ri
             
             ri_df = st.data_editor(pd.DataFrame(ri_data), hide_index=True, key=f"ri_ed_{i}", disabled=not is_active)
-            all_ri_values[mat] = ri_df.iloc[:, 1].tolist()
-            computed_passing[mat] = calculate_passing(m1_val, ri_df.iloc[:, 1].tolist()) if is_active else [0.0]*len(elek_serisi)
+            mat_weights = ri_df.iloc[:, 1].tolist()
+            all_ri_values[mat] = mat_weights
+            computed_passing[mat] = calculate_passing(m1_val, mat_weights) if is_active else [0.0]*len(elek_serisi)
+            
+            # --- ÖZET ÖLÇÜM BİLGİSİ (Neden %0 değil sorusu için) ---
+            if is_active:
+                sum_ret = sum(mat_weights)
+                filler_g = m1_val - sum_ret
+                filler_p = (filler_g / m1_val * 100) if m1_val > 0 else 0
+                st.caption(f"🔢 Toplam: {sum_ret:.1f}g | 🌪️ Pan/Filler: {filler_g:.1f}g (%{filler_p:.2f})")
 
     st.session_state['computed_passing'] = computed_passing
     st.session_state['active_mats'] = active_mats
