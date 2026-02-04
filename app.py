@@ -456,10 +456,9 @@ current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
 
 # --- ANA PANEL ---
 tab_titles = ["🔍 Malzeme", "⚖️ Karışım", "🔬 Karşılaştırma", "📜 Şartname", "✅ Kontrol"]
-if is_admin:
-    tab_titles.append("🏢 Kurumsal")
+
 if is_super_admin:
-    tab_titles.extend(["⛰️ Ocak", "🤖 Eğitim", "👥 Kullanıcılar"])
+    tab_titles.extend(["🏢 Kurumsal", "⛰️ Ocak", "🤖 Eğitim", "👥 Kullanıcılar"])
 
 tabs = st.tabs(tab_titles)
 tab1, tab2, tab_comp, tab3, tab4 = tabs[0:5]
@@ -467,17 +466,15 @@ tab1, tab2, tab_comp, tab3, tab4 = tabs[0:5]
 # Dinamik Tab Ataması
 next_idx = 5
 tab_corp = None
-if is_admin:
-    tab_corp = tabs[next_idx]
-    next_idx += 1
-
 tab_ocak = None
 tab_ai_train = None
 tab_user_mgmt = None
+
 if is_super_admin:
-    tab_ocak = tabs[next_idx]
-    tab_ai_train = tabs[next_idx + 1]
-    tab_user_mgmt = tabs[next_idx + 2]
+    tab_corp = tabs[next_idx]
+    tab_ocak = tabs[next_idx + 1]
+    tab_ai_train = tabs[next_idx + 2]
+    tab_user_mgmt = tabs[next_idx + 3]
 
 with tab1:
     current_rhos, current_was, current_las, current_mbs, computed_passing, active_mats, all_ri_values = render_tab_1(elek_serisi)
