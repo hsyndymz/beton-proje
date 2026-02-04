@@ -231,6 +231,17 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
                 title='Elekten Geçen % (Yığışımlı)', range=[0, 105], gridcolor='#d1d5db', linecolor='black', dtick=10
             )
             st.plotly_chart(fig, use_container_width=True)
+            
+            # --- ÖNEMLİ ELEK ÖZETİ (Compact) ---
+            key_sieves = [4.0, 2.0, 1.0, 0.063]
+            m_col1, m_col2, m_col3, m_col4 = st.columns(4)
+            cols = [m_col1, m_col2, m_col3, m_col4]
+            
+            for idx, s_val in enumerate(key_sieves):
+                if s_val in elek_serisi:
+                    e_idx = elek_serisi.index(s_val)
+                    p_val = karisim_gecen[e_idx]
+                    cols[idx].markdown(f"**{s_val} mm:** `{p_val:.1f}%` Geçen")
         else:
             # PERCENT RETAINED (8-18)
             retained = []
