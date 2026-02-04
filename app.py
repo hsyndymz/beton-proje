@@ -18,6 +18,7 @@ from logic.report_generator import generate_kgm_raporu
 from logic.state_manager import init_session_state, SessionStateInitializer
 from logic.modular_tabs import render_tab_1, render_tab_2, render_tab_3, render_tab_4, render_tab_5, render_tab_management, render_tab_ocak
 from logic.auth_manager import check_login, register_user
+from logic.ocak_manager import ocaklari_yukle
 
 # --- SAYFA YAPILANDIRMASI ---
 st.set_page_config(page_title="Beton Tasarım Programı", layout="wide", initial_sidebar_state="expanded")
@@ -357,6 +358,30 @@ with st.sidebar:
     plant_val = all_data.get(proje, {}).get("plant_name", "KGM-91 Santral")
     tesis_adi = st.text_input("Santral / Tesis Adı", value=plant_val)
     hedef_sinif = st.selectbox("Hedef Beton Sınıfı", list(CONCRETE_RULES.keys()))
+    # Ocak ve Litoloji İlişkisi
+    ocaklar = ocaklari_yukle()
+    o_list = ["Seçiniz..."] + list(ocaklar.keys())
+    selected_ocak_id = st.selectbox("🏔️ Ocak Seçimi (Opsiyonel)", options=o_list, 
+                                     format_func=lambda x: ocaklar[x].get("name", x) if x != "Seçiniz..." else x)
+    
+    suggested_litho_idx = 0
+    if selected_ocak_id != "Seçiniz...":
+        o_data = ocaklar[selected_ocak_id]
+        o_litho = o_data.get("lithology", "Bazalt")
+        # Sidebar'daki litoloji listesiyle eşleştir
+        litho_options = [
+            "Bazalt (Diyarbakır/Gaziantep)",
+            "Kalker (Mardin/Şanlıurfa)",
+            "Dere Malzemesi (Dicle/Fırat)",
+            "Kalker (Standart)",
+            "Bazalt (Standart)",
+            "Granit"
+        ]
+        for idx, opt in enumerate(litho_options):
+            if o_litho in opt:
+                suggested_litho_idx = idx
+                break
+
     litoloji = st.selectbox("Agrega Litolojisi", [
         "Bazalt (Diyarbakır/Gaziantep)",
         "Kalker (Mardin/Şanlıurfa)",
@@ -364,7 +389,7 @@ with st.sidebar:
         "Kalker (Standart)",
         "Bazalt (Standart)",
         "Granit"
-    ])
+    ], index=suggested_litho_idx)
     
     st.info(f"**Standart:** {CONCRETE_RULES[hedef_sinif]['min_mpa']} MPa Min.")
 
@@ -430,27 +455,29 @@ active_p = st.session_state.get('active_plant', 'merkez')
 current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
 
 # --- ANA PANEL ---
-tab_titles = ["🔍 Malzeme", "⚖️ Karışım", "🔬 Karşılaştırma", "📜 Şartname", "✅ Kontrol", "⛰️ Ocak"]
+tab_titles = ["🔍 Malzeme", "⚖️ Karışım", "🔬 Karşılaştırma", "📜 Şartname", "✅ Kontrol"]
 if is_admin:
     tab_titles.append("🏢 Kurumsal")
 if is_super_admin:
-    tab_titles.extend(["🤖 Eğitim", "👥 Kullanıcılar"])
+    tab_titles.extend(["⛰️ Ocak", "🤖 Eğitim", "👥 Kullanıcılar"])
 
 tabs = st.tabs(tab_titles)
-tab1, tab2, tab_comp, tab3, tab4, tab_ocak = tabs[0:6]
+tab1, tab2, tab_comp, tab3, tab4 = tabs[0:5]
 
 # Dinamik Tab Ataması
-next_idx = 6
+next_idx = 5
 tab_corp = None
 if is_admin:
     tab_corp = tabs[next_idx]
     next_idx += 1
 
+tab_ocak = None
 tab_ai_train = None
 tab_user_mgmt = None
 if is_super_admin:
-    tab_ai_train = tabs[next_idx]
-    tab_user_mgmt = tabs[next_idx + 1]
+    tab_ocak = tabs[next_idx]
+    tab_ai_train = tabs[next_idx + 1]
+    tab_user_mgmt = tabs[next_idx + 2]
 
 with tab1:
     current_rhos, current_was, current_las, current_mbs, computed_passing, active_mats, all_ri_values = render_tab_1(elek_serisi)
@@ -581,8 +608,9 @@ with tab4:
     }
     render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_history, is_admin=is_admin)
 
-with tab_ocak:
-    render_tab_ocak(is_admin=is_admin)
+if tab_ocak:
+    with tab_ocak:
+        render_tab_ocak(is_admin=is_admin)
 
 if is_admin and tab_corp:
     with tab_corp:
