@@ -128,12 +128,14 @@ st.markdown("""
     /* Global Typography & Background */
     @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Fira+Sans:wght@300;400;500;600;700&display=swap');
 
-    .stApp {
-        font-family: 'Fira Sans', sans-serif;
-        background-color: #F8FAFC;
+    .stApp { background-color: #F8FAFC; }
+
+    /* Sadece metin sınıflarına font veriyoruz. stApp'e global vermek ikonları bozuyor. */
+    h1, h2, h3, button, label, .stMarkdown p, .stTabs [data-baseweb="tab"] {
+        font-family: 'Fira Sans', sans-serif !important;
     }
 
-    /* Teknik veriler için mono font (Sadece burası !important kalabilir) */
+    /* Teknik veriler için mono font */
     [data-testid="stMetricValue"], code, pre {
         font-family: 'Fira Code', monospace !important;
     }
@@ -268,7 +270,7 @@ st.markdown("""
 
 # --- GLOBAL VERİLER ---
 # Elek Serileri (TS 802 / Excel Standart)
-elek_serisi = [31.5, 22.4, 16.0, 11.2, 8.0, 5.6, 4.0, 2.0, 1.0, 0.5, 0.25, 0.15, 0.063]
+elek_serisi = [40.0, 31.5, 22.4, 16.0, 11.2, 8.0, 4.0, 2.0, 1.0, 0.5, 0.25, 0.15, 0.063]
 materials = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
 
 CONCRETE_RULES = {
