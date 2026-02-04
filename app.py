@@ -128,13 +128,26 @@ st.markdown("""
     /* Global Typography & Background */
     @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Fira+Sans:wght@300;400;500;600;700&display=swap');
 
-    .stApp {
-        font-family: 'Fira Sans', sans-serif;
+    .stApp { background-color: #F8FAFC; }
+
+    /* Sadece metin içeren elemanlara font veriyoruz - İkonları bozmamak için en güvenli yol */
+    [data-testid="stMarkdownContainer"] p, 
+    [data-testid="stMarkdownContainer"] h1, 
+    [data-testid="stMarkdownContainer"] h2, 
+    [data-testid="stMarkdownContainer"] h3, 
+    [data-testid="stWidgetLabel"] label,
+    .stButton button, 
+    .stSelectbox label,
+    .stTabs [data-baseweb="tab"] {
+        font-family: 'Fira Sans', sans-serif !important;
+    }
+    
+    /* İkon sınıflarını ve sembolleri fonttan muaf tutuyoruz */
+    .stIcon, [data-testid*="Icon"], [class*="Icon"], span[dir="auto"] {
+        font-family: inherit !important;
     }
 
-    .main { background-color: #F8FAFC; }
-
-    /* Teknik veriler icin mono font */
+    /* Teknik veriler için mono font */
     [data-testid="stMetricValue"], code, pre {
         font-family: 'Fira Code', monospace !important;
     }
@@ -616,12 +629,14 @@ with tab_comp:
         all_retained_data = {}
         
         for t_name, t_val in trials.items():
+            t_ratios = t_val.get("p", [25, 25, 25, 25])
+            if sum(t_ratios) <= 0: continue # Boş denemeleri gösterme
+            
             # Her deneme için karışım gradasyonunu hesapla
             t_active = t_val.get("active", [True, True, True, True])
-            t_ratios = t_val.get("p", [25, 25, 25, 25])
             t_ri = t_val.get("ri", {}) # Bu aslında 'kalan' gramaj verisidir
             t_m1s = t_val.get("m1s", [4000.0, 4000.0, 2000.0, 2000.0])
-            t_elek = t_val.get("elek", elek_serisi) # Kaydedilmiş elek serisini kullan (Kritik!)
+            t_elek = t_val.get("elek", elek_serisi) 
             
             # Her malzemenin kendi gradasyonunu (geçen %) hesapla (Kalandan Geçene Çevir)
             trial_total_passing = np.zeros(len(t_elek))

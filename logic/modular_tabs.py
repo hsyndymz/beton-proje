@@ -55,7 +55,12 @@ def render_tab_1(elek_serisi):
 
     st.session_state['computed_passing'] = computed_passing
     st.session_state['active_mats'] = active_mats
-    st.dataframe(pd.DataFrame(computed_passing).style.format(precision=2), use_container_width=True, hide_index=True)
+    
+    # Sadece aktif olan malzemeleri tabloda göster
+    disp_cols = ["Elek (mm)"] + [m for i, m in enumerate(materials) if active_mats[i]]
+    df_disp = pd.DataFrame(computed_passing)[disp_cols]
+    
+    st.dataframe(df_disp.style.format(precision=2), use_container_width=True, hide_index=True)
     return current_rhos, current_was, current_las, current_mbs, computed_passing, active_mats, all_ri_values
 
 def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials, active_mats, 
@@ -176,8 +181,9 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines+markers', name='Ort (B)', line=dict(color='#64748B', width=2), marker=dict(symbol='diamond', size=6)))
             # 3. Max (C Eğrisi) - Slate-800
             fig.add_trace(go.Scatter(x=elek_serisi, y=alt_c, mode='lines+markers', name='Max (C)', line=dict(color='#1E293B', width=2), marker=dict(symbol='triangle-up', size=6)))
-            # 4. Tasarım (Karma) - Orange-500 (Ön Planda)
-            fig.add_trace(go.Scatter(x=elek_serisi, y=karisim_gecen, mode='lines+markers', name='Karışım', line=dict(color='#F97316', width=5), marker=dict(symbol='circle', size=10)))
+            # 4. Tasarım (Karma) - Orange-500 (Ön Planda) - Sadece veri varsa çiz
+            if np.any(karisim_gecen > 0):
+                fig.add_trace(go.Scatter(x=elek_serisi, y=karisim_gecen, mode='lines+markers', name='Karışım', line=dict(color='#F97316', width=5), marker=dict(symbol='circle', size=10)))
             
             fig.update_layout(
                 title=f"Dmax {dmax_val} mm. Gradasyon Eğrisi",
