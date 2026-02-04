@@ -160,48 +160,72 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         else: wc_ratio_eff, predicted_mpa = 0.6, 0.0
 
     with c_grad_plot:
-        fig = go.Figure()
+        # Görünüm Seçimi
+        plot_mode = st.radio("Grafik Görünümü", ["Yığışımlı Geçen (Standart)", "Elekte Kalan (8-18 Kuralı)"], horizontal=True, label_visibility="collapsed")
         
-        # Standart Eğrileri Çek (A, B, C)
-        alt_a, _ = get_std_limits(dmax_val, "A (Kaba)", elek_serisi)
-        alt_b, _ = get_std_limits(dmax_val, "B (İdeal)", elek_serisi)
-        alt_c, _ = get_std_limits(dmax_val, "C (İnce)", elek_serisi)
+        if "Standart" in plot_mode:
+            fig = go.Figure()
+            # Standart Eğrileri Çek (A, B, C)
+            alt_a, _ = get_std_limits(dmax_val, "A (Kaba)", elek_serisi)
+            alt_b, _ = get_std_limits(dmax_val, "B (İdeal)", elek_serisi)
+            alt_c, _ = get_std_limits(dmax_val, "C (İnce)", elek_serisi)
 
-        # 1. Min (A Eğrisi) - Mavi
-        fig.add_trace(go.Scatter(x=elek_serisi, y=alt_a, mode='lines+markers', name='Min (A)', line=dict(color='#1e3a8a', width=2), marker=dict(symbol='square', size=6)))
-        # 2. Ort (B Eğrisi) - Yeşil
-        fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines+markers', name='Ort (B)', line=dict(color='#15803d', width=2), marker=dict(symbol='diamond', size=6)))
-        # 3. Max (C Eğrisi) - Mor/Lacivert
-        fig.add_trace(go.Scatter(x=elek_serisi, y=alt_c, mode='lines+markers', name='Max (C)', line=dict(color='#6b21a8', width=2), marker=dict(symbol='triangle-up', size=6)))
-        # 4. Tasarım (Karma) - Kırmızı (Ön Planda)
-        fig.add_trace(go.Scatter(x=elek_serisi, y=karisim_gecen, mode='lines+markers', name='Karışım', line=dict(color='#dc2626', width=4), marker=dict(symbol='circle', size=8)))
-        
-        fig.update_layout(
-            title=f"Dmax {dmax_val} mm. Gradasyon Eğrisi",
-            paper_bgcolor='white', plot_bgcolor='white',
-            margin=dict(l=40, r=20, t=60, b=40),
-            legend=dict(orientation="v", yanchor="top", y=1, xanchor="left", x=1.02),
-            font=dict(family="Arial", size=12)
-        )
-        
-        # Ekseleri Düzenle (Logaritmik x, Ters Çevrilmiş, Gridli)
-        fig.update_xaxes(
-            type='log', 
-            title='Elek Boyutu (mm)', 
-            autorange="reversed", 
-            gridcolor='#d1d5db', 
-            linecolor='black',
-            tickvals=[0.063, 0.15, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 11.2, 16.0, 22.4, 31.5, 40.0],
-            ticktext=["0.063", "0.15", "0.25", "0.5", "1", "2", "4", "8", "11.2", "16", "22.4", "31.5", "40"]
-        )
-        fig.update_yaxes(
-            title='Elekten Geçen % (Yığışımlı)', 
-            range=[0, 105], 
-            gridcolor='#d1d5db', 
-            linecolor='black',
-            dtick=10
-        )
-        st.plotly_chart(fig, use_container_width=True)
+            # 1. Min (A Eğrisi) - Mavi
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_a, mode='lines+markers', name='Min (A)', line=dict(color='#1e3a8a', width=2), marker=dict(symbol='square', size=6)))
+            # 2. Ort (B Eğrisi) - Yeşil
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines+markers', name='Ort (B)', line=dict(color='#15803d', width=2), marker=dict(symbol='diamond', size=6)))
+            # 3. Max (C Eğrisi) - Mor/Lacivert
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_c, mode='lines+markers', name='Max (C)', line=dict(color='#6b21a8', width=2), marker=dict(symbol='triangle-up', size=6)))
+            # 4. Tasarım (Karma) - Kırmızı (Ön Planda)
+            fig.add_trace(go.Scatter(x=elek_serisi, y=karisim_gecen, mode='lines+markers', name='Karışım', line=dict(color='#dc2626', width=4), marker=dict(symbol='circle', size=8)))
+            
+            fig.update_layout(
+                title=f"Dmax {dmax_val} mm. Gradasyon Eğrisi",
+                paper_bgcolor='white', plot_bgcolor='white',
+                margin=dict(l=40, r=20, t=60, b=40),
+                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+                font=dict(family="Arial", size=12),
+                height=450
+            )
+            
+            # Ekseleri Düzenle (Logaritmik x, Ters Çevrilmiş, Gridli)
+            fig.update_xaxes(
+                type='log', title='Elek Boyutu (mm)', autorange="reversed", gridcolor='#d1d5db', linecolor='black',
+                tickvals=[0.063, 0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 11.2, 16.0, 22.4, 31.5, 40.0, 45.0],
+                ticktext=["0.063", "0.125", "0.25", "0.5", "1", "2", "4", "8", "11.2", "16", "22.4", "31.5", "40", "45"]
+            )
+            fig.update_yaxes(
+                title='Elekten Geçen % (Yığışımlı)', range=[0, 105], gridcolor='#d1d5db', linecolor='black', dtick=10
+            )
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            # PERCENT RETAINED (8-18)
+            retained = []
+            prev_p = 100.0
+            for p in karisim_gecen:
+                val = max(0, prev_p - p)
+                retained.append(val)
+                prev_p = p
+            
+            x_labels = [f"{s}" for s in elek_serisi]
+            fig_ret = go.Figure()
+            fig_ret.add_trace(go.Bar(
+                x=x_labels, y=retained, marker_color='#0e7490', text=[f"%{v:.1f}" for v in retained],
+                textposition='auto', name="Tasarım"
+            ))
+            # 8-18 Sınırları
+            fig_ret.add_hline(y=18, line_dash="dash", line_color="#b91c1c", annotation_text="Max %18", annotation_position="top left")
+            fig_ret.add_hline(y=8, line_dash="dash", line_color="#b45309", annotation_text="Min %8", annotation_position="bottom left")
+            
+            fig_ret.update_layout(
+                title="Bireysel Elek Kalıntı Analizi (8-18 Yasası)",
+                xaxis_title="Elek Boyutu (mm)", yaxis_title="Elekte Kalan %",
+                paper_bgcolor='white', plot_bgcolor='white', height=450,
+                margin=dict(l=40, r=20, t=60, b=40)
+            )
+            fig_ret.update_yaxes(range=[0, max(max(retained or [0]), 25)])
+            st.plotly_chart(fig_ret, use_container_width=True)
+            st.caption("ℹ️ Betonun işlenebilirliği ve kohezyonu için her elekte %8 ile %18 arasında malzeme kalması ideal kabul edilir.")
 
     # --- HESAPLA VE KİLİTLE BUTONU VE SONUÇLAR ---
     st.divider()

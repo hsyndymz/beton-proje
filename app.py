@@ -181,7 +181,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- GLOBAL VERİLER ---
-elek_serisi = [31.5, 22.4, 16.0, 11.2, 8.0, 5.6, 4.0, 2.0, 1.0, 0.5, 0.25, 0.125, 0.063]
+elek_serisi = [45.0, 40.0, 31.5, 22.4, 16.0, 11.2, 8.0, 4.0, 2.0, 1.0, 0.5, 0.25, 0.125, 0.063]
 materials = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
 
 CONCRETE_RULES = {
