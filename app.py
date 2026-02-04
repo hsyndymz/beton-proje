@@ -122,61 +122,141 @@ user_info = st.session_state['user_info']
 is_admin = user_info.get('role') in ["Admin", "SuperAdmin"]
 is_super_admin = user_info.get('role') == "SuperAdmin"
 
-# CSS: Kararlı Mühendislik Arayüzü
+# CSS: Endüstriyel İsviçre Tasarım Sistemi (UI/UX Pro Max)
 st.markdown("""
 <style>
-    .main { background-color: #ffffff; }
-    
-    div.stMetric {
-        background: white;
-        padding: 15px;
-        border-radius: 10px;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+    /* Global Typography & Background */
+    html, body, [class*="st-"] {
+        font-family: 'Fira Sans', sans-serif;
+        color: #334155;
     }
     
-    section[data-testid="stSidebar"] {
-        background-color: #1e293b !important;
-    }
-    section[data-testid="stSidebar"] label, 
-    section[data-testid="stSidebar"] p, 
-    section[data-testid="stSidebar"] h1, 
-    section[data-testid="stSidebar"] h3 {
-        color: #f8fafc !important;
-    }
-    
-    section[data-testid="stSidebar"] input {
-        color: #1e293b !important;
-        background-color: white !important;
-    }
-    
-    .stButton button {
-        width: 100%;
-        background-color: #ffffff;
-        color: #333333;
-        font-weight: 500;
-        border: 1px solid #e0e0e0;
-        border-radius: 4px;
-    }
-    .stButton button:hover {
-        border-color: #3b82f6;
-        color: #3b82f6;
+    .main { 
+        background-color: #F8FAFC; 
     }
 
-    /* Giriş Paneli Özel CSS */
-    .login-container {
-        text-align: center;
-        padding: 2rem;
+    h1, h2, h3, .stHeader {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 700 !important;
+        color: #1e293b !important;
+        letter-spacing: -0.02em;
     }
+
+    code, pre, .stMarkdown code {
+        font-family: 'Fira Code', monospace !important;
+    }
+
+    /* Professional Sidebar */
+    section[data-testid="stSidebar"] {
+        background-color: #0f172a !important; /* Slate-900 */
+        border-right: 1px solid #1e293b;
+    }
+    
+    section[data-testid="stSidebar"] .stMarkdown p, 
+    section[data-testid="stSidebar"] h1, 
+    section[data-testid="stSidebar"] h3,
+    section[data-testid="stSidebar"] label {
+        color: #f1f5f9 !important;
+        font-weight: 500;
+    }
+
+    section[data-testid="stSidebar"] .stButton button {
+        background-color: transparent !important;
+        color: #94a3b8 !important;
+        border: 1px solid #334155 !important;
+        transition: all 0.2s ease;
+    }
+
+    section[data-testid="stSidebar"] .stButton button:hover {
+        background-color: #1e293b !important;
+        color: #f8fafc !important;
+        border-color: #64748b !important;
+    }
+
+    /* Dashboard Metric Cards */
+    div.stMetric {
+        background: white;
+        padding: 20px !important;
+        border-radius: 4px;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        transition: transform 0.2s ease;
+    }
+    
+    div.stMetric:hover {
+        transform: translateY(-2px);
+    }
+
+    div.stMetric [data-testid="stMetricValue"] {
+        font-family: 'Fira Code', monospace;
+        font-size: 2rem !important;
+        font-weight: 600;
+        color: #0f172a;
+    }
+
+    /* Global Primary Buttons (Safety Orange) */
+    div.stButton > button:first-child {
+        background-color: #f97316 !important; /* Orange-500 */
+        color: white !important;
+        font-weight: 600 !important;
+        border: none !important;
+        border-radius: 4px !important;
+        padding: 0.5rem 1rem !important;
+        transition: all 0.2s ease !important;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    div.stButton > button:first-child:hover {
+        background-color: #ea580c !important; /* Orange-600 */
+        box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.3) !important;
+    }
+
+    /* Tabs Customization */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 10px;
+        background-color: transparent;
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        height: 45px;
+        white-space: pre;
+        background-color: #f1f5f9;
+        border-radius: 4px 4px 0 0;
+        color: #64748b;
+        font-weight: 500;
+        border: 1px solid #e2e8f0;
+        border-bottom: none;
+    }
+
+    .stTabs [aria-selected="true"] {
+        background-color: white !important;
+        color: #0f172a !important;
+        border-top: 3px solid #f97316 !important;
+    }
+
+    /* Inputs & Selectors */
+    .stTextInput input, .stSelectbox [data-baseweb="select"] {
+        border-radius: 4px !important;
+        border: 1px solid #cbd5e1 !important;
+    }
+
+    /* Footer Info */
     .footer-info {
         position: fixed;
         bottom: 20px;
         right: 20px;
         text-align: right;
-        font-family: sans-serif;
-        font-size: 14px;
+        font-family: 'Fira Code', monospace;
+        font-size: 11px;
         line-height: 1.4;
-        color: #000;
+        color: #94a3b8;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #e2e8f0;
     }
 </style>
 """, unsafe_allow_html=True)

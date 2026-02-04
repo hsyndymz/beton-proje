@@ -170,21 +170,21 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             alt_b, _ = get_std_limits(dmax_val, "B (İdeal)", elek_serisi)
             alt_c, _ = get_std_limits(dmax_val, "C (İnce)", elek_serisi)
 
-            # 1. Min (A Eğrisi) - Mavi
-            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_a, mode='lines+markers', name='Min (A)', line=dict(color='#1e3a8a', width=2), marker=dict(symbol='square', size=6)))
-            # 2. Ort (B Eğrisi) - Yeşil
-            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines+markers', name='Ort (B)', line=dict(color='#15803d', width=2), marker=dict(symbol='diamond', size=6)))
-            # 3. Max (C Eğrisi) - Mor/Lacivert
-            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_c, mode='lines+markers', name='Max (C)', line=dict(color='#6b21a8', width=2), marker=dict(symbol='triangle-up', size=6)))
-            # 4. Tasarım (Karma) - Kırmızı (Ön Planda)
-            fig.add_trace(go.Scatter(x=elek_serisi, y=karisim_gecen, mode='lines+markers', name='Karışım', line=dict(color='#dc2626', width=4), marker=dict(symbol='circle', size=8)))
+            # 1. Min (A Eğrisi) - Slate-400
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_a, mode='lines+markers', name='Min (A)', line=dict(color='#94A3B8', width=2), marker=dict(symbol='square', size=6)))
+            # 2. Ort (B Eğrisi) - Slate-600
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines+markers', name='Ort (B)', line=dict(color='#64748B', width=2), marker=dict(symbol='diamond', size=6)))
+            # 3. Max (C Eğrisi) - Slate-800
+            fig.add_trace(go.Scatter(x=elek_serisi, y=alt_c, mode='lines+markers', name='Max (C)', line=dict(color='#1E293B', width=2), marker=dict(symbol='triangle-up', size=6)))
+            # 4. Tasarım (Karma) - Orange-500 (Ön Planda)
+            fig.add_trace(go.Scatter(x=elek_serisi, y=karisim_gecen, mode='lines+markers', name='Karışım', line=dict(color='#F97316', width=5), marker=dict(symbol='circle', size=10)))
             
             fig.update_layout(
                 title=f"Dmax {dmax_val} mm. Gradasyon Eğrisi",
                 paper_bgcolor='white', plot_bgcolor='white',
                 margin=dict(l=40, r=20, t=60, b=40),
                 legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-                font=dict(family="Arial", size=12),
+                font=dict(family="Fira Sans", size=12),
                 height=450
             )
             
@@ -937,12 +937,17 @@ def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_his
                 fig_qc.add_trace(go.Scatter(
                     x=valid_qc["predicted_mpa"], y=valid_qc["d28"],
                     mode='markers', name='Kırımlar',
-                    marker=dict(size=10, color='blue', opacity=0.7)
+                    marker=dict(size=12, color='#64748B', opacity=0.8, line=dict(width=1, color='#1E293B'))
                 ))
                 # 45 Derece Çizgisi
                 m_max = max(valid_qc["predicted_mpa"].max(), valid_qc["d28"].max()) + 5
-                fig_qc.add_trace(go.Scatter(x=[0, m_max], y=[0, m_max], mode='lines', name='İdeal Doğru', line=dict(color='red', dash='dash')))
-                fig_qc.update_layout(title="Gerçekleşen vs Tahmin (28 Gün)", xaxis_title="Tahmin (MPa)", yaxis_title="Ölçülen (MPa)")
+                fig_qc.add_trace(go.Scatter(x=[0, m_max], y=[0, m_max], mode='lines', name='İdeal Doğru', line=dict(color='#F97316', dash='dash', width=3)))
+                fig_qc.update_layout(
+                    title="Gerçekleşen vs Tahmin (28 Gün)", 
+                    xaxis_title="Tahmin (MPa)", yaxis_title="Ölçülen (MPa)",
+                    font=dict(family="Fira Sans"),
+                    paper_bgcolor='white', plot_bgcolor='white'
+                )
                 st.plotly_chart(fig_qc, use_container_width=True)
             else:
                 st.info("Kıyaslama grafiği için tahmini mpa verisi eksik.")
@@ -1332,34 +1337,43 @@ def render_tab_management(is_super_admin=False):
             st.info("Sistemde silinebilecek başka kullanıcı bulunmuyor.")
 
 def render_tab_5(is_admin=False):
-    # --- PREMIUM CSS ---
+    # --- INDUSTRIAL SWISS CSS ---
     st.markdown("""
         <style>
         .corp-header {
-            background-color: #f8fafc;
-            padding: 1rem;
-            border-radius: 10px;
-            border-left: 5px solid #3b82f6;
-            margin-bottom: 1.5rem;
+            background-color: #f1f5f9;
+            padding: 1.5rem;
+            border-radius: 4px;
+            border-left: 6px solid #f97316; /* Safety Orange */
+            margin-bottom: 2rem;
+        }
+        .corp-header h3 {
+            margin: 0;
+            color: #0f172a;
+            font-family: 'Fira Sans', sans-serif;
         }
         .metric-card {
             background: white;
             padding: 1.5rem;
-            border-radius: 12px;
+            border-radius: 4px;
             border: 1px solid #e2e8f0;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            text-align: left;
+            border-top: 3px solid #64748b;
         }
         .metric-label {
             color: #64748b;
-            font-size: 0.875rem;
-            font-weight: 500;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
             margin-bottom: 0.5rem;
         }
         .metric-value {
-            color: #1e293b;
-            font-size: 1.875rem;
+            color: #0f172a;
+            font-size: 2rem;
             font-weight: 700;
+            font-family: 'Fira Code', monospace;
         }
         </style>
     """, unsafe_allow_html=True)
@@ -1451,18 +1465,26 @@ def render_tab_5(is_admin=False):
         st.markdown("#### 📉 Standart Sapma (Sigma) Dağılımı")
         fig_sigma = go.Figure(data=[
             go.Bar(x=df_corp["name"], y=df_corp["sigma"], 
-                   marker_color=['#22c55e' if s < 3.5 else ('#f59e0b' if s < 5.0 else '#ef4444') for s in df_corp["sigma"]])
+                   marker_color=['#10B981' if s < 3.5 else ('#F59E0B' if s < 5.0 else '#EF4444') for s in df_corp["sigma"]])
         ])
-        fig_sigma.update_layout(height=350, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='white')
+        fig_sigma.update_layout(
+            height=350, margin=dict(l=10, r=10, t=30, b=10), 
+            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='white',
+            font=dict(family="Fira Sans")
+        )
         st.plotly_chart(fig_sigma, use_container_width=True)
 
     with c2:
         st.markdown("#### 💎 Çimento Verimliliği (kg / MPa)")
         eff_df = calculate_cement_efficiency_stats(df_corp)
         fig_eff = go.Figure(data=[
-            go.Bar(x=eff_df["name"], y=eff_df["cement_eff"], marker_color="#3b82f6")
+            go.Bar(x=eff_df["name"], y=eff_df["cement_eff"], marker_color="#64748B") # Slate-500
         ])
-        fig_eff.update_layout(height=350, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='white')
+        fig_eff.update_layout(
+            height=350, margin=dict(l=10, r=10, t=30, b=10), 
+            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='white',
+            font=dict(family="Fira Sans")
+        )
         st.plotly_chart(fig_eff, use_container_width=True)
 
     # --- 4. RİSK VE PERFORMANS MATRİSİ (ROW 2) ---
