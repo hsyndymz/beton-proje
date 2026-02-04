@@ -759,8 +759,8 @@ def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_his
     # --- 1. VERİ GİRİŞ FORMU (PREMIUM RE-DESIGN) ---
     with st.expander("💜 Yeni Numune / Tam Reçete Kaydı", expanded=len(qc_history) == 0):
         if st.button("📋 Mevcut Dizayn Verilerini Kopyala", use_container_width=False):
-            if 'mix_snapshot' in st.session_state:
-                snap = st.session_state['mix_snapshot']
+            snap = st.session_state.get('mix_snapshot')
+            if snap is not None:
                 m_data = snap['mix_data']
                 st.session_state['qc_cem'] = m_data.get('cement', 350)
                 st.session_state['qc_wat'] = m_data.get('water', 180)
