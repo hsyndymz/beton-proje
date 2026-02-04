@@ -498,25 +498,33 @@ with tab_comp:
             t_ratios = t_val.get("p", [25, 25, 25, 25])
             t_ri = t_val.get("ri", {}) # Bu aslında 'kalan' gramaj verisidir
             t_m1s = t_val.get("m1s", [4000.0, 4000.0, 2000.0, 2000.0])
+            t_elek = t_val.get("elek", elek_serisi) # Kaydedilmiş elek serisini kullan (Kritik!)
             
             # Her malzemenin kendi gradasyonunu (geçen %) hesapla (Kalandan Geçene Çevir)
-            trial_total_passing = np.zeros(len(elek_serisi))
+            trial_total_passing = np.zeros(len(t_elek))
             
             for i in range(4):
                 if t_active[i]:
                     # i index veya mat_name olarak saklanmış olabilir
-                    mat_weights = t_ri.get(str(i)) or t_ri.get(materials[i], [0.0]*len(elek_serisi))
+                    mat_weights = t_ri.get(str(i)) or t_ri.get(materials[i], [0.0]*len(t_elek))
                     m1_val = t_m1s[i] if i < len(t_m1s) else 2000.0
                     
+                    # Eğer kaydedilen mat_weights uzunluğu t_elek ile uyumsuzsa düzeltebilmeliyiz
+                    if len(mat_weights) != len(t_elek):
+                        if len(mat_weights) < len(t_elek):
+                            mat_weights = list(mat_weights) + [0.0] * (len(t_elek) - len(mat_weights))
+                        else:
+                            mat_weights = mat_weights[:len(t_elek)]
+
                     # Kalandan Geçene Çevir
                     mat_passing = calculate_passing(m1_val, mat_weights)
                     
                     # Karışım gradasyonuna (oranıyla) ekle
                     trial_total_passing += np.array(mat_passing) * (t_ratios[i] / 100.0)
             
-            all_passing_data[t_name] = trial_total_passing
+            all_passing_data[t_name] = {"passing": trial_total_passing, "elek": t_elek}
             all_retained_data[t_name] = t_ri
-            fig_comp.add_trace(go.Scatter(x=elek_serisi, y=trial_total_passing, name=t_name, mode='lines+markers'))
+            fig_comp.add_trace(go.Scatter(x=t_elek, y=trial_total_passing, name=t_name, mode='lines+markers'))
 
         fig_comp.update_layout(xaxis_type="log", xaxis_title="Elek Göz Açıklığı (mm)", yaxis_title="Toplam Karışım Geçen %", height=500)
         st.plotly_chart(fig_comp, use_container_width=True)
@@ -528,8 +536,17 @@ with tab_comp:
             elek_rows = []
             for i, e_size in enumerate(elek_serisi):
                 row = {"Elek (mm)": e_size}
-                for t_name, t_passing in all_passing_data.items():
-                    row[t_name] = f"%{t_passing[i]:.1f}"
+                for t_name, t_info in all_passing_data.items():
+                    t_passing = t_info["passing"]
+                    t_elek = t_info["elek"]
+                    
+                    # Bu denemede bu elek boyutu var mı bul
+                    try:
+                        idx = list(t_elek).index(e_size)
+                        val = t_passing[idx]
+                        row[t_name] = f"%{val:.1f}"
+                    except ValueError:
+                        row[t_name] = "-" # Elek bu denemede yoksa
                 elek_rows.append(row)
             st.dataframe(pd.DataFrame(elek_rows), use_container_width=True, hide_index=True)
             
