@@ -7,7 +7,8 @@ import plotly.graph_objects as go
 from io import BytesIO
 from logic.data_manager import (
     veriyi_yukle, veriyi_kaydet, havuz_yukle, havuz_kaydet, 
-    tesis_faktor_yukle, tesis_faktor_kaydet
+    tesis_faktor_yukle, tesis_faktor_kaydet,
+    shared_insight_kaydet, shared_insight_yukle
 )
 from logic.engineering import (
     calculate_passing, calculate_theoretical_mpa, evaluate_mix_compliance, 
@@ -18,6 +19,10 @@ from logic.report_generator import generate_kgm_raporu
 from logic.state_manager import init_session_state, SessionStateInitializer
 from logic.modular_tabs import render_tab_1, render_tab_2, render_tab_3, render_tab_4, render_tab_5, render_tab_management
 from logic.auth_manager import check_login, register_user
+from logic.rag_service import RAGService
+
+# --- BİLGİ BANKASI SERVİSİ ---
+rag_service = RAGService()
 
 # --- SAYFA YAPILANDIRMASI ---
 st.set_page_config(page_title="Beton Tasarım Programı", layout="wide", initial_sidebar_state="expanded")
@@ -126,6 +131,15 @@ st.markdown("""
 <style>
     .main { background-color: #ffffff; }
     
+    .ai-insight-box {
+        background: linear-gradient(135deg, #1e293b, #334155);
+        color: #f8fafc;
+        padding: 20px;
+        border-radius: 12px;
+        border-left: 8px solid #3b82f6;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
     div.stMetric {
         background: white;
         padding: 15px;
@@ -384,6 +398,7 @@ with st.sidebar:
         help="API anahtarınızın desteklediği modeli seçin. 2.0 modelleri en güncel olanlardır."
     )
     
+    use_rag = st.toggle("🧠 Bilgi Bankasını Kullan (RAG)", value=True, help="AI raporu oluştururken KTŞ ve TS standartlarından bağlam ekler.")
 # AI Model Hazırlama
 import google.generativeai as genai
 if google_key:
@@ -550,12 +565,28 @@ if is_super_admin:
             pool_data = havuz_yukle()
             if pool_data:
                 df_pool = pd.DataFrame(pool_data)
-                st.write(f"Sistemdeki Toplam Eğitim Datası: {len(df_pool)}")
-                if st.button("🚀 Modeli Yeniden Eğit (Deep Learning)"):
-                    with st.spinner("Model optimize ediliyor..."):
-                        train_prediction_model(pool_data)
-                        st.success("Yeni model başarıyla eğitildi!")
                 st.dataframe(df_pool.tail(10))
+                
+                st.markdown("---")
+                st.subheader("🤖 AI Derin Öğrenme ve Analiz")
+                if st.button("🚀 Gemini ile Derin Analiz Yap", help="Tüm verileri Gemini 2.5 Flash modeline göndererek teknik korelasyonları analiz eder."):
+                    with st.spinner("Gemini verileri analiz ediyor, lütfen bekleyin..."):
+                        analysis_report = analyze_data_with_gemini(pool_data, model_instance=model)
+                        st.session_state['ai_learning_report'] = analysis_report
+                
+                if 'ai_learning_report' in st.session_state:
+                    st.markdown("### 📋 AI Mühendislik Öngörü Raporu")
+                    st.markdown(st.session_state['ai_learning_report'])
+                    
+                    col_pub1, col_pub2 = st.columns([1,1])
+                    with col_pub1:
+                        if st.button("📢 TÜM KULLANICILARLA PAYLAŞ", use_container_width=True):
+                            shared_insight_kaydet(st.session_state['ai_learning_report'], author=f"AI ({user_info.get('full_name')})")
+                            st.success("✅ Rapor tüm kullanıcıların ana sayfasında yayınlandı!")
+                    with col_pub2:
+                        if st.button("🗑️ Raporu Temizle", use_container_width=True):
+                            st.session_state.pop('ai_learning_report')
+                            st.rerun()
             else:
                 st.warning("Henüz global havuzda veri birikmemiş.")
                 
@@ -569,11 +600,31 @@ if is_super_admin:
         prompt = st.session_state.pop('ai_report_prompt')
         with st.spinner("AI Teknik Rapor oluşturuluyor..."):
             try:
+                # RAG: Eğer aktifse ilgili bağlamı bul ve prompt'a ekle
+                final_prompt = prompt
+                if use_rag:
+                    # Prompt içindeki anahtar kelimeleri veya hedef sınıfı kullanarak arama yap
+                    # Basitçe prompt'un kendisini sorgu olarak kullanabiliriz
+                    context = rag_service.search_context(prompt)
+                    if context:
+                        final_prompt = f"{context}\n\nSoru: {prompt}\n\nYukarıdaki bilgi bankası kesitlerini kullanarak profesyonel bir teknik rapor hazırla."
+
                 res_text = ""
                 if selected_provider == "Google Gemini" and model:
-                    res_text = model.generate_content(prompt).text
+                    response = model.generate_content(final_prompt)
+                    # GÜVENLİ ERİŞİM: response.text hata verebilir (safety filter vb.)
+                    try:
+                        if response.candidates:
+                            res_text = response.text
+                        else:
+                            st.warning("⚠️ AI yanıt dönemedi (Filtreye takılmış olabilir).")
+                    except Exception as e_inner:
+                        st.error(f"⚠️ AI Yanıt Hatası: {e_inner}")
+                        # Alternatif: Blocked reason'ı göster
+                        if hasattr(response, 'prompt_feedback'):
+                            st.caption(f"Prompt Feedback: {response.prompt_feedback}")
                 elif selected_provider == "DeepSeek (Beta)" and deepseek_client:
-                    res_text = deepseek_client.chat.completions.create(model="deepseek-chat", messages=[{"role":"user","content":prompt}]).choices[0].message.content
+                    res_text = deepseek_client.chat.completions.create(model="deepseek-chat", messages=[{"role":"user","content":final_prompt}]).choices[0].message.content
                 
                 if res_text:
                     st.session_state['ai_report_output'] = res_text

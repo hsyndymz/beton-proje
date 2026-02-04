@@ -92,3 +92,26 @@ def tesis_faktor_kaydet(tesis_adi, deger, plant_id="merkez"):
     faz[tesis_adi] = deger
     with open(f_path, "w", encoding="utf-8") as f:
         json.dump(faz, f, ensure_ascii=False, indent=4)
+
+# --- AI TEKNİK BÜLTEN (KÜRESEL PAYLAŞIM) ---
+SHARED_INSIGHTS_FILE = os.path.join(DATA_DIR, "shared_insights.json")
+
+def shared_insight_kaydet(insight):
+    insights = shared_insight_yukle()
+    insights.append(insight)
+    # Son 15 bülten kaydını tutalım
+    with open(SHARED_INSIGHTS_FILE, "w", encoding="utf-8") as f:
+        json.dump(insights[-15:], f, ensure_ascii=False, indent=4)
+
+def shared_insight_yukle():
+    if os.path.exists(SHARED_INSIGHTS_FILE):
+        with open(SHARED_INSIGHTS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+def shared_insight_sil(index):
+    insights = shared_insight_yukle()
+    if 0 <= index < len(insights):
+        del insights[index]
+        with open(SHARED_INSIGHTS_FILE, "w", encoding="utf-8") as f:
+            json.dump(insights, f, ensure_ascii=False, indent=4)

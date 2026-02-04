@@ -6,8 +6,10 @@ import plotly.graph_objects as go
 from logic.report_generator import generate_kgm_raporu
 from logic.data_manager import (
     veriyi_yukle, veriyi_kaydet, havuz_yukle, havuz_kaydet, 
-    tesis_faktor_yukle, tesis_faktor_kaydet, santralleri_yukle, santral_kaydet, santral_sil
+    tesis_faktor_yukle, tesis_faktor_kaydet, santralleri_yukle, santral_kaydet, santral_sil,
+    shared_insight_yukle, shared_insight_kaydet, shared_insight_sil
 )
+from logic.ocak_manager import ocaklari_yukle, ocak_kaydet, ocak_sil
 from logic.engineering import (
     calculate_passing, calculate_theoretical_mpa, evaluate_mix_compliance, 
     classify_plant, get_std_limits, optimize_mix, update_site_factor,
@@ -204,6 +206,35 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
     # --- HESAPLA VE KİLİTLE BUTONU VE SONUÇLAR ---
     st.divider()
     if st.button("🧮 Dizaynı Hesapla ve Kilitle", type="primary", use_container_width=True):
+        # --- AI ÖĞRENME MOTORU (Dizayn Anında Öğrenme) ---
+        try:
+            pool_data = havuz_yukle()
+            # Mevcut dizayn verilerini AI havuzuna ekle
+            ai_entry = {
+                "cement": float(cimento),
+                "water": float(su_hedef),
+                "ash": float(ucucu_kul),
+                "air": float(hava_yuzde),
+                "admixture": float(cimento * katki / 100),
+                "d28": float(predicted_mpa), # Tahmin edilen değerle eğit
+                "p": [float(p1), float(p2), float(p3), float(p4)],
+                "lithology": litoloji,
+                "material_chars": {
+                    "rhos": current_rhos,
+                    "was": current_was,
+                    "las": current_las,
+                    "mbs": current_mbs
+                },
+                "target_class": hedef_sinif,
+                "timestamp": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M"),
+                "source": f"Design-Learn-{proje}"
+            }
+            pool_data.append(ai_entry)
+            havuz_kaydet(pool_data)
+            st.toast("🤖 AI Motoru bu dizayndan yeni bilgiler öğrendi!", icon="🧠")
+        except Exception as e:
+            st.error(f"AI Öğrenme Hatası: {e}")
+
         active_p = st.session_state.get('active_plant', 'merkez')
         all_qc_data = veriyi_yukle(plant_id=active_p)
         proj_history = all_qc_data.get(proje, {}).get("qc_history", [])
@@ -658,6 +689,25 @@ def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_his
 
     st.info(f"**🏭 Santral Profili (Saha Aklı):** {plant_class} | **{tesis_adi} Saha Faktörü:** x{current_site_factor:.3f}")
 
+    # --- 🤖 SAHA AKLI - AI GÜNLÜK TEKNİK BÜLTENİ (KÜRESEL SOSYAL PANEL) ---
+    st.markdown("---")
+    with st.container():
+        st.markdown("### 🤖 Saha Aklı - AI Teknik Bülteni")
+        all_insights = shared_insight_yukle()
+        
+        if all_insights:
+            # En son paylaşılan en üstte
+            for idx, insight in enumerate(reversed(all_insights)):
+                with st.chat_message("assistant", avatar="🧠"):
+                    st.write(f"**{insight.get('author', 'Global AI Model')}** - {insight.get('timestamp', '')}")
+                    st.info(insight.get('content', ''))
+                    if is_admin:
+                        if st.button(f"🗑️ Bülteni Kaldır #{len(all_insights)-1-idx}", key=f"del_ins_{len(all_insights)-1-idx}"):
+                            shared_insight_sil(len(all_insights)-1-idx)
+                            st.rerun()
+        else:
+            st.caption("Şu an paylaşılan küresel bir teknik bülten bulunmuyor.")
+
     # Akıllı Uyarılar Paneli
     smart_alerts = generate_smart_alerts(qc_history, proj_data)
     if smart_alerts:
@@ -669,90 +719,130 @@ def render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_his
                     if st.button(f"🔍 Neden?", key=f"why_{alert['id']}"):
                         reason = explain_ai_logic(alert['id'])
                         st.info(f"**AI Analizi:** {reason}")
+                    
+                    if st.button(f"📢 Bültene Ekle", key=f"share_{alert['id']}"):
+                        new_insight = {
+                            "author": tesis_adi,
+                            "content": alert['msg'],
+                            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+                        }
+                        shared_insight_kaydet(new_insight)
+                        st.success("Bültene eklendi!")
+                        st.rerun()
+                        
                     st.caption(f"Dayanak: {alert['rationale']}")
 
-    # --- 1. VERİ GİRİŞ FORMU ---
-    with st.expander("➕ Yeni Numune Kaydı / Kırım Verisi Ekle", expanded=len(qc_history) == 0):
-        if st.button("📋 Mevcut Dizayndan Bilgileri Kopyala"):
+    # --- 1. VERİ GİRİŞ FORMU (PREMIUM RE-DESIGN) ---
+    with st.expander("💜 Yeni Numune / Tam Reçete Kaydı", expanded=len(qc_history) == 0):
+        if st.button("📋 Mevcut Dizayn Verilerini Kopyala", use_container_width=False):
             if 'mix_snapshot' in st.session_state:
                 snap = st.session_state['mix_snapshot']
                 m_data = snap['mix_data']
                 st.session_state['qc_cem'] = m_data.get('cement', 350)
                 st.session_state['qc_wat'] = m_data.get('water', 180)
                 st.session_state['qc_ash'] = m_data.get('ash', 0)
+                st.session_state['qc_chem'] = m_data.get('admixture', 4.0)
                 st.session_state['qc_air'] = m_data.get('air', 1.5)
-                st.session_state['qc_chem'] = m_data.get('chem_kg', 4.0)
                 st.session_state['qc_pred'] = m_data.get('pred_mpa', 0.0)
-                st.success("Dizayn verileri forma çekildi!")
+                # Reçete oranlarını da kopyala
+                st.session_state['qc_p1'] = st.session_state.get('p1', 25)
+                st.session_state['qc_p2'] = st.session_state.get('p2', 25)
+                st.session_state['qc_p3'] = st.session_state.get('p3', 25)
+                st.session_state['qc_p4'] = st.session_state.get('p4', 25)
+                st.success("Tüm dizayn ve reçete verileri forma çekildi!")
                 st.rerun()
             else:
                 st.warning("Önce 'Karışım Dizaynı' sekmesinde hesaplama yapmalısınız.")
 
-        c1, c2, c3 = st.columns(3)
-        with c1:
-            qc_date = st.date_input("Döküm Tarihi", key="qc_date")
-            qc_no = st.text_input("Numune No / Kod", value=f"N-{len(qc_history)+1}", key="qc_no")
-            qc_d7 = st.number_input("7 Günlük (MPa)", value=0.0, key="qc_d7")
-        with c2:
-            qc_cem = st.number_input("Çimento (kg)", key="qc_cem")
-            qc_wat = st.number_input("Su (L)", key="qc_wat")
-            qc_d28 = st.number_input("28 Günlük (MPa)", value=0.0, key="qc_d28")
-        with c3:
-            qc_air = st.number_input("Hava (%)", key="qc_air")
-            qc_slump = st.number_input("Slump (cm)", value=18.0, key="qc_slump")
-            qc_pred = st.number_input("Tahmin Edilen (MPa)", key="qc_pred")
-
-        if st.button("💾 Kaydı Veritabanına Ekle"):
-            new_record = {
-                "id": len(qc_history) + 1,
-                "date": str(qc_date),
-                "no": qc_no,
-                "cement": qc_cem,
-                "water": qc_wat,
-                "air": qc_air,
-                "slump": qc_slump,
-                "d7": qc_d7,
-                "d28": qc_d28,
-                "predicted_mpa": qc_pred,
-                "measured_mpa": qc_d28
-            }
-            qc_history.append(new_record)
-            proj_data["qc_history"] = qc_history
-            all_data_json[proje] = proj_data
-            veriyi_kaydet(proje, proj_data, plant_id=active_p)
+        with st.form("new_control_form_premium"):
+            st.markdown('<div style="border: 1px solid #f0f0f0; padding: 25px; border-radius: 15px; background-color: #ffffff;">', unsafe_allow_html=True)
             
-            # --- ZENGİN AI OTOMATİK ÖĞRENME (DEEP LEARNING) ---
-            if qc_d28 > 0:
-                try:
-                    pool_data = havuz_yukle()
-                    # Mevcut projenin dizayn verilerini topla
-                    rich_entry = {
-                        "cement": qc_cem, "water": qc_wat,
-                        "ash": proj_data.get("ucucu", 0),
-                        "air": qc_air,
-                        "admixture": proj_data.get("kat", 1.0),
-                        "d28": qc_d28,
-                        "p1": proj_data.get("p", [25]*4)[0],
-                        "p2": proj_data.get("p", [25]*4)[1],
-                        "p3": proj_data.get("p", [25]*4)[2],
-                        "p4": proj_data.get("p", [25]*4)[3],
-                        "target_class": hedef_sinif,
-                        "timestamp": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M"),
-                        "source": f"Auto-From-{proje}"
-                    }
-                    pool_data.append(rich_entry)
-                    havuz_kaydet(pool_data)
-                except Exception as ai_e:
-                    st.error(f"AI Otomatik Öğrenme Hatası: {ai_e}")
+            # --- BÖLÜM 1: NUMUNE KİMLİĞİ ---
+            st.markdown("#### 📅 Numune Kimliği")
+            c_id1, c_id2, c_id3 = st.columns(3)
+            with c_id1:
+                qc_date = st.date_input("Döküm Tarihi", key="qc_date")
+            with c_id2:
+                qc_no = st.text_input("Numune No", value=f"N-{len(qc_history)+1}", key="qc_no")
+            with c_id3:
+                qc_target = st.number_input("Tasarım Hedef Dayanımı (MPa)", value=0.0, step=0.1, key="qc_target")
             
-            # Saha Faktörü Güncelleme (Opsiyonel/Otomatik)
-            if qc_d28 > 0 and qc_pred > 0:
-                new_f = update_site_factor(qc_pred, qc_d28, current_site_factor)
-                tesis_faktor_kaydet(tesis_adi, new_f, plant_id=active_p)
-                st.success(f"Kaydedildi! Yeni Saha Faktörü: x{new_f}")
-            else:
-                st.success("Kayıt eklendi.")
-            st.rerun()
+            st.markdown("#### 💧 Saha Reçete Detayları (1m³)")
+            c_rec1, c_rec2, c_rec3, c_rec4 = st.columns(4)
+            with c_rec1:
+                qc_cem = st.number_input("Çimento (kg)", key="qc_cem")
+            with c_rec2:
+                qc_wat = st.number_input("Su (L)", key="qc_wat")
+            with c_rec3:
+                qc_ash = st.number_input("Uçucu Kül (kg)", key="qc_ash")
+            with c_rec4:
+                qc_chem = st.number_input("Katkı (kg)", key="qc_chem")
+                
+            st.markdown("#### 🧪 Agrega Dağılımı (Saha)")
+            c_agg1, c_agg2, c_agg3, c_agg4 = st.columns(4)
+            with c_agg1:
+                qc_p1 = st.number_input("No:2 %", value=st.session_state.get('qc_p1', 25), key="qc_p1")
+            with c_agg2:
+                qc_p2 = st.number_input("No:1 %", value=st.session_state.get('qc_p2', 25), key="qc_p2")
+            with c_agg3:
+                qc_p3 = st.number_input("K.Kum %", value=st.session_state.get('qc_p3', 25), key="qc_p3")
+            with c_agg4:
+                qc_p4 = st.number_input("D.Kum %", value=st.session_state.get('qc_p4', 25), key="qc_p4")
+                
+            st.markdown("#### 🏁 Taze Beton ve Kırım Verileri")
+            c_qc1, c_qc2, c_qc3, c_qc4 = st.columns(4)
+            with c_qc1:
+                qc_slump = st.number_input("Slump (cm)", value=18.0, step=0.5, key="qc_slump")
+            with c_qc2:
+                qc_air = st.number_input("Hava (%)", value=1.5, step=0.1, key="qc_air")
+            with c_qc3:
+                qc_d7 = st.number_input("7 Günlük (MPa)", value=0.0, step=0.1, key="qc_d7")
+            with c_qc4:
+                qc_d28 = st.number_input("28 Günlük (MPa)", value=0.0, step=0.1, key="qc_d28")
+                
+            st.markdown("<br>", unsafe_allow_html=True)
+            submit_control = st.form_submit_button("💾 Tam Sistemi Kaydet")
+            st.markdown('</div>', unsafe_allow_html=True)
+            
+            if submit_control:
+                new_record = {
+                    "id": len(qc_history) + 1,
+                    "date": str(qc_date),
+                    "no": qc_no,
+                    "target_mpa": qc_target,
+                    "cement": qc_cem,
+                    "water": qc_wat,
+                    "ash": qc_ash,
+                    "admixture": qc_chem,
+                    "p_ratios": [qc_p1, qc_p2, qc_p3, qc_p4],
+                    "air": qc_air,
+                    "slump": qc_slump,
+                    "d7": qc_d7,
+                    "d28": qc_d28,
+                    "measured_mpa": qc_d28,
+                    "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+                }
+                qc_history.append(new_record)
+                proj_data["qc_history"] = qc_history
+                all_data_json[proje] = proj_data
+                veriyi_kaydet(proje, proj_data, plant_id=active_p)
+                
+                # AI Learning (Automatic)
+                if qc_d28 > 0:
+                    try:
+                        pool_data = havuz_yukle()
+                        pool_data.append({
+                            "cement": qc_cem, "water": qc_wat, "ash": qc_ash,
+                            "air": qc_air, "admixture": qc_chem, "d28": qc_d28,
+                            "p": [qc_p1, qc_p2, qc_p3, qc_p4],
+                            "lithology": proj_data.get("lithology", "Bazalt"),
+                            "source": f"Control-Tab-{proje}"
+                        })
+                        havuz_kaydet(pool_data)
+                    except: pass
+                
+                st.success("✅ Kayıt başarıyla sisteme işlendi.")
+                st.rerun()
 
     # --- 2. KAYITLI VERİLER VE YÖNETİM ---
     if qc_history:
@@ -902,6 +992,133 @@ def render_tab_5(is_admin=False):
             st.info("💡 Global hafıza yönetimi sadece Yöneticilere açıktır.")
     else:
         st.warning("Eğitim havuzu şu an boş. Veri ekleyerek başlayın.")
+
+def render_tab_ocak(is_admin=False):
+    # Premium Styling for Quarry Tab
+    st.markdown("""
+        <style>
+        .quarry-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+        .quarry-info-box {
+            background-color: #e9f5ff;
+            border: 1px solid #d0e8ff;
+            padding: 12px 20px;
+            border-radius: 10px;
+            color: #3470a2;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .stExpander {
+            border: 1px solid #efefef !important;
+            border-radius: 12px !important;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02) !important;
+            background-color: #ffffff !important;
+        }
+        /* Style inputs to have the light grey background seen in photo */
+        div[data-baseweb="input"], [data-baseweb="select"], .stTextArea textarea {
+            background-color: #f1f3f8 !important;
+            border: none !important;
+            border-radius: 10px !important;
+        }
+        /* Buttons inside form */
+        .stForm [data-testid="stFormSubmitButton"] button {
+            background-color: #ffffff !important;
+            color: #333 !important;
+            border: 1px solid #e0e0e0 !important;
+            border-radius: 10px !important;
+            padding: 10px 20px !important;
+            font-weight: 500 !important;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05) !important;
+        }
+        .stForm [data-testid="stFormSubmitButton"] button:hover {
+            border-color: #6c5ce7 !important;
+            color: #6c5ce7 !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown('<div class="quarry-header"><h2 style="margin:0; color: #3d4756;">🏔️ Ocak ve Malzeme Yönetimi</h2></div>', unsafe_allow_html=True)
+    st.markdown('<div class="quarry-info-box">Bölgedeki agrega ocaklarını, litolojik özelliklerini ve test sonuçlarını buradan yönetebilirsiniz.</div>', unsafe_allow_html=True)
+    
+    ocaklar = ocaklari_yukle()
+    
+    # Matching the expander label color from photo (purple tint icon)
+    with st.expander("💜 Yeni Ocak Kaydı Ekle", expanded=not ocaklar):
+        with st.form("new_quarry_form_premium"):
+            # Use a container for the inner content to match the thin border layout
+            st.markdown('<div style="border: 1px solid #f0f0f0; padding: 20px; border-radius: 10px;">', unsafe_allow_html=True)
+            c1, c2, c3 = st.columns(3)
+            
+            with c1:
+                o_name = st.text_input("Ocak Adı", help="Örn: Karadağ Taş Ocağı")
+                o_lat = st.number_input("Enlem (Lat)", value=37.000000, format="%.6f", step=0.000001)
+                o_lon = st.number_input("Boylam (Lon)", value=38.000000, format="%.6f", step=0.000001)
+                
+            with c2:
+                o_litho = st.selectbox("Litoloji", ["Bazalt", "Kalker", "Dere Malzemesi", "Granit", "Andezit"], index=0)
+                o_la = st.number_input("Los Angeles (LA) Aşınma (%)", value=20.00, step=0.01)
+                o_mb = st.number_input("Metilen Mavisi (MB)", value=0.50, format="%.2f", step=0.01)
+                
+            with c3:
+                # ASR risk selection match
+                o_asr = st.selectbox("ASR Riski", ["İnert", "Potansiyel Reaktif", "Yüksek Reaktif"], index=0)
+                o_cem = st.number_input("Çimentolaşma İndeksi", value=1.00, format="%.2f", step=0.01)
+                o_desc = st.text_area("Notlar", value="Kaliteli malzeme.", height=95)
+            
+            submit = st.form_submit_button("🚀 Ocağı Kaydet")
+            st.markdown('</div>', unsafe_allow_html=True)
+            
+            if submit:
+                if o_name:
+                    o_id = o_name.lower().replace(" ", "_")
+                    o_data = {
+                        "name": o_name, 
+                        "lat": o_lat, 
+                        "lon": o_lon,
+                        "lithology": o_litho, 
+                        "la_wear": o_la, 
+                        "mb_value": o_mb,
+                        "asr_risk": o_asr, 
+                        "cementation_index": o_cem,
+                        "description": o_desc,
+                        "updated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+                    }
+                    ocak_kaydet(o_id, o_data)
+                    st.success(f"'{o_name}' başarıyla kaydedildi.")
+                    st.rerun()
+                else:
+                    st.error("Lütfen ocak adını giriniz.")
+
+    if ocaklar:
+        st.subheader("📊 Ocak Test Verileri")
+        # Pre-process for better table display
+        formatted_data = []
+        for k, v in ocaklar.items():
+            formatted_data.append({
+                "Ocak Adı": v.get("name", k),
+                "Litoloji": v.get("lithology", "-"),
+                "LA Aşınma (%)": v.get("la_wear", v.get("la", "-")),
+                "ASR Riski": v.get("asr_risk", "-"),
+                "Çimentolaşma": v.get("cementation_index", "-"),
+                "Güncelleme": v.get("updated_at", "-")
+            })
+        
+        st.dataframe(pd.DataFrame(formatted_data), use_container_width=True, hide_index=True)
+        
+        if is_admin:
+            st.divider()
+            with st.expander("🗑️ Ocak Sil"):
+                o_del = st.selectbox("Silinecek Ocak", list(ocaklar.keys()), format_func=lambda x: ocaklar[x].get("name", x))
+                if st.button("❌ Ocağı Sil", type="primary"):
+                    success, msg = ocak_sil(o_del)
+                    if success:
+                        st.warning(msg)
+                        st.rerun()
+                    else: st.error(msg)
 
 def render_tab_management(is_super_admin=False):
     from logic.auth_manager import load_users, add_user, delete_user, save_users, update_user
