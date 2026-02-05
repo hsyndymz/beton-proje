@@ -675,8 +675,11 @@ with tab_comp:
             # Geçen % Tablosu
             st.write("📈 **Karışım Geçen Yüzdeleri (%)**")
             elek_rows = []
+            # Şartname değerlerini bir kez çek
+            s_alt_b, _ = get_std_limits(d_max, "B (İdeal)", elek_serisi)
+            
             for i, e_size in enumerate(elek_serisi):
-                row = {"Elek (mm)": e_size}
+                row = {"Elek (mm)": e_size, "Şartname": f"%{s_alt_b[i]:.1f}"}
                 for t_name, t_info in all_passing_data.items():
                     t_passing = t_info["passing"]
                     t_elek = t_info["elek"]

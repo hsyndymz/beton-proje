@@ -68,6 +68,11 @@ def render_tab_1(elek_serisi):
     disp_cols = ["Elek (mm)"] + [m for i, m in enumerate(materials) if active_mats[i]]
     df_disp = pd.DataFrame(computed_passing)[disp_cols]
     
+    # --- ŞARTNAME (REFERANS) EKLE ---
+    dmax_ref = st.session_state.get('dmax_select', 31.5)
+    alt_b, _ = get_std_limits(dmax_ref, "B (İdeal)", elek_serisi)
+    df_disp["Şartname"] = alt_b
+    
     # --- DÜZENLENEBİLİRLİK HAKKI (Geçen Yüzdeler için) ---
     st.markdown("##### ✏️ Geometrik Düzeltme (Geçen Yüzdeleri Manuel Düzelt)")
     edited_df = st.data_editor(
@@ -75,12 +80,12 @@ def render_tab_1(elek_serisi):
         use_container_width=True, 
         hide_index=True, 
         key="material_passing_editor",
-        disabled=["Elek (mm)"] # Elek boyutu değiştirilemez
+        disabled=["Elek (mm)", "Şartname"] # Elek boyutu ve Şartname değiştirilemez
     )
     
     # Düzenlenen değerleri session state ve return değerine aktar
     for mat in disp_cols:
-        if mat != "Elek (mm)":
+        if mat != "Elek (mm)" and mat != "Şartname":
             computed_passing[mat] = edited_df[mat].tolist()
 
     st.session_state['computed_passing'] = computed_passing
