@@ -374,6 +374,15 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         V_agg_tot = 1000 - (vol_cem + vol_water + vol_ash + vol_air + vol_chem)
         m_kgs = [V_agg_tot * (p/100) * r for p, r in zip([p1,p2,p3,p4], current_rhos)]
 
+        # Su Telafisi Hesaplama
+        total_agg_kg = sum(m_kgs)
+        weighted_wa = (current_was[0]*p1 + current_was[1]*p2 + current_was[2]*p3 + current_was[3]*p4) / total_ratio
+        wa_liters = (weighted_wa / 100) * total_agg_kg
+        
+        # 0.063mm (Filler) ve 4mm (Kum) Oranları
+        filler_val = karisim_gecen[12] if len(karisim_gecen) > 12 else 0.0
+        sand_val = karisim_gecen[6] if len(karisim_gecen) > 6 else 0.0 # 4mm index 6 (Büyükten küçüğe: 40, 31.5, 22.4, 16, 11.2, 8, 4...)
+
         # Snapshot
         st.session_state['mix_snapshot'] = {
             "project_name": proje, 
@@ -384,6 +393,14 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
                 "çimento": cimento, "su": su_hedef, "kül": ucucu_kul, 
                 "katkı": round(cimento * katki / 100, 2), "hava": hava_yuzde,
                 "agrega_miktarları": {mat: round(m_kgs[i], 1) for i, mat in enumerate(materials) if active_mats[i]}
+            },
+            "ai_analysis": {
+                "wa_liters": wa_liters,
+                "weighted_wa": weighted_wa,
+                "filler_val": filler_val,
+                "sand_val": sand_val,
+                "w_la": w_la,
+                "w_mb": w_mb
             },
             "material_data": {
                 "rhos": current_rhos, "was": current_was, 

@@ -146,6 +146,30 @@ def generate_kgm_raporu(snapshot):
                 </div>
             </div>
 
+            <h4 style="background: #ECF0F1; padding: 8px; border-left: 5px solid #2C3E50;">5. AI MÜHENDİSLİK VE DURABİLİTE ANALİZİ</h4>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; font-size: 13px;">
+                <div style="background: #F4F6F7; padding: 10px; border-radius: 5px; border-top: 3px solid #3498DB;">
+                    <b>💧 Su Telafisi Analizi</b><br>
+                    Karma Agrega Su Emme: %{snapshot.get('ai_analysis', {}).get('weighted_wa', 0):.2f}<br>
+                    1m³ Toplam Su Çekme: <b>{snapshot.get('ai_analysis', {}).get('wa_liters', 0):.1f} Litre</b>
+                </div>
+                <div style="background: #F4F6F7; padding: 10px; border-radius: 5px; border-top: 3px solid #27AE60;">
+                    <b>🛣️ Gradasyon Hassasiyeti</b><br>
+                    Filler (<0.063mm): %{snapshot.get('ai_analysis', {}).get('filler_val', 0):.2f}<br>
+                    Kum (<4.0mm): %{snapshot.get('ai_analysis', {}).get('sand_val', 0):.1f}
+                </div>
+                <div style="background: #F4F6F7; padding: 10px; border-radius: 5px; border-top: 3px solid #E67E22;">
+                    <b>🏗️ Yapısal Ve Kimyasal Durum</b><br>
+                    Ortalama Aşınma (LA): %{snapshot.get('ai_analysis', {}).get('w_la', 0):.1f}<br>
+                    Metilen Mavisi (MB): {snapshot.get('ai_analysis', {}).get('w_mb', 0):.2f} g/kg
+                </div>
+                <div style="background: #F4F6F7; padding: 10px; border-radius: 5px; border-top: 3px solid #2C3E50;">
+                    <b>🔬 Durabilite Özeti</b><br>
+                    Maruziyet: {mix_data.get('exposure_class', '-')}<br>
+                    ASR Risk Durumu: {mix_data.get('asr_status', '-')}
+                </div>
+            </div>
+
             <!-- İMZA BLOĞU -->
             <table style="width:100%; text-align:center; margin-top:80px; font-size:13px;">
                 <tr style="font-weight:bold;">
