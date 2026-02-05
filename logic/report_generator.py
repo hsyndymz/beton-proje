@@ -30,6 +30,11 @@ def generate_kgm_raporu(snapshot):
     elif decision_data["status"] == "YELLOW": status_color = "#D4AC0D"
     elif decision_data["status"] == "GREEN": status_color = "#27AE60"
     
+    # SVG Grafik Üretimi
+    s_ai = snapshot.get('ai_analysis', {})
+    retained_svg = _generate_retained_svg(snapshot.get('sieves', []), s_ai.get('retained', []))
+    shilstone_svg = _generate_shilstone_svg(s_ai.get('cf', 0), s_ai.get('wf', 0))
+
     html = f"""
     <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: auto; color: #333; line-height: 1.6;">
         
@@ -197,28 +202,34 @@ def generate_kgm_raporu(snapshot):
                         </tr>
                         {"".join([f"<tr><td style='border: 1px solid #ddd; padding: 2px;'>{s}</td><td style='border: 1px solid #ddd; padding: 2px;'>{r:.1f}</td><td style='border: 1px solid #ddd; padding: 2px; color: {'red' if not (8 <= r <= 18) else 'green'}'>{'!' if not (8 <= r <= 18) else '✓'}</td></tr>" for s, r in zip(snapshot.get('sieves', []), snapshot.get('ai_analysis', {}).get('retained', [])) if s > 0.063])}
                     </table>
+                    <div style="margin-top: 15px; text-align: center;">
+                        {retained_svg}
+                    </div>
                 </div>
-                <div style="text-align: center; display: flex; flex-direction: column; justify-content: center; gap: 10px;">
-                    <div style="background: #1f77b4; color: white; padding: 10px; border-radius: 5px;">
-                        <span style="font-size: 10px;">İŞLENEBİLİRLİK ENDEKSİ (WF)</span><br>
-                        <b style="font-size: 20px;">{snapshot.get('ai_analysis', {}).get('wf', 0):.0f}</b>
+                <div style="text-align: center; display: flex; flex-direction: column; justify-content: flex-start; gap: 10px;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <div style="background: #1f77b4; color: white; padding: 10px; border-radius: 5px;">
+                            <span style="font-size: 10px;">WF: <b>{snapshot.get('ai_analysis', {}).get('wf', 0):.0f}</b></span>
+                        </div>
+                        <div style="background: #2ca02c; color: white; padding: 10px; border-radius: 5px;">
+                            <span style="font-size: 10px;">CF: <b>{snapshot.get('ai_analysis', {}).get('cf', 0):.0f}</b></span>
+                        </div>
                     </div>
-                    <div style="background: #2ca02c; color: white; padding: 10px; border-radius: 5px;">
-                        <span style="font-size: 10px;">İRİLİK ENDEKSİ (CF)</span><br>
-                        <b style="font-size: 20px;">{snapshot.get('ai_analysis', {}).get('cf', 0):.0f}</b>
+                    <div style="margin-top: 5px; border: 1px solid #eee; padding: 5px; border-radius: 5px; background: white;">
+                        {shilstone_svg}
                     </div>
-                    <p style="font-size: 10px; color: #666; margin-top: 5px;">* Değerler Shilstone İşlenebilirlik Matrisi üzerindeki konumu belirler.</p>
+                    <p style="font-size: 10px; color: #666; margin-top: 2px;">* Shilstone İşlenebilirlik Matrisi Analizi</p>
                 </div>
             </div>
 
             <!-- İMZA BLOĞU -->
-            <table style="width:100%; text-align:center; margin-top:80px; font-size:13px;">
+            <table style="width:100%; text-align:center; margin-top:60px; font-size:13px;">
                 <tr style="font-weight:bold;">
                     <td style="width:33%;">HAZIRLAYAN</td>
                     <td style="width:34%;">KONTROL EDEN</td>
                     <td style="width:33%;">ONAYLAYAN</td>
                 </tr>
-                <tr style="height:80px;">
+                <tr style="height:60px;">
                     <td></td>
                     <td></td>
                     <td></td>
@@ -237,3 +248,65 @@ def generate_kgm_raporu(snapshot):
     </div>
     """
     return html
+
+def _generate_retained_svg(sieves, retained):
+    """Bireysel kalan yüzde bar grafiği SVG üretir."""
+    width, height = 350, 180
+    labels = [s for s in sieves if s > 0.063]
+    values = retained[:len(labels)]
+    if not values: return ""
+    
+    max_val = max(max(values), 25)
+    bar_width = (width - 40) / len(values)
+    
+    svg = f'<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">'
+    svg += '<line x1="30" y1="20" x2="30" y2="150" stroke="#666" stroke-width="1"/>'
+    svg += '<line x1="30" y1="150" x2="340" y2="150" stroke="#666" stroke-width="1"/>'
+    
+    # 8-18 Sınırları
+    y8 = 150 - (8 / max_val * 130)
+    y18 = 150 - (18 / max_val * 130)
+    svg += f'<line x1="30" y1="{y8}" x2="340" y2="{y8}" stroke="orange" stroke-dasharray="4" stroke-width="1"/>'
+    svg += f'<line x1="30" y1="{y18}" x2="340" y2="{y18}" stroke="red" stroke-dasharray="4" stroke-width="1"/>'
+    
+    for i, v in enumerate(values):
+        bw = bar_width * 0.7
+        bh = (v / max_val) * 130
+        x = 35 + i * bar_width
+        y = 150 - bh
+        color = "rgba(0, 128, 128, 0.7)"
+        if not (8 <= v <= 18): color = "rgba(192, 57, 43, 0.6)"
+        svg += f'<rect x="{x}" y="{y}" width="{bw}" height="{bh}" fill="{color}"/>'
+        if i % 2 == 0:
+            svg += f'<text x="{x + bw/2}" y="165" font-size="8" text-anchor="middle" fill="#333">{labels[i]}</text>'
+            
+    svg += '</svg>'
+    return svg
+
+def _generate_shilstone_svg(cf, wf):
+    """Shilstone matrisi SVG üretir."""
+    width, height = 300, 200
+    # CF: 0-100 (X), WF: 20-45 (Y)
+    def tx(v): return 280 - (v / 100 * 250)
+    def ty(v): return 180 - ((v - 20) / 25 * 160)
+    
+    svg = f'<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">'
+    # Izgara
+    svg += f'<rect x="30" y="20" width="250" height="160" fill="#f9f9f9" stroke="#ddd"/>'
+    
+    # Zon II (Good)
+    pts_ii = [(75, 28), (75, 40), (45, 44), (45, 33)]
+    poly_ii = " ".join([f"{tx(p[0])},{ty(p[1])}" for p in pts_ii])
+    svg += f'<polygon points="{poly_ii}" fill="rgba(39, 174, 96, 0.1)" stroke="green" stroke-width="1"/>'
+    
+    # Mevcut Nokta
+    px, py = tx(cf), ty(wf)
+    if 30 <= px <= 280 and 20 <= py <= 180:
+        svg += f'<circle cx="{px}" cy="{py}" r="4" fill="red"/>'
+        svg += f'<line x1="{px-5}" y1="{py-5}" x2="{px+5}" y2="{py+5}" stroke="red" stroke-width="2"/>'
+        svg += f'<line x1="{px+5}" y1="{py-5}" x2="{px-5}" y2="{py+5}" stroke="red" stroke-width="2"/>'
+    
+    svg += f'<text x="150" y="195" font-size="9" text-anchor="middle">İrilik Endeksi (CF)</text>'
+    svg += f'<text x="10" y="100" font-size="9" text-anchor="middle" transform="rotate(-90 10,100)">İşlenebilirlik (WF)</text>'
+    svg += '</svg>'
+    return svg
