@@ -853,5 +853,225 @@
         "target_class": "C30/37",
         "timestamp": "2026-02-05 20:45",
         "source": "Design-Learn-BETON YOL"
+    },
+    {
+        "cement": 390.0,
+        "water": 140.0,
+        "ash": 0.0,
+        "air": 2.0,
+        "admixture": 3.12,
+        "d28": 59.141097321428575,
+        "p": [
+            30.0,
+            20.0,
+            30.0,
+            20.0
+        ],
+        "lithology": "Bazalt (Diyarbakır/Gaziantep)",
+        "material_chars": {
+            "rhos": [
+                2.78,
+                2.77,
+                2.71,
+                2.69
+            ],
+            "was": [
+                1.7,
+                2.1,
+                4.6,
+                4.44
+            ],
+            "las": [
+                17.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mbs": [
+                0.0,
+                0.0,
+                1.0,
+                1.75
+            ]
+        },
+        "target_class": "C30/37",
+        "timestamp": "2026-02-05 20:48",
+        "source": "Design-Learn-BETON YOL"
+    },
+    {
+        "cement": 390.0,
+        "water": 137.0,
+        "ash": 0.0,
+        "air": 2.0,
+        "admixture": 3.12,
+        "d28": 60.43615784671534,
+        "p": [
+            40.0,
+            15.0,
+            25.0,
+            20.0
+        ],
+        "lithology": "Bazalt (Diyarbakır/Gaziantep)",
+        "material_chars": {
+            "rhos": [
+                2.78,
+                2.77,
+                2.71,
+                2.69
+            ],
+            "was": [
+                1.7,
+                2.1,
+                4.6,
+                4.44
+            ],
+            "las": [
+                17.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mbs": [
+                0.0,
+                0.0,
+                1.0,
+                1.75
+            ]
+        },
+        "target_class": "C30/37",
+        "timestamp": "2026-02-05 20:48",
+        "source": "Design-Learn-BETON YOL"
+    },
+    {
+        "cement": 390.0,
+        "water": 137.0,
+        "ash": 0.0,
+        "air": 2.0,
+        "admixture": 3.12,
+        "d28": 60.43615784671534,
+        "p": [
+            40.0,
+            15.0,
+            25.0,
+            20.0
+        ],
+        "lithology": "Bazalt (Diyarbakır/Gaziantep)",
+        "material_chars": {
+            "rhos": [
+                2.78,
+                2.77,
+                2.71,
+                2.69
+            ],
+            "was": [
+                1.7,
+                2.1,
+                4.6,
+                4.44
+            ],
+            "las": [
+                17.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mbs": [
+                0.0,
+                0.0,
+                1.0,
+                1.75
+            ]
+        },
+        "target_class": "C30/37",
+        "timestamp": "2026-02-05 20:56",
+        "source": "Design-Learn-BETON YOL"
+    },
+    {
+        "cement": 360.0,
+        "water": 137.0,
+        "ash": 0.0,
+        "air": 1.0,
+        "admixture": 4.32,
+        "d28": 57.21766423357665,
+        "p": [
+            25.0,
+            25.0,
+            25.0,
+            25.0
+        ],
+        "lithology": "Bazalt (Diyarbakır/Gaziantep)",
+        "material_chars": {
+            "rhos": [
+                2.78,
+                2.77,
+                2.71,
+                2.69
+            ],
+            "was": [
+                1.7,
+                2.1,
+                4.6,
+                4.44
+            ],
+            "las": [
+                17.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mbs": [
+                0.0,
+                0.0,
+                1.0,
+                1.75
+            ]
+        },
+        "target_class": "C30/37",
+        "timestamp": "2026-02-05 20:57",
+        "source": "Design-Learn-BETON YOL"
+    },
+    {
+        "cement": 390.0,
+        "water": 137.0,
+        "ash": 0.0,
+        "air": 2.3,
+        "admixture": 3.12,
+        "d28": 59.50637080291972,
+        "p": [
+            25.0,
+            25.0,
+            25.0,
+            25.0
+        ],
+        "lithology": "Bazalt (Diyarbakır/Gaziantep)",
+        "material_chars": {
+            "rhos": [
+                2.78,
+                2.77,
+                2.71,
+                2.69
+            ],
+            "was": [
+                1.7,
+                2.1,
+                4.6,
+                4.44
+            ],
+            "las": [
+                17.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mbs": [
+                0.0,
+                0.0,
+                1.0,
+                1.75
+            ]
+        },
+        "target_class": "C30/37",
+        "timestamp": "2026-02-05 20:57",
+        "source": "Design-Learn-BETON YOL"
     }
 ]
