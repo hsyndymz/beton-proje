@@ -205,9 +205,9 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         if "Standart" in plot_mode:
             fig = go.Figure()
             # Standart Eğrileri Çek (A, B, C)
-            alt_a, _ = get_std_limits(dmax_val, "A (Kaba)", elek_serisi)
+            alt_a, _ = get_std_limits(dmax_val, "A (Alt)", elek_serisi)
             alt_b, _ = get_std_limits(dmax_val, "B (İdeal)", elek_serisi)
-            alt_c, _ = get_std_limits(dmax_val, "C (İnce)", elek_serisi)
+            alt_c, _ = get_std_limits(dmax_val, "C (Üst)", elek_serisi)
 
             # 1. Min/Ort/Max Limitleri (Excel Renk ve İsimleri)
             fig.add_trace(go.Scatter(x=elek_serisi, y=alt_a, mode='lines', name='Alt Limit', line=dict(color='#2563eb', width=1.5, dash='dash')))
@@ -243,11 +243,11 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
                 height=450
             )
             
-            # Ekseleri Düzenle (Logaritmik x, Ters Çevrilmiş, Gridli)
+            # Ekseleri Düzenle (Logaritmik x, Gridli)
             fig.update_xaxes(
-                type='log', title='Elek Boyutu (mm)', autorange="reversed", gridcolor='#d1d5db', linecolor='black',
-                tickvals=[0.063, 0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 11.2, 16.0, 22.4, 31.5, 40.0, 45.0],
-                ticktext=["0.063", "0.125", "0.25", "0.5", "1", "2", "4", "8", "11.2", "16", "22.4", "31.5", "40", "45"]
+                type='log', title='Elek Boyutu (mm)', gridcolor='#d1d5db', linecolor='black',
+                tickvals=elek_serisi,
+                ticktext=[str(s) for s in elek_serisi]
             )
             fig.update_yaxes(
                 title='Elekten Geçen % (Yığışımlı)', range=[0, 105], gridcolor='#d1d5db', linecolor='black', dtick=10
