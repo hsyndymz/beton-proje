@@ -269,19 +269,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- GLOBAL VERİLER ---
-# Elek Serileri (TS 802 / Excel Standart)
-from logic.engineering import SIEVE_SETS
-hedef_sinif = st.session_state.get('hedef_sinif', 'C30/37') # Default veya state'den
-dmax_val = st.session_state.get('dmax_val', 31.5) # Default veya state'den
+# Elek Serileri (TS 802 / Excel Standart - Büyükten Küçüğe)
+from logic.engineering import SIEVE_SETS, CONCRETE_RULES
+hedef_sinif = st.session_state.get('hedef_sinif', 'C30/37')
+dmax_val = st.session_state.get('dmax_val', 31.5)
 elek_serisi = SIEVE_SETS.get(dmax_val, SIEVE_SETS[31.5])
 materials = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
 
-CONCRETE_RULES = {
-    "C25/30": {"min_mpa": 30, "target_mpa": 33},
-    "C30/37": {"min_mpa": 37, "target_mpa": 40},
-    "C35/45": {"min_mpa": 45, "target_mpa": 48},
-    "C40/50": {"min_mpa": 50, "target_mpa": 54}
-}
+# CONCRETE_RULES engineering.py'dan import edildi.
 
 TS_STANDARDS_CONTEXT = """
 TS 802: Beton Karışım Hesabı Esasları

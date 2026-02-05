@@ -149,6 +149,23 @@ class SessionStateInitializer:
         st.session_state["asr_status"] = p_data.get("asr_stat", "Düzeltme Gerekmiyor (İnert)")
         st.session_state["computed_passing"] = p_data.get("passing", {})
 
+        # --- ELEK SIRALAMA MİGRASYONU (0.063->40'tan 40->0.063'e) ---
+        saved_elek = p_data.get("elek", [])
+        if saved_elek and len(saved_elek) > 1:
+            # Eğer kaydedilen elek listesi küçükten büyüğe ise, verileri TERSİNE ÇEVİR
+            if saved_elek[0] < saved_elek[-1]:
+                # 1. Computed Passing verilerini tersine çevir
+                for mat in st.session_state["computed_passing"]:
+                    if isinstance(st.session_state["computed_passing"][mat], list):
+                        st.session_state["computed_passing"][mat] = st.session_state["computed_passing"][mat][::-1]
+                # 2. RI (Girdi) verilerini tersine çevir (Table Editor State)
+                loaded_ri = st.session_state.get('loaded_ri', {})
+                for mat in loaded_ri:
+                    if isinstance(loaded_ri[mat], list):
+                        loaded_ri[mat] = loaded_ri[mat][::-1]
+                st.session_state['loaded_ri'] = loaded_ri
+    
+
 def init_session_state(force=False):
     """Session state baslaticisi. app.py tarafindan ana kontrol noktasidir."""
     SessionStateInitializer.initialize_defaults(force=force)

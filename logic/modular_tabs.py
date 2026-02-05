@@ -243,9 +243,9 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
                 height=450
             )
             
-            # Ekseleri Düzenle (Logaritmik x, Gridli)
+            # Ekseleri Düzenle (Logaritmik x, Ters Çevrilmiş, Gridli)
             fig.update_xaxes(
-                type='log', title='Elek Boyutu (mm)', gridcolor='#d1d5db', linecolor='black',
+                type='log', title='Elek Boyutu (mm)', autorange="reversed", gridcolor='#d1d5db', linecolor='black',
                 tickvals=elek_serisi,
                 ticktext=[str(s) for s in elek_serisi]
             )
