@@ -47,6 +47,13 @@ LITHOLOGY_FACTORS = {
     "Granit": 1.02
 }
 
+# TSE 802 Dmax Bağımlı Elek Serileri
+SIEVE_SETS = {
+    31.5: [0.063, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 22.4, 31.5],
+    22.4: [0.063, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 22.4],
+    16.0: [0.063, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16]
+}
+
 # TS 802 STANDART GRANÜLOMETRİ EĞRİLERİ (DIN 1045 Referanslı)
 STD_GRADING_DB = {
     31.5: {

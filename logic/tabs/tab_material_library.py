@@ -58,9 +58,16 @@ def render_tab_1(elek_serisi):
         
         fig_passing.update_layout(
             title="Fraksiyonel Geçme Yüzdeleri",
-            xaxis_title="Elek Açıklığı (mm)",
+            xaxis=dict(
+                title="Elek Açıklığı (mm) - Log Ölçek",
+                type="log",
+                tickvals=elek_serisi,
+                ticktext=[str(s) for s in elek_serisi],
+                gridcolor='rgba(0,0,0,0.1)'
+            ),
             yaxis_title="Geçme Yüzdesi (%)",
-            height=500
+            height=500,
+            template="plotly_white"
         )
         st.plotly_chart(fig_passing, use_container_width=True)
         

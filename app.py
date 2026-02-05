@@ -270,7 +270,10 @@ st.markdown("""
 
 # --- GLOBAL VERİLER ---
 # Elek Serileri (TS 802 / Excel Standart)
-elek_serisi = [40.0, 31.5, 22.4, 16.0, 11.2, 8.0, 4.0, 2.0, 1.0, 0.5, 0.25, 0.15, 0.063]
+from logic.engineering import SIEVE_SETS
+hedef_sinif = st.session_state.get('hedef_sinif', 'C30/37') # Default veya state'den
+dmax_val = st.session_state.get('dmax_val', 31.5) # Default veya state'den
+elek_serisi = SIEVE_SETS.get(dmax_val, SIEVE_SETS[31.5])
 materials = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
 
 CONCRETE_RULES = {
@@ -653,7 +656,18 @@ with tab_comp:
             all_retained_data[t_name] = t_ri
             fig_comp.add_trace(go.Scatter(x=t_elek, y=trial_total_passing, name=t_name, mode='lines+markers'))
 
-        fig_comp.update_layout(xaxis_type="log", xaxis_title="Elek Göz Açıklığı (mm)", yaxis_title="Toplam Karışım Geçen %", height=500)
+        fig_comp.update_layout(
+            xaxis=dict(
+                title="Elek Göz Açıklığı (mm) - Log Ölçek",
+                type="log",
+                tickvals=elek_serisi,
+                ticktext=[str(s) for s in elek_serisi],
+                gridcolor='rgba(0,0,0,0.1)'
+            ),
+            yaxis_title="Toplam Karışım Geçen %",
+            height=500,
+            template="plotly_white"
+        )
         st.plotly_chart(fig_comp, use_container_width=True)
 
         # 2. Tablo Karşılaştırma
@@ -848,7 +862,8 @@ if st.session_state.get('trigger_save'):
         "hava": st.session_state.get('hava_yuzde', 1.5), 
         "plant_name": tesis_adi,
         "exp_class": st.session_state.get('exposure_class', 'XC3'),
-        "asr_stat": st.session_state.get('asr_status', 'Düzeltme Gerekmiyor (İnert)')
+        "asr_stat": st.session_state.get('asr_status', 'Düzeltme Gerekmiyor (İnert)'),
+        "passing": st.session_state.get('computed_passing', {})
     }
     
     # 3. Güncelle ve Kaydet

@@ -147,6 +147,7 @@ class SessionStateInitializer:
         st.session_state["hava_yuzde"] = p_data.get("hava", 1.0)
         st.session_state["exposure_class"] = p_data.get("exp_class", "XC3")
         st.session_state["asr_status"] = p_data.get("asr_stat", "Düzeltme Gerekmiyor (İnert)")
+        st.session_state["computed_passing"] = p_data.get("passing", {})
 
 def init_session_state(force=False):
     """Session state baslaticisi. app.py tarafindan ana kontrol noktasidir."""

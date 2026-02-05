@@ -68,7 +68,24 @@ def render_tab_1(elek_serisi):
     disp_cols = ["Elek (mm)"] + [m for i, m in enumerate(materials) if active_mats[i]]
     df_disp = pd.DataFrame(computed_passing)[disp_cols]
     
-    st.dataframe(df_disp.style.format(precision=2), use_container_width=True, hide_index=True)
+    # --- DÜZENLENEBİLİRLİK HAKKI (Geçen Yüzdeler için) ---
+    st.markdown("##### ✏️ Geometrik Düzeltme (Geçen Yüzdeleri Manuel Düzelt)")
+    edited_df = st.data_editor(
+        df_disp, 
+        use_container_width=True, 
+        hide_index=True, 
+        key="material_passing_editor",
+        disabled=["Elek (mm)"] # Elek boyutu değiştirilemez
+    )
+    
+    # Düzenlenen değerleri session state ve return değerine aktar
+    for mat in disp_cols:
+        if mat != "Elek (mm)":
+            computed_passing[mat] = edited_df[mat].tolist()
+
+    st.session_state['computed_passing'] = computed_passing
+    st.session_state['active_mats'] = active_mats
+    
     return current_rhos, current_was, current_las, current_mbs, computed_passing, active_mats, all_ri_values
 
 def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials, active_mats, 
