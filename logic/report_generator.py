@@ -153,20 +153,61 @@ def generate_kgm_raporu(snapshot):
                     Karma Agrega Su Emme: %{snapshot.get('ai_analysis', {}).get('weighted_wa', 0):.2f}<br>
                     1m³ Toplam Su Çekme: <b>{snapshot.get('ai_analysis', {}).get('wa_liters', 0):.1f} Litre</b>
                 </div>
-                <div style="background: #F4F6F7; padding: 10px; border-radius: 5px; border-top: 3px solid #27AE60;">
-                    <b>🛣️ Gradasyon Hassasiyeti</b><br>
-                    Filler (<0.063mm): %{snapshot.get('ai_analysis', {}).get('filler_val', 0):.2f}<br>
-                    Kum (<4.0mm): %{snapshot.get('ai_analysis', {}).get('sand_val', 0):.1f}
-                </div>
                 <div style="background: #F4F6F7; padding: 10px; border-radius: 5px; border-top: 3px solid #E67E22;">
                     <b>🏗️ Yapısal Ve Kimyasal Durum</b><br>
                     Ortalama Aşınma (LA): %{snapshot.get('ai_analysis', {}).get('w_la', 0):.1f}<br>
                     Metilen Mavisi (MB): {snapshot.get('ai_analysis', {}).get('w_mb', 0):.2f} g/kg
                 </div>
-                <div style="background: #F4F6F7; padding: 10px; border-radius: 5px; border-top: 3px solid #2C3E50;">
-                    <b>🔬 Durabilite Özeti</b><br>
-                    Maruziyet: {mix_data.get('exposure_class', '-')}<br>
-                    ASR Risk Durumu: {mix_data.get('asr_status', '-')}
+            </div>
+
+            <h4 style="background: #ECF0F1; padding: 8px; border-left: 5px solid #2C3E50;">6. ANALİTİK VERİ İNCELEMESİ</h4>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; text-align: center; margin-bottom: 20px;">
+                <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+                    <span style="font-size: 11px; color: #666;">Su/Çimento Oranı</span><br>
+                    <b style="font-size: 16px;">{mix_data.get('wc', 0):.2f}</b><br>
+                    <span style="color: {'#27AE60' if snapshot.get('ai_analysis', {}).get('wc_status') == 'İdeal' else '#C0392B'}; font-size: 11px;">
+                        {snapshot.get('ai_analysis', {}).get('wc_status', '-')}
+                    </span>
+                </div>
+                <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+                    <span style="font-size: 11px; color: #666;">Filler Oranı (<0.063)</span><br>
+                    <b style="font-size: 16px;">%{snapshot.get('ai_analysis', {}).get('filler_val', 0):.2f}</b><br>
+                    <span style="color: {'#27AE60' if snapshot.get('ai_analysis', {}).get('filler_status') == 'Uygun' else '#C0392B'}; font-size: 11px;">
+                        {snapshot.get('ai_analysis', {}).get('filler_status', '-')}
+                    </span>
+                </div>
+                <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+                    <span style="font-size: 11px; color: #666;">Kum Oranı (<4mm)</span><br>
+                    <b style="font-size: 16px;">%{snapshot.get('ai_analysis', {}).get('sand_val', 0):.1f}</b><br>
+                    <span style="color: {'#27AE60' if snapshot.get('ai_analysis', {}).get('sand_status') == 'Stabil' else '#C0392B'}; font-size: 11px;">
+                        {snapshot.get('ai_analysis', {}).get('sand_status', '-')}
+                    </span>
+                </div>
+            </div>
+
+            <h4 style="background: #ECF0F1; padding: 8px; border-left: 5px solid #2C3E50;">7. İLERİ ANALİTİK GÖRSELLEŞTİRME (SHILSTONE)</h4>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div style="font-size: 12px;">
+                    <b>Bireysel Kalan Yüzde (8-18 Kuralı)</b>
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 5px; font-size: 10px;">
+                        <tr style="background: #eee;">
+                            <th style="border: 1px solid #ddd; padding: 2px;">Elek (mm)</th>
+                            <th style="border: 1px solid #ddd; padding: 2px;">Kalan (%)</th>
+                            <th style="border: 1px solid #ddd; padding: 2px;">Durum</th>
+                        </tr>
+                        {"".join([f"<tr><td style='border: 1px solid #ddd; padding: 2px;'>{s}</td><td style='border: 1px solid #ddd; padding: 2px;'>{r:.1f}</td><td style='border: 1px solid #ddd; padding: 2px; color: {'red' if not (8 <= r <= 18) else 'green'}'>{'!' if not (8 <= r <= 18) else '✓'}</td></tr>" for s, r in zip(snapshot.get('sieves', []), snapshot.get('ai_analysis', {}).get('retained', [])) if s > 0.063])}
+                    </table>
+                </div>
+                <div style="text-align: center; display: flex; flex-direction: column; justify-content: center; gap: 10px;">
+                    <div style="background: #1f77b4; color: white; padding: 10px; border-radius: 5px;">
+                        <span style="font-size: 10px;">İŞLENEBİLİRLİK ENDEKSİ (WF)</span><br>
+                        <b style="font-size: 20px;">{snapshot.get('ai_analysis', {}).get('wf', 0):.0f}</b>
+                    </div>
+                    <div style="background: #2ca02c; color: white; padding: 10px; border-radius: 5px;">
+                        <span style="font-size: 10px;">İRİLİK ENDEKSİ (CF)</span><br>
+                        <b style="font-size: 20px;">{snapshot.get('ai_analysis', {}).get('cf', 0):.0f}</b>
+                    </div>
+                    <p style="font-size: 10px; color: #666; margin-top: 5px;">* Değerler Shilstone İşlenebilirlik Matrisi üzerindeki konumu belirler.</p>
                 </div>
             </div>
 

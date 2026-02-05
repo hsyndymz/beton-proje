@@ -381,7 +381,27 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         
         # 0.063mm (Filler) ve 4mm (Kum) Oranları
         filler_val = karisim_gecen[12] if len(karisim_gecen) > 12 else 0.0
-        sand_val = karisim_gecen[6] if len(karisim_gecen) > 6 else 0.0 # 4mm index 6 (Büyükten küçüğe: 40, 31.5, 22.4, 16, 11.2, 8, 4...)
+        sand_val = karisim_gecen[6] if len(karisim_gecen) > 6 else 0.0
+
+        # Bireysel Kalan Yüzde (%8-18 Kuralı)
+        retained = []
+        prev_p = 100.0
+        for p in karisim_gecen:
+            retained.append(max(0, prev_p - p))
+            prev_p = p
+
+        # Shilstone Hesaplamaları (CF & WF)
+        idx_8 = elek_serisi.index(8.0) if 8.0 in elek_serisi else 4
+        idx_2 = elek_serisi.index(2.0) if 2.0 in elek_serisi else 7
+        ret_above_8 = 100 - (karisim_gecen[idx_8] if len(karisim_gecen) > idx_8 else 0)
+        ret_above_2 = 100 - (karisim_gecen[idx_2] if len(karisim_gecen) > idx_2 else 0)
+        cf = (ret_above_8 / ret_above_2 * 100) if ret_above_2 > 0 else 0
+        wf = (karisim_gecen[idx_2] + ((cimento - 335) / 55) * 2.5) if len(karisim_gecen) > idx_2 else 0
+
+        # Analitik Durum Etiketleri
+        wc_status = "Riskli" if not (0.40 <= wc_ratio_eff <= 0.50) else "İdeal"
+        filler_status = "Yüksek" if filler_val > 3.0 else "Uygun"
+        sand_status = "Dengesiz" if not (33 <= sand_val <= 42) else "Stabil"
 
         # Snapshot
         st.session_state['mix_snapshot'] = {
@@ -400,7 +420,13 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
                 "filler_val": filler_val,
                 "sand_val": sand_val,
                 "w_la": w_la,
-                "w_mb": w_mb
+                "w_mb": w_mb,
+                "cf": cf,
+                "wf": wf,
+                "retained": retained,
+                "wc_status": wc_status,
+                "filler_status": filler_status,
+                "sand_status": sand_status
             },
             "material_data": {
                 "rhos": current_rhos, "was": current_was, 
