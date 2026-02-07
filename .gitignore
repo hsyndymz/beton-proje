@@ -37,3 +37,9 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Project Specific
+users.json
+ta
+sl
+sync_debug.log

@@ -22,7 +22,7 @@ from logic.ai_model import train_prediction_model, predict_strength_ai, generate
 def render_tab_1(elek_serisi):
     st.subheader("1. Fraksiyonel Deney Verileri (Tartım Esaslı)")
     materials = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
-    current_rhos, current_was, current_las, current_mbs, computed_passing, active_mats, all_ri_values = [], [], [], [], {"Elek (mm)": elek_serisi}, [], {}
+    current_rhos, current_was, current_las, current_mbs, current_moists, computed_passing, active_mats, all_ri_values = [], [], [], [], [], {"Elek (mm)": elek_serisi}, [], {}
     
     col_f = st.columns(4)
     for i, (col, mat) in enumerate(zip(col_f, materials)):
@@ -33,11 +33,13 @@ def render_tab_1(elek_serisi):
             m1_val = st.number_input(f"M1 (g)", value=4000.0 if i < 2 else 2000.0, key=f"m1_{i}", disabled=not is_active)
             rho_val = st.number_input("SSD Yoğunluk", format="%.3f", key=f"rho_{i}", disabled=not is_active)
             wa_val = st.number_input("Su Emme (%)", key=f"wa_{i}", disabled=not is_active)
+            moist_val = st.number_input("Muhteva (%)", key=f"moist_{i}", disabled=not is_active, min_value=0.0, max_value=15.0, step=0.1)
             la_val = st.number_input("LA Aşınma (%)", key=f"la_{i}", disabled=not is_active)
             mb_val = st.number_input("MB Değeri", key=f"mb_{i}", disabled=not is_active)
             
             current_rhos.append(rho_val if is_active else 0)
             current_was.append(wa_val if is_active else 0)
+            current_moists.append(moist_val if is_active else 0)
             current_las.append(la_val if is_active else 0)
             current_mbs.append(mb_val if is_active else 0)
             
@@ -90,11 +92,12 @@ def render_tab_1(elek_serisi):
 
     st.session_state['computed_passing'] = computed_passing
     st.session_state['active_mats'] = active_mats
+    st.session_state['current_moists'] = current_moists
     
-    return current_rhos, current_was, current_las, current_mbs, computed_passing, active_mats, all_ri_values
+    return current_rhos, current_was, current_las, current_mbs, current_moists, computed_passing, active_mats, all_ri_values
 
 def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials, active_mats, 
-                 current_rhos, current_was, current_las, current_mbs,
+                 current_rhos, current_was, current_las, current_mbs, current_moists,
                  current_site_factor, get_global_qc_history):
     st.subheader("2. Karışım Oranları ve 1m³ Reçete")
 
@@ -379,9 +382,12 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         weighted_wa = (current_was[0]*p1 + current_was[1]*p2 + current_was[2]*p3 + current_was[3]*p4) / total_ratio
         wa_liters = (weighted_wa / 100) * total_agg_kg
         
-        # 0.063mm (Filler) ve 4mm (Kum) Oranları
-        filler_val = karisim_gecen[12] if len(karisim_gecen) > 12 else 0.0
-        sand_val = karisim_gecen[6] if len(karisim_gecen) > 6 else 0.0
+        # 0.063mm (Filler) ve 4mm (Kum) Oranlarını Dinamik Bul
+        idx_filler = elek_serisi.index(0.063) if 0.063 in elek_serisi else (12 if len(karisim_gecen) > 12 else -1)
+        idx_sand = elek_serisi.index(4.0) if 4.0 in elek_serisi else (6 if len(karisim_gecen) > 6 else -1)
+        
+        filler_val = karisim_gecen[idx_filler] if idx_filler != -1 else 0.0
+        sand_val = karisim_gecen[idx_sand] if idx_sand != -1 else 0.0
 
         # Bireysel Kalan Yüzde (%8-18 Kuralı)
         retained = []
@@ -400,8 +406,8 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
 
         # Analitik Durum Etiketleri
         wc_status = "Riskli" if not (0.40 <= wc_ratio_eff <= 0.50) else "İdeal"
-        filler_status = "Yüksek" if filler_val > 3.0 else "Uygun"
-        sand_status = "Dengesiz" if not (33 <= sand_val <= 42) else "Stabil"
+        filler_status = "Yüksek" if filler_val > 5.0 else ("Düşük" if filler_val < 1.0 else "Uygun")
+        sand_status = "Dengesiz" if not (37 <= sand_val <= 56) else "Stabil"
 
         # Snapshot
         st.session_state['mix_snapshot'] = {
@@ -414,6 +420,10 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
                 "katkı": round(cimento * katki / 100, 2), "hava": hava_yuzde,
                 "agrega_miktarları": {mat: round(m_kgs[i], 1) for i, mat in enumerate(materials) if active_mats[i]}
             },
+            "moisture_info": {
+                "moists": current_moists,
+                "total_water_from_moist": sum([m_kgs[i] * (current_moists[i]/100.0) for i in range(4) if active_mats[i]])
+            },
             "ai_analysis": {
                 "wa_liters": wa_liters,
                 "weighted_wa": weighted_wa,
@@ -425,8 +435,8 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
                 "wf": wf,
                 "retained": retained,
                 "wc_status": wc_status,
-                "filler_status": filler_status,
-                "sand_status": sand_status
+                "filler_status": "Yüksek" if filler_val > 5.0 else ("Düşük" if filler_val < 1.0 else "Uygun"),
+                "sand_status": "Dengesiz" if not (37 <= sand_val <= 56) else "Stabil"
             },
             "material_data": {
                 "rhos": current_rhos, "was": current_was, 
@@ -440,13 +450,24 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         # --- AI MÜHENDİSLİK VE LİTOLOJİK DEĞERLENDİRME (Görsel Panel) ---
         st.markdown("### 🧠 AI Mühendislik ve Litolojik Değerlendirme")
         
-        # Su Telafisi Hesaplama
+        # Su Telafisi & Rutubet Hesaplama (Excel OCB-8 Mantığı)
         total_agg_kg = sum(m_kgs)
-        weighted_wa = (current_was[0]*p1 + current_was[1]*p2 + current_was[2]*p3 + current_was[3]*p4) / total_ratio
-        wa_liters = (weighted_wa / 100) * total_agg_kg
         
-        # 1. Su Telafisi Analizi Kutusu
-        st.info(f"💧 **Su Telafisi Analizi:**\n\nSeçilen aktif malzemelere göre karma agrega su emme oranı: **%{weighted_wa:.2f}**\n\nAgregaların 1m³ betonda bünyesine çekeceği toplam su: **{wa_liters:.1f} Litre**")
+        # Agregalardan gelen su farkı: (Su Emme - Rutubet)
+        # (+) Değer: Su çekilir (Kantar suyu artar), (-) Değer: Serbest su verilir (Kantar suyu azalır)
+        su_farklar = [m_kgs[i] * (current_was[i] - current_moists[i]) / 100.0 for i in range(4) if active_mats[i]]
+        total_su_fark = sum(su_farklar)
+        eklenecek_su = su_hedef + total_su_fark
+        
+        # Agrega Kantar Ağırlıkları: Agrega_SSD * (1 + (Rutubet - Su Emme) / 100)
+        m_kantar = [m_kgs[i] * (1 + (current_moists[i] - current_was[i]) / 100.0) if active_mats[i] else 0.0 for i in range(4)]
+
+        # Görsel Panel Gösterimi
+        c_water1, c_water2 = st.columns(2)
+        with c_water1:
+            st.info(f"💧 **Hacimsel Su Dengesi:**\n\nNet Dizayn Suyu: **{su_hedef:.1f} L**\n\nAgrega Su Emme Telafisi (SSD): **+{wa_liters:.1f} L**")
+        with c_water2:
+            st.success(f"⚖️ **Kantar/Üretim Ayarı:**\n\nExcel Bazlı Su Düzeltmesi: **{total_su_fark:+.1f} L**\n\nKantar için eklenecek su: **{eklenecek_su:.1f} L**")
 
         c_eval1, c_eval2 = st.columns(2)
         with c_eval1:
@@ -484,25 +505,23 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         st.markdown("##### 🛣️ KTŞ & Beton Yol Gradasyon Hassasiyeti")
         c_kts1, c_kts2 = st.columns(2)
         
-        # 0.063mm (Filler) Oranı - Index 12
-        filler_val = karisim_gecen[12]
+        # 0.063mm (Filler) Oranı
         with c_kts1:
-            if filler_val > 3.0:
-                st.error(f"❌ **Filler (<0.063mm):** %{filler_val:.2f} (Max %3 olmalı!)")
-            elif filler_val > 2.0:
-                st.warning(f"⚠️ **Filler (<0.063mm):** %{filler_val:.2f} (Sınırda)")
+            if filler_val > 5.0:
+                st.error(f"❌ **Filler (<0.063mm):** %{filler_val:.2f} (Rehber 2025: Max %5 olmalı!)")
+            elif filler_val < 1.0:
+                st.warning(f"⚠️ **Filler (<0.063mm):** %{filler_val:.2f} (Rehber 2025: Min %1 olmalı!)")
             else:
-                st.success(f"✅ **Filler (<0.063mm):** %{filler_val:.2f} (Uygun)")
+                st.success(f"✅ **Filler (<0.063mm):** %{filler_val:.2f} (İdeal %1-5)")
         
-        # 4mm (Kum) Oranı - Index 6
-        sand_val = karisim_gecen[6]
+        # 4mm (Kum) Oranı
         with c_kts2:
-            if sand_val < 33.0 or sand_val > 42.0:
-                st.error(f"❌ **Kum (<4mm):** %{sand_val:.1f} (KTŞ: %33-42 arası)")
-            elif sand_val < 35.0 or sand_val > 40.0:
-                st.warning(f"⚠️ **Kum (<4mm):** %{sand_val:.1f} (İdeal dışı)")
+            if sand_val < 37.0 or sand_val > 56.0:
+                st.error(f"❌ **Kum (<4mm):** %{sand_val:.1f} (Rehber 2025: %37-56 arası)")
+            elif sand_val < 39.0 or sand_val > 54.0:
+                st.warning(f"⚠️ **Kum (<4mm):** %{sand_val:.1f} (Geniş aralıkta ama sınırda)")
             else:
-                st.success(f"✅ **Kum (<4mm):** %{sand_val:.1f} (İdeal)")
+                st.success(f"✅ **Kum (<4mm):** %{sand_val:.1f} (İdeal %37-56)")
 
         # --- 3. DURABİLİTE VE ASR ANALİZİ (YENİ BÖLÜM) ---
         st.markdown("##### 🌋 Durabilite ve ASR Analizi")
@@ -543,17 +562,22 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             st.markdown("### 📋 1m³ Reçete")
             katki_kg = round(cimento * katki / 100, 2)
             hava_katki_kg = round(cimento * hava_katki_yuzde / 100, 3)
+            # Reçete hesaplamaları (Tekrar hesapla)
+            su_farklar = [m_kgs[i] * (current_was[i] - current_moists[i]) / 100.0 for i in range(4) if active_mats[i]]
+            eklenecek_su = su_hedef + sum(su_farklar)
+            m_kantar = [m_kgs[i] * (1 + (current_moists[i] - current_was[i]) / 100.0) if active_mats[i] else 0.0 for i in range(4)]
+
             rec_tab = {
-                "Bileşen": ["Çimento", "Su", "Uçucu Kül", "Kimyasal Katkı", "Hava Sürükleyici", "Hava (Hacim)"], 
+                "Bileşen": ["Çimento", "Net Su (Dizayn)", "Eklenecek Su (Üretim)", "Uçucu Kül", "Kimyasal Katkı", "Hava Sürükleyici", "Hava (Hacim)"], 
                 "Miktar": [
-                    round(cimento, 1), round(su_hedef, 1), round(ucucu_kul, 1), 
+                    round(cimento, 1), round(su_hedef, 1), f"🧪 {eklenecek_su:.1f}", round(ucucu_kul, 1), 
                     katki_kg, hava_katki_kg, f"%{hava_yuzde:.1f}"
                 ]
             }
             for i, mat in enumerate(materials):
                 if active_mats[i]: 
-                    rec_tab["Bileşen"].append(mat)
-                    rec_tab["Miktar"].append(round(m_kgs[i], 1))
+                    rec_tab["Bileşen"].append(f"{mat} (Kantar)")
+                    rec_tab["Miktar"].append(f"⚖️ {m_kantar[i]:.1f}")
             st.table(pd.DataFrame(rec_tab))
 
     # Optimizasyon Butonu

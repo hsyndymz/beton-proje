@@ -577,7 +577,7 @@ if is_super_admin:
     tab_user_mgmt = tabs[next_idx + 3]
 
 with tab1:
-    current_rhos, current_was, current_las, current_mbs, computed_passing, active_mats, all_ri_values = render_tab_1(elek_serisi)
+    current_rhos, current_was, current_las, current_mbs, current_moists, computed_passing, active_mats, all_ri_values = render_tab_1(elek_serisi)
 
 with tab2:
     render_tab_2(
@@ -592,6 +592,7 @@ with tab2:
         current_was=current_was,
         current_las=current_las,
         current_mbs=current_mbs,
+        current_moists=current_moists,
         current_site_factor=current_site_factor,
         get_global_qc_history=get_global_qc_history
     )
