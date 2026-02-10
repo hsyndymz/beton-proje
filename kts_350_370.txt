@@ -1,0 +1,915 @@
+--- SAYFA 350 ---
+
+ KISIM 309  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-309/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+309/18 
+SA 3 Yüzey Temizliği:   
+Yüzeyde hiçbir yabancı madde kalmayacaktır. Temizlenmiş yüzeyin rengi beyaz metal renginde 
+olacaktır.  
+Yüzey temizlik derecelerinin kontrolü; uygulama esnasında düzenli olarak ISO 8501 standardında 
+belirtilen referans fotoğraflar kullanılarak gözleme yöntemi ile yapılacaktır. 
+Kum Püskürtme İşleminde Kullanılan Aşındırıcılar: 
+Aşındırıcılar dört başlık altında incelenmiştir.  
+Doğal oksitler  : Silis gibi 
+Metalik aşındırıcılar : Çelik bilye ve grit 
+Cüruf aşındırıcılar : Bakır, Nikel gibi 
+Sentetik aşındırıcılar : Alüminyum oksit, silikon karbid gibi 
+SA 2 ½  yüzey temizlik derecesinin elde edilmesinde aşındırıcı olarak kum kullanılacaktır. 
+Kullanılacak kum %90 veya daha fazla silis ihtiva edecektir. Kırılmışlık oranı %20’den daha fazla 
+olan kumlar kullanılmayacaktır. Kumun dane çapı 1-2 mm arasında olacaktır. SA3 yüzey temizlik 
+derecesinin elde edilmesinde aşındırıcı olarak kum dışı tozumayacak aşındırıcılar kullanılacaktır. 
+Bu aşındırıcıların dane çapı 1-2 mm civarında olacaktır. Yüzey temizliğinde kimyasal çözücüler 
+kullanılmayacaktır. Yüzeyde yağ ve gres tabakasının tespitinin yapıldığı yerlerde kumlama öncesi 
+temizleyici solventlerle bölgesel olarak yağ ve gres arındırması yapılacaktır. Kumlama profili 
+aşındırıcının cinsine ve dane boyutuna bağlı olduğu için yüklenici aşındırıcıyı temin etmeden önce, 
+aşındırıcının fiziksel ve kimyasal özelliklerine ilişkin test sonuçlarını İdare onayına sunacaktır. 
+Aşındırıcıların PH değeri 6-8 arasında olacak, suda çözünebilir tuzlar içermeyecektir. Aşındırıcının 
+kum olması halinde kumun yıkanmış olmasına ve bünyesinde yabancı madde içermediğine dikkat 
+edilecektir.  
+Yüzey Temizliği İşinde Uygulamada Dikkat Edilecek Hususlar: 
+1. Yüzey temizleme işlemlerine geçmeden önce imalatta herhangi bir imalat hatası veya varsa çelik 
+elemanlardaki yapısal kusurlar giderilecektir.  
+2. Kumlamadan önce kaynak kalıntıları temizlenecektir. 
+3. Gerekli yüzey pürüzlüğünün sağlanması açısından yüzeyde 75 µm derinliğinde çukurluklar 
+oluşturulmalıdır. Bu amaçla yüzey profilinin (Rz) 75 olmasına dikkat edilecek ve kumlama 
+esnasında gerekli kontrol ekipmanı ile sürekli kontrol edilecektir.  
+4. Kullanılan havanın kuru ve yağsız olmasına, temizlenen yüzeyde nem ve yağ oluşmaması 
+açısından dikkat edilecektir. Kompresör havasının testi, beyaz kurutma kâğıdına 50 cm mesafede 
+1-2 dk tutularak ve yüzeydeki kirlenme gözlenerek yapılacaktır.  
+5. Kumlama için kullanılacak kompresör 60-70 beygir gücünde 170-220 cfm (ft3/dk) hacimde hava 
+ve nozulda 90-100 Psi ( 6,5-7 Atm) basınç sağlayacak şekilde olmalıdır.  
+a. Gerekli yağ ve su tutucular bulunmalı ve bunların performansı düzenli olarak kontrol edilmelidir. 
+Nozul iç çapı 3/8” olacaktır. Nozul çapı aşınma nedeniyle ilk çapın %50 üzerine çıktığında nozul 
+değiştirilecektir. Kullanılacak hortumların (hava ve aşınmaya karşı) iç çapları mümkün 
+olduğunca geniş ve boyları kısa tutulacaktır.  
+6. Kumlamanın yapıldığı aletler İdare tarafından yetersiz bulunduğu takdirde bu aletlerin 
+değiştirilmesi için yükleniciye yazılı talimat verilecektir. Bu talimata yüklenicinin riayet 
+etmemesi durumunda İdare kumlama işini durdurabilir.  
+--- SAYFA 351 ---
+
+ KISIM 309  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-309/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+309/19 
+7. Kötü hava şartlarında, yağmur, kar, sis ve havadaki nem oranının %80’in üzerine çıktığı 
+durumlarda kumlama yapılmayacaktır. Temizliği yapılmış yüzeyin yağmur veya aşırı neme 
+maruz kalmasına izin verilmeyecektir.  
+8. Uygulama sırasında sürekli olarak çiğlenme noktası kontrol ve rapor edilecektir.  
+9. Yüzey temizliğinin hemen ardından 4 saat içinde astar boya uygulaması tamamlanacaktır.  
+10. Yeni boya yapılmış yüzeyin yakınlarında yeni boyanmış yüzeye zarar vermemek açısından 
+kumlama yapılmayacaktır.  
+11. Kumlamanın ardından kum tozlarının çelik yüzeyde yapışıp kalması önlenecek, boya işlemine 
+geçilmeden önce yüzey üzerinde toz vb. kalmamasına özen gösterilecektir.  
+12. Kumlama yapan elemanların gerekli koruyucu giysi ve techizatla donatılması gereklidir.  
+Bu hususun sağlanması yüklenicinin sorumluluğundadır.  
+13. Yüklenici uygulama esnasında çevreye zarar verilmesini önlemek amacıyla gerekli bütün 
+tedbirleri alacaktır.  
+14. Yüzey temizliği ile ilgili olarak arazi tutanakları tutulacaktır. Bu tutanaklar İdare görüşü 
+alınarak hazırlanmış tablolar halinde olacak ve arazide yapılan bütün işlemleri saat ve tarih 
+belirtmek kaydıyla içerecektir.  
+Tutanaklarda, yapılan bütün testler, ekipman ve aşındırıcı özellikleri de yer alacaktır. Hazırlanan bu 
+tutanaklar İdarenin istediği periyotlarda İdare görüşüne sunulacaktır. 
+309.06.02.02 Mekanik El Tokmakları ile Temizleme 
+Korozyona uğramış ve boyası yenilenmesi gereken mevcut imalatların yerinden alınarak şantiyeye 
+götürülmesinin imkânsız olduğu durumlar ile yerinde kum püskürtme yapıldığı takdirde çevre 
+şartlarından dolayı gerekli tedbirlerin alınamadığı durumlardaki uygulamalarda, mekanik el aletleri 
+ile yüzey temizleme yöntemi uygulanacaktır.  
+Kum püskürtme yöntemi ile hazırlanan yüzeylere uygulanan boya, mekanik yöntemlerle 
+hazırlanmış yüzeylere uygulanan boyadan daha iyi performans verecektir. Bu yüzden mekanik 
+yüzey hazırlama yöntemi sadece kumlamanın mümkün olmadığı zaruri hallerde İdarenin onayı 
+alındıktan sonra yapılacaktır.  
+Mekanik el aletleri ile yapılan yüzey temizliğinde ISO 8501 standardına göre SA 3 yüzey temizliği 
+aranacaktır. Bu temizlik derecesinin kontrolü fotoğraflar kullanılarak arazide gözleme yöntemiyle 
+düzenli olarak yapılacaktır. 
+Yüzey Temizliği İşinde Uygulamada Dikkat Edilecek Hususlar: 
+1. Bu yöntemin uygulandığı durumlarda temizlik işlemine geçilmeden önce yüzeyde yağ 
+tabakasının bulunduğu durumlarda, temizleyici solventlerle bölgesel olarak yağ alınacaktır.  
+2. Temizliğin ilk aşamasında tel fırça ve zımpara kullanılarak kalın pas tabakaları sökülecek 
+ardından mekanik zımpara, döner fırça, aşındırıcı disk ve iğneli tabanca gibi aletler kullanılarak 
+yüzey temizliği yapılacaktır. 
+3. Temizlik işinde kullanılacak aletler, pasın metalin derinlerine gömülmesini önlemek amacıyla 
+daima bilenmiş ve sivri olarak tutulacaktır.  
+4. Darbeli aletler kullanılırken yüzeyin derin çizik ve yaralar almamasına dikkat edilmeli, döner tel 
+fırçalar kullanıldığı durumlarda da yüzeyin cilalanmış gibi parlatılmamasına özen 
+gösterilmelidir.  
+5. Yüzey temizleme işlemlerine geçmeden önce çelik imalatta herhangi bir imalat hatası veya varsa 
+çelik elemanlardaki yapısal kusurlar giderilecektir. 
+--- SAYFA 352 ---
+
+ KISIM 309  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-309/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+309/20 
+6. Çelik imalatta mevcut bulunan kenar ve sivri köşeler uygun taşlama elemanları ile 
+yuvarlatılacaktır.  
+7. Kötü hava şartlarında, yağmur, kar, sis ve havadaki nem oranının % 80’in üzerine çıktığı 
+durumlarda temizleme yapılmayacaktır. Temizliği yapılmış yüzeyin yağmur veya aşırı neme 
+maruz kalmasına izin verilmeyecektir.  
+8. Yüzey temizliğinin hemen ardından 4 saat içinde astar boya uygulaması tamamlanacaktır.  
+9. SA 3 yüzey temizlik derecesine uygun boya seçilecektir.  
+10. Kum püskürtme ile temizlik yönteminde olduğu gibi, bu yöntemle yüzey temizliğinde de arazi 
+tutanakları tutulacaktır. 
+309.06.03 Çelik İmalatlarda Boya İşlemleri 
+Karayollarında çelik imalatın korunması ile yapılan çalışmaların ikinci aşamasını boya ve boya 
+uygulaması oluşturmaktadır. Temizliği yapılmış çelik yüzeylere, çeliğin korozyona karşı 
+dayanımını arttıracak ortalama olarak 200 µm kuru film kalınlık verecek ve Re 4 paslanma 
+derecesine göre en az 5 yıl boyunca bir bakım gerektirmeyecek boya sistemleri uygulanacaktır. 
+İdare, yapının bulunduğu ortam ve uygulama koşullarını dikkate alarak en az 5 yıl boyunca bir 
+bakım gerektirmeyecek uygun olan boya sistemlerinden birini belirleyecek ve buna göre 
+uygulamalar yapılacaktır.  
+309.06.03.01 Boya Seçiminde Dikkat Edilecek Hususlar 
+Yüzeye uygulanacak boyanın istenilen sonucu verebilmesi, uygun boya sisteminin belirlenmesiyle 
+birlikte iyi kalitede üretilmiş bir boyanın seçilmesine de bağlıdır. 
+Karayollarındaki çelik yüzeylerde kullanılacak boyaların temin edilmesi esnasında üretici firmadan 
+aşağıdaki belgeler talep edilecektir. Bu belgelere sahip olmayan boya firmalarından boya alımı 
+yapılmayacaktır. Belgelerin güvenilirliği yüklenicinin sorumluluğundadır. Yüklenici belgeleri İdare 
+onayına sunacak ve İdare onayı alındıktan sonra boya alımı yapılacaktır.  
+Ayrıca boya numuneleri alınıp şantiye sahasına getirildikten sonra, kontrollük elemanlarının 
+nezaretinde temsili ve yeterli miktarda numuneler alınıp tutanak ekinde resmi yazı ile birlikte kalite 
+kontrol testlerinin yapılması için KGM, Araştırma ve Geliştirme Dairesi Başkanlığı’na 
+gönderilecektir. Test sonuçlarının Tablo-309-11’de belirtilen kriterleri sağlaması halinde mevcut 
+boya kullanılabilecektir. Aksi takdirde olumsuz çıkan boyaların tümü iade edilip, yeni üretilen boya 
+numunelerine de aynı işlemler tekrarlanmalıdır.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 353 ---
+
+ KISIM 309  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-309/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+309/21 
+Tablo-309-11 Boyaların Fiziksel Özellikleri 
+Deney Deney 
+Standardı Şartname Limitleri 
+1. Görünüş TS 655 Boya ambalajı açıldığında kaymak tabakası, kesilme, 
+pıhtılaşma, iri tanecikler, yabancı maddeler 
+görülmemeli, ve boya kendi kabı içerisinde normal oda 
+sıcaklığında uygun bir spatula ile boya kütlesini 
+bütünüyle hareket ettirecek şekilde iki dakika süre ile 
+150 devir/dk hızla elle karıştırıldığında homojen 
+duruma gelecek ve dipte sert, kalın ve karışmayan bir 
+çökelti olmayacaktır.  
+2. Stabilite  TS 655 Maksimum % 5 olacaktır. 
+3. Renk Değiştirme  TS 655 Hiç olmayacaktır. 
+4. Kimyasal 
+Özellikler  TS 655 İdarece istenildiğinde yapılacaktır. 
+5. Suya Dayanıklılık TS 655 Kabarma veya kırışma göstermemeli ve boya filminin 
+hiçbir kısmı cam levhadan ayrılmamalıdır.  
+6.Uygulama 
+Sırasındaki 
+Vizkozite (KU)  TS 655 Beyaz boyalar için; Min. 75,0  
+7. Esneklik TS 655 Boya filminde çatlama, kabarma ve yüzeyde pul pul 
+ayrılma görülmeyecektir.  
+8. Kuruma Süresi  TS 655 Minimum 10 dk ve maksimum 30 dk olacaktır. 
+9. Sertleşme Süresi TS 655 Maksimum 3 saat olacaktır. 
+10.Korozyona 
+Dayanıklılık TS 655 Boya tabakası altında paslanma olmayacaktır. 
+ 
+Malzemeyi üreten firmaya ait ISO 9001 belgesi, malzemenin hangi standarda göre üretildiğini ve 
+onaylandığını belirleyen ürün belgesi, malzemenin ömrü ile ilgili olarak en az 5 yıl bakım 
+gerektirmeyecek garanti belgesi, kullanılan malzemelerle ilgili daha önce yurt içi ve yurt dışında 
+kullanıldığı yer ve projeleri gösteren referans listesi ve detaylı mamul bilgi föyü ve uygulama 
+kataloğu İdareye verilecektir.  
+Boya uygulaması ile ilgili olarak hazırlık aşamasında ve uygulama esnasında üretici firma boya ile 
+ilgili karışım oranlarını, uygulama yöntem ve koşullarını belirleyecek ve uygulama süresince belirli 
+periyotlarda gözetim ve denetimi yapacak ve hazırlanan raporları İdareye sunacaktır. 
+Uygulamanın başlangıcında boya firmasının denetimi altında arazide örnek uygulama yapılacak, 
+uygulamada boya sisteminin gerektirdiği oranda elde edilecek yaş ve kuru film kalınlıkları, yüzeyde 
+kaplanmış alan kalıp kalmadığının kontrolü ve yapışma mukavemeti tespit edilecektir. İdare, 
+yüklenici ve üretici firma yetkililerinin gözetimi altında yapılan bu uygulama işin devamındaki 
+uygulamalara örnek teşkil edecektir.  
+Örnek uygulamada bulunan kuru film kalınlıklarının daha önce boya sistemi seçiminde belirlenen 
+üretici firmanın verdiği değerlerden farklı çıkması veya yapılan testlerin yetersiz sonuçlar vermesi 
+durumunda İdare boya firmasının değiştirilmesini yükleniciden isteyebilir.  
+--- SAYFA 354 ---
+
+ KISIM 309  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-309/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+309/22 
+İşin devamı esnasında boya kalitesinde düşme veya İdare izni olmadan cinsinde değişiklik tespit 
+edildiği takdirde İdare boyama işlemlerini durdurma ve boya firmasının değiştirilmesini isteyebilir.  
+Aynı sistem içindeki boyaların (arakat, astar vb.) aynı firmadan olmasına dikkat edilecektir. 
+Boyanın astarının ayrı, diğer kat ve katlarının farklı firmalardan temin edilmesine izin 
+verilmeyecektir. Boya ile ilgili olarak bir problem çıktığı takdirde (boya sisteminin değiştirilmesi, 
+renk farkı, firma değişikliği vb.) İdarenin yazılı onayı alınacaktır.  
+309.06.03.02 Kullanılabilecek Temel Boya Sistemleri  
+Çelik yüzeylerde kullanılabilecek temel bazı boya sistemleri aşağıda belirtilmektedir. Bu sistemlerin 
+dışında yüklenici tarafından önerilebilecek diğer boya sistemleri İdare tarafından ayrıca 
+değerlendirilecektir. 
+Metal Püskürtme: Bu yöntemle koruma, çinko veya alüminyum metalinin eritilerek yüzeye 
+püskürtülmesi ile sağlanacaktır. Bu yöntemde yüzey temizliği İsveç normu SA 3’e uygun olarak 
+yapılacaktır. Uygulama yöntemi, ekipmanı veren firmanın süpervizörlüğünde İdare talimatları 
+doğrultusunda saptanacaktır.  
+İnorganik Çinko Silikat: Çift kompenantlı  etil silikat bağlayıcılı inorganik çinko astar malzemedir. 
+İnorganik çinko boyalarda kuru filmdeki çinko oranı minimum % 78 olmalıdır. 
+Organik Çinkoca Zengin Epoksi Astar:  Epoksi bağlayıcı içerisinde yoğun çinko pigmenti içeren 
+astar boyadır.  
+Yüzeye Toleranslı Kalın Tatbik Edilebilen Epoksi Kaplamalar:  Özellikle mekanik temizlik 
+sonrası tamirat için geliştirilmiş yüksek katı maddeli modifiye epoksi içerikli boyadır. 
+Akrilik Poliüretan:  Güneş ışınlarına ve kimyasal etkilere karşı dayanıklı ve çift kompenantlı akrilik 
+poliüretan son kat boya çeşitleridir. 
+Alkid Sistem:  Klasik alkid reçineden imal edilen astar çinko fosfat gibi antikorozif pigmentlerle 
+güçlendirilmiş konvansiyonel sistem boyadır.  
+Üniversal Epoksi Astar:   Metal veya metal olmayan birçok yüzey ile uyum sağlayan üniversal 
+epoksi astar boyadır. 
+HB Epoksi:  Ara veya son kat olarak kullanılan yüksek kalınlıkta uygulanabilen epoksi kaplamadır. 
+Vinil Astar: Vinil reçineden imal edilen vinil astar boyadır.  
+HB Vinil Son Kat: Yüksek film kalınlığına ulaşabilen vinil reçineli geniş kimyasal dayanıma sahip 
+vinil son kat boyadır.  
+Klor Kauçuk Astar, Ara Kat Son Kat Boyalar 
+309.06.03.03 Boya Uygulamasında Dikkat Edilecek Hususlar 
+1. Kötü hava şartlarında, yağmur, sis ve havadaki nem oranının % 80’in üzerine çıktığı durumlarda 
+boyama işlemi yapılmayacaktır.  
+2. Boya işlemine geçilmeden önce yüzey temizliğinin yeniden kontrolü yapılacak, yüzey temizliği 
+yetersiz görülen çelik yüzeyde boya uygulamasına başlanılmayacaktır.  
+3. Yüzeyi temizlenmiş çeliğe 4 saat içinde astar boya uygulaması tamamlanacaktır. 
+--- SAYFA 355 ---
+
+ KISIM 309  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-309/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+309/23 
+4. Çelik yüzeyde toz, kum tanecikleri, su vb. bulunmamasına dikkat edilecektir. Yüzeyin kuru ve 
+temiz olması sağlanacaktır. 
+5. Boyanın cinsine göre uygulamalar fırça veya havasız tabanca ile yapılacaktır. Bunun dışındaki 
+uygulama metotları kabul edilmeyecektir. 
+6. Boya katlarından biri kurumadan diğerine geçilmeyecektir. 
+7. Her katta yaş film kalınlık ve kuru film kalınlık ölçümleri yapılacaktır. 
+8. Geniş yüzeylerde 500 m2 yüzey alanından alınacak 100 ölçüm neticesinde, yaya korkuluğu vb. 
+gibi parçalı imalatlarda ise her bir modülden alınacak 3 ölçüm neticesinde ortalama kuru film 
+kalınlığı tespit edilecektir. 
+9. Test sonuçları alınmadan bir sonraki kata başlanılmayacaktır. 
+10. Kenar ve köşelerde ek kat olarak çizgisel boya uygulaması yapılacaktır. 
+11. Yeni imalat çelik yüzeylerin astar boyaları üretim yerinde, üst katları ise montaj 
+tamamlandıktan sonra yerinde atılacaktır.  
+12. Üretici firmanın verdiği karıştırma oranlarına ve sürelerine göre boyalar karıştırılacak, boyalar 
+boyacıya hazırlanmış halde verilecek, boyacının ayrıca malzeme veya tiner ilavesine izin 
+verilmeyecektir.  
+13. Havasız tabanca ile bütün alet ve ekipmanlar yüklenici tarafından temin edilecektir. Bu alet ve 
+ekipmanların yetersiz görülmesi halinde yükleniciye alet ve ekipmanların değiştirilmesi için 
+yazılı talimat verilecektir. Bu talimata yüklenicinin uymaması durumunda İdare boyama işini 
+durdurabilecektir.  
+14. Uygulama esnasında, uygulamadan dolayı boyası yapılmış yüzeyde çatlak, kabarcık vb. gibi 
+boya hatası durumunda yüzey temizlenerek boya işlemi yenilenecektir. Uygulama hatası olan 
+yüzeylere temizlik ve boya için ikinci kez ödeme yapılmayacaktır.  
+15. Boya işlemleri kalifiye boyacılar tarafından yapılacaktır.  
+16. Boya işini yapan elemanlar gerekli koruyucu giysi ve teçhizatla donatılacak, çevre ve insan 
+sağlığına verilebilecek zararlara karşı gerekli önlemler alınacaktır.  
+17. Boya uygulamasıyla ilgili olarak tutanaklar tutulacak, bu tutanaklarda boya ve solvent cinsi, 
+karışım oranları, uygulama gün ve saati, yapılan testler ve sonuçları tablolar halinde yer 
+alacaktır. 
+309.06.03.04 Boyaların Depolanması ve Korunması 
+Üretici firmanın önerileri dikkate alınarak boyaların muhafazası ve depo şartları yüklenici 
+tarafından gerçekleştirilecektir. Depo şartları İdare tarafından kontrol edilecektir. Depo yakınlarında 
+yanıcı maddeler bulundurulmamasına, depo içerisindeki ısının boya için önerilen ısıda tutulmasına 
+özen gösterilecektir.  Depoya giren boyalar giriş tarihlerine göre numaralandırılarak kaydedilecektir. 
+Üretim tarihinden itibaren 1 yıl geçmiş bulunan boyalar satın alınmayacak ve kullanılmayacaktır. 
+Boyaların üzerinde rengi, üretim tarihleri ile son kullanım tarihleri, depolama ve güvenlik 
+koşullarını bildiren bilgiler yer alacaktır. Ezik ve paslanmış kutular kabul edilmeyecektir. 
+309.06.03.05 Boyaların Test ve Kontrol Yöntemleri 
+309.06.03.05.01 Şantiyede Sürekli Yapılacak Test ve Kontrol Yöntemleri 
+1.  
+Yüzey Temizliği           ISO 8501’e uygun gözleme yöntemiyle yapılacak 
+Yüzey Hazırlama Standardı      ISO 8501 kitapçığı. 
+Ekipman    Elcometer 128 
+--- SAYFA 356 ---
+
+ KISIM 309  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-309/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+309/24 
+   
+2.  
+Yüzey Profili         Testex, micrometer veya elektronik enstrümanlarla yapılacak 
+Ekipman Elcometer 122, 123, 124 
+ 
+3. Çiğlenme Noktası:   
+Döner termometrelerle wet bulb ve dry bulb sıcaklık değerlerinin tespitinden sonra psychrometric 
+tablo veya cetvel yardımı ile çiğlenme noktası bulunur. Ayrıca yüzey sıcaklığı ölçüm aletleri ile 
+uygulama yapılacak, yüzey sıcaklığının çiğlenme noktasından minimum 3 ºC yukarıda olup 
+olmadığı da kontrol edilerek uygulama yapılıp yapılmamasına karar verilir. 
+Ekipman Döner termometre-elcometer 116 veya eşdeğeri, cetvel, elcometer 114, yüzey 
+termometresi  
+ 
+4. Yaş Film Kalınlık Ölçümü:   
+Kullanılan boya sistemlerinin istenilen kalınlıklarda kuru film tabakası verecek şekilde uygulanıp 
+uygulanmadığı yaş film kontrolü ile belirlenecektir. Boyadan hemen sonra ölçülecektir. Gerekli yaş 
+film kalınlığı boya üreticisi firma tarafından belirtilmelidir. 
+Ekipman Yaş film kontrol tarakları, elcometer 154 veya eşdeğeri 
+ 
+5. Kuru Film Kalınlık Ölçümü:   
+Manyetik veya dijital kuru film ölçme ekipmanları ile uygulanan boya kalınlığı kontrol edilecektir. 
+Aletlerin sürekli olarak kalibrasyonları yapılacaktır. 
+Ekipman Elcometer 245 veya microtest 
+ 
+309.06.03.05.02 Şantiyede Aralıklarla Yetkili Personel İle Yapılacak Test ve Kontroller 
+1. Pin-Hole Test:   
+Yüzeyde kaplanmamış alan kalıp kalmadığının kontrolü için LWD (Low Voltage Detector) ile 
+boşluk kontrolü yapılacaktır. 
+Ekipman Elcometer 269 veya eşdeğeri 
+ 
+2. Yapışma Kontrolü:   
+Boya filminin yüzeye yapışması, yapışma test cihazlarıyla düzenli olarak kontrol edilecektir. 
+Uygulamanın üzerinden boya imalatçısının tavsiyesine göre minimum 24 saat süre geçtikten sonra 
+yapışma testi yapılacaktır. Ortalama yapışma mukavemeti 20 kg/cm2 olacaktır.  
+ 
+ 
+ 
+--- SAYFA 357 ---
+
+ KISIM 310  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-310/Rev.23/1215 
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+310/1 
+310.  MENFEZ VE KÖPRÜLERDEKİ İSKELE İŞLERİ 
+310.01 Tanım  
+Bu kısım; menfez ve köprülerdeki iskele işlerini kapsar. 
+310.02 Malzeme 
+İdarece yapılması gerekli görülen menfez ve köprülerde iskele yapılmadan önce iskele projesi 
+yüklenici tarafından hazırlanarak İdareye onaylattırılacaktır. Bu onay, iskele ve kalıplardaki 
+kusurlardan ve bu nedenle meydana gelecek arızalardan dolayı yükleniciyi sorumluluktan 
+kurtaramaz. 
+Kalıp ve iskele hesaplamalarında taze betonun yoğunluğu 2.400 kg/m3 olarak alınacaktır. İskele, 
+üzerinde taşınması mümkün olan bütün yüklere ve kabul edilen deformasyon limitleri dışında bir 
+deformasyona uğramadan dayanabilecek şekilde projelendirilecek ve yapılacaktır. 
+İskele çelik veya ahşap olabilir. Ahşap olarak yapıldığında bütün imalat, çam, meşe, kayın, gürgen, 
+kestane gibi sağlam ve düz keresteden yapılacak, kavak ve benzeri ağaçlar kullanılmayacaktır.  
+Ahşap gerilmeleri Tablo-310-1’deki değerlerden fazla olmayacak şekilde iskele projesi 
+hazırlanacaktır. 
+Tablo-310-1 Ahşap İskelede Gerilme Değerleri 
+Elyaf yönündeki basınç 60 kgf/cm2 
+Eğilme 80 kgf/cm2 
+Elyafa dik yöndeki basınç 15 kgf/cm2 
+Elyaf yönündeki makaslama 6 kgf/cm2 
+ 
+310.03 Yapım Şartları 
+İskelenin maruz kalacağı yükler altındaki deformasyonu ve iskele alındıktan sonra yapının kendi 
+yükü altındaki deformasyonu göz önüne alınarak iskeleye ters sehim verilecektir. Bunun için gerekli 
+sehim iskeleye ait her dikme için hesaplanarak İdareye verilecek proje üzerinde gösterilecektir.  
+Beton dökülmeden veya beton dökümü sırasında iskelede olabilecek ufak çöküntüleri düzeltmek 
+için iskelenin altında işin önemine göre veren veya sert ağaçtan kamalar kullanılacaktır.  
+Yeterli derecede sağlam bir temel üzerine oturtulamayan iskeleler, İdarenin belirleyeceği aralıkta 
+ve şekilde çakılan kazıklar üzerine oturtulacaktır. İş bittikten sonra bu kazıklar çıkarılacak veya 
+başları zemin seviyesinden veya en alçak su seviyesinden 50 cm aşağıda kalmak üzere kesilecektir.  
+Kemerlerin iskelesi, İdare tarafından onaylanmış iskele projesine uygun olarak yapılacaktır. 
+İskelenin düzenli bir şekilde alınıp, kemerin üniform olarak yüklenmesini temin için iskele uygun 
+şekilde kama, kum kutuları veya diğer indirme tesisatı ile donatılmış olacaktır.  
+İdarece istenildiği takdirde beton dökümüne başlandıktan sonra iskelede meydana gelebilecek 
+çöküntüleri düzeltmek için iskele, İdarece kabul edilecek tipte verenler üzerine oturtulacaktır.  
+--- SAYFA 358 ---
+
+    KISIM 311  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-311/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+311/1 
+311.  BETON VE BETONARME BÜZ İŞLERİ 
+311.01 Tanım  
+Bu kısım; projelere veya İdarenin talimatlarına uygun olarak her tip ve boyuttaki beton ve betonarme 
+büzlerin yapılmasını, yerlerine konmasını ve bunlarla ilgili baş duvarı, kanat duvarı, radye vb. 
+imalatın ve diğer işlerin yapılmasını kapsar. 
+311.02 Malzeme  
+Beton ve betonarme büz işlerinde kullanılan çimento, agrega, su ve beton kimyasal katkıları Kısım 
+308 “Beton İşleri”nde, donatı çeliği ise Kısım 309 “Demir İşleri”nde belirtilen esaslara uygun olarak 
+yapılacaktır. Beton ve betonarme büz üretimlerinde kullanılacak agregaların granülometrisi büz 
+cidar kalınlığına göre Tablo-311-1’de belirtildiği şekilde olacaktır. 
+Tablo-311-1 Büzlerin Cidar Kalınlığına Göre Agrega Granülometrisi 
+Elek 
+Boyutu Büz  Cidar 
+Kalınlığı        
+≤ 150 mm Büz Cidar 
+Kalınlığı           
+> 150 mm 
+(mm) % Geçen 
+31,5  100 
+22,5 100 90 - 100 
+20 90 - 100 - 
+12,5 - 25 - 60 
+8 20 - 55 - 
+4 0 - 10 0 - 10 
+ 
+311.02.01 Su Emme Yüzdesi 
+Sertleşmiş beton büz gövdesinden et kalınlığı boyunca kütlesi en az 2 kg ve hacmi en az 1 dm3 olan 
+bir numune alınır. TS 821 EN 1916 standardı, EK-D’ye göre su emme yüzdesi tayin edilir. Betonun 
+kütlece su emme yüzdesi % 6’dan fazla olmamalıdır. 
+311.02.02 Dayanım  
+311.02.02.01 Tepe Yükü Dayanımı 
+Beton boruların, tepe yükü dayanım deneyleri, TS 821 EN 1916 standardına göre yapılmalıdır. 
+Entegre contalı olacak bu borular, Tablo-311-2’de verilen özellikleri sağlamalıdır. 
+Beton borular, tepe yükü dayanımı deneyi yapıldığında Tablo-311-2’de verilen tepe yükü (Fn) 
+değerine dayanmalıdır. 
+Çelik lifli beton borular ayrıca aşağıda belirtilen ve ard arda uygulanan deney şartlarına uygun 
+olmalıdır. 
+1. Boru 0,67 Fn çatlak yüküne herhangi tipte bir çatlama göstermeden 1 dakika dayanmalıdır. 
+2. Yük Fn’den küçük olmamak şartıyla taşıma sınır yükü (göçme) yükü Fu’ya kadar artırılmalıdır.  
+3. Kesiksiz yük, taşıma sınır yükünün (göçme yükünün) %95’i veya daha fazlası kadar 
+düşürüldükten sonra kaldırılmalı, 0,67 Fn tekrar uygulanmalı ve 1 dakika sabit tutulmalıdır.  
+ 
+--- SAYFA 359 ---
+
+    KISIM 311  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-311/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+311/2 
+Tablo-311-2 Beton Boru Özellikleri  
+İç Çap 
+(mm) Cidar 
+Kalınlığı 
+(mm)  
+(min.) Boru 
+Boyu 
+(cm) 
+(min.) Borudaki 
+donatı 
+miktarı 
+(kg/m) İç ve Dış 
+cidarda 
+min. 
+paspayı 
+(mm) En küçük 
+tepe yükü 
+(ton/m) 
+(Fn) 
+200 40 150 - - 4,200 
+300 45 150 - - 4,800 
+400 50 150 - - 6,500 
+500 65 150 - - 7,000 
+600 70 200 - - 8,000 
+800 100 200 32,1 25 10,000 
+1000 120 200 56,0 25 14,000 
+1200 135 200 82,8 25 17,000 
+1400 160 200 124,1 25 20,000 
+ 
+Donatılı beton borular en küçük tepe yüküne (Fn) dayanma şartına ek olarak, tepe yükü dayanımı 
+deneyinde, betonun çekme bölgelerinde 300 mm veya daha fazla sürekli bir uzunluk boyunca, 
+genişliği 0,3 mm’den büyük herhangi tipte kararlı çatlak oluşmadan, değeri 0,67 Fn’e eşit olan çatlak 
+yükü Fc’ye dayanmalıdır.  
+311.02.02.02 Beton Dayanımı 
+Betonun dayanım sınıfı Kısım 308.05.03’de belirtilen esaslara uygun olacaktır. Basınç dayanımı 
+deneyi, çapı ± 10 mm ile yüksekliğine eşit karot numuneleri ile veya kontrollük elemanlarının 
+nezaretinde büz üretiminde kullanılan taze betondan alınan numuneler üzerinde Kısım  308 “Beton 
+İşleri”nde belirtilen esaslara göre yapılacaktır.  
+311.03 Büz Tipleri 
+ Büz baş duvarları, beton ve betonarme büz tipleri ve büzlerin yerine konulmasına ait metotlar Şekil-
+311-(1, 2, 3 ve 4) ’de,  beton kanat duvarlı büz tipleri için ise Tablo-311-(3, 4, 5 ve 6) ’da verilen 
+boyut, ölçü ve demir donatı listelerinde belirtilen esaslar geçerlidir.  
+311.04 Yapım Şartları  
+Büz yataklarının hazırlanması ve etrafının doldurulmasına ait şartlar Kısım 302’ de “Büz 
+Yataklarının Hazırlanması ve Etrafının Doldurulması” bölümünde belirtilmiştir.  
+Büz yüzeyinde yapısal veya hidrolik açıdan zararlı olabilecek veya dayanıklılığını azaltacak hasar 
+bulunmamalıdır. Çok ince de olsa yüzleri çatlayan veya köşeleri arızaya uğrayan büzler kesinlikle 
+kullanılmayacaktır.  
+İç çapı 100 cm ve daha büyük olan büzlerde, iç çap; projede gösterilen iç çapın ± % 0,75’i kadar 
+olacaktır. Ayrıca büzün herhangi bir noktasındaki cidar kalınlığı da, projede gösterilen cidar 
+kalınlığının en çok % 5’i kadar eksik olabilecektir. Daha fazla boyut farkı olan büzler kesinlikle 
+kullanılmayacaktır. 
+--- SAYFA 360 ---
+
+    KISIM 311  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-311/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+311/3 
+311.04.01 Büzlerin Yerine Konulma Metotları 
+1. Büzün eğimi genel olarak derenin eğimine uyacak, eğim tercihen % 2’den az olmayacaktır. 
+Maksimum eğim % 15’dir. Daha büyük eğimler artan akım hızına karşı gerekli önlemler 
+alınarak özel olarak değerlendirileceklerdir. 
+2. Her durumda baş duvar dış yüzü düşey ve yol eksenine paralel olacaktır. 
+3. Beton baş duvarlardaki betonun dayanım sınıfı Kısım 308 “Beton İşleri”nde belirtilen esaslara 
+uygun olacaktır. Büz baş duvar kalıbı içine yerleştirildikten sonra beton dökülecektir. 
+4. Şekil-311-4’de gösterilen ve Tablo-311-5’de boyutları belirtilen Çimento harçlı kargir duvar 
+inşaatındaki minimum çimento miktarı CEM 32,5 için 350 kg/m3, CEM 42,5 için 310 
+kg/m3’den az olmayacaktır. 
+5. Şekil-311-5’de gösterilen ve Tablo-311-6’de boyutları belirtilen Kuru Kagir Baş Duvarlar 
+yalnız geçici inşaatlarda yapılabilir.  
+6. Baş duvar boyutu beton, harçlı kagir, kuru kagir olması durumuna göre, aşağıdaki şekil ve 
+tablolarda verilmiştir.  
+ 
+Tablo-311-3 Boyutlar (I) 
+D A B H TEK BÜZ  ÇİFT BÜZ  
+L Bir baş duvarda 
+L1 Bir baş duvarda 
+Beton Kalıp Beton Kalıp 
+m m m m m m3 m2 m m3 m2 
+1,00 0,70 0,66 2,00 4,06 3,002 15,59 5,73 3,948 19,77 
+1,20 0,83 0,76 2,34 4,88 4,733 21,75 6,88 6,232 27,59 
+NOT: Zemin; masif kayaç ise A= 0,35 m alınacaktır. Bu durumda tabloda verilen değerler 
+geçerli değildir. 
+ 
+Tablo-311-4 Demir Donatı Listesi (II)  
+ D n Ø TEK BÜZ  ÇİFT BÜZ  
+Z Bir baş duvarda 
+toplam demir  Z1 Bir baş duvarda 
+toplam demir  
+m Ø M kg m kg 
+1,00 2Ø 16 3,90 12,308 5,60 17,674 
+1,20 2Ø 16 4,70 14,833 6,70 21,145 
+ 
+--- SAYFA 361 ---
+
+    KISIM 311  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-311/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+311/4 
+ 
+Tablo-311-5 Boyutlar (III) 
+D A B H TEK BÜZ ÇİFT BÜZ 
+L Bir baş duvarda 
+kagir L’ Bir baş duvarda 
+kagir 
+m m m M m m3 m m3 
+1,00 0,70 0,85 2,00 3,10 4,185 4,75 5,906 
+1,20 0,83 1,00 2,33 3,75 6,936 5,75 9,794 
+NOT:  Zemin masif kayaç ise A= 0,35 alınacaktır. Bu durumda tabloda verilen  
+           değerler geçerli değildir .  
+ 
+ 
+ 
+Tablo-311-6 Boyutlar (IV) 
+D A B H TEK BÜZ ÇİFT BÜZ 
+L Bir Baş 
+Duvarda 
+Kagir L’ Bir Baş 
+Duvarda 
+Kagir 
+m m m m M m3 m m3 
+1,00 0,70 1,00 2,00 2,65 4,024 4,30 6,048 
+1,20 0,83 1,15 2,33 3,15 6,369 5,15 9,656 
+Not:  Zemin masif kayaç ise A= 0,35 alınacaktır. Bu durumda tabloda verilen        değerler 
+geçerli değildir . 
+ 
+ 
+--- SAYFA 362 ---
+
+    KISIM 311  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-311/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+311/5 
+ 
+ 
+Şekil-311-1 Büz Baş Duvarları 
+ 
+ 
+
+--- SAYFA 363 ---
+
+    KISIM 311  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-311/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+311/6 
+ 
+ 
+Şekil-311-2 Tek Büz ve Betonarme Baş Duvar 
+ 
+ 
+ 
+Şekil-311-3 Çift Büz 
+ 
+
+--- SAYFA 364 ---
+
+    KISIM 311  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-311/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+311/7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Şekil-311-4 Harçlı Kargir Başduvar 
+ 
+ 
+ 
+ 
+ 
+
+--- SAYFA 365 ---
+
+    KISIM 311  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-311/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+311/8 
+ 
+ 
+ 
+Şekil-311-5 Kuru Kargir Baş Duvar 
+
+--- SAYFA 366 ---
+
+ KISIM 312  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-312/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+312/1 
+312. BAKIR VE GALVANİZE SAC İŞLERİ 
+312.01 Tanım   
+Bu kısım; projelerde veya Kontrol Mühendisliği tarafından gösterilen yerlerde yapıların derz veya 
+mafsallarının sudan tecridi için kullanılan bakır levha ve galvanize sac işlerini kapsar.  
+312.02 Malzeme  
+312.02.01 Bakır  
+Bakır levhalar temiz, sağlam, düzgün, haddelerden fabrikalarda çekilmiş olacak ve yabancı 
+maddelerden, pürüzlerden, ek ve çatlaklardan, bükülmüş kısımlardan, dalgalardan, pul pul kalkan 
+kısımlardan, bozuk kenar ve uçlardan ve benzeri kusurlardan arınmış olacaktır. Bu işte kullanılacak 
+bakır levhanın her noktasına aynı derecede su verilmiş olacak ve levha aynı nitelikte olacaktır. 
+Levha haline getirilmiş bakır hiç kullanılmamış bakırdan veya hiç kullanılmamış bakır ile bileşeni 
+bilinen hurda bakır karışımından çekilmiş olacak ve levhadaki bakırın miktarı, bileşeninde  gümüş 
+içeriyor ise gümüşle bakırın toplam miktarı % 99,88’den az olmayacaktır.  
+Projesinde belirtilmeyen durumlarda, derz ve mafsallarda kullanılan bakır levha minimum 0,77 mm 
+kalınlıkta olacaktır. 
+312.02.02 Galvanize  Saclar 
+Derz ve mafsalların sudan tecridi için kullanılacak saclar, standartlara  uygun ve  sıcak daldırma usulü 
+ile galvanize edilmiş olacaktır. Saclar, aksi belirtilmediği  takdirde, minimum 0,75 mm kalınlıkta 
+olacaktır. Her iki yüzü galvanize edilmiş olan saclarda, sacın m2’sinde minimum 610 g çinko 
+bulunacaktır.  
+Yapılacak deneylerle, sacın içerdiği çinko miktarı belirlenecektir.  Sacın m2’sinde ortalama çinko 
+miktarı 610 g’dan az veya herhangi bir numune parçası üzerinde 1 m2’ye isabet eden çinko miktarı 
+550 g’dan az ise bu galvanize saclar kullanılmayacaktır.  
+Kullanılacak galvanize saclar 1. sınıf olacak ve hiçbir hata ve kusuru bulunmayacaktır.  
+312.03 Yapım Şartları 
+Levhalar projede gösterilen veya Kontrol Mühendisliği tarafından belirlenen  genişlikte kesilecek ve 
+kıvrılacaktır. Derz ve mafsalları sudan tecrit için kullanılan bu levhalar mümkün olduğu kadar eksiz 
+olarak bütün derz boyunca uzayacaktır. 
+Kaplamanın eksiz yapılamadığı durumlarda, ekler düzgün bir tecrit elde edilecek şekilde lehimle 
+yapılacaktır. Levhaların uçları projede gösterildiği şekilde derz veya mafsalın her iki tarafındaki 
+betonun içine gömülecektir. 
+--- SAYFA 367 ---
+
+ KISIM 313  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -313/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltıl amaz.  
+313/1 
+313.  DRENAJ İŞLERİ  
+313.01 Tanım  
+Bu kısım; karayolu drenajı, yer altı ve yüzeysel suların yol gövdesine zarar vermeden 
+uzaklaştırılması çalışmalarını kapsar.  
+Drenaj işleri;  
+1. Yüzeysel drenaj,  
+2. Yüzey altı drenajı  
+olarak iki bölümde değerlendirilmektedir.  
+313.02 Yüzeysel Drenaj  
+313.02.01 Tanım  
+Bu kısım; yol üzerine düşen yağışlar ile yola gelen yüzey sularını almak ve bu suların yol üstyapısına 
+ve yol gövdesine zarar vermeden uzaklaştırılmasını sağlamak üzere yol güzergâhı boyunca yapılan 
+işleri kapsar.  
+313.02.02 Yüzeysel Drenaj Yapı Elemanları  
+Yüzeysel drenaj işlerinde kullanılan yapı elemanları; menfezler, beton ve betonarme büzler, spiral 
+sarımlı polivinilklorür (PVC-U) e saslı borular, spiral sarımlı yüksek yoğunluklu polietilen (HDPE) 
+esaslı borular, drenaj hendekleri (tepe üstü (kafa), palye, yarma, dolgu, şev dibi, orta refüj ve 
+derivasyon), prefabrik düşüm olukları, kontrol bacaları, bordürler, rögarlar, memba tesisatı , sifonlar 
+ve garguylardır.  
+313.02.02.01 Menfezler  
+313.02.02.01.01 Tanım  
+Sürekli olarak akan ya da yağış sonucu oluşan küçük akarsuları, yol gövdesinin bir tarafından diğer 
+tarafına geçirmede kullanılan hidrolik sanat yapılarıdır. Ayrıca yol yüzeyinden ve kafa 
+hendeklerinden kenar hendeklere gelen sular menfez aracılığı ile toplanarak uygun yerlere ulaştırılır.  
+Menfezler kutu, kemer ve tabliyeli menfezler olmak üzere 3 guruba ayrılmaktadır.  
+313.02.02.01.02 Kutu Menfezler  
+Memba ve mansap tarafında kanat duvarları bulunan kutu kesitli betonarme menfezlerdir.  
+Kutu menfez işlerinde kullanılan çimento, agrega, su ve beton kimyasal katkıları ile kullanılacak 
+betonun karakteristik dayanım sınıfı Kısım 308  “Beton İşleri”nde; donatı çeliği ise Kısım 309  
+“Demir İşleri”nde belirtilen esaslara uygun olacaktır.  
+Menfezin betonarme alt plağının temiz bir yüzeyde imal edilebilmesi için, Kısım 317 “Grobeton 
+Yapılması”nda belirtilen esaslara da uyulacaktır.  
+Kutu menfez imalatla rında, “Standart Kutu Menfez Tipleri” (Box Culvert) kitapçığında yer alan 
+projelere ve yapım notlarına uyulacaktır. Ancak; açıklık, yükseklik ve dolgu yüksekliği yönünden 
+bu kitaptaki ölçülerin dışında kalan imalatlarda ise İdarece onaylı projeler uygulanacaktır.  
+ 
+--- SAYFA 368 ---
+
+ KISIM 313  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -313/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltıl amaz.  
+313/2 
+313.02.02.01.03 Kemer Menfezler 
+Yüksek dolgular altında kullanılan  menfezlerdir. Bu menfezler kagir veya beton kemerli olarak 
+yapılmaktadır.  
+Beton kemerli menfezlerde Kısım 313.02.02.01.02 ’de belirtilen esaslara uyulacaktır.  
+Kagir kemerli menfezlerde ise Kısım 307  “Kagir İnşaat”da belirtilen esaslara uyulacaktır.  
+Kemer menfez imalatlarında “Köprü Tipleri - Keme rli Menfez” kitapçığında yer alan projelere ve 
+yapım notlarına uyulacaktır. Ancak; açıklık, yükseklik ve dolgu yüksekliği yönünden bu kitaptaki 
+ölçülerin dışında kalan imalatlarda ise İdarece onaylı projeler uygulanacaktır.  
+313.02.02.01.04 Tabliyeli Menfezler 
+Tabliyeli menfezler, beton veya kagir kenar ayaklar ve ricat duvarları ile üst tabliyeden oluşurlar. 
+Bu menfezlerde iki kenar ayak ara mesafesi 10 m’den küçüktür.  
+Beton tabliyeli menfezlerde Kısım 313.02.02.01.02 ’de belirtilen esaslara uyulacaktır.  
+Kagir tabliyeli menfezlerde ise Kısım 307  “Kagir İnşaat”da belirtilen esaslara uyulacaktır.  
+Beton ve kagir tabliyeli menfez imalatlarında “Standart Tabliyeli ve Kemerli Menfez” kitapçığında 
+yer alan projelere ve yapım notlarına uyulacaktır. Ancak; açıklık, yükseklik ve dolgu yüksekliği 
+yönünden bu kitaptaki ölçülerin dışında kalan imalatlarda ise İdarece onaylı projeler uygulanacaktır.  
+313.02.02.02 Beton ve Betonarme Büzler  
+Kısım 302  “Büz Yataklarının Hazırlanması Ve Etrafının Doldurulması” ve Kısım 311  “Beton ve 
+Betonarme Büz İşleri”nde belirtilen esaslara uyulacaktır.  
+313.02.02.03 Spiral Sarımlı PVC -U (Polivinilklorür) Esaslı ve Spiral Sarımlı Yüksek 
+Yoğunluklu Polietilen (HDPE) Esaslı Borular  
+313.02.02.03.01 Tanım  
+Yüzeysel suların yol üstyapısına ve yol gövdesine zarar vermeden uzaklaştırılması veya yüzey altı 
+drenaj sisteminden gelen suları almak için kullanılan, ekstrüzyon metodu ile üretilen iç yüzeyi 
+pürüzsüz, dış yüzeyleri ise profilli olacak şekilde profilli bantların özel makinelerde spiral olarak 
+sarılmasıyla meydana gelen boruları ve bu borulardan kesilerek imal edilen ekleme parçalarını 
+kapsayan borular olarak adlandırılır. Boru tipleri; üst dolgu yükü, trafik yükü ve zemin suyunun 
+hidrostatik etkisi gibi teknik kriterler göz önüne alınarak belirlenecektir. Ayrıca üretici firmanın 
+üretim ve uygulama kriterleri de dikkate alınacaktır.  
+313.02.02.03.02 Boruların Etiketlenmesi  
+Üretici tarafından imal edilen her boy borunun en az bir yerinde hava şartlarına dayanıklı, okunabilir 
+ve silinmeyecek bir şekilde aşağıda belirtilen bilgiler bulunmalıdır.  
+• Üreticinin adı ve işareti,  
+• Dış çapı,  
+• Üretim tarihi,  
+• Hammadde cinsi.  
+ 
+--- SAYFA 369 ---
+
+ KISIM 313  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -313/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltıl amaz.  
+313/3 
+313.02.02.03.03 Malzeme 
+TS 12132 “Spiral Sarımlı PVC -U (Polivinilklorür) Esaslı ve Spiral Sarımlı Yüksek Yoğunluklu 
+Polietilen (HDPE) Esaslı Borular” standardında belirtilen esaslara göre düzenlenmiş Tablo-313-
+1’de verilen şartname kriterlerine uygunluk gösterecektir.  
+ 
+Tablo-313- 1 Spiral Sarımlı PVC -U (Polivinilklorür) Esaslı  ve Spiral Sarımlı Yüksek 
+Yoğunluklu Polietilen (HDPE) Esaslı Borulara Yapılacak Testler ve Şartname Kriterleri  
+Deney Adı  Deney 
+Standardı  Şartname Limitleri  
+1. Dış Görünüş  TS 12132 Boru ve ekleme parçaları gözle muayeneye tabii  tutulduğunda  boruyu 
+meydana getiren bantlar spiral şeklinde düzgün sarılmış ve kilitlenmiş 
+olmalı, iç ve dış yüzeylerinde kullanımı etkileyecek delik, çatlak ve 
+benzeri kusurlar bulunmamalıdır.  
+2. Boruların Dış Çapları, 
+Boyları, Et Kalınlıkları Ve 
+Toleransları  TS 12132  Standartta verilen değerlere uygun olacaktır.  
+3. Bağlantı Yerlerinin Su 
+Sızdırmazlığı  TS 12132 Su basıncı, sıcaklığı 230C ± 2 0C’lik  bir ortamda, 15 dak’lık bir süre 
+içinde 0,05 MPa’ a ulaşıncaya kadar yavaş yavaş arttırılır ve bu basınçta 
+en az 15 dakika süre ile beklendiğinde deney basıncında bir değişiklik 
+olmamalıdır.  
+4. Boruların Darbe 
+Mukavemeti  TS 12132  TS 12132 standardının Madde 2.3.2.1’e göre deneye tabi tutulduğunda, % 
+90 güven aralığında gerçek darbe oranı % 10’un altında olmalıdır.  
+5. Ekleme Parçalarının Darbe 
+Mukavemeti  TS 12132  TS 12132 standardının Madde 2.3.2.2’ye göre deneye tabi tutulduğunda, 
+gövdesinde çatlama veya kırılma meydana gelmemelidir. (Yüzeyde 
+çizikler veya uçlarda kopmalar kusur sayılmaz.)  
+6. Çember Rijitliği   TS 12132 TS 12132 standardının Madde 2.3.3’e göre deneye tabi tutulduğunda, 
+kuvvet uygulanan yönde boru iç çapındaki değişme 0,03 d 1’den fazla  
+olmamalıdır.  
+7. Ek Yeri Mukavemeti TS 12132 TS 12132 standardının Madde 2.3.4’e göre deneye tabi tutulduğunda, 
+boruların ek yerlerine 1 kN’luk kuvvet uygulanarak deneye tabi 
+tutulduğunda , gözle görülür bir ayrılma meydana gelmemelidir.  
+8. Kilit Sıklığı  TS 12132 TS 12132 standardının Madde 2.3.5’e göre 1 kN’luk bir kuvvet 
+uygulanarak deneye tabi tutulduğunda, kilit yerinde gözle görülür bir 
+ayrılma meydana gelmemelidir.  
+9. Kilit Yeri Çekme 
+Mukavemeti TS 12132 TS 12132 standardının Madde 2.3.6’ya göre deneye tabi tutulduğunda, 
+kilit yerleri uygulanan kuvvete dayanmalıdır.  
+10. Çember Esnekliği  TS 12132 TS 12132 standardının Madde 2.3.7’ye göre deneye tabi tutulduğunda, 
+boru yüzeylerinde çatlama, kavlama, kilit yerlerinde açılma, lokal çökme 
+meydana gelmemelidir.  
+11. Ek Yeri Sızdırmazlığı  TS 12132 TS 12132 standardının Madde 2.3.8’e göre deneye tabi tutulduğunda, ek 
+yerinde sızdırma veya terleme meydana gelmemeli ve basınçta düşme 
+olmamalıdır.  
+12. Enjeksiyon Kalıplamayla 
+İmal dilen Ekleme Parçalarının 
+Sıcaklık Mukavemeti  TS 12132 TS 12132 sta ndardının Madde 2.3.9’a göre deneye tabi tutulduğunda, 
+enjeksiyon noktası dışındaki kısımların yüzeyinde çatlak, çukur ve 
+kavlama meydana gelmemelidir. Enjeksiyon noktasında bu kusurlar 
+görülürse, çukur derinlikleri et kalınlığının % 20’sini, yüzey kusurları ise 
+boru başı derinliğinin % 20’sini aşmamalıdır.  
+NOT: Boruların ve ekleme parçalarının darbe mukavemeti deneyleri sadece PVC -U borularda yapılacaktır.  
+ 
+--- SAYFA 370 ---
+
+ KISIM 313  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -313/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltıl amaz.  
+313/4 
+313.02.02.03.04 Yapım Şartları  
+313.02.02.03.04.01 Spiral Sarımlı PVC -U Boruların Yapım Şartları  
+Spiral Sarımlı PVC -U Boruların Kesilmesi:  
+Standart boydaki boruların kesilmesi gerekli olduğunda;  
+1. Döşemeye uygun boyda ve boru eksenine dik olarak kesilecek ve  bunun için kesilmek 
+istenilen uzunluk, boru üzerine şablon vasıtası ile işaretlenecektir.  
+2. Kesilmek istenen boru, çelik kuşak takviyeli ise elektrik enerjisi ve yüksek  frekans ile çalışan 
+bir metal kesici ile, çelik kuşak takviyeli değil ise elektrik enerjisi ve yüksek frekans  ile çalışan 
+bir testere vasıtasıyla kesilecektir.  
+3. Boru kesim işlemi bittikten sonra oluşan çapaklar temizlenecektir.  
+Spiral Sarımlı PVC -U Boru Başlarının Bağlanması:  
+Spiral Sarımlı PVC -U boruların başları özel bir manşon yapıştırıcısı yardımıyla yapıştırmak 
+suretiyle bağlanacaktır. Bunun için baş bağlaması yapılacak boru manşonları toprak, kum vb. 
+etkilerden temizlemek için silinecek, eğer ıslaksa kurutulacaktır. Bundan sonra manşona viskoz sıvı 
+kıvamındaki manşon yapıştırıcısı sürülecek ve Spiral Sarımlı PVC -U boruya yapışması 
+sağlanacaktır.  
+Spiral Sarımlı PVC -U Borular ile Spiral Sarımlı Yüksek Yoğunluklu Polietilen (HDPE) Esaslı 
+Boruların Döşenmesi:  
+Borular, projede gösterilen ve Kontrol Mühendisliği  tarafından kazıklarla tespit edilen sınırlar içinde 
+belirtilen genişlik (boru tabanının teşkili, borunun yerleştirilmesi, boruların bağlantılarının 
+yapılması ve yanlarının doldurulması için yeterli olabilecek genişlikte) ve eğimde kazılmış ve kot 
+verme işlemleri tamamlanmış olan hendek yatağı üzerine dikkatli bir şekilde oturtulacak ve akar 
+kotu kontrol edilecektir. Projesinde hendek genişliği belirtilmediği takdirde Tablo-313-2’de verilen 
+boru çaplarına bağlı genişlik kriterlerine uyulacaktır.  
+Spiral sarımlı bu tip borular döşenirken çakıl veya kırmataş yataklama yapılacaktır. Yarma 
+hendekleri, orta refüj hendekleri ve tretuva r altından geçişlerde çakıl yataklama veya kırmataş 
+yataklama yapılacaktır.  
+Karayolunu enine geçişlerde ve yol içerisinde yapılan geçişlerde, spiral sarımlı PVC -U drenaj 
+borularında  kırmataş yataklama, Spiral Sarımlı HDPE Esaslı Borularda ise çakıl veya kırmataş 
+yataklama yapılacaktır.  
+Çakıl yataklama yapılırken kullanılacak malzeme 0 -15 mm çapında çakıl, kırmataş yataklama 
+yapılırken kullanılacak malzeme 5 -15 mm çapında kırmataş olacaktır.  
+Çakıl ve kırmataş yataklamaların herhangi birisinin yapımında, hendek tabanından itibaren boru alt 
+kotuna kadar Tablo-313-2 ’de verilen yükseklikte (X) yataklama tipine uygun malzeme serilip 
+sıkıştırılacaktır.   
+Daha sonra h endek kenarında bulunan L metre uzunluğundaki bir boru hendek içine uygun 
+aparatlarla yerleştirile cektir. 
+Spiral Sarımlı PVC -U Borular ile Spiral Sarımlı Yüksek Yoğunluklu Polietilen (HDPE) Esaslı 
+Borular döşenip birleştirme işlemi yapıldıktan sonra, dolgu işlemine başlanmadan önce sızdırmazlık 
+testi yapılacaktır.  

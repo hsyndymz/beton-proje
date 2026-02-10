@@ -1,0 +1,2540 @@
+--- SAYFA 740 ---
+
+ KISIM 411 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-411/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+411/2 
+Tablo-411-1 Sönmüş Kireç Özellikleri (TS EN 459-1) 
+Özellik  Kireç Tipi  Standardı  
+CL 90 – S 
+ toz CL 90-SML 
+Kireç sütü  
+Kimyasal Özelliklera 
+CaO + MgOb, % ≥ 90 ≥ 90 TS EN 459-2 
+MgOb, % ≤ 5 ≤ 5 TS EN 459-2 
+CO 2b, % ≤ 4 ≤ 4 TS EN 459-2 
+SO 3b, % ≤ 2 ≤ 2 TS EN 459-2 
+Serbest Kireç, Ca(OH) 2, % ≥ 85 ≥ 85 TS EN 459-2 
+Fiziksel Özelliklera 
+Serbest Su Muhtevası, % ≤ 2  TS EN 459-2 
+0,09 mm üzerinde kalan, % ≤ 7  TS EN 459-2 
+0,2 mm üzerinde kalan, % ≤ 2  TS EN 459-2 
+a Bütün değerler ağırlıkça  yüzdeleri ifade eder.  
+b Serbest su ve bağ suyu hariç değerlerdir.  
+411.03 Malzemenin Uygunluğunun Belirlenmesi 
+Kimyasal katkı malzemeleri veya kirecin uygunluğu ve kullanım oranı; sathi kaplamalar için 
+Yapışma ve Soyulma, bitümlü sıcak karışımlar için Soyulma deneyleri yapıldıktan sonra 
+saptanacaktır. Katkı malzemesi içeren bitüm veya kireçle kaplanmış agrega ile yapılacak olan bu 
+deneyler ve şartname limitleri Tablo-411- l ’de belirtilmektedir. 
+Tablo-411-2 Katkı Malzemesi İçeren Bitüm ile Yapılan Deneyler 
+Deney Şartname 
+Limitleri  Deney Standardı  
+Soyulma Mukavemeti (Bitüm Kaplı Yüzey), %  
+(24 Saat 60 °C Suda Bekletmeden Sonra) ≥ 80 Kısım 403 EK-A  
+Yapışma Deneyi (Vialit Metodu ile) 
+Düşen Mıcır Sayısı, % ≤ 5 Kısım 403 EK-B  
+Kimyasal soyulma önleyici katkı malzemelerinde satıcı firma, teklif ettiği malzemenin uygunluğunu 
+ve kullanım oranını, KGM Araştırma ve Geliştirme Dairesi Başkanlığı’nın Merkez veya Bölge 
+laboratuvarlarından alacağı deney raporu ile belgeleyecek ve kimyasal katkı malzemesinin kullanım 
+oranı bitüme göre ağırlıkça  % 0,1 ila % 0,8 arasında olacaktır.  
+Sönmüş kireç kullanılması halinde ise kireç miktarı sathi kaplamalarda agreganın ağırlıkça % l’ine 
+kadar, bitümlü karışım kaplamalarda ise agreganın % 0,7’i ile % 2’si arasında olacaktır. 
+Tablo-411-1’de belirtilen deneyler ile tespit edilen ve yine aynı tabloda belirtilen şartname 
+limitlerini sağlayan kullanım oranları, malzemenin satın alınması için açılan ihalelerde fiyat 
+mukayesesine esas alınacaktır. 
+Deneyler sırasında kullanılacak olan bitüm ve agrega, İdare tarafından temin edilecektir. İdare 
+gerektiğinde Tablo-411-2’ de belirtilen deneyler dışında karışımların su etkisine karşı mukavemetini 
+--- SAYFA 741 ---
+
+ KISIM 411 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-411/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+411/3 
+belirleyen başka deneylere ait sonuçları da talep edebilecek ve bu sonuçlara göre de malzemeyi 
+değerlendirebilecektir. 
+411.04 Malzemelerin Kullanımı  
+411.04.01 Kimyasal Katkı Malzemesinin Bitüme İlave Edilmesi 
+Katkı malzemesi, ağırlığı önceden tespit edilmiş ve kullanım sıcaklığına kadar ısıtılmış bitüme 
+üretici firmanın tespit ettiği yöntem ile belirlenen orana göre ilave edilecek ve tamamen eriyip 
+karışıncaya kadar, karışım sirküle edilecektir. 
+Sathi kaplamalarda; katkı malzemesi satıcı firma, teslim sırasında malzemenin bitüme ilave edilme, 
+karıştırma ve kullanım yöntemini gösteren bir rehberi İdareye verecektir. 
+Sathi kaplama, bitümlü sıcak karışım ve diğer bitümlü kaplamaların yapımı sırasında, gerekli 
+agrega-bitüm adezyonunu sağlamakta yardımcı olan soyulmaya karşı mukavemet artırıcı katkı 
+malzemelerinin bitüme uygun oranda katılıp homojen bir karıştırma gerçekleştirilmesi İdarenin 
+uygun gördüğü araç, gereç, ekipman, tesis ile sağlanacaktır. Katkı ekleme sistemi İdare tarafından 
+onaylanacaktır. 
+Sathi kaplamada kullanılacak bitüme distribütör ya da roley tankta katkı ilavesi yapılmayacaktır. 
+Katkı, kontrollü bir şekilde katkı ilavesinin yapılabildiği, ısıtma ve karıştırma sistemi olan ayrı bir 
+bitüm tankında eklenecek, homojen bir karışım sağlandıktan sonra kullanılacaktır. 
+İmalatı yapan firma ve işin kontrolü bu konuda gerekli titizliği gösterecektir. 
+411.04.02 Kirecin Kullanımı 
+Sönmüş kireç; önceden agregayı bulama, plentte miksere ekleme veya bitüme ilave etme gibi 
+metotlar kullanılarak uygulanabilmektedir. Agregayı kirece bulama yönteminde tüm agrega 
+yüzeyinin homojen bir şekilde kireçle kaplanacak şekilde karışım yapılmalıdır. 
+Bunun için Tablo-411-1’ e uygun kireç sütü kullanılması veya agreganın önceden hafif ıslatılması 
+ve karıştırma işleminin ardından marinasyon için en az bir gün beklendikten sonra agreganın 
+kullanılması sağlanacaktır. 
+Kireç bitüme karıştırılacaksa, Kısım 411.04.01’ de belirtilen şekilde homojen karıştırma 
+yapılacaktır. 
+Bitüm emülsiyonu kullanılması halinde Tablo-411-l’ de verilen sönmüş kireç yanında, tipi ve 
+kullanma yöntemi üretici firma tarafından verilen ve İdarece onaylanan sönmemiş kireç de 
+kullanılabilecektir. Satıcı firma teslim sırasında kirecin karıştırma ve kullanım yöntemini gösteren 
+bir rehberi İdareye verecektir. 
+411.05 Kalite Kontrolü 
+Şantiyeye teslim edilen her parti katkı malzemesi, kullanılacak agrega ve bitüm ile test edilecek ve 
+uygunluğu onaylandıktan sonra kabul edilecektir. 
+Soyulmaya karşı mukavemeti, Tablo-411-2’ de belirtilen limitlere kadar artırmayan veya 
+gerektiğinde diğer deney (AASTHO T 283 vb.) sonuçlarına göre olumsuz bulunan katkı 
+malzemeleri kabul edilmeyecektir. 
+Ayrıca, katkının doğru miktarda ve homojen katılıp katılmadığının kontrolü amacıyla, katkılı 
+bitümden numune alınarak Tablo- 411-2’ de verilen deneyler yapılacaktır.  
+--- SAYFA 742 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/1 
+412. BİTÜMLÜ BAĞLAYICILAR  
+412.01 Tanım  
+Bu kısım; yol üstyapılarında kullanılan bitüm, modifiye bitüm, katbek bitüm  ve bitüm 
+emülsiyonlarını kapsar.  
+412.02 Bitüm  
+Bitüm, petrol rafinerilerinde ham petrolün damıtılması ile elde edilen ve yol yapımında ve 
+bakımında kullanılan bir maddedir. Kaplama sınıfı bitümler; bitümden TS EN 58 standardında 
+belirtilen esaslara uygun olarak alınan numunelere, TS EN 12591 “Bitümler ve Bitümlü 
+Bağlayıcılar- Kaplama Sınıfı Bitümler -Özellikler” standardında belirtilen deneyler uygulandığında 
+deney sonuçları Tablo-412-1’de verilen değerlere uygun olacaktır.  
+412.02.01 Özellikler  
+Bitüm içerisinde su bulunmamalı ve homojen olmalıdır. Bitüm 175  °C’ye kadar ısıtıldığında 
+köpüklenme olmayacaktır. Bitüm sınıfları Tablo-412-1’de belirtilen özelliklere göre belirlenecek 
+ve uygulama sıcaklıkları Kısım 412.06’da  belirtildiği şekilde olacaktır.  
+412.03 Modifiye Bitüm  
+Bu bölüm, bitümlü sıcak karışım ve sathi kaplama yapımında kullanılacak penetrasyon sınıfı 
+bitümlere doğal asfalt, polimer vb. katkı maddeleri ilave edilerek üretilen modifiye bitümlerin; 
+üretimi, fiziksel özellikleri ve bitümlü tabakaların yapılacağı yörelerin sıcaklıklarına bağlı olarak 
+sınıflandırılmasını kapsar. 
+412.03.01 Özellikler  
+412.03.01.01 Modifiye Edici Madde 
+Modifiye bi tüm üretilmesinde modifiye edici madde olarak, kaya asfaltları, göl asfaltları, 
+termoplastik polimerler, termoplastik elostomerler (lateks, kauçuk vb.) gibi katkı maddeleri 
+kullanılacaktır.  
+412.03.01.02 Bitüm  
+Modifiye edilecek bitüm; TS EN 12591’de belirti len esaslara uygun 40/60, 50/70, 70/100, 100/150 
+ve 160/220 penetrasyonlu veya İdarenin uygun göreceği Penetrasyon Sınıfı Bitüm olacaktır.  
+412.03.02 Modifiye Bitüm Sınıfının Seçimi  
+Modifiye bitüm  sınıfı; malzemenin serileceği bölgenin iklim koşullarına, yo lun geometrik ve 
+trafik özelliklerine ve bitümlü kaplamanın tipine bağlı olarak belirlenecektir. Kullanılacak 
+modifiye bitüm sınıfı İdare tarafından yayımlanan bitüm sınıfı seçim haritalarına, rehber ve 
+dokümanlara uygun olarak seçilecektir. Projenin yerin e bağlı olarak aynı ihalede farklı modifiye 
+bitüm sınıfları  kullanılabilecektir.  
+Üretilecek modifiye bitüm, modifikasyon işleminden sonra Tablo-412-2’de verilen değerlere 
+uygun olacaktır.  
+Aşınma, binder, taş mastik asfalt (TMA) , poroz asfalt, mastik asfalt ve sathi kaplama tabakası 
+yapımında kullanılacak modifiye bitümün sınıfı İdare tarafından belirlenecektir .  
+--- SAYFA 743 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/2 
+412.03.03 Malzemenin Hazırlanması ve Depolanması  
+412.03.03.01 Malzemenin Hazırlanması  
+Modifiye edilecek bitüm ile modifiye edici madde olarak kullanılacak katkı malzemeleri, katkı 
+malzemelerini üreten firmanın malzemenin karıştırılması ile ilgili üretim talimatlarına uygun 
+olarak karıştırılacaktır.  
+Modifiye bitüm, şantiyede kurulu uygun plentte üretilebileceği gibi şantiyeden uzakta bir merkezi 
+plentte ya da rafineride de üretilebilecektir.  
+Modifiye bitümün şantiyede üretimi sırasında, modifiye edici katkı maddesi, bitüme İdarenin 
+denetimi altında, yine İdare tarafından onaylanmış raporda belirtilen oranda ilave edilecektir. 
+Modifiye edici madde oran ında hiçbir şekilde değişiklik yapılmayacaktır. Ancak  bitümün tipi ve 
+sınıfının değişmesi nedeniyle modifiye edici maddenin oranında değişiklik yapılması gerekirse, bu 
+durum yüklenici tarafından hazırlanacak ve İdare tarafından onaylanacak bir raporla tesp it 
+edilecektir. 
+Şantiyeye gelen katkı malzemesi Kontrol Mühendisliği  tarafından tutanakla teslim alınacak ve 
+imalatta günlük kullanılan miktarlarla ilgili olarak tutanak hazırlanacaktır.  
+Modifiye bitümün şantiyeye hazır olarak getirilmesi durumunda modifiye bitüm içindeki katkı 
+maddesi miktarı, gerek görüldüğü takdirde İdare tarafından tespit edilecektir. Yüklenici katkı 
+maddesinin oranının tespiti amacıyla İdareye kullanılan bitüm ve katkı maddesinden yeterli 
+miktarda numune verecektir. 
+412.03.03.02 Malzem enin Depolanması  
+a. Bitümün Depolanması  
+Tablo 412-7’de  verilen şartlara uyan üretimi aksatmayacak yeterli miktarda bitümlü malzeme 
+bulundurulabilecek kapasitede olan tanklar, bitümlü malzemeyi pompaj devresine kadar 
+ısıtabilecek ve muhafaza edebilecek tertibatla donatılmış olacaktır. Isıtma tertibatı  her zaman 
+çalışabilecek, ısıtmayı homojen yapabilecek kapasitede ve özellikte olacaktır. Bitümlü malzeme 
+tankları, bitümlü malzemeye su, kil ve diğer yabancı maddelerin girmesini önleyecek şekilde 
+olacaktır.  
+Merkezi bir plentte üretilen modifiye bitümün ve şantiyede üretilen modifiye bitümün taşıma ve 
+depolama koşulları aşağıdaki şekilde olacaktır.  
+b. Merkezi Bir Plentte Üretilen Modifiye Bitümün Depolanması   
+Taşıma araçları modifiye bitümün ayrışmasını önleyecek sisteme sahip olacaktır. Modifiye bitüm 
+üreten firma tarafından, malzemenin şantiyedeki depolama koşulları ve depolama süresi 
+belirtilecektir. 
+c. Şantiyede Üretilen Modifiye Bitümün Depolanması   
+Modifiye bitüm üretiminde kullanılacak farklı petrollerden  üretilmiş, özellikleri farklı bitümler 
+ayrı ayrı depolanacaktır. Katkı malzemesi üretici firmanın önerdiği şekilde depolanacaktır. 
+Şantiyede üretilen modifiye bitümün  günlük olarak kullanılmaması durumunda depolanabilmesi 
+için uygun tanklar bulundurulacaktır.  
+--- SAYFA 744 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/3 
+Bitümlü karışımda kullanılmadan önce depolanmış modifiye bitümden temsili numune alınarak, 
+test numunelerinin fiziksel özelliklerinin şartname kriterlerine uygun olup olmadığı kontrol 
+edilecek, gerekirse modifiye bitüm kullanılmadan önce yeterli sürede sirküle edilecektir.  
+412.03.04 Malzemenin Teslimi, Kabulü ve Günlük Kalite Kontrolü  
+Merkezi plentte modifiye edilmiş bitüm, İdare tarafından şantiyede teslim alınacaktır. Bu amaçla 
+şantiyede yeterli depolama kapasitesi olacaktır. Teslim edilen malzeme nin Tablo-412-2’de 
+belirtilen özelliklere uygun olduğunu gösteren rapor İdareye verilecektir. Şantiyeye getirilen her 
+bir ayrı parti malzemeden İdare, numune alıp deneyleri yapacak ya da şantiyede yaptıracaktır.  
+Şantiyede üretilen malzemeden günde en az bir kez olmak üzere, Kontrol Mühendisliği nin uygun 
+gördüğü sayıda numune alınarak Tablo-412-2’de belirtilen deneyler yapılacaktır.  
+Deney sonuçları uygun olmayan malzeme bitümlü karışım imalatında kullanılmayacaktır. 
+Malzemenin kalite kontrolü için şantiye laboratuvarında yeterli ve nitelikli personel ile gerekli 
+cihaz, ekipman olacaktır.  
+412.03.05 Modifiye Bitümün Kullanılması  
+Yüklenici ihale sözleşmesine göre; bu şartname kapsamındaki modifiye bitüm ile bitümlü sıcak 
+karışım veya sathi kaplama üretimi yapacak  ise depolama tankları, plent, distribütör, finişer, 
+silindir vb. ekipmanda yapılması gereken değişiklik ve ilaveleri yapacaktır. Plentin modifiye 
+bitümü depolama ve besleme sistemi, agrega ve modifiye bitüm sıcaklıkları, karıştırma ve 
+sıkıştırma sıcaklıkları; kullanılan modifiye bitümün özelliklerine bağlı olarak ayarlanacaktır.  
+Modifiye bitüm kullanılarak yapılacak kaplamanın bütün fiziksel özellikleri, ihale sözleşmesi eki 
+Teknik Şartnamelere ve projeye uygun olacaktır. Ancak yeterli yüzey pürüzlülüğünün  sağlanması 
+ve tekerlek izlerinin oluşmasının geciktirilmesi amacıyla  şartnamelerde yer  alan farklı karışım 
+tipleri önerilebilecektir. Bu tür karışımlar, İdare tarafından onaylandığı takdirde uygulanacaktır.  
+Tablo 412-7 Bitüm lerin Uygulama Sıcaklıkları  
+Bitümlü Bağlayıcı  Karıştırma  
+min.  °C maks.  °C 
+40/60, 50/70 penetrasyonlu bitüm  145  185  
+70/100,100/150,160/220 penetrasyonlu bitüm  140  185 
+ 
+Tablo 412-8 Modifiye Bitümün Uygulama Sıcaklıkları  
+Modifiye Bitüm  Karıştırma  
+min.  °C maks.  °C 
+Modifiye Bitü mler 165 185 
+ 
+--- SAYFA 745 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/4 
+412.03.06 Yüklenicinin Sorumluluğu  
+Yüklenici işe başlamadan önce; ihale sözleşmesinde belirtilen bitümlü kaplama üretiminde yine 
+İdare tarafından belirtilmiş modifiye bitüm üretimi ve kullanımı ile ilgili olarak aşağıda belirtilen 
+teknik bil gi ve belgeyi içeren teknik raporu (Modifiye Bitüm Teknik Raporu)  İdareye verecektir.  
+Yüklenici: 
+1. Kullanılacak bitüme uygulanan ve TS EN 12591’de belirtilen deneylerin sonuçları,  
+2. Kullanılacak modifiye edici katkı maddesinin, üretici firma tarafından belirlenmiş teknik 
+özelliklerini gösteren dokümanları, kullanılan katkının Malzeme Güvenlik Bilgi  Formu 
+(GBF/MSDS) ile İş Sağlığı ve Güvenliği açısından zararlı olmadığına dair belgeleri, 
+3. Üretilen modifiye bitüme uygulanan ve TS EN 14023 Not.1’ de belirtilen şantiyede yapılması 
+zorunlu deneylerin sonuçları,  
+4. Deney i gerçekleştiren personelin yeterliliği,  
+5. Deneyde kullanılacak cihaz  ve ekipmanların kalibrasyon sertifikaları , 
+6. Karıştırma ve üretim ile ilgili tüm teknik bilgileri,  
+7. Katkı maddesinin hangi oranda kullanılacağını ve bu durumda elde edilen modifiye bitüm  
+özelliklerinin İdare tarafından belirlenmiş koşullara uygunluğunu gösteren, en az iki farklı katkı 
+oranında yapılmış laboratuvar deney sonuçlarını  (Tablo 412-2 “Modifiye Bitümün Fiziksel 
+Özellikleri” not kısmında  belirtilen), 
+8. Modifiye bitüm ile üretilecek sıcak karışımın, karıştırma, serme ve sıkıştırma sıcaklıkları,  
+9. Sathi kaplamada kullanılması durumunda püskürtme sıcaklığını ve diğer bütün hususları içeren 
+bilgileri teknik raporda belirtecektir.  
+Yüklenici ayrıca, işe başlamadan önce İdareye yeterli miktarlarda bitüm, modifiye edici katkı 
+maddesi ve üretmiş olduğu modifiye bitüm numunesi verecektir. İşe ancak, Yüklenici tarafından 
+verilen bu teknik raporun, İdare tarafından onaylanması ve gönderilen modifiye bitümün test 
+edilip uygun bulunması ve kullanılacak katkı oranının belirtilmesinden sonra başlanabilecektir. Bu 
+onay işlemi, Yüklenicinin modifiye bitümün uygunluğu konusundaki sorumluluğunu ortadan 
+kaldırmayacaktır.  
+Söz konusu teknik rapor, merkezi plentten hazır modifiye bitüm getirildiği durumlarda  da, 
+hazırlanacaktır.  
+Yüklenici, modifiye bitümün, iş süresince sözleşme eki şartnamelere uygun olmasından ve 
+homojen bir şekilde devamından sorumlu olacak ve modifiye bitüm üretimi veya temini ve 
+bitümlü kaplama imalinde kullanımı sırasında şantiyede, konunun uzmanı yeterli sayıda teknik 
+elemanı bulunduracaktır.  
+412.04 Bitüm Emülsiyonları  
+Bitüm emülsiyonları, bitüm daneciklerinin emülgatör yardımı ile su içerisinde dağılması ile oluşan 
+bitümlü bağlayıcılardır. Bitüm emülsiyonlarının özellikleri, TS EN 13808 “Bitümler ve Bitümlü 
+Bağlayıcılar- Katyonik Bitüm Emülsiyonları İçin Tanımlayıcı Çerçeve” standardına göre 
+belirlenecektir.  
+--- SAYFA 746 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/5 
+Bitüm emülsiyonları Tablo-412-3, Tablo-412-4 ve Tablo-412-5 ‘de belirtilen şartları 
+sağlayacaktır.  
+Bitüm emülsiyonlarının uygulama sıcaklıkları Tablo 412-9’da belirtildiği şekilde olacaktır.  
+Bitüm emülsiyonları üretimden kullanım sürecine kadar homojen olmalıdır. Dağıtımını takip eden 
+14 gün içerisinde, donarak faz ayrımı oluşmasına engel olunacaktır. İyi bir karıştırma işleminden 
+sonra bitüm emülsiyonu homojen olacaktır.  
+Bitüm emülsiyonlarından numune, TS EN 58 “Bitümlü Bağlayıcılar -Numune Alma” standardına 
+uygun olarak alınacaktır.  
+Numuneler deneye alınacakları zamana kadar 4°C’nin üzerinde bir sıcaklıkta temiz ve ağzı iyice 
+kapalı bir kapta saklanacaktır.  
+Şantiyede üretilen ya da satın alınan bitüm emülsiyonlarının üretim tarihleri, son kullanma 
+tarihleri ve depolama koşulları üretici tarafından İdareye yazılı olarak bildirilecektir.   
+412.05 Katbek Bitümler (Sıvı Petrol Asfaltları)  
+Sıvı petrol asfaltları, ham petrolün kolay uçucu bileşenlerinin destilasyon yoluyla 
+uzaklaştırılmasından sonra kalan kalıntıya, ham petrolün kaynama noktası yüksek bir bileşeninin 
+veya gazyağı tipinde orta derecede bir çözücü veya nafta veya benzin tipi çok uçucu bir çözücü 
+karıştırılmasıyla elde edilen yumuşak bağlayıcılardır. Sıvı petrol asfaltlarının özellikleri,  TS EN 
+15322 “Bitümler ve Bitümlü Bağlayıcılar -Katbek ve İnceltilmiş Bitümlü Bağlayıcıların 
+Tanımla nması için Genel Esaslar” standardı esaslarına göre belirlenecektir.  
+412.05.01 Özellikler  
+Sıvı petrol asfaltları kullanılmadan önce kesilme ve faz ayrımı göstermemelidir. Sıvı petrol 
+asfaltlarında, uygulama sıcaklığına kadar ısıtıldıklarında köpüklenme olmayacaktır.  
+TS EN 58 standardına göre alınmış olan katbek bitüm  numuneleri, TS EN 12594 standardına göre 
+deneyler için hazırlanacaktır. Sıvı petrol asfaltlarının uygulama sıcaklıkları Kısım 412.06’da 
+belirtildiği şekilde olacaktır.  
+Katbek b itümlere TS  EN 15322 standardında öngörülen deneyler uygulandığında, deney sonuçları 
+tiplerine göre Tablo-412-6’da belirtilen limitlere uygun olacaktır.   
+412.06 Uygulama Sıcaklıkları  
+Bitümlü bağlayıcıların püskürtme ve karıştırma sıcaklıkları Tablo-412-9’da verilen değerlere 
+uygun olacaktır.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 747 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/6 
+Tablo-412-9 Bitümlü Bağlayıcıların Uygulama Sıcaklıkları  
+Bitümlü Bağlayıcı Tipi ve Sınıfı  Sıcaklık Aralıkları  
+Minimum-Maksimum    
+oC 
+ Püskürtme 
+Sıcaklığı  Karıştırma 
+Sıcaklığı (1) 
+Katbek Bitümler  
+Fm 2 B 2, Fm 2 B 3 30   -   (2) - 
+Fm 3 B 2, Fm 3 B 3, Fm 3 B 4 80   -   (2) 60  -  90(3) 
+Fm 4 B 2 100  -   (2)   80  - 110(3) 
+Emülsiyonlar  
+C60B2-3, C60B2-4, C60B2-5    40  - 80(4) - 
+C60BP2-3, C60BP2-4 60  -  85 - 
+C65B2-3, C65B2-4, C65B2-5     50  -  85(4) - 
+C65BP2-3, C65BP2-4 65  -  90 - 
+C69B2-3, C69B2-4, C69B2-5 65  -  90 - 
+C69BP2-3, C69BP2-4 70  -  95 - 
+C60B4-3, C60B4-4, C60B4-5 30  - 70      30  - 70 
+C60BP4-3, C60BP4-4 45  -  80 45  -  80 
+C65B4-3, C65B4-4, C65B4-5 40  -  80 40  -  80 
+C65BP4-3, C65BP4-4 50  -  85 50  -  85 
+C69B4-3, C69B4-4, C69B4-5 60  -  85 60  -  85 
+C69BP4-3, C69BP4-4 65  -  90 65  -  90 
+C50B9-4, C50B9-5 20  -  60 - 
+C55B9-4, C55B9-5 20  -  60 - 
+C60B9-3, C60B9-4, C60B9-5 20  -  70 - 
+C60BP9-2, C60BP9-3 20  -  70 - 
+C65B9-3, C65B9-4 35  -  80 - 
+C65BP9-3 40  -  85 - 
+C69B9-3, C69B9-4 50  -  85 50  -  85 
+C69BP9-3 60  -  90 60  -  90 
+(1) Boşaltımdan hemen sonraki karışım sıcaklığı  
+(2) Köpüklenmenin olmadığı maksimum sıcaklık  
+(3) Sıcaklık parlama noktası üzerinde olabilir.  Yangına karşı önlem 
+alınmalıdır  
+(4) Karartma ve yapıştırma tabakaları için  
+ 
+ 
+412.07 Bitümlü Bağlayıcılardan Numune  Alınması (TS EN 58)  
+Şantiyeye gelen her parti bitümlü bağlayıcıdan TS EN 58 standardında belirtilen esaslara göre 
+numune alınacaktır. Aşağıda belirtilen yöntemler ve koşullara göre gerekli miktarda numune 
+alınarak, deneyler ilgili standartlara uygun olarak yapılacaktır.  
+--- SAYFA 748 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/7 
+Bitümlü bağlayıcılardan merkez ya da bölge laboratuvarlarına gönderilmek üzere alınacak 
+numuneler İdare denetiminde alınıp mühürlenecektir.  
+Numuneler, deneye tabi tutulacak maddelerin ortalama kalitesini belirlemek veya ortalama 
+kaliteden sapmaları tespit etmek için alınabilir. Ortalama kaliteden sapmayı belirlemek için alınan 
+numuneler, bu amaçla alındığını gösterecek bir işaretle işaretlenmelidir.  
+Numunelerin alınmasına başlamadan önce, bütün kap ve cihazların güvenli bir şekilde çalışma ya 
+uygun olduğundan emin olunmalıdır.  
+Tehlikeli bölgelere girişlerle ilgili bütün talimatlara sıkı sıkıya uyulmalıdır.  
+Tesis ve cihazların uygun bir şekilde bakımı yapılmalıdır. Kontroller periyodik olarak ve uzmanlar 
+tarafından yapılmalıdır.  
+Numune alma i şlemi sırasında numune buharları solunmamalıdır.  
+Numune alacak kişi, numune almanın amacı hususunda bilgilendirilmeli ve burada belirtilen 
+yöntemler konusunda deneyimli olmalıdır.  
+Numuneyi alan kişi tarafından bir numune alma raporu hazırlanmalı ve bu rapo r, raporu 
+hazırlayan ve numune alınmasında hazır bulunan karşı tarafın yetkilisince de imzalanmalıdır. 
+Raporda numune almanın gerekçesi ve numune alma metotları, numune alınan ortamın şartları ve 
+gerekli deneyler yer almalıdır. Bu bilgiler bir form halinde  verilmelidir. Örnek  form Ek A’da 
+verilmiştir. Bu raporun bir kopyası, büyük numunelerden hazırlanan her bölünmüş numune ile 
+birlikte sunulmalıdır. Raporlar numune kaplarına konulmamalıdır.  
+Numune alınacak kabın daha önceki durumu ile ilgili bilgiler de ra pora eklenmelidir. 
+Laboratuvar numunesinin büyüklüğü, yapılacak olan deneylerin özelliklerine ve sayısına bağlıdır. 
+Her bölünmüş numune en az 2 kg, bölünmüş emülsiyon numuneleri ise en az 3 kg olmalıdır.  
+Numune almadan hemen önce en az 5 litre bitümlü bağlayıcı, numune alma vanası vasıtasıyla bir 
+başka kaba boşaltılmalı ve bu kısım numune olarak kullanılmamalıdır. Deneye tabi olan bitümlü 
+bağlayıcıyı temsil eden bir numune almak için, numune alma işlemi, sürekli olarak veya bütün 
+akış süresince vananın eşit zaman aralıklarıyla açılıp kapatılması suretiyle nokta numuneleri 
+alınarak gerçekleştirilmelidir.  
+Çok iyi karıştırılmış bitümlü bağlayıcılar araç tankerlerinden boşaltılıyorsa, numune, bitümlü 
+bağlayıcının ikinci 1/3’lük kısmı boşaltılırken alınmalıdır.  
+Büyük hacimli kaplardan sık sık numune alındığı durumlarda, numune vanası, numune probu veya 
+üç yollu vana gibi numune alma cihazları, numune alınacak kaba daimi kalacak şekilde uygun 
+olarak yerleştirilmelidir. Aksi halde sıvı deney numuneleri, ağırlaştırılmış numune kapları veya 
+tabandan kapanır numune tüpleri kullanma gibi daldırma teknikleri ile alınmalıdır. Varillerdeki 
+veya hacmi 2 m3’e kadar olan kaplardaki düşük sıcaklıklarda sıvı olan bitümlü bağlayıcılardan 
+numuneler, açık numune tüpleri kullanılarak alınabilir. Numune alma metotları Tablo-412-10’da 
+verilmiştir.  
+ 
+ 
+ 
+--- SAYFA 749 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/8 
+Tablo-412-10 Boru Hatlarında, Kaplarda veya Teneke Kutularda Yüksek veya Düşük 
+Sıcaklıkta Sıvı Halde Olan Bitümlü Bağlayıcılardan Numune Alma  Metotları  
+ 
+Viskoz, plastik ve yarı katı bitümlü bağlayıcılardan parçalı numune alma kapları ile numune 
+alınmalı, yarı katıdan sert bitümlü bağlayıcılara kadar olanlardan el aletleri ile numune alınmalıdır.  
+Emülsiyon numuneleri en az 3 kg olmalıdır. Bitümlü bağlayıcıların teneke kutularda olması 
+halinde, içinden numune alınacak kutuların sayısı Tablo-412-11’da verilmiştir. İdar enin uygun 
+görmesi durumunda  numuneler tek tek veya karma numune olarak deneye tabi tutulabilecektir. 
+Tablo-412-11 Teneke Kutulardan Alınması Gereken Numune Sayıları  
+Toplam Kutu Sayısı  Numune Alınması Gerekli Kutu Sayısı  
+2 - 8 2 
+9 - 27 3 
+28 - 64 4 
+65 - 125 5 
+126 - 216 6 
+217 - 343 7 
+344 - 512 8 
+513 - 729 9 
+730 - 1.000 10 
+1001 ve daha fazlası  3√n, (Burada n, en yakın tam sayıya yuvarlatılmış 
+olarak to plam kutu veya topak sayısıdır)   Numune Alma 
+Metodu Boru 
+Hatlarında n 
+Numune 
+Alma  
+Kaplardan 
+Numune Alma 
+ 
+Kullanılan 
+Numune Alma Cihazı   
+Ana 
+Akı
+m  
+Yan 
+Akım  
+> 
+800 m3  
+50-800 
+m3  
+2-50 
+m3 2m3’e 
+kadar 
+kaplar ve 
+teneke 
+kutular 
+Daimi kalmak 
+üzere monte 
+edilen 
+cihazlarla 
+numune alma Numune alma probu  +     
+Numune alma vanası    + + +  
+Numune alma vanası   +     
+3 yollu vana +      
+Daldırma 
+metoduyla 
+Numune alma Ağırlaştırılmış numune 
+kabı   + + + (+) 
+Yüzey numunesi kabı     + +  
+Tabandan kapanır 
+numune Tüpü     (+) + + 
+Açık numune tüpü       0 
+Püskürtme 
+cihazlarında n +      
++ : Kullanılabilir,   
+(+) : Sınırlı olarak kullanılabilir,   
+0 : Sadece düşük sıcaklıklarda sıvı olan maddeler için kullanılabilir.  
+--- SAYFA 750 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/9 
+Numune alma işlemi, durgun bitümlü bağlayıcılardan ayrılma olup olmadığını kontrol amacıyla 
+yapılıyorsa, en az üç seviyeden (üst, orta ve alt) numune alınmalıdır. Bu numuneler bir karma 
+numune elde etmek amacıyla birbiri ile karıştırılmamalıdır.  
+Bitümlü bağlayıcılardan numune almakta kullanılacak kaplar, temiz ve kuru olmalıdır.  
+Sadece sıcakken sıvı olan maddeler için, numune muhafaza ve sevk kabı olarak geniş ağızlı, 
+tercihen akma ağzı bulunan, laklanmamış teneke kutuların veya kavanozların kullanılması 
+uygundur.  
+Emülsiyonlar dışında, düşük sıcaklıklarda sıvı olan bitümlü bağlayıcılar için sevk kabı olarak 
+laklanmamış, kalay kaplı, vida kapaklı teneke kutular, cam veya uygun plastik kavanozlar 
+kullanılabilir. Hafif bileşenlerin buharlarının kaybolmasını mümkün olduğu kadar azaltabileceği 
+için küçük ağızlı kapların numune  ve karma numune kapları olarak kullanılması tercih edilmelidir.  
+Emülsiyonlar için numune, karma numune veya sevk kapları olarak sadece plastik kap  
+kullanılmalıdır. Emülsiyon numunelerinin sevk kapları tamamen doldurulmalıdır. Emülsiyon 
+numunelerinin depol anması ve nakliyesi sırasında sıcaklığının 5°C’nin altına düşmemesi 
+sağlanmalıdır.  
+Numuneler rapor formuna uygun olarak kapak üzerine veya numune kabına iliştirilen bir etiket ile 
+anlaşılır ve silinmeyecek bir şekilde işaretlenmelidir.  
+ 
+EK-A 
+BİTÜMLÜ MADDEL ERDEN NUMUNE ALINMASI SIRASINDA HAZIRLANACAK 
+RAPOR FORMLARI 
+A.1. DENEYLERLE İLGİLİ BİLGİLER  
+A.1.1 – Deneyleri isteyen kuruluş  
+A.1.2 – Deneylerin masraflarını karşılayacak kuruluş (Biliniyorsa)  
+A.1.3 – Numunenin miktarı ve tanıtımı  
+A.1.4 – Deneye tabi olan maddenin durumu ve tipi 
+A.1.5 – Numune almanın ve deney programının amacı  
+A.2. TESLİMAT VE KULLANILMA İLE İLGİLİ BİLGİLER  
+A.2.1 – Üreticinin adı  
+A.2.2 – Satıcının adı (üreticiden farklı ise)  
+A.2.3 – Alıcının adı 
+A.2.4 – Teslimat  
+A.2.5 – Amaç  
+A.3. NUMUNE ALMA İLE İLGİLİ BİLGİLER  
+A.3.1 – Numune alma tarihi ve katılanlar  
+A.3.2 – Numune alma mahalli 
+A.3.3 – Numunenin alındığı yer, tank hacmi, deneye tabi olan maddenin durumu  
+A.3.4 – Kullanılan numune alma metodu  
+A.3.5 – Numune ile ilgili veriler 
+A.3.6 – Numune nin dağılımı  
+A.3.7 – Özel not ve düşünceler  
+--- SAYFA 751 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltıla maz.  
+412/10 
+ 
+BİTÜM SINIFLARI  
+B 160/220 
+160-220 
+35-43 
+0,7≥PI≥ -1,5 
+≤ 1,0  
+≥ 37 
+≤ 11 
+≥ 220  
+≥ 99,0  
+≤ 2,2  
+≤ 4,5  B 100/150 
+100-150 
+39-47 
+≤ 0,8  
+≥ 43 
+≤ 10 
+≥ 230  
+≥ 99,0  
+≤ 2,2  
+≤ 4,5  B 70/100 
+70-100 
+43-51 
+≤ 0,8  
+≥ 46 
+≤ 9 
+≥ 230  
+≥ 99,0 
+≤ 2,2  
+≤ 4,5  B 50/70 
+50-70 
+46-54 
+≤ 0,5  
+≥ 50 
+≤ 9 
+≥ 230  
+≥ 99,0  
+≤ 2,2  
+≤ 4,5  B 40/60 
+40-60 
+48-56 
+≤ 0,5  
+≥ 50 
+≤ 9 
+≥ 230  
+≥ 99,0  
+≤ 2,2  
+≤ 4,5  STANDARDI 
+TS EN 1426 
+TS EN 1427 
+  
+TS EN 12607-1 
+TS EN 1426 
+TS EN 1427 
+TS EN ISO 2592 
+TS EN 12592 
+TS EN 12601-1 
+TS EN 12606-2  DENEY ADI 
+PENETRASYON, (25 oC) 0,1 mm  
+YUMUŞMA NOKTASI, oC 
+PENETRASYON İNDEKSİ, oC 
+YAŞLANMAYA KARŞI DAYANIM  
+KÜTLE DEĞİŞİMİ, % 
+KALICI PENETRASYON, % 
+YUMUŞAMA NOKTASI 
+YÜKSELMESİ, oC 
+PARLAMA NOKTASI, oC 
+ÇÖZÜNÜRLÜK, % 
+PARAFİN MUMU İÇERİĞİa, %  
+ 
+ 
+ 
+ SIRA 
+NO  
+1 
+2 
+3 
+4 
+4.1 
+4.2 
+4.3 
+5 
+6 
+7  
+ 
+ 
+a Gerek duyulduğunda yapılacaktır.  Tablo-412-1 Yol Yapımında Kullanılan Kaplama Sınıfı Bitümlerin Özellikleri (TS EN 12591)  
+P25=25 oC de ki Penetrasyon değeri  
+TYN=Yumuşama Noktası değeri  
+--- SAYFA 752 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltıl amaz.  
+412/11 
+PMB  
+82-22 
+25-55 (3) 
+≥ 65 (5)  
+≥ 0,5 (11)  
+≥ 70 (3)  
+≥ 220 (4)  
+1,0-1,1 
+≥ 82 
+ 
+≤ 5 (2)  
+≤ 9 (2)  
+ 
+≤ 0,5 (3)  
+≤ 10 (3)  
+≤ 2 (2)  
+≥ 40 (3)  
+≥ 82 
+ 
+≤ 34 
+≤ -12 PMB  
+82-16 
+25-55 (3) 
+≥ 65 (5)  
+≥ 0,5 (11)  
+≥ 60 (4)  
+≥ 220 (4) 
+≥ 82 
+ 
+≤ 5 (2)  
+≤ 9 (2)  
+ 
+≤ 0,5 (3)  
+≤ 10 (3)  
+≤ 2 (2)  
+≥ 40 (3)  
+≥ 82 
+ 
+≤ 37 
+ 
+≤ -6 PMB  
+76-28 
+25-55 (3) 
+≥ 55 (7)  
+≥ 0,5 (11)  
+≥ 80 (2)  
+≥ 220 (4) 
+≥ 76 
+ 
+≤ 5 (2)  
+≤ 9 (2)  
+ 
+≤ 0,8 (4)  
+≤ 10 (3)  
+≤ 5 (3)  
+≥ 45 (4)  
+≥ 76 
+ 
+≤ 28 
+≤ -18 PMB  
+76-22 
+25-55 (3) 
+≥ 60 (6)  
+≥ 0,5 (11)  
+≥ 70 (3)  
+≥ 220 (4) 
+≥ 76 
+ 
+≤ 5 (2)  
+≤ 9 (2)  
+ 
+≤ 0,8 (4)  
+≤ 10 (3)  
+≤ 5 (3)  
+≥ 45 (4)  
+≥ 76 
+ 
+≤ 31 
+≤ -12 PMB  
+76-16 
+25-55 (3) 
+≥ 60 (6)  
+≥ 0,5 (11)  
+≥ 60 (4)  
+≥ 220 (4) 
+≥ 76 
+ 
+≤ 5 (2)  
+≤ 9 (2)  
+ 
+≤ 0,8 (4)  
+≤ 10 (3)  
+≤ 5 (3)  
+≥ 45 (4)  
+≥ 76 
+ 
+≤ 34 
+≤ -6 PMB  
+70-28 
+40-100 (5) 
+≥ 55 (7)  
+≥ 0,5 (11)  
+≥ 80 (2)  
+≥ 220 (4) 
+≥ 70 
+ 
+≤ 5 (2)  
+≤ 13 (3)  
+ 
+≤ 1 (5)  
+≤ 10 (3)  
+≤ 5 (3)  
+≥ 50 (5)  
+≥ 70 
+ 
+≤ 25 
+≤ -18 PMB  
+70-22 
+40-100 (5) 
+≥ 60 (6)  
+≥ 0,5 (11)  
+≥ 70 (3)  
+≥ 220 (4) 
+≥ 70 
+ 
+≤ 5 (2)  
+≤ 13 ( 3) 
+ 
+≤ 1 (5)  
+≤ 10 (3)  
+≤ 5 (3)  
+≥ 50 (5)  
+≥ 70 
+ 
+≤ 28 
+≤ -12 PMB  
+70-16 
+40-100 (5) 
+≥ 60 (6)  
+≥ 0,5 (11)  
+≥ 60 (4)  
+≥ 220 (4) 
+≥ 70 
+ 
+≤ 5 (2)  
+≤ 13 (3)  
+ 
+≤ 1 (5)  
+≤ 10 (3)  
+≤ 5 (3)  
+≥ 50 (5)  
+≥ 70 
+ 
+≤ 31 
+≤ -6 PMB  
+64-28 
+40-100 (5) 
+≥ 50 (8)  
+≥ 0,5 (11)  
+≥ 80 (2)  
+≥ 220 (4) 
+≥ 64 
+ 
+≤ 5 (2)  
+≤ 13 (3)  
+ 
+≤ 1 (5)  
+≤ 10 (3)  
+≤ 5 (3)  
+≥ 50 (5)  
+≥ 64 
+ 
+≤ 22 
+≤ -18 PMB  
+58-28 
+90-150 (8) 
+≥ 45 (8)  
+≥ 0,5 (11)  
+≥ 80 (2)  
+≥ 220 (4) 
+≥ 58 
+ 
+≤ 5 (2)  
+≤ 13 (3)  
+ 
+≤ 1 (5)  
+≤ 10 (3)  
+≤ 5 (3)  
+≥ 50 (5)  
+≥ 58 
+ 
+≤ 19 
+≤ -18 BİRİMİ  
+0,1mm 
+°C 
+J 
+% 
+°C 
+g/cm3 
+°C 
+ 
+°C 
+0,1mm 
+ 
+% 
+°C 
+°C 
+% 
+°C 
+ 
+°C 
+°C STANDARDI 
+TS EN 1426 
+TS EN 1427 
+TS EN 13589 
+TS EN 13398 
+TS EN ISO 2592 
+TS EN 15326 
+TS EN 14770    
+TS EN 13399 
+TS EN 1427 
+TS EN 1426 
+TS EN 12607-1 
+TS EN 1427 
+TS EN 1426 
+TS EN 14770    
+TS EN 14769 
+TS EN 14770    
+TS EN 14771 DENEY ADI 
+  
+PENETRASYON (25°C,100g,5sn.)     
+YUMUŞAMA NOKTASI                   
+KUVVET ÖLÇÜMLÜ DÜKTİLİTEa  
+(25°C’de, 5cm/dk)                                             
+ELASTİK GERİ DÖNMEb (25°C)      
+PARLAMA NOKTASI                                                                       
+ÖZGÜL AĞIRLIK                          
+Yenilme  
+Sıcaklığı  
+DEPOLAMA STABİLİTESİc 
+YUMUŞAMA NOKTASI FARKI                                                   
+PENETRASYON FARKI                                                               
+DÖNMELİ İNCE FİLM ETÜVÜ DENEYİd 
+KÜTLE DEĞİŞİMİ                                                                                
+YUMUŞAMA NOKTASINDAKİ ARTMA  
+YUMUŞAMA NOKTASINDAKİ AZALMA  
+KALICI PENETRASYON                                                                  
+Yenilme  
+Sıcaklığı  
+RTFOT+PAV İle Yaşlandırılmış Modifiye  
+Bitüme Yapılan Deneyler                                                                         
+Yenilme  
+Sıcaklığı  
+Sıcaklık  DİNAMİK KESME REOMETRESİ  
+(DSR) (G*/sinδ  >1kPa)  
+DİNAMİK KESME REOMETRESİ 
+(DSR) (G*/sinδ >2,2kPa)  
+DSR (G*sinδ <5000kPa)  
+KİRİŞ EĞİLME REOMETRESİ (BBR)e 
+Eğilme -Sünme Sertliği  
+(S≤300 Mpa, m≥0,300  Sıra 
+No 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+8.1 
+8.2 
+9 
+9.1 
+9.2 
+9.3 
+9.4 
+9.5 
+10 
+10.1 
+10.2 
+a Bu koşul gerekli olduğunda aranmaktadır.  
+b Sadece elastomerik katkılarda aranmaktadır.  
+c Modifiye bitüm depolamadan kullanılacaksa, depolama stabilitesi deneyinin yapılması zorunlu değildir.  
+d Yüksek viskoziteli modifiye bitümlerde RTFO deneyi 163 oC’den daha yüksek (180 oC’yi geçmeyen) sıcaklıkta yapılabilecektir. TFO deneyi idarenin izni ile RTFO yerine 
+kullanılabilecektir.  
+e Bu koşul (≤ -18) sıcaklık değeri için, modifiye bitüm kullanılacak güzergaha değerlendir ilebilecektir. 
+Not: 1, 2, 4, 9.1, 9.2, 9.3, 9.4 sıra nolu deneylerin şantiyede yapılması zorunludur. Parantez içindeki ifadeler TS EN 14023 standardındaki o değere ait sınıfı göstermektedir.  
+Ayrıca kullanılan modifiye bitümden yılda en az iki kez numune alınarak tabloda belirtilen tüm deneyler yapılacaktır.  Tablo-412-2 Modifiye Bitümün Fiziksel Özellikleri (TS EN 14023)  
+ 
+--- SAYFA 753 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Bitüm emülsiyonu üzerinde yapılan deneyler  
+<110 (2) 
+67-71 (9) 
+ 
+40-100 (6) 
+≤ 0,2 (3) 
+≤ 0,5 (4) 
+≤ 5 (2)  
+≥ 75 (2)  
+TS EN 13074- 1 ‘e göre geri kazanılan buharlaştırma kalıntısı üzerinde yapılan deneyler  
+≤ 150 (4)  
+≥ 43 (5)  
+Kohezyon (Sadece elastomerik polimer modifiye bitüm  emülsiyonları için)  
+≥ 0,5 (10) 
+≥ 50 (5)  
+Kararlı hale getirilmiş buharlaştırma kalıntısı (TS EN 13074 -1 sonrası TS EN 13074 -2) üzerinde yapılan deneyler  
+≤ 150 (4)  
+≥ 46 (5)  
+Kohezyon (Sadece elastomerik polimer modifiye bitüm emülsiyonları için)  
+≥ 0,5 (10) 
+≥ 50 (5) C69BP2-3
+ 
+<110 (2) 
+67-71 (9) 
+ 
+40-100 (6) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3)  
+≥ 50 (4)  
+≥ 0,5 (10)  
+≥ 50 (5)  
+≤ 100 (3)  
+≥ 50 (4)  
+≥ 0,5 (10)  
+≥ 50 (5)  C69B2-5
+ 
+<110 (2) 
+67-71 (9) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 220 (5)  
+≥ 35 (8)  
+ 
+ 
+≤ 150 (4)  
+≥ 39 (7)  
+ 
+ C69B2-4
+ 
+<110 (2) 
+67-71 (9) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4)  
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4)  
+≥ 43 (6)  
+ 
+ C69B2-3
+ 
+<110 (2) 
+67-71 (9) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3)  
+≥ 43 (6)  
+ 
+ 
+≤ 100 (3)  
+≥ 46 (5)  
+ 
+ 
+ 
+<110 (2) 
+63-67 (7) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2) 
+≥ 75 (2)  
+≤ 150 (4)  
+≥ 43 (5)  
+≥ 0,5 (10)  
+≥ 50 (5)  
+≤ 150 (4)  
+≥ 46 (5)  
+≥ 0,5 (10)  
+≥ 50 (5)  C65BP2-3
+ 
+<110 (2) 
+63-67 (7) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3 ) 
+≥ 50 (4)  
+≥ 0,5 (10)  
+≥ 50 (5)  
+≤ 100 (3)  
+≥ 50 (4)  
+≥ 0,5 (10)  
+≥ 50 (5)  C65B2-5
+ 
+<110 (2) 
+63-67 (7) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 220 (5)  
+≥ 43 (8)  
+ 
+ 
+≤ 150 (4)  
+≥ 39 (7)  
+ 
+ C65B2-4
+ 
+<110 (2) 
+63-67 (7) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2) 
+≤ 150 (4)  
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4)  
+≥ 43 (6)  
+ 
+ C65B2-3
+ 
+<110 (2) 
+63-67 (7) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3)  
+≥ 43 (6)  
+ 
+ 
+≤ 100 (3)  
+≥ 46 (5)  
+ 
+ C60BP2-4
+ 
+<110 (2) 
+58-62 (6) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4)  
+≥ 43 (5 ) 
+≥ 0,5 (10)  
+≥ 50 (5)  
+≤ 150 (4)  
+≥ 46 (5)  
+≥ 0,5 (10)  
+≥ 50 (5)  C60BP2-3
+ 
+<110 (2) 
+58-62 (6) 
+15-70 (3) 
+ 
+≤ 0,2 (3) 
+≤ 0,5 (4) 
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3)  
+≥ 50 (4)  
+≥ 0,5 (10) 
+≥ 50 (5)  
+≤ 100 (3)  
+≥ 50 (4)  
+≥ 0,5 (10) 
+≥ 50 (5)  C60B2-5
+ 
+<110 (2) 
+58-62 (6) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3) 
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 220 (5)  
+≥ 35 (8)  
+ 
+ 
+≤ 220 (4)  
+≥ 39 (7)  
+ 
+ C60B2-4
+ 
+<110 (2) 
+58-62 (6) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4)  
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4)  
+≥ 43 (6)  
+ 
+ C60B2-3
+ 
+<110 (2) 
+58-62 (6) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2) 
+≤ 100 (3)  
+≥ 43 (6)  
+ 
+ 
+≤ 100 (3)  
+≥ 46 (5)  
+ 
+ TS EN 
+13075-1 
+1431 
+12846-1 
+12846-1 
+1429 
+1429 
+12847 
+13614 
+1426 
+1427 
+13589 
+13703  
+13398 
+1426 
+1427 
+13589 
+13703  
+13398 Birimi 
+S 
+% 
+S 
+S 
+% m/m 
+% m/m 
+% 
+% 
+0.1 mm 
+°C 
+J/mm²  
+% 
+0.1 mm 
+°C 
+J/mm²  
+% Özellik  
+Kesilme Değeri  
+Bitüm İçeriği  
+Akma Zamanı, 2 mm, 40°C  
+Akma Zamanı, 4 mm, 40°C  
+Elek Üstü Kalıntısı, 0,5 mm elek  
+7 Gün Depolama Sonrası Elek Üstü 
+kalıntı, 0,5 mm elek  
+Çökelme Eğilimi  
+Yapışkanlık  
+Penetrasyon (25°C)  
+Yumuşama Noktası  
+Kuvvet Ölçümlü Duktilite, 20°C  
+Elastik Geri Dönme (10°C)  
+Penetrasyon (25°C)  
+Yumuşama Noktası  
+Kuvvet Ölçümlü Duktilite, 20°C  
+Elastik Geri Dönme (10°C)  No 
+ 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+ 
+9 
+10 
+ 
+11 
+12 
+ 
+13 
+14 
+ 
+15 
+16 
+Tablo-412-3 Çabuk Kür Olan Bitüm Emülsiyonlarının Özellikleri (TS EN 13808)  
+ 
+NOT: TS EN 13808 standardına göre emülsiyonların sınıflamasında C: Katyonik, 60: Bitüm miktarı, B: Bitüm emülsiyonu,                 
+  BP:Polimer katkılı bitüm emülsiyonu 2:Kesilme sınıfını gösterir. Son rakam  (örn: -3) ise penetrasyon sınıfını gösteren ulusal işarettir.  
+--- SAYFA 754 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/13 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C69BP4-3
+ 
+Bitüm emülsiyonu üzerinde yapılan deneyler  
+110-195 (4) 
+67-71 (9) 
+ 
+40-100 (6) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+TS EN 13074- 1 ‘e göre geri kazanılan buharlaştırma kalıntısı üzerinde yapılan deneyler  
+≤ 100 (3)  
+≥ 50 (4)  
+Kohezyon (Sadece elastomerik polimer modifiye bitüm emülsiyonları için)  
+≥ 0,5 (10)  
+≥ 50 (5)  
+Kararlı hale getirilmiş buharlaştırma kalıntısı (TS EN 13074 -1 sonrası TS EN 13074 -2) üzerinde yapılan deneyler  
+≤ 100 (3)  
+≥ 50 (4)  
+Kohezyon (Sadece elastomerik polimer modifiye bitüm emülsiyonları için)  
+≥ 0,5 (10)  
+≥ 50 (5)  C69BP4-2
+ 
+110-195 (4) 
+67-71 (9) 
+ 
+40-100 (6) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 50 (2)  
+≥ 55 (3)  
+≥ 0,5 (10)  
+≥ 50 (5)  
+≤ 50 (2)  
+≥ 55 (3)  
+≥ 0,5 (10)  
+≥ 50 (5)  C69B4-5
+ 
+110-195 
+(4) 
+67-71 (9) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 220 (5)  
+≥ 35 (8)  
+ 
+ 
+≤ 150 (4)  
+≥ 39 (7)  
+ 
+ C69B4-4
+ 
+110-195 
+(4) 
+67-71 (9) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4)  
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4)  
+≥ 43 (6)  
+ 
+ C69B4-3
+ 
+110-195 
+(4) 
+67-71 (9) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3)  
+≥ 43 (6)  
+ 
+ 
+≤ 100 (3)  
+≥ 46 (5)  
+ 
+ C65BP4-3
+ 
+110-195 
+(4) 
+63-67 (7) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2) 
+≥ 75 (2)  
+≤ 100 (3)  
+≥ 50 (4)  
+≥ 0.5 (10)  
+≥ 50 (5)  
+≤ 100 (3)  
+≥ 50 (4)  
+≥ 0., (10)  
+≥ 50 (5)  C65BP4-2
+ 
+110-195 
+(4) 
+63-67 (7) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 50 (2)  
+≥ 55 (3)  
+≥ 0.5 (10)  
+≥ 50 (5) 
+≤ 50 (2)  
+≥ 55 (3)  
+≥ 0,5 (10)  
+≥ 50 (5)  C65B4-5
+ 
+110-195 
+(4) 
+63-67 (7) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 220 (5)  
+≥ 43 (8)  
+ 
+ 
+≤ 150 (4)  
+≥ 39 (7)  
+ 
+ C65B4-4
+ 
+110-195 
+(4) 
+63-67 (7) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4)  
+≥ 39 (7) 
+ 
+ 
+≤ 150 (4)  
+≥ 43 (6)  
+ 
+ C65B4-3
+ 
+110-195 
+(4) 
+63-67 (7) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3)  
+≥ 43 (6)  
+ 
+ 
+≤ 100 (3)  
+≥ 46 (5)  
+ 
+ C60BP4-3
+ 
+110-195 
+(4) 
+58-62 (6) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3)  
+≥ 50 (4)  
+≥ 0.5 (10)  
+≥ 50 (5)  
+≤ 100 (3)  
+≥ 50 (4)  
+≥ 0,5 (10)  
+≥ 50 (5)  C60BP4-2
+ 
+110-195 
+(4) 
+58-62 (6) 
+15-70 (3) 
+ 
+≤ 0,2 (3) 
+≤ 0,5 (4) 
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 50 (2)  
+≥ 55 (3)  
+≥ 0.5 (10) 
+≥ 50 (5)  
+≤ 50 (2)  
+≥ 55 (3)  
+≥ 0,5 (10) 
+≥ 50 (5)  C60B4-5
+ 
+110-195 
+(4) 
+58-62 (6) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5  (4) 
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 220 (5)  
+≥ 35 (8)  
+ 
+ 
+≤ 220 (4)  
+≥ 39 (7)  
+ 
+ C60B4-4
+ 
+110-195 
+(4) 
+58-62 (6) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4)  
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4)  
+≥ 43 (6)  
+ 
+ C60B4-3
+ 
+110-195 
+(4) 
+58-62 (6) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2) 
+≤ 100 (3)  
+≥ 43 (6)  
+ 
+ 
+≤ 100 (3)  
+≥ 46 (5)  
+ 
+ TS EN 
+13075-1 
+1431 
+12846-1 
+12846-1 
+1429 
+1429 
+12847 
+13614 
+1426 
+1427 
+13589, 
+13703  
+13398 
+1426 
+1427 
+13589, 
+13703  
+13398 Birimi 
+S 
+% 
+S 
+S 
+% m/m 
+% m/m 
+% 
+% 
+0.1 mm 
+°C 
+J/mm²  
+% 
+0.1 mm 
+°C 
+J/mm²  
+% Özellik  
+Kesilme Değeri  
+Bitüm İçeriği  
+Akma Zamanı, 2 mm, 40°C  
+Akma Zamanı, 4 mm, 40°C  
+Elek Üstü Kalıntısı, 0.5 mm elek  
+7 Gün Depolama Sonrası Elek  
+Üstü kalıntı, 0.5 mm elek  
+Çökelme Eğilimi  
+Yapışkanlık  
+Penetrasyon (25°C)  
+Yumuşama Noktası  
+Kuvvet Ölçümlü Duktilite, 20°C  
+Elastik Geri Dönme (10°C)  
+Penetrasyon (25°C)  
+Yumuşama Noktası  
+Kuvvet Ölçümlü Duktilite, 20°C  
+Elastik Geri Dönme (10°C)  No 
+ 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+ 
+9 
+10 
+ 
+11 
+12 
+ 
+13 
+14 
+ 
+15 
+16 
+NOT: TS EN 13808 standardına göre emülsiyonların sınıflamasında C: Katyonik, 60: Bitüm miktarı, B: Bitüm emülsiyonu ,                 
+  BP:Polimer katkılı bitüm emülsiyonu 2:Kesilme sınıfını gösterir. Son rakam (örn: -3) ise penetrasyon sınıfını gösteren ulusal işarettir.  Tablo-412-4 Orta Hızda Kür Olan Bitüm Emülsiyonlarının Özellikleri (TS EN 13808)  
+ 
+--- SAYFA 755 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/14 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C69BP9-3
+ 
+Bitüm emülsiyonu üzerinde yapılan deneyler  
+> 2 (9) 
+67-71 (9) 
+ 
+40-100 (6) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+TS EN 13074- 1 ‘e göre geri kazanılan buharlaştırma kalıntısı üzerinde yapılan deneyler  
+≤ 100 (3) 
+≥ 50 (4)  
+Kohezyon (Sadece elastomerik polimer modifiye bitüm emülsiyonları için)  
+≥ 0,5 (10)  
+≥ 50 (5)  
+Kararlı hale getirilmiş buharlaştırma kalıntısı (TS EN 13074 -1 sonrası TS EN 13074 -2) üzerinde yapılan deneyler 
+≤ 100 (3) 
+≥ 50 (4)  
+Kohezyon (Sadece elastomerik polimer modifiye bitüm emülsiyonları için)  
+≥ 0,5 ( 10) 
+≥ 50 (5)  C69B9-4
+ 
+> 2 (9) 
+67-71 (9) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4) 
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4) 
+≥ 43 (6)  
+ 
+ C69B9-3
+ 
+> 2 (9) 
+67-71 (9) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3) 
+≥ 43 (6)  
+ 
+ 
+≤ 100 (3) 
+≥ 46 (5)  
+ 
+ C65BP9-3
+ 
+> 2 (9) 
+63-67 (7) 
+ 
+5-70 (5) 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3) 
+≥ 50 (4)  
+≥ 0,5 (10)  
+≥ 50 (5)  
+≤ 100 (3) 
+≥ 50 (4)  
+≥ 0,5 (10)  
+≥ 50 (5)  C65B9-4
+ 
+> 2 (9) 
+63-67 (7) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4) 
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4) 
+≥ 43 (6)  
+ 
+ C65B9-3
+ 
+> 2 (9) 
+63-67 (7) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3)  
+≥ 43 (6)  
+ 
+ 
+≤ 100 (3)  
+≥ 46 (5)  
+ 
+ C60BP9-3
+ 
+> 2 (9) 
+58-62 (6) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3) 
+≥ 50 (4)  
+≥ 0,5 (10)  
+≥ 50 (5)  
+≤ 100 (3) 
+≥ 50 (4)  
+≥ 0,5 (10)  
+≥ 50 (5)  C60BP9-2
+ 
+> 2 (9) 
+58-62 (6) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 50 (2)  
+≥ 55 (3)  
+≥ 0,5 (10)  
+≥ 50 (5)  
+≤ 50 (2)  
+≥ 55 (3)  
+≥ 0,5 (10)  
+≥ 50 (5)  C60B9-5
+ 
+> 2 (9) 
+58-62 (6) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 220 (5) 
+≥ 35 (8)  
+ 
+ 
+≤ 220 (4) 
+≥ 39 (7)  
+ 
+ C60B9-4
+ 
+> 2 (9) 
+58-62 (6) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4) 
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4) 
+≥ 43 (6)  
+ 
+ C60B9-3
+ 
+> 2 (9) 
+58-62 (6) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 100 (3) 
+≥ 43 (6)  
+ 
+ 
+≤ 100 (3) 
+≥ 46 (5)  
+ 
+ C55B9-5
+ 
+> 2 (9) 
+53-57 (5) 
+15-70 (3) 
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 220 (5)  
+≥ 35 (8)  
+ 
+ 
+≤ 220 (4)  
+≥ 39 (7)  
+ 
+ C55B9-4
+ 
+> 2 (9) 
+53-57 (5) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4) 
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4) 
+≥ 43 (6)  
+ 
+ C50B9-5
+ 
+> 2 (9) 
+48-52 (4) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 220 (5) 
+≥ 35 (8)  
+ 
+ 
+≤ 220 (4) 
+≥ 39 (7)  
+ 
+ C50B9-4
+ 
+> 2 (9) 
+48-52 (4) 
+≤ 20 (2)  
+ 
+≤ 0,2 (3)  
+≤ 0,5 (4)  
+≤ 5 (2)  
+≥ 75 (2)  
+≤ 150 (4) 
+≥ 39 (7)  
+ 
+ 
+≤ 150 (4) 
+≥ 43 (6)  
+ 
+ TS EN 
+12848 
+1431 
+12846-1 
+12846-1 
+1429 
+1429 
+12847 
+13614 
+1426 
+1427 
+13589, 
+13703  
+13398 
+1426 
+1427 
+13589, 
+13703  
+13398 Birimi 
+gr 
+% 
+S 
+S 
+% m/m 
+% m/m 
+% 
+% 
+0.1 mm 
+°C 
+J/mm²  
+% 
+0.1 mm 
+°C 
+J/mm²  
+% Özellik  
+Kesilme Değeri  
+Bitüm İçeriği  
+Akma Zamanı, 2 mm, 40°C  
+Akma Zamanı, 4 mm, 40°C  
+Elek Üstü Kalıntısı, 0.5 mm elek  
+7 Gün Depolama Sonrası Elek  
+Üstü kalıntı, 0.5 mm elek  
+Çökelme Eğilimi  
+Yapışkanlık  
+Penetrasyon (25°C)  
+Yumuşama Noktası  
+Kuvvet Ölçümlü Duktilite, 20°C  
+Elastik Geri Dönme (10°C)  
+Penetrasyon (25°C)  
+Yumuşama Noktası  
+Kuvvet Ölçümlü Duktilite, 20°C  
+Elastik Ge ri Dönme (10°C)  No 
+ 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+ 
+9 
+10 
+ 
+11 
+12 
+ 
+13 
+14 
+ 
+15 
+16 Tablo-412-5 Yavaş Kür Olan Bitüm Emülsiyonlarının Özellikleri (TS EN 13808)  
+ 
+NOT: TS EN 13808 standardına göre emülsiyonların sınıflamasında C: Katyonik, 60: Bitüm miktarı, B: Bitüm emülsiyonu,                 
+  BP:Polimer katkılı bitüm emülsiyonu 2:Kesilme sınıfını gösterir. Son rakam (örn: -3) ise penetrasyon sınıfını gösteren ulusal işarettir.  
+--- SAYFA 756 ---
+
+ KISIM 412  
+ 
+ 
+ 
+Bu T eknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -412/Rev.23/1215   
+izni olmadan kısmen  veya tamamen kopyalanıp çoğaltılama z.  
+412/15 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fm 4 B 2 
+Katbek Bitüm üzerinde yapılan deneyler  
+ 
+ 
+ 
+50-500 (4) 
+> 99 (2) 
+> 65 (8) 
+≥ 90 (3)  
+ 
+< 5 (2) 
+< 15 (2) 
+< 20 (2) 
+< 40 (2) 
+< 20 (5) 
+Kararlı hale getirilen kalıntı (TS EN 13074 -1 sonrası TS EN 13074 -2) üzerinde yapılan deneyler  
+≤ 100 (3) 
+≥ 50 (3)  Fm 3 B 4 
+ 
+15-500 (3) 
+ 
+> 99 (2) 
+> 65 (8) 
+≥ 90 (3)  
+ 
+10-25 (4) 
+20-40 (4) 
+35-60 (4) 
+65-90 (4) 
+< 32 (6) 
+≤ 100 (3) 
+≥ 50 (3)  Fm 3 B 3 
+ 
+15-500 (3) 
+ 
+> 99 (2) 
+> 65 (8) 
+≥ 90 (3)  
+ 
+2-15 (3) 
+10-25 (3) 
+15-40 (3) 
+35-70 (3) 
+< 32 (6) 
+≤ 100 (3)  
+≥ 50 (3)  Fm 3 B 2 
+ 
+15-500 (3) 
+ 
+> 99 (2) 
+> 65 (8) 
+≥ 90 (3)  
+ 
+< 5 (2) 
+< 15 (2) 
+< 20 (2) 
+< 40 (2) 
+< 32 (6) 
+≤ 100 (3) 
+≥ 50 (3)  Fm 2 B 3 
+< 200 (2) 
+ 
+ 
+> 99 (2) 
+> 60 (7) 
+ 
+ 
+2-15 (3) 
+10-25 (3) 
+15-40 (3) 
+35-70 (3) 
+< 55 (7) 
+≤ 150 (4) 
+≥ 43 (4)  Fm 2 B 2 
+< 200 (2) 
+ 
+ 
+> 99 (2) 
+> 60 (7) 
+ 
+ 
+< 5 (2) 
+< 15 (2) 
+< 20 (2) 
+< 40 (2) 
+< 55 (7) 
+≤ 220 (5)  
+≥ 39 (5)  TS EN 
+Viskozite 
+12846-2 
+12846-2 
+12846-2 
+12592 
+ISO 2719 
+15626 
+13358 
+ 
+ 
+ 
+ 
+ 
+1426 
+1427 Birimi 
+S 
+S 
+S 
+% 
+°C 
+/ 
+ 
+% 
+% 
+% 
+% 
+% 
+0,1 mm 
+°C Özellik  
+Akma Zamanı, 2 mm, 25°C  
+Akma Zamanı, 10 mm, 25°C  
+Akma Zamanı, 10 mm, 40°C  
+Çözünürlük 
+Parlama Noktası  
+Yapışkanlık (Referans Agrega İle)  
+Destilasyon 
+190 oC’de toplu destilatın %  si 
+225 oC’de toplu destilatın % si  
+260 oC’de toplu destilatın % si  
+315 oC’de toplu destilatın % si  
+360 oC’de toplu destilat, %  
+Penetrasyon (25°C)  
+Yumuşama Noktası  No 
+ 
+1 
+ 
+ 
+ 
+2 
+3 
+4 
+5 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+7 Tablo-412-6 Yol Üstyapılarında Kullanılan Katbek Bitümlerin Özellikleri (TS EN 15322)  
+ 
+ 
+NOT 1:  TS EN 15322 standardına göre Fm 2 B 3 sınıfında Fm:Petrol kökenli çözücü tipini, 2:Viskozite sınıfını,  B:Normal bitüm ,3:225  oC’deki kalıntı miktarı sınıfını gösteren ulusal işarettir.  
+NOT 2: Yukarıda verilen katbek sınıflarının kullanım yerleri Tablo 403 -6 Sathi Kaplamada Kullanılacak Bağlayıcı Tipleri tablosunda belirtilmiştir.  
+ 
+--- SAYFA 757 ---
+
+ KISIM 413 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-413/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+413/1 
+413.  ASFALT KAPLAMANIN KAZINMASI  
+413.01 Tanım 
+Bu kısım; projede veya İdare tarafından gösterilen yerlerde; mevcut yol üstyapısını oluşturan 
+bitümlü sıcak karışım tabakalarının yenilenmesi, onarımı veya profilinin düzeltilmesi ve böylece 
+üstyapının sağlamlaştırılması, yüzeyinin düzgün hale getirilerek uygun bir sürüş yüzeyi elde 
+edilmesi için asfalt kaplamanın kazınmasından bahseder.  
+Asfalt kaplamanın kazınması, genel bilinen adıyla freze işlemi, kaplama tabakasını belirli bir 
+derinlikte kazıyarak yüzeydeki çukur, tekerlek izi ve diğer bozulma türlerinden kaynaklı yüzey 
+düzgünsüzlüklerinden arındırarak sürüş konforunu iyileştirmek ve kaplamada istenilen eğimi 
+sağlayacak şekilde yüzey düzeltme yöntemi olarak ifade edilir. Bu yöntem sürtünme direncini 
+artırmak için kaplamaların pürüzlendirilmesinde de kullanılır. Freze işlemi uygulanan yol 
+temizlendikten sonra trafiğe hemen açılabileceği gibi, üzerine takviye tabakası yapılarak da hizmete 
+açılabilir. 
+413.02 Kapsam 
+Asfalt kaplamanın kazınmasında kullanılan kazıma ekipmanlarının özellikleri, kazıma yöntemi ve 
+amacı ile kazınmış tabakaların depolanmasına ait bu şartnamede belirtilen esaslara uygun olacaktır.     
+413.03 Ekipman 
+413.03.01 Kazı Makinesi 
+Bitümlü Sıcak Karışım kaplamanın kazınması için kullanılacak makine aşağıda belirtilen özelliklere 
+sahip olacaktır. 
+a. Kazıma makinası düzeltilecek yolun mevcut durumu ile güvenlik ve proje şartlarına uygun, 
+derinlik ve genişlikte kazıma yapacak boyut ve kapasitede olacaktır. 
+b. Kazıma makinesi pervaneli döner kesme silindirine sahip ve kendinden hareketli/yürür 
+olacaktır.  
+c. Makine yeterli güce ve çekiş gücüne sahip olacak, kesme derinliğini doğru, tam, düzgün bir 
+şekilde ve süreklilik sağlayacak şekilde sürdürebilecektir. 
+d. Yolun boyuna ve enine eğimini sağlamak için gereken asfalt kaplama kalınlığını kazıyacak 
+kapasiteye sahip olacaktır. 
+e. Boyuna ve enine eğim ve kot kontrolünü doğru ve hassas bir şekilde yapacak otomatik 
+sisteme sahip olacaktır. 
+f. Kazıma sırasında oluşabilecek toz ve parçaların dışarıya gitmesini etkili olarak önleyecek 
+bir sisteme sahip olacaktır. 
+g. Kazınan malzemenin tamamını yoldan alarak yükleme yapabilecek sisteme sahip olacaktır. 
+413.03.02 Süpürge 
+Yüklenici iş yerinde döner özelliğe sahip ve dönme hızı ayarlanabilen mekanik bir süpürge 
+bulunduracaktır. Kazıma sırasında; kazı makinesi tarafından alınamayan, yüzeyde veya kenarlarda 
+kalan kazı malzemesi bu süpürge ile toplanacak ve vakumla veya mekanik olarak alınacaktır. 
+413.03.03 Hava Kompresörü 
+Hava Kompresörü, kazınmış yüzeyde kalabilecek tozları ve parçaları temizlemek, kazınmış yüzeyde 
+var ise çatlakları tespit etmek için yeterli kapasiteye sahip olacaktır. 
+--- SAYFA 758 ---
+
+ KISIM 413 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-413/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+413/2 
+413.04 Yapım Şartları 
+413.04.01 Kaplama Yüzeyinin Hazırlanması 
+Kazıma işlemi başlamadan önce mevcut bitümlü sıcak karışım kaplama yol mutlaka kontrol 
+edilecektir. 
+Kazıma yapılacak kaplama yüzeyi; toz, toprak ve diğer yabancı maddeler tamamen temizleninceye 
+kadar döner süpürgeler ile süpürülecektir. 
+413.04.02 Kazıma 
+Kazıma işlemi sadece bir şerit boyunca ve düzgün bir yüzey elde edilecek şekilde yapılacaktır.  
+Farklı tip bitümlü tabakalar (aşınma, binder, bitümlü temel) ayrı ayrı kazınacak ve depolanacaktır. 
+Kazı makinesinin çalışması sırasında kaplama altında yer alan diğer tabakalara, drenaj, su alma 
+yapılarına, bordur vb. yapılara zarar verilmeyecektir. 
+Trafik altındaki yolların kazınması sırasında, tüm  kazıma derinliğinin 5 cm’yi geçtiği durumlarda 
+yanda yer alan şerit veya banket de aynı gün içerisinde kazınacaktır. 
+Tüm kazıma derinliğinin 5 cm ve daha az olduğu durumlarda yüklenici yan şerit veya banketin 
+kazınmasını bir sonraki gün yapabilir. 
+Farklı kazıma derinliklerine geçiş; ancak her 7,5 m uzunluğundaki kesimde üniform olarak 1 cm 
+derinlik artışı yapılarak sağlanacaktır. 
+Kazıma işlemine başladığı ve kazımanın sona erdiği noktada mevcut kaplama yüzeyine düzgün bir 
+geçiş yapılması sağlanacaktır. Trafik yönüne dik olacak şekilde keskin bir kazı kenarı 
+bırakılmayacaktır. 
+Kaplama kenarları, drenaj yapıları, rögar, bordur kenarları, kurpta yer alan kesimlerin kazınması 
+sırasında özel dikkat gösterilecektir. Kazı makinesinin yaklaşamadığı kesimlerin kazınması  İdare 
+tarafından kabul edilecek yöntemle yapılacaktır. 
+Kazıma işlemi yapılan kaplamanın doğrudan trafiğe açılacağı durumlarda geleneksel frezeleme 
+işleminin ardından ince ve sık kesme dişlerine sahip kesme silindiri ile mikrofreze yüzey düzeltme 
+işlemi yapılacaktır. 
+413.04.03 Yüzey Tolerans Değerleri 
+Kazıma sonrasında elde edilen yüzeyde çukur, tümsek ve ondülasyonlar bulunmayacaktır. 
+Kazınmış kaplamanın yüzey düzgünlüğünün enine ve boyuna kontrolü, deforme olmayacak 
+nitelikte minimum 4 m uzunluğundaki mastar ile yapılacaktır. 
+Yolun boyuna kontrolü için, mastar yol eksenine paralel olarak kazınmış kaplamanın genişliği 
+boyunca yol yüzeyine konulduğunda mastarın yola temas eden herhangi iki noktası arasındaki 
+bölümde mastarla yol yüzeyi arasındaki açıklık ± 6 mm’den fazla olmayacaktır. Kazınmış 
+kaplamanın enine kontrolünde, yol eksenine dik olarak konulacak mastar ile bulunacak açıklık ± 6 
+mm’den fazla olmayacaktır. 
+413.04.04 Kazınmış Yüzeyin Temizlenmesi 
+Kazıma işleminin tamamlanmasından hemen sonra hiç bir durumda yüzeyde kazınmış malzeme 
+kalmayacak şekilde uygun ekipmanla toplanarak depo yerine taşınacak kazınmış yüzey süpürülerek 
+temizlenecektir. Temizleme işleminde gerekirse basınçlı hava kullanılacaktır. Kazınan kaplamadan 
+kalan eski tabakalar ile üzerine getirilecek yeni tabakalar arasında zaafiyet oluşturabilecek zayıf, 
+lokal artık kısımlar bulunmayacaktır. 
+--- SAYFA 759 ---
+
+ KISIM 414 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-414/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+414/1 
+414. KAZINMIŞ ASFALT KAPLAMANIN YENİDEN KULLANIMI İLE YAPILAN GERİ 
+KAZANIM BİTÜMLÜ  KARIŞIM  TABAKASI 
+414.01 Tanım 
+Bu kısım; ömrünü tamamlamış bitümlü sıcak karışım tabakalarının kazınıp ilave yeni agrega ve 
+bitüm gerekiyorsa uygun katkılar ile belirli kriterler ve yöntemler dahilinde uygun oranlarda 
+karıştırılarak yapılan geri kazanım bitümlü karışım tabakalarında kullanımından bahseder.  
+414.02 Kapsam 
+Kazınmış malzemenin yeniden kullanımı genel anlamı ile geri dönüşüm olarak tanımlanmış olup, 
+geri dönüşüm yöntemleri; plentte sıcak geri dönüşüm (Hot Recycling), sıcak yerinde geri dönüşüm 
+(Hot in-place Recycling), soğuk geri dönüşüm (Cold Recycling) veya tam derinlikte geri kazanma 
+(Full Depth Reclamation) işlemlerinden biridir. 
+Ömrünü tamamlamış kaplama ya da üstyapı durumları için geri kazanım amacıyla hangi tabakaların 
+kazınacağına ve geri dönüşüm yöntemlerinden hangisinin kullanılacağına İdare tarafından karar 
+verilecektir.      
+Geri dönüşüm yöntemlerine ait tanımlar ve özellikler ile uygulama farklılıklarına ait açıklamalar bu 
+şartnamede verilmiştir.  
+Yeni bitümlü karışım yapımında kullanılmayacak kazınmış malzemeler alttemel Tip-B 
+gradasyonunda Kısım 401’de belirtilen hususlar dahilinde alttemel tabakası yapımında 
+kullanılabilecektir. 
+Bu kısımda bahsedilmeyen diğer hususlar için kazınmış asfalt kaplaması ile hazırlanan karışım 
+hangi tabakada kullanılacak ise, o tabakanın şartnamesine ait kısımlarda belirtilen esaslar geçerlidir. 
+414.03 Malzemeler 
+Geri dönüşüm imalatlarında kullanılacak malzemenin kazıma işlemi Kısım 413 “Asfalt Kaplamanın 
+Kazınması”nda belirtilen esaslara göre aynı tip ve özellikte kazınmış malzeme üretilecek şekilde 
+uygun ekipmanlarla yapılacaktır. Farklı tabakalardan kazınmış aynı özellikteki malzemeler tabaka 
+cinslerine göre ayrı ayrı depo edilecektir. Kazınmış asfalt kaplama malzemesi içerisinde beton, 
+metal, ahşap, plastik vb. yabancı madde parçacıkları bulunmayacak, kil, toprak ya da organik madde 
+içermeyecektir.  
+İlave edilecek mineral agregaların özellikleri ile bitümlü bağlayıcı, hazırlanacak bitümlü karışım 
+hangi tabakada kullanılacak ise, o tabakanın şartnamesine uygun olacaktır. Ayrıca geri dönüşümde 
+kullanılacak kazınmış asfalt kaplamasının agregaları da geri kazanım bitümlü sıcak karışım 
+tabakasına ait şartnamede istenen agrega özelliklerini sağlayacaktır. 
+Gerekmesi halinde kazınmış asfalt malzeme içerisindeki yaşlanmış bitümü ilgili standart ve 
+şartnamelerine göre iyileştirmek amacıyla kullanılacak katkı; ASTM D 4552’da belirtilen esaslara 
+uygun veya yaşlanmış bitümü gerekli standartlara göre iyileştirecek uygun organik esaslı ya da 
+petrol ürünü katkı olacaktır. Bitümlü bağlayıcıyı yumuşatmak amacıyla sadece viskoziteye etki eden 
+organik ya da inorganik yağ esaslı katkı maddelerinin kullanımına izin verilmeyecektir. Yüklenici 
+işe başlamadan önce kullanılacak katkı maddesi için aşağıda belirtilen bilgileri ve belgeleri içeren 
+teknik raporu idareye sunacak ve İdareden onay alacaktır.    
+ 
+ 
+--- SAYFA 760 ---
+
+ KISIM 414 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-414/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+414/2 
+1. Katkı maddesinin üretici firma tarafından belirlenmiş teknik özelliklerini gösteren 
+dokümanları, 
+2. Katkı maddesinin özelliklerine dair, İdare tarafından uygun görülen ilgili deney standartlarına 
+uygun olarak tercihen akredite olmuş bir laboratuvarda yapılmış deney sonuçlarını gösteren 
+onaylı deney raporları,  
+3. Katkı maddesine ait Malzeme Güvenlik Bilgi Formu (GBF/MSDS, Material Safety Data 
+Sheet), 
+4. Katkı maddesinin hangi oranlarda ve nasıl uygulanacağına dair bilgileri, geri kazanılmış 
+bitümlü bağlayıcı ile katkı maddesi karışımının tercihen akredite olmuş bir laboratuvarda 
+yapılmış performans deney sonuçları. 
+5. Katkı maddesi ile daha önceden yapılmış referans uygulamalara ait dökümanlar (deney 
+sonuçları, kalite kontrol raporları vs.) 
+414.04 Geri Dönüşüm Yöntemleri 
+414.04.01 Plentte Sıcak Geri Dönüşüm 
+Plentte sıcak geri dönüşüm, bitümlü sıcak karışım üretmek için kazınmış asfalt kaplama 
+malzemesinin yeni malzeme ve gerekirse katkı ilavesiyle sabit bir asfalt plentinde birleştirilerek 
+yapılan dönüşümdür. Hem harman (bactch) tipi hem de tambur (drum mix) tipi sürekli karıştırma 
+yapan sıcak karışım plentleri geri kazanılmış karışımlar üretmek için kullanılabilir. Ancak sürekli 
+karıştırma yapan tambur tipi (drum mix) plentlerin kullanımı İdarenin yazılı izni ile olacaktır. 
+Kazınmış asfalt kaplamaların, plentte sıcak geri dönüşümünde hangi BSK tabakasında kullanılacağı, 
+kazınacak tabakadaki bozulma sebepleriyle, malzeme özelliklerine dair yapılacak arazi ve 
+laboratuvar deney sonuçlarına bağlı olarak belirlenecektir. Kazınmış malzemenin kullanım oranı; 
+geri dönüşümün tekniği (sıcak ya da soğuk beslemeli), plentin tipi ve kullanılacak katkı özellikleri 
+ile geri dönüşüm karışımının laboratuvar deney sonuçlarına göre belirlenecektir.   
+Geri dönüşüm bitümlü sıcak karışım imalatlarında kullanılacak olan kazınmış malzeme oranı; 
+kazınmış asfalt malzeme içerisindeki ekstraksiyon ile bitümünden ayrıştırılmış kuru agreganın, geri 
+kazanım bitümlü karışım içerisindeki toplam kuru agregaya ağırlıkça oranı olarak hesaplanacaktır.  
+Geri kazanım imalatlarında, %25 oranına kadar kazınmış asfalt malzeme kullanımı durumlarında 
+plentte soğuk beslemeli geri dönüşüm tekniği ile üretimine izin verilebilecek olup, % 25’ in 
+üzerindeki oranlarda üretim her durumda plentte sıcak beslemeli geri dönüşüm tekniği ile 
+yapılacaktır.   
+Plentte sıcak geri dönüşümle hazırlanacak olan bitümlü karışımda kullanılacak kazınmış asfalt 
+kaplamanın dizayn çalışmasından önce kazınmış malzemeyi temsil edecek şekilde ortalama agrega 
+gradasyonu, bitümlü bağlayıcı miktarı ve bitüm özellikleri belirlenecektir.  
+Karışım dizaynında; kazınmış asfalt kaplama malzemesi, yeni agregalar, yeni bitüm, gerekli ise 
+yeniden kullanım katkısı ve soyulma mukavemetini artırıcı katkı kullanılacaktır. Kazınmış asfalt 
+kaplama malzemesi ile hazırlanacak karışım hangi tabakada kullanılacak ise, o tabakaya ait 
+gradasyon ve dizayn kriterleri esas alınarak karışım dizaynı hazırlanacaktır. 
+Kazınmış asfalt kaplamanın yeniden kullanımı ile hazırlanan sıcak karışımlar yüzey tabakası 
+yapımında kullanılmayacaktır. 
+Kazınmış asfalt malzeme kullanılarak hazırlanacak geri kazanım bitümlü karışımının, kullanılacağı 

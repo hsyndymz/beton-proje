@@ -1,0 +1,504 @@
+--- SAYFA 1 ---
+
+KARAYOLU
+TEKNİK
+ŞARTNAMESİ
+2023
+(YOL ALTYAPISI, SANAT YAPILARI, KÖPRÜ VE
+TÜNELLER, ÜSTYAPI VE ÇEŞİTLİ İŞLER)
+©Her hakkı saklıdır. Bu Teknik Şartnamenin bir kısmı veya tamamı Karayolları Genel Müdürlüğü’nün yazılı 
+izni olmadan çoğaltılamaz. Bilgi erişim sistemine yüklenemez veya herhangi bir başka şekilde bir başka yere 
+aktarılamaz.
+
+--- SAYFA 2 ---
+
+ 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                                                                                     
+izni olmad an kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+ 
+ÖNSÖZ  
+Sorumluluk alanındaki k arayol u ağlarının planlanması, projelendirilmesi, yapımı, 
+bakımı, onarımı, işletilmesi ve karayolu altyapısı güvenliğinin sağlanması 
+misyonuyla sektöründe uygulayıcı ve düzenleyici bir kamu kurumu statüsünde 
+bulunan Karayolları Genel Müdürlüğü, hem çağı yakalamak hem de gelecek vizyon 
+hedeflerine ulaşmak maksadıyla  yeni teknoloji, yöntem  ve standartları yakından 
+takip ederek uygulamalar ına yansıtmaktadır.  
+Sektöründe öncü ve yön veren konumuyla Genel Müdürlüğümüz, en önemli 
+uygulama dokümanlarından biri olan ve diğer kamu kurumu ve özel sektör 
+kuruluşları tarafından da büyük ölçüde rehber olarak kullanılan Karayolu Teknik 
+Şartnamesi ni (KTŞ) yeniden düzenlemiştir.  
+Bu şartname revizyonuyla deney standartları güncellenmiş, Ar-Ge çalışmalarımız ve 
+uygulamadan elde edilen tecrübeler ışığında çevreye duyarlı, geri dönüşümü esas 
+alan, enerji verimliliği yüksek  yeni teknolojiler ve uygulama metotları şartnameye 
+eklenmiştir. Ayrıca yapım çalışmalarının kalite kontrolüne yönelik yeni yaklaşımlar 
+da benimsenmiştir.  
+Bu şartnamenin hazırlanmasında emeği geçen ve katkı veren tüm kişi ve kuruluşlara, 
+Şartname Güncelleme Komisyonu üyelerine ve  koordinatörlük görevini başarıyla 
+yürüten Araştırma ve Geliştirme Dairesi Başkanlığı  ve çalışanlarına teşekkür eder, 
+Şartnamenin uygulanmasında gereken titizliğin gösterileceği inancıyla ülkemize ve 
+teşkilatımıza yararlı olmasını dilerim.    
+ 
+             Ahmet GÜLŞEN  
+              Genel Müdür  
+ 
+ 
+--- SAYFA 3 ---
+
+ 
+T.C. 
+ULAŞTIRMA VE ALTYAPI BAKANLIĞI  
+Karayolları Genel Müdürlüğü  
+Araştırma ve Geliştirme Dairesi Başkanlığı  
+ 
+ "Bu belge, güvenli elektronik imza ile imzalanmıştır."  
+Belge Doğrulama Kodu: "mtqhp93324A0"  Belge Doğrulama Adresi: "https://www.turkiye.gov.tr/kgm-ebys"  
+ 
+Devlet Mahallesi İnönü Bulvarı No: 14A 06420 Çankaya/ANKARA    Bilgi İçin  :  Oktay CANTİMUR  
+  Kalifiye İşçi  
+Telefon No : 312 449 75 88  Faks:  312 449 71 55  Telefon :  97589 
+İnternet Adresi  : www.kgm.gov.tr   e-posta :  h-ocantimur@kgm.gov.tr 
+İlgili Birim  : Kalite Yönetim ve Ar -Ge Şubesi Müdürlüğü  
+    1/1 
+S
+ayı : E.40129364- 020 /
+  .. 
+Konu : Ka
+rayolu Teknik Şartnamesi -2023  
+ 
+GE
+NEL MÜDÜRLÜK MAKAMINA 
+ 
+ 
+ Ulusal ve uluslararası  güncel standartlara, son teknolojik gelişmelere, uygulama ve 
+araştırmalardan elde edilen tecrübelere göre yeniden düzenlenerek hazırlanan “Karayolu 
+Teknik Şartnamesi -2023”ün onaylanarak, Karayolları Genel Müdürlüğü Merkez ve Taşra 
+Teşkilatlarınca, onay tarihinden itibaren yapılacak işlerde uygulamaya konulmasını “OLUR” 
+emirlerine arz ederim.   
+  
+ 
+ 
+ 
+  Ş
+enol ALTIOK  
+Ar
+aştırma ve Geliştirme Dairesi Başkanı  
+ 
+ 
+U
+ygun görüşle arz ederim.  
+ ..  
+ 
+ 
+ 
+Ahme
+t SAĞLAM  
+Ge
+nel Müdür Yardımcısı  
+ 
+O  
+L  U  R 
+ ..  
+ 
+ 
+ 
+Ahme
+t GÜLŞEN  
+Ge
+nel Müdür  
+ 
+EK
+:    
+ Ka
+rayolu Teknik Şartnamesi -2023  
+                                
+ 
+ 
+ 
+ 
+ 211002 27.12.2023
+
+--- SAYFA 4 ---
+
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                      
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  KARAYOLU TEKNİK ŞARTNAMESİ GÜNCELLEME KOMİSYONU 
+Komisyon Başkanı: Şenol ALTIOK (Araştırma ve Geliştirme Dairesi Başkanı) 
+Derleme ve Yayım : Ahmet SAĞLIK, Mevra AZAK 
+Düzeltme ve Redaksiyon: İlkay TİMUR,  İbrahim ONAY  
+ADI SOYADI  POZİSYONU  ÇALIŞTIĞI BİRİM  
+GENEL HÜKÜMLER, PROJE ŞARTLARI VE YOL ALTYAPISI ÇALIŞMA GRUBU 
+Ahmet SAĞLIK  (Grup Başkanı)  Kalite Yönetim ve Ar -Ge Şubesi Müdürü  Ar-Ge Dai.Bşk.  
+Mevra AZAK  Kalite Yön. ve Ar -Ge Şb.Md.Yrd.  Ar-Ge Dai.Bşk.  
+İlkay TİMUR  Üstyapı Geliştirme Şb.Md.Yrd.  Ar-Ge Dai.Bşk.  
+İbrahim ONAY  Ar-Ge Proje Yönetimi Şefi  Ar-Ge Dai.Bşk.  
+Şenol ÇÖMEZ  Toprak ve Stabilizasyon Şefi  Ar-Ge Dai.Bşk.  
+Hasan Özgür DAŞ  Jeolojik Etütler Şefi  Ar-Ge Dai.Bşk.  
+Mehmet TOKGÖZ  Araştırma ve Geliştirme Başmühendisi  Karayolları 1.Bölge Müdürlüğü  
+Suhan MUTLU  Yol Yapım Şb.Md.Yrd.  Yol Yapım Dai.Bşk.  
+Orhan Cavit GEREDELİOĞLU  Makine Şubesi Müdürü  Makine ve İkmal Dai.Bşk.  
+Mine YURDAKUL  Çevre Şubesi Müdürü  Etüt ve Proje Dai.Bşk.  
+Ömer Fevzi ÇELEBİ  Yol Etüt ve Proje Şb.Md.Yrd.  Etüt ve Proje Dai.Bşk.  
+Uğur AKKAŞ  Yapım ve Danışmanlık İhaleleri Şb. Müdürü  Program ve izleme Dai.Bşk.  
+Arif SEZER  Proje ve Danışmanlık Şb.Md.  İşletmeler Dai.Bşk.  
+DAYANMA YAPILARI VE ŞEVLERİN DESTEKLENMESİ ÇALIŞMA GRUBU  
+Aydın DURUKAN  (Grup Başkanı)  Jeolojik Hizmetler Şubesi Müdürü (Grup Başkanı)  Ar-Ge Dai.Bşk.  
+Yasin ÇEVİK  Jeolojik Hizmetler Şb.Md.Yrd.  Ar-Ge Dai.Bşk.  
+Battal YALÇIN  Zemin Mek. ve Tün. Şb.Md.Yrd.  Ar-Ge Dai.Bşk.  
+Murat İLGİNOĞLU  Zemin Mek. ve Tün. Şb.Md.Yrd.  Ar-Ge Dai.Bşk.  
+Muhammed İrşad ÖZKAYNAK  Zemin Mek. Lab.Şefi  Ar-Ge Dai.Bşk.  
+Recep TEMİZ  Jeolojik Etütler Şefi  Ar-Ge Dai.Bşk.  
+Mehmet ERTURUN  Kontrol Şefi  Karayolları 4.Bölge Müdürlüğü  
+Ergun YALÇIN  Araştırma ve Geliştirme Başmühendisi  Karayolları 5.Bölge Müdürlüğü  
+Adem YEŞİL  Araştırma ve Geliştirme Başmühendisi  Karayolları 14.Bölge Müdürlüğü  
+Tolga DİNÇEL  Yol Üstyapı Şubesi Müdürü  Yol Yapım Dai.Bşk.  
+Didem YILDIZ TEMİZ  Proje Mühendisi  Etüt ve Proje Dai.Bşk.  
+SANAT YAPILARI, KÖPRÜLER VE TÜNELLER ÇALIŞMA GRUBU  
+Galip Evrim ERYILMAZ (Grup Başkanı)  Zemin Mek. ve Tüneller Şubesi Müdürü (Grup Başkanı)  Ar-Ge Dai.Bşk.  
+Kemal Koray SARAÇ  Jeolojik Hizmetler Şb.Md.Yrd.  Ar-Ge Dai.Bşk.  
+Ali ÜNSAL  Malzeme Lab. Şb.Md.Yrd.  Ar-Ge Dai.Bşk.  
+Mehmet Sercan KÜÇÜKASLAN  Tünel Proje Şefi  Ar-Ge Dai.Bşk.  
+Elif BAYRAK  Doğal Yapı Taşı Laboratuvar Şefi  Ar-Ge Dai.Bşk.  
+Ayhan CÖMERT  Beton Laboratuvarı Şefi  Ar-Ge Dai.Bşk.  
+Hüseyin KANAT  Mekanik Laboratuvarı Şefi  Ar-Ge Dai.Bşk.  
+Hasan SARIOĞLAN  Yol Yapım Şubesi Müdürü  Yol Yapım Dai.Bşk.  
+Özge BEŞTEPE  Tünel Yapım Şefi  Sanat Yapıları Dai.Bşk.  
+Murat KOLOĞLU  Sanat Yapıları Yapım Şefi  Sanat Yapıları Dai.Bşk.  
+Mehmet TOKGÖZ  Araştırma ve Geliştirme Başmühendisi  Karayolları 1.Bölge Müdürlüğü  
+Özkan KAÇAN  Tünel Bakım Onarım İşletme Şefi  Tesisler ve Bakım Dai.Bşk.  
+Rahşan YILDIRIM TELEK  Sanat Yapıları Şefi  İşletmeler Dai.Bşk.  
+Faruk YILDIZ  Sanat Yapıları Mühendisi  İşletmeler Dai.Bşk.  
+Fatih AKKAYA  Proje Şefi  Etüt ve Proje Dai.Bşk.  
+YOL ÜSTYAPISI ÇALIŞMA GRUBU  
+Muhammet KOMUT(Grup Başkanı)  Üstyapı Geliştirme Şubesi Müdürü (Grup Başkanı)  Ar-Ge Dai.Bşk.  
+Serdar KAŞAK  Üstyapı Geliştirme Şb.Md.Yrd.  Ar-Ge Dai.Bşk.  
+Burak SAĞLAM  Üstyapı Etüt Proje Şefi  Ar-Ge Dai.Bşk.  
+E. Nazan ÜNAL  Üstyapı Yönetim Sistem  Şefi Ar-Ge Dai.Bşk.  
+Hakan ORAL  Üstyapı Etüt Proje Şefi  Ar-Ge Dai.Bşk.  
+Mehmet Ali ALKAN  Üstyapı Etüt Proje Şefi  Ar-Ge Dai.Bşk.  
+Savaş Nedim TUTAN  Bitümlü Karışımlar Şefi  Ar-Ge Dai.Bşk.  
+Şenol ÇÖMEZ  Toprak ve Stabilizasyon Şefi  Ar-Ge Dai.Bşk.  
+Tuba ÖZTÜRK  Bitümlü Bağlayıcılar Şefi  Ar-Ge Dai.Bşk.  
+Mustafa DOĞAN  Yol Üstyapı Bakım Onarım Şubesi Müdürü  Tesisler ve Bakım Dai.Bşk.  
+Tolga DİNÇEL  Yol Üstyapı Şubesi Müdürü  Yol Yapım Dai.Bşk.  
+Ali Osman BAKİ  Bölge Müdür Yardımcısı  KÖSO Bölge Müdürlüğü  
+Hakan BENLİ  Araştırma ve Geliştirme Başmühendisi  Karayolları 7.Bölge Müdürlüğü  
+ÇEŞİTLİ İŞLER ÇALIŞMA GRUBU  
+Nilgün GÜNGÖR (Grup Başkanı)  Malzeme Lab. Şubesi Müdürü (Grup Başkanı)  Ar-Ge Dai.Bşk.  
+Emine ÖZCAN  Malzeme Lab. Şb.Md.Yrd.  Ar-Ge Dai.Bşk.  
+Nuran KÖKER  Fizik Laboratuvarı Şefi  Ar-Ge Dai.Bşk.  
+Nuri TEMUR  Kimya Laboratuvarı Şefi  Ar-Ge Dai.Bşk.  
+Furkan ATMACA  Mekanik Laboratuvarı Mühendisi  Ar-Ge Dai.Bşk.  
+Fatih ACIKÖK  Beton Laboratuvarı Mühendisi  Ar-Ge Dai.Bşk.  
+Arif POLAT  Trafik Güvenliği İşaretleme Şubesi Müdürü  Trafik Güvenliği Dai.Bşk.  
+Murat Dursun BARUT  Akıllı Ulaşım  Sistemleri Şubesi Müdürü  Trafik Güvenliği Dai.Bşk.  
+Mehmet ATAŞ  Yol Bakım Onarım Şubesi Müdürü  Tesisler ve Bakım Dai.Bşk.  
+Faruk Ziya ÖZTÜRK  Yol Bakım Onarım Şb.Md.Yrd.  Tesisler ve Bakım Dai.Bşk.  
+Tayfun ÖZSÖZ  Yol Bakım Şefi  Tesisler ve Bakım Dai.Bşk.  
+Çiğdem EHİL  Yol Boyu Gelişim Şefi  Tesisler ve Bakım Dai.Bşk.  
+Lale ÜNSAL  Trafik İşaretleme Şefi  İşletmeler Dai.Bşk.  
+Ozan Kaan YILDIZ  Yapım Şefi  İşletmeler Dai.Bşk.  
+Özlem  ALACA  Peyzaj İşleri Şefi  İşletmeler Dai.Bşk.  
+Engin SÜMER SARI  Mekanik Sistemler Şefi  İşletmeler Dai.Bşk.  
+Nurhan ACEMİ  Teknik İşler ve Programlama Şefi  Taşınmazlar Dai.Bşk.  
+ 
+--- SAYFA 5 ---
+
+  
+ 
+ 
+  
+ 
+i 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+  
+GİRİŞ  
+Karayolu Teknik Şartnamesinde (KTŞ) yer alan konuların değişmesi, gelişmesi, ilave konuların ortaya 
+çıkması ve standartlarda oluşan revizyonlar nedeni ile KTŞ’nin  güncellenmesi gereği duyulmuştur. 
+Karayolu Teknik Şartnamesinin 6. Revizyon çalışması beş adet çalışma grubu oluşturularak 
+gerçekleştirilmiştir. 1. Çalışma Grubu “Genel Hükümler, Proje Şartları ve Yol Altyapısı”, 2.Çalışma 
+Grubu “Dayanma Yapıları ve Şevlerin Desteklenmesi”, 3.Çalışma Grubu “Sanat Yapıları, Köprüler 
+ve Tüneller”, 4.Çalışma Grubu “Yol Üstyapısı”, 5.Çalışma Grubu “Çeşitli İşler” konularını 
+incelemişlerdir.  
+Şartname içerisinde ele alınan konuların kapsamları nedeni ile sadece metrik birimler 
+kullanılmamakta, bunun dışında birimler de yer almaktadır. Birimler arası dönüşüm kolaylığı 
+açısından giriş bölümünde bu birimler ile ilgili dönüşüm tabloları  da verilmiştir. 
+Şartnamenin 2023 yılında yayımlanan bu basımının elektronik versiyonu “ www.kgm.gov.tr ” 
+internet adresi mizden de erişilebilen e -devlet uygulaması üzerinden kullanıcılara açılmıştır . Bundan 
+sonra yapılacak Şartname revizyonlarının güncel hallerine bu adresten erişilebilir. Şartnamenin 
+sözleşme eki olacağı yapım işi ihalelerin de, isteklilerin teklif tarihi itibariyle Şartnamenin güncel 
+versiyonlarını yine bu adresten kontrol etmeleri gerekmektedir.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 6 ---
+
+  
+ 
+ 
+  
+ 
+ii 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+  
+AÇIKLAMALAR  
+ 
+Şartname güncelleme çalışmalarının yapılabilmesi için Karayolları Genel Müdürlüğünün 03.11.2021 
+tarihli “OLUR”u ile Güncelleme Komisyonu oluşturulmuştur. Genel Müdürlük Daire Başkanlıkları 
+ve Bölge Müdürlükleri ile ilgili kamu kurumlarından, özel sektör kuruluş ve temsilciliklerinden de 
+görüşler alınarak 6. revizyon gerçekleştirilmiştir. Aşağıda değişen bölümler, ilave olan bölümler ve 
+çıkartılan bölümler belirtilmiştir.  
+        
+Değişen Bölümler  
+ 
+KISIMLAR:    101-106, 151-154, 203-206, 209-211, 213-214, 216-218, 251-259, 304-309, 315-316, 318-352, 
+401-419, 503-507, 510-516, 518-525.      
+İlave Olan Bölümler   
+Kısım 10 7 Malzeme Ocaklarının İzin İşlemleri ve İşletilmesi  
+Kısım 108  Yüklenicinin İş Sağlığı ve Güvenliği Konusunda Yükümlülükleri  
+Kısım 221  Düşey Bant Dren Yöntemi ile Zemin İyileştirmesi 
+Kısım 222  Ayırma Amaçlı Geotekstil Kullanımı  
+Kısım 223  Yüksek Basınçlı Harç (Jet Grout) Uygulaması  
+Kısım 224  Derin Zemin Karıştırma (DZK) Uygulaması  
+Kısım 225  Genleştirilmiş Polistiren Blok (Geofoam) İle Dolgu Yapılması  
+Kısım 226  Zayıf Zeminlerde Geohücre Uygulamaları  
+Kısım 227  Kireç ile Kütle Stabilizasyonu  
+Kısım 420  Reçine Esaslı Emülsiyon Astar Bağlayıcılar  
+Kısım 421  Mastik Asfalt (MA)  
+Kısım 422  Asfalt Bordür  
+Kısım 423  Çelikhane Cürufunun Bitümlü Karışımlarda Yapay Agrega Olarak Kullanımı  
+Kısım 424  Köpük Bitümle Stabilize Temel (KBST)  
+Kısım 425  Yüzey Düzgünlüğünün Profilometre Ölçüm Cihazı ile Kontrolü  
+Kısım 509  Akıllı Ulaşım Sistemleri  
+Kısım 517  Sarsma Bandı Uygulaması (Oyuklu Tip)  
+Kısım 526  Yol Yüzeyine Dökülen Yağ, Yakıt ve Benzeri Petrol Türevi Sıvı Maddelerin 
+Temizlenmesinde Kullanılacak Emici (Sorbent) Malzemeler  
+ 
+Çıkartılan Bölümler  
+Kısım 509  Işıklı  İşaret / Sinyalizasyon Tesisleri  
+Kısım 517  Otoyol Peyzaj Proje, Yapım ve Bakım İşleri  
+ 
+--- SAYFA 7 ---
+
+  
+ 
+ 
+  
+ 
+iii 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+  
+ 
+BİRİM SİSTEMLERİ, BİRİM DÖNÜŞÜMLERİ  
+ 
+ 
+ULUSLARARASI BİRİM SİSTEMİ   SI (Fransızca: Système international d'unités ) 
+ 
+TEMEL BİRİMLER  
+Fiziksel Nicelik Birim Sembol 
+Uzunluk metre m 
+Kütle  kilogram kg 
+Zaman saniye s 
+Elektrik Akımı  Amper A 
+Termodinamik Sıcaklık  Kelvin K 
+Işık Şiddeti  Kandela cd 
+Madde Miktarı  Mol mol 
+ 
+S.I. BİRİM SİSTEMİ - İNGİLİZ, US BİRİM SİSTEMİ -  DÖNÜŞÜM FAKTÖRLERİ  
+ÇEVİR  ÇARP AN ELDE EDİLEN / ÇEVİR  ÇARP AN ELDE EDİLEN  
+Uzunluk  
+inches, in*** 25,4 x 103 mikrometre, µm 0,0393701 x 10-3 inches, in*** 
+inches, in*** 25,4 milimetre, mm 0,0393701 inches, in*** 
+inches, in*** 0,0254 metre, m 39,3701 inches, in*** 
+feet, ft 0,3048 metre, m 3,28084 feet, ft 
+yards, yd 0,9144 metre, m 1,09361 yards, yd 
+miles, mi 1,609344 kilometre, km 0,621371 miles, mi 
+Kütle  
+ounce, oz 28,349 x 103 miligram, mg 0,0352739 ounce, oz 
+ounce, oz 28,34952 gram, g 0,0352739 x 10-3 ounce, oz 
+pound, lb 453,59237 gram, g 0,00220463 pound, lb 
+Alan  
+square inch, in2 645,16 milimetre kare, mm2 0,00155 square inch, in2 
+square inch, in2 0,00064516 metre kare, m2 1550,00 square inch, in2 
+square feet, ft2 0,09290304 metre kare, m2 10,7639 square feet, ft2 
+square yard, yd2 0,836127 metre kare, m2 1,19599 square yard, yd2 
+acres, ac 0,404685642 * hektar, ha 2,4710538 acres, ac 
+square miles, mi2 2,58998811 kilometre kare, km2 0,3861022 square miles, mi2 
+ 
+* SI birim sisteminde olmayan, SI birim sistemi tarafından kabul edilen birim.  
+** SI birim sisteminde olmayan, SI birim sisteminde türetilmiş birim.  
+*** ASTM E 11 ve AASTHO M 92 standartlarında  elekler için 1 in = 25 mm olarak alınmaktadır.  
+ 
+--- SAYFA 8 ---
+
+  
+ 
+ 
+  
+ 
+iv 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+  
+S.I. BİRİM SİSTEMİ - İNGİLİZ, US BİRİM SİSTEMİ -  DÖNÜŞÜM FAKTÖRLERİ   (devam) 
+ 
+ÇEVİR  ÇARPAN  ELDE EDİLEN / ÇEVİR  ÇARPAN  ELDE EDİLEN  
+Hacim  
+cubic inch, in3 16387,064 milimetre küp, mm3 61,0237 x 10-6 cubic inch, in3 
+cubic inch, in3 16,387064 santimetre küp, cc, cm3 0,06102374 cubic inch, in3 
+cubic foot, ft3 0,0283168 metre küp, m3 35,3147 cubic foot, ft3 
+cubic yard, yd3 0,764555 metre küp, m3 1,30795 cubic yard, yd3 
+gallon, gal. 3,78541 * litre, l = 0,001 m3 0,264172 gallon, gal. 
+fluid ounces, fl oz 29,5735296   
+ * mililitre, ml  0,033814 
+ fluid ounces, fl oz 
+(ing.) gallon, gall 4,5460919 * litre, l 0,2199692 (ing.) Gallon, gall 
+(US) gallon, gall 3,7854118 * litre, l 0,2641721 (US) Gallon, gall 
+Sıcaklık  
+ÇEVİR  ÇARPAN  ELDE EDİLEN / ÇEVİR  ÇARPAN  ELDE EDİLEN  
+degree fahrenheit, ºF  (5/9)( ºF -32) * santigrat derece, ºC  1,8 x ºC + 32  degree fahrenheit, ºF  
+deg. centigrade, ºC  ºC+273,15  Kelvin, ºK  ºK – 273,15 deg. centigrade, ºC  
+Zaman  
+second, s 0,016666 dakika, dk 60 second, s 
+second 2,7777 x10-4 saat, saa 3600 second 
+second 1,1574 x 10-5 gün, g  86400 second 
+minutes, min 6,9444 x10-4 gün, g  1440 minutes, min 
+Kuvvet  
+pound force, lb-f ≈ 4,44822 ** newton =  kg x m/s2, N ≈ 0,224809 pound force, lb-f 
+kilopond, kp   ≈ 9,80655 ** newton, N  ≈ 0,101973 kilopond, kp   
+Gerilme (birim alana uygulanan kuvvet)  
+pounds per sq. ft, 
+lb/ft2, psf 47,8803 ** pascals, Pa = N/m2 0,0208854 pounds per sq. ft, 
+lb/ft2, psf 
+psf 0,0478803 ** kilopascal, kPa, kN/m2 20,8854 psf 
+pounds per sq. inch, 
+lb/in2, psi 6894,7572 ** pascals, Pa 0,000145038 pounds per sq. inch, 
+lb/in2, psi 
+psi 6,89476 ** kilopascal, kPa 0,145038 psi 
+Aydınlatma  
+foot-candle, lm/ft²,  
+fc ≈ 10,794 ** lüks  = lm/m2, lx  0,0929 foot-candle, lm/ft²,  fc 
+foot-lambert, fl 3,42583 ** lüminans kandela/ m2 0,2919 foot-lambert, fl 
+ 
+* SI birim sisteminde olmayan, SI birim sistemi tarafından kabul edilen birim. 
+** SI birim sisteminde olmayan, SI birim sisteminde türetilmiş birim.  
+*** ASTM E 11 ve AASTHO M 92 standartlarında elekler için 1 in = 25 mm olarak alınmaktadır.  
+ 
+ 
+--- SAYFA 9 ---
+
+  
+ 
+ 
+  
+ 
+v 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+ BÖLÜM / 
+Kısım  İ Ç İ N D E K İ L E R   Sayfa/ 
+Kısım 
+BÖLÜM 100  GENEL HÜKÜMLER   
+Kısım 101  TERİMLER, KISALTMALAR VE ŞARTNAME DÜZENİ  1-14/101 
+Kısım 102  İŞİN KONTROL EDİLMESİ   1-2/102 
+Kısım 103  MALZEMENİN KONTROLÜ VE MUHAFAZASI  1/103 
+Kısım 104  PATLAYICI MA DDELERİN TAŞINMASI, DEPOLANMASI VE 
+KULLANILMASI 1-3/104 
+Kısım 105  ÇEVRENİN KORUNMASI  1-4/105 
+Kısım 106  YAPI MALZEMELERİ MEVZUATI UYGULAMALARI, CE VE G İŞARETİ  1-2/106 
+Kısım 107  MALZEME OCAKLARININ İZİN İŞLEMLERİ VE İŞLETİLMESİ  1-4/107 
+Kısım 108  YÜKLENİCİNİN İŞ SAĞLIĞI VE GÜVENLİĞİ KONUSUNDA 
+YÜKÜMLÜLÜKLERİ  1-6/108 
+   
+BÖLÜM 150  PROJE ŞARTLARI   
+Kısım 151  ŞANTİYENİN KURULMASI   1/151 
+Kısım 152  YÜKLENİCİ TARAFINDAN KALİTE KONTROL SİSTEMİNİN 
+OLUŞTURULMASI  1-2/152 
+Kısım 153  YÜKLENİCİ TARAFINDAN NUMUNE ALI NMASI VE TEST YAPILMASI  1-2/153 
+Kısım 154  YOL YAPIM, BAKIM VE ONARIM ÇALIŞMALARINDA TRAFİĞİN 
+KONTROLÜ  1-3/154 
+Kısım 155  TOPRAK EROZYONUNUN KONTROL EDİLMESİ   1-2/155 
+Kısım 156  TOZ KONTROLÜ İÇİN SULAMA  1/156 
+   
+BÖLÜM 200  YOL ALTYAPISI   
+Kısım 201  AĞAÇ  KESME, KÖK SÖKME VE TEMİZLEME İŞLERİ  1-2/201 
+Kısım 202  İNŞAAT ALANINDA YER ALAN YAPI VE ENGELLERİN KALDIRILMASI  1/202 
+Kısım 203  ZAYIF ZEMİNLER  1-7/203 
+Kısım 204  KAZI İŞLERİ  1-8/204 
+Kısım 205  KÖPRÜ VE SANAT YAPILARI ÇEVRESİNDEKİ KAZI VE DOLGU İŞLERİ  1/205 
+Kısım 206  DOLGULAR 1-10/206 
+Kısım 209  KAZI FAZLALIKLARININ KALDIRILMASI 1-2/209 
+Kısım 210  İNCE TESVİYE YÜZEYİ  (REGLAJ) 1-2/210 
+--- SAYFA 10 ---
+
+  
+ 
+ 
+  
+ 
+vi 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+ BÖLÜM / 
+Kısım  İ Ç İ N D E K İ L E R   Sayfa/ Kısım  
+Kısım 211  İNCE TESVİYE YÜZEYİNİN ONARIMI  1/211 
+Kısım 212  BANKETLER 1/212 
+Kısım 213  TOPRAK YOLLARIN İNCE TESVİYESİ  1/213 
+Kısım 214  MEVCUT YOLLARDA İNCE TESVİYE YÜZEYİNİN YENİDEN 
+HAZIRLANMASI 1/214 
+Kısım 215  SULAMA 1/215 
+Kısım 216  MEVCUT YOLLARIN ONARIMI VE BİTÜMLÜ KAPLAMA İÇİN 
+HAZIRLANMASI 1/216 
+Kısım 217  KULLANILMAYAN /TERKEDİLEN YOL KESİMLERİNİN 
+DÜZENLENMESİ  1/217 
+Kısım 218  KİREÇ İLE ZEMİN STABİLİZASYONU  1-12/218 
+Kısım 2 21 DÜŞEY BANT DREN YÖNTEMİ İLE ZEMİN İYİLEŞTİRMESİ  1-2/221 
+Kısım 2 22 AYIRMA AMAÇLI GEOTEKSTİL KULLANIMI  1-4/221 
+Kısım 2 23 YÜKSEK BASINÇLI HARÇ (JET  GROUT) UYGULAMASI 1-5/223 
+Kısım 2 24 DERİN ZEMİN KARIŞTIRMA (DZK) UYGULAMASI  1-5/224 
+Kısım 2 25 GENLEŞTİRİLMİŞ POLİSTİREN BLOK (GEOFOAM) İLE DOLGU 
+YAPILMASI 1-11/225 
+Kısım 2 26 ZAYIF ZEMİNLERDE GEOHÜCRE UYGULAMALARI  1/226 
+Kısım 2 27 KİREÇ İLE KÜTLE STABİLİZASYONU  1-7/227 
+   
+BÖLÜM 250  DAYANMA YAPILARI VE ŞEVLERİN DESTEKLENMESİ   
+Kısım 251  GABİON YAPILMASI  1-12/251 
+Kısım 252  ŞERİT DONATILI ZEMİN DUVAR  1-4/252 
+Kısım 253  KAYA BULONU YAPIMI 1-4/253 
+Kısım 254  ZEMİN ÇİVİLİ DUVAR YAPIMI  1-4/254 
+Kısım 255  ZEMİN ANKRAJI YAPIMI  1-4/255 
+Kısım 256  GEOGRİD DONATILI ZEMİN DUVAR  1-4/256 
+Kısım 25 7 ÖNCEDEN DÖKÜMLÜ (PRECAST) MODÜLER DUVAR SİSTEMİ  1-3/257 
+Kısım 258  GEOHÜCRE (GEOCELL) DONATILI ZEMİN DUVAR  1-3/258 
+Kısım 259  ÇELİK TUTUCU AĞ SİSTEMLERİ  1-7/259 
+   

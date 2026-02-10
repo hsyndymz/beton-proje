@@ -1,0 +1,865 @@
+--- SAYFA 90 ---
+
+ KISIM 206 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-206/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+206/7 
+Dolgularda kullanılacak uçucu kül malzemelerine de siltlere uygulanan sıkıştırma tekniği 
+uygulanacaktır. Siltli topraklarda kil oranı arttığında, killi topraklarda uygulanan sıkıştırma tekniği 
+kullanılabilecektir. 
+206.06.02 Granüler Malzemelerin Sıkıştırılması 
+Granüler malzemeler, AASHTO toprak sınıflandırma sistemine göre A-1, A-2 ve A-3 sınıfı 
+malzemelerdir. Bu sınıftaki malzemeler aşağıda belirtildiği gibi ve Tablo-206-6'da verilen 
+sıkıştırma kriterlerine uygun olarak sıkıştırılacaktır. 
+Sıkıştırma sırasında, malzemenin su içeriği, Standart Proktor metodu ile bulunan optimum su içeriği 
+Wopt±2 değerleri arasında kalacaktır. Sıkıştırma işlemi, çalışma ağırlığı en az 11.000 kg, statik 
+çizgisel yükü 30 kg/cm’den büyük, iki frekanslı vibrasyon sistemli düz bandajlı silindirlerle 20-30 
+cm kalınlığında tabakalar halinde yapılacaktır. Silindir kapasitesinin artması durumunda tabaka 
+kalınlığı 30-40 cm'ye yükseltilebilecektir. 
+206.06.03 Kaya Dolguların Sıkıştırılması 
+İçerisinde ağırlık olarak % 50’den fazla miktarda 75 mm’den büyük tane içeren malzemeler kaya 
+dolgu olarak inşa edilecektir. 
+Kaya malzemesi ile teşkil edilen veya üstyapı tabanı kaya malzemesi ile oluşturulan dolgularda 
+düzgün bir yüzey elde edilememesi ve bu durumun İdare tarafından tespit edilmesi halinde ince 
+tesviye tabakası olarak üstyapı projelendirme raporunda belirtilen kalınlıkta, fiziksel özellikleri 
+alttemel malzemesi niteliklerine uygun malzeme getirilerek serilecek, sulanıp sıkıştırılacak ve 
+düzeltme tabakası oluşturulacaktır. Bu malzeme, daha önceden belirlenmiş ocaklardan veya Kontrol 
+Mühendisliği tarafından uygun bulunan kazı malzemesinden alınabilir.  
+Kaya dolgularda kullanılan malzemeler maksimum dane boyutu 500 mm olan sağlam ve dayanıklı 
+danelerden oluşacaktır. Kaya dolgu olarak kullanılacak malzemelerde Los Angeles parçalanma 
+kaybı (TS EN 1097-2, AASHTO T 96) maksimum % 45 olacaktır.  
+Kazı malzemesi içerisinde iri kayalar varsa dolgu tabakasına getirilmeden önce parçalanarak gerekli 
+boyutlara indirilecektir. Dolguyu alttaki suyun etkisine karşı korumak ve sağlam bir iskelet yapı 
+oluşturmak için alt kısımlarda iri malzeme, üst tabakalara çıkıldıkça boyutlar küçültülerek boşluk 
+oluşturmayacak şekilde kaya dolgunun serilip sıkıştırılarak teşkil edilmesi sağlanacaktır. Bu 
+dolgularda tabaka kalınlığı 750 mm’yi geçmemek üzere malzemenin en büyük dane boyutunun en 
+fazla 1,5 katı olacak şekilde serilecektir. 
+Su ve basınç altında dağılabilen kiltaşı, marn, silttaşı, fliş vb. ayrışma eğilimli zayıf kayalar 
+kullanılması halinde kaya dolgu olarak değerlendirilmeden, ileride oturmalar yaratmayacak şekilde 
+dolgu malzemesi olarak kullanılabilecektir. Bu nedenle, zayıf daneler serme ve sıkıştırma sırasında 
+mekanik olarak parçalanarak, toprak dolgu gibi maksimum 30 cm kalınlığında sıkışmış tabakalar 
+elde edecek şekilde serilecektir. Ayrışma eğilimli kayaçlar içinde boyutu 200 mm’den daha büyük 
+sağlam parçalar varsa maksimum dane boyutu 200 mm’ye küçültülerek 30 cm kalınlığında tabakalar 
+halinde inşa edilecektir. 
+Aynı dolgu kesitinde hem toprak hem kaya dolgu malzemesi kullanılması zorunlu ise kaya dolgu 
+malzemesi dolgunun ilk tabakalarının, toprak dolgu malzemesi ise daha üst tabakaların teşkilinde 
+kullanılacaktır. 
+Kaya dolgular, paletli dozerler kullanılarak serilecektir. Kaya dolgu malzemesi, yayılarak serilecek 
+ve boşluk oluşmaması için, iri kaya parçalarının arası ince kaya parçaları ile doldurulacak şekilde 
+yerleştirme yapılacaktır. Sıkıştırma için, ihtiyaç duyulursa malzemeye su ilave edilecek veya ince 
+--- SAYFA 91 ---
+
+ KISIM 206 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-206/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+206/8 
+kısmın rutubeti fazla ise gerekli kurutma işlemi yapılacaktır. Sıkıştırma işleminde yeterli kapasitede 
+vibrasyonlu düz bandajlı silindirler kullanılacaktır. 
+Her tabakanın sıkıştırılması tamamlandıktan sonra, yüzeyde oluşan boşluklar, kaya dolgu 
+malzemesinin ince kısımları kullanılarak doldurulacaktır.  
+Kaya dolgu yapımına başlandığında, inşa edilen yolun 1.000 m2’lik bir kesiminde yeterli sıkıştırma 
+için gerekli olan, silindirin hızı ve geçiş sayısı ile tabaka kalınlığını belirlemek amacıyla deneme 
+kesimi yapılacaktır.  
+Deneme kesiminde belirlenen sıkıştırma tekniği Kontrol Mühendisliğinin onayından sonra, 
+malzemenin cinsi ve gradasyonu değişmediği sürece aynen uygulanacaktır. Dolguda kullanılacak 
+her yeni malzeme için silindiraj tekniği ayrıca belirlenecektir. 
+Kaya dolgularda sıkışma kontrolü, dolgu yapımında kullanılan malzemenin tabaka tabaka dökülüp, 
+her bir tabakanın sıkıştırılması sırasında, 15 ton statik ağırlığındaki silindirin son iki geçişindeki 
+toplam oturma miktarı 6 mm’den az ise yeterli sıkışmanın elde edilmiş olduğu kabul edilecektir.  
+Sıkışmaya esas olacak kot okumaları yüzey boşluklarının doldurulmasından sonra ve enkesitte en 
+az her 5 m’de boy kesitte ise en az 20 m’de bir alınacaktır. Kontrol Mühendisliğinin gerekli gördüğü 
+durumlarda kot okumaları daha sık aralıklarla yapılacaktır. 
+206.07 Dolgularda Sıkışma Kriterleri 
+Kaya dolgular dışında kalan tüm dolgular, su içeriği ve birim ağırlık kontrolü yapılarak inşa 
+edilecektir. Dolgularda istenilen minimum sıkışma yüzdeleri Tablo-206-6 ' da verilmiştir. 
+Tablo-206-6 Dolgularda Sıkışma Kriterleri 
+ Minimum 
+Sıkışma (%) Deney Standardı 
+Tesviye Yüzeyi Altındaki İlk 100 cm  100 Standard Proktor   
+TS 1900-1, AASHTO T 99 
+100 cm Altındaki Dolgu Tabakaları  95 Standard Proktor   
+TS 1900-1, AASHTO T 99 
+ 
+Dolguların sıkışma kontrolünde kullanılacak olan arazi kuru birim ağırlığı  tayin  metodu, dolgunun 
+kontrol edilen kesiminde kullanılan malzemenin içerdiği maksimum dane boyutuna göre Tablo-
+206-7’den seçilecektir. 
+Dolguların; her tabakasının sıkışma değerleri saptanacaktır. 
+Tablo-206-7 Arazide Kuru Birim Ağırlık Tayin Metotları 
+Deney Adı Malzemenin Maksimum 
+Tane Boyutu Deney 
+Standardı 
+ inç mm  
+Kum Konisi 
+Metodu 6” çapında 2 50 TS 13872,   
+AASHTO T  191 
+12” çapında 3 75 TS 13872,   
+AASHTO T  191 
+Nükleer Metot 1,5 37,5 TS 13877, ASTM D 6938, 
+ASTM D 8167 , AASHTO T 310  
+Elektromanyetik Metot 1,5 37,5 TS 13876, ASTM D 7830 
+--- SAYFA 92 ---
+
+ KISIM 206 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-206/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+206/9 
+75 mm'den daha büyük daneler içeren malzemelerle yapılan dolgularda sıkışma kontrolü için geçerli 
+bir metot olmamakla beraber sıkıştırılan tabakanın 75 mm'den daha küçük tane içerdiği düşünülen 
+kesimlerinde Kontrol Mühendisliğinin isteğiyle kum konisi metoduyla sıkışma kontrolü yapılabilir. 
+19 mm'den daha büyük dane içeren malzemelerle yapılan dolgularda sıkışma kontrolünde, 
+AASHTO T 224 düzeltme metodu uygulanacaktır. 
+206.08 Kalite Kontrol Deneyleri 
+Yapım sırasında kullanılan malzemeyi  ve oluşturulan tabakaları kontrol etmek amacıyla, belirli 
+aralıklarla yapılması gereken deneyler  ve sayıları Tablo-206-8’de verilmiştir. 
+Kalite kontrol deneyleri en az Tablo-206-8’de verilen sayıda olmak koşuluyla, Kontrol 
+Mühendisliğince uygun görülen ara  ve sıklıkta yapılacaktır. 
+Tablo-206-8 Kalite Kontrol Deneyleri 
+Deney Minimum Deney Sayısı 
+Likit Limit-Plastik Limit 
+TS EN ISO 17892 -12, AASHTO T  89-90 Her 1.000 m3’de ve her farklı dolgu 
+malzemesinde bir deney  
+Doğal Su İçeriği  
+TS EN ISO 17892 -1 Her 1.000 m3’de ve her farklı dolgu 
+malzemesinde bir deney  
+Kuru Birim Ağırlık-Su İçeriği İlişkisi 
+TS 1900 -1, AASHTO T  99 Her 10.000 m3’de ve her farklı dolgu 
+malzemesinde bir deney  
+Yaş CBR % 
+TS 1900 -2, AASHTO T  193 Her 10.000 m3’de ve her farklı dolgu 
+malzemesinde bir deney  Sıkışma Kontrolü Kum Konisi Metodu                                            
+TS 13872 , AASHTO T 191  Her tabakada 1.000 m2’ de bir deney 
+Nükleer Metot *  
+TS 13877, ASTM D 6938, ASTM D 
+8167 , AASHTO T 310  Her tabakada 250 m2’ de bir deney 
+Elektromanyetik Metot * 
+TS 13876, ASTM D 7830  Her tabakada 250 m2’ de bir deney 
+* Sıkışma kontrolünün bu metotlarla yapılması durumunda, işin başlangıcında en az 10 farklı 
+noktada alınan sıkışma deney sonuçları ile Kum Konisi ile yapılan sıkışma deney sonuçlarının 
+korelasyonu yapılacak, ayrıca her 2.500 m2’de bir kum konisi ile doğrulama amaçlı sıkışma 
+kontrolü yapılacaktır. Kalite kontrol deneyleri, en az bu tabloda belirtilen sayıda olmak üzere, 
+Kontrol Mühendisliği nce uygun görü len ara ve sıklıkta yapılacaktır.  
+ 
+206.09 Deneme Kesimi Yapımı 
+Kaya dolgular hariç, dolgu yapımında kullanılan her malzeme için kullanılan sıkıştırma makinesine 
+bağlı olarak sıkıştırma tekniğinin belirlenmesi zorunludur.  
+Bunun için işin başlangıcında 1.000 m2 ’lik bir alanda kullanılan sıkıştırma makinelerinin hızı, geçiş 
+sayısı, makinelerin kullanım önceliği ve sıkıştırılacak tabaka kalınlığı tespit edilecektir. 
+Deneme kesiminde belirlenen sıkıştırma tekniği, yazılı olarak sıkıştırma makinelerinde 
+bulundurulacak ve sıkıştırma sırasında makine operatörleri tarafından uygulanacaktır. 
+Sıkıştırma tekniğinin belirlenmesi yüklenici tarafından yapılacak; söz konusu tekniğin uygulanması 
+sonucu şartnamede istenilen sıkışma yüzdesine erişilip erişilmediği Kontrol Mühendisliğince 
+onaylanacaktır. 
+--- SAYFA 93 ---
+
+ KISIM 206 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-206/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+206/10 
+Deneme kesimi yapımında aşağıda belirtilen hususlara dikkat edilecektir. 
+a. Test sahasında en az dört silindirleme şeridi kullanılacak, bindirmeler bandaj 
+genişliğinin %10’undan az olmayacaktır. Şeritlerin tümünde ilk geçiş tamamlanmadan 
+ikinci geçiş yapılmayacaktır. 
+b. Sıkıştırılacak tabaka kalınlığı Kısım  206.06 ’da belirtildiği gibi malzeme cinsi ve sıkıştırma 
+makinesinin kapasitesine göre seçilecektir.  
+206.10 Doğrulama Testis 
+Doğrulama testi, yapılan dolgu tabakasının ve ona destek olan yol tabanının üniform olup 
+olmadığını ortaya koymak, dolguda ve yol tabanında yer alan zayıf ve sıkışmamış kesimleri 
+belirlemek için uygulanır.  
+Bu testin uygulanması sırasında; 
+1. Doğrulama testinde kullanılacak ekipman lastik tekerlekli silindir, çift dingilli kamyon veya 
+sulamada kullanılan arazöz olabilir. 
+2. Bu test için kullanılacak lastik tekerlekli silindirin tekerleri eşit aralıkta olacak ve yükü eşit 
+şekilde dağıtacaktır.  
+3. Test için kullanılacak ekipman/araç 30–40 ton ağırlığında yük alabilecek kapasiteye sahip 
+olacaktır. 
+4. Ekipman/araca ait lastikler; 90-150 psi (620-1040 kPa) değerinde basınç kapasitesine sahip 
+olacaktır. Test uygulanmadan önce lastiklerin basınçları ölçülecek ve kayıt edilecektir. 
+206.10.01 Uygulama 
+Dolgu tabakasının sıkıştırılması tamamlandıktan sonra üzerine yeni tabaka serilmeden önce Kontrol 
+Mühendisliği tarafından belirlenen yol kesimlerinde doğrulama testi yapılacaktır. 
+Doğrulama testinin yapılacağı dolgu malzemesinin su içeriği, test sırasında en az Wopt–4’ü 
+değerinde olmalıdır.  
+Test yapılmasında kullanılacak ekipman/araç; lastik basınçları ve üzerine yüklenecek yük miktarı 
+belirlenerek ayarlanacaktır. 
+Doğrulama testi sırasında ekipman/araç, hızı 4-8 km/saat olacak şekilde hareket edecektir. Ancak 
+ekipman/aracın hareket hızı üzerinden geçtiği tabakada oluşabilecek esneme, defleksiyon, çökme 
+vb. unsurların belirlenmesi ve ölçülmesine izin verecek şekilde ayarlanabilecektir. 
+Doğrulama testi bir veya daha fazla sayıda pas yapılarak gerçekleştirilecektir. Bu geçişler sırasında 
+lastik tekerlekler dolgu tabakasının farklı alanlarına basacaktır. 
+Doğrulama testi ile belirlenen; aşırı esneme gösteren, gevşek ve çöken dolgu kesimlerinde, üniform 
+stabilite göstermeyen kesimlerde inceleme yapılarak problemin kaynağı araştırılacaktır. Bu kesimde 
+yer alan dolgu malzemesinden numune alınarak incelenecektir.  
+Doğrulama testi sonucunda tespit edilen tüm zayıf, yumuşak, çöken kesimlerde dolgu ve yol tabanı 
+yüklenici tarafından açılacak, zayıf tabaka kazılıp atılacak yerine uygun dolgu veya seçme malzeme 
+getirilerek iyileştirilecektir. Ayrıca dolgu tabakası üzerinde belirlenen tüm yüzey düzgünsüzlükleri 
+düzeltilerek giderilecektir. 
+--- SAYFA 94 ---
+
+KISIM 209 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-209/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+209/1 
+209.  KAZI FAZLALIKLARININ KALDIRILMASI 
+209.01 Tanım  
+Bu kısım; sanat yapıları için yapılmış kazılar da dahil olmak üzere kazılmış her türlü fazla 
+malzemenin, tırmıklama ile yüzeye çıkarılan kayaların ve bütün atıkların bu kısımda belirtilen 
+şartlara uygun olarak kaldırılmasını kapsar. 
+209.02 Yapım Şartları 
+Kazılardan artan veya kaldırılmayacak olan bütün malzeme öncelikle dolguların genişletilmesinde, 
+şevlerin eğimlerinin azaltılmasında veya park ve dinlenme yerlerinin teşkili için kullanılacaktır. Bu 
+durumda malzeme yol dolgusu ile birlikte ve aynı teknik şartlarda, Kısım 206 “Dolgular” 
+bölümünde belirtilen esaslara uygun olarak teşkil edilecektir. Dolgu yapımına uygun olmayan veya 
+kazı fazlası malzeme için ise Depolama Projesi hazırlanması gerekir.  
+209.02.01 Depolama Projesi 
+Projesinde depo yerleri için “Depolama Projesi” hazırlanmayan fakat projesinde depo yerleri 
+gösterilmiş veya depo yerlerinin temini yükleniciye bırakılmış işlerde her bir depo yeri için 
+aşağıdaki hususlara dikkat edilerek ayrı ayrı “Depolama Projesi” yapılıp idare tarafından 
+onaylanacaktır. 
+1. Kamulaştırma ve/veya izin sahalarını gösteren paftalar ve ilgili belgeler 
+2. Çevre mevzuatı gereği alınması zorunlu izin belgeleri 
+3. Depo sahasının topoğrafik haritası ile heyelan haritaları 
+4. Depo sahasının zemini ile ilgili genel ve jeolojik değerlendirmeleri içeren Jeolojik-Jeoteknik 
+Etüt Raporu 
+5. Depo edilecek malzemenin şevli kotlu planı, şev değerlerini gösteren jeolojik enkesitleri 
+6. Depo miktarı ve deponun oturacağı taban zeminine bağlı olarak gerekmesi halinde detaylı 
+Geoteknik Proje Raporu 
+7. Drenaj planları ve ihtiyaç duyulan sanat yapıları ile diğer tutucu yapılara ait projeler yer 
+alacaktır. 
+209.02.02 Depo Yerlerinin Seçiminde Dikkat Edilmesi Gereken Hususlar  
+1. Tabiat ve Kültür Varlıkları koruma alanları, maden sahaları, su kaynakları vb. sahalar depo 
+sahası olarak seçilmeyecektir.  
+2. Dere yatakları, deniz ve göl kıyılarına depo zorunluluğu var ise taşkın sahaları ve kıyı kenar 
+çizgilerine dikkat edilecek, suyun drenajının devamlılığı engellenmeyecektir. Konuyla ilgili 
+olarak Devlet Su İşleri, Çevre ve Şehircilik Bakanlığı vb. kurumlardan gerekli izinler alınacaktır.  
+3. Baraj göllerine denk gelen yerlerde su hareketinin (suyun alçalıp yükselmesi durumu) depo 
+sahasıyla etkileşimi göz ardı edilmeyecektir.  
+4. Yeni bir stabilite problemine sebep olmaması için aktif ve/veya pasif heyelan sahaları ile jeolojik 
+açıdan zayıf olduğu düşünülen birimlerin (yamaç molozu, suya doygun yüksek plastisiteli kil, 
+şist, kiltaşı vb.) depolama alanı olarak kullanılmamasına özen gösterilecektir.  
+--- SAYFA 95 ---
+
+KISIM 209 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-209/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+209/2 
+5. Tüm canlıların doğal yaşam alanları arasında engel oluşturabilecek araziler depolama sahası 
+olarak kullanılmayacaktır.  
+6. Depo sahasında akaryakıt, gaz, içme ve kullanma suyu naklinde kullanılan boru hatları, elektrik 
+iletim hatları vb. bulunmamalıdır.  
+7. Hakim rüzgar yönü dikkate alınmalıdır.  
+Depo alanlarına yapılacak dolgular Kısım 206 “Dolgular” bölümünde belirtilen esaslara uygun 
+olarak teşkil edilecektir. Zorunlu haller nedeniyle depo sahası yol platformuna bitişik seçilmişse, 
+dolguya uygun olmayan depo malzemesin yol platformunu etkilemeyecek şekilde depolanması 
+gerekmektedir. 
+Depo alanlarının depolamadan sonra belirlenmiş bir kullanım amacı var ise saha üzerinde şev ve 
+palyelerde amaca uygun düzenleme yapılacaktır. Eğer önceden belirlenmiş bir amaç yok ise tüm 
+saha şev ve palyeler bitkilendirmeye uygun hale getirilecek ve yüzeyler önceden ayrılmış bitkisel 
+toprakla kaplanacaktır.  
+ 
+ 
+--- SAYFA 96 ---
+
+ KISIM 210  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-210/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+210/1 
+210.  İNCE TESVİYE YÜZEYİ (REGLAJ)  
+210.01 Tanım 
+Bu kısım; sanat yapıları ve toprak işlerinin önemli ölçüde tamamlanmasından sonra yol tesviye 
+yüzeyinin, hendeklerin, dolgu ve yarma şevlerinin düzgün ve iyi bir şekilde ince tesviyesinin 
+yapılmasını kapsar. 
+210.02 Yapım Şartları 
+Sanat yapılarının ve toprak işlerinin ait oldukları kısımlarda belirtilen esaslar dahilinde yapılarak 
+tamamlanmasından sonra ince tesviye yüzeyinin, hendeklerin, dolgu ve yarma şevlerinin 
+enkesitlerdeki şekil, boyut ve kotlara uygun olarak greyder veya diğer bıçaklı tesviye makineleri ve 
+el işçiliği ile veya tamamen el işçiliği ile ince tesviyesi yapılacaktır. 
+Sanat yapıları ve toprak işleri ait oldukları kısımlarda belirtilen esaslar dahilinde tamamlanmadan 
+yapılacak reglaj işleri için hiçbir ödeme yapılmayacaktır. 
+Toprak yarma ve dolgu tabanlarında (bitkisel toprak kazısı sonrasında) taban toprağı en az 20 cm 
+kabartılacak ve gerekli ise su verme veya kurutma işlemi yapılarak istenilen kuru birim ağırlık elde 
+edilinceye kadar sıkıştırılacaktır. 
+Kısım 206 “Dolgular” bölümündeki Tablo-206-1'de verilen dolgu malzemesi özelliklerine uygun 
+olmayan malzemeler ve yaş CBR < 10 olan malzemeler üstyapı tabanı olarak kullanılmayacaktır. 
+Üstyapı tabanı malzemesinin, kaya veya düzgün bir yüzey vermeyecek yoğunlukta 3” üzeri 
+malzeme içerdiği yol kesimlerinde yüzeyde yer alan boşlukların ince kaya malzeme ile tesviyesinin 
+yapılamadığı durumda projesinde önerilmiş 15 cm düzeltme amaçlı alttemel tabakasının 5 cm'si 
+greyder ile serilerek olabildiğince düzgün bir yüzey elde edilecek, bu yüzey üzerine 10 cm eksik 
+alttemel tabakası finişer ile serilecektir. 
+Yüklenici, yol yüzeyinin ince tesviyesini iyi bir şekilde tamamlamış olsa dahi her yağmur 
+yağışından sonra, yol yüzeyi makinelerin çalışmasına uygun bir duruma girdikten sonra greyder 
+veya Kontrol Mühendisliğinin izin verdiği makine ve teçhizat kullanarak gerekli düzeltmeleri ve 
+tesviye yüzeyinin beklenen şartları sağlayacak şekilde bakımını yapmakla mükelleftir. 
+İnce tesviye yüzeyi üzerine alttemel veya temel tabakasının serilmekte olduğu noktadan itibaren, 
+serim işlemlerinin ilerlediği yönde; en az 1 km uzunluğunda ince tesviye yüzeyinin tam olarak 
+hazırlanmış olması gereklidir. Ancak 2 km’den daha kısa olan projelerde ve şehir geçişlerinde bu 
+şart aranmayacaktır. 
+Kontrol Mühendisliği tarafından aksi belirtilmedikçe ince tesviye yüzeyi kotundan en az 50 cm 
+derinliğe kadar rastlanan 8 cm’den büyük çapta olan kökler, kütükler vb. maddeler yerlerinden 
+çıkartılıp taşınarak kaldırılacaktır. 
+Bu işlem sonunda oluşan her türlü çukur ve oyuklar uygun seçme malzeme ile doldurulacak, 
+projelerde gösterilen kot ve eğimlere uygun şekilde tesviye edilecektir. 
+210.03 İnce Tesviye Yüzeyinin Korunması 
+İnce tesviye yüzeyinin drenajını sağlamak amacıyla yol boyunca yapılmış bulunan drenajlar ve 
+hendekler iyi durumda ve bakım altında bulundurulmalıdır. İnce tesviye yüzeyinde oluşacak her 
+türlü iz veya değişiklik son tesviye kotuna getirilmek üzere doldurulacak, tesviye edilecek, gerekirse 
+yeniden sıkıştırılacaktır. 
+--- SAYFA 97 ---
+
+ KISIM 210  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-210/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+210/2 
+Kırmızı kot ile ilk arazi araştırma etütleri sonucunda hazırlanan araştırma raporunda verilen üstyapı 
+kalınlıkları dikkate alınarak bulunan ince tesviye yüzeyi kotu nihai  taban etütleri sonucuna göre 
+İdarece verilen talimata uygun olarak yüklenici tarafından düzeltildikten ve Bölge Müdürlüğünce 
+oluşturulacak Kabul Komisyonu tarafından “Teslim Tutanağı” düzenlenerek teslim alındıktan sonra 
+üstyapı çalışmalarına başlanacaktır. Düzeltme işlemi için yükleniciye ayrıca bir bedel ödenmez. 
+İnce tesviye yüzeyinin kabulü için projeye tam bir uygunluk sağlanması gereklidir. Ancak İdare 
+tarafından belirtilen çok sınırlı kesimlerde, reglaj sonunda şevlerde Kısım 204 ve Kısım 206’da 
+belirtildiği kadar, hendek  ve platformda ise ± 3 cm kot farkı, ± 0,001 eğim farkı kabul edilebilir. 
+ 
+ 
+--- SAYFA 98 ---
+
+ KISIM 211  
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-211/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+211/1 
+211.  İNCE TESVİYE YÜZEYİNİN ONARIMI 
+211.01 Tanım   
+Bu kısım; reglaj tabakasının uygun olmaması halinde, ince tesviye yüzeyinin projesinde belirtilen 
+veya nihai taban etüdü sonucuna göre İdare tarafından belirlenen kalınlıkta kazılarak kaldırılması 
+ve yerine aşağıdaki şartlara uygun malzemenin serilerek düzeltilmesini kapsar.  
+211.02 Malzeme 
+İnce tesviye yüzeyinin onarımı yapılacak bölgede don etkisi varsa Kısım 206 Tablo-206-2’ye, don 
+etkisi yoksa Kısım 206 Tablo-206-3’e uygun seçme malzeme kullanılacaktır.  
+Malzemenin maksimum dane boyutu en fazla 7,5 cm olacak ve malzeme iyi derecelenmiş olacaktır. 
+211.03 Yapım Şartları 
+Niteliği uygun olmayan malzemenin ince tesviye yüzeyinden kazılıp çıkarılmasından dolayı oluşan 
+ve onarılacak çukur yerlerinin tabanları üniform bir şekilde düzeltilerek iyice sıkıştırılacak, drenajını 
+sağlamak için gereken önlem alınacak ve onarım malzemesi ile doldurulacaktır. 
+Eğer yeterli ince malzemeye sahip parçalanmış vaziyetteki toplama taş veya parçalanmış ocak taşı, 
+cüruf, ocak artığı, kırılmış taş veya çakıl kullanılıyor ise bu durumda tabaka kalınlığı en çok 15 cm 
+olarak inşa edilecektir. 
+211.04 Sıkıştırma 
+Malzeme; dolguların sıkıştırılmasında kullanılan metot ve ekipmanlar ile sıkıştırılacak, sıkıştırma 
+Kısım 206 “Dolgular” bölümündeki  Tablo-206-05’te belirtilen kriterleri sağlayacaktır. Onarılan 
+yüzey projede belirtilen enkesitlere uygun olarak tesviye edilecektir.  
+--- SAYFA 99 ---
+
+KISIM 212  
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -212/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılam az.  
+212/1 
+212.  BANKETLER 
+212.01 Tanım   
+Bu kısım; aşağıda belirtilen şartlar içerisinde ve uygun malzeme kullanılarak projelerde gösterilen 
+kot ve enkesitlere uygun bir şekilde banketlerin yapılmasını kapsar.  
+212.02 Banket Tipleri 
+Banketler yolun kaplama cinsine göre “Sathi Kaplama”, “Bitümlü Sıcak Karışım Kaplama” veya 
+“Beton” olmak üzere seçilecektir.  
+212.03 Malzeme 
+Yol üstyapı tabanında kullanılan malzemeler  banketler için de geçerlidir. İdarece belirtilmedikçe 
+banketlerin, alttemel ve temel tabakaları yolun alttemel ve temel tabakası malzemeleri kullanılarak 
+birlikte yapılacaktır.  
+Banketlerde; Alttemel Tabakası Kısım 401 , Temel Tabakası Kısım 402 , Makadam Sathi Kaplama 
+Kısım 404 , Bitümlü Temel Kısım 406 , Asfalt Betonu Aşınma ve Binder Tabakaları ise Kısım 
+407’de belirtilen esaslara uygun olacaktır.  
+212.04 Yapım Şartları  
+Banketler yolun kaplama tipine göre, aşağıdaki şekillerde inşa edilecektir.  
+212.05 Sathi Kaplamalı Yollar  
+Banket inşası esnasında ince tesviye yüzeyinin, banketlerin şev ve hendeklerin drenajının tam ve iyi 
+bir şekilde sağlanmış olması gerekmektedir.  
+Banketlerde alttemel ve temel tabakaları inşa edilirken ilgili kısımlardaki esaslar içinde ve  
+projesinde belirtilen kalınlıkta serilecek, sıkıştırılacak ve ince tesviyeleri tamamlanacaktır. Daha 
+sonra tüm yol platformu projesinde belirtildiği şekilde sathi kaplama ile kaplanacaktır.  
+212.06 Bitümlü Sıcak Karışım Kaplamalı Yollar  
+Bitümlü Sıcak Karışım Kaplamalı yollarda banketlerin tesviye yüzeyi, alttemel ve temel tabakaları 
+yol ile birlikte yapılacaktır. Alttemel ve Temel Tabakaları; Kısım 401 ve 402 ’de belirtilen inşaat 
+metotlarına uygun olarak projesinde belirtildiği kalınlıkta yapılacaktır.  
+Projesinde Bitümlü Temel olan yollarda banketlerde Kısım 406  “Bitümlü Temel”  bölümün de 
+belirtilen esaslara uygun olarak projesinde belirtilen kalınlıkta Bitümlü Temel yapılacaktır.  
+Banketlerde kaplama tabakaları yolun projesinde verilen kalınlıktaki Binder ve Aşınma tabakaları 
+Kısım 407 ’ye uygun olarak inşa edilecektir.  
+212.07 Beton Yollar 
+Beton yollarda banket yapılması beton yol koşullarına uygun olarak İdare tarafından belirtilen 
+esaslara göre yapılacaktır.   
+--- SAYFA 100 ---
+
+KISIM 213 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-213/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+213/1 
+213.  TOPRAK YOLLARIN İNCE TESVİYESİ 
+213.01 Tanım  
+Bu kısım; toprak ve/veya seçme malzemeden teşkil edilen kaplamasız yolların aşağıdaki verilen 
+şartlar içinde projelerdeki enkesitlere, eğimlere, kotlara uygun veya Kontrol Mühendisliği 
+tarafından tespit edilen bir şekilde ince tesviyelerinin yapılarak trafiğe hazır duruma getirilmelerini 
+kapsar. 
+213.02 Yapım Şartları 
+Sanat yapılarının, drenaj sistemlerinin ve toprak işlerinin esaslı bir şekilde tamamlanmasından sonra 
+bütün yol yüzeyinin düzgün ve iyi bir şekilde ince tesviyesi yapılacaktır.  
+İnce tesviye işinde greyderler veya uygun bulunacak diğer bıçaklı tesviye makineleri kullanılacak, 
+şev kenarlarının tanziminde el işçiliğinden de istifade edilebilecektir.  
+Yarma ve dolgularda üstyapı tabanının kaya ile teşkil edilmesi durumunda ince tesviye yüzeyi                  
+Kısım 204.03.07.02 “Kaya Yarmalar” ve Kısım 206.06.03 “Kaya Dolguların Sıkıştırılması”nda 
+belirtilen esaslar doğrultusunda oluşturulacaktır.  
+İnce tesviye yüzeyinden itibaren en az 15 cm derinlikteki kısımda kullanılan malzemede çakıl veya 
+kaya parçalarının boyutu en fazla 7,5 cm olacak ve malzeme iyi derecelenmiş olacaktır.  
+Yüklenici yol yüzeyinin ince tesviyesini en ince şekilde tamamladıktan sonra da her yağmur 
+yağışından sonra, yol yüzeyi çalışmaya uygun bir duruma geldikten sonra, bıçaklı bir tesviye 
+makinesi veya Kontrol Mühendisliğinin izin verdiği makine kullanarak gerekli düzeltmeleri 
+yapacaktır. Yolun, iyi bir durumda bakımını sağlayacaktır.  
+ 
+--- SAYFA 101 ---
+
+KISIM 214 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-214/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+214/1 
+214.  MEVCUT YOLLARDA İNCE TESVİYE YÜZEYİNİN YENİDEN HAZIRLANMASI 
+214.01 Tanım  
+Bu kısım; daha önce yapılmış ve kullanılmış bir yolun üzerine yeni bir temel veya kaplama tabakası 
+inşa edilmesi amacı ile yolun tanzim edilmesini ve bu işe uygun bir şekilde hazırlanmasını kapsar.  
+214.02 Yapım Şartları 
+İnce tesviye işi; projelerde veya Kontrol Mühendisliği tarafından belirtilen enkesit, profil ve 
+kotlarda olmak üzere yapılacaktır. 
+Şevlerden dökülen ve toprak kaymalarından oluşan yol üzerindeki her türlü malzeme kaldırılacak, 
+Kontrol Mühendisliği tarafından gerekli görüldüğü durumda, yol platformu kabartılarak projede 
+belirtildiği veya kazıklarla tespit edilen şekilde tesviye ve tanzim edilecektir.  
+Kabartmaya gerek görüldüğü durumda; kabartılan derinlik 5 cm’den az olmayacaktır. Yoldaki 
+yüksek kısımlar kesilecek ve buradan çıkan malzeme düşük kısımların doldurularak yolun kotuna 
+getirilmesinde veya dolgu genişletilmesinde kullanılacaktır. 
+Dar dolguların veya yüzeydeki kot düşüklüklerinin projede belirtilen enkesitlere uygun bir duruma 
+getirilmesi için niteliği uygun malzeme temin edilerek kullanılacaktır. Bu malzemenin 
+serilmesinden sonra ağırlığı 7 tondan fazla olan tandem silindirlerle yüzey sıkıştırılacak ve tesviyesi 
+yapılacaktır. 
+Sıkıştırmadan önce ve sıkıştırma sırasında üniform bir şekilde sulama yapılacaktır. 
+İnce tesviye yüzeyinin yeniden hazırlanması işlemi, sıkıştırma sırasında oluşan bozukluklar ve 
+düşüklüklerin, ilave malzeme getirilerek doldurulması ve sıkıştırma yapılarak kotuna getirilmesi ile 
+tamamlanacaktır.  
+ 
+--- SAYFA 102 ---
+
+KISIM 215 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-215/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+215/1 
+215.  SULAMA 
+215.01 Tanım 
+Bu kısım; aşağıda belirtilen şartlar dahilinde taban, dolgu, üstyapı tabanı, banket, alttemel ve temel 
+tabakalarının sıkıştırılmasında gerekli olan suyun temini ve kullanılmasını kapsar.  
+215.02 Yapım Şartları 
+Taban, dolgu, üstyapı tabanı, banket, alttemel ve temel tabakalarının yapılması ve sıkıştırılması 
+sırasında Kontrol Mühendisliğinin uygun bulacağı kısımlarda, gereken miktarlarda sulama 
+yapılacaktır.  
+Sulama; araştırma raporunda belirtilen optimum su içeriği toleransları dahilinde homojen bir şekilde 
+yapılacaktır. 
+Yüklenici malzemelerin sıkıştırılması için gereken suyu temin edecektir. 
+Sulama işlerinde kullanılacak arazöz ve araçlar serilip sıkıştırılacak malzemeye gerekli olan suyu 
+sağlayacak kapasitede olacaktır. Bu araçların suyun homojen bir şekilde dağıtımını, ölçünün doğru 
+bir şekilde yapılmasını sağlaması bakımından Kontrol Mühendisliğinin uygun bulacağı makineler 
+olması şarttır. 
+“Birim Fiyat Teklif Cetveli”ndeki su miktarları inşaat sırasında artabilir veya azalabilir. Yüklenici 
+gereken su ihtiyacını sağlayacaktır.  
+--- SAYFA 103 ---
+
+KISIM 216 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-216/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+216/1 
+ 
+216.  MEVCUT YOLLARIN ONARIMI VE BİTÜMLÜ KAPLAMA İÇİN HAZIRLANMASI 
+216.01 Tanım  
+Bu kısım; mevcut ve kullanılmış bir yol yüzeyinin aşağıdaki şartlara uygun bir şekilde onarılarak 
+sathi kaplama tabakası veya bitümlü sıcak karışım inşa edilecek hale getirilmesini kapsar. 
+Yol ve kaplama genişliği projelerde gösterilen gabariden dar olan ve genişletilmesi gereken yollar 
+bu kısım kapsamında değildirler. 
+216.02 Yapım Şartları 
+Onarımı yapılacak yolun durumuna göre; Kontrol Mühendisliğinin uygun bulacağı aşağıda 
+belirtilen onarım yöntemlerinden birisi kullanılacaktır.  
+216.03.01 Kaplamalı Yolda Onarım 
+Mevcut ve bozulmuş bir bitümlü kaplamanın bulunduğu yerlerde, bozulan kısmın tamamı kazılarak 
+kaldırılacak ve elde edilen malzeme uygun ekipmanlarla parçalanarak kullanılabilecek boyutlara 
+getirilecektir. Bu malzeme yol kenarına veya Kontrol Mühendisliğinin gösterdiği yerlerde figüre 
+edilecektir. 
+Kazımadan sonra ortaya çıkacak çukurlar doldurulup, tümsekler kaldırılıp, gevşek yüzeyler 
+düzeltildikten sonra yol yüzeyi ve banketler projesindeki eğim ve enkesitlere uygun olarak tesviye 
+edilecektir. 
+Tesviye işlemindeki sıkıştırmada kullanılacak silindirlerin ağırlıklarının 7 tondan az olmaması 
+gereklidir. Bu iş için ağırlığı 2,5 tondan az olmayan ve bıçak genişliği en az 3 m ve dingil mesafesi 
+4,5 m olan bir greyder veya paletli iş makineleri kullanılacaktır. Kontrol Mühendisliği tarafından 
+gerekli görülen yer, zaman ve miktarda sulama ve sıkıştırma yapılacaktır.  
+216.03.02 Sağlam Yüzeye Sahip Olan Kaplamalı veya Kaplamasız Yolda Onarım 
+Sert, iyi durumda, oturmuş ve sağlam bir yüzeye sahip olan yollarda daha önce bir bitümlü kaplama 
+yapılmış olsun veya olmasın Kontrol Mühendisliği; kazıldığı ve greyderle yeniden tesviye işi 
+yapıldığı takdirde yolun zayıflatılacağı veya bozulacağı kanaatinde ise bu iş yapılmayacaktır. 
+Bununla birlikte, mevcut yol bitümlü karışım kaplamalı ise, hem yüzey düzgünlüğü sağlamak hem 
+de yeni getirilecek tabaka ile iyi bir kenetlenme sağlamak için projesine göre veya kontrol 
+mühendisliğinin uygun görüşü üzerine pürüzlendirme kazısı yapılabilecektir.    
+Bu yoldaki bozukluklar yama yapılmak ve kotundan düşük olan yerlerin uygun kota getirilmesi 
+suretiyle giderilecektir. Hiçbir zaman suyun göllenmesine izin verilmeyecek ve çukur, tümsek vb. 
+olumsuz kot farklılıkları bulunmayacaktır.  
+Bu yol kesimlerine, gerekli ise kot farklarını gidermek için düzeltme tabakası getirdikten sonra, 
+projesine uygun olarak yeni  sathi kaplama veya bitümlü sıcak karışım kaplama işleri yapılacaktır. 
+Burada kullanılacak malzemeler alttemel, temel ve bitümlü kaplama tabakaları için ilgili kısımlarda 
+belirtilen özelliklere sahip olmalıdır.  
+ 
+--- SAYFA 104 ---
+
+KISIM 217 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-217/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+217/1 
+217.  KULLANILMAYAN/TERKEDİLEN YOL KESİMLERİNİN DÜZENLENMESİ 
+217.01 Tanım 
+Bu kısım; yeni yol yapımı, yol hattında olan değişiklik, varyant vb. nedenlerle yol kesimi dışında 
+kalan, kullanılmayan, ileriki yıllarda da doğal afet, stratejik vb. nedenlerle de kullanılması 
+düşünülmeyerek terk edilen yol kesimlerinin düzenlenmesini kapsar. 
+217.02 Yapım Şartları 
+Asfalt kaplamalar parçalanarak kazılacak, mevcut sanat yapıları kırılacak, maksimum 300 mm 
+boyuta indirilecektir. Yolda mevcut eski temel ve alttemel malzemeleri kazılacaktır. 
+Kullanılmayan / terk edilen yol kesimi kazılarak; eski, doğal arazi zemin kotlarına uygun olarak 
+yeniden düzenlenecektir. Kazı sırasında elde edilen malzemeler eski, orijinal yapım sınırları 
+içerisinde kullanılacaktır. 
+Yapılan kazı ve düzenlemeler, doğal drenaj yollarını kapatmayacak, arazide çukur ve su akışını 
+önleyecek tepeler oluşturulmayacaktır. Arazi doğal haline getirilecektir. 
+Kazılan ve kullanılmayan tüm malzemeler üzerlerine en az 50 cm toprak gelecek şekilde uygun bir 
+yerde zemine gömülecektir. 
+ 
+--- SAYFA 105 ---
+
+ KISIM 218 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-218/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.                                   
+218/ 1 
+218. KİREÇ İLE ZEMİN STABİLİZASYONU  
+218.01 Tanım 
+Bu kısım; yol altyapısını oluşturan taban zemini, dolgu malzemesi kriterlerini sağlamayan veya 
+Kaliforniya Taşıma Oranı (CBR) değeri düşük, şişme potansiyeli yüksek, dolgu tabanı, dolgu 
+malzemesi (ariyet, yarma) veya üstyapı tabanı malzemelerinin kullanılabilirlik özelliklerini 
+artırmak, ayrıca alttemel kriterlerine yakın özellikler taşıyan malzemelerin alttemel olarak 
+kullanılabilmesi amacıyla, bu malzemelere belli fiziksel ve kimyasal özelliklere sahip toz halinde 
+sönmüş, sönmemiş veya hidrolik kireç katılması, karıştırılması ile yapılan iyileştirme veya 
+stabilizasyon işlemini kapsar. Kireç ile iyileştirme çalışmaları dolgu tabakalarının, kireç 
+stabilizasyonu çalışmaları ise alttemel tabakasının ve üstyapı tabanının kireçle iyileştirilmesi olarak 
+tanımlanmaktadır. Çok yüksek su muhtevasındaki zeminlerin kurutulması amacıyla da kullanılabilir. 
+218.02 Malzeme 
+218.02.01 Stabilize Edilecek - İyileştirilecek Malzemeler 
+AASHTO sınıflandırma sistemine göre A2, A4, A5, A6, A7, veya Birleştirilmiş Zemin 
+Sınıflandırma Sistemine göre CH, CL, MH, ML, GC, GM, SC, SM sınıflarına giren plastisite 
+indeksi 10’dan büyük (PI ≥ 10) veya Kaliforniya Taşıma Oranı (Yaş CBR %) < 10 veya CBR şişme 
+yüzdesi % ≥ 3 olan ve en az % 25’i 75 µm elekten geçen zemin/malzemeler için stabilizasyon-
+iyileştirme yapılması uygundur. Ekonomik ve teknik nedenlerle iyileştirme ihtiyacı duyulan diğer 
+zemin gruplarında İdare’nin onayı alınmak kaydı ile kullanılabilecektir.  
+218.02.02 Su 
+Toprak-su karışımı için karıştırma işlemini ideal rutubet koşullarında yapmak, sıkıştırma ve 
+sıkıştırma sonrasında toprak-su-kireç reaksiyonunun devamı için kullanılacak su tatlı, berrak olmalı, 
+içerisinde kirlilik oluşturacak nitelikte (yağ, asit, alkali madde, klorür, sülfat ve organik madde) 
+madde bulunmamalıdır. Suyun içerdiği sülfat miktarı SO 3 < 200 ppm olmalıdır.  
+218.02.03 Kireç 
+Stabilizasyon-iyileştirme işleminde kullanılacak sönmemiş, sönmüş ve hidrolik kirecin kimyasal ve 
+fiziksel özellikleri Tablo-218-1’de belirtilen değerlere uygun olmalıdır. 
+Tablo-218-1 Stabilizasyon - İyileştirmede Kullanılacak Kirecin Kimyasal ve Fiziksel 
+Özellikleri 
+Özellik (TS EN 459-1) Sönmemiş Kireç Sönmüş Kireç Hidrolik Kireç 
+CO 2 (Kızdırma Kaybı),   % ≤ 7 ≤ 7 > 3 
+CaO,  %  - - 40 - 55 
+Toplam (CaO+MgO),  % ≥ 80 ≥ 80 - 
+Toplam Ca(OH) 2+Mg(OH) 2,  % - ≥ 80 - 
+SO 3,  % ≤ 2 ≤ 2 ≤ 2 
+MgO,   % ≤ 5 ≤ 5 ≤ 2 
+SiO 2+AÇM *,  %  - - > 20 
+Fe2O3,  %  - - < 3 
+CaCO 3,  %  - - < 5 
+S,  %  - - < 0,7  
+Al2O3,  %  - - > 10 
+Parçalar, mm  ≤ 2 - - 
+Ağırlıkça Elekte Kalan,  % - 0,09 mm ≤   7 
+0,20 mm ≤   2 100 < 3 mm 
+*AÇM: Asitte Çözünmeyen Maddeler  
+--- SAYFA 106 ---
+
+ KISIM 218 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-218/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.                                   
+218/ 2 
+Kirecin sönmesi esnasında ağırlıkça % 30 mertebesinde suyu bünyesine alma özelliği vardır.  
+Bu özellik göz önüne alınarak doğal su içeriğinin optimum su içeriğinden çok yüksek olduğu 
+durumlarda sönmemiş kireç tercih edilebilir. Sönmemiş kirecin kullanılması halinde dışarıya ısı 
+veren sönme işlemi arazi koşullarında gerçekleşeceğinden iş ve işçi sağlığı açısından gerekli 
+önlemler alınmalıdır.  
+218.03 Stabilizasyon - İyileştirmede Kullanılacak Makineler 
+Stabilize edilecek toprağın kazılması, parçalanması, su ve kireçle karıştırılması ve kireç serme 
+işlemi uygun iş makineleri ya da ekipmanlar ile yapılmalı, homojen bir karışım elde edebilen ve 
+kazı derinliği ayarlanabilir ekipman seçilmelidir. Makine seçimi günlük üretim miktarı ve 
+uygulanacak tabaka kalınlıklarına göre planlanmalıdır. Kireç sericilerin kullanılması durumunda, 
+kireç serici makineler, kirecin uygulanma oranına göre ayarlanabilir olmalıdır.  
+Sıkıştırma işleminde kullanılacak araçlar iyileştirilecek-stabilize edilecek zemin özelliklerine göre 
+istenilen sıkışma değerlerini sağlayacak nitelikte, keçiayağı, lastik tekerlekli veya demir bandajlı 
+olmalı ve titreşim uygulayabilmelidir. 
+Sulamada kullanılacak makinelerde su miktarını ve sulama hızını kontrol edebilen, suyun 
+dağıtımının homojen olmasını sağlayan sistemler olmalıdır. 
+Kullanılan tüm makinelerin bakımı etkin ve düzenli olarak yapılmalı, işlevini yeterince yerine 
+getiremeyen makineler süratle değiştirilmelidir. 
+Zorunlu durumlarda ve kısa mesafeli uygulamalarda (< 200 metre) elle serim söz konusu olduğunda 
+İdarenin onayı alınacaktır. 
+218.04 Toprak - Kireç Karışımının Projelendirilmesi Öncesinde Yapılması Gereken İşler 
+218.04.01 Stabilize Edilecek - İyileştirilecek Malzemeden Numune Alınması 
+İyileştirilmesi-stabilize edilmesi düşünülen toprak sınırları, yapılacak arazi etütleri ile proje 
+kriterlerine göre belirlenir (boyut, derinlik). Alınacak numune miktarı toprak yapısındaki değişime 
+göre ve stabilize edilecek miktara göre malzemenin tümünü temsil edecek özellikte olmalıdır.  
+218.04.02 Malzemenin Sınıflandırılması 
+Stabilize edilmesi planlanan toprak üzerinde sınıflandırma deneyleri yapılarak (Elek Analizi, 
+Hidrometre, Atterberg Limitleri, Metilen Mavisi), elde edilen sonuçlara göre toprak AASHTO ve 
+BZS sistemine göre isimlendirilir. 
+218.04.03 Organik Madde Miktarının Belirlenmesi 
+Alınan numunelere yapılan deneylerle; TS EN 1744-1 zeminde bulunan organik madde miktarı 
+belirlenir. 
+Zemin içindeki organik maddelerin % 4’den az olması gerekir. 
+218.04.04 Sülfat İçeriğinin Belirlenmesi (TS 6170) 
+Sülfatın kireçle reaksiyonu ek bir kireç tüketimine ve karışımın genleşmesine yol açabilir. 2 mm’lik 
+(No.10) elekten geçen toprak parçası için, toplam SO 3 içeriğinin kuru numune ağırlığına oranı % 
+3’den az olmalıdır.  
+ 
+--- SAYFA 107 ---
+
+ KISIM 218 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-218/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.                                   
+218/ 3 
+218.05 Proje Karışım Çalışması (Toprak - Kireç Karışım Oranının Belirlenmesi) 
+218.05.01 Optimum Kireç Yüzdesinin Belirlenmesi İçin Yapılacak Deneyler 
+Stabilizasyon işleminde kullanılacak yaklaşık kireç yüzdesi kısa süreli testlerle bulunabilir. Bu 
+yöntemler pH metodu veya Likit Limit / Plastik Limit deneyleridir.  
+pH metodunda karışımın pH’ını en az 12,4’e getiren kireç oranı KY (Kireç Yüzdesi) olarak kabul 
+edilir.  
+İkinci metot ise kireç-toprak-su karışımının bir saat bekletilmesinden sonra yapılan Likit Limit ve 
+Plastik Limit deneyleri ile değişik kireç oranlarında Plastisite İndeksi (PI) değerlerinin 
+bulunmasıdır. Bu değerlerde dolgu malzemeleri için PI<20, üstyapı tabanı malzemeleri için PI<10, 
+alttemel malzemeleri için ise PI<6 durumunu sağlayan en küçük kireç oranı değeri yaklaşık KY 
+olarak kabul edilir. 
+Bu iki metotla yaklaşık olarak hesaplanan kireç yüzdeleri ile Kısım 218.05.02, 218.05.03, 218.05.04 
+ve 218.05.05’de belirtilen çalışmalar yapılarak en az  3 farklı kireç yüzdesi ile performans testi olarak 
+yapılacak CBR deneyi sonucunda teknik ve ekonomik optimizasyon ile İdare tarafından seçilmiş 
+kireç yüzdesi uygulama için Optimum Kireç Yüzdesi (OKY) olarak kabul edilir.  
+Arazideki uygulamalarda OKY %1,5’den küçük olmamalıdır. İdare laboratuvar koşulları ile arazi 
+koşulları arasındaki farklılıkları göz önüne alarak laboratuvar çalışması ile belirlenmiş OKY’nin 
+arazi uygulamalarında +%0,5 olarak çalışılmasını isteyebilir. Karayolları Bölge Müdürlüklerince 
+gerçekleştirilecek kireç ile iyileştirme ve kireç stabilizasyonu çalışmaları için yapılacak laboratuvar 
+deneyleri sonucunda tespit edilmiş OKY’nin uygulanabilmesi için Araştırma ve Geliştirme Dairesi 
+Başkanlığının uygun görüşü alınacaktır. 
+218.05.02 Stabilize Edilecek - İyileştirilecek Malzemede Maksimum Kuru Birim Hacim 
+Ağırlık ve Optimum Su İçeriğinin Bulunması (TS 1900-1, AASHTO T 99, AASHTO T 180). 
+Standart Proktor veya Modifiye Proktor deneyleri yapılarak bu deneyler ile malzemenin Optimum 
+Su İçeriği ve Maksimum Kuru Birim Ağırlığı belirlenecektir.  
+218.05.03 CBR ve CBR Şişme Değerinin Belirlenmesi (TS 1900-2, AASHTO T 193) 
+OKY, TS 1900-1, AASHTO T 99 - AASHTO T 180 metoduyla sıkıştırılmış, rutubet oranı optimum 
+değerlerde veya işlem sırasında öngörülen Wn değerine eşit olan en azından üç toprak-su-kireç 
+karışımı için Anlık Taşıma İndeksi (The Instant Bearing Indeks, IBI, Dry CBR) ve yaş CBR 
+belirlenmelidir.  
+Üç örnekte de aşağıdaki CBR değerini verecek minimum kireç yüzdesi aranmalıdır. Yol inşaatında 
+kullanılacağı yere göre bu sınır değerler değişmektedir. Sınır değeri olarak aşağıda tanımlanan 
+değerler kullanılmalıdır.  
+Alttemel CBR ≥ 50 
+Üstyapı tabanı CBR ≥ 20  
+Dolgular için CBR ≥ 15 
+(Zayıf Zemin Kriteri CBR<10 kabul edilmiştir.) 
+Stabilize edilecek-iyileştirilecek malzeme örneklerinde şişme yüzdesinin de belirlenmesi 
+gerekmektedir. CBR koşullarının sağlandığı üç örnek de TS 1900-1, AASHTO T 99 veya AASHTO 
+T 180 metoduyla sıkıştırılmış numuneler CBR kalıplarında önce 7 gün (168 saat) boyunca sıcaklığı 
+20 ± 1ºC ve nem oranı>%95 olan bir ortamda, daha sonra da 4 gün 20 ± 1ºC sıcaklıktaki suda 
+bekletilir. 4 günün sonunda şişme devam ediyorsa deney sonlandırılır ve kireç yüzdesi arttırılarak 
+--- SAYFA 108 ---
+
+ KISIM 218 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-218/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.                                   
+218/ 4 
+deney tekrar edilir. Laboratuvarda aşağıdaki sınır değerlerin üzerinde bulunan karışımlar çalışmak 
+için uygun değildir. Kireç oranları arttırılarak çalışmalar sürdürülmelidir. 
+Alttemel Şişme % < 0,5 
+Üstyapı Tabanı Şişme % < 1,0  
+Dolgular İçin Şişme % < 2,0 
+218.05.04 Stabilize Edilecek - İyileştirilecek Malzemelerin Atterberg Limitleri 
+Dolgularda, üstyapı tabanında ve alttemelde aranılacak kriterler aşağıda belirtildiği şekilde 
+olacaktır.  
+CBR değerleri ve şişme yüzdesi için yukarıda tanımlanan aralıklar kullanılacaktır. Ayrıca 1 saatlik 
+Atterberg limitleri bulunarak aşağıdaki şartları sağlayıp sağlamadığı kontrol edilecektir. Uygun 
+olmayan durumlarda kireç oranları değiştirilerek çalışmalar tekrarlanmalıdır. 
+Alttemel  PI  % < 6 
+Üstyapı Tabanı  PI % < 10  
+Dolgular İçin  PI  % < 20 
+218.05.05 Anlık Taşıma İndeksi Deneyi (The Instant Bearing Indeks, IBI, Dry CBR) 
+Stabilize edilecek-iyileştirilecek malzeme ile kireç karıştırıldıktan sonra, sıkıştırma öncesi bu 
+karışıma laboratuvarda Anlık Taşıma İndeksi (IBI) Deneyi yapılmalıdır. Karışım kürünü 
+tamamlaması için minimum 1 saat maksimum 2 saat hava ile teması kesilecek şekilde deney 
+torbasında bekletilir. Sonra kalıba konularak ilgili standartlara göre sıkıştırılır ve bekletilmeden 
+CBR deneyi yapılır. Kuru CBR Deneyi olarak da adlandırılan Anlık Taşıma İndeksi (IBI) Deneyinin 
+uygunluk şartları Tablo-218-2’de verilmiştir.  
+Tablo-218-2 Anlık Taşıma İndeksi Deneyi Uygunluk Şartları 
+Zemin Tipi Hedeflenen IBI Değeri (%) 
+Siltli Kil - Kil (12 < PI < 35) ≥ 10 
+Silt – Killi Silt (PI ≤ 12) ≥ 15 
+Kum – Siltli Kum  ≥ 15 
+Çakıl ≥ 20 
+ 
+OKY, TS 1900-1, AASHTO T 99 - AASHTO T 180 metoduyla sıkıştırılmış, rutubet oranı optimum 
+değerlerde veya işlem sırasında öngörülen Wn değerine eşit olan en azından üç toprak-su-kireç 
+karışımı için yaş CBR belirlenmelidir.  
+Yaş CBR / IBI ≥ 1 olan durumlar stabilize edilecek-iyileştirilecek tabakanın suya dayanıklı 
+olduğunu gösterir. Sonuç 1’den küçük çıkarsa kireç yüzdesi artırılarak deney tekrar edilir.  
+218.05.06 Serbest Basınç Mukavemeti (ASTM D 1633) 
+Dona hassas bölgelerde don penetrasyon derinliğinin stabilize edilecek-iyileştirilecek tabakayı 
+kapsadığı durumlarda ve yeraltı su seviyesinin yüksek olduğu yerlerde birleştirilmiş zemin sınıfı 
+ML, MH, CL, CH olan malzemelerin kireç ile iyileştirilmesinde serbest basınç mukavemeti deneyi 
+aranacaktır. 
+Serbest basınç mukavemeti (q u) durumunun belirlenmesi çalışmaları CBR deneylerine paralel 
+olarak sürdürülür. 
+--- SAYFA 109 ---
+
+ KISIM 218 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-218/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.                                   
+218/ 5 
+Deneyler sonucunda elde edilen ideal karışımdaki su oranından yola çıkarak örnekler, TS 1900-1, 
+AASHTO T 99, AASHTO T 180 metoduyla sıkıştırılıp, serbest basınç kalıplarına yerleştirilir ve 
+numuneler uygun bir kriko veya düzenekle kalıptan çıkarılır. Hazırlanan numuneler önce plastik 
+daha sonra alüminyum folyolara sarılarak 7 ve 28 gün boyunca 20 ± 1ºC sıcaklığındaki nemi > % 
+95 olan bir ortamda bekletilir. Aşağıda belirtilen değerleri veren karışımlar çalışılmak için 
+uygundur. 
+Üstyapı Tabanı İçin:  q u (7) > 5 kg/cm2       
+Donma çözünme olayı; dona hassas bölgelerde oldukça önemlidir. Sıkıştırılmış zeminde 
+doygunluğun % 80’in altında olduğu durumda donma-çözünmede bir problem beklenmemelidir. 
+Don penetrasyon derinliğinin stabilize edilecek-iyileştirilecek tabakayı kapsadığı durumda bu 
+konuda bir laboratuvar çalışması yapılmalıdır. Donma çözünme sıcaklıkları –20 ºC ve +20 ºC’dir. 
+Hazırlanmış olan serbest basınç numuneleri 7 gün kürden sonra 5 kez (en az 12 saat ) tanımlanan 
+sıcaklıklarda dondurulup çözünecektir. Numuneler hazırlandıktan sonra plastik ve alüminyum 
+folyolara sarılarak önce en az 12 saat -20 ºC’de dondurulacak daha sonra en az 12 saat +20 ºC’de 
+bekletilecektir. Bu işlem ardışık olarak en az 5 kez uygulanmalıdır ve numunenin saklandığı ortamın 
+nemi > % 95 olmalıdır. Bu işlem sonunda numuneye serbest basınç mukavemeti deneyi 
+uygulanacaktır. Bu deney sonucunda serbest basınç mukavemeti q u (n)> 1,5 kg/cm2 değerini 
+sağlamalıdır. 
+218.06 Yapım Şartları 
+Stabilizasyon uygulamasından yeterli bir sonuç elde edebilmek için vazgeçilmez koşullar; toprağın 
+uygun bir ekipmanla kazılıp stabilizasyona hazır hale getirilmesi, kirecin malzeme ile dikkatli ve 
+homojen bir şekilde karıştırılması, sulama işlemi ile optimum nem koşullarına getirilmesidir. 
+İyileştirme-Stabilizasyon Çalışmaları; çalışma alanında doğal su içeriğini artıracak derecede 
+yağmur ya da kar olması, hava sıcaklığının 5 ºC'nin altında olması ve kireç serilmesini zorlaştıracak 
+kuvvetli rüzgârın olması veya iyileştirilecek zemin yüzeyinde su olması durumunda uygulanmaz.  
+218.06.01 Stabilize Edilecek - İyileştirilecek Malzemenin Hazırlanması ve Doğal (Yerinde) Su 
+İçeriğinin Belirlenmesi 
+Zeminin hazırlanması işlemine, yüzeyde yer alan bitkisel toprağın kaldırılması ile başlanır. Toprağı 
+stabilizasyona hazırlamak için kazıma, parçalama ve sıkıştırma işlemlerini zorlaştırabilecek ve 
+oyma-parçalama makinesinin tamburunun çalışmasını zorlaştıracak boyutlarda kaya benzeri 
+malzemelerin bulunmamasına dikkat edilecek ve reglaj seviyesindeki tabakalarda içerisinde 
+bulunan çapı 5 cm’den büyük, diğer tabakalarda ise çapı 10 cm’den büyük taşlar temizlenecektir. 
+Daha sonra, işlem görecek olan toprağın doğal su içeriği belirlenir ve bulunan değer elde edilmesi 
+planlanan karışımın optimum değerinden yüksekse, uygun bir makine yardımıyla kazılarak ve 
+havalandırılarak suyun buharlaşması sağlanır, optimum değerinden az ise su tankeri yardımıyla 
+sulanarak planlanan karışımın optimum seviyesine getirilecektir.  
+218.06.02 Kirecin Taşınması ve Depolanması 
+Stabilizasyon işleminde kullanılacak kireç dökme veya torba olarak işbaşına getirilebilir. Toz 
+haldeki kireç, maddenin hava basıncı ile boşaltılmasını sağlayan silobaslarla taşınmalıdır. Getirilen 
+kireç miktarı şantiyenin tam çalışmayla en az iki günlük ihtiyacını karşılamalıdır. Kireç toz olarak 
+taşınıyorsa, şantiyede bu iş için özel olarak yapılmış silolarda, kâğıt torbayla taşınıyorsa nemden, 
+yağmurdan ve su etkisinden korunacak şekilde, kapalı bir alanda saklanmalıdır. 
+ 
+--- SAYFA 110 ---
+
+ KISIM 218 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-218/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.                                   
+218/ 6 
+218.06.03 Dozaj, Kireç Serilmesi ve Bununla İlgili Kontrol  
+Dozaj, işlem görecek zeminin m2’sine göre şantiyede hesaplanır. Kuru zemin için laboratuvarda 
+belirlenen yüzde cinsinden dozaja göre kg/m2 dozajı hesaplanır.  
+Kireç Miktarı =OKY x d x γmaks.  
+OKY : Optimum Kireç Yüzdesi (%) 
+     d   : Tabaka Kalınlığı (metre) 
+γmaks.  : Malzemenin Maksimum Kuru Birim Hacim Ağırlığı (kg/m3) 
+Rüzgârın kuvvetli estiği günlerde, uçuşarak dozajın hassasiyetine ve şantiye personeline zarar verme 
+ihtimali bulunan toz kireç dökülmemelidir. Ayrıca, kireç, yalnızca gün içinde çalışılacak olan 
+malzemeye verilmeli, böylece kirecin atmosfer etkenleri tarafından taşınması ve kısmi 
+karbonatlaşma reaksiyonları engellenmelidir.  
+Kireç serilecek alanın boyutları, kazıma, parçalama, karıştırma ve serme işlemlerinde kullanılacak 
+uygun özellikte makine kapasitesine göre belirlenmelidir. Sıkıştırma işlemi hava sıcaklığı 20 
+derecenin altında ise 4 saat içerisinde, 20 derecenin üzerinde ise 3 saat içerisinde yapılmalıdır. 
+Stabilize edilecek-iyileştirilecek malzemenin hidrolik kireç ile karıştırılmasından sonra karışım 
+maksimum 1 gün, sönmüş ya da sönmemiş kireç ile karıştırılmasından sonra karışım maksimum 3 
+gün içerisinde sıkıştırma işlemi tamamlanmalıdır.  
+Kirecin toz veya sıvı formda dökme olarak kullanıldığı durumlarda, kireç serme makinesi geçmeden 
+önce, toprağın üzerine alanı ve boş ağırlığı belli olan bir tepsi kireç serme makinesinin çalışacağı 
+güzergâha konulur. Kireç serme makinesi üzerinden geçtikten sonra tepsi tekrar tartılarak dozaj 
+miktarı kontrol edilir.  
+Elle serim durumunda eğer kireç çalışma alanına torbalarla getirilmişse, bu torbalar düzgün ve uzun 
+bir çizgi oluşturacak şekilde ve aralıkları dozaja uygun olarak hesaplanarak dizilir. Yere konulan 
+torbalar bir bıçakla ortalarından kesilip boşaltılarak birçok küçük tepecik oluşturulur. Rüzgâr 
+nedeniyle likit kireç kullanılıp kullanılmayacağına İdare karar verecektir. 
+Boşaltılan torbalar tepeciklerin önünde durmalıdır. Daha sonra kireç, tırmık kullanılarak elle ya da 
+traktörle veya başka bir motorlu araçla çekilen dişli veya noktalı disklerle düzlenmelidir.  İyi bir 
+dağılım için genellikle iki geçiş yeterli olmaktadır. 
+Stabilize edilecek veya iyileştirilecek kesim için gerekli toplam kireç miktarı belirlenecek, iş yerine 
+nakledilip bu miktar tutanak altına alınacak ve bu miktarın belirlenen kesim için kullanılması 
+sağlanarak bu işlem yüklenici ve Kontrol Mühendisliği tarafından tutanağa bağlanacaktır. 
+218.06.04 Malzemeyi Parçalama ve Karıştırma  
+Parçalama ve karıştırma işlemleri, bu iş için kullanılan bir makinenin, malzemeyi 25 mm’lik elekten 
+tamamen (%100) geçene kadar veya en azından %60’ı 4,75 mm (No.4) elekten geçene kadar 
+işlemesiyle gerçekleşir. Karıştırıcı parçalayıcı makinenin tamburunun tabaka kalınlığına uygun 
+derinlikte kazı derinliğine getirilmiş olduğunun kontrol edilmesi gerekir. Karıştırma işlemini 
+gerçekleştirecek makine, gerekli derinlikteki katmanları işlemek için uygun özelliklerde olmalıdır. 
+Karıştırma makinesinin gücünün, işlem görecek tabakanın kalınlığına ve günlük istenilen üretim 
+miktarına göre ayarlanmış olması önemlidir. Karışım işlemi sırasında ya da sonrasında, 
+gerektiğinde, işlem gören malzeme bir sonraki sıkıştırma işlemi için optimum su değeri elde 
+edilinceye kadar sulanır. Karıştırma parçalama esnasında gerekli görüldüğü durumlarda makine 
+tamburu yukarı kaldırılarak kazı derinliği kontrol edilir. 

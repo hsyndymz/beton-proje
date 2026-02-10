@@ -1,0 +1,496 @@
+--- SAYFA 830 ---
+
+                                              KISIM 424   
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-424/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+424/5 
+ve su tankerlerine uygun tertibat ile bütünleşik olarak (imalat katarı) su ve bitümün kesintisiz 
+beslemesi sağlanacaktır. Makine içerisinde üreteceği basınçlı su ve havayı yüksek sıcaklıktaki 
+bitüme püskürterek köpük bitüm imal edecek özellikte, bitüm ısıtma sistemli ve kalibrasyon 
+kontrollü ağırlık ölçümü yapabilen ekipmana sahip olacaktır. Makine ayrıca, köpük bitüm üretimi 
+haricinde KBST karışımında kullanılacak olan suyu, karışımın su içeriği laboratuvar dizaynı ile 
+belirlenen modifiye proktor deneyi ile bulunan optimum su içeriği oranının ± 0,5 tolerans aralığında 
+(%Wopt ± 0,5) olacak şekilde otomatik olarak besleme yapabilecek kapasite ve donanımda 
+olacaktır.  
+İdare tarafından aksi belirtilmedikçe “Karışım Dizayn Raporu”nda belirtilen KBST karışımına 
+girecek olan aktif filler (çimento) ile gradasyon ayarlaması amaçlı ilave mineral agrega, mevcut yol 
+kazınmadan önce kaplama yüzeyine dizaynda verilen nitelikte ve miktarda serilerek uygulama 
+yapılacaktır. Gerekli hallerde ön gevşetme amacıyla yolda ön kazıma işlemi de yapılabilecek olup, 
+çimento ve ilave mineral agrega serilmeden önce ön kazıma yapılmış yol uygun silindiraj ile 
+sıkıştırılacaktır. 
+KBST gradasyonunun değişkenlik gösterdiği kesimler (bakım, onarım durumuna göre) ayrı ayrı 
+tespit edilerek değerlendirilecektir. Bu kesimlerde gradasyon toleransı limitleri ve dizayn kriterleri 
+içerisinde kalmak kaydıyla ilave agrega ya da köpük bitüm revizyonu işlemleri İdarenin yazılı 
+izniyle yapılabilecektir. Ancak dizayn kriterlerinin sağlanmadığı durumlarda bu kesimler için ayrı 
+ayrı dizayn yapılacaktır. Revizyon ya da her farklı dizayn uygulaması durumlarının tamamı için 
+yeni bir “Karışım Dizayn Raporu” hazırlanacaktır.  
+Dizayna uygun olarak yapılan KBST karışımının gradasyonunun kontrolü amacıyla günde iki kez 
+yoldan Soğuk Geri Kazanım Makinesinin su ve köpük bitüm dahil edilmemiş kuru karışım 
+haznesinden numune alınacak ve bu numunelere şantiye laboratuvarında elek analizi yapılacaktır. 
+Karışım gradasyonunun Tablo-424-3’de verilen tolerans limitleri içerisinde olup olmadığı düzenli 
+olarak kontrol edilecektir.  İlaveten kullanılan çimento ve bitüm miktarları da günlük olarak düzenli 
+kontrol edilecektir.   
+KBST tabakasının homojenliğinin ve serbest basınç dayanımının kontrolü amacıyla serimi 
+tamamlanmış her 1.000 m2’ lik kesimde; Kontrol Mühendisliğince uygun görülen en az 5 noktada 
+sıkıştırma işlemi öncesinde tabakadan numune alınacaktır. Bu numuneler 150 mm çapında ve 127 
+mm yüksekliğinde silindir kalıp içerisinde modifiye proktor metodu ile bulunan maksimum kuru 
+birim ağırlığın en az  % 98’ ine ulaşılacak şekilde (modifiye proktor tokmağı, gyrotary kompaktör, 
+vb. ile) sıkıştırılarak briketler hazırlanacaktır. Hazırlanan briket numuneleri kalıplarından 
+çıkartılarak 72 saat süresince 40 oC’ deki etüvde kurutulacaktır. Kurutma işlemi tamamlanmış 
+briketler üzerinde yapılacak serbest basınç dayanımı testi sonunda elde edilecek ortalama serbest 
+basınç dayanımı minimum 25 kg/cm2 ile maksimum 40 kg/cm2 arasında olmalıdır.  
+KBST tabakasının suya karşı hassasiyeti ile aktif filler ve bitümün etkinliğinin kontrolü amacıyla 
+serimi tamamlanmış her 5.000 m2’ lik kesimde; Kontrol Mühendisliğince uygun görülen en az 1 
+noktada sıkıştırma işlemi öncesinde tabakadan numune alınacaktır. Bu numuneler 150 mm (6”) 
+çapında ve 95 mm yüksekliğinde silindir kalıplar içerisinde modifiye proktor metodu ile bulunan 
+maksimum kuru birim ağırlığın en az  % 98’ ine ulaşılacak şekilde (Marshall tokmağı veya gyrotary 
+kompaktör ile) sıkıştırılarak en az 6 adet briket numunesi hazırlanacaktır. Hazırlanan briket 
+numuneleri kalıplarından çıkartılarak 72 saat süresince 40 oC’ deki etüvde kurutulacaktır. Kurutma 
+işlemi tamamlamış briketler; ortalama kuru birim ağırlıkları birbirine en yakın olacak şekilde iki 
+gruba ayrılacaktır. Numune gruplardan biri koşulsuz (kuru), diğeri ise koşullandırılmış (yaş) olarak 
+indirekt çekme mukavemeti (İÇM) deneyine tabi tutulacaktır. Koşullandırılacak olan briketler 24 
+saat süresince 25 0C’ deki su banyosunda bekletilecektir. Koşullandırılmayacak olan briketler ise 
+deney gününe kadar laboratuvar ortamında açıkta bekletilecektir. Koşullandırma işleminden hemen 
+--- SAYFA 831 ---
+
+                                              KISIM 424   
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-424/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+424/6 
+sonra briketler üzerinde yapılacak olan İÇM deneyi sonucunda koşulsuz (kuru) briketlerin ortalama 
+İÇM değeri minimum 2,5 kg/cm2, koşullu (yaş) briketlerin ortalama İÇM değeri minimum 1,5 
+kg/cm2 ve İÇM oranı da (İÇM yaş / İÇM kuru) minimum % 60 olmalıdır. 
+424.05.03 Sıkıştırma     
+Köpük bitümle stabilize temel tabakası yola serilir serilmez silindiraja başlanacaktır. İstenilen 
+sıkışmanın sağlanabilmesi için gerekli olan sıkıştırma makinesi ve geçiş sayıları, serilen kesimin ilk 
+100 m’ lik kısmında denenerek belirlenecektir.  
+KBST tabakasının sıkıştırma işlemi Kısım  402.04.10’da PMT tabakası için istenilen makine ve 
+ekipmanlar ile belirtilen yönteme göre yapılacaktır.  
+KBST tabakası, modifiye proktor metodu ile bulunan maksimum kuru birim ağırlığının % 98’inden 
+az olmamak kaydıyla sıkıştırılacaktır. Sıkışma kontrolü Kısım 401 Tablo-401-3’te verilen 
+metotlardan birisi ile yapılacaktır.     
+Tamamlanmış KBST tabakasının yüzey düzgünlüğü Kısım 402.03.04’te  belirtilen yöntem ve 
+esaslara göre yapılacaktır. Bitmiş tabakanın herhangi bir noktası ile tabakanın proje kotu arasında ± 
+15 mm’den daha fazla kot farkı olmayacaktır. 
+Serilmiş ve projesine uygun sıkıştırılmış KBST tabakası üzerinden kaplaması yapılmadan trafiğin 
+geçmesine izin verilmeyecektir. Havanın durumuna göre KBST malzemesinin kür süresi 36 ila 72 
+saat arasındadır. Sıkıştırılmış KBST tabakasının üstten son 10 cm’lik kısmındaki rutubet, 
+laboratuvar dizaynında önerilen optimum su içeriğinin yarı değerine inmediği sürece, karışım 
+kürünü almış olsa dahi KBST tabakası üzerine bitümlü kaplama yapılmayacaktır. Kürünü almış ve 
+rutubet şartını sağlamış KBST tabakası hiçbir koşulda açık bırakmayacak ve üzerine mümkün olan 
+en kısa sürede projesinde belirtilen bitümlü kaplama yapılacaktır.  
+Kaplama yapılıncaya kadar KBST yüzeyinin istenilen şartlara uygun bir durumda korunması ve 
+bakımı yüklenici tarafından sağlanacaktır. 
+424.05.04 Deneme Kesimi     
+Köpük bitümle stabilize temel tabakasının yapımına başlanmadan en az 10 gün öncesinde; mevcut 
+yolda inşaat sırasında kullanılacak malzemeler ile karışım oranlarını, kazıma, karıştırma, serme ve 
+sıkıştırma işlemlerinin ve makinelerinin kontrol ve denemelerinin yapılacağı minimum 400 m2’lik 
+bir yüzey alanına sahip kesim, deneme kesimi olarak Kontrol Mühendisliği tarafından belirlenerek 
+işaretlenecektir.  
+ 424.06 Kalite Kontrol Deneyleri      
+KBST tabakası yapımı sırasında kullanılan malzemeyi ve oluşturulan tabakayı kontrol etmek 
+amacıyla, belirli aralıklarla yapılması gerekli Kalite Kontrol Deneyleri, minimum deney sayıları ve 
+sıklıkları Tablo-424-4’te verilmiştir.  
+KBST tabakası yapımında yüklenici işe başlamadan önce; tabakanın imalatı için hazırlık aşaması, 
+başlama aşaması ve yapım aşamasını da kapsayacak şekilde “Kalite Kontrol Yönergesi”ne uygun 
+olarak hazırlayacağı ve deneye tabi tutulacak malzemeler/imalatlar, yapılacak deneyler, numune 
+alma yerleri, numune alma metotları, numune alma ve deney sıklıkları ile deneylerin hangi 
+laboratuvarda yaptırılacağına dair bilgileri içeren “Kalite Kontrol Planı”nı idarenin onayına 
+sunacaktır. Bu kapsamda yüklenicinin işyerinde yapılacak kalite kontrol çalışmaları ile 
+laboratuvarda yapılacak deney faaliyetlerinin yürütülmesinde görevli personeller; iş deneyimleri, 
+nitelikleri ve görev sorumlulukları bakımından yeterli özelliklere sahip olacaktır. Yapılacak tüm 
+--- SAYFA 832 ---
+
+                                              KISIM 424   
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-424/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+424/7 
+testler ve deneyler İdare tarafından kabul edilmiş ve onaylanmış “Kalite Kontrol Planına” göre 
+gerçekleştirilecektir. Kalite Kontrol Planı İdare tarafından onaylanmadan kesinlikle sözleşmeye 
+esas işe başlanılmayacaktır.  
+Kalite Kontrol Planına göre yürütülecek olan kalite kontrol faaliyetlerinde, dizayn sürecinden, 
+üretimin sonuna kadar, KBST tabakasında kullanılacak kazınmış üstyapı malzemeleri ve ilave 
+agrega ile kullanılacak diğer malzemelerin fiziksel ve mekanik özelliklerinin tayini, karışım 
+gradasyonu, bitümlü bağlayıcının türleri, miktar ve karışım oranları ile üretilen karışımının dizayn 
+şartlarının uygulamadaki etkinliği her aşamada ve sürekli olarak kontrol edilerek güvence altına 
+alınacaktır. KBST tabakası imalinde; yerinde kazıma işlemi ile karışım hazırlamada kullanılacak 
+olan makine ve ekipmanlar ile tesislerin yeterliliği, stok sahaları da dahil kontrol edilecek, kazıma, 
+serme ve sıkıştırma ekipmanlarının tamamı İdarece uygun bulunmak ve onay verilmek kaydıyla işe 
+başlanılacaktır. 
+“Kalite Kontrol Yönerge”sine göre hazırlanacak “Kalite Kontrol Planı”nda KBST tabakasında 
+kullanılacak malzemeleri, üretimi, imalatı ve teşkil edilen tabakayı kontrol etmek amacıyla belirli 
+aralıklarla yapılması gereken kalite kontrol deneyleri, minimum deney sayıları ve sıklıkları 
+yapılacak olan tabakaya ait  Tablo-424-4 Kalite Kontrol Deneyleri” ne uygun olacaktır.  
+Tablo-424-4 Kalite Kontrol Deneyleri 
+Amacı  Deney Adı  Deney Sıklığı  Deney Standardı  
+Gradasyon Kontrolü Elek Analizi 
+ (Yaş metot) Günlük üretim için 
+en az 2 deney olmak 
+üzere her 1.000 
+ton’da 1 deney  ASTM C 136 
+ASTM C 117                                                                        
+(TS EN 933-1) 
+Su hassasiyeti/Aktif Filler 
+Etkinlik Kontrolü İndirekt Çekme 
+Mukavemeti, 
+İÇM 
+(6 Briket ile) Her 5.000 m2’ de 1 
+deney ASTM D 6931 
+Kaplama Dayanımının 
+Kontolü Serbest Basınç 
+Dayanımı Her 1.000 m2’ de 5 
+deney ASTM D 1633 
+Sıkışma %’si Belirleme Testleri 
+Sıkışma Kontrolü Kum Konisi Metodu Her 1.000 m2’ de 1 
+deney TS 1900-1, 
+AASHTO T 191 
+Nükleer Metot* Her 250 m2’ de 1 
+deney ASTM D 6938-21, 
+ASTM D 2950, 
+ASTM D 8167, 
+AASHTO T 310-22,  
+AASHTO T 355 
+* İşin başlangıcında en az 10 farklı noktada nükleer metot ile yapılan sıkışma deney sonuçları ile 
+Kum Konisi metodu ile yapılan sıkışma deney sonuçlarının korelasyonu yapılacaktır. Sıkışma 
+kontrolünün nükleer metotla yapılması durumunda, ayrıca her 2.500 m2’de bir, kum konisi metodu 
+ile de sıkışma kontrolü yapılacaktır. Kalite kontrol deneyleri en az bu tabloda belirtilen sayıda 
+olmak üzere, Kontrol Mühendisliğince uygun görülen ara ve sıklıkta yapılacaktır. 
+Bu şartname kapsamında bulunmayan diğer hususlar, ilgili kısımlarda belirtilen, tüm esaslara ve 
+şartlara uygun olacaktır. 
+--- SAYFA 833 ---
+
+ KISIM 425 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım -425/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+425/1 
+425.  YÜZEY DÜZGÜNLÜĞÜNÜN PROFİLOMETRE ÖLÇÜM CİHAZI İLE 
+KONTROLU  
+425.01 Tanım  
+Bu kısım, yeni yapılan imalatın boyuna yüzey düzgünlüğünün kontrolü amacı ile, profilometre 
+ölçüm cihazı kullanarak yol yüzey düzgünsüzlük [Uluslararası Düzgünsüzlük İndeksi -
+International Roughness Index (IRI)] ölçümlerinin yapılmasından bahseder.  
+425.02 Kapsam 
+İmalatı tamamlanan bitümlü karışım kaplama (Aşınma, Taş Mastik Asfalt, Binder, Poroz Asfalt 
+vb.) ve beton kaplama [Derzli Donatısız Beton Yol (JPCP), Derzli Donatılı Beton  Yol (JRCP), 
+Sürekli Donatılı Beton Yol (CRCP) vb.] olarak yapılan üstyapı tabakalarının düzgünsüzlük 
+değerlerinin (konforunun) ölçüm standardına ve şartlarına göre ölçülüp değerlendirilmesi ve 
+şartnamesine uygunluğunun tespit edilerek ödeme seviyelerinin belirlenmesini kapsar.  
+425.03 Yüzey Düzgünlüğü  
+Yol üstyapı kaplama tabakası tamamlandıktan sonra, yapılan imalatın kalite kontrolü amacıyla 
+Profilometre ölçüm aracı ile boyuna profil düzgünlük kontrol ölçümleri yapılacaktır.  
+KTŞ ilgili kısımlarda belirtilen mastarla yapılması gereken kaplama yüzey düzgünlük kontrolü 
+ayrıca profilometre ile de yapılıp ölçüm verileri değerlendirilecektir.  
+425.04 Yüzey Düzgünlüğünün Profilometre Ölçüm Cihazı ile Kontrol Edilmesi  
+Yeni yapılan kaplama yüzeyine ait düzgünsüzlü k (IRI) değerleri profilometre ile ölçülecektir.  
+Yüzey düzgünsüzlük ölçümleri ASTM E 950 standardı 1. sınıf kalitesine uygun olarak üretilen 
+profilometreler ile İdare tarafından yapılacaktır. Ölçümlere ait giderler yüklenici tarafından 
+karşılanacaktır.  
+Düzgünsüzlüğün belirlenmesi için yapılacak profilometre ölçümleri; yolun tamamlanmasından 
+sonra, sağ yol (gidiş) ve sol yol (dönüş) olmak üzere her iki yönde ve tüm şeritlerde ayrı ayrı 
+yapılacaktır.  
+Ölçüm değerleri, IRI (m/km) olarak verilecektir. IRI değerlerinin tespiti için yapılan ölçümlerde 
+ölçüm aralığı 2,5 cm olacaktır. Ardışık olarak yapılan ölçüm, hesaplama ve değerlendirmeler, en 
+fazla 1 km uzunluğundaki homojen kesimlere ayırma şeklinde yapılacaktır. Lokal bozuk kesimler 
+ayrıca değerlendirilebilecektir. Ölçüm değerleri, proje başlangıcından itibaren en fazla birer km lik 
+kesimler halinde itinerer üzerine işlenmiş halde raporlanacaktır. İtinerer üzerinde, yol ile ilgili 
+gerekli bütün bilgiler (köprü, viyadük, tünel, altgeçit, üstgeçit vb. envanter  ve yol bilgileri), 
+homojen kesimler ve düzgünsüzlük değerleri bulunacaktır.  
+Tüm envanter ve yol hakkındaki bilgiler (Değerlendirmeye dahil olan ve Değerlendirme Dışı 
+bırakılan) itinererde gösterilecek ve km leri belirtilecektir.  
+ ‘Değerlendirme Dışı’ nda  tutulacak olan sanat yapıları ve ‘Değerlendirme Dışı’ sınıfına giren 
+diğer kesimlere ait IRI ölçüm değerleri tam ödeme sınırları içerisinde yer alsa bile itinererde 
+gösterilecek ve km leri belirtilecektir.  
+ 
+ 
+--- SAYFA 834 ---
+
+ KISIM 425 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım -425/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+425/2 
+425.05 Düzgünsüzlük (IRI) ölçümlerinde ‘Değerlendirmeye Dahil’ ve ‘Değerlendirme Dışı’ 
+olan kesimler 
+Yeni yapılan imalatlarda, yüzey düzgünlüğünün kontrolü amacı ile yapılan ölçümlerde, aşağıda 
+belirtilen maddelerde IRI ölçüm değerlerinin ‘Değerlendirmeye Dahil’ ve ‘Değerlendirme Dışı’  
+olarak değerlendirilecek kesimleri belirtilmiştir.  
+1. Menfezler değerlendirmeye dahil edilecektir.  
+2. Ek yerleri değerlendirmeye dahil edilecektir.   
+3. Kavşaklar değerlendirmeye dahil edilecektir.  
+4. Modern Dönel Kavşaklar değerlendirme dışında bırakılacaktır.  
+5. Hesap açıklığı 10 m  ve üzeri olan sanat yapıları ve yaklaşımları  değerlendirme dışında 
+bırakılacaktır.  
+6. Köprü, viyadük, altgeçit, üstgeçit, genleşme derzleri, hız kasisleri , enine yöndeki yol boyaları 
+vb. yapılar ile yaklaşımları değerlendirme dışında bırakılacaktır.  
+7. 150 m ve altında olan tüneller, tünel içinde var ise cepler, tünel yaklaşımları değerlendirme 
+dışında bırakılacaktır.  
+8. Sanat yapıları ve yukarıda belirtilen kesimlere ilişkin giriş ve çıkış yaklaşımları ‘Tam Ödeme’ 
+sınıfı dışında ‘Kesintili Ödeme’ veya ‘Yeniden Yapım’ sınıfları içinde IRI değeri alıyo rsa, 
+girişte 50 m ve çıkışta 50 m olarak alınıp değerlendirme dışında bırakılacaktır.  
+9. Ölçümün başlangıç ve bitişindeki 150 şer metrelik kısımlar 'Kesintili Ödeme' veya 'Yeniden 
+Yapım' sınıflarına girmesi durumunda 'Ölçüm  Dışı' bırakılacaktır.  
+Yol kesiminin/kesimlerinin neden ‘Değerlendirme Dışı’nda bırakıldıklarına ilişkin açıklamalar 
+ölçüm raporuna ait itinerer üzerinde gösterilecektir.  
+425.06 Yüklenicinin Ölçümden Önce Yapması Gereken Hazırlıklar  
+Yüklenici, imalattan sonra ölçüm için bir dilekçe ile İdareye başvuracak ve yolu ölçüme 
+hazırlayacaktır.  
+Başvuru dilekçesi ekinde ölçümünü talep ettiği yola ait itinerer bulunacak ve bu itinererde 
+aşağıdaki bilgiler yer alacaktır:  
+• Ölçülecek yola ait projenin adı,  
+• Başlangıç ve bitiş istikametlerindeki yerleşim yerlerinin isimleri,  
+• Sağ yol (gidiş), sol yol  (dönüş) başlangıç bitiş kilometreleri, Kontrol Kesim Numaraları,  
+• Kaplama tipi, 
+• Köprü, altgeçit, üstgeçit vb. sanat yapıları, enine yol çizgi boyaları (şayet varsa), kavşaklar 
+vb. yol envanter bilgileri. 
+Ölçüm ekibi gelmeden önce yapılacak hazırlıklar:  
+• Yol yüzeyinin temizlenmesi; yolda bulunan kum, çakıl vb. serbest malzemelerin 
+süpürtülmesi. Yüzeye yapışmış çamur, vb. kirlerin, ölçüm zamanı yüzey kurumuş olacak 
+şekilde önceden yıkatılması,  
+• Yolda, ölçüm aracının trafik şeridini ortalayarak gitmesini ve hızını engelleyecek, iş 
+makinesi, araç, inşaat malzemeleri vb. bulunmaması,  
+• Yol trafiğe açılmış ise, ölçüm sırasında ölçüm koşullarının sağlanması için geçici olarak 
+trafiğin yavaşlatılması veya yolun trafiğe kapatılması için gerekli trafik ekibinin ve 
+çalışmaların organize edilmesi.  
+--- SAYFA 835 ---
+
+ KISIM 425 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım -425/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+425/3 
+425.07 Ölçüm Yapılacak Tabakalar, Ölçüm Yöntemi ve Zamanı   
+Ölçüm yapılacak tabakalar, ölçüm yöntemi ve zamanı aşağıda belirtildiği şekilde olacaktır.  
+1. IRI ölçümleri bitümlü karışım kaplamalar ile beton kaplama yüzey tabakalarında yapılacaktır.  
+2. Bitümlü karışım kaplamalarda IRI ölçümleri hem binder hem de aşınma tabakalarında 
+yapılacaktır.  Ancak, binder tabakasının üzeri, aynı bitümlü kaplama (BSK) yapım sezonu (aynı 
+yıl) içerisinde aşınma tabakası ile kaplanacak ise, ödeme kriterleri sadece aşınma tabakasına 
+uygulanacaktır. Aynı BSK yapım sezonu içerisinde aşınma tabakası ile kaplanmayacak ise 
+binder tabakasına da ödeme kriterleri uygulanacaktır. 
+3. Kavşak bağlantı  kollarında IRI ölçümleri yapılmayacaktır.  
+4. Proje uzunluğu toplamı 450 m ve altında olan imalatlarda yolların IRI ölçümleri 
+yapılmayacaktır (Örneğin: tırmanma şeritleri, bağlantı yolları, toplayıcı yollar vb.).  
+5. Gidiş -dönüş 2x1 olan yollarda bakım amacıyla yapılan binder ve aşınma tabakalarında IRI 
+ölçümü ve ödeme koşulu aranmayacaktır.  
+6. Sadece aşınma tabakası yapımı veya sadece aşınma tabakası yenilemesi içeren ihalelerde, 
+ihaleden önce mevcut aşınma veya binder tabakalarında yapılacak ölçüm sonucunda elde 
+edilecek en yüksek Düzgünsüzlük değerleri (IRI) 1,90 ‘dan küçük  veya eşit ise  aşınma 
+tabakasında IRI ölçümü ve ödeme koşulu aranacak, Düzgünsüzlük değerleri (IRI) 1,90 ‘dan 
+büyük ise aşınma tabakasında IRI ölçümü ve ödeme koşulu aranmayacaktır. Mevcut yol 
+yüzeyinde yapılacak olan ölçüm sonuçlarına  göre IRI ölçümü ve ödeme koşulu 
+aranıp/aranmayacağı  hususu ihale dokümanında belirtilecektir.  
+7. Banketlere ödeme kriterleri uygulanması, banket yanında yer alan şeritle birlikte mütalaa 
+edilerek d eğerlendirilecektir.  
+8. İdarenin onaylayacağı zorunlu haller dışında, yapılan imalatın uzunluğu 2 km’nin altında olan 
+kesimler için ölçüme gidilmeyecek (proje uzunluğu 2 km’nin altında olan işler hariç) ve imalat 
+uzunluğu 2 km’den fazla olduğunda ölçümler yapılacaktır.  
+IRI ölçümlerinin, aşağıda belirtilen koşullar sağlanarak yapılması gerekmektedir.  
+1. Profilometre ölçüm aracının, yaklaşık 70 km/saat sabit seyir hızı ile gidebilmesi.   
+2. Ölçüm aracının 70 km/saat sürüş hızı ile güvenliği sağlayarak gidemeyeceği dur umlarda veya 
+şehir geçişleri vb. yerlerde, trafik levhalarında belirtilen maksimum hız sınırı uyarısı olması 
+durumunda aracın trafik levhalarında belirtilen seyir hızında gidebilmesi.  
+3. Aracın,  ani hızlanma, yavaşlama ve manevra yapmadan gidebilmesi.  
+Ölçüm aracının, 25 -30 km/saat hızın altına düşmeyecek şekilde, aşağıda belirtilen kesimlere 
+yaklaşırken hızını yavaş yavaş azaltması ve geçtikten sonra hızını yavaş yavaş artırarak 
+yumuşak geçişlerle sürekli olmamak üzere  kısa bir süre için gidebilmesi:  
+a. Yolun geometrik standartlarına bağlı olarak yavaşlaması gereken durumlar,  
+b. Ölçülecek yolun başlangıç ve bitiş yerlerindeki kot farkı ola  n kesimler,  
+c. Derzler,  
+d. Hız bariyerleri (yavaşlama uyarı çizgileri ve kasisler),  
+e. Yol boyaları vb.  
+gibi yapısı gereği ani IRI değişimine sebep olabilecek lokal kesimler.  
+4. Aracın, trafik ışıklarında durmak zorunda kalmaması ve dur -kalk yapmadan gidebilmesi. 
+--- SAYFA 836 ---
+
+ KISIM 425 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım -425/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+425/4 
+5. Aracın şerit değiştirmemesi ve her iki tekerlek hattı boyunca trafik şeridini ortalayarak 
+ilerlemesi. 
+6. Yol yüzeyinde; yaya geçidi ile yavaşlama uyarı çizgilerinin ve kasislerinin bulunmaması.  
+7. Yol yüzeyinde serbest malzeme, çamur vb. bulunmaması.  
+8. Yol yüzeyinin ıslak ya da buzlu olmaması.  
+9. Havanın yağışlı olmaması.  
+Ölçüm öncesi yukarıda belirtilen koşulların sağlanması gerekmektedir. Yol trafiğe açılmadan 
+önce, IRI ölçümlerinin yukarıda belirtilen koşullar sağlanarak yapılması daha kolay ve güvenli 
+olmaktadır. Ancak, zorunlu nedenlerle ve trafik güvenliği açısından kaplama tabakası trafiğe 
+açılmış ise de IRI ölçümü mutlaka yapılacak ve bu şartlarda yapılan ölçümlerde, enine yöndeki yol 
+çizgi boyaları, hız kasisleri vb. yerlerin olduğu kesimler değerlendirme dışı bırakılacaktır.  
+Düzgünsüzlük ölçüm değerleri aşağıda kaplama tiplerine göre verilen tablolardaki kriterlere göre 
+değerlendirilerek, kaplamanın şartnameye uygunluğu ve ödeme şekli belirlenecektir.  
+Tablo-425-1’de bitümlü karışım kaplama ve Tablo-425-2’ de beton kaplama  düzgünsüzlük 
+derecelerine göre yükleniciye tam ödeme, kesintili ödeme ve kaplamanın söktürülüp yeniden 
+yaptırılmasına ilişkin düzgünsüzlük limit değerleri verilmektedir. Kesintili ödeme, kaplama 
+tabakasına yüklenicinin teklif ettiği bedel üzerinden kesinti yapılarak uygulanır.    
+425.08 Düzgünsüzlük  (IRI) Kriterleri ve Ödeme Koşulları  
+Tablo-425- 1 Asfalt Kaplama Yüzey Düzgünsüzlük (IRI) Kriterleri ve Ödeme Şekilleri  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tablo-425- 2 Beton Kaplama Yüzey Düzgünsüzlük (IRI) Kriterleri ve Ödeme Şekilleri  
+Düzgünsüzlük (IRI)  
+(m/km) 
+Beton Kaplama 
+≤ 1,60  Tam Ödeme  
+1,61 - 1,90 % 5 Kesintili Ödeme  
+1,91 - 2,20 % 10 Kesintili Ödeme  
+2,21 - 2,70 % 20 Kesintili Ödeme  
+≥ 2,71  Yeniden Yapım  
+ Düzgünsüzlük (IRI)  
+(m/km) 
+Binder Tabakası  Aşınma Tabakası  Ödeme Şekli  
+< 1,30 < 1,20 Tam Ödeme  
+1,30 - 1,60 1,20 - 1,50 % 5 Kesintili Ödeme  
+1,61 - 1,90 1,51 - 1,80 % 10 Kesintili Ödeme  
+> 1,90 > 1,80 Yeniden Yapım  
+--- SAYFA 837 ---
+
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  BÖLÜM 500 
+ÇEŞİTLİ İŞLER  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KARAYOLU TEKNİK ŞARTNAMESİ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+--- SAYFA 838 ---
+
+ KISIM 501  
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-501/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+501/1 
+501.  TİP-I SERVİS YOLU  
+501.01 Tanım  
+Bu kısım; yol ve sanat yapılarının yapımı sırasında yol gövdesi kazılarak kesilen, mevcut yol kesimi 
+yerine veya İdare tarafından gerek görülen durumlarda mevcut trafiğe geçit vermek amacı ile 
+yapılan yolları kapsar. 
+501.02 Malzeme 
+Servis yolu yapımında kullanılacak malzemeler ve bu malzemelerin nitelikleri, yeni yapılan yolda 
+ve bu yol ile ilgili işlerin yapımında kullanılan malzemeler ve malzeme nitelikleri ile aynı olacaktır. 
+501.03 Yapım Şartları 
+Servis yolu güzergâhı, profil, kırmızı hat, enkesit tipi vb. İdare tarafından belirlenecek, projesi ise 
+yüklenici tarafından hazırlanacaktır.  
+Servis yolu yapımında yapılacak işler; sözleşme ile yapılan yeni yoldaki işlerle aynı olduğundan, 
+servis yolu da teknik şartnamede belirtilen esaslara uygun olarak yapılacaktır.  
+Servis yolları geçici olarak yapıldığından, üzerinden geçecek trafik yoğunluğu ve araçlar göz önüne 
+alınarak servis yolunun devamlı olarak kullanılabilir durumda olması sağlanacaktır.  
+İdare tarafından servis yolu yüzeyinin, dolguların sulanması ve sıkıştırılması, kaplamanın onarımı 
+vb. işlerin yapılmasını isteyebilir. Bu durumda yüklenici, bu gibi işleri verilen talimata uygun olarak 
+yapacaktır. 
+--- SAYFA 839 ---
+
+ KISIM 502  
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-502/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+502/1 
+502.  TİP-II SERVİS YOLU  
+502.01 Tanım 
+Bu kısım, taş, kum, çakıl, su, yol kamulaştırma şeridi dışında kalan ariyet ocaklarından çekilecek 
+ariyet malzemesi, temel, alttemel ve asfalt mıcırı malzeme ocakları yolları ve ihale kapsamındaki 
+işlerin yapılması için gereken malzeme ve makinelerin nakli için yapılan servis yollarını kapsar. 
+502.02 Güzergâh Tespiti 
+Bu tip yolların güzergâhları, taşıma mesafelerinin en kısa olmasını sağlamak ve arazinin topoğrafik 
+olarak uygun olan yerlerinden geçirilmek üzere Kontrol Mühendisliği ve yüklenici tarafından 
+birlikte tespit edilir ve bir protokol düzenlenir. İdare; gerekli gördüğü durumda, servis yolu 
+güzergâhını değiştirebilir. 
+502.03 Yapım Şartları 
+Yüklenici, belirlenen güzergâh üzerinde, servis için gerekli olan genişlikte ve eğim vb. diğer 
+nitelikleri uygun olan “servis yolu”nu yapacaktır. Servis yolu, her durumda ve değişen iklim 
+şartlarında araçların yeterli hızda ve güvenli olarak çalışmalarına uygun olacaktır.  
+--- SAYFA 840 ---
+
+ KISIM 503  
+  
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-503/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+503/1 
+503. TRAFİK İŞARETLERİ  
+503.01 Tanım  
+Bu kısım; trafik güvenliğinin sağlanması amacıyla yürütülen düşey trafik işaretleme hizmetlerinde 
+kullanılmak üzere, aşağıda tip ve özellikleri verilen levhalar üzerine, geri yansıtma özelliğine sahip 
+reflektif malzemeye ipek serigrafi yöntemiyle yazı yazılması, resim, sembol ve bordür teşkil 
+edilmesi suretiyle imal edilen hazır trafik işaretlerini kapsar. 
+503.02 Malzeme 
+Bu bölümde, trafik işaretlemesinde kullanılan malzemelerden aşağıda belirtilenler incelenmiştir. 
+ Galvanizli Sacdan İmal Edilen Levhalar,  
+ Alüminyum Malzemeden İmal Edilen Levhalar, 
+ CTP Malzemeden İmal Edilen Levhalar,  
+ Trafik İşaretinde Kullanılan Reflektif Malzemeler,  
+ Alüminyum Profil ve Bağlantı Elemanları,  
+ Cıvata ve Somunlar,  
+ Galvanizli Omega Profil Trafik İşaret Direği,  
+ Transparan Boyalar,  
+ Trafik Emniyet Konileri, 
+ Trafik Emniyet Silindirleri. 
+ 
+503.02.01 Galvanizli Sacdan İmal Edilen Levhalar 
+503.02.01.01  İlgili Standartlar 
+ TS 822 “Sıcak Daldırma Metodu ile Galvanizlenmiş Düz ve Oluklu Saclar” 
+ TS EN ISO 7438 “Metalik Malzemeler Eğme Deneyi” 
+ TS EN ISO 2178 “Manyetik Metaller Üzerindeki Manyetik Olmayan Kaplamalar – Kaplama 
+Kalınlıklarının Ölçülmesi – Manyetik Yöntem” 
+ ASTM A 123’e göre yapışma testi 
+503.02.01.02 Malzeme Özellikleri 
+1. İmalatta kullanılacak sac, TS EN 10346 “Sıcak Daldırmayla Sürekli Olarak Kaplanmış Çelik 
+Yassı Mamuller-Teknik Teslim Şartları” standardına göre çelik adı DX51D çelik no 1.0917 
+mukavemet sınıfı değerlerini karşılayacaktır. Bu sac, TS - 822’ye göre sıcak daldırma yöntemi 
+ile galvanizlenmiş hazır sacdan yapılacaktır. (Sac kalitesini gösteren faturalar İdareye ibraz 
+edilecektir). 
+2. Levha imalatı, projede detayları gösterilen şekil ve ölçülerde yapılacaktır. 
+3. Aksi belirtilmedikçe levha boyutlarında toleranslar    % 0,5 olacaktır. 
+4. TS EN ISO 2178’e göre kaplama kalınlığı testi standardına uygun olacaktır. 
+Kaplama Kalınlığı Testi, TS EN ISO 2178 standardına göre yapılacak ve kontrol edilecektir. Gerekli 
+görüldüğünde Kaplama Ağırlığı (Kimyasal Metot) TS 822 standardına göre yapılarak, TS 822 2/2 
+D sınıfına göre doğrulama işlemi yapılacaktır. 
+5. Kaplama eğme testi; TS EN ISO 7438 standardına uygun olacaktır. 

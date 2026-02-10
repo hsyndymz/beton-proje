@@ -1,0 +1,14 @@
+--- KTŞ 2023 Uyum Testi Başlıyor ---
+
+Test 1: Yüksek S/Ç (0.48 > 0.45)
+Status: RED
+Violations: ['🔴 Durabilite İhlali: S/Ç 0.48 > 0.45 (KTŞ 2023 Tablo 308-26)', '🔴 Dayanım Yetersiz: Tahmin 0.0 MPa < Hedef 37 MPa']
+------------------------------
+Test 2: Düşük Çimento (330 < 340)
+Status: RED
+Violations: ['🔴 Durabilite İhlali: Çimento 330 < 340 kg (KTŞ 2023 Min)', '🔴 Dayanım Yetersiz: Tahmin 0.0 MPa < Hedef 37 MPa']
+------------------------------
+Test 3: Uygun Karışım (S/Ç 0.44, Cem 345)
+Status: RED
+Violations: ['🔴 Dayanım Yetersiz: Tahmin 0.0 MPa < Hedef 37 MPa']
+------------------------------

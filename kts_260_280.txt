@@ -1,0 +1,1312 @@
+--- SAYFA 260 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/28 
+a. Muhtelif zamanlarda gelen çimentolarla, farklı cins ve markalı çimentolar birbirlerinden ayrı 
+olarak istif edilecektir. 
+b. İşyerine, en önce getirilen çimento en önce kullanılacak şekilde depo edilmelidir. İstifler, 
+duvarlardan 5-10 cm açıklıkta, aralarında boşluk kalmayacak şekilde yapılmalı ve 12 sıradan 
+fazla torba üst üste konulmamalıdır. 
+Küçük ve muntazam deposu olmayan şantiyelerde kısa süreler için çimento ahşap ranza üzerine istif 
+edilecek, üzeri yağmur geçirmeyen örtülerle örtülecektir. Örtüleri ranza altına kadar kıvırıp, üstünde 
+suyun göllenme yapmasına izin vermeyecek şekilde rutubetten korunmalıdır. 
+308.03.02 Agregaların Depo Edilmesi 
+Agregalar, içine yabancı maddeler karışmayacak ve en az ayrışma oluşacak şekilde depo 
+edilmelidir. İş planı ve imalatın gereği olarak farklı boyutlara ayrılmış agrega yığınları, etekleri 
+birbirleri ile karışmayacak aralıkta depo edilecektir.  
+308.03.03 Kimyasal Katkı Malzemelerin Depo Edilmesi 
+Kimyasal katkıların güvenlik formları (MSDS) imalatçıdan temin edilmeli, bu formlarda yazan 
+bilgilere göre serin ve kuru ortamlarda donma etkilerinden korunarak uygun koşullarda 
+depolanmalıdır.  
+308.03.04 Mineral Katkı Malzemelerin Depo Edilmesi 
+Mineral katkılar kirlenme ve bozuşmadan korunarak serin ve kuru ortamlarda depolanmalıdır. 
+Silolara, kapalı, ayrılmış hava geçirimsiz bölmeler yapılmalı veya silo bu özellikte imal edilmiş 
+olmalıdır.  
+308.04 Beton Sınıfları 
+308.04.01 Beton Sınıfları ve Basınç Dayanımları   
+Basınç dayanımlarına göre  betonun tanımlanması ve sınıflandırılması basınç dayanımına göre 
+yapılır. Basınç dayanımı testi, çapı 150 mm ve yüksekliği 300 mm olan standart silindir numuneleri 
+veya boyutları 150 mm olan standart küp numunelerinin 28 gün boyunca standart küre tabi 
+tutulmasından sonra yapılır.  
+Deney numuneleri, TS EN 12390-1’e uygun, küp veya silindir biçiminde olmalıdır. Küp ve silindir 
+şekilli her bir deney numunesinin temel boyutu ”d”, betonda kullanılan agrega anma büyüklüğünün 
+en az 3,5 katı olacak şekilde seçilmelidir. Standart numuneler dışındaki diğer numuneler için 
+uluslararası kabul görmüş dönüştürme katsayıları kullanılır. 
+C25/30 ve üzerindeki beton sınıfları için ve agrega en büyük tane büyüklüğü 25 mm’den küçük olan 
+betonlarda, başka herhangi bir matematiksel ilişki (korelasyon) kurulmamışsa, (150x150x150) mm 
+küp şekilli veya (150x300) mm silindir şekilli numuneler yerine (100x200) mm boyutlardaki silindir 
+veya (100x100x100)mm küp şekilli numuneler kullanılabilir bu durumda aşağıda verilen 
+dönüştürme katsayıları kullanılacaktır. 
+(100x200)mm silindir numunenin (150x300) mm ebadındaki silindir numune basınç dayanımına, 
+dönüştürme katsayısı:  
+fs(150) = 0,97 × f s(100) 
+--- SAYFA 261 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/29 
+(100x100x100) mm küp numunenin (150x150x150) mm ebadındaki küp numune basınç 
+dayanımına, dönüştürme katsayısı:  
+fk(150) = 0,95 × f k(100) 
+Anlaşmazlık durumlarında 150 mm’lik küp veya L/D oranı 2 olan 150 mm çaplı silindir numuneler 
+referans olarak esas alınmalıdır. 
+Tablo-308-20 Beton Sınıfları ve Basınç Dayanımları 
+ 
+BETON 
+SINIFI Karakteristik 
+Silindir Basınç 
+Dayanımı (f ck, ) 
+D=150mm 
+H=300mm      
+N/mm2 (MPa) Karakteristik 
+Eşdeğer Küp 
+Basınç Dayanımı 
+(fck, ) 
+A=150 mm 
+N/mm2 (MPa) Karakteristik 
+Eksenel Çekme 
+Dayanımı  (f ctk )    
+N/mm2 (MPa)  
+28 Günlük 
+Elastisite 
+Modülü 
+Ec 
+ 
+C 8 / 10 8 10 1,0 23.000 
+C 12 / 15 12 15 1,2 25.500 
+C 16 / 20 16 20 1,4 27.000 
+C 20 / 25 20 25 1,6 28.500 
+C 25 / 30 25 30 1,8 30.000 
+C 30 / 37 30 37 1,9 32.000 
+C 35 / 45 35 45 2,1 33.000 
+C 40 / 50 40 50 2,2 34.500 
+C 45 / 55 45 55 2,3 36.000 
+C 50 / 60 50 60 2,5 37.000 
+C 55 / 67 55 67 2,6 38.000 
+C 60 / 75 60 75 2,7 39.000 
+C 70 / 85 70 85 2,9 41.000 
+C 80 / 95 80 95 3,1 43.000 
+C 90 / 105 90 105 3,3 45.000 
+C 100 / 115 100 115 3,5 46.500 
+ 
+Köprü, viyadük, menfez ve tünel gibi büyük sanat yapılarında kullanılan grobeton C 16/20’den daha 
+düşük dayanım sınıfında olmamalıdır. Bunun dışındaki küçük sanat yapılarında kullanılan 
+grobetonun dayanım sınıfı ise C 12/15’ten daha az olmamalıdır. Dolgu ve tesviye betonu olarak, C 
+12/15 beton sınıfı olan karışımlar kullanılabilir. Sadece dolgu ve tesviye işleri için kullanılacak bu 
+karışımlarda, İdarenin iznini almak şartıyla tüvenan agrega kullanılabilir. Kullanılacak tüvenan 
+agreganın granülometrisi Tablo-308-21’de belirtilen limitlere uymalıdır. 
+Tablo-308-21 Tüvenan Agrega Granülometrisi 
+Elek Açıklığı % Geçen 
+mm Dmax = 31,5 mm Dmax = 16 mm  
+63 100  
+31,5 95 - 100 100 
+16 45 - 80 95 - 100 
+4 25 - 50 35 - 55 
+0,5 8 - 30 10 - 35 
+0,15 0 - 6 0 - 6 
+ 
+--- SAYFA 262 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/30 
+308.04.02 Hazır Beton 
+Hazır beton, bilgisayar kontrolüyle istenilen oranlarda bir araya getirilen malzemelerin, beton 
+santralinde veya mikserde karıştırılmasıyla üretilen ve tüketiciye “taze beton” olarak teslim edilen 
+betondur.  
+Hazır beton, yüklenici firmanın kurmuş olduğu tesiste veya piyasada bu amaçla kurulan tesislerde 
+üreticiler tarafından hazırlanıp, taze halde teslim edilir. 
+Hazır beton üretiminin su ölçme ve karıştırma işlemlerinin santralde veya transmikserde 
+yapılmasına göre iki farklı şekli bulunmaktadır. 
+1. Kuru Sistem:  
+Kuru karışımlı hazır beton, agrega ve çimentosu beton santralinde ölçülüp santralde veya 
+transmikserde karıştırılan, suyu ve varsa kimyasal katkısı ise teslim yerinde ölçülüp karıştırılarak 
+ilave edilen betondur. Kuru karışımlı hazır betonda şantiyede karışıma verilen su miktarına 
+(formülde öngörülenden daha fazla olmamasına) ve karıştırma süresine (homojen bir karışım için 
+yeterli süre) özel itina gösterilmesi gerekmektedir. 
+2. Yaş Sistem:   
+Su dahil tüm bileşenleri beton santralinde ölçülen ve karıştırılan hazır betondur.  
+Beton santrali; hazır beton bileşenlerinin stoklanıp, kontrol altında karıştırılarak, hazır beton 
+üretiminin gerçekleştirildiği ve transmikserlere dolumun yapıldığı tesislere denir. Beton santralleri 
+karışım şekillerine göre “yaş ve kuru karışım” olmak üzere ikiye, depolama şekillerine göre de 
+“bunkerli” ve “yıldız tip” olmak üzere ikiye ayrılmaktadır. Yıldız tip santralde, santralin önünde 
+yıldız şeklinde bir stoklama alanı vardır ve kova vasıtasıyla agregalar arkadaki karıştırma kazanına 
+aktarılır. Bunkerli santralde ise, agrega ve kumlar santralin önündeki bunkerlerde stok edilip, bantlı 
+bir sistem ile karıştırma kazanına taşınır. 
+Bir harman betonun hacmi santralden santrale değişmekle birlikte, genellikle 1-3 m3’tür. TS EN 206 
+beton standardına göre, bileşen malzemeler uygun karıştırıcı (mikser) içerisinde karıştırılmalı ve 
+karıştırma işlemine beton üniform görünüm kazanıncaya kadar devam edilmelidir. Karıştırıcı, 
+belirtilmiş karıştırma kapasitesinden daha fazla yüklenmemelidir. 
+Kullanılması halinde kimyasal katkılar, esas karışım işlemi esnasında harmana ilave edilmelidir. 
+Ancak su azaltıcı veya yüksek oranda su azaltıcı katkılar, esas karışım işleminden sonra da ilave 
+edilebilir. Bu durumda kimyasal katkının harmana tamamen dağılarak tam etkili hale gelmesi için 
+beton tekrar karıştırılır. 
+Normal betonlar en az 30 saniye karıştırıldıktan sonra homojen olarak karışmış kabul edilir. 
+Transmikserde esas karıştırma işleminden sonraki yeniden karıştırma süresi 1 dk/m3’den daha az 
+olmamalı, kimyasal katkının ilave edilmesinden sonra beton en az 5 dakika süreyle karıştırılmalıdır. 
+Yapı malzemelerinin tabi olacağı kriterler hakkındaki yönetmeliğe göre betonun “G” işaretiyle 
+piyasaya arz edilmesi zorunluluğu olduğundan “G” Uygunluk Belgesi olmayan ya da “G” 
+işaretlemesi yapılmamış hazır betonlar kullanılmayacaktır. Hazır beton tesisinden beton temin 
+edilmeden önce öncelikle beton üretim tesisinin üretim kapasitesinin ve uygun nitelikte beton 
+üretmek için teknik kapasitesinin yeterli olup olmadığı incelenmelidir. Ayrıca kullanılan cihazların 
+tartım hassasiyetlerinin ve test cihazlarının kalibrasyon sertifikalarının olup olmadığı yönünden de 
+--- SAYFA 263 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/31 
+değerlendirilmelidir. Beton döküm programını iki veya üç gün öncesinden hazır beton üretim 
+tesisine bildirilmesi halinde beton teminindeki aksaklıklar önlenebilir. 
+Hazır beton tesislerinden beton temin edilmesi durumunda; üretimde kullanılacak malzemelerin 
+herbirinden (agrega, çimento, su, kimyasal ve mineral katkı maddeleri) İdare elemanları tarafından 
+yeterli miktarda ve temsili numuneler alınarak KTŞ’de öngörülen testler yapıldıktan sonra, öncelikle 
+malzemelerin şartnamemize uygun olup olmadığı tespit edilecektir.  
+Daha sonra karışım dizaynı yapılıp veya kontrol edilip uygun ise (beton dayanım sınıfı, çevresel 
+etki sınıfı, minimum çimento miktarı, maksimum su/çimento oranı, minimum hava miktarı, çimento 
+çeşiti) onaylandıktan sonra, hazır beton tesisinde beton üretimine başlanacaktır. C30/37 ve üzeri 
+beton sınıflarına ait karışım dizayn raporlarının onayı Genel Müdürlüğümüz Araştırma ve 
+Geliştirme Dairesi Başkanlığımız tarafından yapılacaktır. Kontrollük tarafından şantiye sahasında 
+hazır betondan Kısım 308.06.01’de belirtilen hususlara uygun olarak TS EN 12350-1 standardına 
+göre numuneler alınmalıdır. Taze betonun TS EN 12350-2, TS EN 12350-3, TS EN 12350-5 
+standardına göre kıvam testi ve TS EN 12390-2 standardına göre deney numunelerinin yapımı ve 
+kürü tamamlandıktan sonra, TS EN 12390-3 standardına göre basınç dayanımları belirlenmelidir. 
+ 
+Ayrıca beton XF çevresel etki sınıfına göre talep edilmiş ise; işbaşına getirilmiş taze betonun 
+kalıplara yerleştirilmeden önce, TS EN 12350-7 standardına göre hava miktarı tayin edilmelidir. 
+ 
+İdare tarafından istenildiğinde, sertleşmiş betonun;  su işleme derinliği, klor geçirgenliği, donma-
+çözülme, aşınma vb. deneyleri yapılacaktır.  
+Her transmikser irsaliyesi, betonu basmaya başlamadan önce muhakkak kontrol edilmeli, gelen 
+betonun sipariş edilen beton ile uyumlu olup olmadığı ve taşıma süresinin geçilmediğinden emin 
+olunmalıdır.  
+Beton kıvamı gözlenecek ve gerekirse çökme deneyi ile kontrol edilecektir. İstenilen betondan daha 
+yüksek kıvamlı gelen beton kabul edilmeyecektir. Daha kuru kıvamlı gelen beton için hazır beton 
+firmasıyla temasa geçilerek beton kıvamının düzeltilmesi sağlanacaktır. 
+Projede kullanılacak beton, hazır beton üreticisinden temin edilirken, üretici firmadan aşağıda 
+belirtilen bilgiler alınmalıdır. 
+a. Taze betonun basınç dayanım sınıfı, 
+b. Agreganın maksimum tane anma büyüklüğü (D max) ve her grup agreganın elek analiz 
+sonuçları ile karışım oranlarına göre granülometri eğrisi ve agreganın rutubet durumu, 
+c. Su/çimento oranı veya kıvam sınıfı, 
+d. Kullanılan çimentonun tipi, miktarı, fiziksel ve kimyasal test sonuçları,  
+e. Kimyasal ve varsa mineral katkıların tipi, kullanım miktarları ve test sonuçları,  
+f. Betonun sevk edildiği santral, sevki gerçekleştiren araçla ilgili bilgiler, sevk edilen beton 
+miktarı, karıştırılma zamanı, taze betonun taşınma km’si ve taşınma süresi ile ilgili bilgiler, 
+g. Ayrıca imalatçı firmadan taze betonun üretim yerinden şantiye sahasına kadar prize 
+başlamadan güvenli bir şekilde taşınma garantisi alınmalıdır. 
+ 
+ 
+ 
+--- SAYFA 264 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/32 
+308.04.03 Taze Beton Kıvam Sınıfları 
+Taze betonun kıvamı Tablo-308-22’de belirtilen kıvam sınıflarından herhangi birisine göre tayin 
+edilmekte ve değerlendirilmektedir. 
+Tablo-308-22 Taze Beton Kıvam Sınıfları 
+Çökme Sınıfları 
+(TS EN 12350-2)  Vebe Sınıfları 
+(TS EN 12350-3)  Sıkıştırılabilme Sınıfları 
+(TS EN 12350-4)  Yayılma Sınıfları 
+(TS EN 12350-5)  
+Sınıf Çökme  
+(mm) Sını
+f Vebe Süresi  
+(sn) Sınıf Sıkıştırılabilme 
+Derecesi Sınıf Yayılma Çapı   
+(mm) 
+S1 
+ 
+S2 
+ 
+S3 
+ 
+S4 
+ 
+S5 10 – 40    (± 10) 
+ 
+50 – 90    (± 20) 
+ 
+100 – 150 (± 30) 
+ 
+160 – 210 (± 30) 
+ 
+≥ 220       (± 30) V0 
+ 
+V1 
+ 
+V2 
+ 
+V3 
+ 
+V4 ≥ 31      (± 3) 
+ 
+21- 30   (± 3) 
+ 
+11 – 20 (± 3) 
+ 
+6 – 10   (± 2) 
+ 
+3 – 5     (± 1)    C0 
+ 
+C1 
+ 
+C2 
+ 
+C3 
+ ≥ 1,46        (± 0,10) 
+ 
+1,26 - 1,45 (± 0,10) 
+ 
+1,11 - 1,25 (± 0,08) 
+ 
+1,04 - 1,10 (± 0,05) 
+ F1 
+ 
+F2 
+ 
+F3 
+ 
+F4 
+ 
+F5 
+ 
+F6 ≤ 340       (± 30) 
+ 
+350 – 410 (± 30) 
+ 
+420 – 480 (± 30) 
+ 
+490 – 550 (± 30) 
+ 
+560 – 620 (± 30) 
+ 
+≥ 630        (± 30) 
+ 
+308.05 Beton Karışım Oranlarının Tayini 
+Beton karışım oranlarının tayini, TS 802 ve TS EN 206 standartlarına ve Araştırma ve Geliştirme 
+Dairesi Başkanlığı tarafından yayınlanan “Beton Karışım Oranları Tayin Rehberi”ne uygun olarak 
+yapılacaktır.  
+Beton karışım oranlarının belirlenmesinde, ilgili projenin öngördüğü bütün hususlar göz önünde 
+bulundurulur ve sonuçta mutlak hacim esasına göre, sıkıştırılarak yerleştirilmiş 1 m3 beton imali 
+için gerekli kuru malzeme miktarları tayin edilir. Bulunan miktarlara dayanarak, laboratuvarda 
+beton ön karışımlarının hazırlanması, taze beton deneyleri, bu deneylere göre ön karışımda yapılan 
+düzeltmeler, laboratuvarda hazırlanan numunelerin dayanım yönünden kontrol edilmesi ve şantiye 
+için gerekli düzeltmeler yukarda belirtilen standartlara göre yapılır.  
+Beton sınıflarına göre karışım hesabında esas alınacak hedef basınç dayanımları (f cm) ile deney 
+numunelerinin sahip olması gereken ortalama basınç dayanımları: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 265 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/33 
+ 
+Tablo 308.23 Beton Dayanım Sınıfları ve Dizayn Hedef Basınç Dayanımları  
+ 
+Beton 
+Sınıfı Karakteristik basınç dayanımı, fck 
+(MPa)  Hedef basınç dayanımı, f cm 
+(Ortalama silindir/eşdeğer küp basınç dayanımı) 
+(MPa)  
+Karakteristik 
+silindir 
+(150x300)(mm) 
+Basınç dayanımı 
+fck 
+(MPa)  Eşdeğer küp 
+(150x150x150) 
+(mm) basınç 
+dayanımı 
+fck 
+(MPa)  Standart sapma 
+biliniyorsa Standart sapma bilinmiyorsa  
+(150x300) 
+(mm) 
+silindir  (150x150x150) 
+(mm) 
+küp 
+C14/16 14 16 
+fcm = fck + 1,48 18 20 
+C16/20 16 20 20 24 
+C18/22 18 22 22 26 
+C20/25 20 25 26 31 
+C25/30 25 30 31 36 
+C30/37 30 37 36 43 
+C35/45 35 45 43 53 
+C40/50 40 50 48 58 
+C45/55 45 55 53 63 
+C50/60 50 60 58 68 
+C55/67 55 67 63 75 
+C60/75 60 75 68 83 
+C70/85 70 85 78 93 
+C80/95 80 95 88 103 
+C90/105 90 105 98 113 
+C100/115 100 115 108 123 
+ 
+308.05.01 Toplam Klorür Miktarı 
+Daha önce belirtildiği gibi klorür iyonu elektro-kimyasal reaksiyon sonucu donatının paslanmasına 
+neden olur. Tuz, sertleşmiş betona dışardan nüfuz edebildiği gibi, bir kısmı da deniz orijinli agrega, 
+kum, su ve katkılarla ( mineral + kimyasal ) beton bünyesine taşınır. 
+Yüklenici, her türlü kaynaktan (agrega, çimento, kimyasal ve mineral katkılar, karma suyu vb.) 
+gelebilecek klorür miktarını hesaplayarak Tablo-308-24’de verilen limitler içinde kalınmasını 
+sağlamakla yükümlüdür. Kalsiyum klorür ve klorür esaslı katkılar, çelik donatı, öngerilmeli çelik 
+donatı ve diğer gömülü metal ihtiva eden betonlarda kullanılmamalıdır.  
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 266 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/34 
+Tablo-308-24 Beton Tiplerine Göre Klorür İçeriği Sınıfları 
+Betonun Kullanım Yeri Klorür İçeriği Sınıfıa Çimentob Kütlesine Göre 
+En Fazla Klorür (%)  
+Korozyona dayanıklı kaldırma (tutma) 
+parçaları hariç, çelik donatı ve diğer 
+gömülü metal ihtiva etmeyen beton CI 1,0 % 1,0 
+Çelik donatı ve diğer gömülü metal 
+ihtiva eden beton. CI 0,20 % 0,20 
+ CI 0,40c % 0,40 
+Çelik öngerilme donatısı ihtiva eden CI 0,10 % 0,10 
+CI 0,20 % 0,20 
+a Belirli kullanım amaçlı betonlarda uygulanacak sınıf, betonun kullanılacağı yerde geçerli 
+kurallara bağlıdır.  
+b Mineral katkıların kullanıldığı ve mineral katkının çimento içeriğine dâhil olarak 
+değerlendirildiği durumlarda klorür içeriği, klorür iyonlarının, çimento ile hesaba katılan katkı 
+miktarlarının kütle toplamına yüzdesel olarak oranlanmasıyla bulunur. 
+c CEM III çimento içeren betonlar için, kullanım yerinde geçerli hükümlere göre farklı klorür 
+içeriği sınıflarına da izin verilebilir.  
+ 
+308.05.02 Sülfat Miktarı 
+Bir karışımdaki agrega, çimento, su ve katkılar dahil bütün bileşenlerin SO 3 olarak ifade edilen 
+sülfat içerikleri, her biri ayrı ayrı olmak üzere şartname limitlerini geçmemelidir.  
+308.05.03 Sanat Yapılarının Projelendirmesi Sırasında Çevresel Etki Sınıfının, Beton 
+Dayanım Sınıfı ve Özelliklerinin Belirlenmesi Açısından Dikkate Alınacak Hususlar 
+Sanat yapılarının projelendirmesi sırasında; öncelikle o yapıya etki edecek statik, hareketli yükler, 
+zemin etkileri, toprak basıncı, rötre, ısıl genleşme, rüzgâr etkisi, deprem etkisi, taşıt çarpma etkisi 
+ve hidrolik su etkileri vb. etkiler dikkate alınarak bir beton mukavemet sınıfı belirlenecektir.  
+Daha sonra yapının bulunduğu yer/konumu itibarı ile Tablo-308-25-a ve Tablo-308-25-b  
+kullanılmak suretiyle “etki sınıfı” belirlenip, bu etki sınıfına karşılık gelen beton mukavemet sınıfını 
+ve beton özellikleri Tablo-308-26 kullanılarak belirledikten sonra, en büyük etkiyi yaratan (statik-
+hareketli ve çevre etkilerinden) duruma göre beton mukavemet sınıfı seçilmek suretiyle, yapı 
+elemanlarının kesit boyutları hesaplanarak projelendirmeler gerçekleştirilmelidir. Bu sanat 
+yapılarından bazıları; köprüler, viyadükler, menfezler, yerinde dökme beton bordür (yaya kaldırımı, 
+refüj), her tip büz, rögar, memba tesisatı, sifonlar, beton hendekler, beton ayırma taşları, sınır taşı, 
+kenar taşı, kar siperi, kar direği, beton otokorkuluk, yerinde dökme ve çakma kazıklardır. 
+Prefabrik beton bordürler Kısım 315’de ve beton parke elemanların Kısım 316’da tanımlanan çevre 
+etkilerine göre öngörülen beton dayanım sınıfları ayrıca verilmektedir.  
+Çevre etkilerine kısmen veya tamamıyla açık ve brüt beton (çıplak) şeklinde olan sanat 
+yapılarımızda C30/37 sınıfından daha düşük sınıfta beton kullanılmayacak ve betonlar aşağıda 
+verilen maruz kalacağı çevresel etki sınıflarına göre sınıf ve özellikleri (minimum bağlayıcı miktarı, 
+maksimum su/çimento oranı, çimento cinsi, minimum beton sınıfı, minimum hava içeriği) 
+belirlenecek ve bu özelliklere göre beton dizaynı yapılacaktır. Yapının maruz kalacağı çevresel etki 
+sınıfının ve buna bağlı olarak olması gerekli beton sınıfı ile özelliklerinin belirlenmediği hiçbir 
+beton yapıda kullanılmayacaktır.    
+--- SAYFA 267 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/35 
+Beton, maruz kaldığı çevre ve zararlı kimyasal etkilere karşı etki sınıflarına göre beton sınıfı ve 
+beton özellikleri seçimi örnek olarak aşağıda verilmektedir. 
+1. Yağmura maruz kalan (döngülü ıslak-kuru) tüm beton elemanları, karbonatlaşmanın sebep 
+olduğu korozyon nedeniyle;  minimum C30/37 beton sınıfında ve XC4 çevresel etki sınıfında 
+seçilecektir. 
+2. Deniz suyundan kaynaklanan klorürlerin sebep olduğu korozyon nedeniyle;  
+a. Sahilde veya sahile yakın yerde bulunan beton elemanları,  minimum C30/37 beton 
+sınıfında ve XS1 çevresel etki sınıfında seçilecektir. 
+b. Deniz suyunun altında sürekli su içerisinde kalan beton elemanları, gelgit, dalga ve serpinti 
+bölgelerinde bulunan beton elemanları, minimum C35/45 beton sınıfında ve XS3 çevresel 
+etki sınıfında seçilecektir. 
+Deniz suyu ile temas halinde olan betonlarda “Sülfata Dayanıklı Portland Çimentosu”, “Sülfata 
+Dayanıklı Yüksek Fırın Cüruflu Çimento”, “Sülfata Dayanıklı Puzolanik Çimento”lar tercih 
+edilmelidir. 
+Sülfata Dayanıklı Portland çimentosu kullanıldığında, standartlara uygunluğu belgelenmiş olması 
+şartıyla öğütülmüş yüksek fırın cürufu ve uçucu küller çimentoya katılarak daha geçirimsiz beton 
+elde edilebilecektir. 
+3. Donma/çözünme etkisine maruz (buz çözücü maddenin bulunduğu veya bulunmadığı) beton 
+elemanları, minimum C30/37 beton sınıfında ve XF4 çevresel etki sınıfında seçilecektir. 
+Betonda hava sürükleyici kimyasal katkı kullanılmalı ve betonun, yerleştirmeden hemen önceki 
+ortalama hava içeriği,  hacimce en az % 4,0 olmalıdır. Herhangi bir tek deney sonucunun verilen 
+bu deney sonuçlarından sapması % 0,5’den daha fazla olmamalıdır. 
+4. Yer altı suyu ve zemin nedeniyle beton elemanlarının, zararlı kimyasal ortamlara maruz kalması 
+sözkonusu ise,  temas suyu ve zemin incelenerek  gerekli deneyler yapılacak  (su için: SO 42- , pH 
+, CO 2, NH 4+, Mg2+ ), (zemin için: SO 42- ve asitlik  ) ve Tablo-308-25-b  (Doğal Zeminler ve Yer 
+altı Sularından Kaynaklanan Kimyasal Etkiler için Etki Sınıflarının Sınır Değerleri)’deki XA etki 
+sınıfı  belirlenip, Tablo-308-26 “Etki Sınıflarına Göre Projelendirmelerde Esas Alınacak Beton 
+Özellikleri’den beton sınıfı ve özellikleri belirlenecektir. Baskın etkinin SO 42’den kaynaklanması 
+halinde sülfatlara dayanıklı çimento kullanılacaktır. 
+Kaliteli beton, hem dayanımı yüksek hem de dayanıklılığı iyi olan betondur. Maruz kaldığı çevre 
+etkilerine karşı betonun öngörülen ekonomik ömrünü hangi etkinlikte sürdürebildiği onun kalite 
+düzeyi ile yakından ilgilidir. 
+Etki sınıflarıyla ilgili şartlar, dayanıklılıkla ilgili performansı esas alan tasarım metotları kullanılarak 
+belirlenebilir ve donma/çözünme deneyinde betonun pullanması gibi performansla ilgili göstergeler 
+kullanılarak tanımlanabilir. Çevreden kaynaklanan etkilere dayanıklı beton özellikleri, beton 
+bileşimi için değerlerin sınırlandırılması ve belirlenmiş beton özellikleri yoluyla verilebilir. Beton 
+özelliklerinin belirlenmesinde beton yapının planlanan kullanım ömrü dikkate alınmalıdır.  
+Tablo-308-25-a ve Tablo-308-25-b ’de belirtilen etki sınıflarına göre Tablo-308-26’de öngörülen 
+teknik kriterlerin dikkate alınması ve sanat yapısı betonlarına standart bir bakım şartlarının 
+uygulanması halinde, en az 50 yıl kullanım ömrüne sahip olacağı öngörülmektedir. Daha uzun veya 
+daha kısa kullanım ömürleri için, daha hafif veya daha ağır şartlar geçerli olabilir. 
+ 
+--- SAYFA 268 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/36 
+Tablo-308-25-a Etki Sınıfları 
+Sınıf kısa 
+Gösterilişi Çevrenin Tanımı Etki Sınıflarının Meydana Gelebileceği 
+Yerlere Ait Bilgi Mahiyetinde Örnekler 
+1. Korozyon veya zararlı etki tehlikesi yok 
+Etki sınıfı X0 donatı veya gömülü metal içermeyen bileşenler için hiçbir zararlı etkinin olmadığı çevrelerde 
+kullanılabilir.  
+X0 Donatı veya gömülü metal bulunmayan 
+beton: Donma-çözülme, aşınma ve 
+kimyasal etkiler haricindeki betona  
+zarar vermeyecek diğer ortamlar. Donatısız ve donma-çözülme etkilerine maruz 
+kalmayan temel betonları; donatısız içyapı elemanları . 
+Yıl boyunca sürekli olarak çok kuru şartlarda (Bağıl 
+nem < %35) bulunan, içerisinde donatı veya gömülü 
+metal bulunan betonlar  
+2. Karbonatlaşmanın sebep olduğu  korozyon 
+Donatı veya diğer gömülü metal ihtiva eden betonun hava ve nem etkisine maruz kaldığı etki, aşağıda verilen şekilde 
+sınıflandırılır. 
+XC 1 Kuru veya sürekli ıslak Yüksek nemli yapıların boşluklu üst yapıları ve 
+alanları hariç kapalı yapıların içindeki betonarme ve 
+öngerilmeli beton yüzeyler, Sürekli olarak agresif 
+olmayan su içinde kalmış betonarme ve öngerilmeli 
+beton yüzeyler  
+XC 2 Islak, ara sıra kuru Su ile uzun süreli temas eden beton bileşenler 
+Su depoları, çoğu temeller (zararlı etkisi olmayan 
+toprak içerisine tamamen gömülmüş donatılı ve 
+öngerilmeli beton) 
+XC 3 
+Orta derecede rutubetli veya döngülü 
+ıslak ve kuru şartlar Orta derecede veya yüksek rutubetli havaya sahip 
+binaların iç kısımlarındaki betonlar ve yağmurdan 
+korunmuş, açıkta bulunan betonlar 
+(sundurma tipi binalar, ticari mutfaklar, banyolar, 
+çamaşır odaları, içerdeki yüzme havuzlarının rutubetli 
+odaları, zeminler) 
+Yağmura maruz kalan tüm harici beton elemanları.  
+Islanma ve kurumaya maruz kalan betonarme ve 
+öngerilmeli beton yüzeyler, Buz çözücü tuzlara maruz 
+kalmayan yaya alt geçitlerinin iç beton yüzeyleri, 
+boşluklu üst yapılar veya gözenekli köprü ayakları, Su 
+yalıtımı ile korunan betonarme veya öngerilmeli beton 
+yüzeyler (Hizmet ömrü ile bağlantılı) XC 4 
+3. Deniz Suyu Haricindeki Klorürlerin Sebep Olduğu Korozyon 
+Donatı veya gömülü metal ihtiva eden betonun, buz çözücü tuzları da ihtiva eden, deniz suyu haricindeki kaynaklardan 
+gelen klorürleri ihtiva etmesi halinde etki, aşağıda verilen şekilde sınıflandırılır. 
+XD 1 Orta derecede rutubetli Araç trafiğine açık alanlar nedeniyle hava ile taşınan 
+klorürlere maruz kalan beton yüzeyler; özel garajlar. 
+Buz çözücü maddeler içeren doğrudan serpintilerden 
+uzak olan kemer bölümlerindeki donatılı ve 
+öngerilmeli beton yüzeyler. 
+Çok az buz çözücü etkisine maruz kalan yapıların 
+bölümleri 
+XD 2 Islak, ara sıra kuru Tuzlu su; Klorür içeren suya tamamen batırılmış 
+donatılı ve öngerilmeli beton yüzeyler  
+Yüzme havuzları, klorür içeren endüstriyel sulara 
+maruz betonlar. 
+Taşıt yolunun hemen bitişiğinde 1 m’den daha fazla 
+gömülü otoban yapıları.  
+--- SAYFA 269 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/37 
+Tablo-308-25-a Etki Sınıfları (Devamı)  
+XD 3 Döngülü ıslak ve kuru Buz çözücüler veya buz çözücüler içeren 
+serpintilerinden doğrudan etkilenen donatılı ve 
+öngerilmeli yüzeyler (örneğin duvarlar, köprü 
+ayakları, taşıt yolundan 10 m içerdeki kolonlar, 
+korkuluk kemerleri ve taşıt yolu seviyesinden 1 m 
+aşağıda gömülü yapılar, döşemeler ve otopark 
+döşemeleri) (a) 
+4.  Deniz Suyundan Kaynaklanan Klorürlerin Sebep Olduğu Korozyon 
+Donatı veya gömülü metal ihtiva eden betonun deniz suyunda bulunan klorürlere veya deniz suyundan kaynaklanan 
+tuz taşıyan hava ile temas etmesi halinde etki, aşağıda verilen şekilde sınıflandırılır. 
+XS 1 Hava ile taşınan tuzlara maruz, fakat 
+deniz suyu ile doğrudan temas 
+etmeyen. Sahilde veya sahile yakın yerde bulunan beton yapılar.   
+XS 2 Sürekli olarak su içerisinde. Suya Tamamen daldırılmış ve sürekli doygun kalan 
+betonarme ve öngerilmeli beton; örneğin deniz 
+suyunun içerisinde sürekli kalan beton. 
+XS 3 Gelgit dalga ve serpinti bölgeleri. Yüksek gelgit bölgelerinde çamurlu ve serpinti 
+bölgelerindeki, iskele duvarları gibi donatılı ve 
+öngerilmeli beton bileşenler. 
+5.  Buz Çözücü Maddenin de Bulunduğu veya Bulunmadığı Donma/Çözülme Etkisi 
+Betonun, etkili donma/çözülme döngülerine, ıslak durumda maruz kalması halinde etki, aşağıda verilen şekilde 
+sınıflandırılır. 
+XF 1 Buz çözücü madde içermeyen suyla 
+orta derecede doygun. Yağmura ve donmaya maruz kalan tüm dış yapı 
+elemanları Düşey olmayan, suya doygunluğu yüksek 
+oranda olmayan beton yüzeyler, sadece donmaya, 
+yağmura veya suya maruz kalan beton yüzeyler 
+XF 2 Buz çözücü madde içeren suyla orta 
+derecede doygun. Serpinti ve sıçrama yolu ile temas eden ve buz 
+çözücü maddeler içeren sulara maruz kalan tüm beton 
+yüzeyler  
+XF 3 Buz çözücü madde içermeyen suyla 
+yüksek derecede doygun. Islak iken donmaya maruz kalan yatay veya yataya 
+yakın beton yüzeyler. 
+Sık sık su sıçrayan ve donmaya maruz kalan beton 
+yüzeyler. 
+XF 4 Buz çözücü madde içeren su veya 
+deniz suyu ile yüksek derecede 
+doygun. Buz çözücü maddelere maruz yol ve köprü 
+kaplamaları, buz çözücü tuz ihtiva eden su serpintisine 
+doğrudan ve donma etkisine maruz beton yüzeyler, 
+deniz yapılarının dalga etkisi altındaki donmaya maruz 
+bölgeleri. 
+  
+(a) İlave koruma (örneğin çatlak-köprüleme yöntemi ile kaplama) gerekli olabilir. 
+    
+Not 1  - Burada bahse konu olan nem şartları, donatı veya diğer gömülü metali saran beton örtü tabakası 
+içerisindeki şartlardır. Ancak çoğu durumda beton örtü tabakası şartlarının betonun içerisinde bulunduğu çevre 
+şartlarını yansıttığı kabul edilir. Bu durumda çevre şartlarının sınıflandırılması yeterli olabilir. Ancak, beton ve 
+içerisinde bulunduğu çevre arasında yalıtım tabaka varsa bu şartlar geçerli olmayabilir. 
+ 
+Not 2  - Bir yüzeyi klorür içeren suya batmış, diğer yüzeyi ise açık havaya maruz kalan donatılı ve ön gerilmeli beton 
+elemanları potansiyel olarak daha ciddi etki altındadır. Özellikle de kuru tarafın yüksek ortam ısısına maruz kaldığı 
+durumlarda söz konusu etki daha da şiddetlidir. Karşılaşılacak muhtemel etkilere uygun bir şartname geliştirmek için, 
+gerekli görüldüğünde, uzman tavsiyesine başvurulmalıdır. 
+ 
+ 
+--- SAYFA 270 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/38 
+Tablo-308-25-a Etki Sınıfları (Devamı)  
+6.  Betonun Kimyasal Etkilere maruz kalması. 
+Betonun, Tablo-308-25-b ’de verilen tabii zeminler ve yer altı sularından kaynaklanan zararlı kimyasal etkilere maruz 
+kalması durumunda etki, aşağıda verilen şekilde sınıflandırılır. Deniz suyu, coğrafik bölgeye göre sınıflandırılır, bu 
+nedenle betonun kullanılacağı yerde geçerli sınıflandırma uygulanır. 
+ 
+Not -3: XA3 etki sınıfında veya Tablo-308-25-b ’de geçerli etki sınıfının tayini için özel çalışma yapılmasına gerek 
+duyulabilir. Tablo-308-25-b ’de verilen sınır değerlerin dışındaki değerler, diğer zararlı kimyasal maddeler, kimyasal 
+maddelerle kirlenmiş zemin veya su, Tablo-308-25-b ’de verilen kimyasallarla birlikte yüksek hızda akan su bulunması 
+XA1 Tablo-25-b’ye göre hafif derecede 
+zararlı kimyasal ortam. Atık su arıtma tesislerinde bulunan depolar, sıvı 
+gübre konteynerleri. 
+XA2 Tablo-25-b’ye göre orta zararlı 
+kimyasal ortam. Deniz suyu ile temas halindeki beton bileşenler, 
+zararlı kimyasallar içeren zeminler üzerindeki beton 
+bileşenler. 
+XA 3 Tablo-25-b’ye göre yüksek derecede 
+zararlı kimyasal ortam. Endüstriyel atık su arıtma tesisleri, hayvan besleme 
+yemlikleri, baca gazı arıtma ile soğutma kuleleri. 
+7.  Mekanik Aşınma Etkisi: 
+Beton kullanım esnasında önemli derecede mekanik kullanıma maruz kalacaksa, etki sınıfı aşağıda  verilen şekilde 
+sınıflandırılır.  
+XM1 Orta derecede aşınma Üzerinde, şişme lastikli araçların hareket ettiği 
+taşıyıcı zeminler veya yüzeyi sertleştirilmiş sanayi 
+tesisine ait zeminler. 
+XM2 Yüksek derecede aşınma Üzerinde, şişme lastikli veya içi dolu lastikli çatallı 
+yükleyicilerin (forklift) hareket ettiği taşıyıcı zeminler 
+veya yüzeyi sertleştirilmiş sanayi tesisine ait zeminler. 
+XM3 Çok yüksek derecede aşınma Üzerinde, içi dolu lastik veya çelik tekerli çatallı 
+yükleyicilerin hareket ettiği taşıyıcı zeminler veya 
+yüzeyi sertleştirilmiş sanayi tesisine ait zeminler; 
+üzerinde, sık sık paletli araçların hareket ettiği 
+zeminler; hızlı ve türbülanslı akan sulardaki beton su 
+yapıları (enerji kırıcı havuzlar vb.) 
+8.  Alkali silika reaksiyonu nedeniyle betonun tahribatı  
+Betonda alkali silika reaksiyonunun oluşabileceği ortamlarda etki, aşağıda verilen şekilde sınıflandırılır.  
+XWO Normal kür işleminin ardından çok kısa  
+süreyle rutubetli kalma dışında, 
+kullanımı boyunca büyük ölçüde kuru 
+kalan beton. Bina içinde kullanılan yapı bileşenleri, yağmur, 
+yüzey suyu, zemin rutubeti vb. etkenler ile temas 
+halinde olmayan ve/veya bağıl nemi % 80’den daha 
+fazla olan ortam şartlarına sürekli olmayan şekilde 
+maruz kalan bina dışında kullanılan yapı bileşenleri.  
+XWF Sık sık veya daha uzun süreyle 
+rutubetli ortamlara maruz beton. Yağmur, yüzey suyu, zemin rutubeti vb. etkilere 
+maruz kalan korumasız dış yapı bileşenleri, 
+endüstriyel veya ticari binalarda bulunan ıslak 
+mekânlar, iç mekan yüzme havuzları, çamaşır odaları 
+ve ıslak odalar gibi % 80’den daha fazla rutubete sahip 
+ortamlarda kullanılan yapı bileşenleri, sık sık çiğlenme 
+noktasının altındaki sıcaklıklara maruz yapı 
+elemanları (baca delikleri, ısı aktarım merkezleri, 
+hayvan ahırları vb.), en küçük boyutu 0,9 m olan kütle 
+betonu elemanları (herhangi bir rutubeti dikkate 
+almadan) 
+--- SAYFA 271 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/39 
+Tablo-308-25-a Etki Sınıfları (Devamı)  
+XWA XWF sınıfındaki şartlara ilave olarak 
+betonun, aynı şartlara alkalilerin de 
+bulunduğu şekilde maruz kalması Deniz suyu ile temas halindeki yapı bileşenleri, 
+herhangi ilave dinamik yüke maruz olmayan, ancak 
+buz çözücü tuzlarla temas eden yapı bileşenleri 
+(deniz suyunun çarptığı bölgeler, otopark zeminleri ve 
+park için ayrılmış özel alan), alkalilerle temas 
+halindeki endüstriyel veya tarımsal yapılarda 
+kullanılan yapı bileşenleri (sıvı gübre konteyneri gibi)  
+XWS Yüksek dinamik yüklerin olduğu ve 
+alkalilerin doğrudan etki ettiği 
+ortamdaki beton Deniz suyu ile temas halinde ve yüksek dinamik 
+yüklere maruz beton bileşenler (beton yol yüzeyleri 
+veya döşemeleri gibi) 
+ 
+Tablo-308-25-b Doğal Zeminler ve Yeraltı Sularından Kaynaklanan Kimyasal Etkiler                                  
+için Etki Sınıflarının Sınır Değerleri 
+ 
+Zararlı kimyasal ortamların aşağıda verilen sınıflaması, doğal zemin ve yeraltı suyunun 5 0C ila 25 0C arasında 
+sıcaklığa sahip olması ve su akış hızının durguna yakın derecede yavaş olması esas alınarak yapılmıştır. Herhangi 
+bir kimyasal karakteristiğe ait en ağır değer sınıfı belirler. İki veya daha fazla zararlı kimyasal karakteristiğin 
+aynı sınıfı belirttiği yerlerde ortam, bu özel durum için bir üst sınıf seçmenin gerekli olmadığını gösteren bir özel 
+çalışma bulunmaması durumunda, bir sonraki daha yüksek sınıfa dâhil olarak alınmalıdır. 
+Kimyasal olarak etkili zemin ve yeraltı suyunun durumu, beton üzerine etkileriyle ilgili detaylı bilgi ve 
+alınacak önlemler için TS 3440 standardına başvurulmalıdır. 
+ 
+Kimyasal  
+karakteristik Referans Deney 
+Metodu XA 1 XA 2 XA 3 
+Yeraltı suyu 
+(SO 4)-2   (a) mg/L TS EN 196-2 ≥ 200 ve ≤ 600 > 600 ve  ≤ 3.000 > 3.000 ve  ≤ 6.000 
+pH TS EN ISO 
+10523 ≤ 6,5 ve  ≥ 5,5 < 5,5 ve  ≥ 4,5 < 4,5 ve  ≥ 4,0 
+CO 2 mg/L   TS  EN 13577 ≥ 15 ve ≤ 40 > 40 ve  ≤ 100 >100 ve doygunluk 
+seviyesine kadar 
+(NH 4)+  (b) mg/L ISO 7150-1 ≥ 15 ve ≤ 30 > 30 ve  ≤ 60 > 60 ve  ≤ 100 
+Mg+2  mg/L TS 6228 EN ISO 
+7980 ≥ 300 ve   ≤ 1.000 > 1.000 ve  ≤ 3.000 > 3000 ve doygunluk 
+seviyesine kadar 
+Zemin 
+(SO 4)-2 mg/kg(c) 
+(Toplam) TS EN 196-2 (d) ≥ 2.000 ve ≤ 3.000 (e) >3.000(e) ve ≤ 12.000 >12.000 ve ≤ 24.000 
+Baumann 
+Gully’ye Göre 
+asitlik  mL/kg  TS EN 16502  
+> 200 
+ Uygulamada karşılaşılmaz. 
+ 
+a) Yeraltı suyunun 600 mg/L’den daha fazla (SO 4)-2 içeriği durumlar, beton karışım tasarımında belirtilmelidir. 
+b) (NH 4)+ içeriğine bakılmadan, sıvı gübre XA1 çevre etki sınıfı olarak sınıflandırılabilir. 
+c) Geçirgenliği 10-5 m/s’den daha düşük olan kil zeminler bir alt etki sınıfına geçirilebilirler. 
+d) Deney metodunda, (SO 4)-2 'ün hidroklorik asitle ekstraksiyonu tarif edilmiştir; Alternatif olarak, betonun kullanılacağı yerde yapılıyorsa, 
+su ile açığa çıkarma metodu da kullanılabilir. 
+e) Islanma kuruma döngüleri veya kılcal su emme nedeniyle, betonda sülfat iyonu birikimi tehlikesi olan yerlerde 3000 mg/kg olan sınır 2000 
+mg/kg'a indirilebilir. 
+ 
+--- SAYFA 272 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/40 
+Tablo-308-26 Etki Sınıflarına Göre Projelendirmelerde Esas Alınacak Beton Özellikleri 
+Kısım Etki 
+Sınıfı Çevresel Etki  En yüksek  
+   su/çimento 
+      oranı (c) En düşük 
+dayanım   
+sınıfı (b) En düşük 
+çimento 
+içeriği (c) 
+(kg/m3) En düşük 
+hava içeriği 
+(%)  
+Diğer 
+gerekler 
+ 
+1 X0(a) Korozyon veya 
+zararlı etki 
+tehlikesi yok  - C12/15 - - - 
+2 XC1 
+Karbonatlaşmanın 
+sebep olduğu 
+korozyon 0,65 C20/25 260 - - 
+XC2 0,60 C25/30 280 - - 
+XC3 0,55 C30/37 280 - - 
+XC4 0,50 C30/37 300 - - 
+3 XS1 
+Deniz suyu  0,50 C30/37 300 - - 
+XS2 0,45 C35/45 320 - - 
+XS3 0,45 C35/45 340 - - 
+4 XD1 
+Deniz suyu 
+haricindeki klorür 
+etkisi 0,55 C30/37 300 - - 
+XD2 0,55 C30/37 300 - - 
+XD3 0,45 C35/45 320 - - 
+5 XF1 
+Donma/çözülme 
+etkisi 0,55 C30/37 300 - 
+TS EN 12620’ye 
+uygun, yeterli 
+donma/çözülme 
+dayanıklılığına 
+sahip agrega XF2 0,55 C25/30 300 4,0(a) 
+XF3 0,50 C30/37 320 4,0(a) 
+XF4 0,45 C30/37 340 4,0(a) 
+6 XA1 
+Zararlı Kimyasal 
+Ortamlar 0,55 C30/37 300 - - 
+XA2 0,50 C30/37 320 - Sülfata dayanıklı 
+çimento(b) XA3 0,45 C35/45 360 - 
+7 XM1 
+Aşınma 0,55 C30/37 300 - - 
+XM2 0,55 C30/37 300 - Beton yüzeyine 
+işlem uygulanır (d) 
+XM3 0,45 C35/45 320 - Sert agrega 
+kullanılır  
+ 
+(a) Hava sürüklenmemiş betonun performansı, ilgili etki sınıfı için donma/çözülme etkisine dayanıklılığı kanıtlanmış betonla karşılaştırılarak, uygun deney 
+yöntemine göre yapılacak deneyle belirlenmelidir.   
+(b) Ortamda bulunan sülfat miktarının XA2 ve XA3 çevre etki sınıfına işaret etmesi durumunda, EN 197-1’e veya tamamlayıcı ulusal standartlara uygun 
+sülfata dayanıklı çimento kullanılması gereklidir. 
+(c) k-değeri kavramının uygulanması durumunda, en yüksek su/çimento (w/c) oranı ve en düşük çimento içeriği Madde 308.02.05.03.01’ye uygun olarak 
+değiştirilir. En düşük çimento içeriği, çimento ve standartta belirtilen k-değeri ile eşdeğer çimentoya dönüştürülmüş mineral katkıların toplam miktarını 
+ifade etmektedir. Örneğin, 280 kg CEM I 42.5 çimentosu ve 50 kg uçucu kül içeren karışımın eş değer çimento içeriği 300 kg’dır. İlgili çevresel etki sınıfına 
+ait en düşük çimento içeriği kontrol edilirken 300 kg’a göre değerlendirme yapılır. 
+(d) Yüzeydeki terleme suyunun vakumla çekilmesi ve yüzeyin helikopterle sıkıştırılarak düzeltilmesi gibi. 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTLAR: 
+1-Beton bir yapının hizmet ömrü betonun tasarımına, beton özelliklerine ve uygulamaya bağlıdır. Tabloda verilen değerler, planlanmış tasarım hizmet 
+ömrünün en az 50 yıl olduğu varsayımına dayanmaktadır; ancak beton yapılar daha kısa (ör. 20 yıl) veya daha uzun (ör. 100 yıl) hizmet ömürleri için 
+tasarlanabilir. 
+2- Tabloda verilen değerler, kullanım yerinde geçerli hükümlerde öngörülen çevre etki sınıfında kullanım için uygunluğu sağlanmış olan, TS EN 197-1'e 
+uygun genel çimentoların kullanımı ve Dmax değeri 20 mm – 32 mm arasında olan normal ağırlıktaki agregalar kullanılarak imal edilmiş betonlar için 
+geçerlidir. 
+3- En düşük dayanım sınıfları, su/çimento oranı ile dayanım sınıfı 32,5 olan çimento kullanılarak hazırlanmış betonun dayanım sınıfı arasındaki bağıntıdan 
+elde edilmiştir. 
+4- En yüksek su/çimento oranı ve en düşük çimento içeriği sınır değerleri, her durumda geçerlidir, bununla birlikte beton dayanım sınıfı gereklilikleri de ek 
+olarak belirtilebilir.  
+ 
+--- SAYFA 273 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/41 
+Alkali ile çözünebilen silika içerdiği bilinen veya belirli miktarda reaktif silis içerdiği bilinen 
+agrega, betonda aşağıdaki değerlendirmelere göre kullanılmalıdır. 
+1. TS 10088 EN 932-3’göre detaylı petrografik muayenede, agreganın mineral bileşiminde alkali 
+silika reaksiyonuna neden olabilecek zararlı bir minerale rastlanılmamışsa, herhangi bir önlem 
+almaya gerek yoktur. Agregada Tablo-308-27’de verilen alkali silika reaksiyonuna neden 
+olabilecek bir mineral tespit edildiğinde veya petrografik muayenenin yapılamadığı 
+durumlarda agrega ile ilgili daha ileri araştırma için aşağıdaki işlemler takip edilmelidir. 
+Tablo-308-27 Betonda Zararlı Mertebede Genleşmeye Sebep Olabilecek Mineraller, Kayalar 
+ve Maddeler 
+Mineraller 
+Opal, Tridimit, Kristobalit, Kalsedon, kriptokristalin, mikrokristalin veya camsı kuvars,  
+İri taneli kuvars (yoğun şekilde parçalanmış, granüle olmuş ve basınca maruz kalmış veya ikincil kapanımlarla 
+zengin) 
+Asidik (Silisli), ara bileşimli (nötr) ve bazik volkanik camlar, damar kuvarsı  
+Kayaçlar 
+Kayaç Reaktif Bileşen 
+Volkanik Granodiyorit, şarnokit, granit Basınca maruz kalmış kuvars; mikrokristalin kuvars  
+Pumis (sünger taşı), riyolit, andezit, 
+dasit, latit, perlit, obsidiyen, 
+volkanik tüf Silisli veya ara bileşimli (nötr) silisce zengin volkanik camlar; 
+devitrifiye camlar; tridimit 
+Bazalt Kalsedon, kristobalit, palagonit, bazik volkanik camlar 
+Metamorfik  Gnays, Şist Basınca maruz kalmış kuvars; mikrokristalin kuvars  
+Kuvarsit Basınca maruz kalmış ve mikrokristal kuvars; çört 
+Hornfels, fillit, arjillit Basınca maruz kalmış kuvars; mikrokristalin -kriptokristaklin 
+kuvars 
+Sedimanter Kumtaşı Basınca maruz kalmış ve mikrokristalin kuvars; çört opal 
+Grovak Basınca maruz kalmış ve mikrokristalin - kriptokristalin 
+kuvars  
+Silttaşı Basınca maruz kalmış ve mikrokristalin - kriptokristalin 
+kuvars; opal Şeyl 
+Tillit Basınca maruz kalmış ve mikrokristalin - kriptokristalin 
+kuvars; opal 
+Çört 
+Kristokristalin kuvars; kalsedon; opal  
+Çakmaktaşı 
+Diyatomit Opal; kriptokristalin kuvars 
+Killi dolomitik kireçtaşı ve kalsitik 
+dolomit kuvars içeren killi kalsitik 
+dolomit Dolomit; kil minarelleri didolomitizasyona maruz kalmış 
+Diğer Maddeler 
+Sentetik cam, silika jeli 
+--- SAYFA 274 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/42 
+2. Agreganın, az miktarda da olsa zararlı mineraller içerdiği tespit edildiğinde, varsa agreganın 
+daha önceki deneysel verilerinden veya arazi tecrübelerinden yararlanılmalıdır. Bu tür veriler 
+yok ise agrega, öncelikle TS 13516 ile birlikte TS 2517’ye göre deneye tabi tutulmalıdır. Bu 
+deney sonuçlarına göre zararsız çıkan agregalar büyük olasılıkla betonda zararlı reaksiyona 
+neden olmaz ve zararsız kabul edilir. 
+3. Agrega, sadece TS 2517’ye göre deneye tabi tutulduğunda zararlı bölgede bulunduğunda, 
+betonda alkali silika reaksiyonuna sebep olacağı kabul edilir veya aşağıda (Madde 4’ten 
+itibaren) verilen işlemler uygulanır veya herhangi bir ilave önlem alınmadan önce TS 13516 
+ve TS 13517’ye uygun olarak hızlandırılmış harç çubukları ve diğer beton deneylerine 
+başvurularak deney sonuçları, alkali silika reaksiyonu bakımından değerlendirilir. 
+4. Zararlı reaktif mineral içerdiği belirlenen agregalar ile normal beton yapılması durumunda, 
+tüm bileşenlerden gelen toplam alkali içeriği 3,0 kg/m3 değerini aşmamalıdır. 
+5. Normal ve özel beton yapıları için ASR’yi en aza indirmek üzere, ilgili standartlara uygun bir 
+puzolanik malzeme seçilmelidir. Hangi oranda puzolanik malzemenin ASR’yi en aza indirdiği 
+veya önleyeceği TS 13517’ye göre harç ve/veya TS 13519’a göre beton deneyleri ile 
+belirlenmelidir. Bu gibi durumlarda beton imalatında, yüksek oranda serbest CaO içeren 
+kalkersi uçucu kül (W) içeren katkılı çimentoların kullanımından kaçınılmalıdır.  
+6. Normal ve özel beton yapılarda, bir puzolanik malzeme, ASR’nin önlenmesinden farklı bir 
+amaç için kullanılacaksa ve agrega reaktif ise, ASR’nin gerekli oranda önlendiği, harç veya 
+beton deneyleri ile ispatlanmalıdır. Belirlenen oran tavsiye edilen en az orandan daha düşük 
+ise puzolanik malzeme içindeki reaktif alkali miktarı tahmin edilmeli ve toplam alkaliye ilave 
+edilmelidir.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 275 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/43 
+ 
+Şekil-308-5 Normal Betonlarda ASR Riskinin Değerlendirilmesi İçin Akış Diyagramı  
+ 
+ 
+ 
+
+--- SAYFA 276 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/44 
+ 
+ 
+ Tablo-308-28-a Farklı Çevresel Etki Sınıflarına Maruz Betonlar için Kullanılması Önerilen Çimento Tipleri a 
+ 
+Etki Sınıfı                                                                                           
+X= Kullanılması 
+önerilir                                       
+O=Kullanılması 
+önerilmez  
+Korozyon Etkisi 
+yok Donatı Korozyonu  Betona Etkisi  
+ 
+Karbonatlaşma nedeniyle 
+Korozyon Klorür nedeniyle Korozyon  
+Donma / Çözülme Etkisi Zararlı Kimyasal 
+Ortam Deniz Suyu dışında 
+Klorür Etkisi Deniz Suyundan 
+kaynaklanan 
+Klorür Etkisi 
+XO XC1  XC2  XC3  XC4  XD1  XD2  XD3  XS1 XS2 XS3 XF1 XF2 XF3 XF4 XA1  XA2d XA3d 
+CEM I  X X X X X X X X X X X X X X X X X X 
+CEM 
+II A/B S X X X X X X X X X X X X X X X X X X 
+A D  X X X X X X X X X X X X X X X X X X 
+A/B P/Q X X X X X X X X X X X X 0 X 0 X X X 
+A/B Vİ X X X X X X X X X X X X X X X X X X 
+A 
+Wİ X X X X X X 0 0 0 0 0 X X X 0 0 0 0 
+B X X X X X X 0 0 0 0 0 X X X 0 0 0 0 
+A/B T X X X X X X X X X X X X X X X X X X 
+A 
+LL X X X X X X X X X X X X X X X X X X 
+B X X X X X X 0 0 0 0 0 X X X 0 0 0 0 
+A 
+L X X X X X X X X X X X 0 0 0 0 X X X 
+B X X X 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+A 
+Me,i X X X 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+B X 0 X 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+CEM 
+III A X X X X X X X X X X X X X X Xb X X X 
+B X X X X X X X X X X X X X X Xc X X X 
+C X 0 X 0 0 0 X 0 0 X 0 0 0 0 0 X X X 
+CEM 
+IV e,i A X 0 X 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+B X 0 X 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+CEM 
+V e,i A X 0 X 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+B X 0 X 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+a), e), i) ve  d) dipnotları için Tablo 308.28.c' ye bakılmalıdır.  
+--- SAYFA 277 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/45 
+Tablo-308-28-b Farklı Çevresel Etki Sınıflarına Maruz Betonlar için Kullanılması Önerilen 
+Çimento Tipleri a 
+Etki Sınıfı                                                                                           
+X= Kullanılması 
+önerilir                                                                                    
+O=Kullanılması 
+önerilmez  
+Korozyon etkisi yok  Donatı Korozyonu Betona etkisi 
+Ön gerilme Çeliğine uyumluluk  
+Karbonatlaşma 
+nedeniyle Korozyon  Klorür nedeniyle korozyon 
+Donma / Çözülme 
+Etkisi Zararlı Kimyasal 
+Ortam Aşınma Deniz Suyu 
+dışında Klorür 
+Etkisi Deniz 
+Suyundan 
+kaynaklanan 
+Klorür Etkisi 
+XO XC1 XC2 XC3 XC4 XD1 XD2 XD3 XS1 XS2 XS3 XF1 XF2 XF3 XF4 XA1 XA2d XA3d XM1  XM2  XM3  
+CEM 
+II A  
+M S-D;   S-
+T; S-LL;  
+S-L; D- T;   
+D-LL;     
+D-L;   T-
+LL; T-L;   
+S-Vi; V-
+Ti;  V-L; 
+V-LLi X X X X X X X X X X X X X X X X X X X X X X 
+S-P;   D-
+P;       D-
+Vi ; P-Vi; 
+P-L;   P-
+LL; P-T X X X X X X X X X X X X 0 X X X X X X X X Xf 
+D-Wi; S-
+Wi      P-
+Wi;  L-
+W;      
+LL-Wi; 
+T-W X X X X X X 0 0 0 0 0 X X X 0 0 0 0 0 0 0 0 
+B S-D;  S -
+T; D-T;  
+S-Vi; V-
+Ti  X X  X  X  X  X  X X  X  X  X  X  X X X X X X X X X X 
+S-P;  D-
+P; D-Vi; 
+P-T; P-Vi X X X X X X X X X X X X 0 X 0 X X X X X X Xf 
+S-LL;  S-
+L;  D- LL;        
+P-LL;  P-
+L; V-LLi; 
+V-Li;       
+T-LL;  T-
+L; W-T; 
+D-Wi;      
+S-Wi; P-
+Wi;      
+L-Wi; 
+LL-Wi X X X X X X 0 0 0 0 0 X X X 0 0 0 0 0 0 0 Xf 
+a), d), f) ve i) dipnotları için Tablo-308.28.c'ye bakılmalıdır. 
+ 
+Tablo-308-28-c Farklı Çevresel Etki Sınıflarına Maruz Betonlar için Kullanılması Önerilen 
+Çimento Tipleri a 
+Etki sınıfı                                                                                           
+X= Kullanılması 
+önerilir                                                                                    
+O=Kullanılması 
+önerilmez  
+Korozyon Etkisi yok Donatı Korozyonu Betona Etkisi 
+Ön gerilme Çeliğine 
+uyumluluk Karbonatlaşma 
+nedeniyle Korozyon  Klorür nedeniyle korozyon 
+Donma / Çözülme 
+Etkisi Zararlı Kimyasal 
+Ortam Aşınma Deniz Suyu 
+dışında Klorür 
+Etkisi Deniz 
+Suyundan 
+kaynaklanan 
+Klorür Etkisi 
+X
+O XC
+1 XC2 XC3 XC4 XD
+1 XD
+2 XD
+3 XS
+1 XS
+2 XS3 XF1 XF2 XF
+3 XF4 XA1 XA2
+d XA3
+d XM1  XM2  XM3   
+CEM 
+IV   B (P g) 
+X X 
+X X X X X X X X X X 0 X 0 X X X  X 0 0 0 CEM 
+V  A (S-P h) 
+Çok Düşük 
+Hidratasyo
+n Isılı  
+(VLH) III/B 
+0 0 0 0 X 
+0 0 X 
+0 0 0 0 0 X X X 
+0 0 0 0 III/C 
+IV/Ai 
+0 0 0 0 0 IV/Bi 
+V/Ai 
+V/Bi 
+a) Bu çizelgede kullanılması önerilmeyen çimento, taraflar arasında mutabakat sağlanması durumunda kullanılabilir.                                                                                                                                        
+b) Dayanım sınıfı ≥42,5 veya dayanım sınıfı 32,5 R ve kütlece ≤ %50 öğütülmüş yüksek fırın cürufu.                                                                                                                                                                                                                 
+c) CEM III/B sınıfı çimento sadece deniz yapıları uygulamalarında, su/çimento  ≤ 0,45, dayanım sınıfı en az C35/45 ve çimento dozajı c ≥ 340 kg/m3 ise kullanılabilir. 
+Betonda hava sürükleyici katkı kullanılması gereklidir.                                                                                                                                                                                                                                                 
+d) XA1 etki sınıfına kıyasla daha ciddi kimyasal etkiye maruz betonlarda, deniz suyu dışındaki sülfat etkisi için yüksek oranda sülfata dayanıklı çimento kullanılmalıdır. 
+Alternatif olarak, sülfat içeriği en fazla 1,500 mg/L olan zararlı etkiye sahip sular için sülfata dayanıklı çimento yerine uçucu kül ve çimento karışımı kullanılabilir. 
+Yüksek sülfata dayanıklılık için gerekler, CEM I-SR-3 veya daha düşük çimento, CEM III/B-SR veya CEM III/C-SR çimentoların kullanılması halinde sağlandığı kabul edilir.                                      
+e) İçerisine belli oranda mineral katkı ilave edilmiş çimentolar daha iyi performans verebilir. Üç ana bileşenli CEM-II-M tip çimentosu için Tablo 28-b ’ye ve CEM IV ve 
+CEM V çimentoları ve iki veya üç ana bileşen için Tablo 28-c' ye bakılmalıdır.                                                                                                                                                                                     
+f) Bu tip uygulamalarda, puzolanlı çimentolar performanslarını kanıtlayan yeterli veri bulunmamasından dolayı kullanılmama lıdır.                                                                                                                       
+g) TS 25' e uygun tras ihtiva eden, tras oranı en fazla %40 olan traslı çimento.                                                                                                                                                                                                                                   
+h) Trasın ana bileşen olduğu traslı çimentolara uygulanır.                                                                                                                                                                                                                                                                 
+i) TS 13515' e göre üretilen betonda kullanılan uçucu kül TS EN 450-1' e uygun olmalı ve kızdırma kaybı % 5' i aşmamalıdır.  
+--- SAYFA 278 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/46 
+308.06 Beton Kalitesinin Denetlenmesi 
+Beton kalitesinin denetimi, Kontrol Mühendisliği tarafından projede öngörülen koşulları 
+gerçekleştirebilecek şekilde ve özenle yapılmalıdır. İş yerinde, değişik imalatların yapım tarihlerini 
+ve yapım şartlarını gösteren günlük defter tutulmalıdır.  
+Bu defterde karışımda kullanılan agrega ve agregada olan değişimler, su / çimento oranı ve betonun 
+kalitesi ile ilgili olarak taze beton için izin verilen çökme (kıvam) değerleri, agreganın doğal su 
+içeriği, numune alma, don olay, tarih, süre ve izleme saatleri ve günlük sıcaklık belirtilmelidir. 
+Günlük imalat defteri, kontrollük teşkilatının her istediğinde gösterilmelidir. 
+308.06.01 Kalite Kontrol Numunelerinin Alınması 
+Beton dayanımının belirleneceği durumlarda, dayanım TS EN 12350-1'e uygun şekilde alınan taze 
+beton numuneleriyle oluşturulan ve TS EN 12390-2'ye uygun olarak hazırlanıp bakım uygulanan, 
+TS EN 12390-1'e uygun 150 mm kenar uzunluğuna sahip küp veya 150/300 mm boyutlarındaki 
+silindir numuneler alınır. 
+C25/30 ve üzerindeki beton sınıfları için 100 mm’lik küp veya 100x200 mm silindir şekilli 
+numuneler de kullanılarak basınç dayanımı belirlenebilir, bu durumda Kısım 308.04.01’de verilen 
+dönüştürme katsayıları kullanılacaktır. Anlaşmazlık durumlarında 150 mm’lik küp veya L/D oranı 
+2 olan 150 mm çaplı silindir numuneler referans olarak esas alınmalıdır. 
+Hazırlanacak silindir veya küp numuneler, ayrı ayrı harmanlardan rastgele seçilerek, betonu temsil 
+edecek şekilde her beton grubundan TS EN 12350-1’e uygun olarak Tablo-308-30’da belirtilen 
+sıklıkta ve miktarda alınmalıdır. 
+308.06.02 Sertleşme Kontrol Numunelerinin Alınması 
+Sertleşme deneyinin amacı, yapıdaki betonun belirli bir anda muhtemel mukavemeti hakkında bilgi 
+edinmek, kalıp, iskele alma sürelerini ve yapının hizmete ne zaman açılacağını ve beton koruma 
+yönteminin yeterli olup olmadığını belirlemektir. Numuneler beton imali esnasında İdare elemanları 
+tarafından alınır. Sertleşme kontrol numuneleri en az 3 adet numuneden oluşmalıdır. Numunelerin 
+alınması ve kalıplara doldurulması TS EN 12350-1 standardında belirtilen esaslara uygun şekilde 
+yapılacaktır. Yapıda kullanılan betondan alınan 150/300 mm ebatlarındaki silindir veya 150 mm’lik 
+küp numuneler, yapının yanına konularak ve yapı betonu ile aynı koruma şartlarına tabi tutularak 
+basınç deneyine kadar bekletilirler. 
+308.06.02.01 Dayanım Gelişmesi 
+Beton basınç dayanımı gelişmesinin tayini için, gerekli durumlarda, 28 gün yaşta deneye tabi 
+tutulmak üzere numune alınmış en az iki farklı beton yükünden (transmikser) uygun sayıda (3 
+numuneden az olmamak üzere) ilave numune alınmalı ve bu numuneler 28 günlük referans 
+numuneler ile aynı koşullarda küre tabi tutularak uygun yaşlarda (sürelerde) deneye tabi 
+tutulmalıdır. Dayanım gelişiminin göstergesi olan dayanım oranı, Kontrol Mühendisliği tarafından 
+aksi belirtilmedikçe, 2 günlük ortalama basınç dayanımının 28 günlük ortalama basınç dayanımına 
+oranıdır. Şantiyeye teslim edilmiş beton (hazır beton) için bu oran, hazır beton imalatçısı tarafından 
+TS EN 206’ye göre kullanıcıya verilmelidir.  
+Dayanım gelişim hızı için 7/28 oranı da belirtilebilir. (20 ± 2)°C sıcaklıkta, dayanım gelişim hızı 
+için 7/28 oranı belirtilmişse, beton imalatçısı tarafından beyan edilen 7/28 oranının, daha önce elde 
+edilmiş olan verilere göre sapma sınırları ± %15 dâhilinde olmalıdır. 
+ 
+Kür süresini belirlemek için, beton dayanım gelişmesi, Tablo-308-29’e göre veya 20 °C sıcaklıkta 
+2 gün ile 28 gün arasında dayanım gelişim eğrisinin çizilmesiyle sağlanabilir. 
+--- SAYFA 279 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/47 
+Tablo-308-29 Betonun 20°C Sıcaklıktaki Dayanım Gelişmesi 
+Dayanım Gelişmesi Tahmini Dayanım Oranı 
+fcm.2 / fcm.28 
+Hızlı ≥ 0,5 
+Orta ≥ 0,3       < 0,5 
+Yavaş                       ≥ 0,15     < 0,3 
+Çok yavaş < 0,15 
+ 
+308.06.02.02 Sertleşmesinin Takibi ve Kontrolü 
+Betonun yapıdaki dayanım gelişiminin tahminini, olgunluk yönteminden yararlanarak yapmak da 
+mümkündür. Olgunluk yöntemi yoluyla yapıdaki (yerindeki) beton dayanımının tahmin 
+edilmesiyle, kalıp sökülmesi ve tekrar kalıbın hazırlanması,  tendonların art germe işlemi, soğuk  
+havada koruma önlemlerinin sonlandırılması ve yolların trafiğe açılması gibi kritik işlemlerin 
+başlatılmasına izin verilebilir. 
+Bu maksatla takip edilen süreç TS 13508 standardında belirtilen esaslara uygun olmalıdır. Bu 
+yöntem, beton karışımının laboratuvar ortamındaki dayanım-olgunluk ilişkisinin ve yapıdaki 
+betonun ölçülmek istenen zamana kadarki sıcaklık değerlerinin belirlenerek kayıt altına alınmasını 
+gerektirir.  
+Olgunluk yöntemine göre betonun dayanımını tahmin etmede beton sıcaklığını zamanın bir 
+fonksiyonu olarak izleyerek kaydeden ve buna bağlı olarak olgunluk indeksini hesaplayan bir cihaza 
+gereksinim vardır. Bu amaçla beton kalıba yerleştirilmeden önce veya beton taze halde iken sıcaklık 
+sensörleri doğrudan betonun içine ve yapısal gerekler ve maruz kalacakları ortam şartları açısından 
+kritik olan bölgelere yerleştirilmelidir. Sensörler, olgunluk ölçüm cihazına ve sıcaklık kayıt cihazına 
+bağlanarak ölçümler alınmaya başlanır. Cihaz, aşağıdaki bağıntı vasıtasıyla ağırlıklı olgunluğu 
+hesaplamaktadır: 
+ 
+Cln C C  10RT  -2.245 1.245 - T  0.1
+g
+ 
+Burada; 
+Rg: 1 saatlik sürede hesaplanan ağırlıklı olgunluk (saat olarak), 
+T: İlgili saatteki ortalama beton sıcaklığı (oC olarak), 
+C: Kullanılan bağlayıcı malzemenin C değeridir.  
+ 
+C değeri kullanılan bağlayıcının özelliklerine bağlı olup ilgili standart TS 13508, Ek C bölümünde 
+belirtildiği gibi tespit edilir.  
+Yöntem, beton karışımının potansiyel dayanımını gösteren diğer yöntemlerle desteklenmelidir . 
+308.06.03 Basınç Dayanım Deneyinin Yapılması 
+Numuneler, TS EN 12390-2’ye uygun olarak hazırlanmalı ve küre tâbi tutulmalıdır. Numunelerin 
+basınç dayanımları TS EN 12390-3’e göre tayin edilmelidir. Beton basınç dayanımının uygunluğu, 
+28 gün yaşta deneye tabi tutulmuş numuneler üzerinde tayin edilir.  
+ 
+ 
+--- SAYFA 280 ---
+
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/48 
+308.06.04 Şantiyede Kalite Kontrol 
+308.06.04.01 Taze Betonda Kalite Kontrol  
+Şantiye betonları, onaylanan beton karışım dizaynına göre istenilen dayanımlar, çökme (slump), 
+yoğunluk ve hava yüzdesinin tayini deneylerinin uygunluğu yönünden kontrol edilecektir. Basınç 
+dayanım kontrolü Kısım 308.06.03’de belirtilen esaslara göre yapılan basınç dayanım deneyi ile 
+belirlenir. Beton karışımının kıvamı, TS EN 12350-2 standardına göre şantiye sahasında kalıba 
+konulmadan önce ve zaman zaman da santraldeki üretim yerinde çökme (slump) deneyi ile Tablo 
+308-22’e göre kontrol edilecektir. Taze betondaki yoğunluk kontrolü, TS EN 12350-6 standardına 
+göre zaman zaman kontrol edilecektir. Kontrol Mühendisliği, şantiye koşullarında korunarak 
+bekletilen örnekler üzerinde sertleşme deneylerinin yapılmasını isteyebilir. Bu deneyler; Kısım 
+308.06.02’de belirtildiği şekilde alınan numuneler üzerinde yapılır. Nitelik denetimi amacıyla, 
+deney sonuçlarının değerlendirilmesinde, betonun kabul edilebilmesi için; numuneler Kısım 
+308.06.01’de belirtilen esaslara uygun şekilde alınmalı ve basınç dayanımları aşağıda verilen 
+“Betonda Nitelik Denetimi ve Kabul Koşulları” kriterlerini sağlamalıdır.  
+Hava Sürüklenmiş Taze betonun hava içeriği 
+Hava sürüklenmiş taze betonun hava içeriği TS EN 12350-7 standardına göre kontrol edilmeli ve 
+betonun teslim yerinde hacimce en büyük sapması -% 0,5 +% 5,0 olmalıdır. 
+308.06.04.02 Sertleşmiş Betonda Nitelik Denetimi ve Kabul Koşulları 
+308.06.04.02.01 Kalite Kontrol Numunelerinin Alınması ve Deney Planı 
+1- Numuneler TS EN 12350-1’e uygun olarak farklı harman veya yüklerdeki taze betondan rastgele 
+seçilerek alınmalıdır. 
+2- Bir adet basınç dayanımı deney sonucu elde edilmesi için, beton harmanı veya beton yükünden 
+en az 3 (üç) adet beton numune alınarak bir numune takımı oluşturulmadır.  
+Beton harmanı veya üretim birimi: Aynı hesap dayanımı istenen, aynı malzemelerle, aynı karışım 
+oranlarında hazırlanan betondur. Bu beton, aynı gün içerisinde projenin farklı yapı elemanlarında 
+uygulansa da tek bir üretim birimi olarak kabul edilir.  
+Beton Yükü: Her bir betoniyer veya mikserde bir defada karıştırılarak hazırlanan miktardaki taze 
+beton, beton harmanı, her bir transmikserle taşınan taze beton miktarıdır.  
+3- Numune alınmasında, dökülen bir günlük betonu temsil edecek, (varsa, kolon veya perde gibi 
+taşıyıcı eleman dökümünde kullanılan betonu temsil edecek şekilde) en az bir beton harmanı veya 
+yükü belirlenmelidir.  
+Şantiyeye aynı gün içerisinde yalnızca bir beton yükü teslim edilmişse bu yükten asgari 2 numune 
+takımı oluşturulmalıdır.  
+4- Hazır beton tesisinden şantiyeye bir gün içerisinde bir beton yükünden daha fazla sayıda teslim 
+edilen beton için asgari numune alma sıklığı Tablo.30’da belirtildiği şekilde uygulanmalıdır. Nitelik 
+denetimi için ilgili betondan alınacak numune miktarı, Tablo-308-30’da verilen kriterlerden en 
+yüksek numune alma sıklığında, en fazla deney sonucu elde edilecek şekilde belirlenmelidir.  
+5- Beton dayanımı C55/67 ve üzerinde ise Tablo-308-30’da belirtilen numune sayıları iki katına 
+çıkarılmalıdır. 
+ 
+ 

@@ -1,0 +1,2466 @@
+--- SAYFA 770 ---
+
+ KISIM 416 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-416/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+416/1 
+416. BİTÜMLÜ SICAK KARIŞIM TABAKALARINDA KULLANILAN GEOSENTETİK 
+MALZEMELER VE ÇELİK GRİDLER 
+416.01 Tanım 
+Bu kısım, bitümlü sıcak karışımlar ile kaplanmış yolların takviyesinde, eski kaplamada oluşan 
+çatlakların takviye tabakasına yansımasını geciktiren geokompozit, geogrid ve çelik grid 
+malzemeler ile sızdırmazlık amacıyla kullanılan geotekstillerin özelliklerini ve yapım koşullarını 
+kapsar. 
+416.02 Genel 
+Hangi tip geosentetiğin veya çelik gridin kullanılacağı takviye edilecek ya da onarım görecek yola 
+ait idare tarafından onaylanan “Üstyapı Projelendirme Raporu veya Üstyapı Rehabilitasyon 
+Projelendirme Raporu”nda belirtilecektir. 
+Aşağıdaki bölümlerde sızdırmazlık amacıyla kullanılan geotekstiller, eski kaplamada oluşan 
+çatlakların takviye tabakasına yansımasını geciktiren geokompozit, geogrid ve çelik gridlerin 
+malzeme özellikleri ve yapım metotları verilmiştir. Raporda geokompozitler önerildiğinde 
+geokompozitin geotekstili ve geogridi bu şartnameye uygun olacaktır.  
+416.03 Malzemeler 
+Rulolar, taşıma ve depolama sırasında herhangi bir hasara karşı uygun şekilde paketlenmiş 
+olmalıdır. Her rulo etiketlenmiş olmalı ve bu etiket üzerinde tanımlayıcı bütün bilgiler (üretim ve 
+parti no; ürünün ismi, boyutları, imal tarihi) bulunmalıdır. 
+416.03.01 Geotekstil ve Özellikleri 
+Kullanılan geotekstil; örgüsüz tipte, polipropilen veya poliester esaslı liflerden üretilmiş olacaktır. 
+Geotekstiller ultraviyoleye karşı kuvvetlendirilmiş, eskimeye, çürümeye, çözücülere, ısıya ve 
+oluşabilecek herhangi bir kimyasal reaksiyona karşı dayanıklı olmalıdır. Ayrıca asit, alkali, bakteri 
+ve diğer organizmalara karşı da dayanıklı olmalıdır. Geotekstiller Tablo-416-l ’de verilen şartlan 
+sağlayacaktır. 
+Tablo-416-1 Geotekstil Özellikleri (TS EN 15381) 
+Özellikler* Deney Standardı  Şartname Limiti  
+Çekme Dayanımı, kN/m min.  TS EN ISO 10319 7 
+Maksimum Yükteki Uzama, % min.  TS EN ISO 10319 50 
+Asfalt tutması, kg/m2 TS EN 15381 0,9 - 1,5 
+Erime noktası, °C min. TS EN ISO 3146 160 
+Birim Ağırlık, g/m2 TS EN ISO 9864 135 - 145 
+Alan Değişimi, % maks. TS EN 15381 15 
+*TS EN 15381’de yer alan durabilite koşullarını sağladığına dair belge ve 
+sertifikalar sunulacaktır.  
+ 
+--- SAYFA 771 ---
+
+ KISIM 416 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-416/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+416/2 
+ 
+416.03.02 Geogrid ve Özellikleri 
+Kullanılacak geogridin özellikleri Tablo-416-2’ye uygun olacaktır. 
+Tablo-416-2 Geogrid Özellikleri (TS EN 15381) 
+Özellikler  Şartname 
+Limiti  Deney Standardı  
+Cam Elyaflı 
+Geogrid  Birleşik Geogrid  
+Çekme Dayanımı  
+(Her iki yönde), min. kN/m 100 
+ TS 4758 ISO 3341  
+ TS EN ISO 13934-1  
+ TS EN ISO 10319  
+TS EN ISO 10319  Kırılma Anındaki Uzama  
+(Her iki yönde), maks. % 5 
+% 2 Birim Deformasyondaki Dayanım  
+(Her iki yönde), min. kN/m 60  
+Erime Noktası,min. °C 200 TS EN ISO 3146 TS EN ISO 3146 
+ 
+Geogridler tek başına kullanıldıklarında; kazınmış yol yüzeyine geogrid serilmeden önce, 
+“Uygulama Raporu”na göre gerekli ise, bitümlü düzeltme tabakası yapılmalıdır. 
+416.03.03 Çelik Grid ve Özellikleri 
+Yansıma çatlaklarının geciktirilmesinde kullanılan galvaniz (çinko) kaplamalı çelik gridler çelik 
+ağlardan ve enine yönde belirli aralıklarla dizilen donatı şeritlerinden oluşur. Çelik gridler,            
+Tablo-416-3’ de verilen şartları sağlayacak özellikte olacaktır. 
+Tablo-416-3 Çelik Grid özellikleri (TS EN 15381) 
+Özellikler  Deney Metodu  Şartname Limiti  
+ Çelik Ağ  Donatı Teli  
+Galvaniz Kaplama Sınıfı, min. TS EN 10244-2 AB AB 
+Kopma Yükü, min. kN ASTM A 641 1,8 12 
+Çelik Gridin Boyuna Çekme Dayanımı, min. kN/m  ASTM A 975 40 40 
+Çelik Gridin Enine Çekme Dayanımı, min. kN/m TS EN 6892-1, 
+ ASTM  A 975 50 50 
+Elastisite Modülü, min. kN/mm2 ASTM A 975 200 200 
+--- SAYFA 772 ---
+
+ KISIM 416 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-416/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+416/3 
+ 
+416.03.04 Yapıştırma Tabakası 
+Yapıştırma tabakası geotekstilin sızdırmaz hale getirilmesini ve aynı zamanda mevcut yol 
+kaplaması ile takviye tabakasının birbirine yapışmasını sağlayan malzemedir. 
+Takviye tabakasında kullanılacak sıcak karışım için coğrafik bölgenin iklim koşullarına uygun 
+olarak belirlenen penetrasyondaki bitüm, yapıştırma tabakası olarak da kullanılacaktır. 
+Gerekli önlemler alındığı takdirde katyonik asfalt emülsiyonlarından C60B2-3, C60B2-4, C65B2-
+3, C65B2- 4, C60B4-3, C60B4-4, C65B4-3 ve C65B4-4 yapıştırıcı olarak kullanılacaktır. Ancak 
+sıvı petrol asfaltları yapıştırıcı olarak kesinlikle kullanılmayacaktır. 
+416.04 Kullanılacak Ekipmanlar  
+416.04.01 Bitümlü Bağlayıcı Distribütörü 
+Distribütör, önceden belirlenmiş miktarda bitümlü bağlayıcıyı üniform olarak püskürtme 
+kapasitesine sahip olmalıdır. Püskürtme sırasında damlamaya, duraklamaya izin verilmemelidir. 
+Distribütörde ayrıca tek memeli ve pozitif kapatma vanalı bir el püskürtücüsü bulunacaktır. 
+416.04.02 Serme Ekipmanı 
+Serme ekipmanı, mekanik veya elle çalışan ve ürünün düzgün bir şekilde serebilecek kapasitede 
+olacaktır. Küçük işlerde ya da kısa mesafelerde elle serim yapılabilecektir. 
+416.04.03 Diğer Ekipmanlar 
+Ürünü kesmek için bıçak veya makas, serilen ürünü düzeltmek için süpürgeler veya gelberiler, 
+bindirme yerlerine bitümlü bağlayıcı tatbik etmek için fırçalar bulundurulacaktır. 
+416.05 Yapım Metotları  
+416.05.01 Genel 
+Yansıma çatlaklarının geciktirilmesinde kullanılan geogrid, geokompozit ve çelik gridler ile 
+sızdırmazlık amaçlı kullanılan geotekstiller için uygulama öncesi, detaylı “Uygulama Raporu” 
+hazırlanarak idarenin onayı alınacaktır. Uygulama raporunda imalatın her aşaması, kullanılacak 
+ekipmanlar, uygulama sırasındaki gerekli çevre ve iklim koşulları, ürünün yerleştirme koşulları 
+vb. konularla ilgili detaylı açıklama ve prosedürler yer alacaktır. İmalat, onaylı “Uygulama 
+Raporu”na göre yapılacak olup, aşağıdaki hususlar da dikkate alınacaktır. 
+Hava şartları İdare tarafından uygun görülmediğinde imalat yapılmayacaktır. Havanın ve 
+kaplamanın sıcaklığı, yapıştırma tabakasının geotekstili tutmasına yetecek kadar olacaktır. Bitüm 
+kullanıldığında, hava sıcaklığı 10 °C veya daha az olduğunda geotekstil uygulaması 
+yapılmayacaktır. Bitüm emülsiyonu kullanıldığında hava sıcaklığı 15 °C veya daha fazla 
+olduğunda uygulama yapılacaktır. 
+Ürün serilmeden önce, nemden ve ultraviyole ışınlarından korunacak şekilde ambalajlanmış 
+olacak, rulolar kötü hava şartlarından korunacak şekilde depolanacaktır. Eğer açıkta depo 
+edileceklerse, yükseltilmiş bir yere depolanarak su geçirmez örtüler ile korunacaktır. 
+ 
+ 
+--- SAYFA 773 ---
+
+ KISIM 416 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-416/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+416/4 
+ 
+416.05.02 Yüzeyin Hazırlanması 
+Kullanılacak malzemenin yerleştirileceği yüzey her türlü kir, su, yağ, bitki ve diğer yabancı 
+maddelerden temizlenecektir. 3 mm ve daha fazla genişlikteki çatlaklar temizlenecek, İdare 
+tarafından uygun görülen metot ve çatlak dolgu malzemesi ile doldurulacaktır. Geniş çatlaklar ve 
+çukurlar ise usulüne uygun olarak onarılacaktır. 
+416.05.03 Yapıştırma Tabakasının Uygulanması 
+Sızdırmazlık amaçlı geotekstil ve çatlakların yansımasını geciktirici geokompozitler 
+kullanıldığında; Kısım 416.05.02’ de belirtilen şekilde hazırlanmış kuru kaplama yüzeyine üniform 
+olarak ve mevcut yüzeyin durumuna ve üretici beyanına göre 0,9-1,5 1/m2 miktarında yapıştırma 
+tabakası püskürtülecektir. Yapıştırma tabakası olarak emülsiyon kullanılıyorsa, kürden sonra kalan 
+bitüm yukarıdaki miktarlar arasında olması sağlanacaktır. 
+Yapıştırma tabakasının miktarı; geotekstili eski kaplamaya (veya düzeltme tabakasına) 
+yapıştırmaya, geotekstili doygun hale getirmeye, geotekstilin üst tarafında yeterli miktarda 
+bulunarak geotekstilin üzerine gelecek asfalt betonu tabakasına bağlanmasına yetecek kadar 
+olmalıdır. Düşük yapıştırıcı miktarı bu fonksiyonların oluşmasına engel olacaktır. Aşırı yapıştırıcı 
+miktarı ise yüksek sıcaklıkta kayma ve kusma problemlerini meydana getireceğinden doğru 
+yapıştırıcı miktarını uygulamak son derece önemlidir. Yol kavşaklarında, % 4’den dik boyuna 
+eğimlerde veya araç hızının değiştiği diğer kesimlerde Kontrol Mühendisliğinin izni ile yapıştırıcı 
+miktarı % 20 oranında azaltılabilecektir. 
+Bitümlü malzeme, serilecek malzemenin genişliğinden her iki tarafta 15 cm fazla olacak şekilde 
+püskürtülecektir. Yapıştırıcı olarak kullanılacak bitümlü bağlayıcıların püskürtme sıcaklıktan        
+Tablo-416-4’ de verilmektedir. 
+Tablo-416-4 Yapıştırıcı Olarak Uygulanacak Bitümlü Malzemelerin Püskürtme Sıcaklıkları 
+Bitümlü Bağlayıcı  Püskürtme Sıcaklığı °C  
+B50/70, B70/100 145 - 160 
+C60B2-3, C60B2-4 
+C60B4-3, C60B4-4 40 - 80 
+C65B2-3, C65B2-4 
+C65B4-3, C65B4-4 50 - 85 
+ 
+Yapıştırıcı olarak emülsiyon kullanılması halinde, geotekstil serilmeden önce emülsiyon içinde hiç 
+su kalmayıncaya kadar kür etmiş olacaktır. Kür zamanı emülsiyonun tipi, havanın sıcaklığı ve 
+rutubeti ve diğer etkenlere bağlı olarak değişebilir. Kabaca bir rehber olmak üzere şartlara bağlı 
+olarak değişen kür süreleri Tablo-416-5’ te verilmektedir. 
+ 
+--- SAYFA 774 ---
+
+ KISIM 416 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-416/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+416/5 
+ 
+Tablo-416-5 Emülsiyonlu Yapıştırıcıların Kür Süreleri 
+ Sıcaklık °C  Havanın Nemliliği  
+Kuru  Orta Nemli  
+15 2 saat 3 saat 4 saat 
+25 1 saat 2 saat 3 saat 
+32 30 dk 1 saat 2 saat 
+ 
+Yapıştırıcının düzgün olmayan yüzey dolayısı ile göllenmesine; fazla püskürtme veya püskürtme 
+yapılırken meydana gelebilecek akma ve damlamalar dolayısı ile bazı yerlerde aşırı birikmesine 
+müsaade edilmeyecektir. Böyle yerler kazınarak temizlenecektir. 
+416.05.04 Malzemenin Serilmesi 
+Geotekstil, geokompozit, geogrid ve çelik gridler serme ekipmanı ile veya küçük işlerde elle 
+serilebilecektir. Geotekstilli uygulamalarda, yapıştırma tabakası üzerine bitüm soğumadan ve 
+yapışma özelliğini kaybetmeden düzgün bir şekilde serilecek, buruşukluklara izin verilmeyecektir. 
+Küçük kırışıklık ve katlanmalar süpürge veya altı lastikli gelberilerle düzeltilecek, 2 cm’yi geçen 
+katlanmalar kesilerek kaplama yönüne doğru birbiri üzerine bindirilecektir. 
+Enine ek yerleri kaplama yönünde 10-15 cm, boyuna ek yerleri 5-10 cm bindirilecek ve bindirme 
+yüzeyine fırça ile üreticinin önerdiği miktarda bitümlü bağlayıcı uygulanacaktır. Boyuna ek yerleri 
+mümkün olduğunca sağ şeride ve tekerlek yoluna denk getirilmeyecektir. 
+Ürün serildikten sonra üzerinden taşıt trafiğinin geçmesine izin verilmeyecektir. Takviye 
+tabakasının serilmesi sırasında malzemenin hareket etmemesi ve hasar görmemesi için finişer ve 
+diğer taşıtların manevraları çok yavaş ve minimum seviyede olacaktır. Yüklenici gerek montaj 
+gerekse yapım sürecinde bu tarz sorunların oluşmaması için gerekli tüm tedbirleri alacaktır. 
+416.05.05 Takviye Tabakası 
+Bitümlü karışım takviye tabakası, ürün serildikten hemen sonra yapılacak ve serim sırasında 
+karışımın sıcaklığı, karışıma ait uygulama sıcaklığından az olmamak kaydıyla ürün tipine göre 
+ayarlanacaktır. Tabakalar arasında iyi bir bağlantı sağlamak için takviye tabakasının sıkışmış 
+kalınlığı en az 4 cm olacaktır. 
+416.06 Muayene ve Denetim 
+Kullanılacak malzemeler ilgili kalite standartlarına  uygun üretilmiş olacaktır. Ayrıca, 
+malzemelerin ulusal veya uluslararası akredite olmuş bağımsız laboratuvarlarca test edilmiş 
+olması ve test sonuçlarının ürün kataloğundaki değerler ile Kısım 416.03.01’ de belirtilen teknik 
+şartları sağlaması gerekmektedir. 
+Malzemelerin yansıma çatlaklarını önlemedeki başarısı ulusal veya uluslararası bağımsız 
+--- SAYFA 775 ---
+
+ KISIM 416 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-416/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+416/6 
+kuruluşlar tarafından ispatlanarak sertifikalanmış olacak ve malzemelerin daha önceki 
+kullanımlarıyla ilgili problem tanımı, kullanılan malzeme tipi ve uygulama sonuçlarını içeren 
+referans listesi ile beraber İdareye sunulacaktır. 
+İdare, malzemeleri yüklenici adına ve masrafları yüklenici tarafından karşılanmak üzere İdare 
+laboratuvarına ya da tercihen akredite olmuş yeterli bir laboratuvarda ön denemelere tabi tutarak 
+tetkik edebilecektir. Bundan başka, İdare uygulama sırasında kullanılacak malzemelerden numune 
+alarak İdare laboratuvarında ya da yeterli bir laboratuvarda gerekli gördüğü deneyleri yüklenici 
+nam ve hesabına yaptırma hakkına sahiptir. 
+Kullanılacak malzemenin kalite kontrolü için, satın alınan üründen en az Tablo-416-6’ da 
+belirtilen sayıda olmak üzere ilgili standartlarda belirtilen sayıda rulo deney amacıyla ayrılacaktır. 
+Ruloların her birinden deney metotlarında verilen şekil ve sayıda deney numunesi hazırlanacak ve 
+laboratuvar deneyleri bu numuneler üzerinde yapılacaktır. Her bir ruloya ait deney sonuçları 
+ortalaması şartname limitini sağlamak zorundadır. Eğer her rulonun deney sonucu ortalaması 
+şartname limitini sağlıyorsa o parti kabul edilecektir. 
+416.06.01 Numune Miktarları 
+Deneyler için numuneler, şantiyeye gelen rulolar içinden rastgele seçilmiş rulolardan en az 400 cm 
+uzunluğunda, ürünün tüm genişliğinde alınacaktır. Şantiyede alınacak numuneler Tablo-416-6’ ya 
+uygun olacaktır. 
+ 
+Tablo-416-6 Numune Alınacak Rulo Sayısı 
+Toplam İmalat Miktarı  Numune Alınacak Rulo Sayısı  
+10.000 m2 den az 1 
+10.000 - 40.000 m2 arası 3 
+40.000 m2 den fazla 3 + Her 20.000 m2 için 1 adet 
+ 
+416.06.02 Garanti Şartları 
+Üretici/satıcı firma ürünün uygulanacağı yol kesimini inceleyip, ürünün bu yol kesimi için 
+uygunluğunu “Uygulama Raporu”nda net bir şekilde belirterek imzalayacaktır. Üretici/satıcı firma 
+ürününün Uygulama Raporuna göre yapılıp yapılmadığını takip etmeli ve uzman desteği 
+sağlamalıdır. Malzeme kabul tarihinden itibaren, yüklenici ve/veya üretici/satıcı firma tarafından 
+en az 10 yıl süreyle garanti edilecektir. 
+ 
+--- SAYFA 776 ---
+
+ KISIM 417 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-417/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+417/1 
+ 
+417. POROZ ASFALT (PA) 
+417.01 Tanım 
+Bu kısım, kırılmış ve elenmiş kaba agrega, ince agrega ve mineral fillerin belli gradasyon limitleri 
+arasında işyeri karışım formülü esaslarına uygun olarak, bitümlü bağlayıcı ile bir plentte 
+karıştırılarak yeterli bitümlü kaplamalar üzerine bir veya iki tabaka halinde uygun sıcaklıkta 
+projesindeki plan, profil ve en kesitlere uygun olarak poroz asfalt kaplama yapılmasından bahseder. 
+417.02 Kapsam 
+Poroz asfalt karışımına giren agregalar, bitümlü malzemeler ve diğer katkılarda aranan özellikler, 
+gradasyon limitleri, işyeri karışım formülü esasları, inşa metodu, arazi ve laboratuvar kontrolleri ve 
+diğer koşullar bu kısımda verilen esaslara uygun olacaktır. 
+417.03 Malzemeler  
+417.03.01 Agrega 
+Agregalar aşağıda belirtilen şartlara uygun olacaktır. 
+417.03.01.01 Bileşim 
+Agrega sağlam, dayanıklı ve temiz daneleri içeren kırmataş veya kırılmış çakıl karışımlarından 
+oluşacaktır.  
+Agrega organik maddeler, kil topakları ve diğer zararlı maddeler içermeyecektir. 
+417.03.01.02 Gradasyon 
+Birleştirilmiş agrega; kabadan inceye doğru ve Tablo-417-1 ’ de verilen gradasyon sınırlan içinde 
+derecelenmiş olacaktır. Mineral agrega, filler dahil en az iki ayrı dane grubunun belli oranlarda 
+karıştırılmasından oluşacaktır. Karışım dizayn gradasyonundan sapmalar aşağıda verilen 
+toleranslara uygun olacaktır. 
+Tablo-417-1 Poroz Asfalt Gradasyon ve Tolerans Sınırları 
+Elek Boyutu  Tip-1  Tip-2  Tip-3  Tip-4  Tolerans 
+Limitleri  
+İnç, No mm Geçen %  Geçen %  Geçen %  Geçen %  % 
+3/4” 19,0 100 100 100   
+1/2” 12,5 5 - 15 90 - 100 85 - 95 100 ± 4 
+3/8” 9,5 - 63 - 77 5 - 15 85 - 95 ± 4 
+No.4 4,75 5 - 12 11 - 35 5 - 15 5 - 12 ± 3 
+No.10 2,00 5 - 10 5 - 15 5 - 10 5 - 10 ± 3 
+No.80 0,180 - 5 - 10 - - ± 3 
+No.200 0,075 3 - 5 3 - 7 3 - 5 3 - 5 ± 2 
+--- SAYFA 777 ---
+
+ KISIM 417 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-417/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+417/2 
+ 
+417.03.01.03 Kırma 
+Herhangi bir agrega kaynağından agrega üretilmesinde, tüm malzeme bir elek veya çubuk ızgaradan 
+geçecek ve kalan malzeme kırılacaktır. Elek veya çubuk ızgara açıklığı malzemenin nem ve diğer 
+durumları dikkate alınarak İdare tarafından onaylanacaktır. Kırılmış çakıl, %100’ü 3” (75 mm) elek 
+üzerinde kalan çakıl agreganın kırılmasından elde edilen ürün olacaktır. 
+417.03.01.04 Kaba Agrega 
+Kaba agrega, No.4 elek üzerinde kalan malzeme; içeren kırmataş veya kırılmış  çakıl  karışımlarından 
+oluşacaktır. Kaba agrega temiz, sert, dayanıklı olacak ve bitümlü malzemelerin agregaya 
+yapışmasını önleyecek kil topakları, organik malzemeler ve diğer zararlı ve gevrek malzemeleri 
+içermeyecektir. Poroz asfalt agregası granit, bazalt veya diğer yüksek kaliteli magmatik kayaçların 
+kırılmasından elde edilen agrega olacaktır. Kaba agrega olarak kırmataş, kireçtaşı ancak İdarenin 
+yazılı izni ile kullanılabilecektir. Kaba agrega çakıldan üretildiğinde, agreganın tüm yüzleri kırılmış 
+olacaktır. Kaba agrega Tablo-417-2’  de belirtilen şartlara uygun olacaktır. 
+Tablo-417-2 Kaba Agrega Özellikleri 
+Deney Şartname Limitleric Deney Standardı  
+Parçalanma Direnci (Los Angeles), % Kayıp ≤  25 (LA 25) TS EN 1097-2* 
+AASHTO T 96 
+Aşınma Direnci (Micro-Deval)b, % Kayıp ≤ 20 (M DE20) TS EN 1097-1 
+Hava Tesirlerine Karşı Dayanıklılık,  
+(MgSO 4 ile kayıp), % ≤ 10 (MS 10) TS EN 1367-2 
+Kırılmışlık, ağırlıkça % 
+(Tüm yüzeyi kırılmış - tüm yüzeyi yuvarlak) ≥ 100 -  ≤ 0  
+(C100/0) TS EN 933-5 
+Yassılık İndeksi, % ≤ 20 BS 812 
+≤ 10 (FI 10) TS EN 933-3 
+Cilalanma Değeri, % ≥ 50 (PSV 50) TS EN 1097-8 
+Soyulma Mukavemeti (Bitüm Kaplı Yüzey), % 
+(24 saat 60 °C Suda Bekletmeden Sonra) ≥ 80 Kısım 403 EK-A 
+Su Emme, % ≤ 2,0 (WA 242,0) TS EN 1097-6 
+Kil Topakları ve Ufalanabilir Tane Oranı, % Bulunmayacak ASTM C 142 
+AASHTO T 112 
+a Referans metot. 
+b İdare tarafından gerek duyulduğunda yapılacaktır. 
+c Parantez içindeki ifade, şartname değerinin TS EN 13043’deki sınıfını gösterir. 
+ 
+--- SAYFA 778 ---
+
+ KISIM 417 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-417/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+417/3 
+ 
+417.03.01.05 İnce Agrega 
+İnce agrega, No.4 elekten geçen malzeme; sert ve dayanıklı kırmataş veya kırılmış çakıl 
+karışımlarından oluşacaktır. İnce agrega kil topakları, gevrek malzemeler, organik maddeler ve 
+diğer zararlı malzemeleri içemeyecektir. İnce agrega, kaba agreganın elde edildiği aynı malzeme 
+ocağından temin edilecek ve Tablo-417-3’ de belirtilen şartlara uygun olacaktır. 
+Tablo-417-3 İnce Agrega Özellikleri 
+Deney  Şartname 
+Limitleri  Deney Standardı  
+Plastisite indeksi NP TS EN ISO 17892-12  
+AASHTO T 89 
+AASHTO T 90 
+Organik Madde, % Negatif TS EN 1744-1 
+Madde 15.1 
+Su Emme, % ≤ 2,0 (WA 242,0) TS EN 1097-6 
+Metilen Mavisi, 
+g/kg İnce agreganın 
+0/2 mm kısmına ≤ 2,0 (MB 2,0) 
+(Diğer kayaçlar)  TS EN 933-9 ≤ 3,5 (MB 3,5)* 
+(Magmatik kayaç)  
+* Şantiye konkasöründe üretilmiş agrega veya öğütülmüş agregada aranılacak 
+değerlerdir.  
+417.03.01.06 Mineral Filler 
+Gradasyon ayarlaması için gerek görülmesi halinde, agregaya mineral filler ilave edilebilecektir. 
+İlave mineral filler, taş tozu veya tercihen sönmüş kireçten oluşacaktır. Filler malzemesinin kaynağı 
+İdare tarafından onaylanacaktır. Mineral filler non-plastik, tümüyle kuru olacak, topak, kil, organik 
+madde ve diğer zararlı maddeleri içemeyecektir. Mineral filler Tablo-417-4 ve Tablo-417-5’ deki 
+şartlara uygun olacaktır.  
+Tablo-417-4 İlave Mineral Filler Gradasyon Limitleri 
+Elek Boyu  Geçen %  İnç, No mm 
+No.40 0,425 100 
+No.80 0,180 85 - 100 
+No.200 0,075 70 - 100 
+Tablo-417-5 İlave Mineral Fillerin Fiziksel Özellikleri 
+Deney  Şartname 
+Limitleri  Deney Standardı  
+Plastisite indeksi NP TS EN ISO 17892-12 
+AASHTO T 89 
+AASHTO T 90  
+--- SAYFA 779 ---
+
+ KISIM 417 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-417/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+417/4 
+ 
+417.03.02 Bitümlü Malzemeler  
+417.03.02.01 Bitümlü Bağlayıcı 
+Poroz asfalt üretiminde TS EN 12591’e uygun bitümden üretilen Kısım 412 “Bitümlü Bağlayıcılar” 
+limitlerine uygun polimer modifiye bitüm kullanılacaktır. Kullanılacak polimer modifiye bitümün 
+sınıfı İdare tarafından belirlenecektir. Yapılan modifikasyondan sonra elde edilecek modifiye bitüm,  
+Kısım 412 Tablo 412-2’de belirtilen şartlara uygun olacaktır. Modifiye edici madde ve 
+modifikasyon yöntemi yüklenici tarafından belirlenecek ve İdare tarafından onaylanacaktır. 
+Kullanılacak modifiye bitüm katkı tipi ve miktarı İdare tarafından onaylanacaktır. 
+Karışımdaki bitümün drenajını önlemek için gerek görüldüğünde elyaf kullanılacaktır. Elyaf; 
+karışıma, karışım ağırlığının % 0,3 - 1,0’i oranında veya imalatçı tarafından önerilen oranda ilave 
+edilecektir. 
+417.03.02.02 Yapıştırma Tabakası 
+Yapıştırma tabakası olarak TS EN 13808, “Bitümler ve Bitümlü Bağlayıcılar-Katyonik Bitüm 
+Emülsiyonları Tanımlayıcı Çerçeve” C60B2-3, C60B2-4, C60B2-5, C65B2-3, C65B2-4, C65B2-5 
+sınıfı bitüm emülsiyonları kullanılacaktır. Bitüm emülsiyonları Kısım 412’ de verilen şartlara uygun 
+olacaktır. 
+5,0 cm’den daha ince Poroz Asfalt (PA) tabakasında yapıştırıcı olarak modifiye emülsiyon ya da 
+modifiye bitüm kullanılacaktır.  
+417.03.03 Soyulma Mukavemetini Artırıcı Katkı Malzemesi 
+Soyulma mukavemetini artırıcı katkı malzemesi, Kısım 411 “Sathi Kaplama ve Bitümlü Karışım 
+Yapımında Kullanılacak Soyulmaya Karşı Mukavemeti Artırıcı Bitüm Katkı Malzemeleri”nde 
+verilen koşullara uygun olacaktır. 
+417.03.04 Elyaf 
+Elyaf, İdare gerekli gördüğü durumda kullanılacaktır. Kullanılacak elyaf stabilizör, selüloz veya 
+mineral elyaf olacaktır. Elyaf dozajının müsaade edilen toleransları gerekli olan elyaf ağırlığının ± 
+% 10’u olacaktır. Elyaf silodan otomatik sistemle karıştırıcıya beslenecektir. Seçilen elyaf  Tablo-
+417-6 ve Tablo-417-7’ de tanımlanan özelliklere uygun olacaktır. Küçük peletler halindeki granül 
+elyaflar da kullanılabilecektir. 
+Tablo-417-6 Mineral Elyaf Özellikleri 
+Fiber Uzunluğu (maks.)  6 mm  
+No.40 (0,425 mm) elekten geçen % 95 (min.) 
+No.200 (0,074 mm) elekten geçen % 65 (min.)  
+Tablo-417-7 Selüloz Elyaf Özellikleri 
+Deney  Şartname Limiti  Deney Standardı 
+Kül Muhtevası % 18 ± % 5 AASHTO T 290 
+pH 7,5 ± 1 TS ISO 10390 
+Nem Absorbsiyonu Ağırlıkça maks. % 5 TS 11079 
+--- SAYFA 780 ---
+
+ KISIM 417 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-417/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+417/5 
+ 
+417.04 Karışım Dizaynı 
+Birleştirilmiş agrega Tablo 417-1’ de verilen gradasyon şartlarına uygun olacaktır. Marshall 
+numuneleri, modifiye katkı üreticisinin önerdiği sıcaklıkta, her iki yüzeyine 50 darbe uygulanarak 
+hazırlanacaktır. İdare tarafından başka bir karışım dizayn yöntemi tayin edilmedikçe, karışım 
+dizaynı için Marshall Karışım Dizaynı Yöntemi kullanılacaktır. Karışımın dizayn değerleri Tablo-
+417-8’de verilen dizayn kriterlerine uygun olacaktır. 
+Dizayn sırasında, Kısım 408 Ek-A ’ya göre bitüm süzülme deneyi yapılarak, mineral agregadan 
+bitüm ve bitüm harcının ne miktarda süzüldüğü belirlenecektir. Kullanılan modifiye bitüm tipi, 
+karışımın tekerlek izine karşı dayanıklılığı ile ilgili laboratuvar sonuçları ve karışımın diğer 
+özellikleri, kullanılan elyafın tipi ve oranı karışım dizaynında tanımlanacaktır. 
+Tablo-417-8 Poroz Asfalt Dizayn Kriterleri 
+Özellikler  Şartname 
+Limitleri  Deney Standardı  
+Briket Yapımında Uygulanacak Darbe Sayısı 50 TS EN 12697-30 
+ASTM D 6926 
+Hava Boşlukları, (%) Tip-1, Tip-3, Tip-4 24 - 28 
+TS EN 12697-8 
+Tip-2 18 - 22 
+Parça (Cantabro) Kaybı, (%), maks.  20 EK-A  
+Stabilite, (kg), min. 300 TS EN 12697-34 
+ASTM D 6927 
+Permeabilite Değeri, (m/sn), x 10-3 Düşey 
+0,5 - 3,5 TS EN 12697-19 
+Yatay 
+Elyaf miktarı, % 0,3 - 1,0  
+Beher Metodu İle Bitüm Süzülme Deneyi, (%), maks. 0,3 Kısım 408 EK-A 
+Sıkıştırılmış Bitümlü Karışımların Sudan Kaynaklanan 
+Bozulmalara Karşı Direnci (Koşullu-Koşulsuz), İndirekt 
+Çekme Mukavemeti (İÇM) Oranı, min. % 80 
+AASHTO T 283 
+Sıkıştırılmış Bitümlü Karışımların Sudan Kaynaklanan 
+Bozulmalara Karşı Direnci, İndirekt Çekme Mukavemeti 
+(İÇM) kg/cm2, min. 5 
+ 
+417.05 Yapım Şartları 
+Bitümlü bağlayıcı ve mineral agrega, kullanılan modifiye bitümün gerektirdiği sıcaklıkta 
+(maksimum 180°C) karıştırılacaktır. 
+Plent; elyaf katkıyı ve filler malzemeyi otomatik olarak istenilen ağırlıkta besleyecek donanıma 
+sahip olacaktır. 
+--- SAYFA 781 ---
+
+ KISIM 417 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-417/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+417/6 
+ 
+Elyaf katkı için yeterli miktarda kuru depolama yapılacak ve elyafın karışıma üniform biçimde 
+orantılı olarak ve istenilen miktarlarda verilmesi için önlemler alınacaktır. Plentte, elyaf 
+karıştırıcıya, tartım sistemi ile otomatik olarak doğrudan doğruya ilave edilecektir. Elyafın karışıma 
+ilave edilmesinin zamanı ve elyaf ilavesi nedeniyle artan karıştırma süresi, elyaf üreticisinin 
+önerdiği şekilde olacaktır. 
+Plentte üretilen karışımdan günde en az iki kez numune alınarak bitüm süzülme deneyi yapılacaktır. 
+Süzülme miktarı maksimum % 0,3 olacaktır. 
+Sıcak karışım, sıcak karışım depolama silolarında depolanabilecektir. Depolama siloları uygun 
+ısıtma ve izolasyon ekipmanı ile donatılmış olacaktır. Bekletme zamanı İdarenin belirlediği 
+sınırlamalar içinde olacaktır. Hiç bir durumda poroz asfalt gece boyunca veya bir sonraki günün 
+kaplaması için depoda bekletilmeyecektir. Karışım; sericiye verildiğinde 155 °C’nin altında 
+olmayan bir sıcaklığa sahip olacaktır. Karışımın sıcaklığı, tam sericiye boşaltılmadan önce 
+kamyonun içinde ölçülecektir. Karışımı sermek için minimum çevre sıcaklığı gölgede 10 °C 
+olacaktır. 
+Karışım, serildikten hemen sonra, bir finişer için statik ağırlığı minimum 10 ton olan en az iki adet 
+çelik bandajlı silindir kullanılarak sıkıştırılacaktır. Silindirleme işlemine karışım sıcaklığı 155 °C’ye 
+düşmeden önce başlanacaktır. Poroz asfalt üzerinde lastik tekerlekli silindirler kullanılmayacaktır. 
+Silindirler, sericinin arkasındaki en fazla 100 m’lik mesafe içerisinde çalıştırılacaktır. Sıkıştırma 
+sırasında vibrasyon uygulanmayacaktır. Silindirlerde, karışımın bandajlara yapışmasını önlemek 
+için, sulama sistemi olacaktır. Silindirleme işlemine silindir izleri kayboluncaya ve gerekli yoğunluk 
+elde edilinceye kadar devam edilecektir. Silindirleme işlemi, serilen karışımın sıcaklığı 120 °C’ye 
+düşmeden önce tamamlanacaktır. 
+Agreganın kırılmasına neden olabilecek aşırı silindirlemeden kaçınılacaktır. Sıkıştırma işlemi 
+sırasında; yüklenici, istenilen minimum boşluk oranının elde edildiğinden emin olmak amacıyla, 
+nükleer yoğunluk ölçme aletleri ile yoğunluğu izleyecektir. Ilık karışım asfalt katkıları kullanılması 
+durumunda, sıcaklıklar katkı cinsine göre üretici tarafından önerilecektir. 
+Modifiye bitüm karıştırma ve sıkıştırma sıcaklıkları modifiye bitüm üreticisinin önerilerine göre 
+ayarlanacaktır. 
+Bu kısımda bahsedilmeyen diğer hususlar Kısım 407 “Asfalt Betonu Binder ve Aşınma 
+Tabakaları”nda belirtilen hususlara uygun olacaktır. 
+Sıkıştırılmış tabaka kalınlığı Tip-1, Tip-2 ve Tip-3 için 50-60 mm, Tip-4 için 40-50 mm olacaktır. 
+Sıkışma % 97’den az olmayacaktır. 
+Tüm yüzey kotları, kalınlıklar, yüzey düzgünlüğü şartları ve tolerans limitleri Kısım 407’de 
+belirtilen esaslara uygun olacaktır. 
+417.06 Deneme Kesimi 
+Deneme kesimi, karışımın yolda uygulanmasından önce yol dışındaki bir kesimde inşa edilecektir. 
+Deneme kesiminde, Kısım 407’de verilen yapım koşulları uygulanacaktır. Yapım yöntemleri, 
+üretim sıcaklıkları deneme kesiminde belirlenecek ve karışım dizaynı ile ilgili küçük düzeltmeler 
+yapılabilecektir. Silindirleme yöntemi de deneme kesiminde tespit edilecektir. Deneme kesiminin 
+uzunluğu ve genişliği ile deneme kesimi sonuçları idare tarafından onaylanacaktır. 
+--- SAYFA 782 ---
+
+ KISIM 417 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-417/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+417/7 
+ 
+417.07 Numune Alma ve Deneyler 
+İdare tarafından aksi belirtilmedikçe, agrega, bitümlü bağlayıcı ve bitümlü karışım malzemelerin 
+kontrolü ile ilgili numune alma ve deneyler Kısım 407’de belirtilen yöntemlere ve deney 
+metotlarına uygun olarak yapılacaktır. 
+417.08 Yüzey Düzgünlüğü 
+Yüzey düzgünlüğünde, Kısım 425 “Yüzey Düzgünlüğünün Profilometre Ölçüm Cihazı İle 
+Kontrolü”nde belirtilen yöntem ve kriterler uygulanacaktır. 
+417.09 Yolun Trafiğe Açılması 
+Serme ve sıkıştırma süresince yol trafiğe kapalı tutulacaktır. Silindiraj tamamlandıktan sonra serilen 
+tabaka üzerinden, en az 24 saat süre ile trafik geçirilmeyecektir. Temmuz ve Ağustos aylarında, çok 
+sıcak bölgelerde yapılan imalatlarda tabakanın alt kısmının da çevre sıcaklığına erişmesi amacıyla 
+trafiğe açma süresi daha da uzun olabilecektir. 
+ 
+ 
+EK-A  
+Parça (Cantabro) Kaybı Deneyi 
+Çapı, 100 ± 3 mm ve yüksekliği 63,5 ± 5,0 mm olan en az 5 silindirik numune hazırlanır. 
+Numunelerin hazırlanmasında marshall tokmağı veya yoğurmalı sıkıştırıcı kullanılabilir. Sıkıştırılan 
+numunelerin pratik özgül ağırlık (Dp) ve boşluk oranları kontrol edilir. Sıcaklığın deney sonuçları 
+üzerinde büyük etkisi vardır. Deney esnasında sıcaklığın 15-25 °C aralığında olması tavsiye edilir. 
+Deneye tabi tutulmadan önce numunelerin 25 °C’yi geçmeyen bir ortamda en az 2 gün bekletilmesi 
+gerekir. 
+Deney öncesi her bir numunenin ağırlığı W 1, olarak kaydedilir. Daha sonra tek bir silindirik numune, 
+metal toplar olmaksızın Los Angeles Parçalanma Cihazının içerisine yerleştirilir. Los Angeles 
+Parçalanma Cihazına 3,1 rad/sn ile 3,5 rad/sn hızda (30 rpm-33 rpm) 300 devir yaptırılır. 
+Devir sayısı tamamlandığında numune cihazdan çıkarılır, üzerindeki gevşek malzeme temizlenir ve 
+W2, olarak tartılır. Deney, kalan her bir numune için aynı şekilde tekrarlanır. 
+Parça kaybı değeri aşağıdaki gibi hesaplanacaktır:  
+ 
+PK = 100 x (W 
+−  W )
+W
+ 
+Burada; 
+PK: Parça kaybı değeri, % 
+W1: Numunenin deney öncesi ağırlığı, g 
+W2: Numunenin deney sonrası ağırlığı, g 
+ 
+--- SAYFA 783 ---
+
+ KISIM 418 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -418/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+418/1 
+418.  KAUÇUK MODİFİYE BİTÜMLER VE KAUÇUK ASFALT KARIŞIMLARI  
+418.01 Tanım  
+Bu şartname, penetrasyon sınıfı bitümlere belli oranlarda, lateks, öğütülmüş atık lastiklerden 
+üretilen kauçuk esaslı ürünler gibi maddelerin katılarak, modifiye edilmesi ile üretilen  kauçuk 
+modifiye bitümleri ve atık lastiklerden üretilen kauçuk esaslı granül ürünlerin bitümlü karışımına 
+eklenmesi ile hazırlanan Kauçuk Asfalt karışımlarına ait özellikleri kapsar.  
+418.02 Kauçuk Modifiye Bitümler  
+İdarenin uygun bulması halinde  kullanıla n, lateks, öğütülmüş atık lastiklerden üretilen kauçuk 
+esaslı ürünler gibi maddelerin katılarak, modifiye edilmesi ile üretilen kauçuk modifiye bitümler,  
+gürültü azaltılması, kaplama performansının artırılması gibi amaçlar ile uygun görülen bitümlü 
+tabakalarda k ullanılabilecektir.  
+418.02.01 Modifiye Edici Madde 
+Kauçuk modifiye bitüm üretilmesinde  kullanılan , lateks, geri dönüşümlü otomobil lastiklerine 
+(geri dönüşümlü elastomer atıklarına) uygun ilave katkı maddeleri eklenerek hazırlanan kauçuk 
+esaslı toz ya da ince granül halde olabilen katkı maddeleridir.  
+Katkı maddelerinin insan sağlığına ve çevreye zararlı olmadığı, İdare tarafından kabul edilebilir 
+bir kuruluştan alınmış belge ile garanti ed ilecektir. 
+418.02.02 Bitüm  
+Modifiye edilecek bitüm TS EN 125 91’de belirtilen esaslara uygun B50/70, B70/100 sınıfı veya 
+İdarenin uygun göreceği penetrasyon sınıfı bitüm olacaktır.  
+418.02.03 Kauçuk Modifiye Bitüm Seçimi  
+Kauçuk modifiye bitüm tipi, tabakanın yapılacağı bölgenin iklim koşullarına en yüksek ve en 
+düşük kaplama sıcaklığı, yağış durumu, trafik hacmi ve yolun geometrisine bağlı olarak İdare 
+tarafından belirlenecektir. Üretilecek kauçuk modifiye bitüm, modifikasyon işleminden sonra 
+Tablo 418-1’de verilen değerlere uygun olacaktır.  
+418.02.04 Kauçuk Modifiye B itümün Hazırlanması ve Depolanması  
+418.02.04.01 Kauçuk Modifiye Bitümün Hazırlanması  
+Modifiye edilecek bitüm ile modifiye edici kauçuk katkı maddesi, üretici firmanın üretim 
+talimatlarına uygun olarak karıştırılacaktır.  
+Kauçuk modifiye bitüm, merkezi bir tesiste ya da İdarenin izni ile şantiyede kurulu uygun bir 
+tesiste üretilebilecektir. Her iki durumda da kauçuk modifiye bitümün uygunluğundan, katkı 
+üreticisi ve yüklenici sorumlu olacaktır.  
+418.02.04.02 Kauçuk Modifiye Bitümün Depolanması  
+Kauçuk modifiye  bitümün depolanmadan kullanılması esastır. Ancak depolama ihtiyacı oluşursa  
+üretilen kauçuk modifiye bitüm ve normal bitüm ayrı yerlerde depo edilip, birbirine 
+karıştırılmayacaktır. Kauçuk modifiye bitüm, katkı üreticisi firmanın önerilerine uygun koşulla rda 
+depolanacaktır. Kauçuk modifiye bitümün depolanmasında karıştırıcılı  bitüm tankları 
+kullanılabilecektir. Kauçuk modifiye bitümün depolanması nedeniyle özelliklerinde değişim olup 
+--- SAYFA 784 ---
+
+ KISIM 418 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -418/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+418/2 
+olmadığı, sıcak karışımda kullanılmadan önce, numune alınıp gerekli deneyler yapılarak kontrol 
+edilecektir.   
+418.02.05 Kauçuk Modifiye Bitümün Teslimi, Kabulü ve Günlük Kalite Kontrolü  
+Merkezi üretim kauçuk modifiye bitüm, İdare tarafından şantiyede teslim alınacaktır. Teslim 
+edilen malzemenin özelliklerinin, İdarenin Teknik Şartnamesinde yer alan hükümlere uygun 
+olduğuna dair raporlar İdareye verilecektir. Raporlar İdarenin öngördüğü şartlara göre 
+hazırlanacaktır. Şantiyede kauçuk modifiye bitümün gelen miktarına uygun olacak şekilde 
+depolama yerleri hazırlanmış olacaktır. Şantiyeye getirilen her bir ayrı parti malzemeden İdare, 
+numune alıp deneyleri yapacak ya da şantiyede yaptıracaktır.  
+Şantiyede üretilen kauçuk modifiye bitümden günde en az bir kez olmak üzere, Kontrol 
+Mühendisliğinin uygun gördüğü sayıda, numune alınarak gerekli deneyler yapılacaktır.  
+Deney sonuçları uygun olmayan malzeme bitümlü karışım imalatında kullanılmayacaktır.  
+Malzemenin kalite kontrolu için şantiye laboratuvarında yeterli ve nitelikli personel ile gerekli 
+cihaz, ekipman olacaktır.  
+418.02.06 Kauçuk  Modifiye Bitümün Kullanılması  
+Yüklenici ihale sözleşmesine göre; kauçuk modifiye bitümün, sıcak karışım üretimi için 
+kullanımında ihtiyaç varsa,  depolama tankları,  plent, finişer, silindir vb. ekipmanda yapılması 
+gereken değişiklik ve ilaveleri  yapacaktır.  Plentin modifiye bitümü depolama ve besleme sistemi,  
+agrega ve modifiye bitüm sıcaklıkları, karıştırma ve sıkıştırma sıcaklıkları; kullanılan kauçuk 
+modifiye bitümün özelliklerine bağlı olarak ayarlanacaktır.  Genel olarak, kauçuk modifiye 
+bitümlü sıcak  karışımın üretim sıcaklığı yaklaşık 150 C, karışımın sıcaklığının  120 C’nin altına 
+düşmeden  sıkıştırma işleminin tamamlanması  önerilmektedir. Kauçuk modifiye bitümün üretim 
+sıcaklığı ve kauçuk modifiye bitüm kullanılarak hazırlanacak karışımın, karıştırm a ile serim ve 
+sıkıştırma sıcaklıkları katkı üreticisi firmanın tavsiyeleri doğrultusunda belirlenecektir.  
+418.02.07 Yüklenicinin Sorumluluğu  
+Yüklenici işe başlamadan önce; ihale sözleşmesinde belirtilen bitümlü kaplama üretiminde yine 
+İdare tarafından belirtilmiş kauçuk modifiye bitüm tipinin üretimi ve kullanımı ile ilgili olarak 
+aşağıda belirtilen teknik bilgi ve belgeyi içeren teknik raporu (Modifiye Bitüm Teknik Raporu)  
+İdareye verecektir. Yüklenici:  
+1. Kullanılacak bitüme uygulanan ve TS EN 12591’de belirtilen deneylerin sonuçlarını,  
+2. Kullanılacak modifiye edici katkı ile ilave katkı maddelerinin, üretici firma tarafından 
+belirlenmiş teknik özelliklerini gösteren doküman ları, kullanılan katkının Malzeme Güvenlik Bilgi  
+Formu (GBF/ MSDS) ile İş Sağlığı ve Güvenliği açısından zararlı olmadığına dair belgeleri,  
+3. Karıştırma ve üretim ile ilgili tüm teknik bilgileri,  
+4. Katkı maddesinin hangi oranda kullanılacağını ve bu durumda elde edilen kauçuk modifiye 
+bitüm özelliklerinin İdare tarafından belirlenmiş koşullara uygunluğunu gösteren  Tablo-418-1 
+Kauçuk Modifiye Bitümün (KMB) Özellikleri Not kısmında belirtilen şantiyede yapılması zorunlu 
+olan laboratuvar deney sonuçları,  
+5. Deneyi gerçekleştiren personelin yeterliliği,  
+6. Deneyde kullanılacak cihaz ve ekipmanların kalibrasyon sertifikaları,  
+--- SAYFA 785 ---
+
+ KISIM 418 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -418/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+418/3 
+7. Kauçuk modifiye bitüm ile üretilecek sıcak karışımın, karıştırma, serme ve sıkıştırma 
+sıcaklıklarını,  
+8. Sathi kaplamada kullanılması durumunda püskürtme sıcaklığını ve diğer bütün hususları içeren 
+bilgileri teknik raporda belirtecektir. Y üklenici ayrıca, işe başlamadan önce İdareye yeterli 
+miktarlarda bitüm, modifiye edici katkı maddesi ve üretmiş olduğu kauçuk modifiye bitüm 
+numunesi verecektir. İşe ancak, yüklenici tarafından verilen bu Teknik Raporun, İdare tarafından 
+onaylanması ve gönderilen modifiye bitümün test edilip uygun bulunmasından sonra 
+başlanabilecektir. Bu onay işlemi, yüklenicinin kauçuk modifiye bitümün uygunluğu konusundaki 
+sorumluluğunu ortadan kaldırmayacaktır.  
+Söz konusu teknik rapor , merkezi tesisten hazır kauçuk modifiye bitüm getirildiği durumlarda da 
+hazırlanacaktır.  
+Yüklenici, kauçuk modifiye bitümün, iş süresince sözleşme eki şartnamelere uygun olmasından ve 
+homojen bir şekilde devamından sorumlu olacak ve kauçuk modifiye bitüm  üretimi veya temini ve 
+bitümlü kaplama imalinde kullanımı sırasında şantiyede, konunun uzmanı yeterli sayıda teknik 
+elemanı bulunduracaktır.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 786 ---
+
+ KISIM 418 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -418/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+418/4 
+ 
+Tablo 418- 1 Kauçuk Modifiye Bitümün (KMB) Özellikleri  
+Sır
+a 
+No Deney Standardı  Birimi KMB  
+70-28 KMB  
+76-16 KMB  
+82-16 
+1 PENETRASYON  
+(25 °C,100 g, 5s)   TS EN 1426 0,1 mm 35-70 25-60 20-60 
+2 YUMUŞAMA 
+NOKTASI Min. TS EN 1427 °C 55 55 62 
+3 ELASTİK GERİ 
+DÖNME  (25 °C)  Min. TS EN 13398 % 60 50 50 
+4 PARLAMA 
+NOKTASI Min. TS EN  
+ISO 2592 °C 220 220 220 
+5 ÖZGÜL AĞIRLIK   TS EN 15326 g/cm3 1,0-1,1 1,0-1,1 1,0-1,1 
+6 DİNAMİK KESME 
+REOMETRESİ 
+(DSR)  (G*/ sinδ    >1 
+kPa) Yenilme 
+Sıcaklığı            
+min. TS EN 14770   
+AASHTO  
+T 315 °C 70 76 82 
+7 DÖNMELİ İNCE FİLM ETÜVÜ 
+DENEYİ  TS EN  
+12607-1  
+7.1 KÜTLE KAYBI  Maks. % 0,5 0,5 0,5 
+7.2 YUMUŞAMA 
+NOKTASI Min. 
+TS  EN 1427 °C 55 55 62 
+7.3 Yumuşama  
+Noktasında Değişiklik       
+  Artma Maks. °C 8 8 8 
+  Azalma Maks. °C 2 2 2 
+7.4 KALICI 
+PENETRASYON Min. TS EN 1426 % 50 50 50 
+7.5 DİNAMİK K ESME 
+REOMETRESİ 
+(DSR)  (G*/ sinδ    > 
+2,2 kPa) Yenilme 
+Sıcaklığı            
+min. TS EN 14770   
+AASHTO T 
+315 °C 70 76 82 
+8 RTFOT+PAV İle Yaşlandırılmış 
+Modifiye Bitüme Yapılan 
+Deneyler TS EN 14769   
+AASHTO  
+R 28  
+8.1 DSR   
+(G*sinδ  < 5000kPa) Yenilme 
+Sıcaklığı             
+maks. TS EN 14770   
+AASHTO  
+T 315 °C 25 34 37 
+8.2 KİRİŞ EĞME 
+REOMETRESİ (BBR)   
+Eğilme -Sünme Sertliği                             
+(S ≤ 300 MPa,  
+m ≥ 0,300)  Sıcaklık                               
+maks. TS EN 14771    
+AASHTO 
+T313      
+ASTM 
+D6648 °C -18 -6 -6 
+NOT:   1,2,3,7.1,7.2 ve 7.4  sıra nolu deneylerin şantiyede yapılması zorunludur.  
+*Bitümlü Sıcak Karışımlar için Modifiye Bitüm Sınıfı belirlenirken sadece bu üç sınıf için 
+kauçuk esaslı ürünler kullanılacaktır.  
+ 
+--- SAYFA 787 ---
+
+ KISIM 418 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -418/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+418/5 
+ 
+418.03 Kauçuk Asfalt Karışımlar  
+İdarenin uygun bulması halinde, atık lastiklerden üretilen kauçuk esaslı granül ürünleri bitümlü 
+karışıma plentte ilave edilerek, k auçuk asfalt karışımı hazırlanmasında kullanılabilecektir.  
+418.03.01 Karışımı M odifiye Edici Madde 
+Geri dönüşümlü otomobil lastiklerine (geri dönüşümlü elastomer atıklarına) uygun ilave katkı 
+maddeleri veya bitüm eklenerek hazırlanan kauçuk esaslı ince granül halde olabilen katkı 
+maddeleri kullanılacaktır. Karışımı modifiye edici maddenin içerisindeki kauçuğun en az %35’i 
+karışımda çözünecektir.  
+Karışımı modifiye etmek amacıyla öğütülmüş otomobil lastiklerinden üretilmiş granüler katkı 
+maddelerinin kull anılması durumunda karışım dizaynı “Asphalt Institute MS -2” el kitabına göre 
+Marsh all Metodu ile yapılacak olup, bitüm ağırlığına göre hesaplanacak olan miktardaki kauçuk 
+katkı dizayn çalışmasındaki her bir bitüm oranına göre ayrı ayrı hesaplanarak briket karışımlarına 
+dahil edilecektir. Dizaynları normal penetrasyon sınıfı bitümle yapılmış karışımların sonradan 
+kauçuk katkı ilave edilerek modifiye edilmesi durumunda kauçuğun karışımda çözünecek kısmı 
+kadar optimum bitüm mi ktarında azaltma yapılması yöntemine kesinlikle müsaade edilmeyecek 
+olup kauçuk modifikasyonlu karşımın dizayn çalışması yeniden yapılacaktır.  
+  
+Katkı ma ddelerinin insan sağlığına ve çevreye zararlı olmadığı, İdarece kabul edilebilir bir 
+kuruluştan alınmış belge ile garanti ed ilecektir. 
+ 
+418.03.02 Bitüm  
+Kauçuk asfalt karışımlarında kullanılacak bitüm, TS EN 12591’ de belirtilen esaslara uygun 
+B50/70, B70/100 sınıfı veya İdarenin uygun göreceği penetrasyon sınıfı bitüm olacaktır.  
+418.03.03 Kauçuk Asfalt Karışımların Kullanım Yerinin Seçimi  
+Kauçuk Asfalt Karışımlarının kullanılacağı tabakalar ve projeler, bitümlü kaplamanı n yapılacağı 
+bölgenin iklim koşullarına bağlı kaplama sıcaklığı, yağış durumu ile trafik hacmi ve yolun 
+geometrisine göre İdare tarafından belirlenecektir.  
+Kauçuk Asfalt karışım uygulanması durumunda, karışım için “Teknik Rapor” hazırlanarak, 
+İdarenin onayı alınacaktır. Teknik Rapor aşağıda verilen bilgi ve d okümanları içerecektir.  
+1. Kullanılacak modifiye edici katkı maddesinin, üretici firma tarafından belirlenmiş teknik 
+özelliklerini gösterir doküman.  
+2. Kullanılacak katkı maddesinin daha önce hangi yıllarda ve hangi uygulamalarda kullanıldığına 
+ait referans belge ve bu amaçla kullanılan uygulama ve malzeme şartnameleri.  
+3. Katkı maddesinin; kullanım oranı, stoklanması, karıştırma, serme ve sıkıştırma sıcaklıkları ve 
+üretimle ilgili diğer bilgiler.  
+418.03.04 Kauçuk Asfalt Karışımların Özellikleri  
+Kauçuk Asfalt Karışımları hangi tabakada kullanılacaksa o tabakanın şartnamesinde verilen 
+dizayn kriterlerine uygun olacaktır. Ayrıca Tablo 418-2 ’de verilen özellikleri de sağlayacaktır.   
+ 
+--- SAYFA 788 ---
+
+ KISIM 418 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -418/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+418/6 
+ 
+Tablo 418-2 Kauçuk Asfalt Karışımlarının Özellikleri  
+ 
+Özellikler  Şartname 
+Limitleri  Deney Standardı  
+Tekerlek izinde oturma  
+(30.000 devirde, 60 °C’de), (%) maks.  5 TS EN 12697-22 
+Tekerlek İzinde Oturma  
+(10.000 devirde, ( 20.000 geçişte), 60°C’de  
+5 cm kalınlığında numune), (RD ort) maks. 
+mm 2,75 TS EN 12697-22                  
+  (Küçük Ebatlı cihazla: 
+HWT, Metot B, Havada) 
+Sıkıştırılmış Bitümlü Karışımların Sudan 
+Kaynaklanan Bozulmalara Karşı Direnci 
+(Koşullu -Koşulsuz ),  
+İndirek Çekme Mukavemeti kg/cm2, min. 5,0 
+AASHTO T 283 
+İndirek Çekme Mukavemeti Oranı, %, min.  80 
+ 
+Plentte, katkı maddesini istenilen oran ve zamanda otomatik olarak beslemek için gerekli donanım 
+bulunacaktır.  
+Bu kısımda bahsedilmeyen diğer hususlar, kauçuk asfalt karışımları  hangi bitümlü tabakada 
+kullanılacak ise o tabakanın şartnamesine uygun olacaktır.  
+418.04 Garanti Şartları  
+Üretici/satıcı firma modifiye edici maddelerin uygulanacağı yol kesimini inceleyip, ürünün bu yol 
+kesimi ve bitümlü tabaka için uygunluğunu hazırlanacak “Uygulama Raporu”nda net bir şekilde 
+belirterek imzalayacaktır. Üretici/satıcı firma ürününün uygulama raporuna göre yapılıp 
+yapılmadığını takip etmeli ve teknik uzman desteği sağlamalıdır. Bitümlü tabakanın imalatı 
+tamamlandıktan sonra, yüklenici firma tarafından en az 5 yıl süreyle ürün performansını garanti 
+edecektir . 
+--- SAYFA 789 ---
+
+ KISIM 419 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                               Kısım-419/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+419/1 
+419. ILIK KARIŞIM ASFALT (IKA) 
+419.01 Tanım 
+Bu kısım, değişik katkı malzemeleri ve teknolojiler kullanılarak bitümlü sıcak karışımların üretim 
+sıcaklıklarının düşürülmesi ile elde edilen “Ilık Karışım Asfalt”ların kullanımına yönelik şartları ve 
+yapım koşullarını kapsar. 
+419.02 Kapsam 
+Ilık karışım asfaltlar, bitümlü karışımın performansında herhangi bir azalmaya neden olmadan, 
+üretim sıcaklıklarının düşürülerek yakıt tasarrufu, çevreye verilen zararlı emisyonların azaltılması, 
+asfalt sezonunun uzatılması, karışımın daha uzun mesafelere nakli, bitümün daha az yaşlanması gibi 
+kazanımların elde edilmesi amacıyla kullanılmaktadır. Ilık karışım asfaltlarda malzeme, karışım ve 
+dizayn ile diğer hususlar ilgili kaplama tabakasına ait kısımda belirtilen esaslara uygun olacaktır.  
+419.03 Malzemeler 
+Ilık karışım asfaltların üretiminde genel olarak mineral katkılar, organik katkılar, kimyasal katkılar 
+veya köpük bitüm teknolojileri kullanılmaktadır. Kullanılacak teknolojinin uygulamadan önce İdare 
+tarafından laboratuvar deneylerinin yapılarak ılık karışım asfalt imalatında kullanılabilir olduğu 
+gösterilmiş olmalıdır. 
+419.03.01 Mineral Katkılar (Sentetik Zeolitler) 
+Ilık karışım asfalt üretiminde kullanılacak mineral katkı malzemesi sentetik zeolit bileşiminde 
+olacaktır. Yapay olarak üretilen inorganik sentetik zeolitler sulu alümina silikat bileşiminde, açık 
+renklerde ve çok ince toz yapıda olacaktır.  
+Sentetik zeolitler bitümlü karışıma ağılıkça karışımın %0,3 ü oranda katılacaktır. Zeolit plentte 
+karıştırıcıya doğrudan ilave edilmekte olup, toz halindeki zeolitin mineral bünyesindeki su 
+buharlaşarak karışımın içinde köpük etkisi yaratmakta ve karışımın işlenebilirliğini artırmaktadır. 
+Sentetik zeolitin plentte bitümden 2-3 saniye sonra karıştırıcıya üniform bir şekilde besleme 
+yapılması sağlanacaktır. 
+Sentetik zeolit kullanılarak yapılacak ılık karışımlarda laboratuvar karışım dizaynı bitümlü sıcak 
+karışıma göre yapılacak, ancak işyeri karışım formülü plentte ılık olarak üretilen karışım üzerinden 
+hazırlanacaktır. Ilık karışımın asfalt dizaynının uygunluğuna ve soyulma önleyici katkı kullanılıp 
+kullanılmayacağına, şantiyede üretilen ılık karışım asfalt numunelerine ilgili karışımın şartnamesine 
+uygun olarak gerekli tekerlek izinde oturma ve sudan kaynaklanan bozulmalara karşı direnç (İÇM 
+oranı) deneyi yapıldıktan ve şartnamesine uygunluğu belirlendikten sonra karar verilecektir. 
+Ilık karışım asfalt üretiminde kullanılacak sentetik zeolit Tablo-419-1 ‘de belirtilen şartlara uygun 
+olacaktır. 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 790 ---
+
+ KISIM 419 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                               Kısım-419/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+419/2 
+Tablo 419-1 Sentetik Zeolit Ilık Karışım Asfalt Katkısının Fiziksel Özellikleri 
+Deney Adı Şartname Limitleri  Deney Standardı  
+Tipi Sentetik zeolit * 
+Mineral su içeriği, % ≥ 18 * 
+Rengi Beyaz veya kirli beyaz  Gözle muayene 
+Zahiri tane özgül ağırlığı, g/cm3 ≥ 2,10 TS EN 1097-7 
+Sıkışık birim hacim ağırlık, g/cm3 ≤ 0,92 TS EN 1097-4 
+PH, %1'lik sulu çözeltide  9 - 11,5 TS ISO 10390 
+Tane Boyutu  ≤ 75 µm, % 100 TS EN ISO 17892-4 
+Yaş eleme metodu 
+≤ 10 µm, %  ≥ 70 TS EN ISO 17892-4 
+Hidrometre Metodu 
+Isıtmada kütle kaybı, 200 oC, % ≥ 10 EK-A 
+Ilık karışımın sıkışma oranı, % ≥ 98 EK-B 
+Bitümle köpürme, % ≥ 10 EK-C 
+* Beyan edilecektir. 
+419.03.02 Organik ve Kimyasal Katkılar 
+Ilık karışım asfalt üretiminde kullanılacak organik ve kimyasal katkılar, eğer imalatta normal bitüm 
+kullanılıyorsa Kısım 412 Tablo-412-1'de verilen penetrasyon sınıfında yumuşama yönünde bir 
+değişiklik oluşturmayacak, eğer modifiye bitüm kullanılıyor ise Kısım 412  Tablo-412-2'de istenen 
+performans sınıfında bir azalmaya neden olmayacaktır. 
+Organik veya kimyasal katkı kullanılarak yapılacak imalatlarda laboratuvar karışım dizaynı katkılı 
+ılık karışım olarak yapılacaktır. Karışımın uygunluğuna ve soyulma önleyici katkı kullanılıp 
+kullanılmayacağına dizayn çalışması sonunda karar verilecektir. 
+419.03.03 Köpük Bitüm 
+Köpük bitüm teknolojisi kullanılarak üretilecek ılık karışım asfalt üretimi, plente eklenen köpük 
+bitüm üretim ünitesinde bir seri enjektör üzerinden bitüme basınçlı su ve havanın püskürtülmesiyle 
+elde edilen köpük bitümün karıştırıcıya eklenerek karışımın işlenebilirliğinin artırılması suretiyle 
+yapılmaktadır. Kullanılacak köpük bitüm sistemi Teknik Rapor ile birlikte İdare tarafından 
+onaylandıktan sonra kullanılabilecektir. 
+Köpük bitüm teknolojisi kullanımında laboratuvar karışım dizaynı bitümlü sıcak karışıma göre 
+yapılacak, ancak işyeri karışım formülü plentte ılık olarak üretilen karışım üzerinden 
+hazırlanacaktır. Köpük bitüm kullanılarak ılık karışım üretilmesi halinde mutlaka Kısım 411'e göre 
+uygun soyulmaya karşı mukavemeti artırıcı katkı kullanılması zorunludur. 
+419.04 Ilık Karışım Asfalt Katkılarının Kabulü  
+Ilık karışım asfalt katkılarına ait her parti ürün şantiyeye Ürün Bilgi formu (TDS) ve Malzeme 
+Güvenlik Bilgi Formu (GBF/MSDS) ile birlikte katkı malzemesine etki etmeyen ve katkı 
+malzemesinden etkilenmeyen amaca uygun torba ve kaplarda ambalajlanmış olarak teslim 
+--- SAYFA 791 ---
+
+ KISIM 419 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                               Kısım-419/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+419/3 
+edilecektir. Katkı malzemesinin ambalajı üzerinde en az aşağıdaki bilgiler okunaklı ve silinmeyecek 
+şekilde yazılmış olmalıdır. 
+ Firmanın ticari unvanı, kısa adı, adresi ve varsa tescilli markası, 
+ Katkının adı ve sınıfı, 
+ Karışıma veya bitüme ekleme oranı, 
+ Net miktarı (kg), 
+ Son kullanma tarihi, 
+ Depolama şartları 
+ Parti, seri ve kod numaralarından en az biri, 
+ Kullanımla ilgili açıklayıcı bilgiler. 
+Üretici veya tedarikçi, istenildiğinde katkının bu şartnamede ve/veya teknik raporunda belirtilen 
+kriterlere uygun olduğunu gösteren uygunluk beyannamesini İdareye sunmak mecburiyetindedir. 
+419.05 Ilık Karışım Asfaltın Kullanımı 
+Ilık karışım asfaltta katkı malzemeleri, katkı malzemelerini üreten firmanın malzemenin 
+karıştırılması ile ilgili üretim talimatlarına uygun olarak kullanılacaktır. Yüklenici ihale 
+sözleşmesine göre ılık karışım üretimi ile plent ve ekipmanda yapılması gereken değişiklik ve 
+ilaveleri yapacaktır. Plentin katkı besleme sistemi, agrega ve bitüm sıcaklıkları, karıştırma ve 
+sıkıştırma sıcaklıkları katkı veya köpük bitüm parametreleri yüklenici tarafından hazırlanacak “Ilık 
+Karışım Asfalt Teknik Raporu”na uygun olacaktır. 
+419.06 Yapım Şartları 
+Yüklenici işe başlamadan önce; kullanılacak ılık karışım asfaltın üretimi ve uygulanması ile ilgili 
+olarak teknik bilgi ve belgeyi içeren teknik raporu İdareye verecektir. Üretimi yapılacak olan ılık 
+karışım asfaltın karıştırma, serme ve sıkıştırma sıcaklıkları, ılık karışım katkısına göre değiştiğinden 
+teknik raporda belirtilen sıcaklık değerleri uygulanacaktır. Diğer tüm hususlar, ilgili kaplama 
+tabakasına ait kısımda belirtilen esaslara uygun olacaktır. 
+419.07 Yüklenicinin Sorumluluğu 
+Yüklenici tarafından verilecek teknik raporda aşağıda belirtilen teknik bilgi ve belgeler 
+bulunacaktır: 
+1. Kullanılacak ılık karışım katkı maddesi veya köpük bitümle ilgili üretici firma tarafından 
+belirlenmiş teknik özelliklerini gösteren dokümanı, 
+2. Karıştırma ve üretim ile ilgili tüm teknik bilgileri, 
+3. Katkı maddesinin hangi oranda kullanılacağı ve elde edilen bitümlü bağlayıcı ya da karışımın 
+özelliklerinin İdare tarafından belirlenmiş koşullara uygunluğunu gösteren laboratuvar deney 
+sonuçlarını, 
+4. Üretilecek ılık karışımın, karıştırma, serme ve sıkıştırma sıcaklıklarını ve diğer bütün hususları 
+içeren bilgileri teknik raporda belirtecektir. İşe ancak, yüklenici tarafından verilen bu teknik 
+raporun, İdare tarafından onaylanması ve gönderilen ılık karışım katkısının uygun bulunması ve 
+kullanılacak katkı oranının belirtilmesinden sonra başlanabilecektir. Bu onay işlemi, yüklenicinin 
+katkı malzemesinin veya köpük bitümün uygunluğu konusundaki sorumluluğunu ortadan 
+kaldırmayacaktır. 
+5. Yüklenici, ılık karışım asfaltın üretimi ve kullanımı sırasında şantiyede, konunun uzmanı yeterli 
+sayıda teknik elemanı bulunduracaktır. 
+--- SAYFA 792 ---
+
+ KISIM 419 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                               Kısım-419/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+419/4 
+EK-A 
+Isıtmada Kütle Kaybı 
+Sentetik zeolit numunesi önce 24 saat 90±5 oC sabit ağırlığa kadar kurutulur ve 0,001 g hassasiyetle 
+tartımı alınır (M 1). Daha sonra numune bekletilmeden 200±5 oC'de 24 saat sabit ağırlığa kadar 
+kurutulur ve tartımı alınır (M 2). Isıtmada kütle kaybı yüzesi aşağıdaki formül yardımıyla bulunur. 
+ 
+Kütle Kaybı %'si =   
+ x100  
+EK-B  
+Ilık Karışım Sıkışma Oranı 
+Referans karışım için 150 oC‘ye kadar ısıtılarak bekletilen imalatta kullanılacak agrega ve bitüm 
+numunesi Marshall yöntemine göre mikserde karıştırılıp bir saat süre ile 150 oC‘lik etüvde 
+bekletildikten sonra Marshall tokmağı ile her iki yüzeyine ilgili karışımın şartnamesinde belirtilen 
+darbe sayısı kadar vurularak sıkıştırılır. Bu şekilde hazırlanan en az 3 adet Marshall briketinin birim 
+hacim ağırlıkları bulunarak ortalaması alınır. Ortalamadan 0,015 g/cm3 ‘den fazla sapan briket 
+değerleri ortalamaya dahil edilmez. Bu şartları sağlayan en az üç briket değerinin aritmetik 
+ortalaması alınarak referans bitümlü sıcak karışımının yoğunluk değeri belirlenir (γ ref).  
+Ilık karışım asfalt yoğunluğunun bulunması için ise bitümlü bağlayıcı 150 oC‘ye, agrega ise 120 
+oC‘ye kadar ısıtılarak bekletildikten ve miksere ilave edildikten sonra üzerine karışım ağırlığının 
+%0,3'ü oranında zeolit katkı malzemesi ilave edilerek Marshall yöntemine göre mikserde karıştırılır. 
+Mikserde karıştırılan numune bir saat süre ile 120 oC‘lik etüvde bekletildikten sonra Marshall 
+tokmağı ile her iki yüzeyine ilgili karışımın şartnamesinde belirtilen darbe sayısı kadar vurularak 
+sıkıştırılır. Bu şekilde hazırlanan en az 3 adet Marshall briketinin birim hacim ağırlıkları bulunarak 
+ortalaması alınır. Ortalamadan 0,015 g/cm3 ‘den fazla sapan briket değerleri ortalamaya dahil 
+edilmez. Bu şartları sağlayan en az üç değerin aritmetik ortalaması alınarak ılık karışımının 
+yoğunluk değeri belirlenir (γ ika). Buna göre hazırlanan zeolit katkılı ılık karışımın sıkışma yüzdesi 
+aşağıdaki formül yardımıyla bulunur. 
+ 
+Sıkışma %'si =  	
+
+	 x100  
+EK-C 
+Bitümle Köpürme Oranı 
+Zeolit kökenli ılık karışım katkılarının köpürme oranlarını belirlemek için burada verilen deney 
+metodu kullanılacaktır. Bunun için 500 ml'lik bir cam beher içine 150 g B 50/70 sınıfı bitümlü 
+bağlayıcı konularak 150 oC‘ye kadar etüvde ısıtılır. Etüvden çıkarılan beher içindeki bitümün hacmi 
+ml olarak kaydedilir (V 1). Daha sonra beher içindeki bitümün soğumasına izin vermeden içerisine 
+10 g zeolit katkısı katılır ve cam baget ile karıştırılarak köpürme olup olmadığı gözlenir. Köpürme 
+sonrası hacim (V 2) kaydedilir. Köpürme oranı aşağıdaki formül yardımıyla bulunur. 
+ 
+Bitümle Köpürme %'si =   
+ x100  
+--- SAYFA 793 ---
+
+                                                      KISIM 420 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-420/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+420/1 
+420. REÇİNE ESASLI EMÜLSİYON ASTAR BAĞLAYICILAR 
+420.01 Tanım 
+Bu kısım, sathi kaplama veya bitümlü sıcak karışım uygulaması öncesi granüler temel, plent-miks 
+temel veya benzer temeller üzerine uygulanan, Kısım 412.04’te belirtilen bitüm emülsiyonları 
+dışındaki reçine, polimer vb. içerikli su bazlı emülsiyon astar bağlayıcıların özelliklerini ve yapım 
+koşullarını kapsar. 
+  
+420.02 Genel  
+Astar bağlayıcı, temel üzerine kaplama uygulanmadan önce, mevcut yüzeyi çevre, iklim ve trafik 
+koşullarından koruyan, dayanım özelliklerini iyileştiren, kaplama tabakası ile temel yüzeyi 
+arasındaki adezyonu sağlayan ve temel yüzeyindeki serbest taneleri bağlayan bir örtü tabakasıdır.  
+ 
+420.03 Malzeme Özellikleri 
+Astar, çevre ve canlı sağlığına zararsız olmalıdır. Uçucu organik karbon ve zararlı çözücü 
+içermemelidir. Astar bağlayıcı konsantresi Tablo-420-1’de verilen şartları sağlamalıdır. 
+ 
+Tablo-420-1 Astar Konsantresi Özellikleri 
+ÖZELLİKLER DENEY METODU ŞARTNAME 
+LİMİTİ 
+Özgül Ağırlık, (g/cm3)  TS EN 15326 +A1 0,98 - 1,02 
+Saybolt Furol Viskozitesi, 
+50 oC de sn., max.  ASTM D 244 100 
+Depolama Stabilitesi, 
+24 saat %, max.  ASTM D 6930 2 
+5 Gün Depolama Sonrası 
+Çökelme, %, max.  ASTM D 6930 5 
+ 
+420.04 Astar Malzemesinin Teslimi, Kabulü ve Kalite Kontrolü 
+Astar malzemesinden numune, TS EN 58 “Bitümlü Bağlayıcılar-Numune Alma” standardına uygun 
+olarak alınacaktır.  
+Astar malzemesinden merkez veya bölge laboratuvarlarına gönderilmek üzere alınacak numuneler 
+idare denetiminde alınıp mühürlenecektir. 
+Numuneyi alan kişi tarafından bir numune alma formu hazırlanmalı ve bu form, formu hazırlayan 
+ve numune alınmasında hazır bulunan karşı tarafın yetkilisince de imzalanmalıdır. Formda numune 
+almanın gerekçesi ve numune alma metotları, numune alınan ortamın şartları ve gerekli deneyler 
+yer almalıdır. Bu bilgiler Ek A formuna uygun olarak düzenlenmelidir.  
+Numuneler deneye alınacakları zamana kadar 4oC’nin üzerinde bir sıcaklıkta temiz ve hava ile temas 
+etmeyecek şekilde kapalı bir kapta saklanacaktır.  
+Astar malzemesinin üretim ve son kullanım tarihi tedarikçi/üretici tarafından İdare’ye yazılı olarak 
+bildirilecektir.  
+Yüklenici, teslim edilen konsantre astar malzeme özelliklerinin Tablo-420-1’de belirtilen 
+özelliklere ve İdarenin Teknik Şartnamesinde yer alan hükümlere uygun olduğuna dair beyanı 
+--- SAYFA 794 ---
+
+                                                      KISIM 420 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-420/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+420/2 
+İdare’ye verecektir. İdare, 500 tonu geçmemek kaydıyla, teslim alınan her ayrı parti malzeme için 
+şartnamede belirtilen deneyleri yapacaktır. Deney sonuçları uygun olmayan malzeme 
+kullanılmayacaktır.   
+420.05 Astar Malzemesinin Depolanması 
+Emülsiyon astar malzemesi herhangi bir ısıtmaya gerek duymadan uzun süre depolanabilmelidir. 
+Depolandığı süre içerisinde stabilitesini kaybetmemeli, gerekirse kullanılmadan önce “Astar 
+Malzemesi Hazırlama ve Uygulama Raporu”nda sunulacak detaylarda dikkate alınmak suretiyle 
+yaklaşık 50 C° sıcaklıkta ısıtılmalı ve yeterli süre karıştırılarak stabilitesi uygun hale getirilmelidir. 
+ 
+420.06 Astar Malzemesinin Hazırlanması ve Uygulanması 
+Astar malzemesinin özelliklerini değiştirmemesi, imalatın kalitesini olumsuz etkilememesi için, 
+astar malzemesinin hazırlanması ve uygulanması aşamasında kullanılacak nakliye ekipmanları ve 
+depolama sistemlerinde farklı cinste ürünlerin kullanılmaması  gerekmektedir. 
+ 
+Astar malzemesi konsantresi, üreticisi tarafından İdare’ye teslim edilecek “Astar Malzemesi 
+Hazırlama ve Uygulama Raporu”na göre uygulamaya hazır hale getirilecek ve uygulanacaktır. 
+“Astar Malzemesi Hazırlama ve Uygulama Raporu”nda; kullanılacak emülsiyon astar 
+malzemesinin, üretici firma tarafından belirlenmiş, teknik özelliklerini gösteren dokümanlar, ürün 
+hazırlama, depolama ve uygulama ile ilgili tüm teknik bilgiler yer almalıdır.    
+ 
+İdare’nin talebi üzerine malzeme konsantre veya su ile seyreltilerek İdare’ye teslim edilecektir. 
+ 
+Şantiyeye gelen malzeme Kontrol Mühendisliği tarafından tutanakla teslim alınacak ve imalatta 
+günlük kullanılan miktarlarla ilgili tutanak hazırlanacaktır.   
+ 
+Seyreltme işlemi özel bir değirmene gerek duymadan, basit karıştırma yöntemi ile “Astar 
+Malzemesi Hazırlama ve Uygulama Raporu”na göre yapılmalıdır. Su ile seyreltilmiş konsantre astar 
+malzemesi homojen olmalı, kolayca karışabilmeli ve uygulanabilmelidir.     
+ 
+“Astar Malzemesi Hazırlama ve Uygulama Raporu”na göre hazırlanan su ile seyreltilmiş astar 
+malzemesi 0,9-1,5 lt/m2 olacak şekilde püskürtülmesi önerilmektedir. Astarın ne kadar verileceği 
+yol yüzeyinin durumuna göre mühendis tarafından kesin olarak verilecek ve m2’ye düşen astar 
+malzemesinin mühendisin verdiği miktara uyup uymadığı deney yapılarak kontrol edilecektir. Su 
+ile seyreltme oranı 4:1’den (4 birim su + 1 birim astar konsantresi) daha fazla olmamalıdır. 
+Uygulamaya hazır hale getirilen seyreltilmiş astar malzemesi Tablo-420-2’de belirtilen özelliklere 
+uygun olacaktır.  
+Tablo-420-2 Seyreltilmiş Astar Özellikleri 
+ÖZELLİKLER DENEY METODU ŞARTNAME 
+LİMİTİ 
+Depolama Stabilitesi, 
+24 saat %, max.  ASTM D 6930 2* 
+pH değeri (4:1) ASTM E 70 5,5-8,5 
+ 
+* Seyreltilmiş astar malzemesinin depolanmadan kullanımı esastır. Depolanma zorunluluğu 
+meydana gelirse bu şart aranacaktır. 24 saatten fazla depolanan seyreltilmiş malzemeler, EK-B  ve 
+EK-C  deney sonuçları da dikkate alınarak Kontrol Mühendisliğinin uygun görüşü ile 
+uygulanmalıdır.     
+--- SAYFA 795 ---
+
+                                                      KISIM 420 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-420/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+420/3 
+Temel tabakası üzerine yapılan sathi kaplama uygulamalarında, emülsiyon astar malzemesi, Kısım 
+403.05.01’de belirtilen şekilde hazırlanmış temel yüzeyine distribütörle püskürtülecektir.  
+ 
+Distribütör, sathi kaplama yapımında en önemli iş makinelerinden biridir. Distribütör, hızdan 
+bağımsız olarak, miktarı belirlenmiş olan astar malzemeyi farklı noktalar arasında en fazla % 6 
+hassasiyetle, püskürtebilen, püskürtme barının yerden yüksekliği ayarlanabilen, yürüme hızı birim 
+alana atılan astar malzeme miktarını gösteren yapıda olmalıdır.  
+ 
+Seyreltilmiş emülsiyon astar malzemesinin ısıtılmaya ihtiyaç duyulması durumunda, ısıtma sistemi 
+bulunan distribütörler vb. kullanılmalıdır.  
+ 
+Astar malzemesi püskürtülmeden önce yol yüzeyi kuru olacak, granüler, plent-miks temellerde 
+yüzeyden itibaren 3 cm’lik kısımda rutubet % 2’den fazla olmayacaktır.    
+ 
+Yol yüzeyinin çok kuru olması ve Kontrol Mühendisliğinin gerekli görmesi halinde, astar 
+malzemesi uygulanması öncesi yol yüzeyi hafifçe rutubetlendirilecektir.  
+ 
+Seyreltilmiş astar malzemesi, ısıtılmadan normal hava koşullarındaki sıcaklığında püskürtülerek, 
+ısıtılmasına ihtiyaç duyulması halinde ise, homojen karışım ve stabilite sağlandığı sıcaklıkta 
+püskürtülerek uygulanabilmelidir.  
+ 
+Astar malzemesi, hava sıcaklığı 10 oC ve daha yüksek iken uygulanacaktır. Kür zamanı havanın 
+sıcaklığı ve rutubeti ve diğer etkenlere bağlı olarak değişebileceğinden, astar malzemesi 
+uygulandıktan sonra malzemenin kür olabilmesi için en az 4 saat en çok 8 saat beklenecektir.  
+ 
+Astar malzemesi banketlerde kaplama genişliğinin her iki tarafından en az 25’er cm daha geniş bir 
+yüzeyde yapılacaktır.  
+ 
+Astar kürünü aldıktan sonra Tablo-420-3’de belirtilen penetrasyon şartını sağlamalı, penetre ettiği 
+derinlikte agregaları birbirine bağlamalı, ayrıca temel yüzeyinde filler vb. malzemeleri tutarak toz 
+oluşumunu engellemelidir.  
+ 
+Tablo-420-3 Astar Bağlayıcı Penetrasyon Testi  
+ÖZELLİKLER DENEY METODU ŞARTNAME 
+LİMİTİ 
+Penetrasyon Testi, mm, min EK-B 10 
+ 
+Astar kürünü aldıktan sonra Tablo-420-4’de belirtilen geçirimsizlik şartını sağlamalıdır.   
+ 
+Tablo-420-4 Astar Bağlayıcı Geçirimsizlik Testi 
+ÖZELLİKLER DENEY METODU ŞARTNAME 
+LİMİTİ 
+Geçirimsizlik Testi, 24 saat, %, max EK-C 50 
+ 
+Geçirimsizlik testi sonrası, numune yüzeyinde ayrışma, dağılma vb. bozulmalar gözlenmemelidir.  
+--- SAYFA 796 ---
+
+                                                      KISIM 420 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-420/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+420/4 
+Astar malzemesi penetrasyon ve geçirimsizlik testi (EK-B ve EK-C), kırılmış kireçtaşı ve bazalt 
+agrega temel numuneleri üzerinde ayrı ayrı yapılmalı ve her iki temel numunesi Tablo-420-3 ve 
+Tablo-420-4 şartlarını sağlamalıdır. 
+ 
+420.07 Kalite Kontrol 
+Uygulama öncesi deneme kesimi yapılarak, “Astar Malzemesi Hazırlama ve Uygulama Raporu”na 
+ve şartname içerisinde önerilen uygulama oranlarına göre seyreltilmiş astar malzemesinin 
+özelliklerinin uygunluğu kontrol edilecektir. Seyreltilmiş astar malzemesinden uygulama öncesinde 
+veya sırasında TS EN 58 “Bitümlü Bağlayıcılar-Numune Alma” standardına uygun olarak alınacak 
+ve numuneye Tablo 420-2 EK-B ve EK-C’deki testler yapılarak uygunluğu kontrol edilecektir.  
+ 
+Ayrıca yapılacak tüm faaliyetler “Sathi Kaplama Şantiye Günlük Defteri”ne işlenerek takibi 
+sağlanacaktır. 
+ 
+ 
+ 
+ 
+EK-A 
+ 
+ASTAR MALZEMESİNDEN NUMUNE ALINMASI SIRASINDA HAZIRLANACAK 
+RAPOR FORMLARI 
+A.1. DENEYLERLE İLGİLİ BİLGİLER 
+A.1.1 – Deneyleri isteyen kuruluş 
+A.1.2 – Deneylerin masraflarını karşılayacak kuruluş (Biliniyorsa) 
+A.1.3 – Numunenin miktarı ve tanıtımı 
+A.1.4 – Deneye tabi olan maddenin durumu ve tipi 
+A.1.5 – Numune almanın ve deney programının amacı 
+A.2. TESLİMAT VE KULLANILMA İLE İLGİLİ BİLGİLER 
+A.2.1 – Üreticinin adı 
+A.2.2 – Satıcının adı (üreticiden farklı ise) 
+A.2.3 – Alıcının adı 
+A.2.4 – Teslimat 
+A.2.5 – Amaç 
+A.3. NUMUNE ALMA İLE İLGİLİ BİLGİLER 
+A.3.1 – Numune alma tarihi ve katılanlar 
+A.3.2 – Numune alma mahalli 
+A.3.3 – Numunenin alındığı yer, tank hacmi, deneye tabi olan maddenin durumu 
+A.3.4 – Kullanılan numune alma metodu 
+A.3.5 – Numune ile ilgili veriler 
+A.3.6 – Numunenin dağılımı 
+A.3.7 – Özel not ve düşünceler 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 797 ---
+
+                                                      KISIM 420 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-420/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+420/5 
+EK-B 
+ 
+PENETRASYON DENEYİ 
+Kırılmış agrega temel numunesinin, Kısım 402 Tablo-402-2 “İnce Agreganın Fiziksel 
+Özellikleri”ne uygun, 4,75 mm (No.4) elekten % 100 geçen, 0,075 mm (No.200) elekten % 0-12 
+arasında geçen kısmından 2000 gram alınır. Agrega numunesi 10,16 cm çapında, 11,64 cm 
+yüksekliğindeki kolayca takılıp çıkartılabilen metal bir kalıbın içerisine 2 tabakada sıkışacak şekilde 
+yerleştirilir.  
+Sıkıştırma işlemi % 5 su içeriğindeki malzemeye, her 2 tabaka için titreşimli tokmakla 60 saniye 
+boyunca, kalıp içindeki numune üzerinde 20 mm (±0,1) boşluk kalacak şekilde uygulanır. 
+Diğer taraftan astar malzemesi, üretici tarafından İdare’ye teslim edilen “Astar Malzemesi 
+Hazırlama ve Uygulama Raporu”na göre hazırlanır. Konsantre olarak teslim edilen astar malzemesi, 
+önerilen karışım oranlarına göre maksimum 4:1 oranında (4 birim su + 1 birim astar) seyreltilerek 
+hazırlandıktan sonra, 0,9-1,5 lt/m2 arasında olacak miktarda, agrega numunesi yüzeyine aynı 
+oranlarda ve tamamen kaplanacak şekilde püskürtülür.  
+Bu şekilde hazırlanan en az 2 numune, astar malzemesinin kürünü tamamlaması için en az 4 saat, 
+en fazla 8 saat laboratuvar sıcaklığında bekletilir. Kürünü tamamlamış ve kalıptan numune 
+çıkartıcıyla deforme olmadan çıkarılan numuneler üzerinde penetrasyon derinliği en az 3 noktadan 
+olmak üzere 0,5 mm hassasiyetli kumpasla ölçülür. 3 noktadan ölçülen penetrasyon derinliklerinin 
+aritmetik ortalaması astar malzemesinin penetrasyon derinliği olarak ifade edilir.  
+ 
+EK-C 
+ 
+GEÇİRİMSİZLİK DENEYİ 
+Kırılmış agrega temel numunesinin, Kısım 402 Tablo-402-2 “İnce Agreganın Fiziksel 
+Özellikleri”ne uygun, 4,75 mm (No.4) elekten % 100 geçen, 0,075 mm (No.200) elekten % 0-12 
+arasında geçen kısmından 2000 gram alınır. Agrega numunesi 10,16 cm çapında, 11,64 cm 
+yüksekliğindeki kolayca takılıp çıkartılabilen metal bir kalıbın içerisine 2 tabakada sıkışacak şekilde 
+yerleştirilir.  
+Sıkıştırma işlemi % 5 su içeriğindeki malzemeye, her 2 tabaka için titreşimli tokmakla 60 saniye 
+boyunca, kalıp içindeki numune üzerinde 20 mm (±0.1) boşluk kalacak şekilde uygulanır. 
+Diğer taraftan astar malzemesi, üretici tarafından İdare’ye teslim edilen “Astar Malzemesi 
+Hazırlama ve Uygulama Raporu”na göre hazırlanır. Konsantre olarak teslim edilen astar malzemesi, 
+önerilen karışım oranlarına göre maksimum 4:1 oranında (4 birim su + 1 birim astar) seyreltilerek 
+hazırlandıktan sonra, 0,9-1,5 lt/m2 arasında olacak miktarda, agrega numunesi yüzeyine aynı 
+oranlarda ve tamamen kaplanacak şekilde püskürtülür.  
+Bu şekilde hazırlanan en az 2 numune, astar malzemesinin kürünü tamamlaması için en az 4 saat, 
+en fazla 8 saat laboratuvar sıcaklığında bekletilir. Kürünü tamamlamış numune, 0,01 gr hassasiyetli 
+terazi ile tartılır. Kürünü tamamlamış numune üzerine kalıptan taşmayacak şekilde su ilave edilir ve 
+numune bu şekilde tekrar tartılır ve ilave edilen su miktarı kaydedilir. Üzerine su ilave edilmiş 
+numune laboratuvar ortamında 24 saat bekletildikten sonra numune üzerinde kalan su boşaltılır ve 
+tartılır. Numunenin yüzeyindeki su kaybının, ilk tartımdaki su miktarına oranı geçirimsizlik yüzdesi 
+olarak ifade edilir.  
+--- SAYFA 798 ---
+
+                                                      KISIM 420 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-420/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+420/6 
+ 
+ 
+EK-A EMÜLSİYON ASTAR BAĞLAYICI NUMUNE ALIM FORMU 
+ 
+ 
+ 
+A.1) DENEYLERLE İLGİLİ BİLGİLER 
+A.1.1) Deneyleri isteyen kuruluş  
+A.1.2) Deneylerin masraflarını karşılayacak 
+kuruluş (Biliniyorsa)  
+A.1.3) Numunenin miktarı ve tanımı                                              
+A.1.4) Deneye tabi olan maddenin durumu ve 
+tipi  
+A.1.5) Numune almanın ve deney 
+programının amacı                                                    
+A.2) TESLİMAT VE KULLANIM İLE İLGİLİ BİLGİLER 
+A.2.1) Üreticinin Adı  
+A.2.2) Satıcının Adı (üreticiden farklı ise)  
+A.2.3) Alıcının Adı                                               
+A.2.4) Teslimat  
+A.2.5) Amaç                                                     
+A.3) NUMUNE ALMA İLE İLGİLİ BİLGİLER 
+A.3.1) Numune Alma Tarihi ve Katılanlar  
+A.3.2) Numune alma mahalli  
+A.3.3) Numunenin alındığı yer, tank hacmi, 
+deneye tabi olan maddenin durumu   
+A.3.4) Kullanılan numune alma metodu  
+A.3.5) Numune ile ilgili veriler                                   
+A.3.6) Numunenin dağılımı                                   
+A.3.7) Özel not ve düşünceler                                    
+İdare Yüklenici 
+ 
+
+--- SAYFA 799 ---
+
+ KISIM 421 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-421/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+421/1 
+421. MASTİK ASFALT (MA) 
+421.01 Tanım 
+Bu kısım, ocak taşından kırılmış ve elenmiş kaba agrega, ince agrega ve mikronize kalsit ile ilave 
+mineral fillerin belli gradasyon limitleri arasında işyeri karışım formülü esaslarına uygun olarak, 
+bitümlü bağlayıcı ile bir plentte karıştırılarak, onaylı proje ve detay en kesitlerine göre hazırlanmış 
+çelik veya betonarme tabliyeli köprülerde kullanılmak üzere bir veya birden fazla tabaka halinde, 
+projesinde belirtilen plan, profil ve en kesitlere uygun biçimde yapılacak mastik asfalt kaplamadan 
+bahseder. 
+421.02 Kapsam 
+Mastik asfalt karışımına giren kaba agrega, ince agrega, mineral filler ve mikronize kalsit ile bitümlü 
+malzeme ve diğer katkılarda aranan özellikler, gradasyon limitleri, işyeri karışım formülü esasları, 
+inşa metodu, arazi ve laboratuvar kontrolleri ile diğer şartlar bu şartnamede belirtilen esaslara uygun 
+olacaktır. 
+421.03 Malzemeler 
+421.03.01 Mineral Agrega ve Genel Özellikleri  
+Agrega; kırmataş karışımından ibaret olacaktır. Karışım içindeki kırmataş temiz, sert, sağlam ve 
+dayanıklı danelerden ibaret olacak, agrega malzemede kil topakları ve bitkisel maddeler ile diğer 
+zararlı maddeler bulunmayacaktır. Agreganın temin edildiği kayacın petrografik analizi 
+yaptırılacak, agrega içerisinde kurutma, karıştırma ve serim işlemleri ile sonradan hava etkisi ile 
+kırılmaya yatkın olan ayrışma ürünü diğer maddeler bulunmayacaktır. 
+Mineral agrega; kaba agrega, ince agrega ve mikronize kalsit ile mineral fillerden oluşmak üzere ve 
+mineral filler hariç en az 3 ayrı dane grubunun düzgün bir derecelenme verecek şekilde belli 
+oranlarda karıştırılmasından oluşacaktır.  
+Agrega karışımının dizayn gradasyonu, Tablo-421-1’de ağırlıkça % geçen olarak verilen gradasyon 
+limitlerine uygun olacaktır.  
+Tablo-421-1 Mastik Asfalt Tabakası için Gradasyon Limitleri  
+Elek Boyutu  Mastik Asfalt  
+İnç, No mm Geçen % 
+1/2" 12,5 100 
+3/8" 9,5 90 – 100 
+No.4 4,75 63 – 75 
+No.10 2,00 42 – 54 
+No.40 0,425 31 – 43 
+No.80 0,180 24 – 36 
+No.200 0,075 20 – 30 
+Kaba agrega için en çok 200 m3’de bir elek analizi, ince agrega için en çok 100 m3’de bir elek analizi 
+yapılacaktır. 
+Laboratuvar karışım dizaynına esas olacak çeşitli dane grubundaki malzemelerin ortalama elek 
+analizleri konkasör ayarları tamamlanıp sürekli çalışmaya başlandıktan sonra en az 10 adet elek 
+--- SAYFA 800 ---
+
+ KISIM 421 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-421/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+421/2 
+analizinin ortalaması alınarak hesaplanacaktır. Elek analizleri ASTM C 136,  ASTM C 117’ye (TS 
+EN 933-1) uygun olarak yapılacaktır. 
+Kaba agrega, ince agrega, mikronize kalsit ve mineral filler ile ilgili bütün muayene ve deneyler 
+şartnameye uygun olarak İdareye ait Bölge veya Merkez laboratuvarlarında ya da İdarenin uygun 
+bulacağı tercihen akredite olmuş laboratuvarlarda yapılacaktır.  
+421.03.01.01 Kaba Agrega 
+Kaba agrega; kırmataş karışımından oluşacaktır.  
+Kaba agrega; agrega karışımının 4,75 mm’lik (No.4) elek üzerinde kalan kısmı olup, temiz, pürüzlü, 
+sağlam ve dayanıklı danelerden oluşacaktır. Kaba agrega içinde, yumuşak ve dayanıksız parçalar, 
+kil topakları, organik ve diğer zararlı maddeler serbest veya agrega tanelerini sarmış halde 
+bulunmayacaktır. 
+Mastik asfalt karışımlarının kaba agregası granit, bazalt veya diğer yüksek kaliteli magmatik 
+kayaçların kırılmasından elde edilen agrega olacaktır.  
+Kaba agrega Tablo-421-2’de belirtilen şartlara uygun olacaktır.  
+Tablo-421-2 Kaba Agreganın Özellikleri  
+Deney  Şartname Limitleri c Deney Standardı  
+Parçalanma Direnci (Los Angeles), % Kayıp ≤ 25 (LA 25) TS EN 1097-2 a 
+(AASHTO T 96) 
+Aşınma Direnci (Micro-Deval)b, % Kayıp ≤ 20 (M DE20) TS EN 1097-1 
+Hava Tesirlerine Karşı Dayanıklılık,  
+(MgSO 4 ile kayıp), % ≤ 14 (MS 14) TS EN 1367-2 
+Yassılık İndeksi, % ≤ 25 BS 812 
+≤ 15 (FI 15) TS EN 933-3 a 
+Su Emme,  % ≤ 2,0 (WA 242,0) TS EN 1097-6 
+Soyulma Mukavemeti, (Bitümle Kaplı Yüzey) %  
+(24 saat 60 °C suda bekletmeden sonra)  
+(Karışımda kullanılacak bitümle yapılacak)d  ≥ 80  Kısım 403 EK-A 
+Kil Topakları ve Ufalanabilir Tane Oranı, % Bulunmayacak ASTM C 142 
+AASHTO T 112 
+a Referans metot. 
+b İdare tarafından gerek duyulduğunda yapılacaktır. 
+c Parantez içindeki ifade, şartname değerinin TS EN 13043 ‘deki sınıfını gösterir. 
+d Mastik asfalt dizaynı ve yapımında kullanılan Trinidad gölü asfaltı (TLA)+Penetrasyon sınıfı 
+bitüm (B) karışımı ya da TLA+Polimer modifiye bitüm(PMB) karışımından oluşan bitümlü 
+bağlayıcı.  
+421.03.01.02 İnce Agrega 
+4,75 mm’lik (No.4) elekten geçip 0,075 mm’lik (No. 200) elek üzerinde kalan malzeme olarak 
+tanımlanan ince agrega, CaCO 3 oranı en az %80 olan kireçtaşı, kırmataş agregadan oluşacaktır.  
+--- SAYFA 801 ---
+
+ KISIM 421 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-421/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+421/3 
+İnce agrega temiz, sağlam ve dayanıklı olacak, kil topakları, gevrek malzemeler, organik ve diğer 
+zararlı maddeleri içermeyecektir.  
+Teknik nedenlerden dolayı farklı kökenli bir kayaçtan elde edilen ince agreganın kullanılma 
+zorunluluğu doğarsa, mastik asfalt için İdarenin onayı ile özel karışım dizaynı hazırlanacak ya da 
+hazırlattırılacaktır.        
+İnce agrega Tablo-421-3 ’de belirtilen şartlara uygun olacaktır.  Ayrıca ince agreganın üretildiği taş 
+ocağının Los Angeles Parçalanma Direnci ile Hava Tesirlerine Karşı Dayanıklılık değerleri, kaba 
+agrega için Tablo-421-2’  de istenen şartlara uygun olacaktır. 
+Tablo-421-3 İnce Agreganın Özellikleri 
+Deney Şartname 
+Limitleri  Deney Standardı  
+Plastisite İndeksi % NP TS EN ISO 17892-12 
+AASHTO T 89 
+AASHTO T 90 
+Organik Madde, (% 3 NaOH ile)   Negatif TS EN 1744-1 
+Madde 15.1 
+Su Emme,  % ≤ 2,0 (WA 242,0) TS EN 1097-6 
+Metilen Mavisi  (İnce agreganın 0/2 
+mm kısmına) g/kg ≤ 2,0 (MB 2,0) TS EN 933-9 
+421.03.01.03 Mineral Filler 
+Mineral filler; tamamı 0,425 mm (No. 40) elekten geçip, ağırlıkça en az % 70’i 0,075 mm (No.200) 
+elekten geçen malzeme olarak tanımlanır. 
+Kaba ve ince agrega ile mikronize kalsit karışımının gradasyonu 0,425 mm (No. 40) elekten geçen 
+malzeme miktarı yönünden yetersiz ise, agrega karışımına mineral filler ilave edilebilir. 
+Mineral filler; CaCO 3 oranı en az %80 olan kalker tozu, sönmüş kireç veya benzeri maddelerden 
+oluşacak; kil, toprak, organik ve zararlı madde içermeyecektir. 
+Mineral filler non-plastik, kolayca akabilecek kadar kuru olacak ve içerisinde özellikle topaklar 
+bulunmayacaktır. Mineral filler aşağıda Tablo-421-4’de belirtilen gradasyon limitlerine uyacaktır. 
+Tablo-421-4 Mineral Fillerin Gradasyon Limitleri 
+Elek Boyu  
+Geçen %  
+İnç, No mm 
+No.40 0,425 100 
+No.80 0,180 85 - 100 
+No.200 0,075 70 - 100 
+Mineral fillerin elek analizi AASHTO T 37 (ASTM D 546)’ya göre yapılacaktır. Agrega karışımına 
+ilave edilen mineral fillerin 0,075 mm (No.200) elek üzerinde kalan kısmı ince agrega olarak kabul 
+edilecektir. 
+--- SAYFA 802 ---
+
+ KISIM 421 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-421/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+421/4 
+421.03.01.04 Mikronize Kalsit 
+Mastik asfalt karışımında kullanılacak olan mikronize kalsitin CaCO 3 oranı en az %95 olmalı ve 
+tamamı 0,180 mm (No. 80) elekten geçip, ağırlıkça en az % 95’i 0,075 mm (No.200) elekten 
+geçmelidir.  
+Mikronize kalsitin elek analizi AASHTO T 37 (ASTM D 546)’ya göre yapılacaktır. Agrega 
+karışımına ilave edilen mikronize kalsitin 0,075 mm (No.200) elek üzerinde kalan kısmı ince agrega 
+olarak kabul edilecektir. 
+Mastik asfalt karışımında mikronize kalsit miktarı, mineral agreganın ağırlıkça %15 ila % 20’ si 
+arasında olacaktır. Teknik sebeplerden ötürü bu oranların dışında bir oranda mikronize kalsit 
+kullanımı zorunluluğu doğarsa, mastik asfalt karışımı dizaynını yapacak İdarenin onayı ile İdare 
+tarafından ihtiyacı karşılayacak yeterlilikteki mastik asfalt performansının deney sonuçlarıyla ortaya 
+konulduğu özel karışım dizaynı hazırlanacak ya da hazırlattırılacaktır.  
+Mikronize kalsit; non-plastik, kolayca akabilecek kadar kuru olacak ve içerisinde özellikle topaklar 
+bulunmayacaktır.  
+421.03.02 Bitümlü Bağlayıcılar ve Genel Özellikleri 
+Mastik asfalt tabakasında kullanılacak bitümlü bağlayıcı; TS EN 12591, “Bitümler ve Bitümlü 
+Bağlayıcılar – Kaplama Sınıfı Bitümler - Özellikler” standardına uygun 40/60, 50/70 penetrasyonlu 
+bitüm veya Polimer Modifiye Bitüm (PMB)’ den seçilmiş bir bitüm sınıfıyla Trinidad gölü asfaltı 
+(TLA)’ın belli oranlarda karışımından oluşacaktır. Modifiye bitüm, KGM Karayolu Teknik 
+Şartnamesi (KTŞ) Kısım 412’ de verilen ilgili PMB sınıfına ait PG özelliklerini (yüksek ve düşük 
+sıcaklık performanslarını) sağlayacaktır. TLA’ nın TS EN 13108-4 standardı EK B’ deki yüksek kül 
+içeriğine sahip doğal asfaltlara ait tabloda verilen özellikleri sağladığı kanıtlanacaktır. TLA, plentte 
+mastik asfalt karışımın üretimi sırasında, önceden ısıtılıp eritilerek, diğer bitüme bitüm tankında 
+karıştırılmak suretiyle kullanılabileceği gibi doğrudan granüler olarak mikserde de karışıma 
+katılabilir. Granüler olarak mikserin beslenmesi durumda TLA granüllerinin maksimum dane 
+boyutu 12 mm’ den daha büyük olmayacaktır. 
+Mastik asfaltta kullanılacak olan, Penetrasyon sınıfı ya da PMB sınıfı bitümden biriyle TLA 
+karıştırılarak oluşturulacak bitümlü bağlayıcının özellikleri Tablo-421-5’ de verilen şartları 
+sağlayacak ve karışım oranları bu tabloda verilen şartname değerlerini karşılayacak şekilde 
+belirlenecektir.  
+ Tablo-421-5 Bitümlü Bağlayıcının Özellikleri 
+Sıra 
+No Deney Adı  Şartname 
+Değeri a Deney Standardı  
+1 Penetrasyon, (25 oC) 0.1mm 15 - 25 TS EN 1426 
+2 Yumuşama Noktası, oC  ≥ 70 TS EN 1427 
+3 Çözünürlük, % ≥ 75 TS EN 12592 
+4 Parlama Noktası, oC        ≥ 260 TS EN ISO 2592 
+5 Yaşlandırma Sonrası Kütle Kaybı,% ≤ 1,0 TS EN 12607-1 
+a Mastik asfalt dizaynı ve yapımında kullanılan Trinidad gölü asfaltı (TLA)+Penetrasyon 
+sınıfı bitüm (B) karışımı ya da TLA+PMB Polimer modifiye bitüm (PMB) karışımından 
+oluşan bitümlü bağlayıcı.  
+--- SAYFA 803 ---
+
+ KISIM 421 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-421/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+421/5 
+421.04  Mastik Asfalt Dizaynı 
+Laboratuvar karışım dizaynında ve mastik asfalt yapımında kullanılacak mineral agrega karışımın 
+granülometrisi Tablo-421-1’deki gradasyon limitlerine uyacaktır. Mastik asfalt karışımı 
+dizaynında, karışımın tamamı için Tablo-421-6’da verilen dizayn kriterleri esas alınacaktır. 
+Kullanılacak her tür mineral agrega, bitümlü bağlayıcı ve katkı malzemeleri için gereken tüm 
+deneyler laboratuvar karışım dizaynı hazırlanmadan önce tamamlanmış olacaktır. Laboratuvar 
+karışım dizaynının hazırlanması için temsili ve yeterli miktardaki agrega ve bitümlü bağlayıcı 
+numuneleri İdarenin Bölge veya Merkez laboratuvarına karışım imalinin başlamasından yeter 
+zaman önce agrega üretimine ait 10 adet elek analizi sonuçları ile birlikte teslim edilmiş olacaktır. 
+                        Tablo-421-6 Mastik Asfalt Dizayn Kriterleri 
+Özellikler  Şartname Değeri  Deney Standardı  
+Mastik Asfalt Karışımın Sertlik Sayısı, mm                      
+(40oC’ de, 525 N yük, 25 mm çaplı iğne, 30. dakika 
+sonunda)  1 – 3 TS EN 12697-20 
+Mastik Asfalt Karışımın Sertlik Sayısındaki Artış, mm    
+(40oC’ de, 525 N yük, 25 mm çaplı iğne, 60. dakika 
+sonunda)  ≤ 0,4 TS EN 12697-20 
+Çözünebilen Bitüm %’ si, (100’ e bitüm cinsinden)a  ≥ 8,5 TS EN 12697-1 
+aMastik asfalt karışımı içerisindeki TLA’lı bitümlü bağlayıcının ekstraksiyon sonucu çözünen 
+kısmının ağırlığının, çözünmeyen kısmı dahil karışım içerisindeki toplam mineral agrega 
+ağırlığına oranı.     
+Mastik asfalt dizaynı İdarenin uygun bulması halinde işi yapan yüklenici laboratuvarında ya da 
+İdarenin onay vereceği, tercihen akredite olan, özel bir laboratuvarda da yapılabilecek olup, 
+hazırlanan dizayn İdare tarafından onaylandıktan sonra kullanılabilecektir. Ancak dizaynın 
+onaylanabilmesi için dizayn raporu ile birlikte dizaynda kullanılan agrega, bitümlü bağlayıcı ve 
+katkı malzemesi numuneleri gönderilerek, İdare laboratuvarında dizaynda önerilen mastik asfalt 
+mineral agrega gradasyonunda ve bitüm yüzdesinde hazırlanacak numuneler üzerinde Tablo-421-
+6’daki kriterlere esas, dizayn değerleri kontrol edilecektir.         
+Laboratuvar karışım dizaynı yazılı olarak bildirildikten sonra işyeri karışım formülüne (İKF) esas 
+olacaktır. 
+Mastik asfalt imalinde kullanılacak karışıma ait agrega gradasyonu, bitümlü bağlayıcı ile 
+karıştırılmadan önce ve sonra, Tablo-421-7’de verilen tolerans sınırları içinde kalacaktır. Tabloda 
+verilen tolerans değerleri kalite kontrol faaliyetleri esnasında yapılacak laboratuvar deney sonuçları 
+için verilmiş olup, İKF her durumda dizayn değerlerine göre yapılacak ve plentteki üretimde 
+gradasyon toleransları ile dizayn raporunda belirtilen cins, miktar ve orandaki bitümlü bağlayıcılar 
+kullanılacaktır.  
+Üretimde herhangi bir nedenle; karışımın gradasyonu, alınan bütün önlemlere rağmen tolerans 
+limitleri dışında kalıyor ise veya agrega ocağından gelen değişiklikler dolayısı ile karışımın 
+özelliklerinde değişmeler olduğu saptanıyor ise, yeni bir laboratuvar karışım dizaynı hazırlanacaktır. 
+ 
+--- SAYFA 804 ---
+
+ KISIM 421 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-421/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+421/6 
+ 
+Tablo-421-7 Karışımın Tolerans Sınırları  
+Malzeme Toleranslar  
+4,75 mm (No.4) ve daha büyük eleklerden geçenler ± % 4 
+2,00 mm (No.10) - 0,180 (No.80) eleklerden  geçenler ± % 3 
+0,075 mm (No.200) eleği geçen ± % 2 
+Bitümlü Bağlayıcı* ± % 0,2 
+*Bitümlü bağlayıcı için verilen tolerans değeri laboratuvar deney sonuçları için 
+dikkate alınacak olup, işyeri karışım formülü ve imalat her durumda dizaynda 
+belirlenen bitüm oranına göre yapılacaktır. 
+421.05 Yapım Şartları 
+421.05.01 Mastik Asfalt Karışımın Üretimi  
+Mastik asfalt üretiminde harman tipi karıştırma (batch tipi) prensibi ile çalışan plentler kullanılacak 
+olup, sürekli karıştırma veya tamburda karışım (drum mix tipi) prensibi ile çalışan plentlerin 
+kullanımı İdarenin yazılı iznine bağlı olacaktır.     
+Mastik asfalt imalatında kullanılmak üzere  421.03’de belirtilen şartlara uygun olarak hazırlanan 
+agregalar plente yakın bir yerde ve ayrı ayrı tane grupları halinde depo edilecektir. Tane gruplarının 
+birbirine karışması mutlaka önlenecek, her tane grubunun üzerine boyutlarını belirten levhalar 
+konacaktır. Agrega depolarına kil, toprak ve diğer bütün zararlı maddelerin karışması önlenecektir. 
+Agrega depolaması segregasyona sebebiyet vermeyecek şekilde olacaktır. 
+Mastik asfalt üretiminde, taşınmasında ve uygulanmasında bitümlü bağlayıcı ile mineral agrega 
+karışımı 230 °C sıcaklığı aşmayacak ve karışım plentte homojenlik sağlanacak şekilde yeterli sürede 
+karıştırılacaktır.  
+Mastik asfalt imalatı sırasında karışım dizayn değerlerine mutlaka uyulmalı, sıcaklık kontrolü 
+sürekli yapılmalıdır. Plentte karıştırma süresi, agrega tanelerinin tam ve üniform bir biçimde bitümle 
+sarılmış olması ve homojen bir karışım elde edilmesi koşulu ile, plentin ve kullanılan agreganın 
+tipine bağlı olarak Kontrol Mühendisliği tarafından tayin edilecektir.  
+421.05.02 Deneme Kesimi   
+Üretilen mastik asfaltın sahadaki uygunluğunun tespiti için karışımın uygulanmasından önce 
+uygulamanın yapılacağı yapı dışında düzgün bir yüzey üzerinde deneme kesimi inşa edilecektir. 
+Deneme kesiminin uzunluğu ve genişliği ile deneme kesimi sonuçları İdare tarafından 
+onaylanacaktır. Deneme kesiminin inşa edileceği yer Kontrol Mühendisliği tarafından seçilecek ve 
+yapımı Kontrol Mühendisliği tarafından yönetilecektir.  
+Yapılacak deneme kesiminde yapım yöntemleri ve üretim sıcaklıkları belirlenecek, mastik asfaltın 
+işlenebilirlik, sertlik sayısı vb. performans özellikleri kontrol edilecek, mastik asfalt finişerinin 
+serim hızı ayarlanacaktır.  
+Laboratuvar karışım dizaynında değişiklik yapıldığında Kontrol Mühendisliği yeni bir deneme 
+kesimi yapımını isteyecektir.  
+--- SAYFA 805 ---
+
+ KISIM 421 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-421/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+421/7 
+421.05.03 Kaplanacak Yüzeyin Hazırlanması    
+Mastik asfaltın serileceği yüzeyler düzgün olacak, nihai proje kotunu ve kaplama kalınlığını verecek 
+şekilde gerekli ayarlamalar yapılacaktır. Yalıtımı onaylı projesine uygun olarak yapılan yüzeyde 
+serime başlamadan önce temizlik kontrolü yapılarak yüzey her türlü artık malzemeden, su 
+birikintisinden arındırılmış olacaktır. Mastik asfalt kaplama yapılacak yüzey kuru olacak, nemli ve 
+çiğlenme noktasının oluşacağı durumlarda mastik asfalt serimi kesinlikle yapılmayacaktır.  
+Mastik asfalt serilmeden önce tüm menhollerin kenarları ile baca kapakları, ızgaralar, tesisat kutuları 
+vb. yapıların karşılıklı yüzeyleri iyice temizlenecek, uygun bir derz dolgu malzemesi veya yapıştırıcı 
+malzeme ile kaplanacaktır.   
+421.05.04 Mastik Asfalt Karışımın Taşınması   
+Mastik asfalt karışımı, 230 °C’ yi aşmayacak şekilde, karışımım plentteki çıkış ısısını muhafaza 
+edilebilmesi için kalibre edilmiş ısı kontrol sistemleri olan ve homojen karışımı sağlayan kendinden 
+özel ısıtıcılı ve karıştırıcılı taşıyıcı ekipmanlarla taşınacaktır.  
+421.05.05 Mastik Asfalt Karışımın Serilmesi    
+Serim sahasında uygulama, mastik asfalt karışımı için özel olarak üretilmiş duyargalı, malzemeyi 
+değişik genişliklerde ve istenilen kalınlıklarda, yüzeyin plan, profil ve en kesitlerine uygun olacak 
+şekilde serebilen özel finişerlerle yapılacaktır. Makine ile serilmesi mümkün olmayan yerlerde 
+mastik asfalt elle serilebilecektir. 
+Mastik asfalt uygulamasında görevlendirilecek yeterli sayıdaki deneyimli kürekçi, tırmıkçı vb 
+personel, finişeri takip ederek kaplama yüzeyinde istenilen özelliklerin temininde yardımcı 
+olacaktır.  
+Uygulama sırasında kalınlık kontrolü sürekli yapılarak projede öngörülen kalınlığın h ± 0,1h 
+toleransıyla sağlanacaktır.  
+Mastik asfalt kaplama boyuna ve enine ek yerleri belli olmayacak şekilde inşa edilecek ve yapım 
+sırasında ek yerleri geçirimsiz olacak şekilde uygun bir yapıştırıcı malzemeyle veya yüzeyi 
+doğrudan alev temasına maruz bırakmayan ısıtıcılar kullanılarak yapılacaktır.   
+Günlük çalışma sonunda tek şerit halinde serilmiş kısım bırakılmayacaktır. İkinci şerit serilmeden 
+önce birinci şeridin boyuna ve enine kenarları kontrol edilecek, kenarların dik olması ve mastik 
+asfalt tabakası kalınlığının projede belirtilen kalınlıkta olması sağlanacaktır. Bu amaçla mastik asfalt 
+karışımın serimi sırasında açık olan kenarlarda kalıp kullanılacaktır.     
+Serim uygun hava koşularında yapılacak olup, hava sıcaklığı minimum 10 °C ve mastik asfalt 
+karışımın serileceği yüzey en az 5 °C olacaktır. Çalışma ortamına ait minimum sıcaklık dahil diğer 
+tüm şartların sağlandığı rüzgârlı havalarda, Kontrol Mühendisliğinin izni ve denetimde rüzgâra karşı 
+tedbir alınmak kaydıyla mastik asfalt serimi yapılabilecektir.                            
+Mastik asfalt tabakasının nihai yüzey tabakası olarak kullanılacağı durumlarda, mastik asfalt 
+tabakasının üst yüzeyinde TS EN 13108-4 “Bitümlü Karışımlar – Malzeme Özellikleri – Bölüm 4: 
+Sıcak Karışım Asfalt” standardı ve Eki C’ deki esaslar ve şartlar ışığında İdarece uygun görülen ve 
+mastik asfalt dizayn raporunda malzeme ve yapım koşulları belirlenmiş olan, önceden bitümle 
+kaplanmış agrega ile chipping uygulaması yapılacaktır. Mastik asfalt sıcaklığı çevre sıcaklığına 
+erişinceye kadar kaplama trafiğe açılmayacak ve üzerinden araç geçirilmeyecektir. 
+ 
+--- SAYFA 806 ---
+
+ KISIM 421 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-421/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+421/8 
+421.06 Kalite Kontrol Çalışmaları   
+Yüklenici işe başlamadan önce; hazırlık aşaması, başlama aşaması ve üretim aşamasını da 
+kapsayacak şekilde Kalite Kontrol Yönergesine uygun olarak hazırlanacak ve deneye tabi tutulacak 
+imalat/malzemeler, yapılacak deneyler, numune alma yeri, numune alma metodu, numune alma ve 
+deney sıklığı, deneylerin hangi laboratuvarda yaptırılacağı gibi bilgileri içeren “Kalite Kontrol 
+Planı” nı idarenin onayına sunacaktır. Ayrıca işyerinde kalite kontrol ve laboratuvarda deneylerin 
+yapılmasında çalışacak personel iş deneyimleri, nitelikleri ve görev sorumlulukları bakımından 
+yeterli özelliklere sahip olacaktır. Yapılacak tüm testler İdare tarafından kabul edilmiş ve 
+onaylanmış Kalite Kontrol Planına göre gerçekleştirilecektir. Kalite Kontrol Planı İdare tarafından 
+onaylanmadan kesinlikle sözleşmeye esas işe başlanılmayacaktır.  
+Kalite Kontrol Planına göre yürütülecek olan kalite kontrol faaliyetlerinde, dizayn sürecinden, 
+üretimin sonuna kadar, mastik asfalt karışımında kullanılacak malzemelerin fiziksel ve mekanik 
+özelliklerinin tayini, karışım gradasyonu, bitümlü bağlayıcının türleri, miktar ve karışım oranları ile 
+plentte üretilen mastik asfalt karışımının dizayn şartlarının uygulamadaki etkinliği her aşamada ve 
+sürekli olarak kontrol edilerek güvence altına alınacaktır. Üretim tesislerinin yeterliliği ile stok 
+sahaları ve üretiminin yapılacağı tesisin yeterliliği kontrol edilecek, taşıma ve serim ekipmanlarının 
+(özel ısıtıcılı kamyonların ve finişlerin) yeterliliği de dahil tamamı İdarece uygun bulunmak ve onay 
+verilmek kaydıyla işe başlanılacaktır.  
+Mastik asfalt yapımı sırasında kullanılan agrega ve bitümlü bağlayıcı malzemelerini kontrol etmek 
+amacıyla yapılması gereken kalite kontrol deneyleri  Kısım 408 ile Kısım 412’  de belirtilen 
+minimum deney sayılarında ve sıklıklarında yapılacak olup, üretime ait kalite kontrol deneylerinin 
+minimum sayıları ve sıklıkları Tablo-421-8’ de verilmektedir.  
+          Tablo-421-8 Kalite Kontrol Deneyleri 
+Amacı  Deney Adı  Deney Sıklığı  Deney 
+Standardı 
+Mastik Asfalt 
+Karışımın Fiziksel 
+Özelliklerinin 
+Kontrolü         Çözünebilen Bitüm %’ 
+si,         Karışım 
+Gradasyonu          Min. her 100 ton’da ya 
+da                   Min. her 
+1000 m2’de (a) bir kez  TS EN 12697-1 
+AASHTO T 30 
+Mastik Asfalt 
+Karışımının Üretim 
+Kontrolü   Sertlik Sayısı    Min. her 100 ton’da ya 
+da               Min. her 
+1000 m2’de (a) iki küp  TS EN 12697-
+20 
+aHangisi önce sağlanırsa.  
+Bu şartname kapsamında bulunmayan diğer hususlar, ilgili kısımlarda belirtilen, tüm esaslara ve 
+şartlara uygun olacaktır. 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 807 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/1 
+422. ASFALT BORDÜR 
+422.01 Tanım 
+Bu kısım, kaldırım ve refüjleri yoldan ayırmak, yol yüzeyine gelen suları drenaj yapılarına aktarmak 
+(rögar, düşüm oluğu, hendek, hidrolik sanat yapısı vb.), şevlerde erozyonu azaltmak ve erişimi 
+kontrol etmek gibi amaçlarla, kırılmış ve elenmiş kaba agrega, ince agrega ve mineral fillerin belli 
+gradasyon limitleri arasında işyeri karışım formülü esaslarına uygun olarak bitümlü bağlayıcı ile bir 
+plentte karıştırılarak, bitümlü kaplamalar ile beton kaplamalar üzerine sıcak olarak ve projesinde 
+belirtilen plan, profil ve enkesitlere uygun olarak yerinde asfalt bordür yapılmasından bahseder. 
+422.02 Kapsam 
+Asfalt bordür karışımına giren kaba agrega, ince agrega ve mineral filler ile bitümlü malzemede 
+aranan özellikler, gradasyon limitleri, işyeri karışım formülünün esasları, inşa metodu, arazi ve 
+laboratuvar kontrolleri ve diğer şartlar bu şartnamede belirtilen esaslara uygun olacaktır.  
+422.03 Asfalt Bordür Tipleri 
+Asfalt bordürler çoğunlukla drenaj ve erozyonu azaltmak amaçlı kullanılacak olup onaylı projesinde 
+belirtilen bordür, bordür-otokorkuluk sistemlerine uygun olarak Şekil-422-1’de verilen detaylara 
+göre inşa edilecektir. Asfalt bordürler otokorkuluklar ile birlikte kullanıldığında, otokorkuluğun ön 
+yüzü ile aynı hizada veya daha gerisinde olacak şekilde inşa edilecektir. Asfalt bordürün yüksekliği 
+nihai kaplama yüzeyine göre 10 cm’den fazla olmayacaktır. 
+Asfalt bordür yapımında istenilen enkesit alanını ve pratik yoğunluğu elde edecek özellikte ve 
+kapasitede uygun bordür makinası kullanılacaktır. 
+ 
+Şekil-422-1 Asfalt Bordür Kesit Detayları  
+Asfalt bordür imalatlarında Şekil-422-1’de verilen kesti detaylarının haricinde, bordürün üzerine 
+inşa edileceği kaplamanın yüzey durumuna göre farklı yüksekliklere gerek duyulması hallerinde, 
+yeterli stabilite için gerekli taban genişliği/yükseklik oranının sağlanması şartıyla, özel tasarım asfalt 
+bordür kesitleri de İdarenin onayı ile kullanılabilecektir. 
+Asfalt bordürler, onaylı projesinde belirtilen plan, profil ve enkesitlere uygun olarak, asfalt betonu 
+aşınma tabakaları ve rijit üstyapı kaplamaları üzerine uygulanacaktır. 
+Asfalt bordürler Şekil-422-1’de verilen detaya göre İdarenin onayı ile binder tabakası üzerine de 
+uygulanabilecektir. Bu durumda aşınma tabakasının yapımı (serme, sıkıştırma vb.) sırasında asfalt 
+bordürün deforme olmaması için gerekli tüm tedbirler alınacaktır.    
+ 
+
+--- SAYFA 808 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/2 
+422.04 Malzemeler 
+422.04.01 Mineral Agrega ve Genel Özellikleri  
+Kaba agrega; kırma taş, veya kırılmış çakıl karışımlarından oluşacaktır. Karışım içindeki kırmataş 
+veya kırma çakıl temiz, sert, sağlam ve dayanıklı danelerden ibaret olacak, bütün malzemede kil 
+topakları, bitkisel maddeler ve diğer zararlı maddeler bulunmayacaktır. Agregada sülfat ve klorit ile 
+kurutma ve karıştırma sırasında veya sonradan hava etkisi ile kırılmaya yatkın olan ayrışma ürünü 
+diğer maddeler bulunmayacaktır. 
+Mineral agrega; kaba agrega, ince agrega ve mineral filleri içeren ve mineral filler hariç en az 2 ayrı 
+dane grubunun düzgün bir derecelenme verecek şekilde belli oranlarda karıştırılmasından 
+oluşacaktır. 
+Asfalt bordür karışımının agrega gradasyonu Tablo-422-1’de verilen gradasyon limitlerine 
+uyacaktır.  
+Tablo-422-1 Asfalt Bordür İçin Gradasyon Limitleri  
+Elek Boyutu 
+Geçen % 
+İnç, No mm  
+1/2" 12,5 100 
+3/8" 9,5 83 – 100 
+No.4 4,75 55 – 72 
+No.10 2,00 34 – 52 
+No.40 0,425 14 – 32 
+No.80 0,180 8 – 20 
+No.200 0,075 4 – 10 
+Kaba agrega için en çok 100 m3’de bir, ince agrega için en çok 50 m3’de bir elek analizi yapılacaktır. 
+Laboratuvar karışım dizaynına esas olacak çeşitli dane grubundaki malzemelerin ortalama elek 
+analizleri; konkasör ayarları tamamlanıp, sürekli çalışmaya başlandıktan sonra en az 10 adet elek 
+analizinin ortalaması alınarak hesaplanacaktır. Elek analizleri ASTM C-136, C-117’ye uygun olarak 
+yapılacaktır. 
+Kaba agrega, ince agrega ve mineral filler ihale yoluyla hazırlatılacaksa, agregalarla ilgili bütün 
+muayene ve deneyler şartnameye uygun olarak İdareye ait Bölge veya Merkez laboratuvarlarında 
+veya İdarenin uygun bulacağı tercihen akredite olmuş laboratuvarlarda yapılacaktır.  
+422.04.01.01 Kaba Agrega 
+Kaba agrega; agrega karışımının 4,75 mm’lik (No.4) elek üzerinde kalan kısmı olup, temiz, pürüzlü, 
+sağlam ve dayanıklı danelerden oluşacaktır. Kaba agrega içinde yumuşak ve dayanıksız parçalar, 
+kil, organik ve diğer zararlı maddeler serbest veya agrega danelerini sarmış halde bulunmayacaktır. 
+Karışıma giren kaba agrega, çakıldan hazırlanmış ise 4,75 mm’lik (No.4) elek üzerinde kalan 
+kısmının %100'ünün iki veya daha fazla yüzü mekanik olarak kırılmış olacaktır. 
+Kaba agrega yassılık indeksi, şartnamede verilen limitten fazla olmayacak, taneler kübik ve köşeli 
+olacaktır. 
+--- SAYFA 809 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/3 
+Agrega Kısım 403 EK-A’da verilen deney yöntemine göre test edildiğinde, soyulmaya karşı 
+mukavemeti en az % 60 olacaktır. Soyulmaya karşı mukavemeti % 60’dan az olan agregalar için, 
+İdarenin onayı ile bitümlü bağlayıcıya yapışma özelliğini artırıcı katkı maddeleri ilave 
+edilebilecektir. Soyulmaya karşı mukavemeti artırıcı katkı malzemesi Kısım 411’de belirtilen 
+koşulları sağlayacaktır.  
+Soyulma mukavemetini artırmak için kullanılacak katkı malzemesinin, cinsi ve miktarı 
+laboratuvarda yapılacak deney sonucunda tespit edilecektir. 
+Kaba agregada aranan fiziksel ve mekanik özellikler Tablo-422-2’de verilmektedir. 
+Tablo-422-2 Kaba Agreganın Fiziksel ve Mekanik Özellikleri  
+Deney  Şartname 
+Limitleri c Deney Standardı  
+Parçalanma Direnci (Los Angeles), % Kayıp ≤ 30 (LA 30) TS EN 1097-2 a 
+(AASHTO T 96) 
+Aşınma Direnci (Micro-Deval)b, % Kayıp ≤ 25 (M DE 25) TS EN 1097-1 
+Hava Tesirlerine Karşı Dayanıklılık,  
+(MgSO 4 ile kayıp), % ≤ 18 (MS 18) TS EN 1367-2 
+Kırılmışlık, ağırlıkça % 
+(Tüm yüzeyi kırılmış - tüm yüzeyi yuvarlak) ≥ 100 - ≤ 0 
+(C100/0) TS EN 933-5 
+Yassılık İndeksi, % ≤ 30 BS 812 
+≤ 20 (FI 20) TS EN 933-3 a 
+Su Emme, % ≤ 2,5 
+(WA 242,5) TS EN 1097-6 
+Soyulma Mukavemeti, % Bitümle Kaplı 
+Yüzey  
+(24 saat 60 °C suda bekletmeden sonra)   ≥ 60d   Kısım 403 EK-A 
+Kil Topakları ve Ufalanabilir Tane Oranı, % ≤ 0,5 ASTM C 142 
+AASHTO T 112 
+a Referans metot. 
+b İdare tarafından gerek duyulduğunda yapılacaktır. 
+c Parantez içindeki ifade, şartname değerinin TS EN 13043 ‘deki sınıfını gösterir. 
+d Modifiye bitümlü bağlayıcı kullanıldığı durumlarda soyulma mukavemeti değeri ≥ 
+80 olacaktır.  
+422.04.01.02 İnce Agrega 
+4,75 mm’lik (No.4) elekten geçip 0,075 mm’lik (No. 200) elek üzerinde kalan malzeme olarak 
+tanımlanan ince agrega, kırılmış taş, çakıl veya kum ile bunların karışımından oluşacaktır. 
+İnce agrega temiz, sağlam ve dayanıklı olacak, plastisite indeksi sonucu non-plastik olacaktır. 
+İnce agreganın özellikleri Tablo-422-3’de verilmektedir.  
+ 
+--- SAYFA 810 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/4 
+Tablo-422-3 İnce Agreganın Özellikleri 
+Deney  Şartname 
+Limitleri  Deney Standardı  
+Plastisite İndeksi % NP TS EN ISO 17892-12  
+AASHTO T 89 
+AASHTO T 90 
+Organik Madde, (% 3 NaOH ile)   Negatif TS EN 1744-1 
+Madde 15.1 
+Su Emme, % ≤ 2,5 (WA 242,5) TS EN 1097-6 
+Metilen Mavisi, g/kg  İnce agreganın 0/2 
+mm kısmına ≤ 3,5 (MB 3,5)  TS EN 933-9 
+422.04.01.03 Mineral Filler 
+Mineral filler; tamamı 0,425 mm (No. 40) elekten geçip, ağırlıkça en az % 70’i 0,075 mm (No.200) 
+elekten geçen malzeme olarak tanımlanır. 
+Kaba ve ince agreganın karışım gradasyonu 0,425 mm (No. 40) elekten geçen malzeme miktarı 
+yönünden yetersiz ise, agrega karışımına mineral filler ilave edilebilir. 
+Mineral filler; taş tozu, mermer tozu, sönmüş kireç veya benzeri maddelerden oluşacak; kil, toprak, 
+organik ve zararlı madde içermeyecektir. 
+Mineral filler non-plastik, kolayca akabilecek kadar kuru olacak ve içerisinde özellikle topaklar 
+bulunmayacaktır. Mineral filler aşağıda Tablo-422-4’de belirtilen gradasyon limitlerine uyacaktır. 
+Tablo-422-4 Mineral Fillerin Gradasyon Limitleri 
+Elek Boyutu Geçen % İnç, No mm 
+No.40 0,425 100 
+No.80 0,180 85 - 100 
+No.200 0,075 70 - 100 
+Mineral fillerin elek analizi AASHTO T 37 (ASTM D 546)’ya göre yapılacaktır. Agrega karışımına 
+ilave edilen mineral fillerin 0,075 mm (No.200) elek üzerinde kalan kısmı ince agrega olarak kabul 
+edilecektir. 
+422.04.02 Bitümlü Bağlayıcılar ve Genel Özellikleri 
+Asfalt bordür yapımı için agregaya ilave edilmek suretiyle hazırlanacak karışımda bitümlü bağlayıcı 
+olarak, bordür yapılacak kesimdeki BSK imalatlarında kullanılan TS EN 12591 “Bitümler ve 
+Bitümlü Bağlayıcılar -Kaplama Sınıfı Bitümler Özellikler” standardına uygun 40/60, 50/70 veya 
+70/100 penetrasyon sınıfı bitüm kullanılacaktır.  
+Bitümlü bağlayıcılardan TS EN 58, “Bitümlü Bağlayıcılar- Numune Alma” standardına göre 
+numune alınacak ve malzemenin şartnamesine uygun olup olmadığı tespit edilecektir. Bitümlü 
+malzemelere uygulanacak deneyler ve deney standartları ile şartname limitleri Kısım 412 “Bitümlü 
+Bağlayıcılar”da verilmektedir. 
+--- SAYFA 811 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/5 
+Karışımda soyulmaya karşı mukavemeti düşük olan agregalar kullanılması halinde, soyulma 
+mukavemetini artırıcı katkı maddeleri kullanılacak; katkı ilavesi servis tankında yapılacaktır. Servis 
+tankının ihtiva ettiği bitümlü bağlayıcının en az 3/4’ü, sirkülasyona veya karıştırma işlemine tabi 
+tutulmadan kesinlikle kullanılmayacaktır. Karıştırma işlemi karışım homojen oluncaya kadar devam 
+edecektir. Soyulma mukavetini artırıcı katkı maddesinin sıvı olması koşuluyla bitüm hattı, katkı 
+malzemesi hattı, statik mikseri ve kompresör sistemleri otomatik ya da manuel olan soyulma 
+önleyici katkı malzemesi dozajlama ve karıştırma ünitesi de kullanılabilecektir. 
+422.04.02.01 Yapıştırıcı Olarak Kullanılacak Bitümlü Malzemeler   
+Asfalt bordür için yapıştırıcı olarak, TS EN 13808, “Bitümler ve Bitümlü Bağlayıcılar-Katyonik 
+Bitüm Emülsiyonları Tanımlayıcı Çerçeve” standardına uygun C60B2-3, C60B2-4, C60B2-5, 
+C65B2-3, C65B2-4, C65B2-5 malzemelerinden biri kullanılacaktır. 
+Yapıştırıcı malzeme olarak kullanılacak bitümlü malzemelerden TS EN 58, “Bitümlü Bağlayıcılar-
+Numune Alma” standardına göre numune alınacak ve malzemenin şartnamesine uygun olup 
+olmadığı tespit edilecektir. Bitümlü malzemelere uygulanacak deneyler ve deney standartları ile 
+şartname limitleri Kısım 412, “Bitümlü Bağlayıcılar”da verilmektedir. 
+422.05 Karışımın Dizaynı ve İşyeri Karışım Formülü 
+422.05.01 Asfalt Bordür Dizaynı 
+İdare tarafından başka bir karışım dizayn yöntemi tayin edilmedikçe asfalt bordürünün karışım 
+dizaynı “Asphalt Institute MS-2” el kitabına göre Marshall metodu kullanılarak yapılacaktır.  
+Asfalt bordür karışımların dizaynında; Tablo-422-5’da verilen dizayn kriterleri esas alınacaktır. 
+Asfalt bordüründe kullanılacak her tür mineral agrega ve bitümlü bağlayıcı için gereken tüm 
+deneyler laboratuvar karışım dizaynı hazırlanmadan önce tamamlanmış olacaktır. Laboratuvar 
+karışım dizaynının hazırlanması için temsili ve yeterli miktardaki agrega ve bitümlü bağlayıcı 
+numuneleri Bölge veya Merkez laboratuvarına, karışım imalinin başlamasından en az 15 gün önce 
+10 günlük üretime ait elek analizi sonuçları ile birlikte teslim edilmiş olacaktır. 
+Karışım dizaynları İdarenin uygun bulması halinde işi yapan yüklenici laboratuvarında ya da özel 
+bir laboratuvarda (tercihen akredite) yapılabilecek ve hazırlanan dizayn İdare tarafından 
+onaylandıktan sonra kullanılabilecektir. Ancak dizaynın onaylanması için, dizayn raporu ile birlikte 
+dizaynda kullanılan agregalar, bitümlü bağlayıcı ve katkı malzemesi numuneleri gönderilerek, İdare 
+laboratuvarında önerilen optimum bitüm ve ± 0,5 bitüm yüzdelerinde briketler hazırlanarak ve 
+agrega ile bitümlü bağlayıcı özgül ağırlıkları belirlenerek dizayn değerleri kontrol edilecektir. 
+Karışım dizaynından kaynaklanan nedenlerden dolayı oluşan bozulmalardan yüklenici sorumlu 
+olacaktır. 
+Laboratuvar karışım dizaynında ve asfalt bordürü yapımında kullanılacak mineral agrega 
+karışımının granülometrisi asfalt bordür tabakası için Tablo-422-1’de, verilen gradasyon limitlerine 
+uygun olacaktır. Kullanılacak granülometrideki agrega karışımı, kabadan inceye doğru muntazam 
+bir derecelenme gösterecek ve herhangi bir elekte üst sınırda olan bir malzeme bunu takip eden 
+elekte alt sınırda seyretmeyecektir. 
+Laboratuvar karışım dizaynı onaylandıktan ve yazılı olarak bildirildikten sonra işyeri karışım 
+formülüne esas olacaktır. 
+ 
+ 
+ 
+--- SAYFA 812 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/6 
+Tablo-422-5 Asfalt Bordür Dizayn Kriterleri  
+Özellikler  Asfalt Bordür  Deney 
+Standardı Min. Maks. 
+Briket Yapımında Uygulanacak Darbe Sayısı 75 TS EN 12697-30      
+ASTM D 6926 
+Marshall Stabilitesi, kg 600 - TS EN 12697-34 
+ASTM D 6927 
+Boşluk, % 2 4 TS EN 12697-8 
+Asfaltla Dolu Boşluk, % 65 80 TS EN 12697-8 
+Agregalar Arası Boşluk, (VMA) % 14 16 TS EN 12697-8 
+Akma, mm (10-2 in) 2 (8) 4 (16) TS EN 12697-34 
+ASTM D 6927  
+Filler/Bitüm Oranı - 1,5  
+Bitüm (ağırlıkça, 100’e) 4 8 TS EN 12697-1 
+AASHTO T 164 
+Sıkıştırılmış Bitümlü Karışımların Sudan 
+Kaynaklanan Bozulmalara Karşı Direnci, İndirekt 
+Çekme Mukavemeti (İÇM) Oranı, min. % 80 AASHTO T 283 
+Sıkıştırılmış Bitümlü Karışımların Sudan 
+Kaynaklanan Bozulmalara Karşı Direnci, İndirekt 
+Çekme Mukavemeti (Koşullu-Koşulsuz) kg/cm2, 
+min. 5,0 AASHTO T 283 
+Laboratuvar karışım dizaynı onaylandıktan ve yazılı olarak bildirildikten sonra işyeri karışım 
+formülüne esas olacaktır. 
+Asfalt bordürü imalinde kullanılacak karışımın agrega gradasyonu, bitümlü bağlayıcı ile 
+karıştırılmadan önce ve sonra, Tablo-422-6’da  verilen tolerans sınırları içinde kalacaktır. Ayrıca 
+bitüm miktarı da Tablo-422-6’da belirtilen tolerans sınırları içinde kalacaktır. Tabloda verilen 
+tolerans değerleri laboratuvar deney sonuçları için verilmiş olup, imalat her durumda dizayn 
+değerlerine göre yapılacaktır. 
+Ancak üretimde herhangi bir nedenle; karışımın gradasyonu, alınan bütün önlemlere rağmen izin 
+verilen limitler dışında kalıyor ise veya agrega ocağından gelen değişiklikler dolayısı ile karışımın 
+özelliklerinde değişmeler olduğu saptanıyor ise, yeni bir laboratuvar karışım dizaynı hazırlanacaktır. 
+Tablo-422-6 Karışımın Tolerans Sınırları 
+Malzeme Toleranslar 
+4,75 mm (No.4) ve daha büyük eleklerden geçenler ± % 4 
+2,00 mm (No.10) - 0,180 (No.80) eleklerden  geçenler ± % 3 
+0,075 mm (No.200) eleği geçen ± % 2 
+Bitümlü Bağlayıcı*    ± % 0,2 
+*Bitümlü bağlayıcı için verilen tolerans değeri laboratuvar deney sonuçları için dikkate 
+alınacak olup, işyeri karışım formülü ve imalat her durumda dizaynda belirlenen optimum 
+bitüm değerine göre yapılacaktır. 
+--- SAYFA 813 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/7 
+422.05.02 İşyeri Karışım Formülü 
+İşyeri karışım formülü, laboratuvar karışım dizaynına göre plentte üretilen bitümlü sıcak karışımın 
+fiziksel özelliklerinin dizayn kriterlerine uygunluğunun tespitini kapsar. Her farklı karışım dizaynı 
+için, imalatın başlangıcında iş yeri karışım formülü hazırlanacaktır.  
+Plentte laboratuvar karışım dizaynına uygun olarak üretilen asfalt bordürü karışımı ile şantiye 
+laboratuvarında TS EN 12697-30’a uygun olarak en az 6 Marshall briketi hazırlanacaktır. Bu 
+Marshall briketleri Tablo-422-5’de belirtilen proje dizayn kriterlerini sağlayacaktır. Sağlamadığı 
+takdirde Kontrol Mühendisliği karışım dizaynının yeniden yapılmasını isteyecektir. 
+İşyeri karışım yoğunluğu tayini için, en az 6 Marshall briketi yoğunluğunun ortalaması alınacaktır. 
+Her bir biriketin yoğunluğu ile ortalama yoğunluk arasında karşılaştırma yapılacak ve farkı 
+0,015’den fazla değerler atılacak, ikiden fazla atılmış değer olmaması sağlanacaktır. Geride kalan 
+değerlerin ortalaması işyeri karışım yoğunluğu olarak belirlenecektir. İşyeri karışım formülü sonucu 
+bulunan yoğunluk değeri laboratuvar dizayn yoğunluk değerinin ± 0,020’si olacaktır. 
+İşyeri karışım formülünde, laboratuvar karışım dizaynı ile verilen gradasyon toleransları ve 
+optimum bitüm geçerli olacaktır. Karışım bu değerlerden farklı ise, bu karışımla hazırlanan briketler 
+dikkate alınmayacaktır. 
+422.06 Yapım Şartları 
+422.06.01 Genel  
+Mineral agrega ve bitümlü bağlayıcı işyeri karışım formülüne göre plentte karıştırılacaktır. Plent 
+asfalt bordür işini belirlenen zamanda bitirebilecek miktarda üretim yapabilecek kapasitede gerekli 
+donanım ve ekipman ile teçhiz edilmiş olacaktır. Plentten çıkan karışım homojen olacak ve içinde 
+karışmamış hiçbir tane bulunmayacaktır. Karıştırma işleminden önce bitüm ve agrega Tablo- 422-
+7’de belirtilen sıcaklıklara kadar ısıtılacaktır. 
+Tablo-422-7 Malzemelerin Karıştırma Sıcaklıkları  
+Bitümlü Bağlayıcı Bitüm  Agrega  
+Min. °C  Maks. °C  Min. °C  Maks. °C  
+40/60, 50/70 pen bitüm ile hazırlanan karışımlarda  145 160 150 165 
+70/100 pen bitüm ile hazırlanan karışımlarda 140 155 145 160 
+Agreganın sıcaklığı ile bitümün sıcaklığı arasındaki fark 15°C’den fazla olmayacaktır. 
+Plentten çıkan karışımın sıcaklığı; Tablo-422-8’de, asfalt bordür serim sıcaklıkları ise Tablo-422-
+9’da belirtildiği gibi olacaktır. 
+Asfalt bordürü yapımı genel olarak 01 Nisan-30 Kasım tarihleri arasında yapılacaktır. Özellik 
+gösteren yerlerde bu süre İdareden “Olur” alınarak uzatılabilecek veya kısaltılabilecektir.  
+Hava sıcaklığı gölgede ve herhangi bir suni ısıdan uzakta 5 ºC olduğu veya 5 ºC’nin altına düşmeğe 
+başladığı zaman; yağmur veya kar yağıyor iken veya yolun üzerinde su, buz veya kar mevcut iken 
+asfalt bordür yapılmayacaktır. 
+ 
+--- SAYFA 814 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/8 
+Tablo-422-8 Plentten Çıkan Karışımın Sıcaklığı 
+Hava Sıcaklığı (gölgede) °C  Karışım Sıcaklığı °C  
+ 5 ≤ °C ≤ 15 min. 150 
+15 < °C ≤ 30 min. 145 
+°C > 30 min. 140  
+Tablo-422-9 Karışımın Serim Sıcaklıkları 
+Yol Yüzeyi Sıcaklığı (°C)  Minimum Serim Sıcaklığı (°C)a 
+°C < 5 Serim yapılmamalıdır 
+5 ≤ °C < 15 135 
+°C ≥ 15 130 
+a Bordür finişerine boşaltma yapıldığı andaki sıcaklık. 
+422.06.02 Yolun Hazırlanması 
+Daha önceden inşa edilmiş yol, asfalt bordür inşaatı başlamadan önce mutlaka kontrol edilecektir. 
+Asfalt bordür yapılacak satıh toz, pislik, kil parçacıkları ve diğer yabancı maddelerden tamamen 
+temizleninceye kadar döner süpürgeler, diğer mekanik süpürgeler veya el süpürgeleri yardımı ile 
+süpürülerek, gerekirse yıkanarak temizlenecektir.  
+Asfalt bordür yapılacak yüzeyde hiçbir gevşek nokta bulunmayacaktır. Gevşek noktalar sökülecek, 
+serbest malzemeler temizlenerek dışarı atılacak ve usulüne uygun olarak sıcak karışımla 
+onarılacaktır. Yol yüzeyindeki küçük, büyük bütün çukurlar usulüne uygun olarak onarılacak, 
+tümsekler mutlaka giderilecektir. Satıhtaki kırılmalar, çatlaklar, ayrılmalar, derzler ve derz dolgu 
+malzemeleri usulüne uygun olarak onarılacaktır. 
+Satıhta kil, organik madde ve nebati toprak bulunmayacak, mevcut ise kazınarak atılacaktır. 
+Yukarıdaki şartlara uymayan yüzeyler üzerine asfalt bordür inşa edilmeyecektir. 
+422.06.03 Bitümlü Malzemenin Hazırlanması  
+İşyerinde, Kısım 422.02.01’de verilen şartlara uyan yeterli miktarda bitümlü malzeme 
+bulundurulacaktır. İşyeri bitümlü malzemeyi pompaj devresine kadar ısıtabilecek ve muhafaza 
+edebilecek tertibatla donatılmış olacaktır. Isıtma tertibatı yağlı sistem olacak ve her zaman 
+çalışabilecek, ısıtmayı homojen yapabilecek kapasite ve özellikte olacaktır. Bitümlü malzeme 
+tankları, bitümlü malzemeye su, kil ve diğer yabancı maddelerin girmesini önleyecek şekilde 
+olacaktır. Karıştırma işleminden önce bitüm Kısım 422.06.01’de belirtilen sıcaklıklara kadar 
+ısıtılacaktır. 
+422.06.04 Mineral Agreganın Hazırlanması  
+Kısım 422.04.01’de belirtilen şartlara uygun olarak hazırlanan agregalar plente yakın ve ayrı ayrı 
+dane grupları halinde depo edilecektir. Dane gruplarının birbirine karışması mutlaka önlenecek, her 
+dane grubunun üzerine boyutlarını belirten levhalar konacaktır. Agrega depolarına kil, toprak ve 
+diğer bütün zararlı maddelerin karışması önlenecektir. Agrega depolaması segregasyona sebebiyet 
+vermeyecek şekilde olacaktır. 
+Plentin soğuk besleme depolarındaki malzemenin aşırı rutubetli olmaması sağlanacaktır. İşyeri 
+karışım formülüne esas olan her dane grubu malzeme ayrı ayrı soğuk besleme silolarına 
+konulacaktır. Soğuk besleme siloları, işyeri karışım formülünde seçilmiş granülometriyi veren 
+--- SAYFA 815 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/9 
+oranlara göre, agreganın kurutucuya geçmesini sağlayacak şekilde ayarlanacaktır. Agregalar 
+kurutucuda, karıştırıcıya geldiklerinde Kısım 422.06.01’de belirtilen karıştırma sıcaklığını 
+sağlayacak biçimde kurutulacak, kurutulmuş agregadaki nem oranı % 0,5’den fazla olmayacaktır. 
+Eleme ve sıcak silo sistemi olan plentlerde, agrega en az 2 dane grubu halinde elenerek sıcak silolara 
+nakledilecektir. Her gün sıcak silolardan numune alınarak gradasyon ve sıcak silo oranları kontrol 
+edilecektir. 
+422.06.05 Karıştırma  
+Agrega doğru ve hassas bir biçimde tartılıp, işyeri karışım formülünde verilen granülometriyi 
+sağlayacak miktarlarda karıştırıcıya nakledilecektir. Bitüm dizaynda belirtilen miktara uygun olarak 
+ilave edilecektir. 
+Plentte karıştırma süresi, agrega tanelerinin tam ve üniform bir biçimde bitümle sarılmış olması ve 
+homojen bir karışım elde edilmesi koşulu ile, plentin ve kullanılan agreganın tipine bağlı olarak 
+Kontrol Mühendisliği tarafından tayin edilecektir.  
+İşyeri karışım formülüne göre hazırlanmış karışımın fiziksel özelliklerini tayin etmek amacı ile 
+plentten çıkan üretime ait karışımdan günde en az 1 kez numune alınacak ve bu numunelerle 
+bekletilmeksizin şantiye laboratuvarında en az 3’er adet Marshall briketi hazırlanacaktır. Bu 
+briketler fiziksel özellikler yönünden Tablo-422-5’da belirtilen dizayn kriterlerini sağlayacaktır. 
+Agreganın ve bitümlü bağlayıcının aşırı ısıtılmasına, fazla ısıtılmış ve yanmış karışımların yola 
+serilmesine kesinlikle izin verilmeyecektir. 
+422.06.06 Bitümlü Yapıştırıcı Malzemesinin Uygulanması 
+Yapıştırıcı malzeme Kısım 422.04.02.01 ’de belirtilen özelliklere uygun olacaktır. 
+Yapıştırıcı malzeme uygulanmadan önce yolun yüzeyi; Kısım  422.06.02’de belirtildiği şekilde 
+hazırlanacaktır. Yol yüzeyinin temizlenmesi, serme genişliğinden 0,3 m fazla yapılacaktır.  
+Yapıştırıcı, hangi araç ve gereçle serilirse serilsin, malzeme yüzeye düzgün ve homojen bir şekilde 
+ve 0,15-0,50 l/m2 olacak miktarda uygulanacaktır. Yüzeyin durumuna göre uygulanacak yapıştırıcı 
+malzemenin kesin miktarı Kontrol Mühendisliği tarafından saptanacaktır. Yola dökülen 
+malzemenin bu saptanan miktara uyup uymadığı arazide ölçülecektir.  
+Bitümlü bağlayıcının düzgün olmayan yüzey dolayısı ile göllenmesine, fazla püskürtme veya 
+püskürtme yapılırken meydana gelebilecek akma ve damlamalar dolayısı ile bazı yerlerde aşırı 
+bitümlü malzeme birikmesine izin verilmeyecektir. Böyle yerler kazınarak temizlenecektir. 
+Yapıştırma tabakasının günlük uygulaması, aynı gün yapılacağı planlanan asfalt bordür uzunluğu 
+kadar olacaktır. Püskürtülen yapıştırıcının tozlanması, kirlenmesi ve sıyrılmasını engellemek için 
+gerekli önlemler alınacaktır.  
+Yapıştırıcı olarak kullanılacak bitümlü malzemelerin püskürtme sıcaklıkları Tablo-422-10’de 
+belirtildiği gibi olacaktır. 
+Tablo-422-10 Yapıştırıcı Olarak Kullanılacak Bitümlü Malzemelerin Püskürtme Sıcaklıkları 
+Bitümlü Malzeme  Püskürtme Sıcaklıkları °C  
+C60B2-3, C60B2-4, C60B2-5 40 - 80 
+C65B2-3, C65B2-4, C65B2-5 50 - 85 
+--- SAYFA 816 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/10 
+Yapıştırma tabakası olarak kullanılan bitüm emülsiyonun içerisindeki suyun buharlaşması için 
+asfalt bordür serilmeden önce yeterli süre geçmelidir. Asfalt bordür serilmeden önce yapıştırma 
+tabakasının yüzeyinden herhangi bir makine veya araç geçişine izin verilmeyecektir. 
+422.06.07 Karışımın Taşınması 
+Asfalt bordür karışımının taşınmasında kullanılan araçlar temiz, muhafazalı, damper kasası düz ve 
+madeni olacaktır. Karışımın nakli yapılmadan önce araçların damper kasaları yapışmayı önleyecek 
+ince bir yağla yağlanacak veya tabana uygun bir malzeme konulacaktır. Kullanılacak yağlama 
+maddesi karışımı ayrıştırmayacağı gibi herhangi fiziksel ve kimyasal etkisi de olmayacaktır. 
+Karışımın araçlara doldurulması ve nakli sırasında segregasyon olmaması için özen gösterilecektir. 
+Karışım, aşırı sıcaklık düşüşünü önlemek ve olumsuz hava koşullarına karşı koruma sağlamak için 
+uygun şekilde yalıtılmış araçlarla sahaya taşınacaktır. Karışım naklinde kullanılan araçlar brandalı 
+örtü tertibatına sahip olacaktır. 
+Eğer Kontrol Mühendisliği tarafından ışıklandırma yeterli görülmezse gece çalışması yapılmayacak 
+ve karışım işyerine ancak gün ışığında serilecek miktarda sevk edilecektir. 
+422.06.08 Karışımın Serilmesi 
+Karışımın serileceği yüzeyin durumu Kısım 422.06.02’de belirtildiği şekilde hazırlanmış olacaktır. 
+Serme işlemi bordür makinesi ile yolun plan, profil ve enkesitlerine uygun olacak şekilde 
+yapılacaktır. Serme işlemi mümkün olduğu kadar sürekli olacak ve gerekli sıkışmayı elde edecek 
+şekilde serim sırasında sericinin hızı sabit tutulacaktır.  
+Çalışma bitiminde veya karışımın makine içinde soğumasına neden olacak bir gecikme meydana 
+geldiğinde, makine; yeni imalata başlamadan önce veya gün sonunda üzerine yapışan veya soğuyan 
+malzemelerden tamamen arındırılacaktır.  
+Asfalt bordür makinesi, malzeme bekleme esnasında çalışır durumda tutulmayacaktır. Asfalt bordür 
+makinesinin çalışmadığı durumlarda; yeterli sıkışmayı elde edecek malzeme sıcaklığından daha 
+düşük sıcaklıkların oluşmasına, profilde kaymalara ve bozulmalara neden olabileceğinden, karışım 
+malzemesinin haznede kalmasına izin verilmeyecektir. Asfalt bordür makinesi bulunduğu eksenden 
+sapmayacak şekilde besleme yapılacaktır.  
+Yeterli sayıda tecrübeli personel, bordür makinesini takip ederek asfalt bordür imalatında istenilen 
+şartların sağlanmasına yardımcı olacaktır.  
+Karışım sıcaklıkları, yeterli karıştırma ve sıkıştırmayı sağlamak için yeterince yüksek olacak, ancak 
+asfalt hasarına veya bordür dayanıksızlığına neden olacak kadar yüksek olmayacaktır. 
+Asfalt bordürlerin yerleştirilmesi, sıkıştırılması ve bitirilmesi, İdare tarafından onaylanan tipte bir 
+asfalt bordür makinesi kullanılarak yapılacaktır. Bitümlü karışım yalnızca, yapıştırıcı malzemenin 
+tam olarak kürlendiği kuru ve temiz bir yüzeye ve İdare tarafından kabul edilebilir hava koşullarında 
+serilecektir. 
+Asfalt bordür, minimum sayıda ekyeri (derz) ile tek yönde sürekli, tek aşamalı bir işlemle 
+yerleştirilecektir. Derz yapılmasının gerekli olduğu durumlarda bordür imalatındaki derz yerleri 
+ayırt edilemeyecek şekilde inşa edilecektir. Soğuk derz yerlerinde yapıştırıcı sürülmeden yeni asfalt 
+bordür imalatına başlanmayacaktır. 
+Asfalt bordür, minimum sayıda ek yeri (derz) ile tek yönde sürekli, tek aşamalı bir işlemle 
+yerleştirilecektir. Derz yapılmasının gerekli olduğu durumlarda bordür imalatındaki derz yerleri 
+ayırt edilemeyecek şekilde inşa edilecektir. Soğuk derz yerlerinde yapıştırıcı sürülmeden yeni asfalt 
+bordür imalatına başlanmayacaktır. 
+--- SAYFA 817 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/11 
+Bitmiş asfalt bordür, projesinde belirtilen veya İdarece istenilen kot, eğim ve doğrultuda, uygun 
+ebatlarda ve istenilen yoğunlukta sıkıştırılmış, üniform bir yüzey dokusuna sahip olacaktır.  
+Yüzeyinde segregasyon, çatlak ve sökülme tarzı kusurlar ve düzensizlikler bulunmayacaktır. 
+Kullanılacak bordür makinası bitümlü karışımı serim sırasında segregasyona uğratmayacaktır. 
+Düzgün ve kaliteli işçilik ile sıkıştırılmış haldeki asfalt bordür kesit, kot, eğim ve doğrultu 
+bakımından şartname ve proje gerekliliklerini sağlayacaktır. Serilen karışım, iş yeri karışım 
+formülünde verilen kompozisyona uygun olacak ve her gün serim sırasında en az bir kez temsili 
+numune alınarak kontrol edilecektir. Bu amaçla numuneye ASTM D 2172 (AASHTO T 164) 
+“Bitümlü Kaplama Karışımlarında Bitüm Miktarı Tayini (Ekstraksiyon)” ve AASHTO T 30 
+“Ekstrakte Edilmiş Agreganın Gradasyonunun Tayini” deneyleri uygulanacaktır. 
+Karışım, projesine uygun şekilde, kesit, kot ve eğimde uygun bir referans sistemi ile (gerili çelik tel 
+sistemi ya da offset hattı çekilmesi vb.) serilecektir. Yüklenici tarafından kurulan referans sistemi 
+Kontrol Mühendisliği tarafından uygun görüldüğünde serme işlemine başlanacaktır. 
+Asfalt bordürlerinin yapım sırasında çevre ve hava koşulları ile diğer başka dış etkenlerle hasar 
+görmesini engellemek amacıyla yüklenici tarafından gerekli tedbirler alınacaktır. Asfalt bordürleri 
+çevre sıcaklık değerlerine erişinceye kadar (min. 12 saat) trafik etkilerinden korunacaktır. 
+Asfalt bordürlerin arkasına dolgu yapılması durumunda, geri dolgu malzemesi granüler olacak, 
+azami 150 mm kalınlığında katmanlar ile oluşturulacak ve bordürün en üst noktasından 50 mm 
+aşağıda olacak şekilde pürüzsüz ve yeterli oranda sıkışmış olacaktır. 
+422.06.09 Deneme Kesimi  
+Projesinde belirtilen asfalt bordürün kesitine uygun olarak, stabilitesini, yüzey dokusunu ve 
+görünümünü sağlamak, bitümlü karışımın, bordür makinasının, gerekli ekipman ve yapım 
+yönteminin uygunluğunun belirlenmesi amacı ile işyeri karışım formülüne göre, en az 100 m 
+deneme kesimi inşa edilecektir.  
+Asfalt bordür makinesinin; bitümlü karışımı sıkıştırma derecesi, düzgün yüzey ve doğru kesit 
+boyutlarında serim yapabilme kalitesi ile boyuna hizalama ve hat boyunca diğer proje gereklerini 
+yerine getirebilme kabiliyeti deneme kesimi ile kontrol edilecektir. 
+Deneme kesiminin inşa edileceği yer Kontrol Mühendisliği tarafından seçilecek ve yapımı Kontrol 
+Mühendisliği tarafından yönetilecektir. Eğer şartnamede verilen değerlere uygun sonuç alınmışsa 
+deneme kesimi yerinde kalacak ve bütün işin bir parçası olacaktır. 
+Eğer bordür makinesi ile uygulanan sıkışma yöntemi ile istenilen arazi yoğunluğu elde edilememiş 
+ise, sıkışma yöntemi ayarlanarak yeniden deneme kesimi yapılacak ve uygun sonuçlar elde 
+edilinceye kadar devam edilecektir. İstenilen sıkışmayı veren yöntem ve makineler asfalt bordürü 
+yapımında aynen kullanılacaktır. 
+Laboratuvar karışım dizaynında değişiklik yapıldığında Kontrol Mühendisliği yeni deneme kesimi 
+yapımını isteyecektir. 
+422.06.10 Ek Yerlerinin Yapılması 
+Koşullar gerektirmedikçe ek yeri yapılmayacak ve serim sürekli bir işlem olarak uygulanacaktır. 
+Günlük çalışmaya bağlı inşaat derzleri, hattaki değişimlerden kaynaklı derzler veya bakım/onarım 
+kapsamında derzler yapılması durumunda asfalt bordür yüzeyi dikey bir şekilde kesilecek, gevşemiş 
+ve serbest malzeme temizlenecek, kesit yüzeyine uygun yapıştırıcı uygulanacaktır. Gerektiğinde ek 
+yerlerinin daha iyi yapılması için ısıtma tertibatı ile birleştirme yüzeyi ısıtılacaktır.  
+--- SAYFA 818 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/12 
+Ek yerleri serimden sonra belli olmayacak şekilde inşa edilecek, ek yerlerinin geçirimsiz, düzgün 
+ve pürüzsüz olması için kalifiye işçi kullanılacaktır. Kontrol Mühendisliğinin gerekli görmesi 
+halinde daha iyi aderans sağlamak amacıyla asfalt bordür tabakasının enine ek yerlerinde 70-100 
+mm genişliğinde Kısım 415’e uygun malzeme uygulaması yapılacaktır. 
+Asfalt bordürlerin beton kaplamalar üzerine yapılacak uygulamalarında, kaplama üzerindeki derz 
+yerlerine denk gelen noktalarda asfalt bordürde de uygun ekipmanlarla derz açılması 
+gerekebilecektir. 
+422.06.11 Bakım ve Onarımlar  
+Asfalt bordürlerde bakım ve onarım amacıyla yapılacak çalışmalarda, hasarlı bölümün sökülmesi 
+veya mevcut bordürün kaldırılması durumunda, yeni asfalt bordür ile mevcut yüzey kaplaması 
+arasında, 422.04.02.01 ve 422.06.06’ya uygun yapıştırıcı kullanılarak bir bağ oluşturulacaktır. 
+Bakım ve onarım kapsamında yapılacak çalışmalarda mevcut asfalt bordür yüzeyi dikey bir şekilde 
+kesilecek, gevşemiş ve serbest malzeme temizlenecek, yeni yapılacak asfalt bordür ile mevcut 
+bordür arasındaki derzler uygun bir yapıştırıcı malzeme kullanılarak kapatılacak veya alternatif 
+olarak mevcut kesit yüzeyi hafifçe ısıtılacaktır. Kapsamlı veya uzun tülde onarımlar ya da yeniden 
+yapımın gerekli olması durumunda, yeni bölümlerin serimin de asfalt bordür makinesi 
+kullanılacaktır.  
+Asfalt bordür bakım onarımı yapılacak kesimlerde otokorkuluk imalatı veya tamiratı da yapılması 
+durumunda, imalat sırasının ve yapım şartlarının asfalt bordüre zarar vermeyecek şekilde 
+planlanması gerekmektedir. 
+Bordür makinesinin erişemeyeceği alanlarda, bakım/onarım amaçlı lokal veya kısa çalışmalarda 
+malzeme, asfalt bordürün istenen kalıbına veya kesitine göre uygun formlarda elle 
+yerleştirilebilecektir. El ile yerleştirilen malzeme, enine kesit hizalamasında ve eğiminde mevcut 
+bordür ile uyumlu olması için düzgün bir şekilde yerinde sıkıştırılacaktır. Projesine ve mevcut 
+bordüre uyumlu olarak el ile uygun şekilde yerleştirilemeyen kısımlar kaldırılarak yeniden inşa 
+edilecektir. 
+422.06.12 Asfalt Bordür Boyut Uygunluk Kriterleri  
+Asfalt bordür onaylı plan, profil ve kesitine göre boyutlar yönünden Tablo-422-11’de verilen 
+toleranslara uygun olmalıdır. 
+Tablo-422-11 Asfalt Bordür Boyut Yönünden Uygunluk Kriterleri 
+Ölçüm Sayısı Asfalt bordür anma boyutlarında izin verilen sapmalar  
+(1000 mm uzunluk için) 
+Her 100 m’de en az bir 
+kez veya 100 m’den kısa 
+ve birbirinden bağımsız 
+her kesim için en az bir 
+kez Asfalt bordür kalıbının veya enine kesitinin sapma toleransı her kenar 
+için ± 3 mm’den fazla olmayacaktır. 
+Asfalt bordür üst kotu ile bordür proje kotu arasında ± 3 mm’den 
+fazla fark olmayacaktır. 
+Asfalt bordürün 1m’lik uzunluğunda ki bir yüzeyi üzerinde yapılan 
+herhangi iki ölçüm arasında ±5 mm’den fazla fark olmayacaktır. 
+Düzlemden veya doğrultudan sapma toleransı herhangi bir noktada 
+10 m’de ±10 mm’den veya düz bir doğrultuda 3 m’de ±3 mm’den 
+fazla olmayacaktır. 
+--- SAYFA 819 ---
+
+ KISIM 422 
+   
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-422/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+422/13 
+422.07 Kalite Kontrol Çalışmaları   
+Asfalt bordürü yapımı sırasında kullanılan malzemeleri, imalatı ve oluşturulan kesiti kontrol etmek 
+amacıyla belirli aralıklarla yapılması gereken kalite kontrol deneyleri, minimum deney sayıları ve 
+sıklığı aşağıda Tablo-422-12’de verilmektedir.  
+            Tablo-422-12 Kalite Kontrol Deneyleri 
+Amacı Deney Adı Deney Sıklığı Deney Standardı 
+Dizayn için 
+agrega üretilmesi Elek Analizi 
+(Yaş metot) Kaba ve orta agrega 
+için 1000 m ’de bir, 
+İnce agrega için 
+500 m ’de bir. ASTM C 136 
+ASTM C 117 
+(TS EN 933-1) 
+Konkasörde agrega 
+üretiminin kontrolü Elek Analizi 
+(Yaş metot) min. günde bir kez ASTM C 136 
+ASTM C 117 
+(TS EN 933-1) 
+Sıcak silo 
+gradasyon kontrolü Elek Analizi 
+(Yaş metot) min. günde bir kez ASTM C 136 
+ASTM C 117 
+(TS EN 933-1) 
+Karışımın fiziksel 
+özelliklerinin 
+kontrolü Bitüm yüzdesi, 
+Briket hazırlama, 
+Briket özgül 
+ağırlığı, 
+Stabilite, Akma ve 
+Vh, Vf, VMA 
+hesapları min. günde bir kez AASHTO T 164  
+AASHTO T 30 
+ASTM D 2726 
+(TS EN 12697-
+1/6/8/30/34) 
+Segregasyon olup 
+olmadığının tespiti Bitüm %’si ve 
+Gradasyon min. günde bir kez AASHTO T 164 
+AASHTO T 30 
+(TS EN 12697-1) 
+Asfalt Bordür Kesit 
+ve Kot Kontrolü  Her 100 m’de en az 
+bir kez veya 100 
+m’den kısa ve 
+birbirinden bağımsız 
+her kesim için en az 
+bir kez  
+ 
+ 
+ 
+--- SAYFA 820 ---
+
+ KISIM 423 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-423/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+423/1 
+423.  ÇELİKHANE CÜRUFUNUN BİTÜMLÜ KARIŞIMLARDA YAPAY AGREGA 
+OLARAK KULLANIMI  
+423.01. Tanım  
+Bu kısım, elektrik ark ocaklı (EAF) üretim tesislerinde, çelik üretimi sırasında elektrik ark 
+ocaklarından yüksek sıcaklıkta (>1550 oC) sıvı halde çıkan, deşarj edildikten sonra üretim tesisinin 
+durumuna göre su içerisinde  ya da üzerine su püskürtülerek soğutma işlemi ve gerekli ek 
+koşullandırmalarla genleşme potansiyeli hacimce %3,5’in altına düşürülmüş ve bünyesinde 
+ağırlıkça metalik demir ve çelik miktarı %0,5’in altında olacak şekilde geri kazanılmış çelikhane 
+EAF cürufundan; önce eleme, sonra kırma ve tekrar eleme işlemi ile farklı dane boyutlarında 
+sınıflandırılarak üretilmiş tamamı yapay agrega ya da yapay agrega ile mineral agrega karışımı ve 
+ilave mineral filler kullanılarak yapılacak olan bitümlü temel, asfalt betonu binder, asfalt betonu 
+aşınma ve taş mastik aşınma tabakalarından bahseder.   
+Yüksek sıcaklıklardaki EAF cürufunun soğutma ve koşullandırma işlemleri, üretim tesisinin 
+imkanları ile bu şartnamede aranan zorunluluklar doğrultusunda tesis edilecektir. 
+Su püskürtülerek soğutma işlemi; sıcak cüruf ocaktan boşaltıldığında uygun taşıma koşullarının 
+oluşması için uygulanmakta olup, soğutulan cüruf, stok sahasına yönlendirilmeli ve burada 
+genleşme şartı olarak tanımlanan %3,5 değerinin altına düşene kadar atmosfere açık ortamda 
+bekletilmeli, ilave   su püskürtme ile de CaO ve MgO gibi genleşme potansiyeli olan bileşenlerin 
+hidratasyonu desteklenmelidir. Su püskürtülerek yapılacak soğutma işlemi sonrasında cürufun stok 
+sahasındaki koşullandırma süresi minimum 3 ay olacaktır.  
+Su içerisinde soğutma işlemi; ani soğutma olarak da tanımlanmakta olup, elektrik ark ocağından 
+çıkan sıvı cürufun (sıcaklığı >1550 oC), 600 ila 800 oC’ ye kadar soğuması beklendikten sonra su 
+havuzuna dökülmesi ile gerçekleştirilmektedir. Soğutulan cüruf, stok sahasına yönlendirilmeli ve 
+burada genleşme şartı olarak tanımlanan %3,5 değerinin altına düşene kadar atmosfere açık ortamda 
+bekletilmeli, ilave su püskürtme işlemi ile de CaO ve MgO gibi genleşme potansiyeli olan 
+bileşenlerin hidratasyonu desteklenmelidir. Ani soğutma işlemi sonrasında cürufun stok sahasında 
+koşullandırma süresi minimum 1 ay olacaktır.  
+423.02 Kapsam 
+Bünyesinde çelikhane EAF cürufundan elde edilmiş yapay agrega bulunan bitümlü temel, asfalt 
+betonu binder, asfalt betonu aşınma ve taş mastik aşınma karışımlarına girecek çelikhane EAF 
+cürufundan üretilmiş yapay agrega, doğal kaynaklardan elde edilmiş mineral agrega ve mineral filler 
+ile bitümlü malzeme özellikleri, gradasyon limitleri, işyeri karışım formülünün esasları, inşa 
+metodu, arazi ve laboratuvar kontrolleri ile diğer şartlar bu şartnamede verilen esaslara uygun 
+olacaktır. 
+423.03 Malzemeler 
+423.03.01 Yapay Agrega, Mineral Agrega ve Genel Özellikleri 
+Bitümlü temel, asfalt betonu binder, asfalt betonu aşınma ve taş mastik aşınma karışımlarına giren 
+agrega; elektrik ark ocaklarında (EAF) çelik üretimi sonucu ortaya çıkan EAF cürufundan, önce 
+eleme, sonra kırma ve kırıldıktan sonra tekrar eleme işlemleriyle üretilmiş olan, tamamı yapay 
+agrega karışımından ya da yapay agrega ile birlikte doğal kırma taşın veya kırılmış çakılın 
+karışımından ibaret olacaktır.  
+Karışım içerisindeki EAF cürufundan üretilmiş yapay agregalar bu şartnamede aranan özelliklerinin 
+yanında, kırma taş veya kırılmış çakıl malzemeler gibi, yapılacak bitümlü karışım tabakasına ait 
+Kısım 406 “Bitümlü Temel” , Kısım 407 “Asfalt Betonu Binder ve Aşınma Tabakaları” , Kısım 408 

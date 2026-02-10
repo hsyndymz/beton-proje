@@ -1,0 +1,10 @@
+Sayfa 718:
+  Sıkıştırılmış tabaka kalınlığı TMA Aşınma Tip-1 için 35-50 mm, TMA Aşınma Tip-2 için 25-40
+Sayfa 719:
+  ölçülen doku derinliği, TMA Aşınma Tip-1 için 1,0 mm’den ve TMA Aşınma Tip-2 için 0,80
+Sayfa 781:
+  Sıkıştırılmış tabaka kalınlığı Tip-1, Tip-2 ve Tip-3 için 50-60 mm, Tip-4 için 40-50 mm olacaktır.
+Sayfa 821:
+  Tabakaları”nda belirtilen Tip-1 gradasyonu haricinde, bünyesinde çelikhane EAF cürufundan
+  Tabakaları”nda belirtilen Tip-1 gradasyon limitleri yerine Tablo-423-1’de verilen gradasyon
+  Tablo-423-1 Kaba ve İnce Yapay Agregalı AB Aşınma Tabakası İçin Tip-1 Gradasyon

@@ -4,6 +4,7 @@ TS_STANDARDS_CONTEXT = """
 AŞAĞIDAKİ STANDARTLARI TİTİZLİKLE UYGULA VE REFERANS VER:
 
 1. Genel Beton ve Uygulama Standartları
+KTŞ 2023: Karayolları Teknik Şartnamesi (Kısım 308 - Beton İşleri).
 TS EN 206-1: Beton - Bölüm 1: Özellik, performans, imalat ve uygunluk.
 TS 802: Beton karışım tasarımı hesap esasları.
 TS 500: Betonarme yapıların tasarım ve yapım kuralları.

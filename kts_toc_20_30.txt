@@ -1,0 +1,465 @@
+--- SAYFA 20 ---
+
+ KISIM 101 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-101/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.   
+101/6 
+Kenar Dikmesi: Yol doğrultusunu ve kenarlarını göstermek üzere, yol kenarlarına belirli aralıklarla 
+yerleştirilen elemandır. 
+Kenar Hendeği: Yol yüzeyi ve yakınından gelen yüzeysel suların toplanıp yol boyunca aktığı 
+kısımdır. 
+Kesilme:  Bitüm kürecikleri etrafındaki yüklerin muhtelif yollarla kaybolması ve dolayısıyla 
+küreciklerin yan yana gelerek bir bitüm filmi meydana getirmesidir. 
+Kırmızı Kot:  Karayolu güzergâhı üzerindeki herhangi bir noktanın bitmiş yol kaplama üst kotudur. 
+Kontrol Mühendisliği / Yapı Denetim Görevlisi: İdare tarafından, işlerin kontrol ve denetimi için 
+görevlendirilecek bir memur veya bir heyet ve/veya İdare dışından bu işleri yapmak üzere 
+görevlendirilecek gerçek veya tüzel kişi veya kişiler.   
+Köprü: Akarsu, kanal, durgun su ve vadi gibi açıklıkları üstten birbirine bağlayan veya trafik 
+akımının başka bir trafik akımını kesmeden üstten veya alttan geçmesini sağlayan hesap açıklığı 10 
+m ve üzerindeki viyadük, altgeçit, üstgeçit ve benzeri mühendislik yapısıdır.  
+Köprü Altyapısı: Köprünün üstyapısı altında kalan ayak ve temel kısımlarıdır.  
+Köprülü Kavşak (Farklı Seviyeli Kavşak): İki veya daha fazla yolun hareket halindeki trafiği 
+etkilemeden farklı düzlemde kavşak köprüsü ile meydana getirilmiş bağlantı yolu sistemi. 
+Köprü Üstyapısı: Köprünün mesnet ve ayakları üstünde kalan kısmıdır.  
+Kurp (Yatay ve Düşey Kurp): Proje yatay ve düşey hattındaki doğrusal kesimleri birleştiren 
+eğrisel veya dairesel karayolu kesimidir.  
+Laboratuvar: Deneylerin ve ölçümlerin kontrollü bir şekilde yapılabilmesine olanak veren tesistir. 
+Malç: Tohumun yetişmesi için saman, su, toprak vb. karışım malzemesi. Tohum yastık malzemesi. 
+Memba: Suyun sanat yapısına geldiği kısımdır. 
+Mansap: Akış aşağı, suyun sanat yapılarından çıktığı kısımdır. 
+Marshall Deneyi: Standartlara uygun olarak hazırlanmış bitümlü karışım deney numunelerine 
+uygulanan bir stabilite deneyidir.  
+Menfez: İnşası yapılacak yol yapısı ile akım çizgileri kesilen mecra, dere ve akarsulardaki akışı 
+uygun şekilde devam ettirmek ve mücavir alanlardan yola gelecek her türlü suyu, yolun işletme 
+süresi boyunca yerine getireceği fonksiyonu zedelemeyecek şekilde yoldan geçirerek uzaklaştırmak 
+ve/veya taşıt, yaya ve hayvan geçişleri için inşa edilen ve açıklığı 10 m’ye kadar olan sanat yapısıdır. 
+Mıcır: Eş boyutlu, kırılmış, köşeli taş malzeme 
+Modifiye Bitüm: Üretim sırasında bir ya da daha fazla kimyasal katkı kullanılarak, reolojik 
+özellikleri iyileştirilen bitüm. 
+Moloz Taş: Doğrudan doğruya ocaktan çıktığı şekliyle kullanılan veya yalnızca yatak yüzleri 
+mümkün olduğu ölçüde çekiçle düzeltilerek kullanılan taştır. 
+Nivelman:  Noktalar arasındaki yükseklik farkının belirlenmesi. 
+Normal Performanslı (NP) Reflektif Malzeme: Yapısında  yansıtıcı eleman olarak cam  kürecik 
+kullanılarak yapılan geri yansıtıcı folyolardır. 
+--- SAYFA 21 ---
+
+ KISIM 101 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-101/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.   
+101/7 
+Otokorkuluk: Karayollarında, trafiğin güvenle seyrini sağlamak amacı ile yolun tamamına veya 
+belirli kesimlerine konan ayırıcı ve koruyucu malzemelerdir. 
+Palye: Yüksek yarma ve dolgularda şev stabilitesi için düzenlenen kademedir. 
+Parafin: Bitümü oluşturan üç yapıdan birisi olan parafinler veya alifatikler doğrusal, üç boyutlu 
+zincirsi yapıda olup mumsu veya yağsı bir özellik gösterir.  
+Parlama Noktası: Bir maddenin buharının alev temasında geçici olarak alev aldığı, fakat yanmaya 
+devam etmediği en düşük sıcaklığın standart deney şartları altında ölçülmüş değeridir.  
+Penetrasyon:  Bitümlü malzemelerin, standart bir iğnenin belirli bir yük altında ve sürede, belirli 
+sıcaklıktaki bir numune içerisine dikey olarak girdiği derinlik cinsinden ifade edilen kıvamlılığıdır.  
+Peyzaj: Özellikleri, insan ve/veya doğal faktörlerin etkileşimi ve eylemi sonucunda insanlar 
+tarafından algılandığı şekliyle oluşan bir alan. 
+Pigment: Malzemeye renk veren ince toz halindeki maddelerdir. 
+Platform: Karayolunun, taşıt yolu (kaplama) ile yaya yolu (kaldırım) veya banketinden oluşan 
+kısmıdır.  
+Plent-miks: Plentte (tesiste) karıştırma demektir. 
+Polimer: Birçok küçük molekülün birleşerek oluşturduğu büyük molekül zincirine denir. 
+Polimer Modifiye Bitüm (PMB):  Genellikle asfalt kaplamalarda tekerlek izi oluşumunu, 
+kaplamalardaki çatlakları, bitümün oksidasyonunu ya da kaplamanın sudan dolayı zarar görmesini 
+kontrol altına almak amacıyla bitüme bir ya da daha fazla organik polimer karıştırılması ile oluşan 
+bitümlü bağlayıcılardır.  
+Polimer Modifiye Bitüm Emülsiyonu: Dağıtılan fazı polimer modifiye bitüm olan emülsiyon ya 
+da lateks ile modifiye edilen bitüm emülsiyonu. 
+Proje: İdarece onaylanan veya hazırlanan planlar, boy kesit ve enkesitler, örnek enkesitler ve diğer 
+detay resimleri ve benzerleridir. 
+Radye Temel:  Yapı yüklerini, yapının oturduğu tüm yüzeye yayarak zemine aktaran yüzeysel 
+betonarme temel tipi.  
+Refüj: Bölünmüş bir yolda zıt yönlerde hareket eden trafiği birbirinden ayıran kısımdır. 
+Reglaj: İnce tesviyedir.  
+Reflektif Malzeme: Gece karanlıkta bir ışık kaynağından gelen ışığı yapısında bulundurduğu 
+yansıtıcı elemanlar ile geri yansıtan folyolardır. 
+Reflektivite (Fotometrik Özellikler): Belli bir ışık kaynağından gelen ışığın standartlarla 
+belirlenmiş giriş ve gözlem açılarında alınan geri yansıma derecesidir (cd / lx-1 x m2). 
+Ripaj:  Yol ekseninin çeşitli nedenler ile enkesit genişliği içinde sağa veya sola kaydırılmasıdır.  
+Rodmiks:  Yol üstyapısı bakım ve onarımı için plentte veya yolda karıştırma sonucunda elde edilen 
+bitümlü soğuk karışım malzemesidir. 
+--- SAYFA 22 ---
+
+ KISIM 101 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-101/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.   
+101/8 
+Röper: Yol boyunca en fazla 500 m’de bir düzenlenen ve gidiş-dönüş nivelmanı ile koordinatları 
+belirlenmiş sabit noktadır. 
+Sanat Yapıları: Köprü, viyadük, tünel, menfez, istinat/iksa duvarı, tahkimat vb. mühendislik 
+yapılarıdır. 
+Sarsma Bandı: Ses ve titreşim yoluyla sürücüleri yavaşlamaları ya da seyrettikleri şeridi terk etmek 
+üzere oldukları hususunda uyaran karayolu veya banket üzerinde uygulanan yükseltilmiş veya 
+oyuklu (frezelenmiş) yapılardır. 
+Seçme Malzeme: Tabanın taşıma gücünü arttırmak için dolgu, yarma ve üstyapı tabanlarına 
+projesinde belirtilen kalınlıkta getirilerek serilip sıkıştırılan, ariyet ocaklarından veya kazı 
+malzemelerinden temin edilen fiziksel özellikleri şartnamede belirtilen dolgu malzemesidir. 
+Servis Yolu: Yapım, bakım ve onarım çalışmalarının yapılabilmesi için trafiğin geçici olarak 
+verildiği yoldur. 
+Siyah Kot: Karayolu güzergahı üzerindeki herhangi bir noktanın doğal arazi kotu. 
+Sıcak Daldırma Galvaniz (SDG): Tasarım ve kimyasal özellikleri galvanizlemeye elverişli, demir 
+ve çelik ürünlerinin çinko banyosunda difüzyon sonucu metalik tepkimeye girerek çinkoyla 
+kaplanması ile oluşur. 
+Sıvı Petrol Asfaltı [Katbek (Cut-back)]: Ham petrolün kolay uçucu bileşenlerinin damıtma 
+yoluyla uzaklaştırılmasından sonraki kalıntıya, ham petrolün kaynama noktası yüksek bir 
+bileşeninin, gazyağı tipinde orta derecede bir çözücü veya nafta ya da benzin tipi çok uçucu bir 
+çözücü karıştırılmasıyla elde edilen yumuşak bağlayıcı. Bitüme uçucu bir inceltici malzeme (flux) 
+ilave edilmesi ile viskozitesi düşürülen bitümlü bağlayıcı. 
+Yavaş Kür Olan Sıvı Petrol Asfaltları (SC) : 
+Ham petrol damıtma kalıntısına, ham petrolün kaynama noktası yüksek, mazot gibi, bir 
+bileşeninin karıştırılmasıyla elde edilen yumuşak bağlayıcılardır. 
+Orta Hızda Kür Olan Sıvı Petrol Asfaltları (MC) : 
+Ham petrol damıtma kalıntısı ile gazyağı tipinde orta derecede uçucu bir çözücünün 
+karıştırılmasıyla elde edilen bitümlü bağlayıcılardır. 
+Çabuk Kür Olan Sıvı Petrol Asfaltları (RC) : 
+Ham petrolün damıtma kalıntısı ile, nafta veya benzin tipi çok uçucu bir çözücünün 
+karıştırılmasıyla elde edilen bitümlü bağlayıcılardır. 
+Soğuk Karışım Asfalt: Agrega, sıvı petrol asfaltı veya bitüm emülsiyonu ile plentte veya yolda 
+soğuk olarak hazırlanan karışımdır. Soğuk karışımlar; düşük trafikli yollarda kaplama olarak veya 
+Bitümlü Sıcak Karışım kaplamalı yollarda pürüzlülüğü, sızdırmazlığı, yüzey düzgünlüğünü 
+sağlamak ve bakım-onarım amacıyla kullanılmaktadır.  
+Soğuk Uygulama Plastikleri: Tek veya çok bileşenli şekillerde tedarik edilen bir işaretleme 
+malzemesidir. Soğuk uygulama plâstikleri, yalnızca kimyasal yolla yapışkan bir film oluştururlar. 
+Sözleşme: İhale edilen işin yapılması için İdare ile yüklenici arasında yapılan yazılı anlaşmadır. 
+--- SAYFA 23 ---
+
+ KISIM 101 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-101/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.   
+101/9 
+Şantiye Şefi: Yüklenici adına işin yapılmasını, teknik ve idari bakımdan yürüten, iş süresince 
+şantiyede bulunan, yüklenici tarafından kendisine temsil yetkisi verilen ve 6235 sayılı Türk 
+Mühendis ve Mimar Odaları Birliği Kanunu'na göre bu yetkiyi ve sorumluluğu taşıyabilecek kişidir. 
+Şartname: İşin yapılışına ve kullanılacak malzemeye ait direktifleri, metotları, nitelikleri, 
+miktarları ve diğer şartları gösteren, teknik, genel, özel ve ek belgelerdir. Genel olarak yeni şartname 
+maddelerini veya teknik şartnamedeki maddelerde yapılan değişiklikleri içine alan şartnameler “Ek 
+Şartname”dir. Her işin özelliğine göre hazırlanmış bulunan, işin yapılışına ait direktifleri ve şartları, 
+teknik şartnamede bulunmayan detaylı değişiklikleri içine alan ve her iş için ayrıca hazırlanan 
+şartnameler “Özel Teknik Şartname”dir. 
+Şev: Yarma ve dolgularda, platform kenarının doğal zeminle bağlantısını sağlamak amacıyla 
+oluşturulan eğimli zemin yüzeyidir.  
+Şev Değeri: Şevlerin yatay düzlem ile yaptıkları eğimin açı olarak, yatay/düşey düzlemlerin 
+birbirlerine oranı olarak veya yüzde olarak belirtilen değeridir. 
+Şev Stabilitesi: Yarma ve dolgu şevlerinin kaymaya karşı gösterdiği dirençtir. 
+Tahkimat: Şev yüzeylerini, dere yataklarını, sanat yapısı temel dolgularını, vb. imalatları 
+sağlamlaştırma, destekleme, koruma işlemidir. 
+Taş Mastik Asfalt (TMA): Kaba agrega danelerinin birbirine temasının sağlandığı iskelet yapı ile 
+boşlukları dolduran ince agrega, filler, fiber ve bitümlü bağlayıcıdan oluşan, aşınma tabakası olarak 
+kullanılan bir sıcak karışım tabakasıdır. 
+Temel Tabakası: Kaplama tabakası ile alttemel tabakası veya üstyapı tabanı arasında bağlantıyı, 
+yük dağılımını ve düzgünlüğü sağlayan, yola gelen yükleri taşıyan ve alttemel veya üstyapı tabanına 
+aktaran tabakadır. 
+Termoplastikler: Blok, taneli veya toz halde tedarik edilen, çözücü içermeyen işaretleme 
+malzemesidir.  
+Titanyum dioksit (TiO 2): Boyalar, plastikler ve kauçuklarda esas pigment olarak kullanılır. 
+Yüksek opaklıkta, açık beyaz renkte bir pigmenttir. 
+Toprak  İşleri:  Her cins zemin ve kaya birimlerde yapılan kazı, dolgu vb. tesviye işleridir. 
+Toprakarme: Temel betonu üzerine, prekast yüzey elemanların (panel), geri dolgu tabakalar 
+içerisine yerleştirilen yüksek aderanslı sıcak-daldırma galvaniz kaplamalı çelik şeritler veya yüksek 
+çekme dayanımlı plastik şeritlere bağlanması ile inşa edilen Donatılı Zemin Duvarıdır. 
+Tünel: Yeraltında yapılacak kazı ile istenilen kesitte boşluk oluşturulması ve desteklenmesi ile inşa 
+edilen yer altı yapısıdır. Geçici şevler oluşturarak yapının inşa edilmesi, üzerinin ve yanlarının 
+doldurulması şeklinde yapılan yapılar aç kapa tüneli olarak tanımlanır.  
+Tünel Portalleri: Yol güzergâhında bulunan tünellerin giriş ve çıkış yüzleridir. 
+Tüvenan Malzeme: Dereden çıkarılmış, elenmemiş ve yıkanmamış, olduğu gibi kullanılan kum-
+çakıl karışımı yapı malzemesidir. 
+Üst Geçit: Karayolunun diğer bir karayolu veya demir yolunu üstten geçmesini sağlayan yapıdır. 
+--- SAYFA 24 ---
+
+ KISIM 101 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-101/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.   
+101/10 
+Üstyapı Tabanı: İnce tesviye yüzeyi altında kalan, yarma veya dolgularda üstyapının taşıma 
+gücüne etkisi olabilecek bir derinliğe kadar devam eden ve taşıma gücü üstyapı projelendirmesinde 
+etkin olan tabakadır. 
+Viskozite:  Bir akışkanın, iç sürtünmelerinden dolayı, harekete karşı direnç göstermesini sağlayan 
+özelliği ve bu özelliğin kabul edilmiş bir metoda göre bulunan değeridir. 
+Vista:  Manzara 
+Viyadük:  Geometrik standardı düzeltmek (yolu kısaltmak, eğimi düşürmek vb.) amacıyla bir 
+vadinin, bir karayolunun ya da demiryolunun geçişini sağlayan çok ayaklı köprüdür. 
+Vadi veya ırmak üzerinden demiryolu veya karayolunun geçişini sağlayan ayaklar üzerine 
+oturtulmuş yüksek ve uzun köprü. 
+Yarma: Üstyapı taban kotunun üzerinde kalan kazı kısmıdır.  
+Yarma Hendeği:  Yarmalarda platform ve şevlerden gelen suları toplayıp uygun yerlere boşaltan 
+yapılardır. 
+Yol: Kara ulaştırma araçlarının gidiş gelişini temin amacıyla ortaya getirilen yapının bütünü bu 
+terimle ifade edilir. 
+Yol Altyapısı: Yol üstyapısının oturduğu yarma, dolgu, sanat yapısı vb. kısımları ihtiva eden 
+bölümdür.  
+Yol Altyapısı Tabanı: Yol alt yapısının oturduğu tabii zemin yüzeyi veya iyileştirilmiş tabii zemin 
+yüzeyidir. 
+Yol Altyapısı Tabanı İyileştirme Tabakası: Yol alt yapısı  tabanında kazılarak çıkarılan 
+malzemenin yerine uygun evsafta malzeme getirilerek yapılan iyileştirme tabakasıdır. 
+Yol Üstyapısı: Trafik yükünü taşımak, yolu çevre ve iklim şartlarına karşı korumak, trafik için 
+güvenli ve konforlu bir yüzey oluşturmak üzere yol altyapısı üzerine inşa edilen; kaplama, temel ve 
+alttemel tabakalarını içine alan yol yapısıdır. Üstyapı Tabakaları Şekil-101-2’de Tip Enkesitte 
+gösterilmiştir. 
+Yüklenici: İhale koşullarını sağlayarak sözleşme imzalanmış, işi yapmak için yeterli ekip, ekipman 
+ve uygulama kabiliyetine sahip, işi tamamlayarak idareye sorunsuz tesliminden sorumlu özel veya 
+tüzel kişilerdir. Sözleşmede ikinci tarafı temsil eder. 
+Yüksek Performanslı (YP) Reflektif Malzeme: Yapısında  yansıtıcı eleman olarak cam  kürecik 
+veya mikro-prizmatik yapılar kullanılarak yapılan geri yansıtıcı folyolardır. 
+Zemin Çivisi: Projelerde gösterilen veya idare tarafından belirtilen yerlerde, yukarıdan aşağıya 
+doğru kademeli olarak yapılan kazıda şev yüzeyinde açılan deliklere, çelik donatıların yerleştirilerek 
+enjeksiyon yapılması ile oluşturulan çivili duvar (Bu işlem; zemin/ayrışmış kayacın kesme 
+dayanımının artırılmasını sağlayan bir destekleme yöntemidir). 
+ 
+ 
+ 
+ 
+--- SAYFA 25 ---
+
+ KISIM 101 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-101/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.   
+101/11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Yukarıdaki köprü krokisinde numaralandırılan yer ve elemanların adları şunlardır. 
+1- Fore kazık   10-  Döşeme   19-  Tabii zemin 
+2- Temel altı kazığı  11-  Elastomer mesnet 20-  Kazık altı kotu 
+3- Kazık başlığı   12-  Bordür   21-  Adi anroşman 
+4- Kolon elevasyon  13-  Korkuluk                 22-  Muntazam anroşman 
+5- Kenar ayak başlık kirişi 14-  Dilatasyon (Ayırım) 23-  Pere 
+6- Orta ayak başlık kirişi 15-  En yüksek su seviyesi 24-  Rötret seviyesi 
+7- Ana kiriş   16-  En alçak su seviyesi 25-  Yaklaşım dolgusu 
+8- Enleme kirişi   17-  Talveg   26-  Yaklaşım plağı 
+ 9- Kulak    18-  Köprü boyu  27-  Grobeton 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Şekil-101-1 Köprü Elemanları  
+13
+2
+43
+4
+15
+2
+T A B L İY E  K E M E R İN  A L T IN D A
+1T A B L İY E  K E M E R İN  Ü S T Ü N D E
+2
+34
+5Ö ze n g i
+D ik m e le r
+A n a h ta rT a b liye
+Y a k la ş ım  G ö z le ri
+--- SAYFA 26 ---
+
+ KISIM 101 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-101/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.   
+101/12 
+ 
+Şekil-101-2 Karayolu  Tip Enkesiti (2x2 yol)  
+--- SAYFA 27 ---
+
+ KISIM 101 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-101/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.   
+101/13 
+101.02 Kısaltmalar 
+1. KGM, Karayolları Genel Müdürlüğü 
+2. ARGE, Araştırma ve Geliştirme Dairesi Başkanlığı 
+3. KTŞ, Karayolu Teknik Şartnamesi 
+4. AASHTO, (American Association of State Highway and Transportation Officials) 
+Amerika Eyalet Yolları ve Ulaşım Çalışanları Kurumu 
+5. ACI, (American Concrete Institute) Amerikan Beton Enstitüsü 
+6. ACPA, (American Concrete Pavement Association) Amerikan Beton Yollar Kurumu 
+7. AI, (Asphalt Institute) Asfalt Enstitüsü 
+8. ANSI, (American National Standarts Institute) Amerikan Ulusal Standartlar Enstitüsü 
+9. ASTM, (American Society for Testing and Materials) Amerika Test ve Malzeme Kurumu 
+10. BSI, (British Standarts Institute) İngiliz Standartlar Enstitüsü 
+11. CEN, (European Committee for Standardization) Avrupa Standart Komitesi 
+12. DIN, (Deutsches Institut für Normung) Alman Standartlar Enstitüsü   
+13. EN, (European Norm) Avrupa Standardı 
+14. FHWA, (Federal Highway Administration) Ulusal Karayolları İdaresi 
+15. ISO, (International Organization for Standartization) Uluslararası Standart Kurumu 
+16. IRI, (International Roughness Index) Uluslararası Düzgünsüzlük İndeksi 
+17. KİK,  Kamu İhale Kurumu 
+18. NATM, Yeni Avusturya Tünel Açma Metodu 
+19. PCA, (Portland Cement Association) Portland Çimento Birliği 
+20. SI, (International System of Units) Uluslararası Birimler Sistemi  
+21. TSE, Türk Standardlar Enstitüsü 
+22. TÜRKAK, Türk Akreditasyon Kurumu  
+23. ADR, Tehlikeli Malların Karayolu ile Uluslararası Taşımacılığına ilişkin Avrupa 
+Anlaşması
+--- SAYFA 28 ---
+
+ KISIM 101 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-101/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.   
+101/14 
+101.03 Şartname Düzeni 
+Bu şartname yedi bölümden oluşmaktadır. Bölüm 100, “Genel Hükümler” i içermektedir. Bölüm 
+150 “Proje Şartları”nda belirtilmektedir. Bölüm 200-500 arasında ise ihale edilen işlerde belirtilen 
+iş kalemlerine göre malzeme ve yapım şartları verilmektedir. 
+Şartnamede her Bölüm  içerisinde Kısım ’lar yer almaktadır. Şartnamenin biçim ve numaralandırma 
+sistemi genel olarak aşağıda belirtildiği şekilde düzenlenmiştir. 
+KISIM  xxx ( xxx: üç haneli kısım numarası) 
+xxx.01 Tanım  Bu kısımda işin tanımı yapılmakta ve kapsamı belirtilmektedir. 
+xxx.02 Malzeme Özellikleri   
+Bu kısımda, iş veya imalatın yapılması sırasında kullanılan malzemelere ait ilgili ulusal ve 
+uluslararası standartlar, malzemenin özellikleri, yapılan deneyler ve deney standartları verilerek; 
+şartnamede malzeme niteliği hakkında istenilen değerler ve tolerans limitleri belirtilmektedir.  
+xxx.03 Yapım Şartları   
+Bu kısımda, işin/imalatın yapılması için gereken uygulama esasları verilmektedir. 
+101.03.01 Revizyon Kontrolü 
+Bu Şartnamede yer alan kısımlara revizyon numarası verilir ve güncelliği bu numara ile takip edilir. 
+Revizyon numarası Kısım-xxx/Rev.Yıl/AyGün şeklinde kodlanır. Örneğin bu kısım için Kısım-
+101/Rev.23/1215 numarası  2023 yılı revizyonu olduğunu ve revizyon tarihinin 15.12.2023 
+olduğunu ifade etmektedir. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 29 ---
+
+KISIM 102 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -102/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılam az.  
+102/1 
+102. İŞİN KONTROL EDİLMESİ  
+102.01 Tanım  
+Bu kısım ; ihale edilen yol yapım işinin plan ve projeler doğrultusunda, sözleşme ve şartnamede 
+belirtilen esaslara uygun bir şekilde yapılmasını sağlamak için İdare tarafından doğrudan kontrol 
+mühendisliğ i veya İdarenin temsilcisi Müşavir ile birlikte kontrol mühendisliği tarafından kontrol 
+edilmesini ve denetlenmesini kapsar.  
+Karayolu Teknik Şartnamesi kapsamında “İdare”  terimi KGM ve Genel Müdürlük tarafından atanmış 
+temsilciler anlamında kullanılmış olup , İdare genel anlamda sözleşmeyi yapan iş sahibi kurumu ifade 
+eder. 
+102.02 Kontrol Mühendisliği  
+Kontrol Mühendisliği , İdarenin iş yerindeki temsilcisi olup , İdare adına işi kontrol eder  ve denetler.  
+Kontrol Mühendisliği ; 
+• Çalışmaların iş programı çerçevesinde belirtilen zamanda ve düzgün bir şekilde yapılmasını,  
+• İşin yapımında kullanılan malzemeler ve uygulanan işçiliğin kalitesini,  
+• Proje, plan ve şartnamenin uygulanması ve gerektiğinde yorumlanmasını,  
+• Yapılan iş/imalatın miktarının ölçülmesini,  
+• Sözleşme esasları dahilinde yapılan iş/imalata ait hakedişlerin düzenlenmesini,  
+• Malzeme temininde kullanılan İdareye ait malzeme ocağının termin planına uygun üretiminin 
+takibi ve işin durdurulmasını,   
+• Sözleşme şartlarının karşılanabilmesi için imalatın kabul edilip edilmemesi ve işin durdurulması 
+dahil gereken her türlü uygulamayı yapmaya y etkilidir. 
+Kontrol Mühendisliği; mühendis, sürveyan, araştırma teknisyeni, alet operatörü ve diğer görevlilerden 
+oluşur. Bu personel, kendi görev alanlarında Kontrol Mühendisliği  adına hizmet verir.  
+Kontrol Mühendisliği, imalat için gereken malzemenin hazırlanmasını, imalatın yapılmasını ve 
+projede yer alan her türlü işi kontrol edecektir. Kontrol Mühendisliği, yapılan iş/imalatın şartnameye 
+uygun olmadığı durumlarda, iş ve işçiler ile çevre güvenliği açısından uygun olmayan hallerde işin 
+durdurulması dahil gereken önlemleri alacaktır.  
+102.03 Şartname ve Proje  
+Şartname ihale d okümanlarının bir parçasıdır. Şartname ihaleden sonra yüklenici  ile İdare arasında 
+yapılan sözleşmenin temelini oluşturur.  
+Şartname; yol yapımı sırasında kullanılan malzeme, yapılan imalat ve işçilik için gerekli şartları doğru 
+ve açık bir şekilde tanımlayan belgedir. Şartname ayrıca yapım sırasında karşılaşılabilecek farklı 
+durumlarda yapılacak işlemleri de tanımlar.  
+Proje ise; yol ve yol yapılarının imalat öncesi ve imalata yönelik esas ve detayların belirtildiği rapor, 
+hesaplamalar ve çizim paftalarıdır.  
+--- SAYFA 30 ---
+
+KISIM 102 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -102/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılam az.  
+102/2 
+İşin yapımı için gereken her türlü plan ve proje İdare tarafından veya İdarece gerek görülmesi halinde 
+yüklenici  tarafından  hazırlanacaktır. Projeler tamamlanıp İdare tarafından onaylanmadan işe 
+başlanmayacaktır.  
+102.04 Yapım Aşamasında Hazırlanan Projeler  
+Yapım aşamasında ortaya çıkan problemlerin çözümü için proje çalışması yapılmadan önce, problemi 
+tanımlayıp, nedenlerini ve çözümüne yönelik farklı alternatifleri gerekçeleri ile ortaya koyan kavram 
+projeleri hazırlanacaktır. 
+Kavram projeleri uygulanacak alternatifin seçimini kolaylaştırmaya yönelik gerekli bilgileri ve 
+çizimleri içerecek şekilde hazırlanarak İdareye sunulacaktır. Sunulan alternatifler öncelikle İdare ve 
+varsa Müşavir firma tarafından yapım süresi, yapım emniyeti, maliyet,  kamulaştırma vb . kriterlere 
+göre değerlendirilecek ve bu değerlendirme sonucuna göre seçilecek alternatif için “Uygulama  
+Projesi” hazırlatılacaktır.  
+Hazırlanacak plan ve projelerde; kot ve koordinat bilgilerinin yanı sıra, yapılacak imalata ait detay 
+bilgiler, imalat aşamaları, hendek, kazı vb. işler için gereken detaylar, trafik işaretleme projesi, mevcut 
+yapıların yakınında yapılacak imalatlar için alınacak önlemler vb. gibi tüm hususlar belirtilecektir.  
+Yüklenici tarafından  hazırlanacak her türlü plan, proje ve hesaplamalar işin yapılmasından önce en az 
+4 takım olarak İdarenin onayına sunulacaktır. Plan, proje ve hesaplamalarda İdare tarafından revizyon 
+istenilmesi durumunda, gerekli düzeltmeler yapıldıktan sonra İdareye tekrar onaya gönderilecektir.  
+Kontrol mühendisliği, yapım detayları, uygulanacak inşaat yöntemi vb. hususlarda açıklık sağlanması 
+amacıyla ek plan, proje ve hesaplamalar isteyebilir. İdare tarafından onaylanmış plan ve projelerin, iş 
+yerinde veya imalatta uygulanması sırasında yapılacak değişikliklerden önce yüklenici  İdareden  yazılı 
+izin alacaktır. 
+102.05 Yapım Araçları ve Ekipmanları için Yük ve Hız Sınırlamaları  
+Yüklenici; proje alanına veya proje alanından dışarıya yapılacak her türlü malzeme, makine ve 
+ekipman nakli için yasal yük ve trafik hız sınırlamalarına uyacaktır.  
+Nakliye kamyonları; üzerine yüklenen malzemenin taşarak dökülmesini, nakliye sırasında kaybını 
+önleyecek şekilde yüklenecektir. Kamyonlar ve iş makin elerini n alttemel, temel ve üstyapı tabakaları 
+üzerinden geçişlerinin, bu tabakalarda hasar oluşturmayacak şekilde düşük trafik hızında olması 
+sağlanacaktır.  
+Kontrol mühendisliği  tarafından izin verilmedikçe çalışma alanı içerisinde yeni yapılan sanat yapıları 
+ve üstyapılar üzerinden aşırı yüklenmiş taşıtlar, makine ve ekipman geçmeyecektir.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

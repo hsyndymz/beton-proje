@@ -200,18 +200,21 @@ def evaluate_mix_compliance(mix_data):
     warnings = []
     rationales = []
     
-    # 1. Çevresel Etki Denetimi (KGM 2016 Beton Yol Odaklı)
+    # 1. Çevresel Etki Denetimi (KTŞ 2023 / KGM Beton Yol Odaklı)
+    # KTŞ 2023 Tablo 308-26: XF4 (Buz Çözücüye Maruz Yol) -> Max S/Ç: 0.45, Min Çimento: 340 kg
+    # Eğer proje "Yol" içeriyorsa XF4 kabul edilir.
+    
     limit_wc_exp = 0.45 if "Yol" in target_class else exp_limits["max_wc"]
     current_wc = mix_data.get("wc", 0.0)
     if current_wc > limit_wc_exp:
-        violations.append(f"🔴 Durabilite İhlali: S/Ç {current_wc:.2f} > {limit_wc_exp} (KGM 2016 Max)")
-        rationales.append(f"Beton yol kaplamalarında servis ömrü ve donma direnci için S/Ç oranı en fazla {limit_wc_exp} olmalıdır.")
+        violations.append(f"🔴 Durabilite İhlali: S/Ç {current_wc:.2f} > {limit_wc_exp} (KTŞ 2023 Tablo 308-26)")
+        rationales.append(f"KTŞ 2023 (XF4/XWS) gereği yol kaplamalarında servis ömrü ve donma direnci için S/Ç oranı en fazla {limit_wc_exp} olmalıdır.")
 
-    limit_cem_exp = 350 if "Yol" in target_class else exp_limits["min_cem"]
+    limit_cem_exp = 340 if "Yol" in target_class else exp_limits["min_cem"]
     curr_cem = mix_data.get("cement", 0)
     if curr_cem < limit_cem_exp:
-        violations.append(f"🔴 Durabilite İhlali: Çimento {curr_cem} < {limit_cem_exp} kg (KGM 2016 Min)")
-        rationales.append(f"Yol kaplama betonlarında aşınma direnci ve dayanım için minimum {limit_cem_exp} kg/m³ çimento şarttır.")
+        violations.append(f"🔴 Durabilite İhlali: Çimento {curr_cem} < {limit_cem_exp} kg (KTŞ 2023 Min)")
+        rationales.append(f"KTŞ 2023 Tablo 308-26 uyarınca XF4 (Yol) sınıfı için minimum {limit_cem_exp} kg/m³ çimento şarttır.")
 
     # 2. ASR Risk Denetimi
     asr_status = mix_data.get("asr_status", "Düzeltme Gerekmiyor")
@@ -242,17 +245,17 @@ def evaluate_mix_compliance(mix_data):
     if avg_mb > 1.5: 
         violations.append(f"🔴 Kirli Agrega (MB): {avg_mb:.2f} > 1.5 (Kil var).")
          
-    # 4. KGM 2016 Filler ve Kum Denetimi
+    # 4. KTŞ 2023 / KGM Genel Esaslar (Filler ve Kum)
     if "Yol" in target_class:
         filler_val = mix_data.get("filler_content", 0.0)
         if filler_val < 1.0 or filler_val > 5.0:
-            warnings.append(f"⚠️ Filler Oranı ({filler_val:.1f}%) KGM Limitleri Dışında! (Limit %1-%5)")
-            rationales.append("KGM 2016'ya göre yol betonunda 0.063mm altı filler oranı %1-5 aralığında olmalıdır.")
+            warnings.append(f"⚠️ Filler Oranı ({filler_val:.1f}%) İdeal Limit Dışı! (KTŞ Genel: %1-%5)")
+            rationales.append("Karayolları teknik esaslarına göre yol betonunda 0.063mm altı filler oranı %1-5 aralığında önerilir.")
         
         sand_val = mix_data.get("sand_content", 0.0)
         if sand_val < 37.0 or sand_val > 56.0:
             warnings.append(f"⚠️ Kum Oranı ({sand_val:.1f}%) İdeal Aralığın Dışında! (İdeal %37-%56)")
-            rationales.append("Yol betonu işlenebilirliği için 4mm altı ince malzeme oranı idarece belirlenen ideal aralıkta olmalıdır.")
+            rationales.append("Yol betonu işlenebilirliği için ince malzeme oranı idarece belirlenen ideal aralıkta olmalıdır.")
 
     if len(violations) > 0:
         status, title, main_msg = "RED", "UYGUN DEĞİLDİR (RED)", "Durabilite ve Standart limitleri aşıldı."

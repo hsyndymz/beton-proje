@@ -1,0 +1,851 @@
+SAyfa 167 | Hits: Beton Sınıfı
+ KISIM 252  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-252/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+252/3 
+252.02.05.02 Dolgu Malzemesi Elektrokimyasal Özellikleri 
+Duvar yapımında; donatı elemanı olarak galvaniz kaplı çelik şerit kullanılması durumunda dolgu 
+malzemesi aşağıda Tablo-252-2’de verilen elektrokimyasal özelliklere sahip olacaktır. 
+Tablo-252-2 Dolgu Malzemesi Elektrokimyasal Özellikleri 
+Özell8kler  Şartname L8m8tler8  
+pH DeğerM  
+(TS EN ISO 10390)  5 - 10 
+Suda ÇözünebMlMr Klorür İyonu MMktarı (mg/kg)  
+(AASHTO T 291)   ≤ 100 
+Toplam OrganMk Madde MMktarı (%)  
+(AASHTO T 194)   ≤  0,2 
+Suda ÇözünebMlMr Sülfat İyonu MMktarı (mg/kg)  
+(AASHTO T 290)    ≤  200 
+Toprak ÖzdMrencM (ohm.cm)  
+(AASHTO T 288)  ≥ 3.000  
+ 
+252.03 Prekast Panellerin Taşınması ve Depolanması 
+Üretimi tamamlanan panelle
+--------------------------------------------------
+SAyfa 185 | Hits: Beton Sınıfı
+ KISIM 257  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                                                                                    Kısım-257/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+257/1 
+KISIM 257.  ÖNCEDEN DÖKÜMLÜ (PREKAST) MODÜLER DUVAR SİSTEMİ 
+257.01  Tanım   
+Bu kısım;  projede gösterilen veya İdare tarafından belirtilen yerlerde, eğimli araziler, su kenarları, 
+kamulaştırma nedeni ile alanın sınırlı olduğu yerlerde, köprü kenar ayakları çevresinde vb. yerlerde 
+tesviye betonu üzerine, prekast modüler duvar ünitelerinin yerleştirilmesi ve aralarının geri dolgu 
+malzemesi ile doldurularak inşa edilen Prekast Modüler Duvar Sistemi yapılmasını kapsar.  
+257.02. Malzeme 
+257.02.01. Prekast Modüler Duvar Üniteleri  
+Prekast modüler duvar ünitelerinin üretiminde donatısız, donatılı, veya öngermeli betondan imal edilmiş 
+ö
+--------------------------------------------------
+SAyfa 223 | Hits: Beton Sınıfı
+ KISIM 306  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-306/Rev.23/1215 
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+306/3 
+306.04.02 Kaplama Elemanı Olarak Kullanılacak Prefabrik Beton Elemanlar 
+306.04.02.01 Özellikler 
+306.04.02.01.01 Malzeme 
+İmalatta kullanılacak çimentolar TS EN 197-1 ve TS 21’e uygun olmalıdır. Agrega olarak TS 706 
+EN 12620’ya uygun beton agregaları kullanılmalıdır.  
+306.04.02.01.02 Görünüş Boyut ve Toleranslar 
+Beton kaplama elemanlarının göz ile yapılacak muayenelerinde; çatlaklar, agrega parçalarının 
+düşmesinden dolayı veya başka sebeplerle meydana gelmiş çukur ve boşluklar bulunmamalı  ve 
+kullanma yüzeyi homojen olmalıdır. Prefabrik elemanların şekil, boyut ve toleransları İdare 
+tarafından onaylanan projesine uygun olmalıdır. Şekil-306-1'de prefabrik beton kaplama 
+elemanlarına ait örnek ve
+--------------------------------------------------
+SAyfa 263 | Hits: Beton Sınıfı
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/31 
+değerlendirilmelidir. Beton döküm programını iki veya üç gün öncesinden hazır beton üretim 
+tesisine bildirilmesi halinde beton teminindeki aksaklıklar önlenebilir. 
+Hazır beton tesislerinden beton temin edilmesi durumunda; üretimde kullanılacak malzemelerin 
+herbirinden (agrega, çimento, su, kimyasal ve mineral katkı maddeleri) İdare elemanları tarafından 
+yeterli miktarda ve temsili numuneler alınarak KTŞ’de öngörülen testler yapıldıktan sonra, öncelikle 
+malzemelerin şartnamemize uygun olup olmadığı tespit edilecektir.  
+Daha sonra karışım dizaynı yapılıp veya kontrol edilip uygun ise (beton dayanım sınıfı, çevresel 
+etki sınıfı, minimum çimento miktarı, maksimum su/çimento oranı, minimum hava 
+--------------------------------------------------
+SAyfa 265 | Hits: Beton Sınıfı
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/33 
+ 
+Tablo 308.23 Beton Dayanım Sınıfları ve Dizayn Hedef Basınç Dayanımları  
+ 
+Beton 
+Sınıfı Karakteristik basınç dayanımı, fck 
+(MPa)  Hedef basınç dayanımı, f cm 
+(Ortalama silindir/eşdeğer küp basınç dayanımı) 
+(MPa)  
+Karakteristik 
+silindir 
+(150x300)(mm) 
+Basınç dayanımı 
+fck 
+(MPa)  Eşdeğer küp 
+(150x150x150) 
+(mm) basınç 
+dayanımı 
+fck 
+(MPa)  Standart sapma 
+biliniyorsa Standart sapma bilinmiyorsa  
+(150x300) 
+(mm) 
+silindir  (150x150x150) 
+(mm) 
+küp 
+C14/16 14 16 
+fcm = fck + 1,48 18 20 
+C16/20 16 20 20 24 
+C18/22 18 22 22 26 
+C20/25 20 25 26 31 
+C25/30 25 30 31 36 
+C30/37 30 37 36 43 
+C35/45 35 45 43 53 
+C40/50 40 50 48 58 
+C45/55 45 55 53 63 
+C50/60 50 60 58 68 
+C55/67 55 67 63 75 
+C60
+--------------------------------------------------
+SAyfa 266 | Hits: Beton Sınıfı
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/34 
+Tablo-308-24 Beton Tiplerine Göre Klorür İçeriği Sınıfları 
+Betonun Kullanım Yeri Klorür İçeriği Sınıfıa Çimentob Kütlesine Göre 
+En Fazla Klorür (%)  
+Korozyona dayanıklı kaldırma (tutma) 
+parçaları hariç, çelik donatı ve diğer 
+gömülü metal ihtiva etmeyen beton CI 1,0 % 1,0 
+Çelik donatı ve diğer gömülü metal 
+ihtiva eden beton. CI 0,20 % 0,20 
+ CI 0,40c % 0,40 
+Çelik öngerilme donatısı ihtiva eden CI 0,10 % 0,10 
+CI 0,20 % 0,20 
+a Belirli kullanım amaçlı betonlarda uygulanacak sınıf, betonun kullanılacağı yerde geçerli 
+kurallara bağlıdır.  
+b Mineral katkıların kullanıldığı ve mineral katkının çimento içeriğine dâhil olarak 
+değerlendirildiği durumlarda klorür içeriği, klorür iyonlarının, çime
+--------------------------------------------------
+SAyfa 267 | Hits: Beton Sınıfı
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/35 
+Beton, maruz kaldığı çevre ve zararlı kimyasal etkilere karşı etki sınıflarına göre beton sınıfı ve 
+beton özellikleri seçimi örnek olarak aşağıda verilmektedir. 
+1. Yağmura maruz kalan (döngülü ıslak-kuru) tüm beton elemanları, karbonatlaşmanın sebep 
+olduğu korozyon nedeniyle;  minimum C30/37 beton sınıfında ve XC4 çevresel etki sınıfında 
+seçilecektir. 
+2. Deniz suyundan kaynaklanan klorürlerin sebep olduğu korozyon nedeniyle;  
+a. Sahilde veya sahile yakın yerde bulunan beton elemanları,  minimum C30/37 beton 
+sınıfında ve XS1 çevresel etki sınıfında seçilecektir. 
+b. Deniz suyunun altında sürekli su içerisinde kalan beton elemanları, gelgit, dalga ve serpinti 
+bölgelerinde bulunan beton elema
+--------------------------------------------------
+SAyfa 272 | Hits: Beton Sınıfı
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/40 
+Tablo-308-26 Etki Sınıflarına Göre Projelendirmelerde Esas Alınacak Beton Özellikleri 
+Kısım Etki 
+Sınıfı Çevresel Etki  En yüksek  
+   su/çimento 
+      oranı (c) En düşük 
+dayanım   
+sınıfı (b) En düşük 
+çimento 
+içeriği (c) 
+(kg/m3) En düşük 
+hava içeriği 
+(%)  
+Diğer 
+gerekler 
+ 
+1 X0(a) Korozyon veya 
+zararlı etki 
+tehlikesi yok  - C12/15 - - - 
+2 XC1 
+Karbonatlaşmanın 
+sebep olduğu 
+korozyon 0,65 C20/25 260 - - 
+XC2 0,60 C25/30 280 - - 
+XC3 0,55 C30/37 280 - - 
+XC4 0,50 C30/37 300 - - 
+3 XS1 
+Deniz suyu  0,50 C30/37 300 - - 
+XS2 0,45 C35/45 320 - - 
+XS3 0,45 C35/45 340 - - 
+4 XD1 
+Deniz suyu 
+haricindeki klorür 
+etkisi 0,55 C30/37 300 - - 
+XD2 0,55 C30/37 300 - - 
+XD3 0,45 C35/45 320 - - 
+5 
+--------------------------------------------------
+SAyfa 277 | Hits: Beton Sınıfı
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/45 
+Tablo-308-28-b Farklı Çevresel Etki Sınıflarına Maruz Betonlar için Kullanılması Önerilen 
+Çimento Tipleri a 
+Etki Sınıfı                                                                                           
+X= Kullanılması 
+önerilir                                                                                    
+O=Kullanılması 
+önerilmez  
+Korozyon etkisi yok  Donatı Korozyonu Betona etkisi 
+Ön gerilme Çeliğine uyumluluk  
+Karbonatlaşma 
+nedeniyle Korozyon  Klorür nedeniyle korozyon 
+Donma / Çözülme 
+Etkisi Zararlı Kimyasal 
+Ortam Aşınma Deniz Suyu 
+dışında Klorür 
+Etkisi Deniz 
+Suyundan 
+kaynaklanan 
+Klorür Etkisi 
+XO XC1 XC2 XC3 XC4 XD1 XD2 XD3 XS1 XS2 XS3 XF1 XF2 XF3 XF4 XA1 XA2d XA3d 
+--------------------------------------------------
+SAyfa 293 | Hits: Beton Sınıfı
+ KISIM 308  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-308/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+308/61 
+Tablo-308-40 Karot Sonuçlarının Değerlendirilmesi 
+BETON SINIFI 150x300 mm Silindir Numune Karşılıkları 
+Karakteristik
+Silindir 
+Basınç 
+Dayanımı 
+N/mm2 
+f ck, sil 1.Kriter 
+ 
+(Bir deney bölgesine ait karot deney 
+sonuçlarının ortalaması) 2.Kriter 
+(en düşük deney 
+sonucu için izin 
+verilen sınır) (a) 
+ 
+≥ 0,85 (f ck, sil - M) 30 m3’lük  
+deney alanlarının sayısı 
+1 2 ila 4 
+≥ 0,85 (f ck, sil +1) 5 ila 6 
+≥ 0,85 (f ck, sil +2) 
+C 8/10 8 
+Uygulanmaz 7,7 8,5 6,0 
+C12/15 12 11,1 11,9 8,5 
+C16/20 16 14,5 15,3 11,1 
+C20/25 20 17,9 18,7 13,6 
+C25/30 25 22,1 23,0 17,9 
+C30/37 30 26,4 27,2 22,1 
+C35/45 35 30,6 31,5 26,4 
+C40/50 40 34,9 35,7 30,6 
+C45/55 45 39,1 40,0 34,9 
+C50/60 50 43,4 44,2 39,1 
+C55/67 
+--------------------------------------------------
+SAyfa 384 | Hits: Tip-1
+ KISIM 313  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım -313/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltıl amaz.  
+313/18 
+Yüzey altı drenaj sisteminin verimli bir şekilde çalışması için her 50 -100 m’lik kesimde bir bakı m 
+amaçlı kontrol bacaları yapılacaktır.  
+313.03.02 Yüzey altı Drenaj Yapı Elemanları  
+Yüzey altı drenaj işlerinde kullanılan yapı elemanları; beton borular, PVC esaslı tünel tipi drenaj 
+borusu, kontrol bacaları, drenaj amaçlı geotekstil malzemeler ve filtre  malzemeleridir. 
+313.03.02.01 Beton Borular 
+Drenaj borusu cinsi ve ebadı projelerde gösterilen, İdare tarafından belirtilen şekilde olacaktır. 
+Kullanılacak beton borular AASHTO M 86 şartnamesinde belirtilen şartlara uygun olacak ve üç 
+eksenli yükleme deneyi (Three Edge Bearing Method) sonuçlarına göre mukavemet yönünden 
+Tablo-313-3’de bel
+--------------------------------------------------
+SAyfa 395 | Hits: Beton Sınıfı
+ KISIM 314  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-314/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+314/1 
+314.  RÖGARLAR, MEMBA TESİSATI, SİFONLAR, GARGUYLAR 
+314.01 Tanım  
+Bu kısım; projelerde gösterilen boyut ve tiplerde, memba tesisatının ve garguyların dökme demir 
+kapaklar veya betonarme kapaklarının yerine göre ve benzeri diğer imalatın aşağıda belirtilen şartlar  
+içerisinde yapımını kapsar. 
+314.02 Malzeme 
+314.02.01 Beton 
+Betonun yapılmasında kullanılan çimento ve diğer bütün malzeme Kısım 308 “Beton İşleri”nde 
+belirtilen veya özel şartname ile belirtilmiş kriterlere uygun olacaktır. 
+Betonun dayanım sınıfı, C30/37’den düşük olmamak şartıyla projelerde veya özel şartnamelerde 
+belirtilen dayanım sınıfında olacaktır 
+314.02.02 Betonarme Demiri 
+Betonarmede ve betonarme plakların yapımında kullan
+--------------------------------------------------
+SAyfa 435 | Hits: Beton Sınıfı
+KISIM 319 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-319/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+319/4 
+Beton ve betonarme kazıklarda kullanılan betonun dayanım sınıfı en az C30/37 olacaktır. Ancak 
+beton ve betonarme kazıkların maruz kalacağı yeraltı suyu ve zemin numunelerine kimyasal testler 
+yapılacaktır. Kazıkların yapılan testler sonucunda Tablo-308-25-a’ya göre XA ve Tablo-308-25-
+b’ye göre XS etki sınıflarına maruz kalmaması durumunda C25/30 Beton sınıfı kullanılabilecektir. 
+Kazıklar, detay projelerde gösterildiği şekil ve boyutta olacaktır.  
+Önceden imal edilip çakılan kazıkların kalıpları, beton kalıplarına ait şartlara uygun olarak 
+yapılacaktır. Kalıplar, betonun kolayca sıkıştırılmasını sağlayacak şekilde yapılacaktır. Hava şartları 
+uygun olduğu takdirde kazıkların yan kalıpları betonun d
+--------------------------------------------------
+SAyfa 440 | Hits: Beton Sınıfı
+KISIM 320 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-320/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+320/2 
+320.03 Beton Karışım Dizaynı ve Kalite Kontrol Deneyleri 
+Öngerilmeli prefabrik kirişlerin üretimi için hazırlanacak karışım dizaynı, bu şartnamede 
+tanımlanan özelliklere sahip olan kaba ve ince agrega, çimento, su, beton kimyasal ve mineral katkı 
+maddelerinin en uygun oranlarda karıştırılarak en güvenli yayılma, sıkışma ve işlenebilme kabiliyeti 
+içinde dizayn raporunda belirtilen dayanım değerlerini sağlayan ve proje ömrü süresince dışardan 
+gelecek çevresel etkilere dayanıklı olmasını sağlayacak şekilde olacaktır.  
+Kiriş üretiminde kullanılacak olan agrega, çimento, su, kimyasal katkı maddeleri ve mineral katkı 
+maddelerinden İdare elemanları tarafından yeterli miktarlarda ve temsili numuneler al
+--------------------------------------------------
+SAyfa 522 | Hits: Beton Sınıfı
+KISIM 350  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                Kısım -350/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+350/56 
+Beton dökümü için boşluklar, betonun ayrışmasını önleyecek yükseklikte yerleştirilecektir. Kalıptaki 
+ekler, şerbetin sızmasını ve betondan su absorbsiyonunu önleyecek yeterli miktarda sıkı olacaktır.  
+4. Kalıplar; şekil doğruluğu, sağlamlılık, rijitlik, su geçirmezlik ve yüzey düzgünlüğünün 
+sağlanabilmesi açısından, her zaman iyi şartlarda bakımlı tutulacaktır. Tüm kalıplar; temiz, 
+korozyondan korunmuş ve iyi onarılmış olarak tutulacaklardır.  
+5. Kalıp dizaynı, mühendis onayına tabidir.  
+6. Kalıp üst kısmı, kemerli tavanın iyi sıkıştırılmasını temin etmek için, düzenli aralıklarda harici 
+vibratörlerin monte edilebilmesini sağlayacak tertibatlara sahip olacaktır.  
+Çelik kalıp, her bir betonlama 
+--------------------------------------------------
+SAyfa 693 | Hits: Tip-1
+ KISIM 407 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-407/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+407/2 
+Tablo-407-2 Aşınma Tabakası için Gradasyon Limitleri 
+Elek Boyutu  Geçen % 
+İnç, No mm TİP-1  TİP-2  TİP-3  
+Çok İnce 
+Aşınma  
+3/4” 19 100   
+1/2” 12,5  88 - 100 100 100 
+3/8” 9,5  72 - 90 80 -100 90 - 100 
+1/4” 6,0  - - 25 - 33 
+No.4 4,75  42 - 52 55 -  72 23 - 31 
+No.10 2,00  25 - 35 36 - 53 20 - 27 
+No.40 0,425  10 - 20 16 - 28 12 - 18 
+No.80 0,180  7 - 14 8 - 16 - 
+No.200 0,075 3 - 8 4 - 8 7 - 11  
+Tip-2; aşınma tabakası “Karayolları Esnek Üstyapılar Projelendirme Rehberi”ne göre hazırlanacak 
+“Üstyapı Projelendirme Raporu” veya “Üstyapı Takviye Raporu”nda belirlenecek kalınlığa göre 
+yeni yapım veya takviye olacak esnek üstyapılarda aşınma tabakası olarak kullanılabilecektir. 
+Tip-3; çok ince 
+--------------------------------------------------
+SAyfa 698 | Hits: Tip-1
+ KISIM 407 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-407/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+407/7 
+yoğurmalı (Gyratory) kompaktör ile hazırlanacak en az 3 grup briket üzerinde nihai karışımın 
+dizayn değerleri kontrol edilecektir. Ayrıca optimum bitümde hazırlanacak numuneler üzerinde 
+yapılacak performans deneyleri ile şartname kriterlerinin sağlandığı da teyit edilecektir. 
+İdare ya da yüklenici laboratuvarında hangi metotla hazırlanmış olursa olsun, karışım dizaynından 
+kaynaklanan bozulmalardan yüklenici sorumlu olacaktır. 
+Tablo-407-6 Asfalt Betonu Dizayn Kriterleri 
+Özellikler  Binder  Aşınma 
+ TİP-1,  
+TİP-2 Aşınma 
+ TİP-3  Deney Standardı  
+Min.  Maks.  Min.  Maks.  Min.  Maks.  
+Briket Yapımında Uygulanacak Darbe 
+Sayısı  75 75 75 TS EN 12697-30  
+ASTM D 6926 
+Marshall Stabilitesi, kg 75
+--------------------------------------------------
+SAyfa 712 | Hits: Tip-1
+ KISIM 408 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                     Kısım-408/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+408/1 
+408. TAŞ MASTİK ASFALT (TMA) 
+408.01 Tanım 
+Bu kısım, kırılmış ve elenmiş kaba agrega, ince agrega ve mineral fillerin belli gradasyon limitleri 
+arasında işyeri karışım formülü esaslarına uygun olarak, bitümlü bağlayıcı ile bir plentte 
+karıştırılarak yeterli bitümlü kaplamalar ve beton kaplamalar üzerine bir tabaka halinde uygun 
+sıcaklıkta projesinde plan, profil ve enkesitlere uygun olarak taş mastik asfalt (TMA) kaplama 
+yapılmasından bahseder. 
+408.02 Kapsam 
+Taş mastik asfalt karışımına giren agregalar, bitümlü malzemeler ve diğer katkılardan aranan 
+özellikler, gradasyon limitleri, işyeri karışım formülü esasları, inşa metodu, arazi ve laboratuvar 
+kontrolleri ve diğer koşullar bu kısımda ve
+--------------------------------------------------
+SAyfa 892 | Hits: Beton Sınıfı
+KISIM 506 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-506/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+506/7 
+ 
+olmak suretiyle; 3000 mm, 4000 mm ve 6000 mm boyunda; H3 sınıfında 810 mm yüksekliğinde; 
+H4a ve H4b sınıflarında 1200 mm yüksekliğinde üretilir.  
+Üretilen beton otokorkuluk elemanları Şekil-506-4’e uygun olacaktır. 
+Beton birimler en çok %0,5 toleransla, verilen ölçülerde ve profillerde olacaktır. 
+506.04.02 Malzeme 
+Sözleşmede aksine bir hüküm bulunmadıkça, beton otokorkuluk elemanları aşağıda gösterilen 
+malzemelerden üretilecektir. 
+506.04.02.01 Çimento 
+Kullanılacak Çimento, Kısım 308 “Beton İşleri” nde belirtilen özelliklere ve TS EN 197-1 
+standardına uygun olmalıdır.  
+506.04.02.02 Agrega 
+Beton karışımında kullanılacak agreganın tipi; granülometrisi, fiziksel ve mekanik özellikleri         
+--------------------------------------------------
+SAyfa 912 | Hits: Beton Sınıfı
+ KISIM 510  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-510/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+510/1 
+510. PREFABRİK ÇİT DİREKLERİ 
+510.01 Tanım 
+Bu kısım; karayolu tesislerinin korunmasını sağlamak için bu tesislerin etrafına prefabrik dik çit 
+direği ile prefabrik eğik çit direği yapılmasını kapsar.  
+510.02 Prefabrik Betonarme Dik Çit Direği 
+Projesinde belirtilen esaslar dahilinde ve Şekil-510-1’de gösterildiği şekilde 2,5 m uzunluğunda, 
+düz, alt tabanı 14 cm, üst tabanı 8 cm genişliğinde olacak şekilde içerisinde nervürlü demirlerden 
+25 cm adım aralığı ile oluşturulan spiral etriyeli demir donatı bulunan betonarme dik çit direği, beton 
+elemanı üretim tesisinde hazırlanarak gerekli görülen yerlere yerleştirilecektir.  
+510.02.01 Yapım Şartları 
+Prefabrik çit direği imalatı için; projesinde bel
+--------------------------------------------------
+SAyfa 913 | Hits: Beton Sınıfı
+ KISIM 510  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-510/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+510/2 
+Beton karışımından numune alınması ve laboratuvar deneylerinin yapılması, Kısım 308 “Beton 
+İşleri” ve Kısım 309 “Demir İşleri”nde belirtilen esaslara uygun olacaktır.  
+510.03  Prefabrik Betonarme Eğik Çit Direği  
+Projesinde belirtilen esaslar dahilinde ve Şekil-510-2’de gösterildiği şekilde, 2,5 m’si düz ve 0,5 
+m’si 45º açılı olacak şekilde, içerisinde nervürlü demirlerden 25 cm adım aralığı ile oluşturulan 
+spiral etriyeli demir donatı bulunan, betonarme eğik çit direği beton elemanı üretim tesisinde 
+hazırlanarak gerekli görülen yerlere yerleştirilecektir.  
+510.03.01 Yapım Şartları 
+Prefabrik çit direği imalatı için; projesinde belirtilen esaslar doğrultusunda gerekli makine ve 
+teçhizat tesis
+--------------------------------------------------
+SAyfa 917 | Hits: Beton Sınıfı
+KISIM 511 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                  Kısım-511/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+511/2 
+Düşey kenarlara üst, orta ve alt olmak üzere üçer adet montaj deliği sağ ve sol kenarlarda farklı ara 
+mesafelere sahip olacak şekilde açılacak, kare profil, belirtilen boyda düz olarak kesilecek, üste 
+gelecek ucu t = 5 mm kalınlığında lama demiri ile kapatılacaktır. Kaynak fazlalıkları temizlenecek, 
+sağ ve soldan pano montajı için uygun olacak şekilde altı adet, üst kısma dikenli tel gerilmesi için 
+üç adet delik açılacaktır.  
+Galvanizli kafes tel dışındaki imalat, projesinde belirtilen şekilde boyanacak, cıvata ve bulonlar 
+hazır hale getirilecektir. 
+İmalatı tamamlanan kafes tel çit panosu, çit direkleri vb. malzeme, işyerinde İdarenin gösterdiği 
+şekilde depo edilecektir. 
+Daha sonra direklerin d
+--------------------------------------------------
+SAyfa 975 | Hits: Beton Sınıfı
+ KISIM 521  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-521/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+521/2 
+Dikme, payanda ve kuşaklamada kullanılan malzemeler TS 11348 EN 10240 standardına uygun 
+olacaktır. 
+Dikme, payanda ve kuşaklamada kullanılan malzemeler TS EN 1179 standardına uygun külçe çinko 
+kullanılarak TS EN ISO 1461’e göre 505 g/m² olacak şekilde sıcak daldırma usulü ile 
+galvanizlenmesi yapılmış olacaktır. 
+Paneller üstten ve alttan PVC kapakla kapatılacaktır. Panellerin et kalınlığı minimum 1,00 mm 
+olacaktır. Diğer ölçüleri ilişikteki şekillerde görüldüğü gibi olacaktır. 
+Temel betonu en az C 30/37 MPa sınıfı olacaktır. Betonda kesinlikle granülometrik kırma taş 
+malzeme kullanılacaktır.  
+521.02.04 Boyutlar ve Şekil 
+Çelik tel üzerine PVC kaplı kar siperlerinin şekli ekteki şekiller olup,
+--------------------------------------------------
+SAyfa 983 | Hits: Beton Sınıfı
+ KISIM 521  
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-521/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+521/10 
+Dikme profillerinin üstündeki açık kısım boyutuna uygun beyaz renkli PVC kapak ile kapatılacaktır.  
+Dikme, payanda ve kuşaklamada kullanılan malzemeler TS 11348 EN 10240 standardına uygun 
+olacaktır. 
+Dikme, payanda ve kuşaklamada kullanılan malzemeler TS EN 1179 standardına uygun külçe çinko 
+kullanılarak TS EN ISO 1461’e göre 505 g/m² olacak şekilde sıcak daldırma usulü ile 
+galvanizlenmesi yapılmış olacaktır. 
+Temel betonu en az C 30/37 sınıfı olacaktır. Betonda kesinlikle granülometrik kırma taş malzeme 
+kullanılacaktır.  
+521.03.04 Boyutlar ve Şekil 
+PVC kaplı çelik tel içerisine yerleştirilmiş CTP kar siperlerinin şekli ekteki şekiller olup, boyutları 
+ise Tablo-521-4’de  (Münferit tek boy m
+--------------------------------------------------
+SAyfa 993 | Hits: Beton Sınıfı
+KISIM 522 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-522/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+522/2 
+ABS kaplı demir boru kar direklerinin şekil, boyut ve boyama detayları ile çakma aparatı ile ilgili 
+detaylar Şekil-522-2 ve Şekil-522-3’de belirtilmiştir. 
+522.02.03 CTP (Cam Takviyeli Polyester) Kar Direği 
+CTP kar direği, cam elyaf takviyeli polyesterden imal edilir. Direklerin tamamı yangına dayanıklı, 
+kendi kendini söndürebilir tipte olmalıdır. Cam Elyaf Takviyeli Polyester (CTP) direkler; turuncu 
+renkli (RAL2011), 3 metre uzunluğunda, 51 mm dış çapında ve 4 mm et kalınlığında, kar yağışının 
+yoğun olduğu yerlerde kullanılmak üzere ve toprağın kimyevi aşındırmalarına karşı yüksek 
+dayanıklılık gösterecek şekilde imal edilmiş olacaktır. 
+Cam elyaf takviyeli polyesterden imal edilen kar direğinin 
+--------------------------------------------------
+SAyfa 994 | Hits: Beton Sınıfı
+KISIM 522 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-522/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+522/3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Reflektif 
+malzemeReflektif 
+malzemeReflektif 
+malzemeReflektif 
+malzeme
+Siyah renk 
+boyalı
+Turuncu
+renk boyalı
+Siyah renk 
+boyalı
+Beyaz renk 
+boyalı500 mm 1000 mm 500 mm 500 mm 500 mm3000 mm
+Demir Boru Direk      
+(ØR-3000 mm)Plastik kapak
+50 mm
+70 mm
+380 mm
+50 mm
+70 mm
+380 mm
+50 mm
+70 mm
+380 mm
+50 mm
+70 mm
+880 mm
+Demir Boru Kar Direği Önden GörünüşA A
+C30/37 MPa Betonu
+(250*250 mm 
+enkesitinde)
+250 mm100 mm
+Temel betonu; kar 
+direğinin çakılmasının 
+mümkün olmadığı 
+zeminlerde yapılacaktır.RDış çap: Et Kalınlığı:
+R=51mm (± 0,5  mm)     2,5 mm (±0,05 mm) YOGT < 1000
+R=63mm (± 0,5 mm)   3,5 mm (±0,05 mm) YOGT < 1000
+Demir Boru Boyama DetayıDemi
+--------------------------------------------------
+SAyfa 995 | Hits: Beton Sınıfı
+KISIM 522 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-522/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+522/4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Reflektif 
+malzemeReflektif 
+malzemeReflektif 
+malzemeReflektif 
+malzeme
+Siyah renkli 
+ABS plastik
+Turuncu renkli 
+ABS plastik
+Siyah renkli
+ABS plastik
+Beyaz renkli 
+ABS plastik500 mm 1000 mm 500 mm 500 mm 500 mm3000 mm
+Demir Boru Direk      
+(Ø51-3000 mm)ABS plastik kapak
+50 mm
+70 mm
+380 mm
+50 mm
+70 mm
+380 mm
+50 mm
+70 mm
+380 mm
+50 mm
+70 mm
+880 mm
+ABS Kaplamalı Demir Boru Kar Direği Önden GörünüşDemir bilezik 
+(Ø61-5 mm kalınlık)A A
+C30/37 MPa Betonu
+(250*250 mm enkesitinde)
+250 mm100 mm
+Temel betonu; kar direğinin 
+çakılmasının mümkün olmadığı 
+zeminlerde yapılacaktır.
+ABS Plastik Boru
+Ø61Demir Boru 
+Ø51 2
+--------------------------------------------------
+SAyfa 997 | Hits: Beton Sınıfı
+KISIM 522 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-522/Rev.23/1215   
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+522/6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Reflektif 
+malzemeReflektif 
+malzemeReflektif 
+malzemeReflektif 
+malzeme
+CTP Direk      
+(Ø51-3000 mm)CTP kapak57 43 7 43 7 43 7 88
+CTP Kar Direği Yerleşim DetayıA A
+C30/37 MPa Betonu
+(250*250 mm enkesitinde)
+25Temel betonu; kar 
+direğinin çakılmasının 
+mümkün olmadığı 
+zeminlerde yapılacaktır."250 40300
+1010Ölçüler cm dir.CTP Direk      
+(Ø51-3000 mm)CTP kapak57 43 7 43 7 43 7 88
+CTP Kar Direği Görünüş 290 1030010Reflektif 
+malzeme
+Ölçüler cm dir."
+CTP Boru
+Ø51
+3 mm
+3 mm45 mm
+A-A KesitiKırmızı
+Reflektif
+70x81 mm Beyaz
+Reflektif
+70x81 mm10 mm15 mm45 mm2 mm
+3 mm
+3 mm
+2 mm
+CTP Kapak Kesiti55 mm
+Ş
+ekil-522-4 C
+TP K
+ar
+--------------------------------------------------

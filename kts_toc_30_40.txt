@@ -1,0 +1,557 @@
+--- SAYFA 30 ---
+
+KISIM 102 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım -102/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılam az.  
+102/2 
+İşin yapımı için gereken her türlü plan ve proje İdare tarafından veya İdarece gerek görülmesi halinde 
+yüklenici  tarafından  hazırlanacaktır. Projeler tamamlanıp İdare tarafından onaylanmadan işe 
+başlanmayacaktır.  
+102.04 Yapım Aşamasında Hazırlanan Projeler  
+Yapım aşamasında ortaya çıkan problemlerin çözümü için proje çalışması yapılmadan önce, problemi 
+tanımlayıp, nedenlerini ve çözümüne yönelik farklı alternatifleri gerekçeleri ile ortaya koyan kavram 
+projeleri hazırlanacaktır. 
+Kavram projeleri uygulanacak alternatifin seçimini kolaylaştırmaya yönelik gerekli bilgileri ve 
+çizimleri içerecek şekilde hazırlanarak İdareye sunulacaktır. Sunulan alternatifler öncelikle İdare ve 
+varsa Müşavir firma tarafından yapım süresi, yapım emniyeti, maliyet,  kamulaştırma vb . kriterlere 
+göre değerlendirilecek ve bu değerlendirme sonucuna göre seçilecek alternatif için “Uygulama  
+Projesi” hazırlatılacaktır.  
+Hazırlanacak plan ve projelerde; kot ve koordinat bilgilerinin yanı sıra, yapılacak imalata ait detay 
+bilgiler, imalat aşamaları, hendek, kazı vb. işler için gereken detaylar, trafik işaretleme projesi, mevcut 
+yapıların yakınında yapılacak imalatlar için alınacak önlemler vb. gibi tüm hususlar belirtilecektir.  
+Yüklenici tarafından  hazırlanacak her türlü plan, proje ve hesaplamalar işin yapılmasından önce en az 
+4 takım olarak İdarenin onayına sunulacaktır. Plan, proje ve hesaplamalarda İdare tarafından revizyon 
+istenilmesi durumunda, gerekli düzeltmeler yapıldıktan sonra İdareye tekrar onaya gönderilecektir.  
+Kontrol mühendisliği, yapım detayları, uygulanacak inşaat yöntemi vb. hususlarda açıklık sağlanması 
+amacıyla ek plan, proje ve hesaplamalar isteyebilir. İdare tarafından onaylanmış plan ve projelerin, iş 
+yerinde veya imalatta uygulanması sırasında yapılacak değişikliklerden önce yüklenici  İdareden  yazılı 
+izin alacaktır. 
+102.05 Yapım Araçları ve Ekipmanları için Yük ve Hız Sınırlamaları  
+Yüklenici; proje alanına veya proje alanından dışarıya yapılacak her türlü malzeme, makine ve 
+ekipman nakli için yasal yük ve trafik hız sınırlamalarına uyacaktır.  
+Nakliye kamyonları; üzerine yüklenen malzemenin taşarak dökülmesini, nakliye sırasında kaybını 
+önleyecek şekilde yüklenecektir. Kamyonlar ve iş makin elerini n alttemel, temel ve üstyapı tabakaları 
+üzerinden geçişlerinin, bu tabakalarda hasar oluşturmayacak şekilde düşük trafik hızında olması 
+sağlanacaktır.  
+Kontrol mühendisliği  tarafından izin verilmedikçe çalışma alanı içerisinde yeni yapılan sanat yapıları 
+ve üstyapılar üzerinden aşırı yüklenmiş taşıtlar, makine ve ekipman geçmeyecektir.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 31 ---
+
+ KISIM 103 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-103/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+103/1 
+103. MALZEMENİN KONTROLÜ VE MUHAFAZASI  
+103.01 Tanım  
+Bu kısım; yol yapımında kullanılacak her türlü malzemenin kontrolü ve muhafaza edilmesini kapsar.  
+103.02  Malzeme Ocakları ve Nitelikleri 
+Yol ve sanat yapılarının yapımı için gereken malzeme projede belirtilen veya yüklenici tarafından 
+bulunup İdare tarafından uygun görülen ocaklardan temin edilecektir. Yüklenici yola malzemeyi 
+getirmeden önce malzeme için gereken test ve incelemenin yapılması için Kontrol Mühendisliğine 
+haber verecektir. Malzeme yola getirilmeden önce ocakta kabul edilebilir. Ancak proje süresince 
+malzeme niteliğinde oluşabilecek olumsuz değişikliklerden dolayı, ocağın kullanımına izin 
+verilmeyebilir. 
+103.03 Numune Alınması ve Deneyler 
+Yol ve sanat yapıları inşaatında kullanılacak her bir ocak malzemesinden ikişer adet numune alınıp 
+mühürlenecek; bu numunelerden birisi yolun kesin kabulü tamamlanıncaya kadar İdarece, diğeri ise 
+şantiyede muhafaza edilecektir. 
+Bütün malzeme, kullanılmadan önce Kontrol Mühendisliği tarafından muayene edilerek kabul 
+edilecek ve gerekli görüldükçe deneyleri yapılacaktır. Kontrol Mühendisliği tarafından 
+kullanılmasına izin verilmeyen malzeme ile yapılan işler kabul edilmeyecektir. 
+Ocaktan alınan numuneler üzerine ocak verimi ve yolda kullanılacağı kilometre kesim sınırları 
+yazılacak ve bu sınırlar içinde numunelerden daha düşük nitelikte malzeme kullanılmayacaktır. 
+Numuneler; Kontrol Mühendisliğinin denetimi altında alınacak ve bu iş için gerekli işçilik ve 
+malzeme vb. giderler yükleniciye ait olacak ve bunun için İdare hiçbir ödeme yapmayacaktır. 
+103.04 Malzemenin Muhafazası ve Kullanılması 
+Malzeme, sahip olduğu nitelikler ve kalitesi bozulmayacak, eksilmeyecek ve değişmeyecek şekilde 
+iş yerinde muhafaza edilecektir. Malzemeyi sudan, yağmurdan, rutubetten, soğuktan, sıcaktan vb. 
+zararlı her türlü tesirden korumak üzere depolarda gereken önlemler alınacak ve tesisler yeterli hale 
+getirilecektir. İş yerinde kontrolü yapılmış ve stoklanmış malzeme, imalatta kullanılmadan yeniden 
+kontrol edilecek ve malzemede hiçbir bozukluğun olmaması sağlanacaktır. 
+Yüklenicinin malzemeyi sahipli arazide depo edebilmesi için bu yerlerin sahiplerinden yazılı izin 
+alması gereklidir. Arazi sahibi ile yapılan izin anlaşmasının bir örneği İdareye verilecektir. Depo 
+yerleri, burada bulunan malzemenin alınarak kullanılmasından sonra yüklenici tarafından bütün 
+masraflar kendisine ait olmak üzere temizlenecek, yeniden düzenlenecek ve eski haline 
+getirilecektir. 
+İş bitimine müteakip, İdareye ait malzeme ocak sahası içerisinde, stokta kırılmış agrega var ise 
+yüklenici tarafından ilgili Bölge Müdürlüğüne bağlı en yakın şube şefliğine veya uygun depo 
+alanına çekilerek muhafaza altına alınacaktır. Muhafaza altına alınan agrega şube şefi ve işin 
+Kontrol Mühendisliği tarafından kayıt altına alınacaktır. 
+Depolanmış dolgu malzemesi, agregalar, sathi kaplama mıcırı, çimento, demir, drenaj borusu, katkı 
+ve stabilizasyon malzemeleri, bitüm vb. tüm malzemenin güvenliğinden yüklenici sorumludur.  
+ 
+--- SAYFA 32 ---
+
+  KISIM 104 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-104/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+104/1 
+104.  PATLAYICI MADDELERİN TAŞINMASI, DEPOLANMASI  VE KULLANILMASI 
+104.01 Tanım   
+Bu kısım; patlayıcı maddelerin taşınması, depolanması ve kullanılması sırasında uyulması gerekli 
+kuralları kapsar.  
+Patlayıcı maddelerin taşınması, depolanması ve kullanılması konularında uyulması gereken kurallar 
+aşağıdaki mevzuatta mevcuttur:  
+i. 87/12028 sayılı “Tekel Dışı Bırakılan Patlayıcı Maddelerle Av Malzemesi ve Benzerlerinin 
+Üretimi, İthali, Taşınması, Saklanması, Depolanması, Kullanılması, Satışı, Yok Edilmesi, 
+Denetlenmesi Usul ve Esaslarına İlişkin Tüzük”. 
+ii. 19 Eylül 2013 tarih ve 28770 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren “Maden 
+İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği” 
+Yukarıda belirtilen mevzuat hükümleri ile bunların ek ve değişiklikleri yasal zorunluluk olmakla 
+birlikte, bu şartnamede belirtilen hususlara da uyulacaktır. 
+87/12028 sayılı tüzük hükümleri uyarınca patlayıcı madde kullanacak kurum ve kuruluşlar 
+Valiliklerden “Patlayıcı Madde Satın Alma ve Kullanma İzin Belgesi” almak zorundadır. Patlayıcı 
+madde satın alma ve kullanma izin belgesi almayan firma patlayıcı madde kullanamaz ve patlatma 
+yapamaz. 
+104.02 Patlayıcı Maddelerin Taşınması 
+Patlayıcı maddelerin işletme sahası dışından (örneğin bölgedeki herhangi bir tedarikçi bayinin 
+deposundan ya da başka bir işletmenin deposundan) işin yapıldığı işletme sınırına ve/veya işletme 
+sahasındaki depolara taşınması için 87/12028 sayılı tüzüğün 53. maddesine göre Taşıma İzin 
+Belgesi alınacaktır. Ancak aynı maddenin son paragrafındaki hüküm uyarınca taşıtla taşınan ve iki 
+yüz elli kilogramı geçmeyen aynı işyeri sınırları içerisindeki taşımalarda (örneğin işletme 
+sahasındaki depodan atım yapılacak sahaya) işyeri amirinin sorumluluğunda taşıma izin belgesi 
+almaya gerek yoktur. 
+Patlayıcı maddelerle kapsüllerin aynı taşıma aracı üzerinde taşınmaları yasaktır. Taşıma sorumlu bir 
+memurun ve güvenlik güçlerinin nezareti altında yapılacaktır. Sadece, 87/12028 sayılı tüzüğün 58. 
+maddesine göre aynı il sınırları içerisinde veya il sınırı dışına 50 km’den çok çıkmayan taşımalar 
+için, toplam üç yüz kilogramı geçmemek ve kapsüller ile patlayıcı maddelerin farklı bölümlerde 
+olması koşuluyla aynı araçta taşıması yapılabilir. Bununla birlikte ADR Belgesine sahip araçlarla İl 
+Emniyet Müdürlüklerinden Taşıma İzin Belgesi alınarak aynı araçta farklı bölmelerde kapsül ve 
+patlayıcı taşınabilir. 
+104.03 Patlayıcı Maddelerin Depolanması  
+Patlayıcı maddeler sadece yasal izinleri alınmış ve Patlayıcı Madde Satın Alma ve Kullanma İzin 
+Belgesi üzerinde belirtilen depolarda korunmalıdır. Depolama için ilgili yasal mevzuatın 
+gereklilikleri yerine getirilmek suretiyle şantiye sahasına depo kurulabileceği gibi, bölge 
+yakınlarındaki mevcut bir depodan muvafakat da alınabilir. Başka bir depodan muvafakat alınması 
+durumunda atım günü sahaya gelen malzeme aynı gün tüketilmelidir. Eğer tüketilemiyorsa 
+düzenlenecek bir tutanakla alındığı depoya geri götürülmelidir. 
+Patlayıcı madde depoları, sürekli, geçici ve gezici olmak üzere 3 gruba ayrılır. Depoların yapımı, 
+her türlü mesken, çalışma mahalli veya umuma ait yollara olan güvenlik mesafesi, inşa ve tesisat 
+--- SAYFA 33 ---
+
+  KISIM 104 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-104/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+104/2 
+özellikleri, kapasitesi, depolama şartları, havalandırma vb. konularda ilgili tüzük hükümlerine 
+uyulmalıdır. 
+ 
+104.04 Patlayıcı Maddelerin Kullanılması  
+Yetkili olmayan hiç bir şahıs, patlayıcı maddeleri kullanamaz. Patlayıcı maddelerin ateşlenmesinde 
+görev alacak kişiler, geçerli “Ateşleyici Yeterlik Belgesi”ne sahip olacaktır. Yer üstü patlatmaları 
+için B-sınıfı, yer altı ve tünel patlatmaları için C-sınıfı belge sahibi ateşleyici çalıştırılacaktır. 
+Ateşlemeyi yapacak belge sahibi ateşçi, firmanın Patlayıcı Madde Satınalma ve Kullanma İzin 
+Belgesine yazılmış olacaktır. 
+Lağım deliklerinin aralığı ve delik derinlikleri büyük patarlar oluşmayacak şekilde düzenlenecek ve 
+lağım delikleri ancak ateşlenecekleri zaman doldurulacaktır. Kartuşlar biçimleri bozulmadan, 
+oldukları gibi kullanılır ve lağım deliklerine zorla sokulmaz. Lağım deliklerinin doldurulmasında 
+ahşap çubuklar kullanılacaktır. Dinamit kapsülleri kartuşlara kullanılacağı zaman takılmalıdır. 
+Elektrikle ateşlemede; ateşlemeden önce bağlantılar önce gözle sonra bu iş için uygun patlatma 
+ohmmetresi ile kontrol edilmelidir. Elektrikli kapsüllerin ve devrenin test edilmesi sırasında 
+kesinlikle manyeto kullanılmayacaktır. Uygun patlatma ohmmetresi ile test edilen devrede herhangi 
+bir akım kaçağının ve/veya arızalı kapsülün bulunmadığından emin olunacaktır. Ölçülen devre 
+direnci eldeki mevcut manyetonun kapasitesi ile uyumlu olmalıdır. Maden İşyerlerinde İş Sağlığı 
+ve Güvenliği Yönetmeliği’ne göre ölçülen devrenin toplam direnci manyeto kapasitesinin yarısı 
+kadar olmalıdır. 
+Ateşleme işi sadece manyeto ile yapılacaktır. Bu iş için pil, akü, şehir gerilimi vb. herhangi bir 
+kaynak kullanılmayacaktır. 
+Patlatma yapılmadan önce emniyet sahası belirlenerek güvenlik önlemleri alınmalı ve atım sahasına 
+giden tüm yollara görevli yerleştirilerek girişe kapatılmalıdır. Ateşleyici, çevreyi uyarmalıdır. Daha 
+sonra ateşlemenin yapılacağı emniyetli bir mesafedeki sığınma yerine kadar çekilen kablolar 
+manyetoya bağlanmalıdır. Kırmızı bayraklarla lağımın patlatılması anında bir işaret ve patlamanın 
+sonunda diğer bir işaret verilecektir. Patlatmadan önce siren çalınarak yakın çevredeki kişiler 
+uyarılır. Son işaretten evvel hiç bir memur, işçi veya şahsın emniyet sahası içerisine girme yetkisi 
+yoktur.  
+Ateşlemeden sonra patlamayan delik bulunursa ve ateşleme hatları deliğin dışarısında görünür 
+durumdaysa delikteki kapsül hattının sağlam olup olmadığının kontrolü yapılır. Elektrikle 
+ateşlemede patlatma ohmmetresi ile, elektriksiz ateşlemede gözle ve elle kontrol yapılır. Eğer hat 
+sağlam ise bu patlamayan delikler tekrar bağlanarak patlatılır. Ancak bu sırada ilk ateşleme için 
+belirlenen güvenlik mesafeleri arttırılır. 
+87/12028 sayılı tüzük hükmü uyarınca, ateşlemeden sonra patlamayan bir lağım bulunursa ve 
+bundan kuşku duyulursa, fitille ateşleme işleminde en az bir saat, elektrikle ateşleme işleminde ise 
+beş dakika süre geçmeden patlatma alanına kimse girmeyecektir. Patlamamış patlayıcı madde 
+artıkları; bir nezaretçinin sorumluluğu altında, olanak varsa, o lağımı delen usta tarafından, 
+patlamamış lağım deliğinin en az 30 cm yakınında, ona paralel başka bir delik delinip doldurulacak 
+ve ateşlenerek patlatılacaktır. 
+Deliklerin delinmesi, doldurulması, ateşlenmesi ve pasanın kaldırılması sırasında, çalışma alanında 
+görevlilerden başkasının bulunması yasaktır. Ateşleyici, lağım deliğinde kalan patlamamış patlayıcı 
+maddeleri zararsız hale getiremez ise çalışmayı durdurur; ekiplerin değişmesine rastlaması halinde 
+--- SAYFA 34 ---
+
+  KISIM 104 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-104/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+104/3 
+kendisinden sonraki ateşleyiciye durumu bildirerek işi teslim eder ve şantiye şefine gerekli bilgileri 
+bizzat verir. 
+Patlamamış kartuş ve kapsüller bulunması olasılığına karşı; pasalar elle kaldırılır, kartuş ve 
+kapsüller aranır, kürek, kazma vb. metal ve sivri uçlu aletler kullanılmaz. 
+Patlayıcı maddelerle çalışan Mühendis, Teknisyen ve İşçilere patlayıcı maddeler ve güvenlik 
+önlemleri konusunda eğitim verilerek ilgili yasa ve yönetmelikler kendilerine verilecektir. 
+Atım yapılacak sahanın yakınlarında patlatmalarda etkilenebilecek insan toplulukları, bina, tarihi 
+eser, fabrika, mühendislik yapısı veya herhangi bir hassas unsur varsa uzman kuruluşlardan destek 
+alınarak önce birkaç deneme patlatması ve bu atımlar sırasında sarsıntı ve hava şoku ölçümleri 
+yapılmalıdır. Elde edilen değerler ulusal ve uluslararası benzer standartlar çerçevesinde 
+değerlendirilerek patlatma dizaynı ve her defasında patlatılacak delik sayısı, gecikme başına en fazla 
+devreye girecek miktar gibi konular belirlenmelidir. Yukarıda belirtilen hassas unsurların 
+yakınlarında yapılacak patlatmalardan önce uzman kuruluşlardan patlatma yöntemini, aynı anda 
+patlatılabilecek azami patlayıcı madde miktarını, kaya fırlamasına karşı önlemleri ve hesaplamaları 
+içeren detaylı bir rapor hazırlatılmadan işe başlanamaz. Bu unsurların yakınlarında yapılan 
+patlatmalardan kaynaklı titreşim değerleri sürekli ölçülmeli ve ölçülen değerlerin belirlenmiş sınır 
+değerlerin altında kalması sağlanmalıdır. 
+Elektrik yüklü şimşekli havalarda kesinlikle patlatma operasyonu durdurulmalıdır. Yıldırım düşme 
+tehlikesi olan havalarda kullanılan ateşleme sistemine bakılmaksızın patlatma işi durdurulacaktır. 
+Kapalı ancak elektriksel tehlikenin olmadığı durumlarda elektriksiz ateşleme sistemleri kullanılarak 
+patlatma yapılabilir. Ancak havanın aniden değişmesi ve şimşek çakması gibi riskler mevcut ise 
+ve/veya bundan kuşku duyulursa derhal patlatma işi durdurularak atım bölgesi uygun işaretlerle 
+çevrilir ve personel  güvenli bölgeye alınır. Elektriksel tehlike geçinceye kadar beklenir. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- SAYFA 35 ---
+
+ KISIM 105 
+  
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-105/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+105/1 
+105.  ÇEVRENİN KORUNMASI 
+105.01 Tanım 
+Bu kısım; çevrenin korunması ile ilgili hususları kapsar. Kuruluşumuza ait yol projeleri, malzeme 
+ocakları, asfalt plent tesisleri, kırma eleme tesisleri vb. tesisler için yürürlükteki çevre mevzuatı 
+gereği; Çevresel Etki Değerlendirmesi (ÇED) Raporu, Proje Tanıtım Dosyası (PTD), Doğaya 
+Yeniden Kazandırma Planı (DYKP), Çevre Yönetim Planı (ÇYP) ve benzeri çevre ile ilgili raporlar 
+hazırlanmaktadır. 
+Çevrenin korunması ve Çevre Kanunu ve ilgili yönetmeliklere göre cezai müeyyidelere (faaliyetin 
+durdurulması, para cezası vb.) maruz kalınmaması için ÇED Raporu/Proje Tanıtım Dosyası ve diğer 
+raporlarda Kuruluşumuz adına taahhüt edilen hususlara uygun olarak çalışılması, gerekli izin, onay 
+ve ruhsatların yüklenici tarafından alınması gerekmektedir. 
+105.02. Çevrenin Korunması ile İlgili Uyulması Gereken Hususlar 
+• ÇED/PTD raporlarında verilen ÇED izin alanı dışında çalışma yapılmayacak, çalışma sahaları 
+poligon taşları, çit vb. ile çevrilecek, ÇED/PTD raporlarında verilen kapasite miktarlarına 
+uyulacaktır. 
+• Ocaklarda açık ocak işletmeciliği yapılacak, patlatmalar basamak patlatma şeklinde yapılarak, 
+basamak yüksekliklerine ve şev eğimlerine uyulacaktır. 
+• ÇED/PTD raporlarında verilen su kullanım miktarlarına uyulacak ve içme kullanma sularının 
+alınacağı yer konusunda ilgili kuruluşlardan izin alınacaktır.  
+• Maden Kanunu, Maden Yönetmeliği ve Maden Atıkları Yönetmeliği hükümlerine uyulacak; 
+Maden Atıkları Yönetim Planı hazırlanarak, tüm patlatma işlemleri daimi nezaretçi kontrolünde 
+yapılacak, ÇED/PTD raporlarında verilen patlayıcı miktarına uyulacaktır. 
+• Patlayıcı, Parlayıcı, Tehlikeli ve Zararlı Maddelerle Çalışılan İşyerlerinde ve İşlerde Alınacak 
+Tedbirler Hakkında Yönetmelik hükümlerine uyulacaktır.  
+• Tekel Dışı Bırakılan Patlayıcı Maddelerle Av Malzemesi ve Benzerlerinin Üretimi, İthali, 
+Taşınması, Saklanması, Depolanması, Satışı, Kullanılması, Yok Edilmesi, Denetlenmesi Usul 
+ve Esaslarına İlişkin Tüzük hükümlerine uyulacak; patlayıcıların alınması, taşınması, 
+patlatmanın yapılması için güvenlik güçlerinden izin alınacak ve yöre halkına gerekli duyurular 
+yapıldıktan sonra patlatma yapılacaktır.  
+• Su Kirliliği Kontrolü Yönetmeliği Teknik Usuller Tebliği ve Lağım Mecrası İnşası Mümkün 
+Olmayan Yerlerde Yapılacak Çukurlara Ait Yönetmelik hükümlerine uyulacak, faaliyet 
+alanında oluşacak evsel atık sular projesine uygun şekilde su sızdırmaz, üstü kapalı ve 
+havalandırmalı foseptik çukurlarında toplanacaktır.  
+• Su Ürünleri Yönetmeliğine uyulacak; su ürünleri istihsal ve üreme sahalarının faaliyet alanında 
+bulunması durumunda ilgili kuruluştan gerekli izinler alınacaktır.  
+• Yeraltı Sularının Kirlenmeye ve Bozulmaya Karşı Korunması Hakkında Yönetmelik ve 167 
+sayılı “Yeraltı Suları Hakkındaki Kanun” hükümlerine uyulacak; faaliyet alanında  yeraltı 
+sularının kalitesi ve miktarı olumsuz etkilerden korunarak, ilgili kuruluştan görüş alınacaktır.  
+• Dere Yatakları ve Taşkınlar Genelgesine uyulacak; dere yataklarının yakınında yapılan 
+faaliyetlerde ilgili kuruluştan görüş alınacaktır. 
+• Yerüstü Su Kalitesi Yönetmeliği hükümlerine uyulacaktır. 
+• Sulak Alanların Korunması Yönetmeliği hükümlerine uyulacak, sulak alan koruma bölgeleri 
+içinde kalan faaliyetlerimizin yürütülmesi sırasında bu alanlara müdahalede bulunulmayacak, 
+--- SAYFA 36 ---
+
+ KISIM 105 
+  
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-105/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+105/2 
+bu alanlar kirletilmeyecek, doğal yapıları ve ekolojik karakteri korunacak ve sulak alan kullanım 
+izni alınacaktır. 
+• Kıyı Kanunu hükümlerine uyulacak; yapı yasağı getirilen alanlara dikkat edilecektir. 
+• Çevresel Gürültünün Değerlendirilmesi ve Yönetimi Yönetmeliği hükümlerine uyulacak, 
+faaliyetler ve patlatma yönetmelikte belirtilen zaman aralığında yapılacak, ocak alanında ve 
+şantiyede yapılacak çalışmalarda bu yönetmelikte belirlenen ve raporlarda verilen sınır değerler 
+aşılmayacaktır. 
+• Sanayi Kaynaklı Hava Kirliliğinin Kontrolü Yönetmeliği hükümlerine uyulacak, ocaklarda 
+yapılan kırma, eleme, taşıma ve yol yapım çalışmaları sırasında, adı geçen yönetmeliklerde 
+verilen sınır değerler aşılmayacak, faaliyetler sırasında toz çıkışının önlenmesi için kırıcı, elek, 
+taşıyıcı bantlar gibi toz çıkışının yoğun olduğu yerlerde bu tesislerin üzeri kapatılacak, yapım 
+halindeki yollarda ve ocak servis yollarında sulama yapılacak ve emisyon izni alınacaktır. 
+• Hava Kalitesi Değerlendirme ve Yönetimi Yönetmeliği hükümlerine uyulacak, yapılacak 
+çalışmalarda hava kalitesi sınır değerleri aşılmayacaktır. 
+• Egzoz Gazı Emisyonu Kontrolü Yönetmeliği hükümlerine uyulacak, araçların bakımları ve 
+kontrolleri düzenli yapılacaktır. 
+• Atıkların Düzenli Depolanmasına Dair Yönetmeliğe uyulacak, yapılacak olan kazılardan 
+çıkacak kazı fazlası malzeme bölgedeki izinli döküm alanlarına götürülecektir. 
+• Atık Elektrikli ve Elektronik Eşyaların Kontrolü Yönetmeliği hükümlerine uyulacak, faaliyetler 
+sırasında kullanılacak hasar görmüş elektrikli malzemeler, perçinler, makine parçaları, elektrik 
+kabloları vb. atıklar, şantiye alanı içerisinde uygun bölgelerde toplanarak bunları değerlendiren 
+çevre lisanslı kuruluşlara verilecektir. 
+• Katı Atıkların Kontrolü Yönetmeliği hükümlerine uyulacak, faaliyet alanında ve şantiyede 
+oluşacak evsel nitelikli katı atıklar, ağzı kapaklı çöp konteynerlerinde biriktirilecek, biriktirilen 
+çöpün uygun araçlarla nakliyesi gerçekleştirilip belediyenin uygun gördüğü atık depolama 
+tesislerinde bertarafı sağlanacak, geri kazanılabilir olanlar ayrı ayrı toplanarak geri kazanımı 
+sağlanacaktır. 
+• Ambalaj Atıklarının Kontrolü Yönetmeliği hükümlerine uyulacak, her türlü ambalaj malzemesi 
+çevreyi kirletmeyecek ve üzerindeki kalıntılar çevreye bulaşmayacak şekilde ayrı toplanıp 
+sızdırmaz zemin üzerinde saklanacak şekilde depolanacak, tehlikeli atıkla bulaşık olan (boya 
+kutuları, III. Kategori atık yağ vb.) ambalajlar lisanslı tesislere verilecektir. 
+• Atık Yağların Kontrolü Yönetmeliği hükümlerine uyulacak, iş makinelerinin yağ ve filtre 
+değişimleri en yakın akaryakıt istasyonunda yapılacak, bunun mümkün olmadığı durumlarda, iş 
+makinelerinden kaynaklanacak filtreler ile atık yağlar, faaliyet alanında toprağa dökülmeyecek, 
+ağzı kapaklı sızdırmaz kaplarda toplanacak ve lisanslı bir kuruluş tarafından en yakın tesise 
+gönderilerek bertarafı sağlanacaktır. 
+• Bitkisel Atık Yağların Kontrolü Yönetmeliği hükümlerine uyulacak, bitkisel atık yağlar diğer 
+atık madde ve çöplerden ayrı olarak sızdırmaz kaplarda biriktirilerek lisanslı taşıyıcılarla işleme 
+tesislerine gönderilecek ve sevkiyatta ulusal atık taşıma formu kullanılması sağlanacaktır. 
+• Tehlikeli Atıkların Kontrolü Yönetmeliği hükümlerine uyulacak, tehlikeli atıklar (yağ filtresi, 
+yağlı maddeler, patlatma veya parlama riski olan maddeler vb.) ayrı toplanıp tehlike 
+yaratmayacak, sızmayacak ve bulaşmayacak şekilde depolanacak ve lisanslı kuruluşlarca 
+bertarafı sağlanacaktır. 
+• Ömrünü Tamamlamış Lastiklerin Kontrolü Yönetmeliği hükümlerine uyulacak ve ömrünü 
+tamamlamış lastikler doğaya zarar verecek biçimde alıcı ortama gelişi güzel bırakılmadan geri 
+kazanım kuruluşlarına verilecektir. 
+• Atık Pil ve Akümülatörlerin Kontrolü Yönetmeliği hükümlerine uyulacak, eski akümülatörler 
+akümülatör ürünlerinin dağıtım ve satışını yapan işletmeler ve araç bakım-onarım yerlerini 
+işletenlerin oluşturduğu geçici depolama yerlerine teslim edilecektir. 
+--- SAYFA 37 ---
+
+ KISIM 105 
+  
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-105/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+105/3 
+• Tıbbi Atıkların Kontrolü Yönetmeliği hükümlerine uyulacak, faaliyet alanındaki sağlık 
+biriminden kaynaklı atıklar sızdırmasız, özel nitelikli poşetlerde toplanarak lisanslı kuruluşlara 
+verilecektir. 
+• Toprak Kirliliğinin Kontrolü ve Noktasal Kaynaklı Kirlenmiş Sahalara Dair Yönetmelik 
+hükümlerine uyulacak, faaliyetler sırasında toprağı kirletecek her türlü atık ve artık, toprağa 
+zarar verecek şekilde doğrudan ve dolaylı biçimde toprağa verilmeyecek, depolanmayacak, kirli 
+toprak ile temiz toprak karıştırılmayacaktır. 
+• Hafriyat Toprağı, İnşaat ve Yıkıntı Atıklarının Kontrolü Yönetmeliği hükümlerine uyulacak, 
+faaliyetler sırasında bitkisel toprak ayrı olarak depolanacak, kayıpların önlenmesi, kalitesinin 
+korunması sağlanacak ve/veya peyzaj ve doğaya kazandırma çalışmalarında kullanılacaktır. 
+• Orman Kanunu 17/3 ve 18 inci Maddelerinin Uygulama Yönetmeliği hükümlerine uyulacak, 
+orman sayılan yerlerdeki yol ve tesislerimiz için gerekli izinler alınacaktır. 
+• Orman Sayılan Alanlarda Verilecek İzinler Hakkında Yönetmelik ile Orman Kanunu'nun 16’ncı 
+Maddesinin Uygulama Yönetmeliği hükümlerine uyulacak, orman alanı sayılan yerlerdeki 
+faaliyetler için gerekli izinler alınacaktır. 
+• Tarım Arazilerinin Korunması, Kullanılması ve Planlanmasına Dair Yönetmelik hükümlerine 
+uyulacak, tarım alanlarında izin alınmadan çalışma yapılmayacaktır. 
+• Mera Kanunu ve Mera Yönetmeliği hükümlerine uyulacak, faaliyetin mera alanlarından geçen 
+kısımları için yatırıma başlanmadan önce gerekli izinler alınacak, mera alanlarında izin 
+alınmadan çalışma yapılmayacaktır. 
+• Madencilik Faaliyetleri ile Bozulan Arazilerin Doğaya Yeniden Kazandırılması Yönetmeliği 
+hükümlerine uyulacak, faaliyetlerimiz sırasında hazırlanacak Doğaya Yeniden Kazandırma 
+Planına uyulacak, faaliyet sonrası çevre koşullarına uyum sağlanacak, güvenli bir ortam 
+oluşturulacak ve döküm ile depolama alanlarında gerekli düzenlemeler yapılacaktır. 
+• Kum-Çakıl ve Benzeri Maddelerin Alınması, İşletilmesi ve Kontrolü Yönetmeliği hükümlerine 
+uyulacak, dere yatağının doğal formu bozulmayacak, belirlenecek talveg kotundan daha fazla 
+derine inilmeyecek, malzeme alımında derenin akış rejimi değiştirilmeyecek, malzeme alınan 
+sahaya atık bırakılmayacak, malzemelerin alımı ve sahanın işletilmesi faaliyetlerine ilişkin ilgili 
+kuruluştan görüş alınacaktır. 
+• 4857 sayılı “İş Kanunu” ve diğer ikincil mevzuat hükümlerine uyulacak, güvenlik önlemleri 
+alınacaktır. 
+• Kamulaştırma Kanunu hükümlerine uyulacaktır. 
+• Binaların Yangından Korunması Hakkında Yönetmelik hükümlerine uyulacak, yangın 
+tehlikesine karşı önlem alınacak, şantiyede yangın söndürmeye yönelik araçlar bulundurulacak, 
+yangın konusunda, işçilere gerekli uyarılar yapılarak eğitimler verilecektir. 
+• Çevre İzin ve Lisans Yönetmeliği hükümlerine uyulacak, faaliyet sonucu çevre kirliliğine neden 
+olan ve denetime tâbi tesisin faaliyetinin mevzuata uygunluğunu, alınan tedbirlerin etkili olarak 
+uygulanıp uygulanmadığını değerlendiren çevre görevlisi bulundurulacak ve geçici faaliyet 
+belgesi, çevre izin ve lisans belgeleri alınacaktır. 
+• Çevre Denetimi Yönetmeliği hükümlerine uyulacak, çevre görevlisi tesis içi yıllık iç tetkik 
+programları düzenleyecektir. 
+• İşyeri Açma ve Çalıştırma Ruhsatlarına İlişkin Yönetmelik hükümlerine uyulacak, iş yeri açma 
+ve çalışma ruhsatı alınacak ve sağlık koruma bandı mesafesi belirlenecektir. 
+• İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve Güvenlik Önlemlerine İlişkin Yönetmelik 
+hükümlerine uyulacak, olabilecek kazalara karşı şantiyede ilkyardım malzemeleri 
+bulundurulacaktır. 
+• Kültür ve Tabiat Varlıklarını Koruma Kanunu hükümlerine uyulacak, faaliyet alanının 
+çevresinde herhangi bir kültür varlığı, tabiat varlığı, sit ve koruma alanına zarar verilmeyecek; 
+herhangi bir kültür varlığına rastlandığı takdirde çalışma durdurularak ilgili kurumlara haber 
+--- SAYFA 38 ---
+
+ KISIM 105 
+  
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                    Kısım-105/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+105/4 
+verilecek, faaliyet alanında benzersiz özellikteki jeolojik ve jeomorfolojik oluşumlara zarar 
+verilmeyecektir. 
+• Bern Sözleşmesinin hükümlerine uyulacak, faaliyet alanındaki habitatlara, flora ve fauna 
+türlerine, göçmen kuşlara zarar verilmeyecektir. 
+• Kara Avcılığı Kanunu hükümlerine uyulacak, yaban hayatı koruma sahaları ile yaban hayatı 
+geliştirme sahaları korunacak, her yıl kurulan Merkez Av Komisyonu (MAK) tarafından alınan 
+o yılki av dönemine ilişkin kararlara uyulacaktır. 
+• Orman ve Su İşleri Bakanlığınca Belirlenen Av ve Yaban Hayvanları Tür Listeleri Kararı’na 
+uyulacak, koruma altına alınmış yaban hayvanları hususuna dikkat edilecektir. 
+• Nesli Tehlike Altında Olan Yabani Hayvan ve Bitki Türlerinin Uluslararası Ticaretine İlişkin 
+Sözleşme (CITES) ve CITES Uygulama Yönetmeliği hükümlerine uyulacaktır. 
+• Milli Parklar Kanunu hükümlerine uyulacak; Milli Park, Tabiat Parkı, Tabiat Anıtı ve Tabiatı 
+Koruma Alanlarının özellik ve karakterleri korunacaktır. 
+İşlerin yapımı sırasında veya yüklenicinin işleri yürütememesi sonucunda herhangi bir ihmal ve 
+kusurundan dolayı kamu ya da şahsa ait mülkiyete doğrudan veya dolaylı olarak zarar gelmesi veya 
+hasar görmesi durumunda, yüklenici, masrafları kendisi tarafından karşılanmak üzere, yürürlükteki 
+mevzuatlara göre hasarı onararak, tekrar inşa ederek veya restorasyon yaparak söz konusu 
+mülkiyeti, zarar veya hasarın yapılmasından önceki durumuna benzer veya aynı düzeye getirecek 
+biçimde onaracaktır. 
+Yol yapımı ve işletme esnasında; 2872 sayılı Çevre Kanunu ile bu kanuna istinaden çıkarılan 
+yönetmeliklerin ilgili hükümlerine uyulacak ve diğer mer’i mevzuat çerçevesinde gerekli izinler 
+alınarak, Çevresel Etki Değerlendirmesi (ÇED) veya Proje Tanıtım Dosyası (PTD) hazırlanmakta 
+olan faaliyetlerimiz için "ÇED Olumlu" veya "ÇED Gerekli Değildir" kararı alınmadan uygulamaya 
+başlanılmaması sağlanacak, çevrenin korunmasına yönelik tedbirlere riayet edilecektir. 
+ 
+ 
+--- SAYFA 39 ---
+
+ KISIM 106 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-106/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+106/1 
+106. YAPI MALZEMELERİ MEVZUATI UYGULAMALARI, CE VE G İŞARETİ 
+106.01 Tanım 
+Bu kısım; “Yapı Malzemeleri Yönetmeliği (305/2011/AB)” ve “Yapı Malzemelerinin Tabi Olacağı 
+Kriterler Hakkında Yönetmelik” kapsamında bulunan ve yol imalatında kullanılmak üzere 
+piyasadan şantiyeye hazır olarak temin edilen her türlü ürünün bu Yönetmeliklerde belirtilen şartlara 
+göre kabulünde uyulacak usul ve esasları kapsar. 
+Bu kısımda geçen tanımlar aşağıda verilmiştir. 
+Bakanlık:  Çevre, Şehircilik ve İklim Değişikliği Bakanlığı 
+Yönetmelik:  Yapı Malzemeleri Yönetmeliği 
+Avrupa Teknik Değerlendirmesi:  Tâbi olduğu bir uyumlaştırılmış standart ve/veya ulusal standart 
+bulunmayan veyahut Avrupa Birliği Komisyonu tarafından standart hazırlanması öngörülmeyen 
+malzemelere ilişkin olarak, Avrupa Teknik Onay Organizasyonunca oluşturulan ortak esaslara, 
+bunlar yoksa Açıklayıcı Dokümanlara göre verilen kullanıma uygunluk belgesini,  
+Uyumlaştırılmış Standart:  Ülkelerin milli standartları arasındaki farklılıkların giderilmesi 
+amacıyla, Avrupa Komisyonunun talebi üzerine, Avrupa standardizasyon kuruluşlarından (CEN, 
+CENELEC, ETSI) biri tarafından hazırlanarak kabul edilen ve Avrupa Birliği Resmi Gazetesinde 
+yayımlanarak yürürlüğe giren standardı,  
+Uyumlaştırılmış Ulusal Standart:  Türk Standardları Enstitüsünün, uyumlaştırılmış standartlar 
+arasından Türk Standardı olarak uyumlaştırarak kabul ettiği standardı, 
+Uyumlaştırılmış Teknik Şartname:  Uyumlaştırılmış standartları ve Avrupa Değerlendirme 
+Esaslarını, 
+ifade eder.  
+Çevre ve Şehircilik Bakanlığı tarafından yayınlanan “Yapı Malzemeleri Yönetmeliği” ve “Yapı 
+Malzemelerinin Tabi Olacağı Kriterler Hakkında Yönetmelik” hükümlerine göre 
+uyumlaştırılmış teknik şartnamesi eş varlık dönemini tamamlamış ürünlerin “CE” işareti ile 
+uyumlaştırılmış teknik şartnamesi olmayan ürünlerin ise “G” işareti ile piyasaya arz edilmesi 
+zorunludur. G işareti taşıyan bir ürün, uyumlaştırılmış teknik şartnamesinin hazırlanması ve eş 
+varlık dönemini tamamlaması durumunda CE işareti ile piyasaya arz edilmeye başlanmaktadır.  
+106.02 Yapı Malzemeleri Mevzuatı Gereğince Şantiyede Yapılması Gereken Faaliyetler 
+1. Yüklenici, şantiyeye hazır olarak gelen yapı malzemelerinin temin edileceği üreticinin ilgili 
+uyumlaştırılmış ürün standardına göre CE veya G işaretlemesi olduğunu gösteren dokümanları 
+İdareye sunacaktır. Yüklenici aynı yapı malzemesini birden fazla üreticiden temin edecekse, 
+üreticisi veya türü farklı her yapı malzemesi için CE veya G işaretlemesine ait gerekli 
+dokümanları İdareye sunacaktır.  
+2. Yüklenici, kullanacağı yapı malzemesi üreticisinin performans beyanının dayanağı olarak 
+düzenleyeceği, Yapı Malzemeleri Yönetmeliği uyarınca performans değişmezliğinin 
+değerlendirilmesi ve doğrulanması sisteminin gerektirdiği bütün unsurları içeren “Teknik 
+Dosya”sının bir örneğini idareye sunacaktır.  
+3. Teknik dosya, uygulanabilir her durumda, asgari olarak; ürüne ait genel tanımlama, tasarıma ait 
+çizimler, ürünlerin üretim sürecine ilişkin bilgiler, ürüne ait teknik şartnamelerin listesi ve/veya 
+--- SAYFA 40 ---
+
+ KISIM 106 
+ 
+ 
+ 
+Bu Teknik Şartname Karayolları Genel Müdürlüğünün                                                                                                                                   Kısım-106/Rev.23/1215  
+izni olmadan kısmen veya tamamen kopyalanıp çoğaltılamaz.  
+106/2 
+ilgili direktif şartname listesi, ürünün ilgili direktifte öngörülen temel gerekleri karşılaması için 
+gerekli kalite faktör değerleri, ürünün test, belge ve raporları, varsa muayeneler, ürün tipinin 
+tespiti raporu (ITT) veya performans değişmezliği sonuçları raporları (onaylanmış kuruluş 
+tarafından düzenlenen), varsa kalite güvence sistem belgesi ve/veya fabrika üretim kontrol 
+sistemi dokümantasyonu (kalite kontrol planı, laboratuvar donanım listesi, üretim yeri akış 
+şeması, paketleme ve depolama durumu, ürün izlenebilirliğinin tanımı (piyasa ve depolama 
+dâhil), ürünün dış etken ve diğer malzemelerle karışımını engelleyici tedbirler, üretim ve ürün 
+kontrolünün sağlandığı doküman listesi, deney metot listesi), performans beyanı ve ürün tiplerine 
+ait CE veya G Etiketi kopyalarını içerecektir. 
+4. Şantiyeye gelen her bir yapı malzemesi üzerine CE veya G işareti iliştirilmiş olacaktır. CE veya 
+G işareti, yapı malzemesinin doğrudan üzerine veya etiketine görünür, okunaklı ve kalıcı bir 
+şekilde iliştirilmiş olacaktır. Malzemenin özelliğinden dolayı bu mümkün değil ise, malzemenin 
+ambalajına veya ekli belgelere iliştirilebilir. 
+5. CE işareti; sırası ile ilk kez konulduğu yılın son iki rakamını, imalâtçının adını ve kayıtlı adresini 
+veya imalâtçının adını ve adresini kolayca tanımlayan işaretini, karışıklığa mahal vermeden ürün 
+tipine has tanımlama kodunu, performans beyanının referans numarasını, beyan edilen 
+performansın seviyesini veya sınıfını, uygulanan uyumlaştırılmış teknik şartname numarasını, 
+mevcut ise onaylanmış kuruluşun kimlik numarasını ve malzemenin tâbi olduğu uyumlaştırılmış 
+teknik şartnamede yer alan kullanım amacına ilişkin bilgileri ihtiva edecektir. 
+6. Şantiyeye gelen Yönetmeliğe tabi her yapı malzemesinin CE veya G işareti taşıyıp taşımadığının 
+kontrol edilmesi, işaretlemenin mevcut veya ilgili standarda göre uygun olmaması durumunda 
+yapı işinde kullandırılmaması ve Bakanlığın 2010/8 sayılı Genelgesine  göre “Şantiyede Yapı 
+Malzemeleri Denetimi Tutanağı”nın doldurularak il teşkilatlarına bilgi verilmesi, 
+7. Yapı malzemesinin işaretlemesinin ve beraberinde beyan edilen performans değerlerinin ilgili 
+standardına ve bu şartnamenin gereklerine uygun olması durumunda yapı işinde kullandırılması, 
+8. Yapı malzemesinin beyan edilen performans değerlerinin, bu şartnamenin gereklerine uygun 
+olmaması durumunda yapı işinde kullandırılmaması ve Madde 6’ya göre işlem yürütülmesi, 
+9. Yapı malzemesinin ilgili standardına uygun olup olmadığı konusunda şüpheye düşülmesi 
+durumunda TS EN ISO/IEC 17025 standardı koşullarını sağlayan bir laboratuvarda deney 
+yaptırılması ve deney sonuçlarının uygun çıkması durumunda malzemenin kullandırılması, 
+uygun çıkmaması durumunda Madde 1’e göre işlem yürütülmesi, 
+10. Yapıda kullanımına izin verilen malzemeler için Bakanlığın 2010/8 sayılı Genelgesine  göre 
+“Yapıda Kullanılan Malzemelere Ait Kontrol Formu” doldurularak bir nüshasının ekleri ile 
+birlikte yapı kullanma ruhsatı vermeye yetkili İdareye teslim edilmesi ve diğer nüshasının kontrol 
+sorumlusu tarafından ekleri ile birlikte 10 yıl süreyle muhafaza edilmesi sağlanacaktır.  
+11. CE veya G işareti yapı malzemesinin temel güvenlik (çevre, güvenlik ve sağlık) gereksinimlerini 
+karşıladığının ve beyan edilen performans seviyesine uygun olduğunun üretici tarafından beyanı 
+olup, tek başına kullanım amacına uygun olduğu anlamını taşımaz. Bu nedende yapı 
+malzemesinin ilgili şartname kısmında belirtilen nitelikler için yeterli sayıda kalite kontrol 
+testleri yapılarak şartnameye uygunluğunun kontrol edilmesi gerekmektedir. 
+Not:  Yapı Malzemeleri Mevzuatı Bakanlığın internet sitesinden takip edilmeli ve değişiklik olması 
+durumunda güncel uygulamalara göre işlem yürütülmelidir. 
