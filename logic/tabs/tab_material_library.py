@@ -5,7 +5,7 @@ from logic.engineering import calculate_passing
 
 def render_tab_1(elek_serisi):
     st.subheader("1. Fraksiyonel Deney Verileri (Tartım Esaslı)")
-    materials = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
+    materials = ["Kaba Elek (19-25)(15-25)", "Orta Kaba (7-19)(5-15)", "İnce No:1 (0-7)(0-5)", "İnce No:2 (0-5)(0-7)"]
     current_rhos, current_was, current_las, current_mbs, computed_passing, active_mats, all_ri_values = [], [], [], [], {"Elek (mm)": elek_serisi}, [], {}
     
     col_f = st.columns(4)

@@ -133,7 +133,7 @@ def generate_pdf_raporu(snapshot):
     was = material_data.get("was", [0.0]*4)
     las = material_data.get("las", [0.0]*4)
     mbs = material_data.get("mbs", [0.0]*4)
-    mats = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
+    mats = ["Kaba Elek (19-25)(15-25)", "Orta Kaba (7-19)(5-15)", "İnce No:1 (0-7)(0-5)", "İnce No:2 (0-5)(0-7)"]
     
     for i in range(len(mats)):
         r = rhos[i] if i < len(rhos) else 0.0
@@ -320,7 +320,7 @@ def generate_kgm_raporu(snapshot):
     was = material_data.get("was", [0]*4)
     las = material_data.get("las", [0]*4)
     mbs = material_data.get("mbs", [0]*4)
-    mats = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
+    mats = ["Kaba Elek (19-25)(15-25)", "Orta Kaba (7-19)(5-15)", "İnce No:1 (0-7)(0-5)", "İnce No:2 (0-5)(0-7)"]
     
     for i in range(4):
         if i < len(rhos):

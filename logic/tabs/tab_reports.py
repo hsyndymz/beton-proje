@@ -127,7 +127,7 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
         
         if project_data and project_data.get("rhos"):
             # Malzeme özellikleri tablosu
-            materials = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
+            materials = ["Kaba Elek (19-25)(15-25)", "Orta Kaba (7-19)(5-15)", "İnce No:1 (0-7)(0-5)", "İnce No:2 (0-5)(0-7)"]
             
             material_df = pd.DataFrame({
                 "Malzeme": materials,

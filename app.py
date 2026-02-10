@@ -78,7 +78,7 @@ if not st.session_state['authenticated']:
     st.markdown("""
         <div class="footer-info">
             <b>Hazırlayan&Tasarlayan : Hüseyin DUYMAZ</b><br>
-            <b>Bilgi&İrtibat için : 05345435940</b>
+            <b>Bilgi&İrtibat için    : 05345435940</b>
         </div>
     """, unsafe_allow_html=True)
     st.stop()
@@ -291,7 +291,7 @@ from logic.engineering import SIEVE_SETS, CONCRETE_RULES
 hedef_sinif = st.session_state.get('hedef_sinif', 'C30/37')
 dmax_val = st.session_state.get('dmax_val', 31.5)
 elek_serisi = SIEVE_SETS.get(dmax_val, SIEVE_SETS[31.5])
-materials = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
+materials = ["Kaba Elek (19-25)(15-25)", "Orta Kaba (7-19)(5-15)", "İnce No:1 (0-7)(0-5)", "İnce No:2 (0-5)(0-7)"]
 
 # CONCRETE_RULES engineering.py'dan import edildi.
 
@@ -476,7 +476,7 @@ with st.sidebar:
         litho_options = [
             "Bazalt (Diyarbakır/Gaziantep)",
             "Kalker (Mardin/Şanlıurfa)",
-            "Dere Malzemesi (Dicle/Fırat)",
+            "Dere Malzemesi (Dicle/Fırat/vb.)",
             "Kalker (Standart)",
             "Bazalt (Standart)",
             "Granit"
@@ -489,7 +489,7 @@ with st.sidebar:
     litoloji = st.selectbox("Agrega Litolojisi", [
         "Bazalt (Diyarbakır/Gaziantep)",
         "Kalker (Mardin/Şanlıurfa)",
-        "Dere Malzemesi (Dicle/Fırat)",
+        "Dere Malzemesi (Dicle/Fırat/vb.)",
         "Kalker (Standart)",
         "Bazalt (Standart)",
         "Granit"
@@ -515,7 +515,9 @@ with st.sidebar:
     from logic.engineering import EXPOSURE_CLASSES, ASR_LITHOLOGY_RISK
     col_dur1, col_dur2 = st.columns(2)
     with col_dur1:
-        exp_class = st.selectbox("Çevresel Etki Sınıfı (TS EN 206)", list(EXPOSURE_CLASSES.keys()), index=list(EXPOSURE_CLASSES.keys()).index(st.session_state.get('exposure_class', 'XC3')), key="exposure_class")
+        if 'exposure_class' not in st.session_state:
+            st.session_state['exposure_class'] = 'XC3'
+        exp_class = st.selectbox("Çevresel Etki Sınıfı (TS EN 206)", list(EXPOSURE_CLASSES.keys()), key="exposure_class")
         st.caption(f"ℹ️ {EXPOSURE_CLASSES[exp_class]['desc']}")
     with col_dur2:
         # Litolojiye göre varsayılan ASR riskini öner
@@ -573,10 +575,10 @@ active_p = st.session_state.get('active_plant', 'merkez')
 current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
 
 # --- ANA PANEL ---
-tab_titles = ["🔍 Malzeme", "⚖️ Karışım", "🔬 Karşılaştırma", "📜 Şartname", "✅ Kontrol"]
+tab_titles = ["🔍 Elek Veris", "⚖️ Dizayn Oranı", "🔬 Karşılaştırma", "📜 Rapor", "✅ Kırım ve Analiz verisi"]
 
 if is_super_admin:
-    tab_titles.extend(["🏢 Kurumsal", "⛰️ Ocak", "🤖 Eğitim", "👥 Kullanıcılar"])
+    tab_titles.extend(["🏢 Santral Verileri", "⛰️ Ocak Bilgileri", "🤖 Ai Eğitim", "👥 Kullanıcılar"])
 
 tabs = st.tabs(tab_titles)
 tab1, tab2, tab_comp, tab3, tab4 = tabs[0:5]
