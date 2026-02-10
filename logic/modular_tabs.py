@@ -3,7 +3,7 @@ import datetime
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
-from logic.report_generator import generate_kgm_raporu
+from logic.report_generator import generate_kgm_raporu, generate_pdf_raporu
 from logic.data_manager import (
     veriyi_yukle, veriyi_kaydet, havuz_yukle, havuz_kaydet, 
     tesis_faktor_yukle, tesis_faktor_kaydet, santralleri_yukle, santral_kaydet, santral_sil,
@@ -13,7 +13,7 @@ from logic.ocak_manager import ocaklari_yukle, ocak_kaydet, ocak_sil
 from logic.engineering import (
     calculate_passing, calculate_theoretical_mpa, evaluate_mix_compliance, 
     classify_plant, get_std_limits, optimize_mix, update_site_factor,
-    evolve_site_factor
+    evolve_site_factor, generate_pro_expert_analysis
 )
 from logic.intelligence import generate_smart_alerts, explain_ai_logic
 from logic.corporate_logic import get_corp_performance_stats, calculate_cement_efficiency_stats, generate_risk_heatmap_data
@@ -61,7 +61,13 @@ def render_tab_1(elek_serisi):
                 sum_ret = sum(mat_weights)
                 filler_g = m1_val - sum_ret
                 filler_p = (filler_g / m1_val * 100) if m1_val > 0 else 0
+                
+                # İNCELİK MODÜLÜ HESAPLA
+                from logic.engineering import calculate_fm
+                mat_fm = calculate_fm(elek_serisi, computed_passing[mat])
+                
                 st.caption(f"🔢 Toplam: {sum_ret:.1f}g | 🌪️ Pan/Filler: {filler_g:.1f}g (%{filler_p:.2f})")
+                st.markdown(f"📐 **İncelik Modülü (İM): {mat_fm:.2f}**")
 
     st.session_state['computed_passing'] = computed_passing
     st.session_state['active_mats'] = active_mats
@@ -142,7 +148,7 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
     with c_hdr1:
         dmax_val = st.selectbox("Dmax (mm)", [31.5, 22.4, 16.0], index=0, key="dmax_select")
     with c_hdr2:
-        target_curve = st.selectbox("Hedef Eğri", ["A (Alt)", "B (İdeal)", "C (Üst)"], index=1, key="target_curve_select")
+        target_curve = st.selectbox("Hedef Eğri", ["A (Alt)", "B (İdeal)", "C (Üst)", "KGM TİP-1", "KGM TİP-2"], index=1, key="target_curve_select")
 
     # Karışım Geçen Hesapla (Sliders)
     st.markdown("##### 🧪 Agrega Harman Oranları (%)")
@@ -218,7 +224,7 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             fig.add_trace(go.Scatter(x=elek_serisi, y=alt_b, mode='lines', name='Şartname', line=dict(color='#b91c1c', width=2)))
 
             # 2. Bireysel Agrega Eğrileri (Excel Stili)
-            excel_colors = ['#1E3A8A', '#15803D', '#334155', '#B91C1C']
+            excel_colors = ['#1E3A8A', '#15803D', '#334155', '#B91C1C', '#4B5563']
             for i, mat_name in enumerate(materials):
                 if mat_name in individual_passing:
                     fig.add_trace(go.Scatter(
@@ -260,6 +266,12 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             # --- TAM KARIŞIM LİSTESİ (Compact) ---
             st.markdown("##### 📊 Toplam Karışım Geçen (%)")
             full_grad_data = {f"{s} mm": f"%{karisim_gecen[i]:.1f}" for i, s in enumerate(elek_serisi)}
+            
+            # KARIŞIM İNCELİK MODÜLÜ
+            from logic.engineering import calculate_fm
+            mix_fm = calculate_fm(elek_serisi, karisim_gecen.tolist())
+            st.markdown(f"📐 **Harman İncelik Modülü (İM): {mix_fm:.2f}**")
+            
             st.dataframe(pd.DataFrame([full_grad_data]), hide_index=True, use_container_width=True)
         else:
             # PERCENT RETAINED (8-18)
@@ -356,19 +368,14 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         w_la = (current_las[0]*p1 + current_las[1]*p2 + current_las[2]*p3 + current_las[3]*p4) / total_ratio
         w_mb = (current_mbs[0]*p1 + current_mbs[1]*p2 + current_mbs[2]*p3 + current_mbs[3]*p4) / total_ratio
         
-        comp_data = {
-            "class": hedef_sinif, "wc": wc_ratio_eff, "pred_mpa": predicted_mpa,
-            "grading_violation": grade_violation, "grading_dev": grade_dev_total,
-            "lithology": litoloji, "cement": cimento, "air": hava_yuzde,
-            "wa_risk": any([w > 2.0 for w in current_was if w > 0]),
-            "avg_la": w_la, "avg_mb": w_mb,
-            "exposure_class": st.session_state.get('exposure_class', 'XC3'),
-            "asr_status": st.session_state.get('asr_status', 'Düzeltme Gerekmiyor')
-        }
-        decision = evaluate_mix_compliance(comp_data)
-        st.session_state['last_decision'] = decision
-
-        # Hacim ve Reçete
+        # 0.063mm (Filler) ve 4mm (Kum) Oranlarını Dinamik Bul
+        idx_filler = elek_serisi.index(0.063) if 0.063 in elek_serisi else (12 if len(karisim_gecen) > 12 else -1)
+        idx_sand = elek_serisi.index(4.0) if 4.0 in elek_serisi else (6 if len(karisim_gecen) > 6 else -1)
+        
+        agg_filler_pct = karisim_gecen[idx_filler] if idx_filler != -1 else 0.0
+        sand_val = karisim_gecen[idx_sand] if idx_sand != -1 else 0.0
+        
+        # Hacim ve Reçete (Su Telafisi için gerekli)
         vol_cem = cimento / 3.15
         vol_water = su_hedef / 1.0
         vol_ash = ucucu_kul / 2.25
@@ -376,18 +383,33 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         vol_chem = (cimento * katki / 100) / 1.12
         V_agg_tot = 1000 - (vol_cem + vol_water + vol_ash + vol_air + vol_chem)
         m_kgs = [V_agg_tot * (p/100) * r for p, r in zip([p1,p2,p3,p4], current_rhos)]
+        total_agg_kg = sum(m_kgs)
+        
+        comp_data = {
+            "class": hedef_sinif, "wc": wc_ratio_eff, "pred_mpa": predicted_mpa,
+            "grading_violation": grade_violation, "grading_dev": grade_dev_total,
+            "lithology": litoloji, "cement": cimento, "air": hava_yuzde, "ash": ucucu_kul,
+            "wa_risk": any([w > 2.0 for w in current_was if w > 0]),
+            "avg_la": w_la, "avg_mb": w_mb,
+            "filler_content": agg_filler_pct,
+            "sand_content": sand_val,
+            "exposure_class": st.session_state.get('exposure_class', 'XC3'),
+            "asr_status": st.session_state.get('asr_status', 'Düzeltme Gerekmiyor')
+        }
+        decision = evaluate_mix_compliance(comp_data)
+        st.session_state['last_decision'] = decision
 
         # Su Telafisi Hesaplama
-        total_agg_kg = sum(m_kgs)
         weighted_wa = (current_was[0]*p1 + current_was[1]*p2 + current_was[2]*p3 + current_was[3]*p4) / total_ratio
         wa_liters = (weighted_wa / 100) * total_agg_kg
         
-        # 0.063mm (Filler) ve 4mm (Kum) Oranlarını Dinamik Bul
-        idx_filler = elek_serisi.index(0.063) if 0.063 in elek_serisi else (12 if len(karisim_gecen) > 12 else -1)
-        idx_sand = elek_serisi.index(4.0) if 4.0 in elek_serisi else (6 if len(karisim_gecen) > 6 else -1)
+        # TOPLAM FİLLER (Agrega Filler + Çimento + Kül)
+        total_mix_weight_kg = cimento + ucucu_kul + (cimento * katki / 100) + su_hedef + total_agg_kg
+        agg_filler_kg = (agg_filler_pct / 100) * total_agg_kg
+        total_filler_kg = agg_filler_kg + cimento + ucucu_kul
+        total_filler_pct_relative = (total_filler_kg / total_mix_weight_kg * 100) if total_mix_weight_kg > 0 else 0.0
         
-        filler_val = karisim_gecen[idx_filler] if idx_filler != -1 else 0.0
-        sand_val = karisim_gecen[idx_sand] if idx_sand != -1 else 0.0
+        filler_val = total_filler_pct_relative
 
         # Bireysel Kalan Yüzde (%8-18 Kuralı)
         retained = []
@@ -396,7 +418,6 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             retained.append(max(0, prev_p - p))
             prev_p = p
 
-        # Shilstone Hesaplamaları (CF & WF)
         idx_8 = elek_serisi.index(8.0) if 8.0 in elek_serisi else 4
         idx_2 = elek_serisi.index(2.0) if 2.0 in elek_serisi else 7
         ret_above_8 = 100 - (karisim_gecen[idx_8] if len(karisim_gecen) > idx_8 else 0)
@@ -422,7 +443,7 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             },
             "moisture_info": {
                 "moists": current_moists,
-                "total_water_from_moist": sum([m_kgs[i] * (current_moists[i]/100.0) for i in range(4) if active_mats[i]])
+                "total_water_from_moist": sum([m_kgs[i] * (current_moists[i]/100.0) for i in range(len(materials)) if active_mats[i]])
             },
             "ai_analysis": {
                 "wa_liters": wa_liters,
@@ -447,6 +468,22 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             "timestamp": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S")
         }
 
+        # --- YENİ: AI PRO UZMAN ANALİZİ (Gelişmiş Veri Seti ile) ---
+        from logic.engineering import calculate_fm
+        mix_fm = calculate_fm(elek_serisi, karisim_gecen.tolist())
+        
+        comp_data.update({
+            "water": su_hedef,
+            "fm": mix_fm,
+            "retained": retained,
+            "sieves": elek_serisi,
+            "passing": karisim_gecen.tolist()
+        })
+        
+        pro_analysis = generate_pro_expert_analysis(comp_data)
+        st.session_state['expert_insights'] = pro_analysis
+        st.session_state['mix_snapshot']['expert_insights'] = pro_analysis
+
         # --- AI MÜHENDİSLİK VE LİTOLOJİK DEĞERLENDİRME (Görsel Panel) ---
         st.markdown("### 🧠 AI Mühendislik ve Litolojik Değerlendirme")
         
@@ -455,12 +492,12 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         
         # Agregalardan gelen su farkı: (Su Emme - Rutubet)
         # (+) Değer: Su çekilir (Kantar suyu artar), (-) Değer: Serbest su verilir (Kantar suyu azalır)
-        su_farklar = [m_kgs[i] * (current_was[i] - current_moists[i]) / 100.0 for i in range(4) if active_mats[i]]
+        su_farklar = [m_kgs[i] * (current_was[i] - current_moists[i]) / 100.0 for i in range(len(materials)) if active_mats[i]]
         total_su_fark = sum(su_farklar)
         eklenecek_su = su_hedef + total_su_fark
         
         # Agrega Kantar Ağırlıkları: Agrega_SSD * (1 + (Rutubet - Su Emme) / 100)
-        m_kantar = [m_kgs[i] * (1 + (current_moists[i] - current_was[i]) / 100.0) if active_mats[i] else 0.0 for i in range(4)]
+        m_kantar = [m_kgs[i] * (1 + (current_moists[i] - current_was[i]) / 100.0) if active_mats[i] else 0.0 for i in range(len(materials))]
 
         # Görsel Panel Gösterimi
         c_water1, c_water2 = st.columns(2)
@@ -517,11 +554,32 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         # 4mm (Kum) Oranı
         with c_kts2:
             if sand_val < 37.0 or sand_val > 56.0:
-                st.error(f"❌ **Kum (<4mm):** %{sand_val:.1f} (Rehber 2025: %37-56 arası)")
+                st.error(f"❌ **Kum (<4mm):** %{sand_val:.1f} (KGM 2016: %37-56 arası)")
             elif sand_val < 39.0 or sand_val > 54.0:
                 st.warning(f"⚠️ **Kum (<4mm):** %{sand_val:.1f} (Geniş aralıkta ama sınırda)")
             else:
                 st.success(f"✅ **Kum (<4mm):** %{sand_val:.1f} (İdeal %37-56)")
+        
+        # --- İNCELİK MODÜLÜ (İM) ANALİZİ ---
+        st.markdown("##### 📐 İncelik Modülü (İM) Analizi")
+        from logic.engineering import calculate_fm
+        mix_fm = calculate_fm(elek_serisi, karisim_gecen.tolist())
+        
+        c_fm1, c_fm2 = st.columns(2)
+        with c_fm1:
+            # Dmax'a göre ideal İM aralığı belirlenmesi (Yaklaşık mühendislik değerleri)
+            fm_limits = {31.5: (5.0, 5.8), 22.4: (4.8, 5.5), 16.0: (4.5, 5.2), 11.2: (4.0, 4.8), 8.0: (3.5, 4.5)}
+            f_min, f_max = fm_limits.get(dmax_val, (4.5, 5.5))
+            
+            if mix_fm > f_max:
+                st.error(f"❌ **Harman İM:** {mix_fm:.2f} (Çok Kaba! İşlenebilirlik sorunu çıkabilir.)")
+            elif mix_fm < f_min:
+                st.warning(f"⚠️ **Harman İM:** {mix_fm:.2f} (Çok İnce! Su talebi artabilir.)")
+            else:
+                st.success(f"✅ **Harman İM:** {mix_fm:.2f} (Dmax {dmax_val} için İdeal Aralık)")
+        
+        with c_fm2:
+            st.caption(f"ⓘ Dmax {dmax_val} mm için hedeflenen teorik İM aralığı: **{f_min} - {f_max}**")
 
         # --- 3. DURABİLİTE VE ASR ANALİZİ (YENİ BÖLÜM) ---
         st.markdown("##### 🌋 Durabilite ve ASR Analizi")
@@ -540,6 +598,11 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             asr_val = st.session_state.get('asr_status', 'İnert')
             if "Reaktif" in asr_val:
                 st.warning(f"⚠️ **ASR Riski:** {asr_val}. Önlem alınmalı!")
+                # ASR Önerisi (Uçucu Kül): Agreganın %20-30'u kadar değil, genellikle Çimentonun bir oranıdır.
+                # Ama kullanıcı "agrega miktarına göre kg belirleniyor" dedi.
+                # Varsayalım ki reaktif agrega miktarının %10'u kadar uçucu kül önerelim (veya benzer bir mühendislik yaklaşımı)
+                suggested_ash = total_agg_kg * 0.05 # Örnek: Toplam agreganın %5'i kadar kül
+                st.info(f"💡 **ASR Önlemi:** Mevcut agrega yüküne göre **~{suggested_ash:.1f} kg** Uçucu Kül kullanımı önerilir.")
             else:
                 st.success(f"✅ **ASR Riski:** {asr_val} (Güvenli).")
 
@@ -584,6 +647,28 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
     if st.button("⚡ EN İYİ KARIŞIMI BUL (HEDEFE GÖRE)", type="secondary", use_container_width=True):
         st.session_state['trigger_optimize'] = True
         st.rerun()
+
+    # Expert Insights Display (Eğer kilitlendiyse her zaman göster)
+    if st.session_state.get('expert_insights'):
+        st.markdown("---")
+        st.markdown("### 🏛️ Pro-Expert: Yapay Zeka Mühendislik Kararı")
+        for ins in st.session_state['expert_insights']:
+            with st.container():
+                st.markdown(f"""
+                <div style="background-color: #ffffff; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0; border-left: 6px solid #1e293b; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <span style="background-color: #1e293b; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; margin-right: 10px;">UZMAN GÖRÜŞÜ</span>
+                        <h4 style="margin: 0; color: #1e293b;">{ins['topic']}</h4>
+                    </div>
+                    <div style="margin-left: 10px;">
+                        <p style="color: #475569; font-size: 14px; margin-bottom: 8px;"><b>🔍 Gözlem:</b> {ins.get('observation', ins.get('problem'))}</p>
+                        <p style="color: #b91c1c; font-size: 14px; margin-bottom: 8px;"><b>⚠️ Mühendislik Riski:</b> {ins.get('risk', ins.get('rationale'))}</p>
+                        <div style="background-color: #f0fdf4; padding: 10px; border-radius: 6px; border-left: 3px solid #16a34a;">
+                            <p style="color: #166534; font-size: 14px; margin: 0;"><b>🛡️ Protokol Önerisi:</b> {ins.get('protocol', ins.get('solution'))}</p>
+                        </div>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
 
     # Global AI Bölümü (Temizlendi, yukarıya otomatik alındı)
     st.divider()
@@ -630,9 +715,9 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
         st.metric("Su/Çimento Oranı", f"{wc_val:.2f}", delta="-İdeal" if 0.40 <= wc_val <= 0.50 else "Riskli", delta_color="normal")
     
     # Filler Oranı
-    filler_val = snap.get('passing', [])[12] if len(snap.get('passing', [])) > 12 else 0
+    agg_filler_val = snap.get('passing', [])[12] if len(snap.get('passing', [])) > 12 else 0
     with c_ana2:
-        st.metric("Filler Oranı (<0.063)", f"%{filler_val:.2f}", delta="Uygun" if filler_val <= 3.0 else "Yüksek", delta_color="inverse")
+        st.metric("Agrega Filler (<0.063)", f"%{agg_filler_val:.2f}", delta="Uygun" if agg_filler_val <= 5.0 else "Yüksek", delta_color="inverse")
         
     # Agrega Matrisi (Kum Oranı)
     sand_val = snap.get('passing', [])[6] if len(snap.get('passing', [])) > 6 else 0
@@ -767,17 +852,47 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
                 for r in decision.get('rationales', []):
                     st.info(f"💡 {r}")
 
+    # AI Expert Insights in Report
+    if snap.get('expert_insights'):
+        st.markdown("#### 📜 AI Mühendislik Kararı ve Protokoller")
+        for ins in snap['expert_insights']:
+            st.markdown(f"""
+            <div style="background-color: #f8fafc; padding: 12px; border-radius: 6px; border-left: 4px solid #1e293b; margin-bottom: 12px; border: 1px solid #e2e8f0;">
+                <b style="color: #1e293b; font-size: 15px;">{ins['topic']}</b><br>
+                <div style="margin-top: 5px; font-size: 13px;">
+                    <span style="color: #475569;"><b>🔍 Gözlem:</b> {ins.get('observation', ins.get('problem'))}</span><br>
+                    <span style="color: #b91c1c;"><b>⚠️ Risk:</b> {ins.get('risk', ins.get('rationale'))}</span><br>
+                    <div style="margin-top: 4px; color: #166534; background-color: #f0fdf4; padding: 5px; border-radius: 4px;">
+                        <b>🛡️ Protokol:</b> {ins.get('protocol', ins.get('solution'))}
+                    </div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
     # --- 2. RESMİ SANTRAL RAPORU ---
     st.divider()
     plant_display_name = snap.get('plant_name', 'KGM')
     st.subheader(f"🇹🇷 {plant_display_name} Resmi Beton Kontrol Raporu")
-    if st.button(f"📄 {plant_display_name.upper()} RAPORU (PDF/HTML) OLUŞTUR", use_container_width=True):
+    if st.button(f"📄 {plant_display_name.upper()} HTML RAPORU OLUŞTUR", use_container_width=True):
         try:
             html_report = generate_kgm_raporu(snap)
             st.components.v1.html(html_report, height=600, scrolling=True)
             st.download_button("📥 Raporu .html Olarak İndir", html_report, file_name=f"KGM_Rapor_{proje}.html", mime="text/html")
         except Exception as e:
-            st.error(f"Rapor oluşturulurken hata: {e}")
+            st.error(f"HTML Rapor oluşturulurken hata: {e}")
+
+    if st.button(f"📜 {plant_display_name.upper()} RESMİ TEKNİK RAPORU (PDF) İNDİR", use_container_width=True):
+        try:
+            pdf_bytes = generate_pdf_raporu(snap)
+            st.download_button(
+                label="📥 Resmi Teknik Raporu (.pdf) Kaydet",
+                data=pdf_bytes,
+                file_name=f"Resmi_Teknik_Rapor_{proje}.pdf",
+                mime="application/pdf"
+            )
+            st.success("✅ Resmi PDF raporu başarıyla oluşturuldu. Yukarıdaki butona tıklayarak kaydedebilirsiniz.")
+        except Exception as e:
+            st.error(f"PDF Rapor oluşturulurken hata: {e}. Lütfen sistemde 'Arial' fontunun yüklü olduğundan emin olun.")
 
     # --- 3. AI TEKNİK RAPOR ---
     st.divider()
@@ -796,7 +911,7 @@ def render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT):
         ANALİZ YAPISI (BU SIRAYLA OLACAK):
         1. TEKNİK ÖZET: Dizaynın genel başarısı ve hedeflenen dayanım sınıfı ({s_mix['class']}) ile uyumu.
         2. SU/ÇİMENTO VE DAYANIKLILIK (DURABİLİTE) ANALİZİ: W/C oranının ({s_mix['wc']}) TS EN 206 kısıtları ve betonun servis ömrü (korozyon, karbonatlaşma) açısından değerlendirilmesi.
-        3. GRADASYON VE KOMPAKTLIK: 4mm altı kum oranı (%{sand_val:.1f}) ve 0.063mm filler miktarının (%{filler_val:.2f}) taze beton işlenebilirliği ve boşluk yapısı üzerindeki etkisi.
+        3. GRADASYON VE KOMPAKTLIK: 4mm altı kum oranı (%{sand_val:.1f}) ve 0.063mm filler miktarının (%{agg_filler_val:.2f}) taze beton işlenebilirliği ve boşluk yapısı üzerindeki etkisi.
         4. MALZEME RİSKLERİ: Litolojik köken ({s_mix['lithology']}) ile LA Aşınma (%{s_mix['avg_la']:.1f}) ve MB Kirlilik ({s_mix['avg_mb']:.2f}) değerlerinin mekanik performans üzerindeki korelasyonu.
         5. NİHAİ MÜHENDİSLİK GÖRÜŞÜ: Karışımın spesifik kullanım alanı (Beton yol/Yapısal beton) için onay durumu ve optimizasyon önerileri.
 

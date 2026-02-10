@@ -67,6 +67,12 @@ STD_GRADING_DB = {
         "B (İdeal)": {31.5: [100,100], 22.4: [100,100], 16.0: [92,92], 11.2: [79,79], 8.0: [63,63], 4.0: [49,49], 2.0: [37,37], 1.0: [28,28], 0.5: [20,20], 0.25: [13,13], 0.15: [7,7], 0.063: [3,3], 0.0: [0,1]},
         "C (Üst)":   {31.5: [100,100], 22.4: [100,100], 16.0: [100,100], 11.2: [95,95], 8.0: [85,85], 4.0: [75,75], 2.0: [60,60], 1.0: [48,48], 0.5: [35,35], 0.25: [25,25], 0.15: [15,15], 0.063: [8,8], 0.0: [0,2]}
     },
+    "KGM TİP-1": { # Dmax 31.5 için
+        31.5: [100, 100], 16.0: [55, 80], 8.0: [35, 60], 4.0: [25, 45], 2.0: [18, 35], 1.0: [10, 25], 0.25: [2, 10], 0.063: [1, 5]
+    },
+    "KGM TİP-2": { # Dmax 22.4 için
+        22.4: [100, 100], 16.0: [70, 95], 8.0: [45, 75], 4.0: [35, 55], 2.0: [25, 45], 1.0: [15, 30], 0.25: [3, 12], 0.063: [1, 5]
+    },
     16.0: {
         "A (Alt)":   {16.0: [100,100], 8.0: [55,55], 4.0: [35,35], 2.0: [22,22], 1.0: [12,12], 0.25: [4,4], 0.0: [0,0]},
         "B (İdeal)": {16.0: [100,100], 8.0: [70,70], 4.0: [50,50], 2.0: [35,35], 1.0: [22,22], 0.25: [8,8], 0.0: [2,2]},
@@ -79,6 +85,29 @@ def calculate_passing(m1, weights):
     cumulative_retained = np.cumsum(weights)
     passing_pct = 100 - (cumulative_retained / m1 * 100)
     return np.clip(passing_pct, 0, 100)
+
+def calculate_fm(sieves, passing_pct):
+    """
+    İncelik Modülü (FM) hesaplar.
+    Standard elekler (ASTM C136): 0.15, 0.3, 0.6, 1.18, 2.36, 4.75, 9.5, 19, 37.5, 75 mm
+    Bizim serideki en yakınları kullanıyoruz.
+    """
+    fm_sieves = [31.5, 16.0, 8.0, 4.0, 2.0, 1.0, 0.5, 0.25, 0.15]
+    total_retained = 0.0
+    found_any = False
+    
+    for fs in fm_sieves:
+        # Elek serisinde bu eleğe en yakın olanı bul
+        if fs in sieves:
+            idx = sieves.index(fs)
+            retained_pct = 100.0 - passing_pct[idx]
+            total_retained += retained_pct
+            found_any = True
+        else:
+            # Eğer tam elek yoksa, serideki değerleri kontrol et (Enterpolasyon gerekebilir ama şimdilik pas)
+            pass
+            
+    return round(total_retained / 100.0, 2) if found_any else 0.0
 
 def get_std_limits(dmax, curve_type, elek_serisi):
     limits_dict = STD_GRADING_DB.get(dmax, {}).get(curve_type, {})
@@ -171,18 +200,18 @@ def evaluate_mix_compliance(mix_data):
     warnings = []
     rationales = []
     
-    # 1. Çevresel Etki Denetimi
-    limit_wc_exp = exp_limits["max_wc"]
+    # 1. Çevresel Etki Denetimi (KGM 2016 Beton Yol Odaklı)
+    limit_wc_exp = 0.45 if "Yol" in target_class else exp_limits["max_wc"]
     current_wc = mix_data.get("wc", 0.0)
     if current_wc > limit_wc_exp:
-        violations.append(f"🔴 Durabilite İhlali ({exp_class}): Su/Çimento {current_wc:.2f} > {limit_wc_exp} (Max) - [TS EN 206]")
-        rationales.append(f"{exp_class} çevresel etki sınıfı için gereken maksimum W/C oranı aşıldı. Bu durum betonun servis ömrünü (donma, korozyon vb.) kritik düzeyde azaltır.")
+        violations.append(f"🔴 Durabilite İhlali: S/Ç {current_wc:.2f} > {limit_wc_exp} (KGM 2016 Max)")
+        rationales.append(f"Beton yol kaplamalarında servis ömrü ve donma direnci için S/Ç oranı en fazla {limit_wc_exp} olmalıdır.")
 
-    limit_cem_exp = exp_limits["min_cem"]
+    limit_cem_exp = 350 if "Yol" in target_class else exp_limits["min_cem"]
     curr_cem = mix_data.get("cement", 0)
     if curr_cem < limit_cem_exp:
-        violations.append(f"🔴 Durabilite İhlali ({exp_class}): Çimento {curr_cem} < {limit_cem_exp} (Min) - [KTŞ 2013]")
-        rationales.append(f"{exp_class} sınıfı için gerekli olan minimum çimento dozajı sağlanamadı. Agregaların yeterince sarılmaması durabilite riski yaratır.")
+        violations.append(f"🔴 Durabilite İhlali: Çimento {curr_cem} < {limit_cem_exp} kg (KGM 2016 Min)")
+        rationales.append(f"Yol kaplama betonlarında aşınma direnci ve dayanım için minimum {limit_cem_exp} kg/m³ çimento şarttır.")
 
     # 2. ASR Risk Denetimi
     asr_status = mix_data.get("asr_status", "Düzeltme Gerekmiyor")
@@ -213,12 +242,28 @@ def evaluate_mix_compliance(mix_data):
     if avg_mb > 1.5: 
         violations.append(f"🔴 Kirli Agrega (MB): {avg_mb:.2f} > 1.5 (Kil var).")
          
+    # 4. KGM 2016 Filler ve Kum Denetimi
+    if "Yol" in target_class:
+        filler_val = mix_data.get("filler_content", 0.0)
+        if filler_val < 1.0 or filler_val > 5.0:
+            warnings.append(f"⚠️ Filler Oranı ({filler_val:.1f}%) KGM Limitleri Dışında! (Limit %1-%5)")
+            rationales.append("KGM 2016'ya göre yol betonunda 0.063mm altı filler oranı %1-5 aralığında olmalıdır.")
+        
+        sand_val = mix_data.get("sand_content", 0.0)
+        if sand_val < 37.0 or sand_val > 56.0:
+            warnings.append(f"⚠️ Kum Oranı ({sand_val:.1f}%) İdeal Aralığın Dışında! (İdeal %37-%56)")
+            rationales.append("Yol betonu işlenebilirliği için 4mm altı ince malzeme oranı idarece belirlenen ideal aralıkta olmalıdır.")
+
     if len(violations) > 0:
         status, title, main_msg = "RED", "UYGUN DEĞİLDİR (RED)", "Durabilite ve Standart limitleri aşıldı."
     elif len(warnings) > 0:
         status, title, main_msg = "YELLOW", "ŞARTLI KABUL", "ASR veya performans riskleri mevcut."
     else:
-        status, title, main_msg = "GREEN", "UYGUNDUR (KABUL)", "Tüm KTŞ ve TS EN 206 limitlerine uygun."
+        status, title, main_msg = "GREEN", "UYGUNDUR (KABUL)", "Tüm KGM 2016 ve TS EN 206 limitlerine uygun."
+    
+    # KGM Rapora dahil et
+    if "Yol" in target_class:
+        title = "📐 KGM 2016 UYUMLU: " + title
         
     return {
         "status": status, 
@@ -228,6 +273,124 @@ def evaluate_mix_compliance(mix_data):
         "warnings": warnings,
         "rationales": rationales
     }
+
+def generate_pro_expert_analysis(mix_data):
+    """
+    Profesyonel düzeyde sistematik beton analizi. 
+    İlişkisel veri madenciliği ve mühendislik protokollerini baz alır.
+    """
+    target_class = mix_data.get("class", "C30/37")
+    wc = mix_data.get("wc", 0.0)
+    cem = mix_data.get("cement", 0)
+    ash = mix_data.get("ash", 0)
+    water = mix_data.get("water", 0)
+    pred_mpa = mix_data.get("pred_mpa", 0.0)
+    is_yol = "Yol" in target_class
+    filler = mix_data.get("filler_content", 0.0)
+    sand = mix_data.get("sand_content", 0.0)
+    asr = mix_data.get("asr_status", "")
+    lith = mix_data.get("lithology", "Kireçtaşı")
+    la = mix_data.get("avg_la", 0.0)
+    fm = mix_data.get("fm", 0.0)
+    retained = mix_data.get("retained", [])
+    sieves = mix_data.get("sieves", [])
+    
+    analysis_report = []
+    
+    # 1. Karmaşıklık Analizi: S/Ç + İnce Madde + Ayrışma Riski
+    if wc > 0.48 and filler < 1.5:
+        analysis_report.append({
+            "topic": "Taze Beton Kararlılığı ve Kohezyon",
+            "observation": f"Yüksek efektif S/Ç ({wc:.2f}) ve kritik düzeyde düşük filler (%{filler:.1f}) kombinasyonu.",
+            "risk": "Hamur fazının düşük viskozitesi nedeniyle agrega segmentasyonu ve yüzeyde aşırı terleme (bleeding) riski yüksektir.",
+            "protocol": "İnce malzeme (0.063mm altı) oranını artırın veya VMA katkı kullanarak stabilitesini sağlayın."
+        })
+    elif wc < 0.40 and sand < 35:
+        analysis_report.append({
+            "topic": "İşlenebilirlik ve Yerleştirme Riskleri",
+            "observation": "Düşük S/Ç ve düşük kum oranı kombinasyonu.",
+            "risk": "Betonun içsel sürtünmesi yüksek olacaktır; vibrasyon zorluğu ve 'balling' etkisi görülebilir.",
+            "protocol": "Kum oranını %38-40 bandına çekerek 'fat' miktarını artırın veya poli karboksilat dozajını optimize edin."
+        })
+
+    # 2. Su Talebi Analizi
+    if water > 185 and not is_yol:
+        analysis_report.append({
+            "topic": "Hacimsel Su Talebi ve Porozite",
+            "observation": f"Net su miktarının ({water} L) standart limitlerin üzerinde olduğu görülmektedir.",
+            "risk": "Aşırı su kullanımı, sertleşmiş betonda kapiler boşluk yapısını büyüterek geçirgenliği artırır ve nihai dayanımı baskılar.",
+            "protocol": "Katkı verimliliğini artırarak su miktarını 175-180 L bandına çekmeyi hedefleyin."
+        })
+
+    # 3. İM (Fineness Modulus) ve Gradasyon Analizi
+    fm_ideal = 5.4 if (31.5 in sieves) else 5.0
+    if abs(fm - fm_ideal) > 0.4:
+        obs = "İncelik Modülü (İM) kaba" if fm > fm_ideal else "İncelik Modülü (İM) çok ince"
+        risk = "Pompa basıncında artış ve yüzey bitirme zorluğu" if fm > fm_ideal else "Yüksek su talebi ve rötre çatlağı eğilimi"
+        analysis_report.append({
+            "topic": "Gradasyon ve İM Optimizasyonu",
+            "observation": f"{obs} ({fm:.2f}) tespit edildi.",
+            "risk": f"{risk} riski mevcuttur.",
+            "protocol": "Agrega harman oranlarını İM değerini 5.0-5.5 (Dmax 31.5 için) bandına getirecek şekilde revize edin."
+        })
+
+    # 4. 8-18 Kuralı ve Boşluk Yapısı
+    bad_sieves = [f"{sieves[i]}mm" for i, r in enumerate(retained) if (r < 8 or r > 18) and sieves[i] > 0.5]
+    if len(bad_sieves) > 3:
+        analysis_report.append({
+            "topic": "Agrega İskelet Stabilitesi (8-18 Analizi)",
+            "observation": f"{', '.join(bad_sieves[:3])} eleklerinde süreksizlik (gap-grading) riski.",
+            "risk": "Betonun iskelet yapısında 'bal peteği' (honeycombing) oluşma ihtimali ve kohezyon kaybı.",
+            "protocol": "Ara grup agrega (4-8mm veya 8-16mm) ekleyerek elek kalıntılarını dengeleyin."
+        })
+
+    # 5. Durabilite Analizi: ASR + Alkali
+    if "Reaktif" in asr:
+        if ash < (cem * 0.2):
+            analysis_report.append({
+                "topic": "ASR ve Uzun Vade Durabilite",
+                "observation": "Reaktif agrega varlığına rağmen mineral katkı oranı yetersiz.",
+                "risk": "Yıllar içinde oluşacak jelleşme ve içsel basınç nedeniyle yapısal ömür kaybı.",
+                "protocol": "F sınıfı uçucu kül oranını en az %25'e çıkarın."
+            })
+
+    # 6. Ekonomik Verimlilik ve Karbon Ayak İzi
+    target_mpa = CONCRETE_RULES.get(target_class, {}).get("min_mpa", 30)
+    efficiency = cem / pred_mpa if pred_mpa > 0 else 0
+    if efficiency > 11:
+        analysis_report.append({
+            "topic": "Çimento Verimliliği ve Sürdürülebilirlik",
+            "observation": f"Dayanım verimliliği düşük ({efficiency:.1f} kg/MPa).",
+            "risk": "Gereksiz hammadde maliyeti ve yüksek hidrasyon ısısı kaynaklı termal çatlak riski.",
+            "protocol": "Çimento miktarını düşürüp S/Ç oranını mineral katkılarla stabilize edin."
+        })
+    elif pred_mpa > (target_mpa + 12):
+        analysis_report.append({
+            "topic": "Aşırı Dayanım ve Maliyet Optimizasyonu",
+            "observation": f"Tahmini dayanım ({pred_mpa:.1f}) hedef sınıfın ({target_mpa}) çok üzerinde.",
+            "risk": "Ticari kayıp ve betonun gevrek (brittle) davranış sergilemesi.",
+            "protocol": "Güvenlik katsayısını koruyarak çimento dozajında %5 reduction (azaltma) değerlendirilmelidir."
+        })
+
+    # 7. KGM 2016 Spesifik Denetim
+    if is_yol:
+        if filler > 5.0:
+             analysis_report.append({
+                "topic": "KGM 2016 Yüzey Hassasiyeti",
+                "observation": "Filler oranı (%{filler:.1f}) KGM limitinin üzerinde.",
+                "risk": "Yüzeyde tozuma ve kuruma büzülmesi çatlakları.",
+                "protocol": "Filler içeriğini ivedilikle %5 altına çekin."
+            })
+
+    if not analysis_report or len(analysis_report) < 2:
+        analysis_report.append({
+            "topic": "Sistem Gözlemi",
+            "observation": "Genel parametreler uyumlu görünmekle birlikte, saha faktörü ve agrega nem değişimleri yakından izlenmelidir.",
+            "risk": "Anlık hammadde değişkenliği dışında bir risk öngörülmemektedir.",
+            "protocol": "Pilot döküm ile taze beton verimliliğini teyit edin."
+        })
+        
+    return analysis_report
 
 # --- 4. MÜHENDİSLİK AI MOTORU ---
 

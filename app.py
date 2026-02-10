@@ -369,7 +369,8 @@ with st.sidebar:
     with st.expander("🔑 API Ayarları"):
         google_key = st.text_input("Google API Key", type="password")
         deepseek_key = st.text_input("DeepSeek Key", type="password")
-        selected_provider = st.selectbox("AI Sağlayıcı", ["Google Gemini", "DeepSeek (Beta)"])
+        groq_key = st.text_input("Groq API Key", type="password")
+        selected_provider = st.selectbox("AI Sağlayıcı", ["Google Gemini", "DeepSeek (Beta)", "Groq (Llama-3.3)"])
 
     c_sel1, c_sel2 = st.columns([4, 1])
     
@@ -549,6 +550,7 @@ else:
 
 from openai import OpenAI
 deepseek_client = OpenAI(api_key=deepseek_key, base_url="https://api.deepseek.com") if deepseek_key else None
+groq_client = OpenAI(api_key=groq_key, base_url="https://api.groq.com/openai/v1") if groq_key else None
 
 # Tesis Bazlı Saha Faktörü
 active_p = st.session_state.get('active_plant', 'merkez')
@@ -618,20 +620,21 @@ with tab_comp:
         all_retained_data = {}
         
         for t_name, t_val in trials.items():
-            t_ratios = t_val.get("p", [25, 25, 25, 25])
+            t_ratios = t_val.get("p", [25, 25, 25, 25, 0])
             if sum(t_ratios) <= 0: continue # Boş denemeleri gösterme
             
             # Her deneme için karışım gradasyonunu hesapla
-            t_active = t_val.get("active", [True, True, True, True])
+            t_active = t_val.get("active", [True, True, True, True, False])
             t_ri = t_val.get("ri", {}) # Bu aslında 'kalan' gramaj verisidir
-            t_m1s = t_val.get("m1s", [4000.0, 4000.0, 2000.0, 2000.0])
+            t_m1s = t_val.get("m1s", [4000.0, 4000.0, 2000.0, 2000.0, 2000.0])
             t_elek = t_val.get("elek", elek_serisi) 
             
             # Her malzemenin kendi gradasyonunu (geçen %) hesapla (Kalandan Geçene Çevir)
             trial_total_passing = np.zeros(len(t_elek))
             
             for i in range(4):
-                if t_active[i]:
+                is_act = t_active[i] if i < len(t_active) else False
+                if is_act:
                     # i index veya mat_name olarak saklanmış olabilir
                     mat_weights = t_ri.get(str(i)) or t_ri.get(materials[i], [0.0]*len(t_elek))
                     m1_val = t_m1s[i] if i < len(t_m1s) else 2000.0
@@ -647,7 +650,8 @@ with tab_comp:
                     mat_passing = calculate_passing(m1_val, mat_weights)
                     
                     # Karışım gradasyonuna (oranıyla) ekle
-                    trial_total_passing += np.array(mat_passing) * (t_ratios[i] / 100.0)
+                    ratio = t_ratios[i] if i < len(t_ratios) else 0.0
+                    trial_total_passing += np.array(mat_passing) * (ratio / 100.0)
             
             all_passing_data[t_name] = {"passing": trial_total_passing, "elek": t_elek}
             all_retained_data[t_name] = t_ri
@@ -771,6 +775,11 @@ if is_super_admin:
                                     model="deepseek-chat", 
                                     messages=[{"role":"user","content":analysis_prompt}]
                                 ).choices[0].message.content
+                            elif selected_provider == "Groq (Llama-3.3)" and groq_client:
+                                res_text = groq_client.chat.completions.create(
+                                    model="llama-3.3-70b-versatile", 
+                                    messages=[{"role":"user","content":analysis_prompt}]
+                                ).choices[0].message.content
                             
                             if res_text:
                                 from logic.data_manager import shared_insight_kaydet
@@ -804,6 +813,8 @@ if is_super_admin:
                     res_text = model.generate_content(prompt).text
                 elif selected_provider == "DeepSeek (Beta)" and deepseek_client:
                     res_text = deepseek_client.chat.completions.create(model="deepseek-chat", messages=[{"role":"user","content":prompt}]).choices[0].message.content
+                elif selected_provider == "Groq (Llama-3.3)" and groq_client:
+                    res_text = groq_client.chat.completions.create(model="llama-3.3-70b-versatile", messages=[{"role":"user","content":prompt}]).choices[0].message.content
                 
                 if res_text:
                     st.session_state['ai_report_output'] = res_text

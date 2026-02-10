@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from logic.engineering import (
     calculate_theoretical_mpa, evaluate_mix_compliance, 
-    classify_plant, optimize_mix
+    classify_plant, optimize_mix, generate_expert_suggestions
 )
 from logic.ai_model import predict_strength_ai, generate_suggestions
 
@@ -24,13 +24,23 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
         
         st.metric("Su/Çimento Oranı", f"{wc_ratio:.3f}")
         
-        # Hedef sınıfa göre uyarı
+        # Hedef sınıfa göre uyarı (KGM 2016 Uyumlu)
         from logic.engineering import CONCRETE_RULES
-        max_wc = CONCRETE_RULES.get(hedef_sinif, {}).get("max_wc", 0.55)
+        
+        # Yol betonu limitleri (KGM 2016)
+        is_yol = "Yol" in hedef_sinif
+        max_wc = 0.45 if is_yol else CONCRETE_RULES.get(hedef_sinif, {}).get("max_wc", 0.55)
+        min_cem = 350 if is_yol else CONCRETE_RULES.get(hedef_sinif, {}).get("min_cem", 260)
+        
         if wc_ratio > max_wc:
-            st.error(f"⚠️ W/C oranı {max_wc} üzerinde! Standartlara uygun değil.")
+            st.error(f"⚠️ W/C oranı {max_wc} üzerinde! {'(KGM 2016 Limit)' if is_yol else ''}")
         else:
             st.success(f"✅ W/C oranı uygun (≤ {max_wc})")
+            
+        if cimento_val < min_cem:
+            st.error(f"⚠️ Çimento miktarı {min_cem} kg altında! {'(KGM 2016 Limit)' if is_yol else ''}")
+        else:
+            st.success(f"✅ Çimento miktarı yeterli (≥ {min_cem})")
     
     with col_mix2:
         st.markdown("#### 📊 Agrega Dağılımı")
@@ -88,32 +98,53 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
                             st.info(f"• {suggestion}")
         
         # Teorik hesap
-        theoretical_mpa = calculate_theoretical_mpa(
-            cimento_val, su_val, wc_ratio, current_rhos, current_was, 
-            p_values, active_mats, litoloji, current_site_factor
-        )
+        theoretical_mpa = calculate_theoretical_mpa(wc_ratio, hava_yuzde)
         
         st.metric("📈 Teorik Hesap", f"{theoretical_mpa:.1f} MPa")
         
-        # Uygunluk değerlendirmesi
-        compliance = evaluate_mix_compliance(
-            hedef_sinif, theoretical_mpa, wc_ratio, cimento_val, 
-            current_las, current_mbs, active_mats
-        )
+        # Uygunluk değerlendirmesi için veri paketi hazırla
+        mix_data = {
+            "class": hedef_sinif,
+            "wc": wc_ratio,
+            "cement": cimento_val,
+            "pred_mpa": theoretical_mpa,
+            "avg_la": np.mean(current_las) if current_las else 0,
+            "avg_mb": np.mean(current_mbs) if current_mbs else 0,
+            "grading_violation": False, # Sieve analizi bu sekmede tam değil
+            "asr_status": st.session_state.get('asr_status', 'Düzeltme Gerekmiyor')
+        }
+        
+        compliance = evaluate_mix_compliance(mix_data)
         
         # Durum göstergesi
-        status_color = "🟢" if compliance["status"] == "UYGUN" else "🟡" if compliance["status"] == "KISITLI" else "🔴"
-        st.markdown(f"### {status_color} Karışım Durumu: {compliance['status']}")
+        status_map = {"GREEN": ("🟢", "success"), "YELLOW": ("🟡", "warning"), "RED": ("🔴", "error")}
+        icon, method = status_map.get(compliance["status"], ("❓", "info"))
+        
+        st.markdown(f"### {icon} Karışım Durumu: {compliance['title']}")
+        st.write(compliance["main_msg"])
+        
+        if compliance["violations"]:
+            for v in compliance["violations"]:
+                st.error(v)
         
         if compliance["warnings"]:
-            for warning in compliance["warnings"]:
-                st.warning(f"⚠️ {warning}")
-        
-        if compliance["recommendations"]:
-            st.info("💡 Öneriler:")
-            for rec in compliance["recommendations"]:
-                st.info(f"• {rec}")
+            for w in compliance["warnings"]:
+                st.warning(w)
+                
+                for r in compliance["rationales"]:
+                    st.info(r)
+
+        # AI Mühendislik Önerileri (Dinamik)
+        expert_insights = generate_expert_suggestions(mix_data)
+        if expert_insights:
+            st.markdown("##### 🧬 AI Mühendislik Önerileri")
+            for ins in expert_insights:
+                with st.expander(f"🎯 {ins['topic']}", expanded=False):
+                    st.error(f"**Sorun:** {ins['problem']}")
+                    st.info(f"**Analiz:** {ins['rationale']}")
+                    st.success(f"**Öneri:** {ins['solution']}")
     
+
     # Optimizasyon butonu
     st.markdown("---")
     col_opt1, col_opt2, col_opt3 = st.columns([1, 2, 1])
