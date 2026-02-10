@@ -8,3 +8,4 @@ xlsxwriter
 scipy
 openpyxl
 requests
+fpdf2
