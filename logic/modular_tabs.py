@@ -626,7 +626,7 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             # Standart Modunu Al
             std_mode = st.session_state.get('standard_mode', 'KTŞ 2023')
             
-            compliance_result = evaluate_mix_compliance(s_mix, std_mode)
+            compliance_result = evaluate_mix_compliance(comp_data, std_mode)
             
             if compliance_result["status"] == "RED":
                 st.error(f"**{compliance_result['title']}**")
