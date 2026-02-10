@@ -1,0 +1,12 @@
+--- Yapı Tipi Uyumluluk Testi (Bina vs Yol) ---
+
+Test 1: Bina C25/30 [XC1]
+Sonuç: GREEN (Beklenen: GREEN)
+------------------------------
+Test 2: Sanat Yapısı C30/37 Sanat Yapısı [XD1]
+Sonuç: GREEN (Beklenen: GREEN)
+------------------------------
+Test 3: Yol C30/37 Beton Yol [XF4] (Kontrol)
+Sonuç: RED (Beklenen: RED)
+İhlaller: ['🔴 Durabilite İhlali: S/Ç 0.50 > 0.45 (KTŞ 2023 Tablo 308-26)', '🔴 Durabilite İhlali: Çimento 320 < 340 kg (KTŞ 2023 Min)']
+------------------------------

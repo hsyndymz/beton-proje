@@ -188,7 +188,7 @@ def optimize_mix(target_curve_type, dmax, active_mats, all_passing_dfs, elek_ser
     res = minimize(cost_fn, init_guess, method='SLSQP', bounds=tuple(bnds), constraints=cons)
     return res.x if res.success else None
 
-def evaluate_mix_compliance(mix_data):
+def evaluate_mix_compliance(mix_data, standard_mode="KTS"):
     target_class = mix_data.get("class", "C30/37")
     rules = CONCRETE_RULES.get(target_class, CONCRETE_RULES["C30/37"])
     
@@ -201,20 +201,37 @@ def evaluate_mix_compliance(mix_data):
     rationales = []
     
     # 1. Çevresel Etki Denetimi (KTŞ 2023 / KGM Beton Yol Odaklı)
-    # KTŞ 2023 Tablo 308-26: XF4 (Buz Çözücüye Maruz Yol) -> Max S/Ç: 0.45, Min Çimento: 340 kg
-    # Eğer proje "Yol" içeriyorsa XF4 kabul edilir.
-    
-    limit_wc_exp = 0.45 if "Yol" in target_class else exp_limits["max_wc"]
+    # KTŞ 2023 Modu Aktifse ve Proje "Yol" ise katı kurallar uygulanır.
+    is_road_project = "Yol" in target_class
+    enforce_kts_road = (standard_mode == "KTS") and is_road_project
+
+    # KTŞ Limitleri (XF4/XWS)
+    kts_road_wc = 0.45
+    kts_road_cem = 340
+
+    if enforce_kts_road:
+        limit_wc_exp = kts_road_wc
+        limit_cem_exp = kts_road_cem
+    else:
+        # TS EN 206 Modu veya Yol olmayan proje
+        limit_wc_exp = exp_limits["max_wc"]
+        limit_cem_exp = exp_limits["min_cem"]
+
     current_wc = mix_data.get("wc", 0.0)
     if current_wc > limit_wc_exp:
-        violations.append(f"🔴 Durabilite İhlali: S/Ç {current_wc:.2f} > {limit_wc_exp} (KTŞ 2023 Tablo 308-26)")
-        rationales.append(f"KTŞ 2023 (XF4/XWS) gereği yol kaplamalarında servis ömrü ve donma direnci için S/Ç oranı en fazla {limit_wc_exp} olmalıdır.")
+        if enforce_kts_road:
+            violations.append(f"🔴 Durabilite İhlali: S/Ç {current_wc:.2f} > {limit_wc_exp} (KTŞ 2023 Tablo 308-26)")
+            rationales.append(f"KTŞ 2023 (XF4/XWS) gereği yol kaplamalarında servis ömrü ve donma direnci için S/Ç oranı en fazla {limit_wc_exp} olmalıdır.")
+        else:
+             violations.append(f"🔴 Durabilite İhlali: S/Ç {current_wc:.2f} > {limit_wc_exp} ({exp_class} Sınırı)")
 
-    limit_cem_exp = 340 if "Yol" in target_class else exp_limits["min_cem"]
     curr_cem = mix_data.get("cement", 0)
     if curr_cem < limit_cem_exp:
-        violations.append(f"🔴 Durabilite İhlali: Çimento {curr_cem} < {limit_cem_exp} kg (KTŞ 2023 Min)")
-        rationales.append(f"KTŞ 2023 Tablo 308-26 uyarınca XF4 (Yol) sınıfı için minimum {limit_cem_exp} kg/m³ çimento şarttır.")
+        if enforce_kts_road:
+            violations.append(f"🔴 Durabilite İhlali: Çimento {curr_cem} < {limit_cem_exp} kg (KTŞ 2023 Min)")
+            rationales.append(f"KTŞ 2023 Tablo 308-26 uyarınca XF4 (Yol) sınıfı için minimum {limit_cem_exp} kg/m³ çimento şarttır.")
+        else:
+             violations.append(f"🔴 Durabilite İhlali: Çimento {curr_cem} < {limit_cem_exp} kg ({exp_class} Sınırı)")
 
     # 2. ASR Risk Denetimi
     asr_status = mix_data.get("asr_status", "Düzeltme Gerekmiyor")
@@ -246,7 +263,7 @@ def evaluate_mix_compliance(mix_data):
         violations.append(f"🔴 Kirli Agrega (MB): {avg_mb:.2f} > 1.5 (Kil var).")
          
     # 4. KTŞ 2023 / KGM Genel Esaslar (Filler ve Kum)
-    if "Yol" in target_class:
+    if is_road_project and standard_mode == "KTS":
         filler_val = mix_data.get("filler_content", 0.0)
         if filler_val < 1.0 or filler_val > 5.0:
             warnings.append(f"⚠️ Filler Oranı ({filler_val:.1f}%) İdeal Limit Dışı! (KTŞ Genel: %1-%5)")
@@ -265,8 +282,8 @@ def evaluate_mix_compliance(mix_data):
         status, title, main_msg = "GREEN", "UYGUNDUR (KABUL)", "Tüm KGM 2016 ve TS EN 206 limitlerine uygun."
     
     # KGM Rapora dahil et
-    if "Yol" in target_class:
-        title = "📐 KGM 2016 UYUMLU: " + title
+    if enforce_kts_road:
+        title = "📐 KTŞ 2023 UYUMLU: " + title
         
     return {
         "status": status, 

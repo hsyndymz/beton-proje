@@ -269,6 +269,22 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# --- GLOBAL AYARLAR (SIDEBAR) ---
+with st.sidebar:
+    st.header("⚙️ Proje Ayarları")
+    
+    # Standart Seçimi (Yeni Özellik)
+    st.subheader("1. Denetim Standardı")
+    standard_mode = st.radio(
+        "Hesaplama Modu:",
+        options=["KTŞ 2023 (Yol/Köprü)", "TS EN 206 (Bina/Genel)"],
+        index=0,
+        help="KTŞ 2023: Yol ve sanat yapıları için katı limitler (S/Ç 0.45, Min 340kg).\nTS EN 206: Genel yapılar için esnek maruziyet limitleri."
+    )
+    st.session_state['standard_mode'] = "KTS" if "KTŞ" in standard_mode else "TS_EN_206"
+    
+    st.divider()
+
 # --- GLOBAL VERİLER ---
 # Elek Serileri (TS 802 / Excel Standart - Büyükten Küçüğe)
 from logic.engineering import SIEVE_SETS, CONCRETE_RULES

@@ -621,6 +621,32 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
             for r in decision.get("rationales", []):
                 st.info(f"💡 {r}")
             
+            st.markdown("##### 🏁 Uyumluluk Denetimi")
+            
+            # Standart Modunu Al
+            std_mode = st.session_state.get('standard_mode', 'KTŞ 2023')
+            
+            compliance_result = evaluate_mix_compliance(s_mix, std_mode)
+            
+            if compliance_result["status"] == "RED":
+                st.error(f"**{compliance_result['title']}**")
+            elif compliance_result["status"] == "YELLOW":
+                st.warning(f"**{compliance_result['title']}**")
+            else:
+                st.success(f"**{compliance_result['title']}**")
+                
+            st.caption(compliance_result["main_msg"])
+            
+            # Detaylı İhlal Listesi
+            if compliance_result["violations"]:
+                st.markdown("**İhlaller:**")
+                for v in compliance_result["violations"]:
+                    st.markdown(f"- {v}")
+                    
+            if compliance_result["warnings"]:
+                st.markdown("**Uyarılar:**")
+                for w in compliance_result["warnings"]:
+                    st.markdown(f"- {w}")
         with c_res2:
             st.markdown("### 📋 1m³ Reçete")
             katki_kg = round(cimento * katki / 100, 2)

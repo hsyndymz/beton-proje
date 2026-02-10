@@ -1,0 +1,14 @@
+--- Standart Seçimi Toggle Testi ---
+
+Test 1: KTŞ 2023 Modu C30/37 Beton Yol
+Sonuç: RED (Beklenen: RED)
+İhlaller: ['🔴 Durabilite İhlali: S/Ç 0.50 > 0.45 (KTŞ 2023 Tablo 308-26)', '🔴 Durabilite İhlali: Çimento 320 < 340 kg (KTŞ 2023 Min)', '🔴 Dayanım Yetersiz: Tahmin 0.0 MPa < Hedef 37 MPa']
+------------------------------
+Test 2: KTŞ 2023 Modu [XC4 ama Yol ismi var]
+Sonuç: RED (Beklenen: RED - Çünkü 'Yol' ismi var)
+İhlaller: ['🔴 Durabilite İhlali: S/Ç 0.48 > 0.45 (KTŞ 2023 Tablo 308-26)', '🔴 Durabilite İhlali: Çimento 310 < 340 kg (KTŞ 2023 Min)', '🔴 Dayanım Yetersiz: Tahmin 0.0 MPa < Hedef 37 MPa']
+------------------------------
+Test 3: TS EN 206 Modu [XC4 ve Yol ismi var]
+Sonuç: RED (Beklenen: GREEN - Çünkü KTŞ zorlaması kapalı)
+İhlaller: ['🔴 Dayanım Yetersiz: Tahmin 0.0 MPa < Hedef 37 MPa']
+------------------------------
