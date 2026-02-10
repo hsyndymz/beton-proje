@@ -291,7 +291,7 @@ from logic.engineering import SIEVE_SETS, CONCRETE_RULES
 hedef_sinif = st.session_state.get('hedef_sinif', 'C30/37')
 dmax_val = st.session_state.get('dmax_val', 31.5)
 elek_serisi = SIEVE_SETS.get(dmax_val, SIEVE_SETS[31.5])
-materials = ["No:2 (15-25)", "No:1 (5-15)", "K.Kum (0-5)", "D.Kum (0-7)"]
+materials = ["kaba Elek (15-25)(19-25)", "orta kaba (5-15)(7-19)", "ince (0-5)(0-7)", "ince 2(0-5)(0-7)"]
 
 # CONCRETE_RULES engineering.py'dan import edildi.
 
@@ -573,7 +573,7 @@ active_p = st.session_state.get('active_plant', 'merkez')
 current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
 
 # --- ANA PANEL ---
-tab_titles = ["🔍 Malzeme", "⚖️ Karışım", "🔬 Karşılaştırma", "📜 Şartname", "✅ Kontrol"]
+tab_titles = ["🔍 Elek bilgileri", "⚖️ Dizayn Oranları", "🔬 Karşılaştırma", "📜 Şartname", "✅ Kontrol"]
 
 if is_super_admin:
     tab_titles.extend(["🏢 Kurumsal", "⛰️ Ocak", "🤖 Eğitim", "👥 Kullanıcılar"])
