@@ -3689,5 +3689,49 @@
         "target_class": "C30/37",
         "timestamp": "2026-02-10 10:53",
         "source": "Design-Learn-BETON YOL"
+    },
+    {
+        "cement": 400.0,
+        "water": 137.0,
+        "ash": 0.0,
+        "air": 3.5,
+        "admixture": 3.6,
+        "d28": 57.21766423357665,
+        "p": [
+            39.0,
+            15.0,
+            20.0,
+            26.0
+        ],
+        "lithology": "Bazalt (Diyarbakır/Gaziantep)",
+        "material_chars": {
+            "rhos": [
+                2.78,
+                2.81,
+                2.69,
+                2.71
+            ],
+            "was": [
+                1.7,
+                2.0,
+                5.1,
+                5.75
+            ],
+            "las": [
+                17.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mbs": [
+                0.0,
+                0.0,
+                0.0,
+                2.0
+            ]
+        },
+        "target_class": "C20/25",
+        "timestamp": "2026-02-10 14:40",
+        "source": "Design-Learn-BETON YOL"
     }
 ]
