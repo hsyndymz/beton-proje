@@ -1,0 +1,90 @@
+{
+    "sulak": {
+        "name": "sulak",
+        "lat": 37.0,
+        "lon": 38.0,
+        "lithology": "Bazalt",
+        "la_wear": 20.0,
+        "mb_value": 0.5,
+        "asr_risk": "İnert",
+        "cementation_index": 1.0,
+        "description": "Kaliteli malzeme.",
+        "updated_at": "2026-02-11 19:42",
+        "material_gradations": {
+            "Kaba Agrega": [
+                0,
+                5,
+                45,
+                90,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+            ],
+            "Orta Agrega": [
+                0,
+                0,
+                0,
+                15,
+                65,
+                95,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+            ],
+            "İnce Agrega": [
+                0,
+                0,
+                0,
+                0,
+                5,
+                30,
+                60,
+                85,
+                95,
+                100,
+                100,
+                100,
+                100
+            ],
+            "Kırma Kum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                25,
+                55,
+                75,
+                90,
+                98,
+                100,
+                100
+            ]
+        }
+    },
+    "ocak_1": "Test Ocak",
+    "uluçay_deresi": {
+        "name": "uluçay deresi",
+        "lat": 37.882276,
+        "lon": 41.919604,
+        "lithology": "Dere Malzemesi",
+        "la_wear": 10.0,
+        "mb_value": 0.5,
+        "asr_risk": "Yüksek Reaktif",
+        "cementation_index": 1.0,
+        "description": "Kaliteli malzeme.",
+        "ai_geological_insight": null,
+        "updated_at": "2026-02-17 18:14"
+    }
+}

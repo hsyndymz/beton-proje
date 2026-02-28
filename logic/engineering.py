@@ -1,5 +1,22 @@
 import numpy as np
 from scipy.optimize import minimize
+def predict_90d_strength(d28_mpa, cement_pct=100.0, slag_pct=0.0, ash_pct=0.0):
+    """
+    Puzolanik aktiviteye göre 90 günlük dayanım tahmini.
+    CEM I: +%10-15
+    Cüruf: +%25-35 (Geç dayanım kazancı yüksektir)
+    """
+    # Baz katsayılar (Öğrenilen Mühendislik Verisi)
+    k_cem = 1.12
+    k_slag = 1.35
+    k_ash = 1.25
+    
+    total = cement_pct + slag_pct + ash_pct
+    if total <= 0: return d28_mpa * k_cem
+    
+    # Ağırlıklı katsayı
+    composite_k = (cement_pct * k_cem + slag_pct * k_slag + ash_pct * k_ash) / total
+    return round(d28_mpa * composite_k, 1)
 
 # --- 2.1 KURAL MOTORU VERİTABANI (Decision Engine Rules) ---
 CONCRETE_RULES = {
@@ -10,6 +27,22 @@ CONCRETE_RULES = {
     "C40/50": {"min_mpa": 50, "max_wc": 0.45, "min_cem": 340, "desc": "Özel projeler, köprüler. Çevresel etki: XD2/XS2"},
     "C50/60+": {"min_mpa": 60, "max_wc": 0.40, "min_cem": 360, "desc": "Çok yüksek dayanım."}
 }
+
+# --- TS 802 HEDEF DAYANIM (fcm) HESAPLAMA ---
+def get_target_strength_fcm(fck, sigma=None):
+    """
+    TS 802 - Çizelge 7: Hedef Basınç Dayanımı Belirleme (MPa)
+    sigma: Standart Sapma (MPa)
+    """
+    if sigma is not None and sigma > 0:
+        # sigma biliniyorsa (Çizelge 7.a)
+        fcm = fck + 1.48 * sigma
+    else:
+        # sigma bilinmiyorsa (Çizelge 7.b - Muhafazakar yaklaşım)
+        if fck <= 20: fcm = fck + 8
+        elif fck <= 35: fcm = fck + 10
+        else: fcm = fck + 12
+    return round(fcm, 1)
 
 # TS EN 206 Çevresel Etki Sınıfları ve Kısıtlar (KTŞ Uyumlu)
 EXPOSURE_CLASSES = {
@@ -412,14 +445,80 @@ def generate_pro_expert_analysis(mix_data):
         
     return analysis_report
 
-# --- 4. MÜHENDİSLİK AI MOTORU ---
+    return analysis_report
 
-def calculate_theoretical_mpa(wc_ratio, air_content):
+# --- 4. MÜHENDİSLİK AI MOTORU (TS 802 / TS EN 206) ---
+
+def calculate_theoretical_mpa(wc_ratio, air_content=2.0, cement_type="CEM I", has_pozzolan=False, local_constants=None):
+    """
+    TS 802 - Şekil 9: S/Ç Oranı ve Basınç Dayanımı İlişkisi (Eksponansiyel Model)
+    Formül: fcm = A * e^(-B * wc_ratio)
+    local_constants: (A, B) şeklinde dışarıdan (Yerel Veri Havuzundan) gelebilir.
+    """
     if wc_ratio <= 0: return 0.0
-    base_mpa = 37.0 * (0.55 / wc_ratio)
-    air_penalty_pct = (air_content - 1.5) * 5.0 if air_content > 1.5 else 0.0
-    final_mpa = base_mpa * (1 - (air_penalty_pct / 100.0))
-    return max(0, final_mpa)
+    
+    # 1. Katsayı Belirleme (Yerel yoksa Standart TS 802)
+    if local_constants and "A" in local_constants and "B" in local_constants:
+        A = local_constants["A"]
+        B = local_constants["B"]
+    else:
+        # TS 802 (2016) Verilerinden Türetilen Standart Katsayılar
+        if air_content > 3.0: # Hava sürüklenmiş (Hava %3+)
+            A, B = 105.94, 2.80
+        else: # Hava sürüklenmemiş
+            A, B = 113.18, 2.50
+        
+    # Baz Dayanım (28 Günlük)
+    base_mpa = A * np.exp(-B * wc_ratio)
+    
+    # Çimento Tipi ve Puzolan Faktörü (Öğrenilmiş Bilgi)
+    type_factor = 1.0
+    if cement_type == "CEM I": type_factor = 1.05
+    elif "CEM II" in cement_type: type_factor = 0.95
+    
+    # Hava Cezası (Her %1 ekstra hava için ~%5 kayıp - Feret Kuralı Modifiye)
+    air_penalty = 1.0
+    if air_content > 2.0:
+        air_penalty = 1 - (air_content - 2.0) * 0.05
+        
+    return round(base_mpa * type_factor * air_penalty, 1)
+
+def calculate_effective_wc(water, cement, slag=0.0, fly_ash=0.0, cement_type="CEM I"):
+    """
+    TS EN 206 - 'k' Değeri Kavramı ile Efektif Su/Bağlayıcı Oranı
+    k = 0.4 (Uçucu Kül için - CEM I), 0.2 (CEM II/A)
+    k = 0.8 (GBS - Cüruf için - CEM I), 0.6 (CEM II/A)
+    """
+    k_ash = 0.4 if cement_type == "CEM I" else 0.2
+    k_slag = 0.8 if cement_type == "CEM I" else 0.6
+    
+    effective_binder = cement + (k_ash * fly_ash) + (k_slag * slag)
+    if effective_binder <= 0: return water
+    return round(water / effective_binder, 3)
+
+def evaluate_core_test_ts13791(measured_mpa, fck, n_samples=3, moisture_state="Wet"):
+    """
+    TS EN 13791 - Karot Dayanımı Uygunluk Değerlendirmesi
+    moisture_state: "Wet" (Suda doygun), "Dry" (Hava kurusu), "As-is" (Şantiye hali)
+    """
+    # 1. Nem Düzeltmesi (FR)
+    fr = 1.0
+    if moisture_state == "Wet": fr = 1.10
+    elif moisture_state == "Dry": fr = 0.96
+    
+    adj_mpa = measured_mpa * fr
+    
+    # 2. Uygunluk Kriterleri (Kriter B - Azaltılmış numune sayısı için)
+    # fis_min >= 0.85 * (fck - 4)
+    criterion_1 = 0.85 * (fck - 4)
+    
+    status = adj_mpa >= criterion_1
+    return {
+        "adjusted_mpa": round(adj_mpa, 1),
+        "target_min": round(criterion_1, 1),
+        "is_compliant": status,
+        "msg": "UYGUN" if status else "YETERSİZ (Müdahale Gerekebilir)"
+    }
 
 def update_site_factor(predicted, measured, old_factor):
     if predicted <= 0 or measured <= 0: return old_factor
@@ -511,3 +610,104 @@ def qc_analysis_engine(expected_mpa, measured_mpa, wc_ratio, air_content, fines_
         reasons.append("Dayanım beklentinin üzerinde. Bu durum ekonomik açıdan reçetenin optimize edilebileceğini (çimento azaltımı) gösterir.")
         
     return reasons, diff
+
+def calculate_recipe_details(target_class, opt_weights, materials, standard_mode, exposure_class, curve_name, all_grads, elek_serisi, dmax, slag_pct=0.0, fly_ash_pct=0.0, local_constants=None):
+    """
+    Optimum agrega ağırlıklarına göre çimento ve su hesabını yaparak tam reçete çıkarır.
+    slag_pct, fly_ash_pct: Bağlayıcı içindeki oranlar (Opsiyonel)
+    """
+    # 1. Çimento ve Su Limitlerini Belirle (TS EN 206 / KTŞ)
+    rules = CONCRETE_RULES.get(target_class, CONCRETE_RULES["C20/25"])
+    exp = EXPOSURE_CLASSES.get(exposure_class, EXPOSURE_CLASSES["X0"])
+    
+    # En katı kısıtı seç
+    max_wc = min(rules["max_wc"], exp["max_wc"])
+    min_cem = max(rules["min_cem"], exp["min_cem"])
+    
+    # 2. Bağlayıcı Dağılımı ve Etkin S/Ç (k-faktörü)
+    # Varsayılan S/Ç oranını -0.02 emniyetle al
+    target_wc_eff = max_wc - 0.02
+    
+    # Başlangıç Çimento Tahmini
+    cem_total = min_cem + 20
+    
+    # Cüruf ve Kül miktarları (Bağlayıcı toplamı üzerinden)
+    slag_weight = cem_total * (slag_pct / 100.0)
+    ash_weight = cem_total * (fly_ash_pct / 100.0)
+    cement_pure = cem_total - (slag_weight + ash_weight)
+    
+    # Efektif Su Hesabı (k-faktörü)
+    k_ash = 0.4
+    k_slag = 0.8
+    effective_binder = cement_pure + (k_ash * ash_weight) + (k_slag * slag_weight)
+    
+    # Gereken Su (Efektif S/Ç * Efektif Bağlayıcı)
+    water_weight = target_wc_eff * effective_binder
+    
+    # 3. Hacimsel Hesaplama (1 m3 = 1000 Litre)
+    vol_cem = cement_pure / 3.10
+    vol_slag = slag_weight / 2.85 # YFC özgül ağırlığı genelde daha düşüktür
+    vol_ash = ash_weight / 2.25   # Uçucu kül özgül ağırlığı
+    vol_water = water_weight / 1.0
+    vol_air = 20.0
+    
+    vol_agg_tot = 1000 - (vol_cem + vol_slag + vol_ash + vol_water + vol_air)
+    
+    # 4. Agrega Ağırlıkları
+    agg_masses = {}
+    weights_pct = {}
+    for i, mat in enumerate(materials):
+        pct = opt_weights[i] * 100
+        weights_pct[mat] = round(pct, 1)
+        rho = 2.65
+        agg_masses[mat] = round(vol_agg_tot * opt_weights[i] * rho, 0)
+        
+    # 5. Dayanım Tahmini (Eksponansiyel)
+    wc_real = water_weight / (cement_pure + slag_weight + ash_weight)
+    pred_mpa = calculate_theoretical_mpa(wc_real, air_content=2.0, has_pozzolan=(slag_weight+ash_weight > 0), local_constants=local_constants)
+    pred_90d = predict_90d_strength(pred_mpa, cement_pct=100-slag_pct-fly_ash_pct, slag_pct=slag_pct, ash_pct=fly_ash_pct)
+
+    return {
+        "name": f"{target_class} - {curve_name} Optimizasyon",
+        "cement": round(cement_pure, 0),
+        "slag": round(slag_weight, 0),
+        "ash": round(ash_weight, 0),
+        "water": round(water_weight, 0),
+        "wc_ratio": round(wc_real, 3),
+        "pred_mpa": pred_mpa,
+        "pred_90d": pred_90d,
+        "aggregates": agg_masses,
+        "weights_pct": weights_pct,
+        "cost_per_m3": 0.0 # Tab'da hesaplanacak
+    }
+
+def suggest_smart_recipes(target_class, quarry_materials, dmax=31.5, standard_mode="KTS", exposure_class="XC3", slag_pct=0.0, fly_ash_pct=0.0, local_constants=None):
+    """
+    Verilen ocak malzemeleri ile hedef beton sınıfı için en uygun reçeteleri türetir.
+    Returns: List of dict (recipes)
+    """
+    available_mats = list(quarry_materials.keys())
+    active_mask = [True] * len(available_mats)
+    
+    # Import locally to avoid potential circular dependency if any
+    from logic.engineering import SIEVE_SETS
+    elek_serisi = SIEVE_SETS.get(dmax, SIEVE_SETS[31.5])
+    
+    results = []
+    # İdeal (B) ve Sınır (A, C) eğrileri için ayrı ayrı dene
+    for curve_type in ["A (Alt)", "B (İdeal)", "C (Üst)"]:
+        opt_weights = optimize_mix(curve_type, dmax, active_mask, quarry_materials, elek_serisi, available_mats)
+        
+        if opt_weights is not None:
+            recipe = calculate_recipe_details(
+                target_class, opt_weights, available_mats, 
+                standard_mode, exposure_class, curve_type, 
+                quarry_materials, elek_serisi, dmax,
+                slag_pct=slag_pct, fly_ash_pct=fly_ash_pct,
+                local_constants=local_constants
+            )
+            if recipe: results.append(recipe)
+            
+    results.sort(key=lambda x: (x.get('cost_mass', 999), x.get('error_score', 999)))
+    return results
+

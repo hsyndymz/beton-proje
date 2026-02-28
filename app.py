@@ -14,16 +14,59 @@ from logic.engineering import (
     calculate_passing, calculate_theoretical_mpa, evaluate_mix_compliance, 
     classify_plant, get_std_limits
 )
-from logic.ai_model import train_prediction_model, predict_strength_ai, generate_suggestions
 from logic.report_generator import generate_kgm_raporu
 from logic.state_manager import init_session_state, SessionStateInitializer
-from logic.modular_tabs import render_tab_1, render_tab_2, render_tab_3, render_tab_4, render_tab_5, render_tab_management, render_tab_ocak
-from logic.auth_manager import check_login, register_user
+from logic.auth_manager import check_login, register_user, check_session_timeout
 from logic.ocak_manager import ocaklari_yukle
+from logic.input_validator import sanitize_input
+from config import Config
 
 # --- SAYFA YAPILANDIRMASI ---
 st.set_page_config(page_title="Beton Tasarım Programı", layout="wide", initial_sidebar_state="expanded")
 init_session_state()
+
+# --- GLOBAL VAR INITIALIZATION (Safety for White Screen) ---
+tesis_adi = st.session_state.get('tesis_adi', 'KGM-91 Santral')
+hedef_sinif = st.session_state.get('hedef_sinif', 'C30/37')
+litoloji = st.session_state.get('litoloji', 'Bazalt (Standart)')
+# 0. API KEY MANAGEMENT (Prioritize Session State -> Secrets -> Env)
+def get_safe_api_key(key_name):
+    # 1. Eğer kullanıcı bu seansta bir anahtar girdiyse onu kullan (Sidebar Key)
+    sidebar_key = f"input_{key_name}"
+    if sidebar_key in st.session_state and st.session_state[sidebar_key]:
+        return st.session_state[sidebar_key]
+    
+    # Session state widget key fallback
+    widget_key = f"{key_name.lower()}_field"
+    if widget_key in st.session_state and st.session_state[widget_key]:
+        return st.session_state[widget_key]
+
+    # 2. Reçete/Secrets dosyasından bak
+    try:
+        val = st.secrets.get(key_name)
+        if val: return val
+    except:
+        pass
+    
+    # 3. Environment variable'dan bak
+    return os.environ.get(key_name, "")
+
+google_key = get_safe_api_key("GOOGLE_API_KEY")
+deepseek_key = get_safe_api_key("DEEPSEEK_API_KEY")
+groq_key = get_safe_api_key("GROQ_API_KEY")
+local_api_base = st.session_state.get('local_api_base', 'http://localhost:11434')
+local_model_name = st.session_state.get('local_model_name', 'llama3')
+selected_model_name = "gemini-2.5-flash"
+# 1. Session Timeout Kontrolü
+if st.session_state.get('authenticated'):
+    last_act = st.session_state.get('last_activity')
+    if check_session_timeout(last_act):
+        st.session_state.clear()
+        st.warning("⚠️ Oturumunuz zaman aşımına uğradı. Lütfen tekrar giriş yapın.")
+        st.stop() # Rerun yerine stop edelim, kullanıcı giriş ekranını görsün
+    else:
+        # Aktivite zamanını güncelle
+        st.session_state['last_activity'] = datetime.datetime.now()
 
 # --- LOGIN SİSTEMİ ---
 if 'authenticated' not in st.session_state:
@@ -45,7 +88,10 @@ if not st.session_state['authenticated']:
             user_input = st.text_input("Kullanıcı Adı", key="login_user")
             pass_input = st.text_input("Şifre", type="password", key="login_pass")
             if st.button("Sisteme Gir", use_container_width=True):
-                login_res = check_login(user_input, pass_input)
+                # Girdi temizliği
+                safe_user = sanitize_input(user_input)
+                
+                login_res = check_login(safe_user, pass_input)
                 if isinstance(login_res, dict) and "error" in login_res:
                     st.warning(f"⏳ {login_res['error']}")
                 elif login_res:
@@ -53,7 +99,8 @@ if not st.session_state['authenticated']:
                     st.session_state.clear()
                     st.session_state['authenticated'] = True
                     st.session_state['user_info'] = login_res
-                    st.session_state['username'] = user_input
+                    st.session_state['username'] = safe_user
+                    st.session_state['last_activity'] = datetime.datetime.now()
                     st.success("Giriş başarılı! Yükleniyor...")
                     st.rerun()
                 else:
@@ -66,7 +113,11 @@ if not st.session_state['authenticated']:
                 if not reg_name or not reg_user or not reg_pass:
                     st.error("Lütfen tüm alanları doldurun!")
                 else:
-                    success, msg = register_user(reg_user, reg_pass, reg_name)
+                    # Girdi temizliği
+                    safe_reg_user = sanitize_input(reg_user)
+                    safe_reg_name = sanitize_input(reg_name)
+                    
+                    success, msg = register_user(safe_reg_user, reg_pass, safe_reg_name)
                     if success:
                         st.success("✅ Başvurunuz başarıyla alındı! SuperAdmin onayı sonrası giriş yapabilirsiniz.")
                         st.info("💡 Genellikle 24 saat içinde onaylanır.")
@@ -74,18 +125,30 @@ if not st.session_state['authenticated']:
                         st.error(msg)
         st.markdown('</div>', unsafe_allow_html=True)
         
-    # Sağ Alt Bilgi (Footer)
-    st.markdown("""
-        <div class="footer-info">
-            <b>Hazırlayan&Tasarlayan : Hüseyin DUYMAZ</b><br>
-            <b>Bilgi&İrtibat için    : 05345435940</b>
-        </div>
-    """, unsafe_allow_html=True)
+        # Sağ Alt Bilgi (Footer) - SADECE Giriş Ekranında
+        st.markdown("""
+            <div class="footer-info">
+                <b>Hazırlayan&Tasarlayan : Hüseyin DUYMAZ</b><br>
+                <b>Bilgi&İrtibat için    : 05345435940</b>
+            </div>
+        """, unsafe_allow_html=True)
     st.stop()
 
+# --- SIDEBAR NOTIFICATION ---
+if 'transferred_recipe' in st.session_state:
+    tr_rec_sb = st.session_state['transferred_recipe']
+    st.sidebar.markdown("---")
+    st.sidebar.info(f"📥 **Aktarım Bekliyor**\n\n**{tr_rec_sb.get('name')}**\n\nDizayn sekmesine gidip uygulayın.")
+    
 # --- SANTRAL SEÇİMİ (Multi-Plant) ---
 if 'active_plant' not in st.session_state:
     st.markdown("<style>section[data-testid='stSidebar'] {display: none;}</style>", unsafe_allow_html=True)
+    
+    # Safety Check: If authenticated but user_info missing (weird state), reset
+    if 'user_info' not in st.session_state:
+        st.session_state['authenticated'] = False
+        st.rerun()
+        
     user_info = st.session_state['user_info']
     
     plants_db = {}
@@ -383,10 +446,58 @@ with st.sidebar:
     
     # API Ayarları
     with st.expander("🔑 API Ayarları"):
-        google_key = st.text_input("Google API Key", type="password")
-        deepseek_key = st.text_input("DeepSeek Key", type="password")
-        groq_key = st.text_input("Groq API Key", type="password")
-        selected_provider = st.selectbox("AI Sağlayıcı", ["Google Gemini", "DeepSeek (Beta)", "Groq (Llama-3.3)"])
+        input_google = st.text_input("Google API Key", value=google_key, type="password", key="google_api_key_field")
+        input_deepseek = st.text_input("DeepSeek Key", value=deepseek_key, type="password", key="deepseek_api_key_field")
+        input_groq = st.text_input("Groq API Key", value=groq_key, type="password", key="groq_api_key_field")
+        
+        # Güncelleme: Session state'e manuel ata (bazı durumlarda widget bazen gecikebilir)
+        st.session_state["input_GOOGLE_API_KEY"] = input_google
+        st.session_state["input_DEEPSEEK_API_KEY"] = input_deepseek
+        st.session_state["input_GROQ_API_KEY"] = input_groq
+        
+        selected_provider = st.selectbox("AI Sağlayıcı", ["Google Gemini", "DeepSeek (Beta)", "Groq (Llama-3.3)", "Yerel (Ollama / LM Studio)"])
+        
+        if selected_provider == "Yerel (Ollama / LM Studio)":
+            st.session_state['local_api_base'] = st.text_input(
+                "Yerel veya Uzak API Adresi (Ngrok/Cloudflare)", 
+                value=local_api_base, 
+                help="Evdeyseniz: http://localhost:11434 | Uzaktaysanız: https://senin-adın.ngrok-free.app", 
+                key="local_api_base_input"
+            )
+            
+            # Model Keşfi (Drop-down)
+            from logic.local_ai_helper import get_local_models
+            available_models = get_local_models(st.session_state['local_api_base'])
+            
+            if available_models:
+                # Kullanıcının mevcut seçimini (veya default) kontrol et
+                current_model = st.session_state.get('local_model_name', 'llama3')
+                # Eğer mevcut model listede yoksa ilkini seç
+                try:
+                    m_idx = available_models.index(current_model)
+                except ValueError:
+                    m_idx = 0
+                
+                st.session_state['local_model_name'] = st.selectbox(
+                    "Mevcut Modeller (Ollama)", 
+                    available_models, 
+                    index=m_idx,
+                    help="Bilgisayarınızda yüklü olan modeller listelenir."
+                )
+                if st.button("🔄 Listeyi Yenile"):
+                    st.rerun()
+            else:
+                st.session_state['local_model_name'] = st.text_input("Model Adı (Manuel)", value=local_model_name, help="Otomatik liste alınamadı. Manuel girin (Örn: llama3)")
+                st.warning("⚠️ Yerel API'ye bağlanılamadı. Model listesi alınamadı.")
+
+        if st.button("💾 Anahtarları Kaydet", use_container_width=True):
+            st.success("API anahtarları bu oturum için güncellendi.")
+            st.rerun()
+            
+        if google_key:
+            st.caption("✅ Gemini Motoru Hazır")
+        else:
+            st.caption("🚨 Gemini için API Key Gerekli")
 
     c_sel1, c_sel2 = st.columns([4, 1])
     
@@ -409,6 +520,7 @@ with st.sidebar:
             key=f"proj_sb_{active_p}",
             help="Çalışmak istediğiniz projeyi seçin."
         )
+        # Sadece seçim değiştiğinde state güncelle, rerun yapma (Streamlit zaten yapar)
         if proje != st.session_state[sel_key]:
             st.session_state[sel_key] = proje
             if 'loaded_trial_id' in st.session_state: del st.session_state['loaded_trial_id']
@@ -431,8 +543,12 @@ with st.sidebar:
             st.session_state[trial_sel_key] = deneme
             if 'loaded_trial_id' in st.session_state: del st.session_state['loaded_trial_id']
             st.rerun()
+            
     with c_sel2:
         if st.button("🔄", help="Projeleri Yenile"):
+            # Rerun gerekli çünkü dosya sisteminden yeni veri okuyacak
+            santralleri_yukle.clear()
+            veriyi_yukle.clear()
             st.rerun()
     
     # Yeni Deneme Girişi
@@ -466,12 +582,16 @@ with st.sidebar:
     ocaklar = ocaklari_yukle()
     o_list = ["Seçiniz..."] + list(ocaklar.keys())
     selected_ocak_id = st.selectbox("🏔️ Ocak Seçimi (Opsiyonel)", options=o_list, 
-                                     format_func=lambda x: ocaklar[x].get("name", x) if x != "Seçiniz..." else x)
+                                     format_func=lambda x: (ocaklar[x].get("name", x) if isinstance(ocaklar[x], dict) else x) if x != "Seçiniz..." else x)
     
     suggested_litho_idx = 0
     if selected_ocak_id != "Seçiniz...":
         o_data = ocaklar[selected_ocak_id]
-        o_litho = o_data.get("lithology", "Bazalt")
+        if isinstance(o_data, dict):
+            o_litho = o_data.get("lithology", "Bazalt")
+        else:
+            # Handle malformed data
+            o_litho = "Bazalt" # Default fallback
         # Sidebar'daki litoloji listesiyle eşleştir
         litho_options = [
             "Bazalt (Diyarbakır/Gaziantep)",
@@ -520,12 +640,33 @@ with st.sidebar:
         exp_class = st.selectbox("Çevresel Etki Sınıfı (TS EN 206)", list(EXPOSURE_CLASSES.keys()), key="exposure_class")
         st.caption(f"ℹ️ {EXPOSURE_CLASSES[exp_class]['desc']}")
     with col_dur2:
-        # Litolojiye göre varsayılan ASR riskini öner
-        suggested_asr = ASR_LITHOLOGY_RISK.get(litoloji, "Belirtilmemiş")
-        asr_stat = st.selectbox("ASR Reaktivite (Laboratuvar)", 
-                                ["Düzeltme Gerekmiyor (İnert)", "Potansiyel Reaktif", "Yüksek Reaktif"], 
-                                index=0 if "Düşük" in suggested_asr else 1, key="asr_status")
-        st.caption(f"🔔 Litoloji Analizi: {suggested_asr}")
+        # 1. Statik Litoloji Önerisi
+        static_suggested_asr = ASR_LITHOLOGY_RISK.get(litoloji, "Belirtilmemiş")
+        
+        # 2. AI Tahminini Kontrol Et (Ocak bazlı)
+        ai_asr_suggestion = None
+        if selected_ocak_id != "Seçiniz...":
+            o_data = ocaklar.get(selected_ocak_id, {})
+            if isinstance(o_data, dict) and o_data.get("ai_geological_insight"):
+                ai_asr_suggestion = o_data["ai_geological_insight"].get("risk_level")
+        
+        # Öncelik Sırası: AI Tahmini > Statik Öneri
+        final_suggested_risk = ai_asr_suggestion if ai_asr_suggestion else static_suggested_asr
+        
+        # Selectbox Index Belirleme
+        risk_levels = ["Düzeltme Gerekmiyor (İnert)", "Potansiyel Reaktif", "Yüksek Reaktif"]
+        default_idx = 0
+        if "Potansiyel" in str(final_suggested_risk): default_idx = 1
+        elif "Yüksek" in str(final_suggested_risk): default_idx = 2
+        
+        asr_stat = st.selectbox("ASR Reaktivite (Laboratuvar/AI)", 
+                                risk_levels, 
+                                index=default_idx, key="asr_status")
+        
+        if ai_asr_suggestion:
+            st.caption(f"✨ **AI Jeolojik Önerisi:** {ai_asr_suggestion}")
+        else:
+            st.caption(f"🔔 Litoloji Analizi: {static_suggested_asr}")
 
     st.markdown("---")
     selected_model_name = st.selectbox(
@@ -555,8 +696,8 @@ with st.sidebar:
     )
     
 # AI Model Hazırlama
-import google.generativeai as genai
 if google_key:
+    import google.generativeai as genai
     genai.configure(api_key=google_key)
     try:
         model = genai.GenerativeModel(selected_model_name)
@@ -566,41 +707,72 @@ if google_key:
 else:
     model = None
 
-from openai import OpenAI
-deepseek_client = OpenAI(api_key=deepseek_key, base_url="https://api.deepseek.com") if deepseek_key else None
-groq_client = OpenAI(api_key=groq_key, base_url="https://api.groq.com/openai/v1") if groq_key else None
+if deepseek_key or groq_key:
+    from openai import OpenAI
+    deepseek_client = OpenAI(api_key=deepseek_key, base_url="https://api.deepseek.com") if deepseek_key else None
+    groq_client = OpenAI(api_key=groq_key, base_url="https://api.groq.com/openai/v1") if groq_key else None
+else:
+    deepseek_client = None
+    groq_client = None
 
 # Tesis Bazlı Saha Faktörü
 active_p = st.session_state.get('active_plant', 'merkez')
-current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
+try:
+    current_site_factor = tesis_faktor_yukle(tesis_adi, plant_id=active_p)
+except Exception as e:
+    st.warning(f"Saha faktörü yüklenemedi: {e}")
+    current_site_factor = 1.0
 
 # --- ANA PANEL ---
 tab_titles = ["🔍 Elek Veris", "⚖️ Dizayn Oranı", "🔬 Karşılaştırma", "📜 Rapor", "✅ Kırım ve Analiz verisi"]
 
 if is_super_admin:
-    tab_titles.extend(["🏢 Santral Verileri", "⛰️ Ocak Bilgileri", "🤖 Ai Eğitim", "👥 Kullanıcılar"])
+    tab_titles.append("⛰️ Ocak Bilgileri")
+
+if is_super_admin:
+    tab_titles.extend(["🏢 Santral Verileri", "🤖 Ai Eğitim", "👥 Kullanıcılar"])
+
+tab_titles.insert(3, "🧠 Akıllı Reçete")
+tab_titles.insert(5, "🧪 Karot Analizi")
+
+# --- GLOBAL NOTIFICATION AREA ---
+if 'transferred_recipe' in st.session_state:
+    tr_rec = st.session_state['transferred_recipe']
+    st.info(f"🚀 **Smart Mix Transferi:** '{tr_rec.get('name')}' reçetesi hafızada. **'Dizayn Oranı'** sekmesine geçerek uygulayabilirsiniz.")
+# --------------------------------
 
 tabs = st.tabs(tab_titles)
-tab1, tab2, tab_comp, tab3, tab4 = tabs[0:5]
 
-# Dinamik Tab Ataması
-next_idx = 5
-tab_corp = None
+from logic.ui_helpers import render_tab_content_lazy
+
+# Baz sekmeler (Sıralı indeksler)
+tab1, tab2, tab_comp, tab_smart, tab_report, tab_karot, tab_qc = tabs[0:7]
+
+# Dinamik Tab Ataması (Admin/SuperAdmin için sonradan eklenenler)
 tab_ocak = None
+tab_corp = None
 tab_ai_train = None
 tab_user_mgmt = None
 
+_idx = 7
 if is_super_admin:
-    tab_corp = tabs[next_idx]
-    tab_ocak = tabs[next_idx + 1]
-    tab_ai_train = tabs[next_idx + 2]
-    tab_user_mgmt = tabs[next_idx + 3]
+    tab_ocak = tabs[_idx]
+    _idx += 1
+
+if is_super_admin:
+    tab_corp = tabs[_idx]
+    tab_ai_train = tabs[_idx+1]
+    tab_user_mgmt = tabs[_idx+2]
 
 with tab1:
-    current_rhos, current_was, current_las, current_mbs, current_moists, computed_passing, active_mats, all_ri_values = render_tab_1(elek_serisi)
+    from logic.tabs.tab_grading import render_tab_grading
+    current_rhos, current_was, current_las, current_mbs, current_moists, computed_passing, active_mats, all_ri_values = render_tab_grading(elek_serisi)
 
 with tab2:
-    render_tab_2(
+    from logic.tabs.tab_design import render_tab_design
+    render_tab_content_lazy(
+        "⚖️ Karışım Oranları",
+        render_tab_design,
         proje=proje,
         tesis_adi=tesis_adi,
         hedef_sinif=hedef_sinif,
@@ -618,227 +790,102 @@ with tab2:
     )
 
 with tab_comp:
-    st.subheader("🔬 Deneme Karşılaştırma ve Elek Analizi")
-    p_data_comp = all_data.get(proje, {})
-    if isinstance(p_data_comp, dict) and "trials" in p_data_comp:
-        trials = p_data_comp["trials"]
-        
-        # 1. Grafiksel Karşılaştırma (Elek Eğrileri)
-        st.write("📈 **Elek Analizi Eğrileri (TS 802)**")
-        fig_comp = go.Figure()
-        
-        # Standart Limitleri Çiz
-        d_max = st.session_state.get('dmax_val', 31.5)
-        c_type = st.session_state.get('curve_type_val', 'B (İdeal)')
-        alt_std, ust_std = get_std_limits(d_max, c_type, elek_serisi)
-        fig_comp.add_trace(go.Scatter(x=elek_serisi, y=alt_std, name="Alt Limit", line=dict(color='red', dash='dash')))
-        fig_comp.add_trace(go.Scatter(x=elek_serisi, y=ust_std, name="Üst Limit", line=dict(color='red', dash='dash')))
+    # Karşılaştırma wrapper
+    from logic.tabs.tab_compare import render_tab_compare
+    render_tab_compare(all_data, proje, elek_serisi, target_class=hedef_sinif)
 
-        all_passing_data = {}
-        all_retained_data = {}
-        
-        for t_name, t_val in trials.items():
-            t_ratios = t_val.get("p", [25, 25, 25, 25, 0])
-            if sum(t_ratios) <= 0: continue # Boş denemeleri gösterme
-            
-            # Her deneme için karışım gradasyonunu hesapla
-            t_active = t_val.get("active", [True, True, True, True, False])
-            t_ri = t_val.get("ri", {}) # Bu aslında 'kalan' gramaj verisidir
-            t_m1s = t_val.get("m1s", [4000.0, 4000.0, 2000.0, 2000.0, 2000.0])
-            t_elek = t_val.get("elek", elek_serisi) 
-            
-            # Her malzemenin kendi gradasyonunu (geçen %) hesapla (Kalandan Geçene Çevir)
-            trial_total_passing = np.zeros(len(t_elek))
-            
-            for i in range(4):
-                is_act = t_active[i] if i < len(t_active) else False
-                if is_act:
-                    # i index veya mat_name olarak saklanmış olabilir
-                    mat_weights = t_ri.get(str(i)) or t_ri.get(materials[i], [0.0]*len(t_elek))
-                    m1_val = t_m1s[i] if i < len(t_m1s) else 2000.0
-                    
-                    # Eğer kaydedilen mat_weights uzunluğu t_elek ile uyumsuzsa düzeltebilmeliyiz
-                    if len(mat_weights) != len(t_elek):
-                        if len(mat_weights) < len(t_elek):
-                            mat_weights = list(mat_weights) + [0.0] * (len(t_elek) - len(mat_weights))
-                        else:
-                            mat_weights = mat_weights[:len(t_elek)]
+with tab_smart:
+     from logic.tabs.tab_smart_mix import render_tab_smart_mix
+     render_tab_smart_mix()
 
-                    # Kalandan Geçene Çevir
-                    mat_passing = calculate_passing(m1_val, mat_weights)
-                    
-                    # Karışım gradasyonuna (oranıyla) ekle
-                    ratio = t_ratios[i] if i < len(t_ratios) else 0.0
-                    trial_total_passing += np.array(mat_passing) * (ratio / 100.0)
-            
-            all_passing_data[t_name] = {"passing": trial_total_passing, "elek": t_elek}
-            all_retained_data[t_name] = t_ri
-            fig_comp.add_trace(go.Scatter(x=t_elek, y=trial_total_passing, name=t_name, mode='lines+markers'))
+with tab_report:
+    from logic.tabs.tab_reports import render_tab_reports
+    render_tab_reports(proje, selected_provider, TS_STANDARDS_CONTEXT)
 
-        fig_comp.update_layout(
-            xaxis=dict(
-                title="Elek Göz Açıklığı (mm) - Log Ölçek",
-                type="log",
-                tickvals=elek_serisi,
-                ticktext=[str(s) for s in elek_serisi],
-                gridcolor='rgba(0,0,0,0.1)'
-            ),
-            yaxis_title="Toplam Karışım Geçen %",
-            height=500,
-            template="plotly_white"
-        )
-        st.plotly_chart(fig_comp, use_container_width=True)
+with tab_karot:
+    from logic.tabs.tab_core_analysis import render_tab_core_analysis
+    render_tab_core_analysis()
 
-        # 2. Tablo Karşılaştırma
-        with st.expander("📊 Detaylı Sayısal Karşılaştırma", expanded=True):
-            # Geçen % Tablosu
-            st.write("📈 **Karışım Geçen Yüzdeleri (%)**")
-            elek_rows = []
-            # Şartname değerlerini bir kez çek
-            s_alt_b, _ = get_std_limits(d_max, "B (İdeal)", elek_serisi)
-            
-            for i, e_size in enumerate(elek_serisi):
-                row = {"Elek (mm)": e_size, "Şartname": f"%{s_alt_b[i]:.1f}"}
-                for t_name, t_info in all_passing_data.items():
-                    t_passing = t_info["passing"]
-                    t_elek = t_info["elek"]
-                    
-                    # Bu denemede bu elek boyutu var mı bul
-                    try:
-                        idx = list(t_elek).index(e_size)
-                        val = t_passing[idx]
-                        row[t_name] = f"%{val:.1f}"
-                    except ValueError:
-                        row[t_name] = "-" # Elek bu denemede yoksa
-                elek_rows.append(row)
-            st.dataframe(pd.DataFrame(elek_rows), use_container_width=True, hide_index=True)
-            
-            # Reçete tablosu
-            st.divider()
-            st.write("🧱 **Reçete ve Malzeme Oranları**")
-            comp_rows = []
-            for t_name, t_val in trials.items():
-                row = {
-                    "Deneme Adı": t_name,
-                    "Çimento": t_val.get("cim", 0),
-                    "Su": t_val.get("su", 0),
-                    "W/C": round(t_val.get("su",0)/t_val.get("cim",1), 2) if t_val.get("cim") else 0,
-                    "Katkı": t_val.get("kat", 0),
-                    "Oranlar (%)": f"{t_val.get('p',[0,0,0,0])}"
-                }
-                comp_rows.append(row)
-            st.table(pd.DataFrame(comp_rows))
-    else:
-        st.info("Bu proje için henüz birden fazla deneme kaydedilmemiş.")
+with tab_qc:
+    from logic.tabs.tab_analysis import render_tab_analysis
+    from logic.engineering import CONCRETE_RULES
+    render_tab_analysis(
+        proje=proje,
+        tesis_adi=tesis_adi,
+        TARGET_LIMITS=CONCRETE_RULES,
+        hedef_sinif=hedef_sinif,
+        get_global_qc_history=get_global_qc_history,
+        is_admin=is_admin
+    )
 
-with tab3:
-    render_tab_3(proje, selected_provider, TS_STANDARDS_CONTEXT)
-
-with tab4:
-    TARGET_LIMITS = {
-        "C25/30": {"max_wc": 0.60, "min_mpa": 30},
-        "C30/37": {"max_wc": 0.55, "min_mpa": 37},
-        "C35/45": {"max_wc": 0.50, "min_mpa": 45},
-        "C40/50": {"max_wc": 0.45, "min_mpa": 50},
-        "C50/60": {"max_wc": 0.40, "min_mpa": 60}
-    }
-    render_tab_4(proje, tesis_adi, TARGET_LIMITS, hedef_sinif, get_global_qc_history, is_admin=is_admin)
-
+# --- ADMIN / SUPER-ADMIN TABS ---
 if tab_ocak:
     with tab_ocak:
-        render_tab_ocak(is_admin=is_admin)
+        from logic.tabs.tab_quarry_mgmt import render_quarry_tab_ai
+        render_quarry_tab_ai(
+            google_key=google_key, 
+            groq_key=groq_key, 
+            deepseek_key=deepseek_key
+        )
 
-if is_admin and tab_corp:
+if tab_corp:
     with tab_corp:
-        render_tab_5(is_admin=is_admin)
+        from logic.tabs.tab_corp_perf import render_tab_corp_perf
+        render_tab_corp_perf(is_admin=is_admin)
 
-if is_super_admin:
-    if tab_ai_train:
-        with tab_ai_train:
-            st.subheader("🧠 Global AI Eğitim Merkezi")
-            st.info("Bu bölümdeki veriler tüm santrallerden gelen kırım sonuçlarını içerir.")
-            pool_data = havuz_yukle()
-            if pool_data:
-                df_pool = pd.DataFrame(pool_data)
-                st.write(f"Sistemdeki Toplam Eğitim Datası: {len(df_pool)}")
-                if st.button("🚀 Modeli Yeniden Eğit ve Bülten Yayınla"):
-                    with st.spinner("Model optimize ediliyor ve AI Bülteni hazırlanıyor..."):
-                        # 1. Eğitim
-                        train_prediction_model(pool_data)
-                        
-                        # 2. AI Analizi ve Bülten Oluşturma
-                        avg_mpa = sum([float(r.get('d28',0)) for r in pool_data]) / len(pool_data)
-                        total_rec = len(pool_data)
-                        
-                        analysis_prompt = f"""
-                        Sistemdeki tüm santrallerden gelen toplam {total_rec} adet kırım ve malzeme verisini analiz ettik.
-                        Ortalama dayanım: {avg_mpa:.2f} MPa.
-                        
-                        KRİTİK ANALİZ TALEBİ:
-                        Lütfen verilerdeki 'lithology' (Kalker, Bazalt vb.) ve 'material_chars' (Aşınma, Su Emme, MB) 
-                        ilişkilerini derinlemesine incele. 
-                        - Farklı litolojilerin dayanım ve su ihtiyacı üzerindeki 'karakteristik' etkilerini açıkla.
-                        - Malzeme kalitesindeki (LA, MB) değişimlerin dökümlere nasıl yansıdığını yorumla.
-                        - Gelecek dökümler için litoloji bazlı 'AI Düzeltme Önerileri' sun.
-                        
-                        Bu bülten, mühendislerin malzeme seçiminde AI'nın öğrendiği bu 'tecrübeleri' kullanmasını sağlamalıdır.
-                        """
-                        
-                        res_text = ""
-                        try:
-                            if selected_provider == "Google Gemini" and model:
-                                res_text = model.generate_content(analysis_prompt).text
-                            elif selected_provider == "DeepSeek (Beta)" and deepseek_client:
-                                res_text = deepseek_client.chat.completions.create(
-                                    model="deepseek-chat", 
-                                    messages=[{"role":"user","content":analysis_prompt}]
-                                ).choices[0].message.content
-                            elif selected_provider == "Groq (Llama-3.3)" and groq_client:
-                                res_text = groq_client.chat.completions.create(
-                                    model="llama-3.3-70b-versatile", 
-                                    messages=[{"role":"user","content":analysis_prompt}]
-                                ).choices[0].message.content
-                            
-                            if res_text:
-                                from logic.data_manager import shared_insight_kaydet
-                                new_insight = {
-                                    "author": "Merkez AI (Öğrenilmiş Bilgi)",
-                                    "content": res_text,
-                                    "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-                                }
-                                shared_insight_kaydet(new_insight)
-                                st.success("Model eğitildi ve AI Bülteni tüm santrallerde yayınlandı!")
-                        except Exception as e:
-                            st.warning(f"Model eğitildi ancak bülten oluşturulamadı: {e}")
-                        
-                        st.success("Yeni model başarıyla eğitildi!")
-                st.dataframe(df_pool.tail(10))
-            else:
-                st.warning("Henüz global havuzda veri birikmemiş.")
-                
-    if tab_user_mgmt:
-        with tab_user_mgmt:
-            from logic.modular_tabs import render_tab_management
-            render_tab_management(is_super_admin=is_super_admin)
+if tab_ai_train:
+    with tab_ai_train:
+        from logic.tabs.tab_learning import render_tab_learning
+        render_tab_learning(
+            is_admin=is_admin, 
+            google_key=google_key, 
+            groq_key=groq_key, 
+            deepseek_key=deepseek_key
+        )
+
+if tab_user_mgmt:
+    with tab_user_mgmt:
+        from logic.tabs.tab_user_mgmt import render_user_mgmt_tab
+        render_user_mgmt_tab(is_super_admin=is_super_admin)
+
+# --- AI RAPOR TETİKLEYİCİ ---
+if st.session_state.get('ai_report_prompt'):
+    prompt = st.session_state.pop('ai_report_prompt')
+    response_text = ""
     
-    # AI Report Processing (If requested from the tab)
-    if 'ai_report_prompt' in st.session_state:
-        prompt = st.session_state.pop('ai_report_prompt')
-        with st.spinner("AI Teknik Rapor oluşturuluyor..."):
-            try:
-                res_text = ""
-                if selected_provider == "Google Gemini" and model:
-                    res_text = model.generate_content(prompt).text
-                elif selected_provider == "DeepSeek (Beta)" and deepseek_client:
-                    res_text = deepseek_client.chat.completions.create(model="deepseek-chat", messages=[{"role":"user","content":prompt}]).choices[0].message.content
-                elif selected_provider == "Groq (Llama-3.3)" and groq_client:
-                    res_text = groq_client.chat.completions.create(model="llama-3.3-70b-versatile", messages=[{"role":"user","content":prompt}]).choices[0].message.content
-                
-                if res_text:
-                    st.session_state['ai_report_output'] = res_text
-                    st.rerun()
-            except Exception as e:
-                st.error(f"AI Hatası: {e}")
+    try:
+        if selected_provider == "Google Gemini" and model:
+            res = model.generate_content(prompt)
+            response_text = res.text
+        elif selected_provider == "Groq (Llama-3.3)" and groq_client:
+            res = groq_client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[{"role": "user", "content": prompt}]
+            )
+            response_text = res.choices[0].message.content
+        elif selected_provider == "DeepSeek (Beta)" and deepseek_client:
+            res = deepseek_client.chat.completions.create(
+                model="deepseek-chat",
+                messages=[{"role": "user", "content": prompt}]
+            )
+            response_text = res.choices[0].message.content
+        else:
+            response_text = "🚨 Seçili AI sağlayıcı yapılandırılmamış veya anahtar eksik."
+            
+        st.session_state['ai_report_output'] = response_text
+        st.rerun()
+    except Exception as e:
+        st.error(f"AI Raporu oluşturulurken hata oluştu: {e}")
+
+def tesis_faktor_yukle_wrapper():
+    # Helper to avoid repetitive lookups
+    pass
+    
+# --- END OF TAB DEFINITIONS ---
+
+if __name__ == "__main__":
+    pass # Managed by streamlit run
+# Logic previously here has been consolidated into the modular tab rendering block (Line 677-719).
 
 # Excel Rapor Download
 with st.sidebar:
@@ -888,10 +935,12 @@ if st.session_state.get('trigger_save'):
         "elek": elek_serisi, 
         "active": active_mats,
         "ucucu": st.session_state.get('ucucu_kul', 0), 
+        "slag": st.session_state.get('slag_val', 0),
         "hava": st.session_state.get('hava_yuzde', 1.5), 
         "plant_name": tesis_adi,
         "exp_class": st.session_state.get('exposure_class', 'XC3'),
         "asr_stat": st.session_state.get('asr_status', 'Düzeltme Gerekmiyor (İnert)'),
+        "pred_mpa": st.session_state.get('predicted_mpa_val', 0.0),
         "passing": st.session_state.get('computed_passing', {})
     }
     

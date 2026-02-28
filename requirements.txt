@@ -9,3 +9,6 @@ scipy
 openpyxl
 requests
 fpdf2
+bcrypt
+cryptography
+pypdf

@@ -21,7 +21,7 @@ Proje, modüler bir yapıda tasarlanmıştır. Her modül (logic) belirli bir so
 | Dosya | Sorumluluk | Önem Derecesi |
 | :--- | :--- | :--- |
 | **`engineering.py`** | **Kural Motoru & Hesaplamalar.** Beton sınıfları, standart limitleri, elek analizleri, su/çimento oranları hesapları. Burası sistemin "Mühendislik Beyni"dir. | ⭐⭐⭐⭐⭐ |
-| **`modular_tabs.py`** | **Arayüz (UI) Modülleri.** Sekmelerin (Tab 1, Tab 2...) içeriğini ve görünümünü çizen kodlar. Input widget'ları (kutucuklar) buradadır. | ⭐⭐⭐⭐ |
+| **`tabs/` Klasörü** | **Arayüz (UI) Sekmeleri.** Her sekme kendi dosyasındadır (`tab_grading.py`, `tab_design.py` vb.). | ⭐⭐⭐⭐ |
 | **`data_manager.py`** | **Veri Yönetimi.** JSON dosyalarına yazma ve okuma işlemlerini yapar. Veritabanı katmanıdır. | ⭐⭐⭐ |
 | **`report_generator.py`** | **Raporlama.** PDF çıktılarını tasarlar ve oluşturur. | ⭐⭐⭐ |
 | **`ai_model.py`** | **Yapay Zeka.** Gemini/GPT entegrasyonu, veri analizi ve tahminleme motoru. | ⭐⭐ |
@@ -39,7 +39,7 @@ Veriler JSON formatında saklanır.
 
 Sistem **Streamlit** üzerine kuruludur ve **Durum Tabanlı (State-Based)** çalışır.
 
-1.  **Giriş (Input):** Kullanıcı `modular_tabs.py` üzerinden veri girer.
+1.  **Giriş (Input):** Kullanıcı `logic/tabs/` altındaki ilgili sekme dosyası (`tab_*.py`) üzerinden veri girer.
 2.  **Oturum (Session State):** Girilen veriler `st.session_state` sözlüğünde geçici olarak tutulur.
 3.  **Hesaplama:** `engineering.py` fonksiyonları, session state'teki verileri alıp işler (örn: `calculate_passing`).
 4.  **Kayıt:** Kullanıcı "Kaydet" dediğinde `data_manager.py`, session state verilerini `projects_merkez.json` dosyasına yazar.
@@ -54,7 +54,7 @@ Sistem **Streamlit** üzerine kuruludur ve **Durum Tabanlı (State-Based)** çal
 
 1.  **Değişiklik:** Aşağıdaki 5 dosyada malzeme listesini güncelleyin:
     *   `app.py` -> `materials = [...]` satırı.
-    *   `logic/modular_tabs.py` -> `render_tab_1` içindeki liste.
+    *   `logic/tabs/tab_grading.py` -> `render_tab_grading` içindeki liste.
     *   `logic/tabs/tab_reports.py` -> `render_tab_3` içindeki liste.
     *   `logic/report_generator.py` -> `generate_pdf_raporu` içinde **iki yerde** bulunan liste.
     *   `logic/tabs/tab_material_library.py` -> `render_tab_1` içindeki liste.
@@ -90,8 +90,8 @@ Sistem **Streamlit** üzerine kuruludur ve **Durum Tabanlı (State-Based)** çal
 ### Senaryo E: Yeni Bir Sekme (Tab) Eklemek
 **Risk:** 🟠 Orta
 
-1.  **Dosya:** `logic/modular_tabs.py`
-2.  **İşlem:** `def render_tab_yeni(...):` şeklinde yeni bir fonksiyon oluşturun. İçine `st.text_input` gibi araçlar ekleyin.
+1.  **Dosya:** `logic/tabs/` altına yeni bir dosya oluşturun (örn: `tab_yeni.py`).
+2.  **İşlem:** `def render_tab_yeni(...):` şeklinde fonksiyon oluşturun.
 3.  **Dosya:** `app.py`
 4.  **İşlem:** `tabs = st.tabs(["Mevcutlar", ..., "YENİ SEKME"])` listesine ekleyin.
 5.  **Bağlama:** `with tabs[5]: render_tab_yeni(...)` şeklinde fonksiyonu çağırın.
@@ -103,7 +103,7 @@ Sistem **Streamlit** üzerine kuruludur ve **Durum Tabanlı (State-Based)** çal
 | Sorun | Olası Neden | Çözüm |
 | :--- | :--- | :--- |
 | **"KeyError: 'No:1'" Hatası** | Malzeme ismi kodda değişti ama JSON veritabanında eski hali duruyor. | Veri taşıma (migration) işlemi yapılmalı veya veritabanı sıfırlanmalı. |
-| **Grafik Çizilmiyor / Boş** | `app.py` içindeki malzeme listesi ile `modular_tabs.py` içindeki liste uyuşmuyor. | `app.py` içindeki `materials` listesini kontrol edin, boşluk hatası olabilir. |
+| **Grafik Çizilmiyor / Boş** | `app.py` içindeki malzeme listesi ile `tab_grading.py` içindeki liste uyuşmuyor. | `app.py` içindeki `materials` listesini kontrol edin. |
 | **PDF Türkçe Karakter Sorunu** | Yazı tipi "Arial" değil "Helvetica" olarak kalmış. | `logic/report_generator.py` içinde `C:\Windows\Fonts\arial.ttf` yolunu kontrol edin. |
 | **Veriler Kaydolmuyor** | `logic/data_manager.py` dosyasına erişim izni yok veya dosya açık. | Klasör izinlerini kontrol edin, JSON dosyasının başka programda açık olmadığından emin olun. |
 

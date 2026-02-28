@@ -1,0 +1,54 @@
+[
+    {
+        "target_class": "C25/30",
+        "cement": 340.0,
+        "water": 170.0,
+        "ash": 0.0,
+        "slag": 0.0,
+        "air": 1.5,
+        "admixture": 6.8,
+        "d28": 45.08,
+        "is_approved": true,
+        "source": "Manual PDF Import: Cudi Tüneli (2013)",
+        "timestamp": "2026-02-17"
+    },
+    {
+        "target_class": "C20/25",
+        "cement": 290.0,
+        "water": 156.0,
+        "ash": 0.0,
+        "slag": 0.0,
+        "air": 1.5,
+        "admixture": 3.48,
+        "d28": 33.74,
+        "is_approved": true,
+        "source": "Manual PDF Import: Silopi Çev. Yolu (2013)",
+        "timestamp": "2026-02-17"
+    },
+    {
+        "target_class": "C25/30",
+        "cement": 310.0,
+        "water": 160.0,
+        "ash": 0.0,
+        "slag": 0.0,
+        "air": 1.5,
+        "admixture": 3.72,
+        "d28": 43.91,
+        "is_approved": true,
+        "source": "Manual PDF Import: Silopi Çev. Yolu (2013)",
+        "timestamp": "2026-02-17"
+    },
+    {
+        "target_class": "C30/37",
+        "cement": 340.0,
+        "water": 165.0,
+        "ash": 0.0,
+        "slag": 0.0,
+        "air": 1.5,
+        "admixture": 4.08,
+        "d28": 45.36,
+        "is_approved": true,
+        "source": "Manual PDF Import: Silopi Çev. Yolu (2013)",
+        "timestamp": "2026-02-17"
+    }
+]

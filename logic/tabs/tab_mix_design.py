@@ -5,12 +5,17 @@ from logic.engineering import (
     calculate_theoretical_mpa, evaluate_mix_compliance, 
     classify_plant, optimize_mix, generate_expert_suggestions
 )
-from logic.ai_model import predict_strength_ai, generate_suggestions
+from logic.ai_model import predict_strength_ai, generate_suggestions, derive_local_engineering_constants
+from logic.data_manager import havuz_yukle
 
 def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials, 
                   active_mats, current_rhos, current_was, current_las, current_mbs, 
                   current_site_factor, get_global_qc_history):
     st.subheader("2. Karışım Dizaynı ve Optimizasyon")
+    
+    # Yerel Otonom Zeka: Katsayı Türetme
+    pool_data = havuz_yukle()
+    local_const = derive_local_engineering_constants(pool_data)
     
     # Karışım parametreleri
     col_mix1, col_mix2 = st.columns(2)
@@ -98,7 +103,7 @@ def render_tab_2(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, materials
                             st.info(f"• {suggestion}")
         
         # Teorik hesap
-        theoretical_mpa = calculate_theoretical_mpa(wc_ratio, hava_yuzde)
+        theoretical_mpa = calculate_theoretical_mpa(wc_ratio, hava_yuzde, local_constants=local_const)
         
         st.metric("📈 Teorik Hesap", f"{theoretical_mpa:.1f} MPa")
         

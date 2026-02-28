@@ -1,17 +1,29 @@
 {
     "hsyndymz": {
-        "password": "6bea09a5061baa8c0a5c98ded50595361dd4873bc272a2b03ebdd190ade23d2c",
+        "password": "$2b$12$S6yvfUjX2Yuj5nth2Yikc.8kaWdesjKor53vKvpZ2qGFrTaz9TgOC",
         "role": "SuperAdmin",
         "full_name": "Hüseyin DUYMAZ",
         "status": "active",
         "assigned_plants": [
-            "merkez"
+            "merkez",
+            "beton1",
+            "beton lab.",
+            "test_id"
         ]
     },
     "sergun": {
         "password": "68123729f0d0bb45361db024823c60e8a31cf78dd44f0544dc24f61d6fd60c8d",
         "role": "Admin",
         "full_name": "Samed ERGÜN",
+        "status": "active",
+        "assigned_plants": [
+            "merkez"
+        ]
+    },
+    "wbayhan": {
+        "password": "$2b$12$BbkleoMRNwsbCvYrmtToCOVm985pboETg9Wow09nup9HI.x8Ff/Aq",
+        "role": "Admin",
+        "full_name": "welat bayhan",
         "status": "active",
         "assigned_plants": [
             "merkez"

@@ -2188,7 +2188,30 @@
                 }
             }
         },
-        "qc_history": [],
+        "qc_history": [
+            {
+                "id": 1,
+                "date": "2026-02-14",
+                "no": "N-1",
+                "target_mpa": 0.0,
+                "cement": 395.0,
+                "water": 135.0,
+                "ash": 0.0,
+                "admixture": 4.0,
+                "p_ratios": [
+                    36,
+                    18,
+                    26,
+                    20
+                ],
+                "air": 3.0,
+                "slump": 3.5,
+                "d7": 65.0,
+                "d28": 0.0,
+                "measured_mpa": 0.0,
+                "timestamp": "2026-02-14 20:04"
+            }
+        ],
         "active_trial": "oçb-11/3"
     }
 }

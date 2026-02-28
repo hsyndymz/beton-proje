@@ -10,5 +10,8 @@
     "beton1": {
         "name": "Samedin Lab.",
         "location": "diyarbakır"
+    },
+    "test_id": {
+        "name": "Test"
     }
 }
