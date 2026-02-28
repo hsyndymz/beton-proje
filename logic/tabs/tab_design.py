@@ -517,6 +517,36 @@ def render_tab_design(proje, tesis_adi, hedef_sinif, litoloji, elek_serisi, mate
                     rec_tab["Bileşen"].append(f"{mat} (Kantar)")
                     rec_tab["Miktar"].append(f"⚖️ {m_kantar[i]:.1f}")
             st.table(pd.DataFrame(rec_tab))
+            
+            # --- YENİ: EXCEL İNDİRME ---
+            import io
+            output = io.BytesIO()
+            with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+                # Reçete Sayfası
+                df_rec = pd.DataFrame(rec_tab)
+                df_rec.to_excel(writer, sheet_name='1m3_Recete', index=False)
+                
+                # Özet Bilgiler Sayfası
+                summary_data = {
+                    "Parametre": ["Proje", "Tesis", "Beton Sınıfı", "W/C Oranı", "Tahmin MPA", "Litoloji"],
+                    "Değer": [proje, tesis_adi, hedef_sinif, f"{wc_ratio_eff:.2f}", f"{predicted_mpa:.1f}", litoloji]
+                }
+                pd.DataFrame(summary_data).to_excel(writer, sheet_name='Ozet_Bilgiler', index=False)
+                
+                # Formatlama (xlsxwriter kullanarak)
+                workbook = writer.book
+                worksheet = writer.sheets['1m3_Recete']
+                header_format = workbook.add_format({'bold': True, 'bg_color': '#D7E4BC', 'border': 1})
+                for col_num, value in enumerate(df_rec.columns.values):
+                    worksheet.write(0, col_num, value, header_format)
+            
+            st.download_button(
+                label="📥 Reçeteyi Excel Olarak İndir",
+                data=output.getvalue(),
+                file_name=f"Recete_{proje}_{hedef_sinif}.xlsx",
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                use_container_width=True
+            )
 
     if st.button("⚡ EN İYİ KARIŞIMI BUL (HEDEFE GÖRE)", type="secondary", use_container_width=True):
         st.session_state['trigger_optimize'] = True
